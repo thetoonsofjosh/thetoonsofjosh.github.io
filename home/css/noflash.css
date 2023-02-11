@@ -1,0 +1,208 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Hides No Flash alternate content when Javascript is enabled */
+.flash-replaced .alt {
+	position: absolute;
+	height: 0;
+	width: 0;
+	overflow: hidden;
+	display: block;
+}
+
+/* Defines No Flash content */
+
+#noflash-home {
+	width: 960px;
+	background-color: #fff000;
+	margin: 10px auto 0 auto;
+	padding: 0;
+	text-align: center;
+	font: 14px Verdana, Geneva, sans-serif;
+	color: #000;
+}
+
+#noflash-home a {
+	color: #000;
+}
+
+#noflash-home a:hover {
+	text-decoration: none;
+}
+
+#noflash-home img {
+	border: none;
+	border-collapse: collapse;
+}
+
+#noflash-home:after {
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+
+#noflash-home ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;	
+}
+
+
+/*
+===
+	No Flash: Left Column
+===
+*/
+
+#noflash-home .noflash-left-column {
+	width: 768px;
+	float: left;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+/* Header */
+
+#noflash-home .noflash-left-column #noflash-header {
+	background-image: url(home/images/noflash/noflash-logo-pbskids.gif);
+	background-repeat: no-repeat;
+	margin: 18px 18px 0 18px;
+	padding: 0 0 18px 175px;
+}
+
+#noflash-home .noflash-left-column h1,
+#noflash-home .noflash-left-column h2 {
+	font-weight: normal;
+}
+
+#noflash-home .noflash-left-column h1 {
+	margin: 0 0 18px 0;
+	padding: 22px 0 0 0;
+	font-size: 24px;
+}
+
+#noflash-home .noflash-left-column h2 {
+	margin: 0;
+	padding: 0 0 24px 0;
+	font-size: 14px;
+}
+
+/* Content */
+
+#noflash-home .noflash-left-column #noflash-content ul#noflash-bubbles {
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+}
+
+#noflash-home .noflash-left-column #noflash-content ul#noflash-bubbles li {
+	display: inline;
+}
+
+#noflash-home .noflash-left-column #noflash-content ul#noflash-agglinks {
+	margin: 5px auto;
+	padding: 0;
+	text-align: center;
+	width: 245px;
+}
+
+#noflash-home .noflash-left-column #noflash-content ul#noflash-agglinks li {
+	display: inline;
+}
+
+#noflash-home .noflash-left-column #noflash-content ul#noflash-agglinks a {
+	display: block;
+	font-size: 20px;
+	font-weight: normal;
+	border: 6px solid #fff;
+	padding: 8px 18px;
+	text-transform: uppercase;
+	text-decoration: none;
+	float: left;
+	color: #fff;
+	display: inline;
+}
+
+#noflash-home .noflash-left-column #noflash-content ul#noflash-agglinks a#button-games {
+	background-color: #ff9648;
+	color: #ce5800;
+	margin: 0 8px 0 0;
+}
+
+#noflash-home .noflash-left-column #noflash-content ul#noflash-agglinks a#button-games:hover {
+	color: #fff;
+}
+
+#noflash-home .noflash-left-column #noflash-content ul#noflash-agglinks a#button-video {
+	background-color: #7cedeb;
+	color: #1966b4;
+}
+
+#noflash-home .noflash-left-column #noflash-content ul#noflash-agglinks a#button-video:hover {
+	color: #fff;
+}
+
+#noflash-home .noflash-left-column #noflash-content p {
+	clear: both;
+	margin: 0 auto;
+	padding: 18px 0;
+	line-height: 20px;
+	width: 686px;
+}
+
+#noflash-home .noflash-left-column #noflash-content ul#noflash-footer-links {
+	margin: 0 auto;
+	padding: 0 0 18px 0;
+	text-align: center;
+}
+
+
+#noflash-home .noflash-left-column #noflash-content ul#noflash-footer-links li {
+	display: inline;
+}
+
+
+/*
+===
+	No Flash: Right Column
+===
+*/
+
+#noflash-home .noflash-right-column {
+	width: 192px;
+	float: left;
+	margin: 0;
+	padding: 0;
+	background-color: #9af7ff;
+	text-align: left;
+}
+
+#noflash-home .noflash-right-column a:link,
+#noflash-home .noflash-right-column a:visited,
+#noflash-home .noflash-right-column a:hover,
+#noflash-home .noflash-right-column a:active {
+	color: #1966b4;
+}
+
+#noflash-home .noflash-right-column a:link,
+#noflash-home .noflash-right-column a:visited,
+#noflash-home .noflash-right-column a:active {
+	text-decoration: none;
+}
+
+#noflash-home .noflash-right-column a:hover {
+	text-decoration: underline;
+	background-color: #fff000;
+}
+
+#noflash-home .noflash-right-column ul {
+	padding: 18px 18px 14px 18px;
+}
+
+#noflash-home .noflash-right-column ul li {
+	margin: 0;
+	padding: 0 0 4px 0;
+}

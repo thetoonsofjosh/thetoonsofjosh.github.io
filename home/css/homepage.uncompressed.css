@@ -1,0 +1,66 @@
+@import url('home/css/noflash.css');
+
+html, body { height: 100%; margin: 0; padding: 0; }
+
+body {
+/*	background: #75C700; */
+	background: #90d500; /* New green versus old green. Integrated Dec 16, 2010. */
+}
+
+
+#container {
+	margin: 0;
+	padding: 0;
+}
+
+#flashcontent {
+	height: 100%;
+	margin: 0;
+	width: 100%;	
+}
+
+/* Prevent initial display of no-flash content */
+html.js #noflash-home {
+	display: none;
+}
+
+/* Ensure that no-flash content IS visible for javascript-enabled, non-flash users */
+html.js .alt #noflash-home {
+	display: block;
+}
+
+/* Hide the footer 'til things are loaded */
+html.js #footer {
+	display: none;
+}
+
+/* Used to keep the Footer text consistent across the shell */
+
+/*
+.pbskidsfooter {
+	font: 11px verdana, sans-serif;
+	text-align: right;
+	margin: 0 auto;
+	width: 760px;
+}
+
+.pbskidsfooter a:link,
+.pbskidsfooter a:visited,
+.pbskidsfooter a:active
+{
+	text-decoration: underline;
+}
+
+.pbskidsfooter a:hover
+{
+	text-decoration: none;
+}
+
+.pbskidsfooter form {
+	margin-bottom: 10px;
+}
+
+.pbskidsfooter select {
+	margin-bottom: 5px;
+}
+*/
