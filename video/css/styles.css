@@ -1,0 +1,1829 @@
+@font-face {
+  font-family: 'Colfax';
+  src: url('/web/20130926063030im_/http://pbskids.org/video/fonts/ColfaxWeb_EOT/ColfaxWebRegular.eot'); /* IE9 Compat Modes */
+  src: url('/web/20130926063030im_/http://pbskids.org/video/fonts/ColfaxWeb_EOT/ColfaxWebRegular.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/web/20130926063030im_/http://pbskids.org/video/fonts/ColfaxWeb_WOFF/ColfaxWebRegular.woff') format('woff'); /* Modern Browsers */
+}
+
+@font-face {
+  font-family: 'Colfax';
+  src: url('/web/20130926063030im_/http://pbskids.org/video/fonts/ColfaxWeb_EOT/ColfaxWebBold.eot'); /* IE9 Compat Modes */
+  src: url('/web/20130926063030im_/http://pbskids.org/video/fonts/ColfaxWeb_EOT/ColfaxWebBold.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/web/20130926063030im_/http://pbskids.org/video/fonts/ColfaxWeb_WOFF/ColfaxWebBold.woff') format('woff'); /* Modern Browsers */
+  font-weight: bold;
+}
+
+body{
+  font-family:Colfax, Arial, sans-serif;
+  color:#FFF;
+  background:#8DD748;
+  font-size:16px;
+  -ms-content-zooming:none;
+}
+
+@media screen and (min-width: 640px) {
+  body{
+    background:url(https://web.archive.org/web/20130926063030im_/http://www-tc.pbskids.org/video/img/tile_texture.png) #8DD748;
+  }
+}
+
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);  
+}
+
+img,
+embed,
+object,
+video
+{
+  max-width:100%;
+}
+
+a,
+a:hover,
+a:active,
+a:focus,
+video,
+object,
+embed,
+button,
+button:focus,
+button:active
+{
+  outline:none;
+  border:none;
+}
+
+button{
+  font-family:Colfax, Arial, sans-serif;
+  font-size:1em;
+  cursor:pointer;
+  vertical-align:middle;
+}
+
+    button img {
+      vertical-align:middle;
+      height:1.2em;
+    }
+
+
+
+/* OVERRIDES OF VIRTUAL INCLUDES
+**************************************************/
+body.hide-external-links #headband-container{
+  display:none !important;
+}
+
+
+
+/* HEADER
+**************************************************/
+header {
+  overflow:hidden;
+  background:url(/web/20130926063030im_/http://pbskids.org/video/img/fuzzy_shadow.png) bottom repeat-x #B4ED61;
+  padding-top:0.3125em;
+}
+
+body.hide-external-links header{
+  background:#8DD748;
+}
+
+    header .logo {
+        margin:0 0 0 2.1875%;
+        width: 3em;
+    }
+
+    header .tabs {
+      float: right;
+      margin:0.3125em 6.25% 0 0;
+      width:71.875%;
+    }
+
+        header .tab-videos,
+        header .tab-games
+        {
+          width:46.95652174%;
+          margin:0 0 0 3.04347826%;
+          float:left;
+        }
+
+            header .tab-videos span,
+            header .tab-games a
+            {
+              font-size:1.25em;
+              text-transform:uppercase;
+              font-weight:bold;
+              text-align:center;
+              border-top-left-radius: 1em;
+              border-top-right-radius: 1em;
+              background:#8DD748;
+              display:block;
+              padding:0.8em 0 0.65em;
+            }
+
+            header .tab-games a {
+              color:#8DD748;
+              text-decoration:none;
+              background:url(/web/20130926063030im_/http://pbskids.org/video/img/fuzzy_shadow.png) bottom repeat-x #D5F686;
+            }
+
+
+@media screen and (min-width: 640px) {
+  header .tabs {
+    display:none;
+  }
+
+  header{
+    height:0;
+    overflow:visible;
+    width:100%;
+    background:none;
+    padding:4.0625em 0 0 0;
+  }
+
+  header .logo {
+    margin:0.83194% 0 0 0.83194%;
+    width: 6.66667%;
+  }
+
+}
+
+
+
+/* PLAYER
+**************************************************/
+#main-section{
+  padding-top:2em;
+  text-align:center;
+}
+
+body.hide-external-links #main-section{
+  padding-top:0;
+}
+
+    #player{
+      width:91.875%;
+      display:inline-block;
+      zoom:1; *display:inline; /*IE7 fix for "display:inline-block"*/
+    }
+        #kuchucka{
+          display:none;
+        }
+
+        #player .frame {
+          background:#FFF;
+          border:solid 8px #FFF;
+          border-radius: 16px;
+        }
+
+            #player #video-player{
+              width:100%;
+              height:auto;
+              background:#000;
+              display:block;
+              /*border-radius: 13px;*/
+            }
+
+            #player .timer-remaining{
+              color:#AECECE;
+              font-size:0.875em;
+              width:11.2244898%;
+              margin-right:1.36054422%;
+              text-align:right;
+              display:inline-block;
+              zoom:1; *display:inline; /*IE7 fix for "display:inline-block"*/
+            }
+
+            #player .scrubber{
+              width:72.10884354%;
+              display:inline-block;
+              zoom:1; *display:inline; /*IE7 fix for "display:inline-block"*/
+              margin:8px 0 2px;
+              cursor:pointer;
+            }
+
+                #player .scrubber .scrubber-track{
+                  width:100%;
+                  height:6px;
+                  margin:10px;
+                  background-color:#AECECE;
+                  border-radius:10px;
+                  display:inline-block;
+                  zoom:1; *display:inline; /*IE7 fix for "display:inline-block"*/
+                  vertical-align:middle;
+                  text-align:left;
+                }
+
+                #player .scrubber .scrubber-thumb{
+                  width:26px;
+                  height:26px;
+                  background:#FFF;
+                  border: solid 2px #AECECE ;
+                  border-radius: 26px;
+                  position:relative !important;
+                  top:-10px;
+                }
+
+        #player #controlrack{
+          margin:10px auto 0px;
+          padding-bottom:11px;
+          text-align:center;
+        }
+
+            #player #controlrack span{
+              width:23.1292517%;
+              background:#FF9545;
+              padding-bottom: 8px;
+              display:inline-block;
+              zoom:1; *display:inline; /*IE7 fix for "display:inline-block"*/
+              border-radius:32px 32px  20px 20px;
+            }
+
+            #player #controlrack span.down{
+              top: 8px;
+              position:relative;
+              padding-bottom: 0px;
+            }
+
+                #player #controlrack button{
+                  width:100%;
+                  height: 60px;
+                  color:#FF9545;
+                  background:#FFE960;
+                  border-radius: 20px;
+                }
+
+                #player #controlrack span:hover button{
+                  background:#FFFA99;
+                }
+
+                body.has-touch #player #controlrack span:hover button{
+                  background:#FFE960;
+                }
+
+                    #player #controlrack button img{
+                      height:40px;
+                    }
+
+            #player #controlrack span.play-pause {
+              width:44%;
+              margin-left:3.57142857%;
+              margin-right:3.57142857%;
+            }
+
+                    #player #controlrack span.play-pause img{
+                      height:25px;
+                    }
+
+
+            #player #controlrack span.play-pause #icon-pause{
+              display:none;
+            }
+
+            #player #controlrack span.play-pause.playing #icon-pause{
+              display:inline;
+            }
+
+            #player #controlrack span.play-pause.playing #icon-play{
+              display:none;
+            }
+
+@media screen and (min-width: 558px) {
+ #player {
+  width:528px;/*needed to resolve IE7 "width:auto" bug*/
+  position: relative;
+  z-index: 350;
+ }
+
+    #player #video-player{
+      width:512px;
+      height:288px;
+    }
+
+      #player #controlrack span{
+        width:112px;
+        padding-bottom: 10px;
+      }
+
+      #player #controlrack span.down{
+        top: 10px;
+      }
+
+      #player #controlrack span.play-pause {
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 208px;
+      }
+
+          #player #controlrack button{
+            height: 72px;
+          }
+
+              #player #controlrack button img{
+                height:48px;
+              }
+
+              #player #controlrack span.play-pause img{
+                height:30px;
+              }
+
+}
+
+@media screen and (min-width: 640px) {
+  #main-section,
+  body.hide-external-links #main-section{
+    padding:2em 0 0;
+  }
+}
+
+@media screen and (min-width: 660px) {
+  #kuchucka{
+    background:#63B00F url("/web/20130926063030im_/http://pbskids.org/video/img/kuchucka-bg.png") repeat-x top;
+    display: inline-block;
+    zoom:1; *display:inline; /*IE7 fix for "display:inline-block"*/
+    height: 250px;
+    margin: 40px -5px 0 0;
+    padding:0 0 5px;
+    vertical-align: top;
+    width: 100px;
+    overflow:hidden;
+    position:relative;/*needed for overflow:hidden in IE7*/
+  }
+
+      #kuchucka .barrier{
+        width:30px;
+        height:100%;
+        float:right;
+      }
+
+          #kuchucka .wall{
+            background:url("https://web.archive.org/web/20130926063030im_/http://www-tc.pbskids.org/video/img/tile_texture.png") repeat scroll 0 100px #8DD748;
+            height:190px;
+            position: relative;
+            z-index: 300;
+          }
+
+          #kuchucka .tunnel{
+           background:url("/web/20130926063030im_/http://pbskids.org/video/img/kuchucka-bg.png") repeat-x scroll center -50px #63B00F;
+            height:60px;
+          }
+
+
+      #kuchucka ul{
+        position:relative;
+        left: 8px;
+        width:100px;
+        overflow:hidden;
+      }
+
+          #kuchucka li {
+            display: block;
+            margin:5px 0 0;
+            width: 55px;
+            position: relative;
+          }
+
+          #kuchucka li .box{
+            background: none repeat scroll 0 0 #FFE960;
+            border-bottom: 5px solid #FF9545;
+            padding: 5px;
+            width: 45px;
+            cursor:pointer;
+          }
+
+          #kuchucka li.explode .box{
+            display:none;
+          }
+
+              #kuchucka li .box .thumb-container{
+                background: none repeat scroll 0 0 #333333;
+                border:3px solid #FFFFFF;
+                width:39px;
+                height:30px;
+              }
+
+                  #kuchucka li .box .thumb-container img{
+                    display: block;
+                  }
+
+              #kuchucka li .puff{
+                display:none;
+              }
+
+              #kuchucka li.explode .puff{
+                display: block;
+                width: 40px;
+                height: 36px;
+                margin: 0 auto;
+                padding: 7px 0 8px;
+              }
+
+}
+
+
+@media screen and (min-width: 924px) {
+  #main-section{
+    padding-top:3.5em;
+  }
+}
+
+@media screen and (min-width: 9px) {
+  #main-section{
+    padding-top:3.5em;
+  }
+}
+
+
+
+/* CHARACTER BUTTONS
+**************************************************/
+#character-list-container {
+  text-align:left;
+}
+
+    #character-list-container .scroll-up,
+    #character-list-container .scroll-down{
+      display:none;
+      background:#FFE960;
+    }
+
+    #character-list-container .scroll-left,
+    #character-list-container .scroll-right{
+      width:30px;
+      height:90px;
+      background:#FFE960;
+      z-index: 200;
+      padding-top:4px;
+      font-size:2.2em;
+    }
+
+    #character-list-container .scroll-up:hover,
+    #character-list-container .scroll-down:hover,
+    #character-list-container .scroll-left:hover,
+    #character-list-container .scroll-right:hover{
+      background:#FFFA99;
+    }
+
+    body.has-touch #character-list-container .scroll-up:hover,
+    body.has-touch #character-list-container .scroll-down:hover,
+    body.has-touch #character-list-container .scroll-left:hover,
+    body.has-touch #character-list-container .scroll-right:hover{
+      background:#FFE960;
+    }
+
+    #character-list-container .scroll-left{
+      border-radius: 0 20px 20px 0;
+      float: left;
+      position: absolute;
+      padding-right:4px;
+    }
+
+    #character-list-container .scroll-right{
+      float: right;
+      margin-top: -90px;
+      position: relative;
+      border-radius: 20px 0 0 20px ;
+      padding-left:4px;
+    }
+
+    #character-list-container #character-list{
+      background:#FF9545;
+      width:100%;
+      height:90px;
+      overflow:hidden;
+    }
+
+        #character-list-container ul{
+          position:relative;
+          text-align:left;
+          padding:4px;
+        }
+
+            #character-list-container ul li{
+              background:#F7793D;
+              border-radius: 15px;
+              padding-bottom: 6px;
+              display:inline-block;
+              zoom:1; *display:inline; /*IE7 fix for "display:inline-block"*/
+              float:left;
+              margin:4px;
+            }
+
+            #character-list-container ul li.active{
+              padding-bottom: 0px;
+              position:relative;
+              top:5px;
+            }
+
+                #character-list-container ul li button{
+                  background:#FFE960;
+                  border-radius: 16px;
+                  height: 72px;
+                  width: 74px;
+                }
+
+                #character-list-container ul li:hover button{
+                  background:#FFFA99;
+                }
+
+                #character-list-container ul li:focus{
+                  outline:none;
+                }
+
+                    /*body.googletv #character-list-container ul li:focus button,*/
+                    body.googletv #character-list-container ul li.focus button{
+                      border : 6px solid #FF6600 !important;
+                    }
+
+                body.has-touch #character-list-container ul li:hover button{
+                  background:#FFE960;
+                }
+
+                #character-list-container ul li.selected button{
+                  background:#FFFFFF !important;
+                }
+
+                    #character-list-container ul li button img{
+                      width:auto;
+                      height:auto;
+                    }
+
+
+        #character-list-container .fade-top,
+        #character-list-container .fade-bottom
+        {
+          display:none;
+        }
+
+        #character-list-container .fade-left,
+        #character-list-container .fade-right
+        {
+          height: 90px;
+          overflow: visible;
+          z-index: 100;
+          width:27px;
+          position:absolute
+        }
+
+        #character-list-container .fade-left{
+          left: 17px;
+          position: absolute;
+          background:url(/web/20130926063030im_/http://pbskids.org/video/img/fuzzy_shadow_orange-vertical.png) repeat-y -27px 0;
+          border-radius: 0 16px 16px 0;
+        }
+
+        #character-list-container .fade-right{
+          left: 100%;
+          margin-left: -44px;
+          margin-top: -90px;
+          position: absolute;
+          background:url(/web/20130926063030im_/http://pbskids.org/video/img/fuzzy_shadow_orange-vertical.png) repeat-y 0 0;
+          border-radius:16px 0 0 16px ;
+        }
+
+
+@media screen and (max-width: 899px) {
+  #character-list-container ul{
+    top:auto !important;
+  }
+}
+
+
+@media screen and (min-width: 924px) {
+  #character-list-container{
+    display:inline-block;
+    zoom:1; *display:inline; /*IE7 fix for "display:inline-block"*/
+    vertical-align:top;
+    margin: 40px 0 0 8px;
+    width:258px;/*needed to resolve IE7 "width:auto" bug*/
+  }
+
+      #character-list-container .scroll-right,
+      #character-list-container .scroll-left
+      {
+        display:none;
+      }
+
+      #character-list-container .scroll-up,
+      #character-list-container .scroll-down
+      {
+        width:208px;
+        height:35px;
+        margin:0 auto;
+        color:#F7793D;
+        display:block;
+      }
+
+      #character-list-container .scroll-up{
+        border-radius: 16px 16px 0 0;
+        margin-top:-35px;
+      }
+
+      #character-list-container .scroll-down{
+        border-radius: 0 0 16px 16px;
+      }
+
+      #character-list-container #character-list{
+        width: 258px;
+        height: 282px;
+        border-radius:16px;
+        text-align: justify;
+      }
+
+          #character-list-container ul{
+            left:auto !important;
+            width:auto !important;
+            padding:6px;
+            text-align:justify;
+          }
+
+              #character-list-container ul li.active{
+                margin-bottom:10px;
+              }
+
+          #character-list-container .fade-left,
+          #character-list-container .fade-right
+          {
+            display:none;
+          }
+
+          #character-list-container .fade-top,
+          #character-list-container .fade-bottom
+          {
+            height: 0;
+            overflow: visible;
+            position: relative;
+            z-index: 100;
+            width: 258px;
+            display:block;
+          }
+
+          #character-list-container .fade-bottom{
+            top: -27px;
+          }
+
+              #character-list-container .fade-top span,
+              #character-list-container .fade-bottom span
+              {
+                display:block;
+                height:27px;
+              }
+
+              #character-list-container .fade-top span{
+                background:url(/web/20130926063030im_/http://pbskids.org/video/img/fuzzy_shadow_orange-horizontal.png) repeat-x 0 -27px;
+                border-radius: 16px 16px 0px 0px;
+              }
+
+              #character-list-container .fade-bottom span{
+                background:url(/web/20130926063030im_/http://pbskids.org/video/img/fuzzy_shadow_orange-horizontal.png) repeat-x 0 0;
+                border-radius:0px 0px 16px 16px ;
+              }
+
+}
+
+
+
+/* PARENTS BAR
+**************************************************/
+#parents-section{
+  background:#5AfDFB;
+  padding:0.625em 3.125%;
+}
+
+    #parents-section button{
+      color:#FFFFFF;
+    }
+
+
+    #sponsors-dropdown,
+    #sponsors-dropdown span,
+    #sponsors-dropdown button.close-button,
+    #sponsors-dropdown ul#sponsors-list{
+      display:none;
+    }
+
+    #parents-bar{
+      background:#5AfDFB;
+      margin-bottom:0.625em;
+    }
+
+        #parents-bar .info-badge{
+          display:none;
+        }
+
+        #parents-bar #core-parent-buttons{
+          width:74%;
+          float:right;
+          text-align:right;
+        }
+
+        #parents-bar #secondary-parent-buttons{
+          width:24.5%;
+          display:inline-block;
+          zoom:1; *display:inline; /*IE7 fix for "display:inline-block"*/
+          padding:0.625em 0;
+          float:left;
+        }
+
+            #parents-bar .parents-button{
+              font-weight:bold;
+              text-transform:uppercase;
+              text-decoration:none;
+              height:2.5em;
+              background:#1AE2E2;
+              border-radius: 5em;
+              overflow:hidden;
+              font-size:0.75em;
+              vertical-align: middle;
+            }
+
+             #parents-bar .parents-button:hover{
+               background:#13CFD3;
+             }
+
+             body.has-touch #parents-bar .parents-button:hover{
+               background:#1AE2E2;
+             }
+
+                #parents-bar #secondary-parent-buttons .parents-button img{
+                  margin-right:0.5em;
+                  height:1.2em;
+                  margin-top: -0.25em;
+                  vertical-align: middle;
+                }
+
+            #parents-bar .parents-button.active{
+              background:#FF9545;
+            }
+
+            #parents-bar #localization-bar,
+            #parents-bar #volume-button,
+            #parents-bar #series-website-button,
+            #parents-bar #series-parents-site-button
+            {
+              display:none;
+            }
+
+            #parents-bar #info-button{
+              width:100%;
+            }
+
+            #parents-bar #captions-button{
+              font-size: 1em;
+              height: 1.875em;
+              width:16.88888888%;
+              margin:0 2.222222222%;
+            }
+
+            #parents-bar #captions-button.captions-on{
+              background:#FF9545;
+            }
+
+            #parents-bar #browse-button{
+              width:76.777777777%;
+              height:3.0625em;
+              font-size:1em;
+            }
+
+
+    #parents-section .dropdown{
+      border-radius: 1.25em;
+      background:#FFF;
+      padding:.625em 3.333333333%;
+      display:none;
+    }
+
+         #parents-section .dropdown #no-results-message{
+          color: #6E8988;
+          display: none;
+          text-align: center;
+          width: 90%;
+          text-transform: uppercase;
+          margin: 0 auto;
+        }
+
+             #parents-section .dropdown #no-results-message p{
+              margin:1em 0;
+            }
+
+             #parents-section .dropdown #no-results-message a{
+              color: #6E8988;
+            }
+
+
+        #parents-section .dropdown .showmore-videos{
+          background: none repeat scroll 0 0 #FF9537;
+          color: #FFFFFF;
+          font-weight: bold;
+          padding: 12px 0;
+          text-align: center;
+          text-transform: uppercase;
+          width: 100%;
+          border-radius: 12px;
+          margin-top: 5px;
+        }
+
+        #parents-section .dropdown-control{
+          background:#FF9545;
+          font-size:0.75em;
+          font-weight:bold;
+          display:inline-block;
+          zoom:1; *display:inline; /*IE7 fix for "display:inline-block"*/
+          height:1.875em;
+          margin:0 0.666666666%;
+          text-transform:uppercase;
+        }
+
+        #parents-section .dropdown-control:hover{
+           background:#EA781B;
+        }
+
+        body.has-touch #parents-section .dropdown-control:hover{
+           background:#FF9545;
+        }
+
+        #parents-section .dropdown-control.selected{
+          background:#FFD488;
+          pointer-events:none !important;
+        }
+
+        #parents-section .browsing-controls button#view-now-playing-button{
+          width:33.666666666%;
+        }
+
+        #parents-section .browsing-controls button#browse-shows-button{
+          width:20%;
+        }
+
+        #parents-section .browsing-controls button#browse-topics-button{
+          width:21.666666666%;
+        }
+
+        #parents-section .dropdown .list-title{
+          color:#6E8988;
+          font-size:1.125em;
+          text-transform:uppercase;
+          border-bottom:solid 0.125em #AECECE;
+          text-align:center;
+          padding-bottom:0.111111111em;
+          margin:0.9375em 0 0.625em;
+          display:block;
+        }
+
+        #parents-section .dropdown .list{
+          color:#6E8988;
+          font-size:0.875em;
+        }
+
+
+            #parents-section .dropdown .list .loading-indicator,
+            #parents-section .dropdown .list .appending-indicator
+            {
+              width:50px;
+              height:50px;
+              display:none;
+              margin:20px auto;
+            }
+
+            #parents-section .dropdown .list .appendingIndicator-container{
+              color: #FF9545;
+              text-align: center;
+              padding:10px 0;
+            }
+
+                #parents-section .dropdown .list .appendingIndicator-container .appending-indicator{
+                  display:inline-block;
+                  zoom:1; *display:inline; /*IE7 fix for "display:inline-block"*/
+                  margin: 0 10px 0 0;
+                  vertical-align: middle;
+                }
+
+                #parents-section .dropdown .list .appendingIndicator-container span{
+                  margin-right:5px;
+                }
+
+            #parents-section .dropdown .list .topicItem,
+            #parents-section .dropdown .list .showItem,
+            #parents-section .dropdown .list .playlistItem
+            {
+              cursor:pointer;
+              overflow:hidden;
+              clear:both;
+            }
+
+            #parents-section .dropdown .list .topicItem,
+            #parents-section .dropdown .list .showItem
+            {
+              padding:0.3em 0.571429em;
+            }
+
+
+            #parents-section .dropdown .list .topicItem:hover,
+            #parents-section .dropdown .list .showItem:hover
+            {
+              background:#FF9545;
+            }
+
+            body.has-touch #parents-section .dropdown .list .topicItem:hover,
+            body.has-touch #parents-section .dropdown .list .showItem:hover
+            {
+              background:none;
+            }
+
+                #parents-section .dropdown .list .bullet{
+                  width:1.2em;
+                  height:1.2em;
+                  margin-right:0.3em;
+                  display:inline-block;
+                  zoom:1; *display:inline; /*IE7 fix for "display:inline-block"*/
+                }
+
+                #parents-section .dropdown .list .child-topic .bullet{
+                  width:1em;
+                  height:1em;
+                  margin-left:1.3em;
+                }
+
+                #parents-section .dropdown .list .topicItem .bullet{
+                  background:#5AFDFB;
+                  border-radius:1.2em;
+                }
+
+                #parents-section .dropdown .list .topicItem .label,
+                #parents-section .dropdown .list .showItem  .label
+                {
+                  display: inline-block;
+                  zoom:1; *display:inline; /*IE7 fix for "display:inline-block"*/
+                  margin-top: 0.111111em;
+                  vertical-align: top;
+                  height:1.2em;
+                  width:16.3em;
+                  overflow:hidden;
+                }
+
+                #parents-section .dropdown .list .child-topic .label{
+                  width:14.6em;
+                }
+
+                #parents-section .dropdown .list .topicItem:hover .label,
+                #parents-section .dropdown .list .showItem:hover  .label
+                {
+                  color:#FFFFFF;
+                }
+
+                body.has-touch #parents-section .dropdown .list .topicItem:hover .label,
+                body.has-touch #parents-section .dropdown .list .showItem:hover  .label
+                {
+                  color:#6E8988;
+                }
+
+            #parents-section .dropdown .list .playlistItem{
+              padding:2%;
+            }
+
+            #parents-section .dropdown .list .playlistItem,
+            #parents-section .dropdown .list .playlistItem .video-info,
+            #parents-section .dropdown .list .playlistItem .thumb-container,
+            #parents-section .dropdown .list .playlistItem .thumb-container img.thumbnailkidsgodefault
+            {
+              height: 3.78571em;
+            }
+
+            #parents-section .dropdown .list .playlistItem:hover{
+              background:#FFE960;
+            }
+
+            body.has-touch #parents-section .dropdown .list .playlistItem:hover
+            {
+              background:none;
+            }
+
+            #parents-section .dropdown .list .playlistItem.selected,
+            body.has-touch #parents-section .dropdown .list .playlistItem.selected
+            {
+              background:#FFE960;
+            }
+
+                #parents-section .dropdown .list .playlistItem .thumb-container{
+                  float:left;
+                  width:4.928571429em;
+                  overflow:hidden;
+                }
+
+                    #parents-section .dropdown .list .playlistItem .thumb-container img.thumbnailkidsgodefault{
+                      vertical-align:top;
+                      background:#333;
+                      display:block;
+                    }
+
+                    #parents-section .dropdown .list .playlistItem .thumb-container img.new-label,
+                    #parents-section .dropdown .list .playlistItem .thumb-container .fullep-label
+                    {
+                      display:none;
+                    }
+
+                    #parents-section .dropdown .list .playlistItem.new-video .thumb-container img.new-label{
+                      display:inline-block;
+                      zoom:1; *display:inline; /*IE7 fix for "display:inline-block"*/
+                      width: 40px;
+                      height: 40px;
+                      margin-bottom: -40px;
+                      float: right;
+                      position: relative;
+                    }
+
+                    #parents-section .dropdown .list .playlistItem.episode .thumb-container .fullep-label{
+                      background-color:#3899FF;
+                      bottom: 1.6em;
+                      color:#ffffff;
+                      font-weight:bold;
+                      font-size:0.72em;
+                      display:block;
+                      text-align:center;
+                      padding:0.2em 0;
+                      position: relative;
+                    }
+
+                    #parents-section .dropdown .list .playlistItem .thumb-container img.thumbnailkidsgodefault,
+                    #parents-section .dropdown .list .playlistItem .thumb-container .fullep-label
+                    {
+                      width:100%;
+                    }
+
+                #parents-section .dropdown .list .playlistItem .video-info{
+                  overflow:hidden;
+                  float: left;
+                  padding-left:1%;
+                  width: 72%;
+                }
+
+                    #parents-section .dropdown .list .playlistItem .series-title{
+                      text-transform:uppercase;
+                    }
+
+                    #parents-section .dropdown .list .playlistItem .video-expiration{
+                      font-size:0.8em;
+                      color:#ED6A42;
+                    }
+
+                    #parents-section .dropdown .list .series-playlist .playlistItem .series-title{
+                      display:none;
+                    }
+
+                    #parents-section .dropdown .list .series-playlist .playlistItem .sep{
+                      display:none;
+                    }
+
+
+    #parents-section #info-dropdown #series-video-info {
+      margin:0 0 0 0.571428571em;
+    }
+
+        #parents-section .dropdown #series-video-info ul{
+          margin:-10px 0 0;
+        }
+
+            #parents-section #info-dropdown #series-video-info li{
+              margin:10px 0 0;
+            }
+
+                #parents-section #info-dropdown #about-this-clip{
+                  display:block;
+                }
+
+                #parents-section #info-dropdown #about-video,
+                #parents-section #info-dropdown #about-show
+                {
+                  display:block;
+                }
+
+                #parents-section #info-dropdown .market-button img{
+                  display:block;
+                  margin:5px auto 0;
+                }
+
+    #parents-section .close-button{
+      width:1.875em;
+      height:1.875em;
+      border-radius:1.875em;
+      float:right;
+    }
+
+@media screen and (min-width: 440px) and (max-width: 639px) {
+
+  #parents-section .dropdown .list .topicItem,
+  #parents-section .dropdown .list .showItem
+  {
+    width:45%;
+    display:inline-block;
+    zoom:1; *display:inline; /*IE7 fix for "display:inline-block"*/
+  }
+
+      #parents-section .dropdown .list .topicItem .bullet,
+      #parents-section .dropdown .list .showItem .bullet,
+      #parents-section .dropdown .list .child-topic .bullet
+      {
+        margin-right:1%;
+        margin-left:0;
+        width:1.2em;
+        height:1.2em;
+      }
+
+      #parents-section .dropdown .list .topicItem .bullet{
+        border-radius:50px;/*make it super high to guarantee a circle*/
+      }
+
+      #parents-section .dropdown .list .topicItem .label,
+      #parents-section .dropdown .list .showItem .label,
+      #parents-section .dropdown .list .child-topic .label
+      {
+        margin-top: 1%;
+        height:1.2em;
+        width:88%;
+      }
+
+  #parents-section .dropdown .list .playlistItem{
+    width:47%;
+    clear:none;
+    display:inline-block;
+    zoom:1; *display:inline; /*IE7 fix for "display:inline-block"*/
+    padding:1%;
+    vertical-align:top;
+  }
+
+  #parents-section .dropdown .list .playlistItem .thumb-container{
+    width:26%;
+  }
+
+}
+
+
+@media screen and (min-width: 440px) and (max-width: 600px) {
+ #parents-section .dropdown .list .playlistItem .thumb-container .fullep-label .full-label{
+    display:none;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  #parents-section{
+    position:absolute;
+    z-index:400;
+    top:0;
+    left:0px;
+    width:100%;
+    height:4.0625em;
+    background:none;
+    padding:0;
+  }
+
+  body.has-headband #parents-section{
+    top:41px;
+  }
+
+  body.headband-open #parents-section{
+    top:111px;
+  }
+
+  body.hide-external-links #parents-section{
+    top:0;
+  }
+
+      #parents-bar{
+        height:100%;
+        margin:0;
+        position: relative;
+        z-index: 300;
+      }
+
+          #parents-bar .info-badge{
+              display:inline-block;
+              zoom:1; *display:inline; /*IE7 fix for "display:inline-block"*/
+              font-weight:bold;
+              font-size:0.75em;
+              background:url(/web/20130926063030im_/http://pbskids.org/video/img/parents_point.png) right center no-repeat #1AE2E2;
+              width:11.06770833%;
+              height:100%;
+              float:left;
+              text-align:center;
+              text-transform:uppercase;
+          }
+
+          #parents-bar .info-badge img{
+            width:1.2em;
+            margin-top:0.75em;
+          }
+
+          #parents-bar #core-parent-buttons{
+            width:34.85416667%;
+            margin:0 0.91145833% 0 0;
+            padding:/*0.2675*/0.4em 0 0;
+          }
+
+          #parents-bar #secondary-parent-buttons{
+            width:51.083333333%;
+            margin:0 0 0 1.5625%;
+            padding:0.2675em 0 0;
+          }
+
+              #parents-bar #localization-bar
+              {
+                display:block;
+                color:#00B6CF;
+                font-size:0.875em;
+                height: 1.25em;
+                overflow:hidden;
+                margin:0 0 0.25em;
+              }
+
+              #parents-bar #info-button,
+              #parents-bar #series-website-button,
+              #parents-bar #series-parents-site-button
+              {
+                display:inline-block;
+                zoom:1; *display:inline; /*IE7 fix for "display:inline-block"*/
+              }
+
+              #parents-bar #info-button,
+              #parents-bar #series-website-button{
+                margin:0 1.25% 0 0;
+              }
+
+              #parents-bar #info-button{
+                width:20%;
+              }
+
+              #parents-bar #series-website-button{
+                width:28.75%;
+                text-align:center;
+                color:#FFF;
+              }
+
+              #parents-bar #series-parents-site-button{
+                width:37.5%;
+                text-align:center;
+                color:#FFF;
+              }
+
+                  #parents-bar #series-website-button span,
+                  #parents-bar #series-parents-site-button span{
+                    display: block;
+                    padding-top: 0.75em;
+                    cursor:pointer;
+                  }
+
+
+              #parents-bar #volume-button{
+                width:15%;
+                display:inline-block;
+                zoom:1; *display:inline; /*IE7 fix for "display:inline-block"*/
+              }
+
+                  #parents-bar #volume-button .icon-muted{
+                    display:none;
+                  }
+
+                  #parents-bar #volume-button.muted .icon-muted{
+                    display:inline-block;
+                    zoom:1; *display:inline; /*IE7 fix for "display:inline-block"*/
+                  }
+
+                  #parents-bar #volume-button.muted .icon-unmuted{
+                    display:none;
+                  }
+
+              #parents-bar #captions-button{
+                width:15%;
+                margin:0 2%;
+              }
+
+              #parents-bar #browse-button{
+                width:61%;
+              }
+
+
+      #parents-section .dropdown{
+        position:relative;
+        z-index: 200;
+        width:17.75em;
+        border-radius:0 0 1.25em 1.25em;
+        float:right;
+        margin-right:1.69270833%;
+        padding:.625em 0.5em;
+      }
+
+      #parents-section #info-dropdown,
+      #parents-section #browsing-dropdown
+      {
+        height:26em;
+        top:-26em;
+      }
+
+          #parents-section .dropdown #no-results-message{
+            position: relative;
+            top: -280px;
+          }
+          
+          #parents-section .dropdown .showmore-videos{
+            border-radius: 0;
+            margin-top: 0;
+          }
+
+          #parents-section .dropdown .list{
+            height:23.5em;
+          }
+
+              #parents-section .dropdown .list .loading-indicator{
+                margin:120px auto;
+              }
+
+              #parents-section .dropdown .list ul{
+                float: left;
+                width: 19em;
+                margin-right:-2em;
+              }
+
+                  #parents-section .dropdown .list .playlistItem{
+                    width:auto;
+                    padding:0.571428571em;
+                  }
+
+                      #parents-section .dropdown .list .playlistItem .video-info{
+                        width: 12.2em;
+                      }
+
+          #parents-section .dropdown .scrollbarV{
+            float: right;
+            height: 100%;
+            width: 1.42em;
+            background:#AECECE;
+            position: relative;
+            z-index: 100;
+          }
+
+          #parents-section .dropdown .scrollbarV.touch{
+            width: 0.42em;
+            background:none;
+          }
+
+              #parents-section .dropdown .scrollbarV div{
+                background:#FFF;
+                border:solid 2px #AECECE;
+              }
+
+              #parents-section .dropdown .scrollbarV.touch div{
+                border-radius:0.42em;
+                background:#AECECE;
+                border:none;
+              }
+
+
+      #parents-section .dropdown #series-video-info ul{
+        float: left;
+        width: 18em;
+      }
+
+          #parents-section #info-dropdown #about-this-clip{
+            display:none;
+          }
+
+
+      #parents-section #volume-dropdown{
+        text-align:center;
+        height:1.4375em;
+        top:-1.4375em;
+      }
+
+          #parents-section #volume-dropdown button#mute-unmute-button{
+            padding:0 4px;
+            width:5em;
+          }
+
+          #parents-section #volume-dropdown .volume-level{
+            color:#AECECE;
+            font-size:0.75em;
+            width:2.5em;
+            text-align:right;
+            display:inline-block;
+            zoom:1; *display:inline; /*IE7 fix for "display:inline-block"*/
+          }
+
+          #parents-section #volume-dropdown .scrubber{
+            width:9em;
+            display:inline-block;
+            zoom:1; *display:inline; /*IE7 fix for "display:inline-block"*/
+            cursor:pointer;
+          }
+
+              #parents-section #volume-dropdown .scrubber .scrubber-track{
+                width:100%;
+                height:6px;
+                background-color:#AECECE;
+                border-radius:10px;
+                display:inline-block;
+                zoom:1; *display:inline; /*IE7 fix for "display:inline-block"*/
+                vertical-align:middle;
+                text-align:left;
+              }
+
+              #parents-section #volume-dropdown .scrubber .scrubber-thumb{
+                width:26px;
+                height:26px;
+                background:#FFF;
+                border: solid 2px #AECECE ;
+                border-radius: 26px;
+                position:relative !important;
+                top:-10px;
+              }
+
+  #sponsors-dropdown{
+     background:#00ced0;
+     width:100%;
+     height:3.8125em;
+     padding-top:0.25em;
+     border-radius:0 0 1.25em 1.25em;
+     position:absolute;
+     z-index:400;
+     top:-4.0625em;
+     display:block;
+  }
+
+      #sponsors-dropdown span{
+        font-size: 0.625em;
+        font-weight: normal;
+        margin-left: 0.625em;
+        position: absolute;
+        text-transform: uppercase;
+        display:block;
+      }
+
+      #sponsors-dropdown button.close-button{
+        position: relative;
+        z-index: 20;
+        display:block;
+      }
+
+      #sponsors-dropdown ul#sponsors-list{
+        height: 3em;
+        line-height: 3em;
+        overflow: hidden;
+        position: absolute;
+        top: 1em;
+        width: 100%;
+        display:block;
+        text-align:center;
+      }
+
+          #sponsors-dropdown ul#sponsors-list li{
+            display:inline-block;
+            zoom:1; *display:inline; /*IE7 fix for "display:inline-block"*/
+            margin:0 1.818181818%;
+            line-height: normal;
+            vertical-align: middle;
+          }
+
+}
+
+
+
+@media screen and (min-width: 750px) {
+  #parents-bar #volume-button{
+    width:38px
+  }
+
+  #parents-bar #captions-button{
+    width:38px;
+    margin:0 5px;
+  }
+
+  #sponsors-dropdown{
+     width:750px;
+     left:50%;
+     margin-left:-375px;
+  }
+}
+
+@media screen and (min-width: 788px) {
+  #parents-bar .info-badge{
+    width:85px;
+  }
+
+  #parents-bar #info-button{
+    width:79px;
+  }
+
+  #parents-bar #series-website-button{
+    width:114px;
+  }
+
+  #parents-bar #series-parents-site-button{
+    width:149px;
+  }
+
+}
+
+@media screen and (min-width: 800px) {
+  #parents-bar #secondary-parent-buttons{
+    margin:0 0 0 12px;
+  }
+
+    #parents-bar #info-button,
+    #parents-bar #series-website-button
+    {
+      margin:0 5px 0 0;
+    }
+
+}
+
+@media screen and (min-width: 842px) {
+  #parents-bar #browse-button{
+    width:176px;
+  }
+}
+
+@media screen and (min-width: 924px) {
+  #parents-bar #core-parent-buttons{
+    background: none repeat scroll 0 0 #5AFDFB;
+    border-radius: 2em 2em 2em 2em;
+    padding:1.6em 0.5em 0.5em 0;
+    width:20.5em;
+  }
+
+  #parents-bar #core-parent-buttons.hasDropdown{
+    box-shadow:0 18px 16px -18px #000000;
+  }
+
+  #parents-section .dropdown{
+    margin-right:-19.875em !important;
+    padding:2em 0.5em 0.625em;
+  }
+
+}
+
+
+@media screen and (max-width: 639px) {
+  #parents-section #volume-dropdown{
+    display:none !important;
+  }
+}
+
+
+
+/* BASEMENT
+**************************************************/
+#basement{
+  width:710px;
+  margin:0 auto;
+  padding:10px 0 0;
+}
+
+body.googletv #basement{
+  padding:0;
+  margin-top:-70px;
+}
+
+    #basement #device-banner{
+      display:inline-block;
+      zoom:1; *display:inline; /*IE7 fix for "display:inline-block"*/
+      width:532px;
+      float:left;
+    }
+
+    #basement #cpb-logo{
+      display:inline-block;
+      zoom:1; *display:inline; /*IE7 fix for "display:inline-block"*/
+      text-align:left;
+      width:58px;
+      padding:0 0 0 5px;
+      float:right;
+    }
+
+        #basement #cpb-logo span{
+          display:block;
+          font-size:0.625em;
+          color:#3D8200;
+          margin-left:-5px;
+        }
+
+@media screen and (max-width: 923px) {
+  body.googletv #basement{
+    margin:0 auto;
+    padding:10px 0 0;
+  }
+}
+
+@media screen and (max-width: 709px) {
+  #basement{
+    width:98%;
+  }
+}
+
+@media screen and (max-width: 624px) {
+  #basement #device-banner{
+    width:86.9281046%;
+  }
+
+  #basement #cpb-logo{
+    width:9.4771242%;
+  }
+}
+
+@media screen and (max-width: 496px) {
+  #basement #device-banner{
+    width:100%;
+  }
+
+  #basement #cpb-logo{
+    width:48px;
+  }
+}
+
+
+
+/* COMPATIBILITY MESSAGES, DISABLING, AND HIDING
+**************************************************/
+#error-message-container{
+  top: 20%;
+  width:100%;
+  position: fixed;
+  z-index:9999;
+}
+
+#error-message{
+  display:none;
+  background: none repeat scroll 0 0 #FFFFFF;
+  border-radius: 22px;
+  color: #8DD748;
+  font-size: 1.375em;
+  font-weight: bold;
+  margin:0 auto;
+  padding: 2.27273em 5% 1em;
+  text-align: center;
+  width: 400px;
+}
+
+    #error-message > img {
+      margin: 0.8em 0 0;
+      width: 42px;
+    }
+    
+    #error-message > button {
+      color: #FF9545;
+      background: #FFE960;
+      width: 175px;
+      height: 50px;
+      font-weight: bold;
+      border-radius: 50px;
+      margin-top: 0.8em;
+    }
+
+    #error-message a{
+      color: #8DD748;
+    }
+
+@media screen and (max-width: 500px) {
+  #error-message{
+    width: 80%;
+  }
+}
+
+
+#whoops-message-container{
+  top: 20%;
+  width:100%;
+  position: fixed;
+  z-index:9999;
+}
+
+    #whoops-message{
+      background: none repeat scroll 0 0 #FFFFFF;
+      border-radius: 22px 22px 22px 22px;
+      color: #8DD748;
+      font-size: 1.375em;
+      font-weight: bold;
+      margin: 0 auto;
+      padding: 4em 1em;
+      text-align: center;
+      width: 530px;
+    }
+
+        #whoops-message b{
+          font-size: 2em;
+        }
+
+        #whoops-message a{
+          background: none repeat scroll 0 0 #FFE84E;
+          border-radius: 10px 10px 10px 10px;
+          color: #FF9521;
+          font-size: 0.7em;
+          font-weight: bold;
+          margin-top: 35px;
+          padding: 5px 0 0;
+          text-transform: uppercase;
+          text-decoration:none;
+          width: 318px;
+          display:inline-block;
+          zoom:1; *display:inline; /*IE7 fix for "display:inline-block"*/
+        }
+
+            #whoops-message a img{
+              height: 30px;
+              margin: 0 12px 5px 0;
+              vertical-align: middle;
+            }
+  
+@media screen and (max-width: 599px) {
+  #whoops-message-container,
+  #error-message-container
+  {
+    top:10%;
+  }
+      #whoops-message{
+        padding: 2em 0;
+        width: 98%;
+      }
+}
+
+@media screen and (max-width: 350px) {
+  #whoops-message-container,
+  #error-message-container
+  {
+    top:20%;
+  }
+      #whoops-message{
+        font-size: 1em;
+      }
+
+        #whoops-message a{
+          font-size: 0.8em;
+          width: 260px;
+        }
+
+}
+
+.hidden{
+  display:none !important;
+}
+
+.disabled{
+  opacity:0.50 !important;
+  pointer-events:none !important;
+}
+
+.disabled-control{
+  opacity:0.80 !important;
+  pointer-events:none !important;
+}
+
+
+@media screen and (max-width: 321px) {
+	/* Fix for iphones where min-width:auto is being ignored in pk-footer. */
+	.pk-footer .inner .jumps ul,
+	.pk-footer .inner .global{
+		min-width: 280px !important;
+	}
+}
+
+
+/* BRIDGE-PAGE && LOG-IN FIXES
+**************************************************/
+body.bridge-open.has-touch #player .frame{
+  height:288px !important;
+}
+
+    body.bridge-open.has-touch #player .frame > div,
+    body.bridge-open.has-touch #player .frame > span,
+    body.bridge-open.has-touch #video-player
+    {
+      display:none !important;
+    }
+    
+    
+body.has-touch #pbskids-headband{
+  height:37px !important;
+}
+
+    body.has-touch #headband-user-block{
+      display:none !important;
+    }
+    
+/*
+     FILE ARCHIVED ON 06:30:30 Sep 26, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:40:46 Feb 11, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 78.708
+  exclusion.robots: 0.102
+  exclusion.robots.policy: 0.092
+  RedisCDXSource: 3.839
+  esindex: 0.009
+  LoadShardBlock: 58.194 (3)
+  PetaboxLoader3.datanode: 86.767 (5)
+  CDXLines.iter: 14.316 (3)
+  load_resource: 101.469 (2)
+  PetaboxLoader3.resolve: 59.321 (2)
+*/
