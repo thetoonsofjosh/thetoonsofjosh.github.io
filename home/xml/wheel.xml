@@ -65,6 +65,20 @@
 </show>
 
 <show>
+<name>CYBERCHASE</name>
+<url>http://pbskids.org/fromkids/barney/</url>
+<imageurl>http://www-tc.pbskids.org/home/images/shows/cyberchase.gif</imageurl>
+<audiourl>http://www-tc.pbskids.org/audio/kg_s_cyberchase.swf</audiourl>
+</show>
+  
+<show>
+<name>MISTER ROGERS' NEIGHBORHOOD</name>
+<url>http://pbskids.org/fromkids/rogers/</url>
+<imageurl>http://www-tc.pbskids.org/home/images/shows/rogers.gif</imageurl>
+<audiourl>http://www-tc.pbskids.org/audio/k_s_misterRodgersNeighborhood.swf</audiourl>
+</show>
+  
+<show>
 <name>ARTHUR</name>
 <url>http://pbskids.org/fromkids/arthur/</url>
 <imageurl>http://www-tc.pbskids.org/home/images/shows/arthur.gif</imageurl>
@@ -105,7 +119,21 @@
 <imageurl>http://www-tc.pbskids.org/home/images/shows/wordworld.gif</imageurl>
 <audiourl>http://www-tc.pbskids.org/audio/k_s_wordworld.swf</audiourl>
 </show>
+  
+<show>
+<name>FETCH! WITH RUFF RUFFMAN</name>
+<url>http://pbskids.org/fromkids/fetch/</url>
+<imageurl>http://www-tc.pbskids.org/home/images/shows/fetch.gif</imageurl>
+<audiourl>http://www-tc.pbskids.org/audio/kg_s_fetch.swf</audiourl>
+</show>
 
+<show>
+<name>BARNEY AND FRIENDS</name>
+<url>http://pbskids.org/fromkids/barney/</url>
+<imageurl>http://www-tc.pbskids.org/home/images/shows/barney.gif</imageurl>
+<audiourl>http://www-tc.pbskids.org/audio/k_s_barney.swf</audiourl>
+</show>
+  
 <show>
 <name>CAILLOU</name>
 <url>http://pbskids.org/fromkids/caillou</url>
@@ -113,6 +141,27 @@
 <audiourl>http://www-tc.pbskids.org/audio/k_s_caillou.swf</audiourl>
 </show>
 
+<show>
+<name>MAMA MIRABELLE'S HOME MOVIES</name>
+<url>http://pbskids.org/fromkids/mamamirabelle</url>
+<imageurl>http://www-tc.pbskids.org/home/images/shows/mamamirabelle.gif</imageurl>
+<audiourl>http://www-tc.pbskids.org/audio/k_s_mammaMirabelle.swf</audiourl>
+</show>
+  
+<show>
+<name>BETWEEN THE LIONS</name>
+<url>http://pbskids.org/fromkids/lions</url>
+<imageurl>http://www-tc.pbskids.org/home/images/shows/lions.gif</imageurl>
+<audiourl>http://www-tc.pbskids.org/audio/kg_s_betweenthelions.swf</audiourl>
+</show>
+
+<show>
+<name>MAYA & MIGUEL</name>
+<url>http://pbskids.org/fromkids/mayaandmiguel</url>
+<imageurl>http://www-tc.pbskids.org/home/images/shows/mayaandmiguel.gif</imageurl>
+<audiourl>http://www-tc.pbskids.org/audio/kg_s_mayaMiguel.swf</audiourl>
+</show>
+  
 <show>
 <name>PEG + CAT</name>
 <url>http://pbskids.org/fromkids/peg</url>
