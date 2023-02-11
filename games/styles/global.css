@@ -1,0 +1,1535 @@
+layer {
+	display: none; /* ugh, tracking pixel */
+}
+
+body {
+	background: #fa771f url(/games/styles/i/patterned_background.jpg) repeat;
+	color: white;
+	font: normal 13px/1.1 arial, sans-serif;
+}
+a {
+	color: #894a11;
+	outline: 0;
+	text-decoration: none;
+}
+a:hover {
+	color: #e26a1a;
+}
+.core {
+	width: 960px;
+	margin: 0px auto;
+}
+.printOnly {
+	display: none;
+}
+
+
+footer {
+	background: maroon;
+}
+
+
+header {
+}
+		header .core {
+			height: 65px;
+			position: relative;
+			z-index: 2;
+		}
+		header.ledge .core {
+			height: 70px;
+		}
+		.gameInfo {
+			color: white;
+			width: 431px; /* 500 */
+			height: 37px; /* 43 */
+			overflow: hidden;
+			background: url(/games/styles/i/game_info.png) no-repeat;
+			position: absolute;
+			top: 11px;
+			left: 27px;
+			padding: 6px 0 0 69px;
+			font-size: 14px;
+			display: none;
+		}
+				.gameInfo strong {
+					display: block;
+					overflow: hidden;
+					text-indent: -9999px;
+					position: absolute;
+				}
+				.gameInfo span,
+				.gameInfo em {
+					zoom: 1;
+					display: block;
+					font-style: normal;
+				}
+						.gameInfo span {
+							color: #ffd2b4;
+						}
+
+		/*
+		Made redundant by the newer, root-relative, global PARTNERSHIP directory's CSS that every other tab inherits from. April 2011.
+		.partnership {
+			position: absolute;
+			top: 0;
+			right: 0;
+			width: 191px;
+			height: 53px;
+		}
+				.partnership a {
+					display: block;
+					width: 191px;
+					height: 53px;
+					text-indent: -9999px;
+					overflow: hidden;
+					background: url(/web/20130825034350im_/http://www-tc.pbskids.org/games/styles/i/chrysler_sponsorship.gif) no-repeat;
+					outline: 0;
+				}
+		*/
+
+		.topicPicker {		
+			font-size: 12px;
+			position: absolute;
+			top: 13px;
+			right: 215px;
+			display: none; /* overridden if javascript is turned on */
+		}
+				.topicPicker-lonely { /* Doesn't have partnership next to it. */
+					right: 0;
+				}
+				.hasJs .topicPicker {
+					display: block;
+				}
+				.topicPicker h4 { /* supertitle */
+					width: 180px;
+					height: 10px;
+					text-indent: -9999px;
+					overflow: hidden;
+					background: url(/games/styles/i/games_by_educational_topic.png) no-repeat;
+				}
+				.topicPicker,
+				.topicPicker h5 {
+					font-weight: bold;
+					color: #43b0ac;
+				}
+				.topicPicker h5 {
+					cursor: pointer;
+					width: 171px; /* 181 */
+					height: 21px; /* 25 */
+					overflow: hidden;
+					background: url(/games/styles/i/topic_picker.png) no-repeat;
+					padding: 4px 0 0 10px;
+					position: absolute;
+					top: 17px;
+					z-index: 5;
+				}
+						.topicPicker h5.active {
+							background-position: 0 -25px;
+							color: white;
+						}
+						.topicPicker h5.pressed {
+							background-position: 0 -50px;
+							color: white;
+							height: 20px; /* 25 */
+							padding: 5px 0 0 10px;
+						}
+				.topicPicker ul {
+					background: url(/games/styles/i/topic_picker_dropdown.png) no-repeat center bottom;
+					width: 177px; /* 181 */
+					position: absolute;
+					top: 23px;
+					z-index: 4;
+					padding: 23px 2px 15px 2px;
+/*					display: none; */
+				}
+						.topicPicker li {
+							border-top: 1px dotted #a0ccd3;
+						}
+								.topicPicker li.last {
+									border-bottom: 1px dotted #a0ccd3;
+								}
+						.topicPicker a {
+							color: #2b8d89;
+							display: block;
+							padding: 4px 5px 3px 5px;
+						}
+								.topicPicker a:hover {
+									color: #075569;
+									background: #f0fafc;
+								}
+
+
+
+.page {
+	width: 100%;
+	position: relative;
+}
+
+.billboard {
+	z-index: 1;
+	background: url(/games/styles/i/cloud_pattern.png) repeat-x;
+	margin-bottom: 14px;
+}
+		.billboard .core {
+			position: relative;
+			height: 320px;
+		}
+		.billboard aside {
+			position: absolute;
+			width: 89px;
+			height: 254px;
+			top: 35px;
+			left: 848px;
+			display: none;
+		}
+				.hasJs .billboard .core aside {
+					display: block;
+				}
+				.billboard aside a {
+					position: absolute;
+					display: block;
+					width: 89px;
+					height: 87px;
+					text-indent: -9999px;
+					overflow: hidden;
+					background: url(/games/styles/i/up_down_arrows.png) no-repeat;
+					-moz-transition: -moz-transform .15s;
+				}
+						.billboard aside a:hover {
+							background-position: -89px 0;
+						}
+						.billboard aside .down a {
+							bottom: 0;
+							background-position: 0 -87px;
+						}
+						.billboard aside .down a:hover {
+							background-position: -89px -87px;
+						}
+						.billboard aside .up-click a,
+						.billboard aside .up-click a:hover {
+							background-position: -178px 0px;
+						}
+						.billboard aside .down-click a,
+						.billboard aside .down-click a:active {
+							background-position: -178px -87px;
+						}
+
+
+		.billboard h2 {
+			position: absolute;
+			top: 6px;
+			left: 22px;
+		}
+				.billboard h2 a {
+					display: block;
+					width: 103px;
+					height: 103px;
+					text-indent: -9999px;
+					overflow: hidden;
+					background: url(/games/styles/i/pbs_kids_logo.png) no-repeat;
+					-moz-transition: -moz-transform .17s;
+				}
+				
+				/* WOBBLE */
+				@-webkit-keyframes wobble {
+					0% { -webkit-transform: scale(1.1); }
+					45% { -webkit-transform: scale(0.95); }
+					100% { -webkit-transform: scale(1.0); }
+				}
+				@-moz-keyframes wobble {
+					0% { -moz-transform: scale(1.0); }
+					45% { -moz-transform: scale(0.95); }
+					100% { -moz-transform: scale(1.0); }
+				  }
+				@keyframes wobble {
+					0% { transform: scale(1.1); }
+					45% { transform: scale(0.95); }
+					100% { transform: scale(1.0); }
+				  }
+
+				/* BOUNCE */
+				@-webkit-keyframes bounce {
+					0% { -webkit-transform: translate(0px,0px); }
+					10% { -webkit-transform: translate(0px,-7px); }
+					55% { -webkit-transform: translate(0px,2px); }
+					90% { -webkit-transform: translate(0px,-2px); }
+				}
+				@-moz-keyframes bounce {
+					0% { -moz-transform: translate(0px,0px); }
+					10% { -moz-transform: translate(0px,-7px); }
+					55% { -moz-transform: translate(0px,2px); }
+					90% { -moz-transform: translate(0px,-2px); }
+				  }
+				@keyframes bounce {
+					0% { transform: translate(0px,0px); }
+					10% { transform: translate(0px,-7px); }
+					55% { transform: translate(0px,2px); }
+					90% { transform: translate(0px,-2px); }
+				  }
+
+
+				.billboard h2 a:hover {
+					/*-moz-transform: scale(1.22) rotate(-360deg);*/
+				}
+				.billboard aside a:hover {
+					/*-moz-transform: scale(1.12);*/
+				}
+
+				.billboard h2 a:hover,
+				.billboard aside a:hover {
+			
+					animation-name: wobble;
+					animation-duration: 0.2s;
+					animation-iteration-count: 1;
+
+					-webkit-animation-name: wobble;
+					-webkit-animation-duration: 0.2s;
+					-webkit-animation-iteration-count: 1;
+					-webkit-animation-direction: alternate;
+					-webkit-animation-timing-function: ease-in-out;
+
+					-moz-animation-name: wobble;
+					-moz-animation-duration: 0.2s;
+					-moz-animation-iteration-count: 1;
+					
+				}
+
+				.billboard .panels ul a:hover {
+
+					animation-name: bounce;
+					animation-duration: 0.3s;
+					animation-iteration-count: 1;
+
+					-webkit-animation-name: bounce;
+					-webkit-animation-duration: 0.3s;
+					-webkit-animation-iteration-count: 1;
+					-webkit-animation-direction: alternate;
+					-webkit-animation-timing-function: ease-in-out;
+
+					-moz-animation-name: bounce;
+					-moz-animation-duration: 0.3s;
+					-moz-animation-iteration-count: 1;
+
+				}
+				
+
+
+
+
+.panelsViewport {
+	position: absolute;
+	width: 695px;
+	height: 100%;
+	left: 137px;
+	overflow: hidden;
+}
+
+.panels {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 1.2;
+	padding: 12px 0 0 150px;
+	background: url(/games/styles/i/no_javascript_message.png) no-repeat 539px 50px;
+}
+		.hasJs .panels {
+			background: none;
+			padding: 0 0 0 0;
+			font-weight: normal;
+			line-height: 1.1;
+			position: absolute;
+			left: 0;
+			top: -311px;
+		}
+		.panels ul {
+		}
+		.hasJs .panels ul {
+/*			overflow: hidden; */
+			width: 695px;			/* BASELINE */
+			height: 280px;			/* BASELINE */
+			margin: 0 0 50px;
+		}
+				.hasJs .panels ul li {
+					display: inline;
+				}
+						.hasJs .panels ul a {
+							display: block;
+							float: left;
+							width: 212px;												/* BASELINE */
+							height: 262px;												/* BASELINE */
+							background: url(/games/styles/i/game_teaser_borders.png) no-repeat;
+							overflow: hidden;
+							margin: 0 10px 10px 0;
+						}
+								.panels ul .exempt a {
+									margin-right: 0;
+								}
+
+
+						.panels ul a img			{ display: none; } /* default for non-JS users */
+						.hasJs .panels ul a img		{ display: block; }
+						.hasJs .panels ul a span	{ display: none; }
+
+
+						.panels ul.grid-5 {
+							width: 695px; /* 695 */
+							height: 280px; /* 280 */
+							padding: 0 0 0 0;
+							overflow: hidden;
+							position: relative;
+						}
+								.panels ul.grid-5 a {
+									width: 225px;
+									height: 135px;
+									padding: 0 0 0 0;
+									margin-right: 0;
+									position: absolute;
+									background: none;
+								}
+										.panels ul.grid-5 .fiver-1 a {
+											border: 6px solid white;
+											width: 200px;
+											height: 250px;
+											top: 10px;
+											left: 0;
+										}
+										.panels ul.grid-5 .fiver-2 a {
+											top: 0;
+											left: 230px;
+										}
+										.panels ul.grid-5 .fiver-3 a {
+											top: 0;
+											left: 469px;
+										}
+										.panels ul.grid-5 .fiver-4 a {
+											top: 144px;
+											left: 230px;
+										}
+										.panels ul.grid-5 .fiver-5 a {
+											top: 144px;
+											left: 469px;
+										}
+
+								.panels ul.grid-5 img {
+									width: 225px;
+									height: 135px;
+									overflow: hidden;
+								}
+										.panels ul.grid-5 .fiver-1 img {
+											width: 200px;
+											height: 250px;
+										}
+
+
+
+
+						.panels ul.grid-3 {
+							width: 675px; /* 695 */
+							height: 271px; /* 280 */
+							padding: 9px 0 0 20px; 
+						}
+								.panels ul.grid-3 a {
+									width: 200px; /* 212 */
+									height: 250px; /* 262 */
+									padding: 0 0 0 0;
+									border: 6px solid white;
+								}
+								.panels ul.grid-3 img {
+									width: 200px;
+									height: 250px;
+									overflow: hidden;
+								}
+/*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/							
+						.panels ul.grid-2 {
+							width: 695px; /* 695 */
+							height: 280px; /* 280 */
+							padding: 0 0 0 0;
+							overflow: hidden;
+							position: relative;
+						}
+								.panels ul.grid-2 a {
+									width: 425px;
+									height: 250px;
+									padding: 0 0 0 0;
+									margin-right: 0;
+									position: absolute;
+									background: none;
+								}
+										.panels ul.grid-2 .two-1 a {
+											border: 6px solid white;
+											width: 200px;
+											height: 250px;
+											top: 10px;
+											left: 0;
+										}
+										.panels ul.grid-2 .two-2 a {
+											border: 6px solid white;
+											width: 425px;
+											height: 250px;
+											top: 10px;
+											left: 230px;
+										}
+
+								.panels ul.grid-2 img {
+									width: 425px;
+									height: 250px;
+									overflow: hidden;
+								}
+										.panels ul.grid-2 .two-1 img {
+											width: 200px;
+											height: 250px;
+										}
+/*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+																
+						.panels ul.grid-6 {
+							width: 695px; /* 695 */
+							height: 280px; /* 280 */
+							padding: 0 0 0 0;
+						}
+								.panels ul.grid-6 a {
+									width: 225px; /* 225 */
+									height: 135px; /* 135 */
+									padding: 0 0 0 0;
+									background-position: 0 -270px;
+								}
+								.panels ul.grid-6 img {
+									width: 225px;
+									height: 135px;
+									overflow: hidden;
+								}
+
+
+
+.slotmachine {
+	width: 798px;
+	height: 53px;
+	margin: 0 0 17px 85px;
+	position: relative;
+}
+		.hasJs .slotmachine { /* ...because otherwise it looks weird with just the one gradient-hole sticking out */
+			background: url(/games/styles/i/slots_gradient.png) no-repeat 217px 3px;
+		}
+		.slotmachine h1,
+		.slots {
+			position: absolute;
+			z-index: 4;
+		}
+		.slotmachine h1 {
+			width: 196px;
+			height: 38px;
+			background: url(/games/styles/i/games_title.png) no-repeat;
+			text-indent: -9999px;
+			overflow: hidden;
+			top: 9px;
+		}
+		.slotsViewport {
+			width: 526px;
+			height: 48px;
+			top: 3px;
+			overflow: hidden;
+			position: absolute;
+			left: 217px;
+		}
+		.slots {
+			top: -116px;
+/*			top: 0; */
+			left: 0;
+			width: 526px;
+			height: 174px;
+			overflow: hidden;
+			outline: 1px solid red;
+		}
+				.slots ul {
+					margin: 0 0 10px;
+					width: 526px;
+					height: 48px;
+					overflow: hidden;
+				}
+				.slots li {
+					display: inline;
+				}
+					.slots li.last a {
+						margin-right: 0;
+					}
+					.slots a {
+						display: block;
+						float: left;
+						width: 48px;
+						height: 48px;
+						margin: 0 5px 0 0;
+						background: url(/games/styles/i/shows_circles.png) no-repeat;
+						text-indent: -9999px;
+						overflow: hidden;
+					}
+
+					.slots .catinthehat a					{ background-position: 0px 0px;			}
+					.slots .super-why a						{ background-position: -48px 0px;		}
+					.slots .clifford a						{ background-position: -96px 0px;		}
+					.slots .sesame-street a					{ background-position: -144px 0px;		}
+					.slots .sid-the-science-kid a			{ background-position: -192px 0px;		}
+					.slots .curious-george a				{ background-position: -240px 0px;		}
+					.slots .dinosaur-train a				{ background-position: -288px 0px;		}
+					.slots .martha-speaks a					{ background-position: -336px 0px;		}
+					.slots .word-girl a						{ background-position: -384px 0px;		}
+					.slots .fetch a							{ background-position: -432px 0px;		}
+					.slots .electric-company a				{ background-position: 0px -48px;		}
+					.slots .barney-and-friends a			{ background-position: -48px -48px;		}
+					.slots .arthur a						{ background-position: -96px -48px;		}
+					.slots .cyberchase a					{ background-position: -144px -48px;	}
+					.slots .mister-rogers-neighborhood a	{ background-position: -192px -48px;	}
+					.slots .between-the-lions a				{ background-position: -240px -48px;	}
+					.slots .angelina-ballerina a			{ background-position: -288px -48px;	}
+					.slots .caillou a						{ background-position: -336px -48px;	}
+					.slots .mama-mirabelles-home-movies a	{ background-position: -384px -48px;	}
+					.slots .make-way-for-noddy a			{ background-position: -432px -48px;	}
+					.slots .pbs-kids-island a				{ background-position: 0px -96px;		}
+					.slots .toopy-and-binoo a				{ background-position: -48px -96px;		}
+					.slots .lomax-the-hound-of-music a		{ background-position: -96px -96px;		}
+					.slots .frannys-feet a					{ background-position: -144px -96px;	}
+					.slots .boohbah a						{ background-position: -192px -96px;	}
+					.slots .teletubbies a					{ background-position: -240px -96px;	}
+					.slots .jay-jay-the-jet-plane a			{ background-position: -288px -96px;	}
+					.slots .word-world a					{ background-position: -336px -96px;	}
+					.slots .maya-miguel a					{ background-position: -384px -96px;	}
+					.slots .wild-kratts a					{ background-position: -192px -144px;	}
+					.slots .pbs-kids-danceparty a			{ background-position: -240px -144px;	}
+					.slots .daniel-tigers-neighborhood a	{ background-position: -287px -144px;	}
+
+		#invisiSlots {
+			width: 526px;
+			height: 48px;
+			overflow: hidden;
+			background: url(/games/styles/i/slots_mask.png) no-repeat;
+			z-index: 5;
+			position: absolute;
+			top: 3px;
+			left: 217px;
+		}
+				#invisiSlots ul {
+				}
+						#invisiSlots li {
+							display: inline;
+						}
+								#invisiSlots a {
+									display: block;
+									float: left;
+									margin: 0 5px 0 0;
+									width: 48px;
+									height: 48px;
+									text-indent: -9999px;
+									overflow: hidden;
+									background: url(/games/styles/i/slots_ring.png) no-repeat;
+								}
+										#invisiSlots a:hover {
+											background-position: 0 -48px;
+										}
+								#invisiSlots .last a {
+									margin-right: 0;
+								}
+
+			#lever,
+			#lever em,
+			#lever span {
+				background: url(/games/styles/i/lever.png) no-repeat;
+			}
+			#lever {
+				width: 48px;
+				height: 54px;
+				overflow: hidden;
+				position: absolute;
+				top: 0;
+				right: 0;
+				z-index: 1;
+				cursor: pointer;
+			}
+					#lever em,
+					#lever span {
+						display: block;
+						position: absolute;
+						text-indent: -9999px;
+						overflow: hidden;
+					}
+							#lever em {
+								z-index: 2;
+								background-position: 0 -162px;
+								width: 48px;
+								height: 26px;
+							}
+							#lever em.hovered {
+								background-position: 0 -108px;
+							}
+							#lever span {
+								background-position: 0 -54px;
+								z-index: 3;
+								width: 15px;
+								height: 54px;
+							}
+
+
+
+
+.content {
+	padding-bottom: 50px;
+}
+
+.cols {
+}
+		.cols .primary,
+		.cols .secondary {
+			overflow: hidden;
+		}
+		.cols .primary {
+			width: 380px;
+			margin: 0 0 0 24px;
+			padding-bottom: 40px;
+			float: left;
+		}
+		.cols .secondary {
+			width: 508px;
+			margin: 0 28px 0 0;
+			float: right;
+			padding-top: 3px;
+			background: url(/games/styles/i/white_board_base.png) no-repeat 0 3px;
+		}
+
+
+
+.gamesByTopic {
+	margin-bottom: 21px;
+	height: 167px;
+	overflow: hidden;
+	position: relative;
+}
+		.gamesByTopic h3 {
+			width: 148px;
+			height: 13px;
+			overflow: hidden;
+			text-indent: -9999px;
+			background: url(/games/styles/i/games_by_topic_title.png) no-repeat;
+			position: absolute;
+			bottom: 0;
+			left: 119px;
+		}
+		.gamesByTopic li {
+			width: 60px; /* 76 */
+			height: 60px; /* 76 */
+			float: left;
+			overflow: hidden;
+			background: url(/games/styles/i/topic_icon_base.png) no-repeat;
+			padding: 8px;
+		}
+				.gamesByTopic li.hovered {
+					background-position: 0 -76px;
+				}
+				.gamesByTopic li.alltopics {
+					background-position: -76px 0;
+				}
+				.gamesByTopic li.alltopics-hovered {
+					background-position: -76px -76px;
+				}
+		.gamesByTopic a {
+			display: block;
+			width: 60px;
+			height: 60px;
+			overflow: hidden;
+			background: white url(/games/styles/i/topic_buttons.png) no-repeat;
+			text-indent: -9999px;
+		}
+
+
+
+
+
+
+
+
+
+.promotion {
+	width: 380px;
+	margin-bottom: 12px;
+}
+		.promotion a,
+		.promotion img {
+			line-height: 1;
+			padding: 0;
+			margin: 0;
+			display: block;
+		}
+		.promotion a img {
+			border: 3px solid #fa771f;
+		}
+		.promotion a:hover img {
+			border-color: #fff700;
+		}
+
+
+
+.secondary {
+}
+		.secondary .inner {
+			width: 461px; /* fully expansive to 508 of parent container */
+			padding: 20px 27px 25px 20px;
+			margin: 0 28px 0 0;
+			background: url(/games/styles/i/white_board_bottom.png) no-repeat bottom;
+		}
+		.secondary .featured,
+		.secondary .popular {
+			width: 224px;
+		}
+		.secondary .featured {
+			float: left;
+		}
+		.secondary .popular {
+			float: right;
+		}
+
+		.secondaryPromos {
+			background: #fa771f url(/games/styles/i/patterned_background.jpg) repeat; /* it covers up the opaque white of the containing background */
+			padding: 20px 0;
+			color: gray;
+		}
+				.secondaryPromos aside {
+					margin-bottom: 18px;
+				}
+				.secondaryPromos aside a {
+					padding: 3px 0;
+					background: white;
+					display: block;
+					border-radius: 7px;
+					-moz-border-radius: 7px;
+					-webkit-border-radius: 7px;
+					text-align: center;
+				}
+						.secondaryPromos aside a:hover {
+						}
+
+
+
+		.featured {
+		}
+				.featured h3 { /* Currently-hot Topic link */
+					margin-bottom: 10px;
+				}
+						.featured h3 a {
+							display: block;
+							background: #fcf882;
+							text-align: center;
+							color: #4595b3;
+							font-size: 16px;
+							padding: 10px 0 12px 0;
+							border: 2px solid #fcf882;
+							font: normal 17px/1.3 "OswaldRegular", arial, sans-serif;
+						}
+								.featured h3 a:hover {
+									color: #016a92;
+									background: #c3f8f9;
+									border-color: #86d6e0;
+								}
+
+				.featured ul {	
+				}
+						.featured li {
+							font-size: 12px;
+							display: inline;
+						}
+								.featured li a {
+									display: block;
+									position: relative;
+									min-height: 51px; /* 52 */
+									padding: 1px 10px 0 106px;
+									margin-bottom: 10px;
+									zoom: 1;
+									color: #3483a9;
+								}
+										.featured li a:hover {
+											color: #005077;
+										}
+								.featured a img {
+									position: absolute;
+									left: 0;
+									top: 0;
+									background: white;
+									width: 95px;
+									height: 50px;
+									border: 1px solid #bab6b3;
+									overflow: hidden;
+								}
+								.featured a:hover img {
+									background: #fffb89;
+									border-color: #4595b3;
+								}
+								.featured em,
+								.featured span {
+									display: block;
+								}
+										.featured em {
+											font-style: normal;
+											text-transform: uppercase;
+											margin-bottom: 2px;
+											font-size: 9px;
+										}
+										.featured span {
+											font: normal 14px/1.1 "OswaldRegular", arial, sans-serif;	
+										}
+
+
+
+		.popular {
+		}
+				.popular h2,
+				.featured h2 {
+					width: 100%;
+					height: 22px;
+					background: url(/games/styles/i/games_subtitles.png) no-repeat;
+					text-indent: -9999px;
+					overflow: hidden;
+					margin-bottom: 10px;
+				}
+				.popular h2 {
+					background-position: -244px 0;
+				}
+				.popular h4 { /* "All Topics" link */
+					margin: 20px 0 0 33px; /* mostly arbitrary */
+				}
+						.popular h4 a {
+							display: block;
+							width: 151px;
+							height: 32px;
+							overflow: hidden;
+							text-indent: -9999px;
+							background: url(/games/styles/i/all_topics_button.png) no-repeat;
+						}
+								.popular h4 a:hover {
+									background-position: 0 -32px;
+								}
+				.popular ul {
+					text-transform: uppercase;
+				}
+						.popular li {
+							line-height: 1;
+							margin-bottom: 8px;
+						}
+								.popular li a {
+									text-decoration: underline;
+									font-size: 14px;
+									background:  url(/games/styles/i/topic_buttons_mini.png) no-repeat;
+									display: inline-block;
+									padding: 0 0 0 28px;
+									overflow: hidden;
+									cursor: pointer;
+									color: #1e85b8;
+								}
+										.popular li a:hover {
+											color: #005774;
+										}
+										.popular li a span {
+											background: white;
+											display: block;
+											padding: 4px 0 0 5px;
+											height: 23px;
+										}
+
+
+
+
+footer {
+	background: #ffea00; /* yellow */
+	/* Height is specified in stickyfooter.css, but it's 149px for /video and /games footers. */
+	overflow: hidden;
+	position: relative;
+	color: #4e7400;
+}
+		footer aside,
+		footer nav,
+		nav section {
+			overflow: hidden;
+		}
+		footer .core {
+			position: relative;
+		}
+		footer aside {
+			height: 51px;
+		}
+				footer aside p {
+					position: relative;
+				}
+				footer aside strong,
+				footer aside a {
+					display: block;
+					text-indent: -9999px;
+					overflow: hidden;
+					position: absolute;
+				}
+				footer aside strong {
+					background: url(/games/styles/i/for_more_fun.png) no-repeat;
+					width: 112px;
+					height: 11px;
+					left: 342px;
+					top: 20px;	
+				}
+				footer aside a {
+					width: 152px;
+					height: 41px;
+					background: url(/games/styles/i/footer_jump_links.png) no-repeat;
+					left: 466px;
+					top: 5px;
+				}
+						footer aside a:hover {
+							background-position: 0 -41px;
+						}
+						.pk-landing-video footer aside .games {
+							display: none;
+						}
+						.pk-landing-video footer aside a {
+							background-position: -152px 0;
+						}
+						.pk-landing-video footer aside a:hover {
+							background-position: -152px -41px;
+						}
+		footer h3 {
+			top: 37px;
+			left: 13px;
+			position: absolute;
+			background: url(/games/styles/i/home_footer_assets.png) no-repeat 0 -137px;
+			width: 123px;
+			height: 14px;
+			overflow: hidden;
+			text-indent: -9999px;
+		}
+		footer nav {
+			background: #8ed100;
+			height: 59px; /* 65 */
+			padding: 6px 0 0 0;
+		}
+		footer nav ul {
+		}
+				footer nav ul.footerPromos-4 {
+					padding: 0 0 0 65px; /* approximating centeredness when there's just four links there */
+					width: 895px; /* 960 */
+				}
+				footer nav ul,
+				footer nav li {
+					list-style: none;
+					padding: 0 0 0 0;
+					margin: 0 0 0 0;
+					line-height: 1;
+				}
+						footer nav li {
+							display: inline;
+						}
+								footer nav a {
+									margin: 0 10px 0 0;
+									float: left;
+									width: 142px;
+									height: 52px;
+									background: url(/games/styles/i/home_footer_assets.png) no-repeat;
+									text-indent: -9999px;
+									overflow: hidden;
+									display: block;
+								}
+										footer nav .shop a					{ background-position: -65px -21px;		width: 142px;							}
+										footer nav .shop a:hover			{ background-position: -65px -73px;												}
+										footer nav .mobileaps a				{ background-position: -217px -21px;	width: 123px;							}
+										footer nav .mobileapps a:hover		{ background-position: -217px -73px;											}
+										footer nav .play a					{ background-position: -350px -21px;	width: 317px;	margin-right: 9px;		}
+										footer nav .play a:hover			{ background-position: -350px -73px;											}
+										footer nav .parents a				{ background-position: -676px -21px;	width: 157px;	margin-right: 9px;		}
+										footer nav .parents a:hover			{ background-position: -676px -73px;											}
+										footer nav .teachers a				{ background-position: -842px -21px;	width: 157px;	margin-right: 0;		}
+										footer nav .teachers a:hover		{ background-position: -842px -73px;											}
+										footer nav .mobiledownloads a		{ background-position: -1009px -21px;	width: 166px;							}
+										footer nav .mobiledownloads a:hover	{ background-position: -1009px -73px;											}
+		footer section {
+			background: white;
+			height: 33px;
+		}
+				footer .jump,
+				footer .legal,
+				footer .station {
+					position: absolute;
+				}
+				footer .jump {
+					width: 380px; /* arbitrary */
+					height: 15px;
+					font: bold 12px/1.1 verdana, sans-serif;
+					text-transform: uppercase;
+					top: 9px;
+				}
+						footer .jump li {
+							display: inline;
+							padding-right: 3px;
+						}
+								footer .jump a {
+									color: #4e7400;
+								}
+										footer .jump a:hover {
+											color: #83bf00;
+											text-decoration: underline;
+										}
+				footer .legal {
+					width: 300px;
+					height: 15px;
+					top: 8px;
+					right: 0;
+					text-align: right;
+					font-size: 11px;
+				}
+						footer .legal a {
+							color: #4e7400;
+						}
+								footer .legal a {
+									text-decoration: underline;
+								}
+						footer .legal li {
+							display: inline;
+							padding: 0 6px 0 3px;
+							border-right: 1px solid #4e7400;
+						}
+								footer .legal li.last {
+									border-right: 0;
+									padding-right: 0;
+								}
+				footer .station {
+					width: 228px;
+					height: 29px;
+					top: 0;
+					left: 435px;
+					font-size: 11px;
+				}
+						footer .station span,
+						footer .station .callsign,
+						footer .station .toggle {
+							position: absolute;
+						}
+								footer .station span {
+									top: 9px;
+								}
+								footer .station .callsign,
+								footer .station img {
+									display: block;
+									width: 78px;
+									height: 28px;
+									overflow: hidden;
+								}
+								footer .station .callsign {
+									top: 2px;
+									left: 73px;
+								}
+								footer .station .toggle {
+									text-align: right;
+									right: 0;
+									top: 9px;
+									color: #b9b1cd;
+								}
+										footer .station a:hover {
+											color: gray;
+											text-decoration: underline;
+										}
+
+
+
+/* ############################################################ */
+/* Table of Contents */
+
+.toc {
+	margin: 100px 0 0 100px;
+	padding: 30px;
+	background: rgba(200, 54, 54, 0.5);
+	line-height: 1.4;
+}
+		.toc h1 {
+			margin-bottom: 5px;
+		}
+		.toc ul,
+		.toc ul li {
+			list-style: disc outside;
+			color: orange;
+		}
+		.toc a {
+			color: orange;
+		}
+		.toc a:hover {
+			color: yellow;
+			text-decoration: underline;
+		}
+
+
+
+
+
+/* ############################################################ */
+/* Single Topic */
+
+
+
+
+.gamesGrid {
+	z-index: 1;
+	margin-bottom: 14px;
+	background: #5bd1e9 url(/games/styles/i/topicstile_newbatch_1.png) repeat;
+}
+
+
+		.gamesGrid-1		{ background-image: url(/games/styles/i/topicstile_newbatch_1.png); }
+		.gamesGrid-2		{ background-image: url(/games/styles/i/topicstile_newbatch_2.png); }
+		.gamesGrid-3		{ background-image: url(/games/styles/i/topicstile_newbatch_3.png); }
+		.gamesGrid-4		{ background-image: url(/games/styles/i/topicstile_newbatch_4.png); }
+		.gamesGrid-5		{ background-image: url(/games/styles/i/topicstile_newbatch_5.png); }
+		.gamesGrid-6		{ background-image: url(/games/styles/i/topicstile_newbatch_6.png); }
+		.gamesGrid-7		{ background-image: url(/games/styles/i/topicstile_newbatch_7.png); }
+
+		
+		/* Special Themes */
+		.gamesGrid-earthday	{ background-image: url(/games/styles/i/topicstile_newbatch_earthDay.png); }
+
+
+		.ledge {
+			background: url(/games/styles/i/ledge_bg.png) repeat-x;
+			position: absolute;
+			z-index: 99;
+			width: 100%;
+			left: 0; /* ie7 whines otherwise */
+			top:0;
+		}
+		
+		.ledge.sticky{
+			position: fixed;
+		}
+				.gamesGrid-all .ledge {
+					position: absolute;
+				}
+				.ledge .logo,
+				.ledge .backToGames,
+				.ledge .gameGoals {
+					position: absolute;
+				}
+						.ledge .logo {
+							top: 7px;
+							left: 12px;
+						}
+								.ledge .logo a {
+									display: block;
+									overflow: hidden;
+									text-indent: -9999px;
+									width: 50px;
+									height: 50px;
+									background: url(/games/styles/i/pbs_kids_logo_little.png) no-repeat;
+									-moz-transition: -moz-transform .17s;
+								}
+								
+	
+								.ledge .logo a:hover {
+									-moz-transform: scale(1.2) rotate(-360deg);
+								}
+								/* POP */
+								@-webkit-keyframes pop {
+									0% { -webkit-transform: scale(1.0); }
+									20% { -webkit-transform: scale(1.4); }
+									75% { -webkit-transform: scale(0.9); }
+									100% { -webkit-transform: scale(1.0); }
+								}
+								@-moz-keyframes pop {
+									0% { -moz-transform: scale(1.0); }
+									8% { -moz-transform: scale(1.1); }
+									45% { -moz-transform: scale(0.95); }
+									100% { -moz-transform: scale(1.0); }
+								  }
+								@keyframes pop {
+									0% { transform: scale(1.3); }
+									45% { transform: scale(0.9); }
+									100% { transform: scale(1.0); }
+								  }
+
+								.ledge .logo a:hover {
+									-moz-transform: scale(1.2) rotate(-360deg);
+									animation:pop 0.4s 1;
+									-webkit-animation:pop 0.4s 1; /* Safari and Chrome */
+									-moz-animation:pop 0.4s 1; /* well, we can dream */
+								}
+
+
+								.ledge .gameGoals {
+									height: 47px;
+									width: 632px;
+									top: 11px;
+									left: 87px;
+									overflow: hidden;
+								}
+										.ledge .gameGoals strong,
+										.ledge .gameGoals span {
+											display: block;
+											position: absolute;
+										}
+												.ledge .gameGoals strong {
+													top: 0;
+													left: 0;
+													text-indent: -9999px;
+													overflow: hidden;
+													width: 63px;
+													height: 47px;
+													background: url(/games/styles/i/game_goals.png) no-repeat;
+												}
+												.ledge .gameGoals span {
+													font: normal 15px/1.1 arial, sans-serif;
+													top: 14px;
+													left: 68px;
+												}
+										
+
+								.ledge .backToGames {
+									top: -7px;
+									left: 832px;
+								}
+										.ledge .backToGames a {
+											width: 128px;
+											height: 68px;
+											display: block;
+											text-indent: -9999px;
+											overflow: hidden;
+											background: url(/games/styles/i/back_to_games.png) no-repeat;
+										}
+												.ledge .backToGames a:hover {
+													background-position: 0 -68px;
+												}
+
+
+		.gamesGrid hgroup {
+			background: url(/games/styles/i/icon_ribbon.png) no-repeat 4px 0;
+			height: 189px;
+			position: relative;
+		}
+				.gamesGrid .core {
+					padding-bottom: 70px;
+					cursor: default;
+				}
+				.gamesGrid h1 {
+					width: 700px;
+					height: 42px;
+					top: 107px;
+					left: 95px;
+					background: url(/games/styles/i/subheadlines.png) no-repeat;
+					text-indent: -9999px;
+					overflow: hidden;
+					position: absolute;
+				}
+
+		.iconRibbon {
+			position: absolute;
+			width: 60px;
+			height: 60px;
+			top: 90px;
+			left: 9px;
+			text-indent: -9999px;
+			overflow: hidden;
+			background: url(/games/styles/i/topic_buttons.png) no-repeat -180px -180px; /* loads on "all topics [spinner]" by default */
+		}
+
+
+
+
+		.topicsList {
+			margin-bottom: 100px;
+			overflow: hidden;
+			cursor: default;
+		}
+		.topicsList li {
+			display: inline;
+		}
+				.topicsList li a,
+				.topicsList li a span,
+				.topicsList li a span em,
+				.topicsList li a span mark {
+					display: block;
+					overflow: hidden;
+				}
+				.topicsList li a {
+					float: left;
+					margin: 0 17px 15px 0;
+					background: url(/games/styles/i/alltopics_castshadow.png) no-repeat 7px 7px;
+					width: 178px;
+					height: 73px;
+					cursor: pointer;
+				}
+						.topicsList li.fifth a {
+							margin-right: 0;
+						}
+						.topicsList li a span {
+							background: url(/games/styles/i/alltopics_plate.png) no-repeat;
+							top: 4px;
+							left: 4px;
+							width: 171px;
+							height: 66px;
+							position: relative;
+						}
+								.topicsList li a span mark,
+								.topicsList li a span em {
+									position: absolute;
+								}
+										.topicsList li a span em {
+											width: 60px;
+											height: 60px;
+											background: url(/games/styles/i/topic_buttons.png) no-repeat;
+											text-indent: -9999px;
+											top: 3px;
+											left: 7px;
+										}
+										.topicsList li a span mark {
+											background: none;
+											font: normal 17px/1.3 "OswaldRegular", arial, sans-serif;
+											color: #4595b3;
+											letter-spacing: -1px;
+											top: 9px;
+											left: 74px;
+											display: block;
+											width: 90px;
+										}
+										.topicsList li a:hover span mark {
+											color: #f87620;
+										}
+
+
+
+
+
+		.gamesList {
+			margin-bottom: 30px;
+			overflow: hidden;
+			cursor: default;
+		}
+		.gamesList li {
+			display: inline;
+		}
+				.gamesList li a {
+					display: block;
+					position: relative;
+					width: 237px;
+					height: 80px;
+					overflow: hidden;
+					float: left;
+					margin: 0 4px 1px 0;
+					background: url(/games/styles/i/gameBtn_cast_shadow.png) no-repeat 0 18px;
+				}
+						.gamesList li.fourth a {
+							margin-right: 0;
+						}
+						.gamesList li em,
+						.gamesList li span,
+						.gamesList li mark {
+							display: block;
+							position: absolute;
+							cursor: pointer;
+							background: none;
+						}
+						.gamesList li span {
+							width: 237px;
+							height: 62px;
+							background: url(/games/styles/i/gameBtn_white_base.png) no-repeat;
+							top: 17px;
+							left: 4px;
+							overflow: hidden;
+							font: normal 15px/1.2 "OswaldRegular", arial, sans-serif;
+						}
+								.gamesList li a mark {
+									color: #4595b3;
+									width: 126px;
+									top: 12px;
+									left: 99px;
+									letter-spacing: -0.5px;
+								}
+										.gamesList li a mark.verbose {
+											letter-spacing: -1px;
+										}
+								.gamesList li span img {
+									position: absolute;
+									top: 5px;
+									left: 4px;
+								}
+								.gamesList li span.lit img {
+									top: 0;
+								}
+								.gamesList-standalones li span.lit img {
+									top: 5px;
+								}
+								.gamesList li span.lit mark {
+									top: 7px;
+									color: #f87620;
+								}
+								.gamesList-standalones li span.lit mark {
+									top: 12px;
+								}
+						.gamesList li a em {
+							width: 226px; /* 237 */
+							height: 36px; /* 39 */
+							padding: 3px 0 0 11px;
+							background: url(/games/styles/i/gameBtn_show_baseboard.png) no-repeat;
+							font-size: 11px;
+							font-weight: bold;
+							font-style: normal;
+							color: white;
+							left: 4px;
+							top: 23px; /* hides down below during link dormancy */
+						}
+
+
+		.relatedTopics {
+			position: relative;
+			width: 960px;
+			height: 37px;
+			overflow: hidden;
+		}
+				.relatedTopics h3 {
+					position: absolute;
+					text-indent: -9999px;
+				}
+				.relatedTopics div {
+					position: absolute;
+					top: 0;
+					right: 0;
+				}
+						.relatedTopics ul {
+							padding-left: 120px;
+							background: url(/games/styles/i/related_topics_title.png) no-repeat 0 13px;
+						}
+						.relatedTopics li {
+							display: inline;
+						}
+								.relatedTopics li a {
+									display: block;
+									width: 31px; /* 34 */
+									height: 31px; /* 37 */
+									padding: 6px 0 0 3px;
+									text-indent: -9999px;
+									white-space: nowrap;
+									overflow: hidden;
+									float: left;
+									margin-right: 3px;
+									background: url(/games/styles/i/related_topics_button.png) no-repeat;
+									cursor: pointer;
+								}
+										.relatedTopics li a:hover {
+											height: 34px; /* 37 */
+											padding-top: 3px;
+											background-position: 0 -37px;
+										}
+										.relatedTopics li a:active {
+											height: 31px; /* 37 */
+											padding-top: 6px;
+											background-position: 0 0;
+										}
+										.relatedTopics li a span {
+											display: block;
+											text-indent: 9999px;
+											white-space: nowrap;
+											overflow: hidden;
+											width: 28px;
+											height: 28px;
+											background: yellow;
+											background: url(/games/styles/i/topic_buttons_mini.png) no-repeat;
+										}
+
+
+
+
+
+
+
