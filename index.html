@@ -316,7 +316,7 @@ document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga
   $(document).ready(function(){
      $('#flashcontent').flash(
      {
-        src: 'https://www-tc.pbskids.org/home/swfs/home.swf',
+        src: 'home/swfs/home.swf',
 	width: '100%',
 	height: '100%',
 	allowscriptaccess: 'always',
@@ -324,7 +324,7 @@ document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga
 	wmode: 'transparent',
 	flashvars: {
 	   themeXML: 'daisies',
-	   cdn: /^soup/.test(window.location.hostname) ? "https://soup-tc.pbskids.org/" : /^pbskids/.test(window.location.hostname) ? "https://www-tc.pbskids.org/" : "./"
+	   cdn: /^soup/.test(window.location.hostname) ? "http://soup-tc.pbskids.org/" : /^pbskids/.test(window.location.hostname) ? "http://www-tc.pbskids.org/" : "./"
         }
      },
      { version: '9.0.28' });
