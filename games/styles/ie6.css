@@ -1,0 +1,62 @@
+
+/* PNG REPLACEMENTS */
+.topicPicker ul					{ background-image: url(i/topic_picker_dropdown.gif); }
+.topicPicker h5					{ background-image: url(i/topic_picker.gif); }
+#invisiSlots					{ background-image: url(i/slots_mask.gif); }
+#invisiSlots a					{ background-image: url(i/slots_ring.gif); }
+.billboard aside a				{ background-image: url(i/up_down_arrows.gif); }
+#lever,#lever em,#lever span	{ background-image: url(i/lever.gif); }
+.billboard h2 a					{ background-image: url(i/pbs_kids_logo.gif); }
+.gamesGrid h1					{ background-image: url(i/subheadlines.gif); }
+.ledge .logo a					{ background-image: url(i/pbs_kids_logo_little.gif); }
+.gamesGrid hgroup				{ background-image: url(i/icon_ribbon.gif); }
+.ledge .backToGames a			{ background-image: url(i/back_to_games.gif); }
+.relatedTopics ul				{ background-image: url(i/related_topics_title.gif); }
+.relatedTopics li a				{ background-image: url(i/related_topics_button.gif); }
+.gamesList li span				{ background-image: url(i/gameBtn_white_base.gif); }
+.gamesList li a em				{ background-image: url(i/gameBtn_show_baseboard.gif); }
+.gamesList li a					{ background-image: url(i/gameBtn_cast_shadow.gif); }
+.topicsList li a				{ background-image: url(i/alltopics_castshadow.gif); }
+.topicsList li a span			{ background-image: url(i/alltopics_plate.gif); }
+
+
+
+
+
+
+/* DOUBLE-MARGIN BUG */
+.cols .primary					{ margin: 0 0 0 12px; }
+.cols .secondary				{ margin: 0 14px 0 0; }
+
+
+
+.topicPicker ul {
+	top: 20px;
+	padding: 22px 2px 15px 2px;
+}
+		.topicPicker li {
+			border-top: 1px solid #a0ccd3;
+			display: inline;
+			zoom: 1;
+		}
+				.topicPicker li.last {
+					border-bottom: 1px solid #a0ccd3;
+				}
+.topicPicker a {
+	zoom: 1;
+}
+.featured li a {
+	height: 47px; /* in place of min-height */
+	zoom: 1;
+}
+.popular li a span {
+	cursor: pointer; /* to get around collusion-with-text-cursor bugginess */
+}
+
+
+
+.ledge {
+	position: absolute;
+	
+}
+
