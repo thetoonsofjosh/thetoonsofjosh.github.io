@@ -35,7 +35,7 @@ html.js #footer {
 }
 
 #footer #related-nav p {
-	background: url(images/kids-rotator/for-more-fun.gif) no-repeat;
+	background: url(/images/kids-rotator/for-more-fun.gif) no-repeat;
 	float: left;
 	height: 41px;
 	margin: 0 auto;
@@ -76,11 +76,11 @@ html.js #footer {
 }
 
 #footer #related-nav ul li#games a {
-	background-image: url(images/kids-rotator/button-games.gif);
+	background-image: url(/images/kids-rotator/button-games.gif);
 }
 
 #footer #related-nav ul li#videos a {
-	background-image: url(images/kids-rotator/button-videos.gif);
+	background-image: url(/images/kids-rotator/button-videos.gif);
 	margin: 0;
 }
 
@@ -160,7 +160,7 @@ html.js #footer {
 			left: 13px;
 			position: absolute;
 			z-index: 4;
-			background: url(images/kids-rotator/home_footer_assets.png) no-repeat 0 -137px;
+			background: url(../images/kids-rotator/home_footer_assets.png) no-repeat 0 -137px;
 			text-indent: -9999px;
 			overflow: hidden;
 		}
@@ -189,7 +189,7 @@ html.js #footer {
 									float: left;
 									width: 142px;
 									height: 52px;
-									background: url(images/kids-rotator/home_footer_assets.png) no-repeat;
+									background: url(../images/kids-rotator/home_footer_assets.png) no-repeat;
 									text-indent: -9999px;
 									overflow: hidden;
 									display: block;
@@ -258,13 +258,13 @@ html.js #kids-rotator .content {
 }
 
 #kids-rotator .parents span, #kids-rotator .mobile span {
-	background: url(images/kids-rotator/parents-thumbnail-frame.png) no-repeat;
+	background: url(/images/kids-rotator/parents-thumbnail-frame.png) no-repeat;
 	margin-right: -75px;
 	width: 75px;
 }
 
 #kids-rotator .play span {
-	background: url(images/kids-rotator/play-thumbnail-frame.png) no-repeat;
+	background: url(/images/kids-rotator/play-thumbnail-frame.png) no-repeat;
 	margin-right: -98px;
 	width: 98px;
 }
