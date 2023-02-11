@@ -1,0 +1,12 @@
+/*
+Theme Name: PBSKIDS
+Theme URI: http://pbskids.org
+Description: The custom HTML5 theme for PBS KIDS in 2011.
+Version: 1.0
+Author: Jon White
+*/
+
+@import "/games/styles/reset.css";
+/* @import "/web/20130810141523cs_/http://www-tc.pbskids.org/games/styles/fonts.css"; ...This is now being called directly from the HTML. It can't come through the caching server. */
+@import "/games/styles/global.css";
+@import "/games/styles/icon_sprites.css";
