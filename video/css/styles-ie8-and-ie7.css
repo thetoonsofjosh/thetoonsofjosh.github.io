@@ -2,36 +2,36 @@
 #player .scrubber .scrubber-thumb,
 #parents-section #volume-dropdown .scrubber .scrubber-thumb
 {
-	background:url(/web/20130926063132im_/http://pbskids.org/video/img/sheet-ie7.png) no-repeat -155px -280px !important;
+	background:url(/video/img/sheet-ie7.png) no-repeat -155px -280px !important;
 	border: none !important;
 }
 
 
 
-#parents-section .dropdown .list .topicItem .bullet{ background:url(/web/20130926063132im_/http://pbskids.org/video/img/sheet-ie7.png) no-repeat -150px -250px; }
+#parents-section .dropdown .list .topicItem .bullet{ background:url(/video/img/sheet-ie7.png) no-repeat -150px -250px; }
 #parents-section .dropdown .list .child-topic .bullet{ background-position: -170px -250px; }
 
-#parents-section .close-button      { background:url(/web/20130926063132im_/http://pbskids.org/video/img/sheet-ie7.png) no-repeat -195px -250px; }
-#parents-section .close-button:hover{ background:url(/web/20130926063132im_/http://pbskids.org/video/img/sheet-ie7.png) no-repeat -195px -280px; }
+#parents-section .close-button      { background:url(/video/img/sheet-ie7.png) no-repeat -195px -250px; }
+#parents-section .close-button:hover{ background:url(/video/img/sheet-ie7.png) no-repeat -195px -280px; }
 
 
 
-#character-list-container .scroll-up   { background:url(/web/20130926063132im_/http://pbskids.org/video/img/sheet-ie7.png) no-repeat   0px  -80px; }
-#character-list-container .scroll-down { background:url(/web/20130926063132im_/http://pbskids.org/video/img/sheet-ie7.png) no-repeat   0px -117px; }
-#character-list-container .scroll-left { background:url(/web/20130926063132im_/http://pbskids.org/video/img/sheet-ie7.png) no-repeat -30px -240px; }
-#character-list-container .scroll-right{ background:url(/web/20130926063132im_/http://pbskids.org/video/img/sheet-ie7.png) no-repeat   0px -240px; }
+#character-list-container .scroll-up   { background:url(/video/img/sheet-ie7.png) no-repeat   0px  -80px; }
+#character-list-container .scroll-down { background:url(/video/img/sheet-ie7.png) no-repeat   0px -117px; }
+#character-list-container .scroll-left { background:url(/video/img/sheet-ie7.png) no-repeat -30px -240px; }
+#character-list-container .scroll-right{ background:url(/video/img/sheet-ie7.png) no-repeat   0px -240px; }
 
-#character-list-container .scroll-up:hover   { background:url(/web/20130926063132im_/http://pbskids.org/video/img/sheet-ie7.png) no-repeat    0px -160px; }
-#character-list-container .scroll-down:hover { background:url(/web/20130926063132im_/http://pbskids.org/video/img/sheet-ie7.png) no-repeat    0px -197px; }
-#character-list-container .scroll-left:hover { background:url(/web/20130926063132im_/http://pbskids.org/video/img/sheet-ie7.png) no-repeat -100px -240px; }
-#character-list-container .scroll-right:hover{ background:url(/web/20130926063132im_/http://pbskids.org/video/img/sheet-ie7.png) no-repeat  -70px -240px; }
+#character-list-container .scroll-up:hover   { background:url(/video/img/sheet-ie7.png) no-repeat    0px -160px; }
+#character-list-container .scroll-down:hover { background:url(/video/img/sheet-ie7.png) no-repeat    0px -197px; }
+#character-list-container .scroll-left:hover { background:url(/video/img/sheet-ie7.png) no-repeat -100px -240px; }
+#character-list-container .scroll-right:hover{ background:url(/video/img/sheet-ie7.png) no-repeat  -70px -240px; }
 
-#character-list-container ul li       { background:url(/web/20130926063132im_/http://pbskids.org/video/img/sheet-ie7.png) no-repeat -350px 6px; }
-#character-list-container ul li.active{ background:url(/web/20130926063132im_/http://pbskids.org/video/img/sheet-ie7.png) no-repeat -350px 0px; }
+#character-list-container ul li       { background:url(/video/img/sheet-ie7.png) no-repeat -350px 6px; }
+#character-list-container ul li.active{ background:url(/video/img/sheet-ie7.png) no-repeat -350px 0px; }
 		
-		#character-list-container ul li button         { background:url(/web/20130926063132im_/http://pbskids.org/video/img/sheet-ie7.png) no-repeat -350px  -80px; }
-		#character-list-container ul li:hover button   { background:url(/web/20130926063132im_/http://pbskids.org/video/img/sheet-ie7.png) no-repeat -350px -160px; }
-		#character-list-container ul li.selected button{ background:url(/web/20130926063132im_/http://pbskids.org/video/img/sheet-ie7.png) no-repeat -350px -240px !important; }
+		#character-list-container ul li button         { background:url(/video/img/sheet-ie7.png) no-repeat -350px  -80px; }
+		#character-list-container ul li:hover button   { background:url(/video/img/sheet-ie7.png) no-repeat -350px -160px; }
+		#character-list-container ul li.selected button{ background:url(/video/img/sheet-ie7.png) no-repeat -350px -240px !important; }
 
 
 
@@ -51,36 +51,15 @@
 
 
 @media screen and (min-width: 558px) {
-	#player #controlrack span     { background:url(/web/20130926063132im_/http://pbskids.org/video/img/sheet-ie7.png) no-repeat -222px 10px; }
-	#player #controlrack span.down{ background:url(/web/20130926063132im_/http://pbskids.org/video/img/sheet-ie7.png) no-repeat -222px  0px; }
+	#player #controlrack span     { background:url(/video/img/sheet-ie7.png) no-repeat -222px 10px; }
+	#player #controlrack span.down{ background:url(/video/img/sheet-ie7.png) no-repeat -222px  0px; }
 	
-			#player #controlrack button           { background:url(/web/20130926063132im_/http://pbskids.org/video/img/sheet-ie7.png) no-repeat -222px  -80px; }
-			#player #controlrack span:hover button{ background:url(/web/20130926063132im_/http://pbskids.org/video/img/sheet-ie7.png) no-repeat -222px -160px; }
+			#player #controlrack button           { background:url(/video/img/sheet-ie7.png) no-repeat -222px  -80px; }
+			#player #controlrack span:hover button{ background:url(/video/img/sheet-ie7.png) no-repeat -222px -160px; }
 	
-	#player #controlrack span.play-pause     { background:url(/web/20130926063132im_/http://pbskids.org/video/img/sheet-ie7.png) no-repeat 0px 10px; }
-	#player #controlrack span.play-pause.down{ background:url(/web/20130926063132im_/http://pbskids.org/video/img/sheet-ie7.png) no-repeat 0px  0px; }
+	#player #controlrack span.play-pause     { background:url(/video/img/sheet-ie7.png) no-repeat 0px 10px; }
+	#player #controlrack span.play-pause.down{ background:url(/video/img/sheet-ie7.png) no-repeat 0px  0px; }
 	
-			#player #controlrack span.play-pause button      { background:url(/web/20130926063132im_/http://pbskids.org/video/img/sheet-ie7.png) no-repeat 0px  -80px; }
-			#player #controlrack span.play-pause:hover button{ background:url(/web/20130926063132im_/http://pbskids.org/video/img/sheet-ie7.png) no-repeat 0px -160px; }
+			#player #controlrack span.play-pause button      { background:url(/video/img/sheet-ie7.png) no-repeat 0px  -80px; }
+			#player #controlrack span.play-pause:hover button{ background:url(/video/img/sheet-ie7.png) no-repeat 0px -160px; }
 	}
-/*
-     FILE ARCHIVED ON 06:31:32 Sep 26, 2013 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 19:46:25 Feb 11, 2023.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  captures_list: 128.645
-  exclusion.robots: 0.198
-  exclusion.robots.policy: 0.191
-  RedisCDXSource: 0.608
-  esindex: 0.006
-  LoadShardBlock: 111.641 (3)
-  PetaboxLoader3.datanode: 235.631 (5)
-  CDXLines.iter: 14.091 (3)
-  load_resource: 277.717 (2)
-  PetaboxLoader3.resolve: 79.344 (2)
-*/
