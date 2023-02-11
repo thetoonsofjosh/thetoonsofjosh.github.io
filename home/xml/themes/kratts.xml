@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+	<theme>
+		<skytop>0x32CCFF</skytop>
+		<skybottom>0xd4eee9</skybottom>
+		<ground>0x75C700</ground>
+		<hillhighlight>0x008c69</hillhighlight>
+		<textcolor>0xA79EE8</textcolor>
+		<themefront>yes</themefront>
+		<themeback>yes</themeback>
+		<showbubbles>yes</showbubbles>
+		<showtexture>yes</showtexture>
+	</theme>
+</themes>
