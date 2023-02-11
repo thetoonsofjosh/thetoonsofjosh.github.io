@@ -63,6 +63,13 @@
 <imageurl>http://www-tc.pbskids.org/home/images/shows/electriccompany.gif</imageurl>
 <audiourl>/audio/kg_s_electriccompany.swf</audiourl>
 </show>
+  
+<show>
+<name>LOMAX: THE HOUND OF MUSIC</name>
+<url>http://pbskids.org/fromkids/lomax/</url>
+<imageurl>http://www-tc.pbskids.org/home/images/shows/lomax.gif</imageurl>
+<audiourl>/audio/k_s_lomax.swf</audiourl>
+</show>  
 
 <show>
 <name>CYBERCHASE</name>
