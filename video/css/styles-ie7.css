@@ -1,0 +1,62 @@
+#parents-section #volume-dropdown .close-button,
+#parents-section .browsing-controls .close-button{
+	top:-1.875em;
+	position:relative;
+}   
+
+#parents-section #volume-dropdown button#mute-unmute-button{
+	margin-left:-35px;
+}
+
+#parents-section #volume-dropdown .volume-level{
+	margin-left:5px;
+}
+
+#player #controlrack span.down{
+	position:static;
+}
+
+#parents-bar #info-button img{
+	margin-top: 2px;
+}
+
+
+@media screen and (min-width: 640px) {
+  header .logo {
+    top:8px;
+		position:relative;
+	}
+}
+
+@media screen and (min-width: 660px) {
+ 	#kuchucka ul{
+		left: -15px;
+	}
+}
+
+@media screen and (min-width: 924px){
+	#character-list-container {
+		margin-left:12px;
+	}
+}
+/*
+     FILE ARCHIVED ON 06:32:28 Sep 26, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:46:40 Feb 11, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 658.738
+  exclusion.robots: 0.231
+  exclusion.robots.policy: 0.222
+  RedisCDXSource: 0.632
+  esindex: 0.007
+  LoadShardBlock: 640.523 (3)
+  PetaboxLoader3.datanode: 84.462 (5)
+  CDXLines.iter: 15.034 (3)
+  PetaboxLoader3.resolve: 787.407 (3)
+  load_resource: 271.376 (2)
+*/
