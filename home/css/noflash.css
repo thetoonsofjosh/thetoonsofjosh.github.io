@@ -67,7 +67,7 @@
 /* Header */
 
 #noflash-home .noflash-left-column #noflash-header {
-	background-image: url(../home/images/noflash/noflash-logo-pbskids.gif);
+	background-image: url(/home/images/noflash/noflash-logo-pbskids.gif);
 	background-repeat: no-repeat;
 	margin: 18px 18px 0 18px;
 	padding: 0 0 18px 175px;
