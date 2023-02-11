@@ -1,0 +1,348 @@
+/* USED IN THE GROWN UP CONTENT BELOW THE FLASH */
+
+#container {
+	overflow: hidden;
+}
+
+/* Hide the footer 'til things are loaded */
+html.js #footer {
+	display: none;
+}
+
+#footer {
+/*	background: #a2da15; */
+/*	background: red; *//* debug */
+	background: #90d500;
+	bottom: 0;
+	clear: both;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+	text-align: center;
+	width: 100%;
+}
+
+#footer #related-nav {
+	background: #ffed1b;
+	overflow: hidden;
+}
+
+#footer #related-nav .inner {
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 5px 0;
+	width: 276px;
+}
+
+#footer #related-nav p {
+	background: url(images/kids-rotator/for-more-fun.gif) no-repeat;
+	float: left;
+	height: 41px;
+	margin: 0 auto;
+	padding: 0 10px 0 0;
+	text-indent: -9999px;
+	width: 113px;
+}
+
+#footer #related-nav ul {
+	list-style-type: none;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+}
+
+#footer #related-nav ul li {
+	float: left;
+	height: 41px;
+	margin: 0;
+	padding: 0;
+	width: 153px;
+}
+
+#footer #related-nav ul li#videos {
+	padding: 0;
+}
+
+#footer #related-nav ul li a {
+	background-repeat: no-repeat;
+	display: block;
+	float: left;
+	height: 41px;
+	margin: 0;
+	outline: none;
+	padding: 0;
+	text-indent: -9999px;
+	width: 153px;
+}
+
+#footer #related-nav ul li#games a {
+	background-image: url(images/kids-rotator/button-games.gif);
+}
+
+#footer #related-nav ul li#videos a {
+	background-image: url(images/kids-rotator/button-videos.gif);
+	margin: 0;
+}
+
+#footer #banners {
+	width: 760px;
+	height: 80px;
+	margin: 5px auto 0 auto;
+	text-align: center;
+	font: 10px verdana, arial, sans-serif;
+	color: #fff;
+}
+
+#footer #banners #sponsorship {
+	float: left;
+	width: 235px;
+}
+
+#footer #banners #localization {
+	width: 117px;
+	margin-left: 640px;
+}
+
+#footer #banners #localization a:link,
+#footer #banners #localization a:visited,
+#footer #banners #localization a:hover,
+#footer #banners #localization a:active {
+	color: #336600;
+}
+
+#footer #banners #localization img {
+	border-top: 10px #fff solid;
+	border-right: 17px #fff solid;
+	border-bottom: 10px #fff solid;
+	border-left: 17px #fff solid;
+}
+
+/* KIDS ROTATOR */
+
+#flashcontent {
+	position: relative;
+	display: block;
+	z-index: 2;
+}
+#container {
+	position: relative;
+	z-index: 1;
+}
+#footer {
+}
+#kids-rotator {
+	margin: 0 auto;
+	padding: 12px 0;
+	position: relative;
+	width: 800px;
+}
+#kids-utilities {
+	height: 65px;
+	width: 934px;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+	position: relative;
+	margin: 0px auto;
+	text-align: left;
+	overflow: hidden;
+	z-index: 5;
+}
+
+		h3.tab {
+			width: 123px;
+			height: 34px;
+			overflow: hidden;
+			padding: 0;
+			margin: 0;
+			font-size: 10px;
+			line-height: 1;
+			bottom: 78px;
+			left: 13px;
+			position: absolute;
+			z-index: 4;
+			background: url(images/kids-rotator/home_footer_assets.png) no-repeat 0 -137px;
+			text-indent: -9999px;
+			overflow: hidden;
+		}
+
+
+		#kids-utilities ul {
+			position: absolute;
+			top: 6px;
+			left: 0;
+		}
+				.footerPromos-4 #kids-utilities ul {
+					left: 55px; /* faking "centeredness" */
+				}
+				#kids-utilities ul,
+				#kids-utilities li {
+					list-style: none;
+					padding: 0 0 0 0;
+					margin: 0 0 0 0;
+					line-height: 1;
+				}
+						#kids-utilities li {
+							display: inline;
+						}
+								#kids-utilities a {
+									margin: 0 10px 0 0;
+									float: left;
+									width: 142px;
+									height: 52px;
+									background: url(images/kids-rotator/home_footer_assets.png) no-repeat;
+									text-indent: -9999px;
+									overflow: hidden;
+									display: block;
+								}
+
+										#kids-utilities .shop a						{ background-position: -65px -21px;		width: 142px;							}
+										#kids-utilities .shop a:hover				{ background-position: -65px -73px;												}
+										#kids-utilities .mobileaps a				{ background-position: -217px -21px;	width: 123px;							}
+										#kids-utilities .mobileapps a:hover			{ background-position: -217px -73px;											}
+										#kids-utilities .play a						{ background-position: -350px -21px;	width: 317px;	margin-right: 9px;		}
+										#kids-utilities .play a:hover				{ background-position: -350px -73px;											}
+										#kids-utilities .parents a					{ background-position: -676px -21px;	width: 157px;	margin-right: 9px;		}
+										#kids-utilities .parents a:hover			{ background-position: -676px -73px;											}
+										#kids-utilities .teachers a					{ background-position: -842px -21px;	width: 157px;	margin-right: 0;		}
+										#kids-utilities .teachers a:hover			{ background-position: -842px -73px;											}
+										#kids-utilities .mobiledownloads a			{ background-position: -1009px -21px;	width: 166px;							}
+										#kids-utilities .mobiledownloads a:hover	{ background-position: -1009px -73px;											}
+
+
+
+#kids-rotator a { outline: none; }
+#kids-rotator a img { border: 0; }
+
+#nav-back {
+	left: 0;
+	position: absolute;
+	top: 20px;
+}
+
+#nav-next {
+	position: absolute;
+	right: 0;
+	top: 20px;
+}
+
+#kids-rotator-content { height: 50px; height: 50px; margin: 0 auto; position: relative; width: 671px; }
+html.js #kids-rotator .content {
+	background: #a2da15;
+/*	background: blue; *//* debug */
+	display: none;
+	left: 0;
+	position: absolute;
+	text-align: center;
+	top: 0;
+	width: 671px;
+}
+
+/* Parents & Play Promo Styling */
+
+#kids-rotator .parents, #kids-rotator .play, #kids-rotator .mobile {
+	color: #3f5b05;
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	width: 671px;
+}
+#kids-rotator .parents a, #kids-rotator .play a, #kids-rotator .mobile a { color: #3f5b05; }
+#kids-rotator .parents span, #kids-rotator .play span, #kids-rotator .mobile span {
+	cursor: pointer;
+	display: block;
+	float: left;
+	height: 50px;
+	position: relative;
+}
+
+#kids-rotator .parents span, #kids-rotator .mobile span {
+	background: url(images/kids-rotator/parents-thumbnail-frame.png) no-repeat;
+	margin-right: -75px;
+	width: 75px;
+}
+
+#kids-rotator .play span {
+	background: url(images/kids-rotator/play-thumbnail-frame.png) no-repeat;
+	margin-right: -98px;
+	width: 98px;
+}
+
+#kids-rotator .parents img, #kids-rotator .play img, #kids-rotator .mobile img { float: left; margin: 0 10px 0 0; padding: 0; }
+#kids-rotator .parents img.parents-logo, #kids-rotator .play img.play-logo, #kids-rotator .mobile img.play-logo { margin: 0 10px 0 0; }
+#kids-rotator .parents p, #kids-rotator .play p, #kids-rotator .mobile p { margin: 0; padding: 8px 0 0 0; text-align: left; }
+
+#pbs-ga-overlay { display: none; }
+
+/* COPYRIGHT */
+
+#copyright {
+	background: #fff;
+	color: #507700;
+	float: left;
+	margin: 0;
+	padding: 2px 0 3px 0;
+	width: 100%;
+}
+
+#copyright img {
+	display: inline;
+}
+
+/* Center the footer content in a fixed-width box */
+#copyright .inner { margin: 0 auto; width: 960px; }
+
+#copyright .utility-nav {
+    float: left;
+    font-size: 10px;
+    list-style-type: none;
+    margin: 6px 0;
+    padding: 0;
+}
+
+#copyright .utility-nav li a {
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 4px;
+    text-decoration: none;
+}
+
+#copyright .utility-nav li a:hover {
+    text-decoration: underline;
+}
+
+#copyright .utility-nav li {
+    display: inline;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#copyright .utility-nav li:last-child {
+    margin-right: 0;
+}
+
+#copyright #pbs-station {
+	float: right;
+	margin: 0;
+    padding: 0 20px 0 0;
+}
+
+#copyright #pbs-station p { float: none; margin: 6px 0; padding: 0; text-align: left; }
+#copyright #pbs-station img { border: 0; margin: -10px 0 -10px 0; position: relative; }
+#copyright #pbs-station a { color: #b9afaf; text-decoration: none; }
+#copyright #pbs-station a:hover { color: #9f9898; text-decoration: underline; }
+
+#copyright p.station { float: right; margin: 5px 0; padding: 0; text-align: right; }
+#copyright p { float: right; margin: 2px 0; padding: 0; text-align: right; }
+
+#copyright,
+#copyright a:link,
+#copyright a:visited,
+#copyright a:active
+{
+	font: 10px verdana, arial, sans-serif;
+	color: #507700;
+}
+
+#copyright a:hover { color: #83BF00; }
