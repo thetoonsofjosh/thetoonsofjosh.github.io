@@ -1,15 +1,15 @@
 @font-face {
   font-family: 'Colfax';
-  src: url('/web/20130926063030im_/http://pbskids.org/video/fonts/ColfaxWeb_EOT/ColfaxWebRegular.eot'); /* IE9 Compat Modes */
-  src: url('/web/20130926063030im_/http://pbskids.org/video/fonts/ColfaxWeb_EOT/ColfaxWebRegular.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/web/20130926063030im_/http://pbskids.org/video/fonts/ColfaxWeb_WOFF/ColfaxWebRegular.woff') format('woff'); /* Modern Browsers */
+  src: url('/video/fonts/ColfaxWeb_EOT/ColfaxWebRegular.eot'); /* IE9 Compat Modes */
+  src: url('/video/fonts/ColfaxWeb_EOT/ColfaxWebRegular.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/video/fonts/ColfaxWeb_WOFF/ColfaxWebRegular.woff') format('woff'); /* Modern Browsers */
 }
 
 @font-face {
   font-family: 'Colfax';
-  src: url('/web/20130926063030im_/http://pbskids.org/video/fonts/ColfaxWeb_EOT/ColfaxWebBold.eot'); /* IE9 Compat Modes */
-  src: url('/web/20130926063030im_/http://pbskids.org/video/fonts/ColfaxWeb_EOT/ColfaxWebBold.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/web/20130926063030im_/http://pbskids.org/video/fonts/ColfaxWeb_WOFF/ColfaxWebBold.woff') format('woff'); /* Modern Browsers */
+  src: url('/video/fonts/ColfaxWeb_EOT/ColfaxWebBold.eot'); /* IE9 Compat Modes */
+  src: url('/video/fonts/ColfaxWeb_EOT/ColfaxWebBold.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/video/fonts/ColfaxWeb_WOFF/ColfaxWebBold.woff') format('woff'); /* Modern Browsers */
   font-weight: bold;
 }
 
@@ -23,7 +23,7 @@ body{
 
 @media screen and (min-width: 640px) {
   body{
-    background:url(https://web.archive.org/web/20130926063030im_/http://www-tc.pbskids.org/video/img/tile_texture.png) #8DD748;
+    background:url(/video/img/tile_texture.png) #8DD748;
   }
 }
 
@@ -80,7 +80,7 @@ body.hide-external-links #headband-container{
 **************************************************/
 header {
   overflow:hidden;
-  background:url(/web/20130926063030im_/http://pbskids.org/video/img/fuzzy_shadow.png) bottom repeat-x #B4ED61;
+  background:url(/video/img/fuzzy_shadow.png) bottom repeat-x #B4ED61;
   padding-top:0.3125em;
 }
 
@@ -124,7 +124,7 @@ body.hide-external-links header{
             header .tab-games a {
               color:#8DD748;
               text-decoration:none;
-              background:url(/web/20130926063030im_/http://pbskids.org/video/img/fuzzy_shadow.png) bottom repeat-x #D5F686;
+              background:url(/video/img/fuzzy_shadow.png) bottom repeat-x #D5F686;
             }
 
 
@@ -338,7 +338,7 @@ body.hide-external-links #main-section{
 
 @media screen and (min-width: 660px) {
   #kuchucka{
-    background:#63B00F url("/web/20130926063030im_/http://pbskids.org/video/img/kuchucka-bg.png") repeat-x top;
+    background:#63B00F url("/video/img/kuchucka-bg.png") repeat-x top;
     display: inline-block;
     zoom:1; *display:inline; /*IE7 fix for "display:inline-block"*/
     height: 250px;
@@ -357,14 +357,14 @@ body.hide-external-links #main-section{
       }
 
           #kuchucka .wall{
-            background:url("https://web.archive.org/web/20130926063030im_/http://www-tc.pbskids.org/video/img/tile_texture.png") repeat scroll 0 100px #8DD748;
+            background:url("/video/img/tile_texture.png") repeat scroll 0 100px #8DD748;
             height:190px;
             position: relative;
             z-index: 300;
           }
 
           #kuchucka .tunnel{
-           background:url("/web/20130926063030im_/http://pbskids.org/video/img/kuchucka-bg.png") repeat-x scroll center -50px #63B00F;
+           background:url("/video/img/kuchucka-bg.png") repeat-x scroll center -50px #63B00F;
             height:60px;
           }
 
@@ -568,7 +568,7 @@ body.hide-external-links #main-section{
         #character-list-container .fade-left{
           left: 17px;
           position: absolute;
-          background:url(/web/20130926063030im_/http://pbskids.org/video/img/fuzzy_shadow_orange-vertical.png) repeat-y -27px 0;
+          background:url(/video/img/fuzzy_shadow_orange-vertical.png) repeat-y -27px 0;
           border-radius: 0 16px 16px 0;
         }
 
@@ -577,7 +577,7 @@ body.hide-external-links #main-section{
           margin-left: -44px;
           margin-top: -90px;
           position: absolute;
-          background:url(/web/20130926063030im_/http://pbskids.org/video/img/fuzzy_shadow_orange-vertical.png) repeat-y 0 0;
+          background:url(/video/img/fuzzy_shadow_orange-vertical.png) repeat-y 0 0;
           border-radius:16px 0 0 16px ;
         }
 
@@ -670,12 +670,12 @@ body.hide-external-links #main-section{
               }
 
               #character-list-container .fade-top span{
-                background:url(/web/20130926063030im_/http://pbskids.org/video/img/fuzzy_shadow_orange-horizontal.png) repeat-x 0 -27px;
+                background:url(/video/img/fuzzy_shadow_orange-horizontal.png) repeat-x 0 -27px;
                 border-radius: 16px 16px 0px 0px;
               }
 
               #character-list-container .fade-bottom span{
-                background:url(/web/20130926063030im_/http://pbskids.org/video/img/fuzzy_shadow_orange-horizontal.png) repeat-x 0 0;
+                background:url(/video/img/fuzzy_shadow_orange-horizontal.png) repeat-x 0 0;
                 border-radius:0px 0px 16px 16px ;
               }
 
@@ -1200,7 +1200,7 @@ body.hide-external-links #main-section{
               zoom:1; *display:inline; /*IE7 fix for "display:inline-block"*/
               font-weight:bold;
               font-size:0.75em;
-              background:url(/web/20130926063030im_/http://pbskids.org/video/img/parents_point.png) right center no-repeat #1AE2E2;
+              background:url(/video/img/parents_point.png) right center no-repeat #1AE2E2;
               width:11.06770833%;
               height:100%;
               float:left;
