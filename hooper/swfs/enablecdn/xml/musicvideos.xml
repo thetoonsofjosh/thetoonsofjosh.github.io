@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+
+<musicvideos>
+	<musicvideo id="biggerthanabug">
+		<title>Bigger Than A Bug</title>
+		<movie>/hooper/flvs/music/BiggerThanABug_90_320x240.flv</movie>
+	</musicvideo>
+	<musicvideo id="explorers">
+		<title>We Are Explorers</title>
+		<movie>/hooper/flvs/music/Explorers_90_320X240.flv</movie>
+	</musicvideo>
+	<musicvideo id="camping">
+		<title>Camping Out</title>
+		<movie>/hooper/flvs/music/Camping_90_320x240.flv</movie>
+	</musicvideo>
+	<musicvideo id="diggingdown">
+		<title>Digging Down</title>
+		<movie>/hooper/flvs/music/DiggingDown_90_320x240.flv</movie>
+	</musicvideo>
+	<musicvideo id="findout">
+		<title>Find Out</title>
+		<movie>/hooper/flvs/music/FindOut_90_320x240.flv</movie>
+	</musicvideo>
+	<musicvideo id="getready">
+		<title>Get Ready to Explore</title>
+		<movie>/hooper/flvs/music/GetReady_90_320x240.flv</movie>
+	</musicvideo>	
+	<musicvideo id="houses">
+		<title>Houses</title>
+		<movie>/hooper/flvs/music/Houses_90_320x240.flv</movie>
+	</musicvideo>
+	<musicvideo id="inabook">
+		<title>Look in a Book</title>
+		<movie>/hooper/flvs/music/InABook_90_320x240.flv</movie>
+	</musicvideo>
+	<musicvideo id="looking">
+		<title>Lost and Found Song</title>
+		<movie>/hooper/flvs/music/Looking_90_320x240.flv</movie>
+	</musicvideo>
+	<musicvideo id="neighborhood">
+		<title>My Neighborhood</title>
+		<movie>/hooper/flvs/music/Neighborhood_90_320x240.flv</movie>
+	</musicvideo>
+	<musicvideo id="outsidelisten">
+		<title>Spray, Spray. Splash!</title>
+		<movie>/hooper/flvs/music/OutsideListen_90_320x240.flv</movie>
+	</musicvideo>
+	<musicvideo id="putittogether">
+		<title>Put it Together</title>
+		<movie>/hooper/flvs/music/PutItTogether_90_320x240.flv</movie>
+	</musicvideo>
+	<musicvideo id="riding">
+		<title>Riding-a-ling</title>
+		<movie>/hooper/flvs/music/Riding_90_320x240.flv</movie>
+	</musicvideo>
+	<musicvideo id="treasurehunt">
+		<title>Treasure Hunt</title>
+		<movie>/hooper/flvs/music/TreasureHunt_90_320x240.flv</movie>
+	</musicvideo>
+	<musicvideo id="wheels">
+		<title>Wheels</title>
+		<movie>/hooper/flvs/music/Wheels_90_320x240.flv</movie>
+	</musicvideo>
+</musicvideos>
