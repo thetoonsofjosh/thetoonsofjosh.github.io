@@ -3,301 +3,301 @@
 
 <show>
 <name>THOMAS &amp; FRIENDS </name>
-<url>http://www.pbskids.org/thomasandfriends/</url>
+<url>/thomasandfriends/</url>
 <imageurl>/home/images/shows/thomasandfriends.gif</imageurl>
 <audiourl>/audio/k_s_thomas.swf</audiourl>
 </show>
 
 <show>
 <name>THE CAT IN THE HAT</name>
-<url>http://pbskids.org/fromkids/catinthehat</url>
+<url>/catinthehat</url>
 <imageurl>/home/images/shows/catinthehat.gif</imageurl>
 <audiourl>/audio/k_s_catandthehat.swf</audiourl>
 </show>
 
 <show>
 <name>SESAME STREET</name>
-<url>http://pbskids.org/fromkids/sesame/</url>
+<url>/sesame</url>
 <imageurl>/home/images/shows/sesame.gif</imageurl>
 <audiourl>/audio/k_s_sesamestreet.swf</audiourl>
 </show>
 
 <show>
 <name>WILD KRATTS</name>
-<url>http://pbskids.org/fromkids/wildkratts</url>
+<url>/wildkratts</url>
 <imageurl>/home/images/shows/wildkratts.gif</imageurl>
 <audiourl>/audio/g_s_wildkratts.swf</audiourl>
 </show>
 
 <show>
 <name>DINOSAUR TRAIN</name>
-<url>http://pbskids.org/fromkids/dinosaurtrain/</url>
+<url>/dinosaurtrain/</url>
 <imageurl>/home/images/shows/dinosaurtrain.gif</imageurl>
 <audiourl>/audio/k_s_dinoTrain.swf</audiourl>
 </show>
   
 <show>
 <name>POSTCARDS FROM BUSTER</name>
-<url>http://pbskids.org/fromkids/buster</url>
+<url>/buster</url>
 <imageurl>/home/images/shows/buster.gif</imageurl>
 <audiourl>/audio/k_s_buster.swf</audiourl>
 </show>  
   
 <show>
 <name>CURIOUS GEORGE</name>
-<url>http://pbskids.org/fromkids/curiousgeorge</url>
+<url>/curiousgeorge</url>
 <imageurl>/home/images/shows/curiousgeorge.gif</imageurl>
 <audiourl>/audio/k_s_curiousGeorge.swf</audiourl>
 </show>
 
 <show>
 <name>SID THE SCIENCE KID</name>
-<url>http://pbskids.org/fromkids/sid/</url>
+<url>/sid</url>
 <imageurl>/home/images/shows/sid.gif</imageurl>
 <audiourl>/audio/k_s_sidthesciencekid.swf</audiourl>
 </show>
 
 <show>
 <name>IT&#39;S A BIG BIG WORLD</name>
-<url>http://pbskids.org/fromkids/bigbigworld</url>
+<url>/bigbigworld</url>
 <imageurl>/home/images/shows/bigbigworld.gif</imageurl>
 <audiourl>/audio/k_s_bigbigworld.swf</audiourl>
 </show>  
   
 <show>
 <name>SUPER WHY!</name>
-<url>http://pbskids.org/fromkids/superwhy/</url>
+<url>/superwhy</url>
 <imageurl>/home/images/shows/superwhy.gif</imageurl>
 <audiourl>/audio/k_s_superwhy.swf</audiourl>
 </show>
 
 <show>
 <name>NODDY</name>
-<url>http://pbskids.org/fromkids/noddy/</url>
+<url>/noddy</url>
 <imageurl>/home/images/shows/noddy.gif</imageurl>
 <audiourl>/audio/k_s_noddy.swf</audiourl>
 </show>
 
 <show>
 <name>DRAGON TALES</name>
-<url>http://pbskids.org/fromkids/dragontales</url>
+<url>/dragontales</url>
 <imageurl>/home/images/shows/dragontales.gif</imageurl>
 <audiourl>/audio/k_s_dragontales.swf</audiourl>
 </show>  
   
 <show>
 <name>THE ELECTRIC COMPANY</name>
-<url>http://pbskids.org/fromkids/electriccompany/</url>
+<url>/electriccompany</url>
 <imageurl>/home/images/shows/electriccompany.gif</imageurl>
 <audiourl>/audio/kg_s_electriccompany.swf</audiourl>
 </show>
   
 <show>
 <name>LOMAX: THE HOUND OF MUSIC</name>
-<url>http://pbskids.org/fromkids/lomax/</url>
+<url>/lomax</url>
 <imageurl>/home/images/shows/lomax.gif</imageurl>
 <audiourl>/audio/k_s_lomax.swf</audiourl>
 </show>  
   
 <show>
 <name>BOOHBAH</name>
-<url>http://pbskids.org/fromkids/boohbah</url>
+<url>/boohbah</url>
 <imageurl>/home/images/shows/boohbah.gif</imageurl>
 <audiourl>/audio/k_s_boohbah.swf</audiourl>
 </show>  
 
 <show>
 <name>PANWAPA</name>
-<url>http://pbskids.org/fromkids/panwapa/</url>
+<url>/panwapa</url>
 <imageurl>/home/images/shows/panwapa.gif</imageurl>
 <audiourl>/audio/k_s_panwapa.swf</audiourl>
 </show>
   
 <show>
 <name>CYBERCHASE</name>
-<url>http://pbskids.org/fromkids/cyberchase/</url>
+<url>/cyberchase</url>
 <imageurl>/home/images/shows/cyberchase.gif</imageurl>
 <audiourl>/audio/kg_s_cyberchase.swf</audiourl>
 </show>
   
 <show>
 <name>MISTER ROGERS' NEIGHBORHOOD</name>
-<url>http://pbskids.org/fromkids/rogers/</url>
+<url>/rogers</url>
 <imageurl>/home/images/shows/rogers.gif</imageurl>
 <audiourl>/audio/k_s_misterRodgersNeighborhood.swf</audiourl>
 </show>
   
 <show>
 <name>TOOPY AND BINOO</name>
-<url>http://pbskids.org/fromkids/toopyandbinoo/</url>
+<url>/toopyandbinoo</url>
 <imageurl>/home/images/shows/toopyandbinoo.gif</imageurl>
 <audiourl>/audio/k_s_toopyandbinoo.swf</audiourl>
 </show>
   
 <show>
 <name>ARTHUR</name>
-<url>http://pbskids.org/fromkids/arthur/</url>
+<url>/arthur</url>
 <imageurl>/home/images/shows/arthur.gif</imageurl>
 <audiourl>/audio/kg_s_arthur.swf</audiourl>
 </show>
 
 <show>
 <name>READING RAINBOW</name>
-<url>http://pbskids.org/fromkids/readingrainbow/</url>
+<url>/readingrainbow</url>
 <imageurl>/home/images/shows/readingrainbow.gif</imageurl>
 <audiourl>/audio/k_s_readingrainbow.swf</audiourl>
 </show>
 
 <show>
 <name>DANIEL TIGER&#39;S NEIGHBORHOOD </name>
-<url>http://pbskids.org/fromkids/daniel/</url>
+<url>/daniel</url>
 <imageurl>/home/images/shows/daniel.gif</imageurl>
 <audiourl>/audio/k_s_daniel.swf</audiourl>
 </show>
 
 <show>
 <name>JAY JAY THE JET PLANE</name>
-<url>http://pbskids.org/fromkids/jayjay/</url>
+<url>/jayjay</url>
 <imageurl>/home/images/shows/jayjay.gif</imageurl>
 <audiourl>/audio/kg_s_jayjay.swf</audiourl>
 </show>
 
 <show>
 <name>MARTHA SPEAKS</name>
-<url>http://pbskids.org/fromkids/martha/</url>
+<url>/martha</url>
 <imageurl>/home/images/shows/martha.gif</imageurl>
 <audiourl>/audio/kg_s_marthaSpeaks.swf</audiourl>
 </show>
 
 <show>
 <name>WORDGIRL</name>
-<url>http://pbskids.org/fromkids/wordgirl/</url>
+<url>/wordgirl</url>
 <imageurl>/home/images/shows/wordgirl.gif</imageurl>
 <audiourl>/audio/kg_s_wordgirl.swf</audiourl>
 </show>
   
 <show>
 <name>SAGWA</name>
-<url>http://pbskids.org/fromkids/sagwa/</url>
+<url>/sagwa</url>
 <imageurl>/home/images/shows/sagwa.gif</imageurl>
 <audiourl>/audio/k_s_sagwa.swf</audiourl>
 </show>
 
 <show>
 <name>CLIFFORD THE BIG RED DOG</name>
-<url>http://pbskids.org/fromkids/clifford</url>
+<url>/clifford</url>
 <imageurl>/home/images/shows/clifford.gif</imageurl>
 <audiourl>/audio/k_s_clifford.swf</audiourl>
 </show>
 
 <show>
 <name>WORDWORLD</name>
-<url>http://pbskids.org/fromkids/wordworld/</url>
+<url>/wordworld</url>
 <imageurl>/home/images/shows/wordworld.gif</imageurl>
 <audiourl>/audio/k_s_wordworld.swf</audiourl>
 </show>
 
 <show>
 <name>FETCH! WITH RUFF RUFFMAN</name>
-<url>http://pbskids.org/fromkids/fetch/</url>
+<url>/fetch</url>
 <imageurl>/home/images/shows/fetch.gif</imageurl>
 <audiourl>/audio/kg_s_fetch.swf</audiourl>
 </show>
   
 <show>
 <name>TELETUBBIES</name>
-<url>http://pbskids.org/fromkids/teletubbies/</url>
+<url>/teletubbies</url>
 <imageurl>/home/images/shows/teletubbies.gif</imageurl>
 <audiourl>/audio/k_s_teletubbies.swf</audiourl>
 </show>
   
 <show>
 <name>BETSY</name>
-<url>http://pbskids.org/fromkids/betsy</url>
+<url>/betsy</url>
 <imageurl>/home/images/shows/betsy.gif</imageurl>
 <audiourl>/audio/k_s_betsy.swf</audiourl>
 </show>
     
 <show>
 <name>BARNEY AND FRIENDS</name>
-<url>http://pbskids.org/fromkids/barney/</url>
+<url>/barney</url>
 <imageurl>/home/images/shows/barney.gif</imageurl>
 <audiourl>/audio/k_s_barney.swf</audiourl>
 </show>
 
 <show>
 <name>BERENSTAIN BEARS</name>
-<url>http://pbskids.org/fromkids/berenstainbears</url>
+<url>/berenstainbears</url>
 <imageurl>/home/images/shows/berenstainbears.gif</imageurl>
 <audiourl>/audio/k_s_berenstainbears.swf</audiourl>
 </show>
   
 <show>
 <name>CAILLOU</name>
-<url>http://pbskids.org/fromkids/caillou</url>
+<url>/caillou</url>
 <imageurl>/home/images/shows/caillou.gif</imageurl>
 <audiourl>/audio/k_s_caillou.swf</audiourl>
 </show>
 
 <show>
 <name>MAMA MIRABELLE'S HOME MOVIES</name>
-<url>http://pbskids.org/fromkids/mamamirabelle</url>
+<url>/mamamirabelle</url>
 <imageurl>/home/images/shows/mamamirabelle.gif</imageurl>
 <audiourl>/audio/k_s_mammaMirabelle.swf</audiourl>
 </show>
 
 <show>
 <name>ZOBOOMAFOO</name>
-<url>http://pbskids.org/fromkids/zoboo/</url>
+<url>/zoboo</url>
 <imageurl>/home/images/shows/zoboo.gif</imageurl>
 <audiourl>/audio/k_s_zoboo.swf</audiourl>
 </show>
   
 <show>
 <name>FRANNY&#39;S FEET</name>
-<url>http://pbskids.org/fromkids/frannysfeet/</url>
+<url>/frannysfeet/</url>
 <imageurl>/home/images/shows/frannysfeet.gif</imageurl>
 <audiourl>/audio/kg_s_frannysfeet.swf</audiourl>
 </show>
 
 <show>
 <name>BETWEEN THE LIONS</name>
-<url>http://pbskids.org/fromkids/lions</url>
+<url>/lions</url>
 <imageurl>/home/images/shows/lions.gif</imageurl>
 <audiourl>/audio/kg_s_betweenthelions.swf</audiourl>
 </show>
 
 <show>
 <name>MAYA &amp; MIGUEL</name>
-<url>http://pbskids.org/fromkids/mayaandmiguel</url>
+<url>/mayaandmiguel</url>
 <imageurl>/home/images/shows/mayaandmiguel.gif</imageurl>
 <audiourl>/audio/kg_s_mayaMiguel.swf</audiourl>
 </show>
 
 <show>
 <name>GEORGE SHRINKS</name>
-<url>http://pbskids.org/fromkids/georgeshrinks/</url>
+<url>/georgeshrinks</url>
 <imageurl>/home/images/shows/georgeshrinks.gif</imageurl>
 <audiourl>/audio/kg_s_georgeshrinks.swf</audiourl>
 </show>
   
 <show>
 <name>ANGELINA BALLERINA</name>
-<url>http://pbskids.org/fromkids/angelinaballerina</url>
+<url>/angelinaballerina</url>
 <imageurl>/home/images/shows/angelinaballerina.gif</imageurl>
 <audiourl>/audio/k_s_angelina.swf</audiourl>
 </show>
 
 <show>
 <name>ZOOM</name>
-<url>http://pbskids.org/fromkids/zoom/</url>
+<url>/zoom</url>
 <imageurl>/home/images/shows/zoom.gif</imageurl>
 <audiourl>/audio/k_s_zoom.swf</audiourl>
 </show>
   
 <show>
 <name>PEG + CAT</name>
-<url>http://pbskids.org/fromkids/peg</url>
+<url>/peg</url>
 <imageurl>/home/images/shows/peg.gif</imageurl>
 <audiourl>/audio/k_s_peg.swf</audiourl>
 </show>
