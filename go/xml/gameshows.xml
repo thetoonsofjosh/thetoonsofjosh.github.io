@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shows>
+
+	<show status="primary">
+		<shortname>arthur</shortname> 
+		<name>Arthur</name>
+		<image>/go/games/images/shows/arthur.jpg</image>
+	</show>
+
+	<show status="primary">
+		<shortname>wordgirl</shortname> 
+		<name>WordGirl</name>
+		<image>/go/games/images/shows/wordgirl.jpg</image>
+	</show>
+
+    <show status="primary">
+		<shortname>wildkratts</shortname> 
+		<name>Wild Kratts</name>
+		<image>/go/games/images/shows/wildkratts.jpg</image>
+	</show>
+
+	<show status="primary">
+		<shortname>electriccompany</shortname> 
+		<name>The Electric Company</name>
+		<image>/go/games/images/shows/electriccompany.jpg</image>
+	</show>
+	
+	<show status="primary">
+		<shortname>fetch</shortname> 
+		<name>FETCH! with Ruff Ruffman</name>
+		<image>/go/games/images/shows/fetch.jpg</image>
+	</show>
+
+	<show status="primary">
+		<shortname>cyberchase</shortname> 
+		<name>Cyberchase</name>
+		<image>/go/games/images/shows/cyberchase.jpg</image>
+	</show>
+	
+	<show status="primary">
+		<shortname>lunchlab</shortname> 
+		<name>Fizzy's Lunch Lab</name>
+		<image>/go/games/images/shows/lunchlab.jpg</image>
+	</show>
+	    
+	<show status="primary">
+		<shortname>wilsonandditch</shortname> 
+		<name>Wilson &amp; Ditch </name>
+		<image>/go/games/images/shows/wilsonDitch2.png</image>
+	</show>
+
+	<show status="secondary">
+		<shortname>chuck</shortname> 
+		<name>Chuck Vanderchuck</name>
+		<image>/go/games/images/shows/chuck.png</image>
+	</show>
+	
+	<show status="secondary">
+		<shortname>noah</shortname> 
+		<name>Oh Noah!</name>
+		<image>/go/games/images/shows/noah.png</image>
+	</show>
+
+	<show status="secondary">
+		<shortname>designsquad</shortname> 
+		<name>Design Squad</name>
+		<image>/go/games/images/shows/designsquad.jpg</image>
+	</show>
+
+	<show status="secondary">
+		<shortname>scigirls</shortname> 
+		<name>SciGirls</name>
+		<image>/go/games/images/shows/scigirls.jpg</image>
+	</show>
+	
+	<show status="secondary">
+		<shortname>mayaandmiguel</shortname> 
+		<name>Maya &amp; Miguel</name>
+		<image>/go/games/images/shows/mayamiguel.jpg</image>
+	</show>
+
+	<show status="secondary">
+		<shortname>thegreens</shortname> 
+		<name>The Greens</name>
+		<image>/go/games/images/shows/greens.jpg</image>
+	</show>
+
+	<show status="secondary">
+		<shortname>itsmylife</shortname> 
+		<name>It&apos;s My Life</name>
+		<image>/go/games/images/shows/itsmylife.jpg</image>
+	</show>
+
+	<show status="secondary">
+		<shortname>eekoworld</shortname> 
+		<name>EekoWorld</name>
+		<image>/go/games/images/shows/eekoworld.jpg</image>
+	</show>
+	
+	<show status="secondary">
+		<shortname>zoom</shortname> 
+		<name>ZOOM</name>
+		<image>/go/games/images/shows/zoom.jpg</image>
+	</show>
+		
+	<show status="secondary">
+		<shortname>webonauts</shortname> 
+		<name>Webonauts</name>
+		<image>/go/games/images/shows/webonauts.jpg</image>
+	</show>
+
+	<show status="secondary">
+		<shortname>lifeboat</shortname> 
+		<name>Lifeboat to Mars</name>
+		<image>/go/games/images/shows/lifeboat.jpg</image>
+	</show>
+
+	<show status="secondary">
+		<shortname>dragonflytv</shortname> 
+		<name>DragonflyTV</name>
+		<image>/go/games/images/shows/dragonflytv.jpg</image>
+	</show>
+    
+    <show status="secondary">
+		<shortname>kws</shortname> 
+		<name>Kids World Sports</name>
+		<image>/go/games/images/shows/kws.jpg</image>
+	</show>
+    
+    <show status="secondary">
+		<shortname>buster</shortname> 
+		<name>Postcards from Buster</name>
+		<image>/go/games/images/shows/postcards.jpg</image>
+	</show>
+        
+</shows>
