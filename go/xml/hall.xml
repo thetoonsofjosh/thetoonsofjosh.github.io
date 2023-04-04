@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<hall>
+
+
+    <game size="large" is_new="False">
+        <url>/cyberchase/weather/index.html</url>
+        <image>/go/images/programs/large-cyberchase-weather.jpg</image>
+        <title>Cyberchase</title>
+        <teaser>Are you a weather watcher? </teaser>
+    </game>
+
+
+
+    <game size="small" is_new="False">
+        <url>/fetch/games/csi_1/index.html</url>
+        <image>/go/images/programs/small-fetch-csi_1.gif</image>
+        <title>FETCH! with Ruff Ruffman</title>
+        <teaser>Use canine sniffer intelligence to solve the case</teaser>
+    </game>
+
+    <game size="small" is_new="False">
+        <url>/zoom/games/kitchenchemistry/</url>
+        <image>/go/images/programs/small-zoom.gif</image>
+        <title>ZOOM</title>
+        <teaser>Do you have what it takes to launch a rocket?</teaser>
+    </game>
+
+    <game size="small" is_new="False">
+        <url>/lunchlab/games/sneaky-switcheroo</url>
+        <image>/go/images/programs/small-lunchlab-switcheroo.jpg</image>
+        <title>Fizzy&#39;s Lunch Lab</title>
+        <teaser>Don&#39;t Let Freddy&#39;s Greasy Treats Slow You Down!</teaser>
+    </game>
+
+    <game size="small" is_new="False">
+        <url>/cyberchase/games/timekeeping/</url>
+        <image>/go/images/programs/small-cyberchase-mazemarble.gif</image>
+        <title>Cyberchase</title>
+        <teaser>Will you be fast enough to keep the clock running?</teaser>
+    </game>
+
+    <game size="small" is_new="False">
+        <url>/buster/games/coasttocoast/</url>
+        <image>/go/images/programs/small-buster-coasttocoast.gif</image>
+        <title>Postcards from Buster</title>
+        <teaser>Test your state smarts and get across the country</teaser>
+    </game>
+
+
+
+    <game size="medium" is_new="False">
+        <url>/itsmylife/games/in_charge_flash.html</url>
+        <image>/go/images/programs/medium-itsmylife-incharge.gif</image>
+        <title>It&#39;s My Life</title>
+        <teaser>You&#39;re in charge until mom gets home</teaser>
+    </game>
+
+    <game size="medium" is_new="False">
+        <url>/arthur/games/dontwakekate/index.html</url>
+        <image>/go/images/programs/medium-arthur-dontwakekate.gif</image>
+        <title>Arthur</title>
+        <teaser>Shhh! Avoid noisy toys so you don&#39;t wake Baby Kate</teaser>
+    </game>
+
+    <game size="medium" is_new="False">
+        <url>/animalia/gbubus_bongo_nut_grab.html</url>
+        <image>/go/images/programs/medium-animalia-bongonutgrab.jpg</image>
+        <title>Animalia</title>
+        <teaser>Solve the puzzles to collect bongo nuts</teaser>
+    </game>
+
+    <game size="medium" is_new="False">
+        <url>/dragonflytv/games/flashsniffer_dogbreeding.html</url>
+        <image>/go/images/programs/medium-dragonflytv-dogbreeding.gif</image>
+        <title>DragonflyTV</title>
+        <teaser>It&#39;s all in the genes</teaser>
+    </game>
+
+
+</hall>
