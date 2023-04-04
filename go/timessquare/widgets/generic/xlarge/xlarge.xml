@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features>
+     
+      <game>
+            <gameurl>http://pbskids.org/democracy/presforaday/index.html</gameurl>
+            <gameimage>/images/programs/xlarge-democracy-president.gif</gameimage>
+      </game>
+      
+      <game>
+            <gameurl>http://pbskids.org/arthur/games/groovygarden/index.html</gameurl>
+            <gameimage>/images/programs/xlarge-arthur-groovyGarden.gif </gameimage>
+      </game>
+      
+      <game>
+            <gameurl>http://pbskids.org/arthur/games/lunchomatic/</gameurl>
+            <gameimage>/images/programs/xlarge-arthur-lunchomatic.gif</gameimage>
+      </game>
+      
+      <game>
+            <gameurl>http://pbskids.org/fetch/games/dishitout/index.html</gameurl>
+            <gameimage>/images/programs/xlarge-fetch-dishitout.gif</gameimage>
+      </game>
+      
+      <game>
+            <gameurl>http://pbskids.org/arthur/games/moviemaker/</gameurl>
+            <gameimage>/images/programs/xlarge-arthur-bustersmoviemaker.gif</gameimage>
+      </game>
+      
+</features>
