@@ -1,0 +1,2111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<games>
+
+  <game>
+    <title>Corporal Cup&#39;s Food Camp</title>
+    <show>Fizzy&#39;s Lunch Lab</show>
+    <url>http://pbskids.org/lunchlab/#/games/food-camp</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-lunchlab-foodCamp.jpg</image>
+    <teaser>Earn your gold star at Corporal Cup&#39;s Food Camp!</teaser>
+    <categories>
+    </categories>
+    <new>True</new>
+    <date>2011-01-04 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Firefly Flash</title>
+    <show>Wild Kratts</show>
+    <url>http://pbskids.org/wildkratts/games/firefly-flash/</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-wilk-FireflyFlash.jpg</image>
+    <teaser>Can you figure out the firefly code?</teaser>
+    <categories>
+      <category>Puzzles</category>
+      <category>Matching</category>
+      <category>Science</category>
+      <category>Animals</category>
+    </categories>
+    <new>True</new>
+    <date>2010-12-17 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Go Cheetah Go</title>
+    <show>Wild Kratts</show>
+    <url>http://pbskids.org/wildkratts/games/go-cheetah-go/</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-wilk-GoCheetahGo.jpg</image>
+    <teaser>Race your own cheetah</teaser>
+    <categories>
+      <category>Create</category>
+      <category>Science</category>
+      <category>Animals</category>
+    </categories>
+    <new>True</new>
+    <date>2010-12-17 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Go Nuts</title>
+    <show>Wild Kratts</show>
+    <url>http://pbskids.org/wildkratts/games/go-nuts/</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-wilk-GoNuts.jpg</image>
+    <teaser>Help your squirrel collect nuts</teaser>
+    <categories>
+      <category>Science</category>
+    </categories>
+    <new>True</new>
+    <date>2010-12-17 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Ride on Remora</title>
+    <show>Wild Kratts</show>
+    <url>http://pbskids.org/wildkratts/games/ride-on-remora/</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-wilk-RideOnRemora.jpg</image>
+    <teaser>Catch a ride!</teaser>
+    <categories>
+      <category>Science</category>
+      <category>Animals</category>
+    </categories>
+    <new>True</new>
+    <date>2010-12-17 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Your Wild Kratts Room</title>
+    <show>Wild Kratts</show>
+    <url>http://pbskids.org/wildkratts/your-room/</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-wilk-character.jpg</image>
+    <teaser>Dress your Wild Kratts character!</teaser>
+    <categories>
+      <category>Create</category>
+      <category>Science</category>
+      <category>Dress Up</category>
+    </categories>
+    <new>True</new>
+    <date>2010-12-17 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Caracal Leap</title>
+    <show>Wild Kratts</show>
+    <url>http://pbskids.org/wildkratts/games/caracal-leap/</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-wilk-CaracalLeap.jpg</image>
+    <teaser>Jump like a Caracal cat</teaser>
+    <categories>
+      <category>Science</category>
+    </categories>
+    <new>True</new>
+    <date>2010-12-17 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Go Go GoBros</title>
+    <show>Wilson &amp; Ditch</show>
+    <url>http://pbskids.org/wilsonandditch/gogogobros/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-wilsonandditch-gobros.jpg</image>
+    <teaser>Hop on a pogo stick or surf across the USA!</teaser>
+    <categories>
+      <category>Adventure</category>
+    </categories>
+    <new>True</new>
+    <date>2010-12-14 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Comic Creator</title>
+    <show>Arthur</show>
+    <url>http://pbskids.org/arthur/games/comiccreator/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-arthur-comic.gif</image>
+    <teaser>Make your own comic with Arthur and friends!</teaser>
+    <categories>
+      <category>Create</category>
+    </categories>
+    <new>True</new>
+    <date>2010-11-11 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Webonauts Internet Academy</title>
+    <show>Webonauts</show>
+    <url>http://pbskids.org/webonauts/</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-webonauts.jpg</image>
+    <teaser>Start your mission!</teaser>
+    <categories>
+      <category>Adventure</category>
+      <category>Machines</category>
+    </categories>
+    <new>False</new>
+    <date>2010-10-15 06:00:00</date>
+  </game>
+
+  <game>
+    <title>Wheel Houz</title>
+    <show>It&#39;s My Life</show>
+    <url>http://pbskids.org/itsmylife/games/wheelhouz/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-itsmylife-wheelhouz.gif</image>
+    <teaser>Express yourself and then share with friends!</teaser>
+    <categories>
+      <category>Create</category>
+    </categories>
+    <new>False</new>
+    <date>2010-10-15 06:00:00</date>
+  </game>
+
+  <game>
+    <title>Buster Baxter: Lung Defender</title>
+    <show>Arthur</show>
+    <url>http://pbskids.org/arthur/games/lungdefender/</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-arthur-lung.gif</image>
+    <teaser>Help Buster catch all of the asthma triggers</teaser>
+    <categories>
+      <category>Adventure</category>
+      <category>Science</category>
+    </categories>
+    <new>False</new>
+    <date>2010-10-15 06:00:00</date>
+  </game>
+
+  <game>
+    <title>Marthur Stickerbook Mashup</title>
+    <show>Arthur</show>
+    <url>http://pbskids.org/arthur/games/marthursticker/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-martha-stickerbook.jpg</image>
+    <teaser>What happens when Martha meets Arthur?</teaser>
+    <categories>
+      <category>Create</category>
+    </categories>
+    <new>False</new>
+    <date>2010-10-15 06:00:00</date>
+  </game>
+
+  <game>
+    <title>Dog Pound 3</title>
+    <show>FETCH! with Ruff Ruffman</show>
+    <url>http://pbskids.org/fetch/games/dogpound_03/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-fetch-dogpound3.jpg</image>
+    <teaser>Pound the answers, not the dog.</teaser>
+    <categories>
+      <category>Matching</category>
+      <category>Science</category>
+    </categories>
+    <new>False</new>
+    <date>2010-06-14 06:00:00</date>
+  </game>
+
+  <game>
+    <title>Tobey&#39;s Robot Workshop</title>
+    <show>WordGirl</show>
+    <url>http://pbskids.org/wordgirl/#/games/robot-workshop/</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-wordgirl-robot.jpg</image>
+    <teaser>What talent will your robot have?</teaser>
+    <categories>
+      <category>Create</category>
+      <category>Machines</category>
+    </categories>
+    <new>False</new>
+    <date>2010-05-17 06:00:00</date>
+  </game>
+
+  <game>
+    <title>Picture Yourself Digging America</title>
+    <show>Wilson &amp; Ditch</show>
+    <url>http://pbskids.org/wilsonandditch/pictureyourself/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-wilsonandditch-picture.jpg</image>
+    <teaser>Picture these gopher brothers in your town!</teaser>
+    <categories>
+      <category>Create</category>
+    </categories>
+    <new>False</new>
+    <date>2010-05-17 06:00:00</date>
+  </game>
+
+  <game>
+    <title>Road Quest</title>
+    <show>Wilson &amp; Ditch</show>
+    <url>http://pbskids.org/wilsonandditch/plategame/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-wilsonandditch-roadquest.jpg</image>
+    <teaser>Can you spot the plates for all fifty states?</teaser>
+    <categories>
+      <category>Matching</category>
+    </categories>
+    <new>False</new>
+    <date>2010-05-17 06:00:00</date>
+  </game>
+
+  <game>
+    <title>Build-a-Lair</title>
+    <show>WordGirl</show>
+    <url>http://pbskids.org/wordgirl/#/games/build-a-lair/</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-wordgirl-lair.jpg</image>
+    <teaser>Build a hideout for your favorite character!</teaser>
+    <categories>
+      <category>Create</category>
+    </categories>
+    <new>False</new>
+    <date>2010-05-17 06:00:00</date>
+  </game>
+
+  <game>
+    <title>The Great Word Quest</title>
+    <show>The Great Word Quest</show>
+    <url>http://pbskids.org/wordquest/</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-wordquest-mascots.jpg</image>
+    <teaser>Play quests, compete with teams, and get word gems</teaser>
+    <categories>
+      <category>Adventure</category>
+      <category>Words</category>
+    </categories>
+    <new>False</new>
+    <date>2010-05-17 06:00:00</date>
+  </game>
+
+  <game>
+    <title>Lifeboat to Mars</title>
+    <show>Lifeboat to Mars</show>
+    <url>http://pbskids.org/lifeboat/</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-lifeboat.jpg</image>
+    <teaser>Can you save the lifeboat&#39;s mission to Mars?</teaser>
+    <categories>
+      <category>Adventure</category>
+      <category>Science</category>
+      <category>Animals</category>
+    </categories>
+    <new>False</new>
+    <date>2010-05-17 06:00:00</date>
+  </game>
+
+  <game>
+    <title>Freddy&#39;s Sneaky Switcheroo</title>
+    <show>Fizzy&#39;s Lunch Lab</show>
+    <url>http://pbskids.org/lunchlab/games/sneaky-switcheroo</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-lunchlab-switcheroo.jpg</image>
+    <teaser>Don&#39;t Let Freddy&#39;s Greasy Treats Slow You Down!</teaser>
+    <categories>
+    </categories>
+    <new>False</new>
+    <date>2010-05-17 06:00:00</date>
+  </game>
+
+  <game>
+    <title>Sully the Cell&#39;s Memory Match</title>
+    <show>Fizzy&#39;s Lunch Lab</show>
+    <url>http://pbskids.org/lunchlab/games/memory-match</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-lunchlab-match.jpg</image>
+    <teaser>Tour the Human Body with Sully the Cell</teaser>
+    <categories>
+      <category>Matching</category>
+    </categories>
+    <new>False</new>
+    <date>2010-05-17 06:00:00</date>
+  </game>
+
+  <game>
+    <title>Fizzy&#39;s Balance Bots</title>
+    <show>Fizzy&#39;s Lunch Lab</show>
+    <url>http://pbskids.org/lunchlab/#/games/balance-bot</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-fizzy-balancebot.jpg</image>
+    <teaser>Can you make these robots dance?</teaser>
+    <categories>
+    </categories>
+    <new>False</new>
+    <date>2010-05-17 06:00:00</date>
+  </game>
+
+  <game>
+    <title>Mixie&#39;s Boogie Buffet</title>
+    <show>Fizzy&#39;s Lunch Lab</show>
+    <url>http://pbskids.org/lunchlab/games/boogie-buffet</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-lunchlab-boogieBuffet.jpg</image>
+    <teaser>Get Your Groove On!</teaser>
+    <categories>
+      <category>Music</category>
+    </categories>
+    <new>False</new>
+    <date>2010-05-17 06:00:00</date>
+  </game>
+
+  <game>
+    <title>Disco Fiasco</title>
+    <show>FETCH! with Ruff Ruffman</show>
+    <url>http://pbskids.org/fetch/games/disco/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-fetch-discofiasco.gif</image>
+    <teaser>Get Ruff&#39;s party started!</teaser>
+    <categories>
+      <category>Science</category>
+    </categories>
+    <new>False</new>
+    <date>2010-05-17 06:00:00</date>
+  </game>
+
+  <game>
+    <title>Light It Right</title>
+    <show>The Greens</show>
+    <url>http://pbskids.org/meetthegreens/games/light-it-right.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-greens-lightitright.gif</image>
+    <teaser>Quick! Turn out the lights!</teaser>
+    <categories>
+      <category>Science</category>
+    </categories>
+    <new>False</new>
+    <date>2009-10-21 06:00:00</date>
+  </game>
+
+  <game>
+    <title>Thrifty Threads</title>
+    <show>The Greens</show>
+    <url>http://pbskids.org/meetthegreens/games/thrifty-threads.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-greens-thriftythreads.gif</image>
+    <teaser>Turn old clothes into something new</teaser>
+    <categories>
+      <category>Create</category>
+      <category>Dress Up</category>
+    </categories>
+    <new>False</new>
+    <date>2009-10-21 06:00:00</date>
+  </game>
+
+  <game>
+    <title>Design Squad XChange</title>
+    <show>Design Squad</show>
+    <url>http://pbskids.org/designsquad//exchange/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-designsquad-dsxchange.jpg</image>
+    <teaser>Make a drawing or a wish about an invention</teaser>
+    <categories>
+      <category>Create</category>
+      <category>Science</category>
+    </categories>
+    <new>False</new>
+    <date>2009-10-05 06:00:00</date>
+  </game>
+
+  <game>
+    <title>Move it or Luge it!</title>
+    <show>FETCH! with Ruff Ruffman</show>
+    <url>http://pbskids.org/fetch/games/luge/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-fetch-lugeit.jpg</image>
+    <teaser>Race downhill to beat Scruff!</teaser>
+    <categories>
+      <category>Science</category>
+      <category>Sports</category>
+    </categories>
+    <new>False</new>
+    <date>2009-09-10 06:00:00</date>
+  </game>
+
+  <game>
+    <title>Star in WordGirl</title>
+    <show>PBS KIDS GO!</show>
+    <url>http://pbskids.org/go/video/?pid=IPriTmJmfjCyX6DVzSubD_0QO3IIjC0L&amp;category=games</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-wordgirl-star.jpg</image>
+    <teaser>Create a character to appear in a WordGirl video</teaser>
+    <categories>
+      <category>Create</category>
+    </categories>
+    <new>False</new>
+    <date>2009-08-31 06:00:00</date>
+  </game>
+
+  <game>
+    <title>Stop the Stormerator!</title>
+    <show>Cyberchase</show>
+    <url>http://pbskids.org/cyberchase/games/quest4/quest.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-stormeratorNoNew.jpg</image>
+    <teaser>Disable the weatherbots before its too late!</teaser>
+    <categories>
+      <category>Math</category>
+      <category>Adventure</category>
+      <category>Science</category>
+    </categories>
+    <new>False</new>
+    <date>2009-07-30 06:00:00</date>
+  </game>
+
+  <game>
+    <title>Sort It Out</title>
+    <show>The Electric Company</show>
+    <url>http://pbskids.org/electriccompany/games/sortitout</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-electriccompany-sort.jpg</image>
+    <teaser>Show off your sorting skills with Francine</teaser>
+    <categories>
+      <category>Matching</category>
+      <category>Words</category>
+    </categories>
+    <new>False</new>
+    <date>2009-07-20 06:00:00</date>
+  </game>
+
+  <game>
+    <title>Water We Doing</title>
+    <show>FETCH! with Ruff Ruffman</show>
+    <url>http://pbskids.org/fetch/games/water/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-fetch-water.gif</image>
+    <teaser>Take Chet&#39;s place as Ruff&#39;s intern</teaser>
+    <categories>
+      <category>Science</category>
+    </categories>
+    <new>False</new>
+    <date>2009-07-16 06:00:00</date>
+  </game>
+
+  <game>
+    <title>Honey Bee Hunt</title>
+    <show>PBS KIDS GO!</show>
+    <url>http://pbskids.org/go/video/?pid=EPrnl5n3VN84vU2Jk2lCst4INTF5cdSc&amp;category=games</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-wordgirl-honeybeehunt.jpg</image>
+    <teaser>See how many honey bees you can find</teaser>
+    <categories>
+    </categories>
+    <new>False</new>
+    <date>2009-04-10 06:00:00</date>
+  </game>
+
+  <game>
+    <title>Great Escapes</title>
+    <show>The Electric Company</show>
+    <url>http://pbskids.org/electriccompany/#/games/escapes/</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-electriccompany-escapes.jpg</image>
+    <teaser>Will special agent Jack Bowser escape this time?</teaser>
+    <categories>
+      <category>Puzzles</category>
+      <category>Words</category>
+    </categories>
+    <new>False</new>
+    <date>2009-03-27 06:00:00</date>
+  </game>
+
+  <game>
+    <title>PlaySpace</title>
+    <show>Cyberchase</show>
+    <url>http://pbskids.org/cyberchase/playspace/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-playspace.jpg</image>
+    <teaser>PlaySpace is your place to tell cool stories</teaser>
+    <categories>
+      <category>Math</category>
+      <category>Create</category>
+    </categories>
+    <new>False</new>
+    <date>2009-03-10 06:00:00</date>
+  </game>
+
+  <game>
+    <title>Shock&#39;s Beatbox</title>
+    <show>The Electric Company</show>
+    <url>http://pbskids.org/electriccompany/games/shocksbeatbox/</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-electriccompany-shock.jpg</image>
+    <teaser>Make music on the beatbox machine</teaser>
+    <categories>
+      <category>Music</category>
+    </categories>
+    <new>False</new>
+    <date>2009-02-27 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Word Transformer</title>
+    <show>The Electric Company</show>
+    <url>http://pbskids.org/electriccompany/#/games/musicman</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-electriccompany-word.jpg</image>
+    <teaser>Jam out with Music Man</teaser>
+    <categories>
+      <category>Music</category>
+    </categories>
+    <new>False</new>
+    <date>2009-02-20 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Chain Game</title>
+    <show>The Electric Company</show>
+    <url>http://pbskids.org/electriccompany/#/games/chain</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-electriccompany-chain.jpg</image>
+    <teaser>Earn points as you transform words down the chain</teaser>
+    <categories>
+      <category>Puzzles</category>
+      <category>Words</category>
+    </categories>
+    <new>False</new>
+    <date>2009-02-20 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Combotronic</title>
+    <show>The Electric Company</show>
+    <url>http://pbskids.org/electriccompany/#/games/combo</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-electriccompany-combo.jpg</image>
+    <teaser>How many words can you make?</teaser>
+    <categories>
+      <category>Puzzles</category>
+      <category>Words</category>
+    </categories>
+    <new>False</new>
+    <date>2009-02-20 05:00:00</date>
+  </game>
+
+  <game>
+    <title>CSI: Hat Snatcher</title>
+    <show>FETCH! with Ruff Ruffman</show>
+    <url>http://pbskids.org/fetch/games/csi_3/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-fetch-csi3.gif</image>
+    <teaser>Use sleuthing skills to see who snatched the hat!</teaser>
+    <categories>
+      <category>Matching</category>
+      <category>Science</category>
+      <category>Mystery</category>
+    </categories>
+    <new>False</new>
+    <date>2009-02-12 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Lucky Star</title>
+    <show>Cyberchase</show>
+    <url>http://pbskids.org/cyberchase/lucky_star/launch.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-luckystar.jpg</image>
+    <teaser>Are you feeling lucky?</teaser>
+    <categories>
+      <category>Math</category>
+      <category>Quiz</category>
+    </categories>
+    <new>False</new>
+    <date>2009-01-29 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Huggy Dance</title>
+    <show>WordGirl</show>
+    <url>http://pbskids.org/wordgirl/games/game_8/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-wordgirl-huggydance.jpg</image>
+    <teaser>How is Captain Huggy Face feeling today?</teaser>
+    <categories>
+      <category>Animals</category>
+      <category>Words</category>
+    </categories>
+    <new>False</new>
+    <date>2009-01-09 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Maze Mania</title>
+    <show>WordGirl</show>
+    <url>http://pbskids.org/wordgirl/games/game_4/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-wordgirl-mazemania.jpg</image>
+    <teaser>Help WordGirl catch The Butcher</teaser>
+    <categories>
+      <category>Words</category>
+    </categories>
+    <new>False</new>
+    <date>2009-01-09 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Fidgit</title>
+    <show>Design Squad</show>
+    <url>http://pbskids.org/designsquad/games/fidgit/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-designSquad-fidgit.jpg</image>
+    <teaser>Build a Fidgit room and share it with friends!</teaser>
+    <categories>
+      <category>Create</category>
+      <category>Science</category>
+    </categories>
+    <new>False</new>
+    <date>2008-10-20 06:00:00</date>
+  </game>
+
+  <game>
+    <title>Groovy Garden</title>
+    <show>Arthur</show>
+    <url>http://pbskids.org/arthur/games/groovygarden/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-arthur-groovyGarden.gif</image>
+    <teaser>Grow your own groovy garden</teaser>
+    <categories>
+      <category>Create</category>
+      <category>Science</category>
+    </categories>
+    <new>False</new>
+    <date>2008-10-06 06:00:00</date>
+  </game>
+
+  <game>
+    <title>CSI: Tugboat Thug</title>
+    <show>FETCH! with Ruff Ruffman</show>
+    <url>http://pbskids.org/fetch/games/csi_2/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-fetch-csi2.gif</image>
+    <teaser>Who took Ruff&#39;s bathtub tugboat?</teaser>
+    <categories>
+      <category>Matching</category>
+      <category>Science</category>
+      <category>Mystery</category>
+    </categories>
+    <new>False</new>
+    <date>2008-09-18 06:00:00</date>
+  </game>
+
+  <game>
+    <title>Germinator</title>
+    <show>FETCH! with Ruff Ruffman</show>
+    <url>http://pbskids.org/fetch/games/germinator/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-fetch-germinator.gif</image>
+    <teaser>Watch out for the soap!</teaser>
+    <categories>
+    </categories>
+    <new>False</new>
+    <date>2008-09-18 06:00:00</date>
+  </game>
+
+  <game>
+    <title>Paco&#39;s Passport</title>
+    <show>Maya &amp; Miguel</show>
+    <url>http://pbskids.org/mayaandmiguel/english/games/passport/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-mayaandmiguel-passport.gif</image>
+    <teaser>Celebrate Hispanic Heritage with Paco</teaser>
+    <categories>
+      <category>Words</category>
+    </categories>
+    <new>False</new>
+    <date>2008-09-05 06:00:00</date>
+  </game>
+
+  <game>
+    <title>U Fix It</title>
+    <show>Cyberchase</show>
+    <url>http://pbskids.org/cyberchase/ufixit/launch.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-ufixit.jpg</image>
+    <teaser>Are you a master building fixer upper?</teaser>
+    <categories>
+      <category>Math</category>
+      <category>Create</category>
+      <category>Machines</category>
+    </categories>
+    <new>False</new>
+    <date>2008-07-31 06:00:00</date>
+  </game>
+
+  <game>
+    <title>Fetch! Face-Off</title>
+    <show>FETCH! with Ruff Ruffman</show>
+    <url>http://pbskids.org/fetch/games/faceoff/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-fetch-faceoff.gif</image>
+    <teaser>Challenge a friend to see who&#39;s the biggest fan</teaser>
+    <categories>
+      <category>Quiz</category>
+    </categories>
+    <new>False</new>
+    <date>2008-07-11 06:00:00</date>
+  </game>
+
+  <game>
+    <title>ROV</title>
+    <show>DragonflyTV</show>
+    <url>http://pbskids.org/dragonflytv/games/game_rov.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-dragonflytv-rov.gif</image>
+    <teaser>Explore the ocean and discover marine life!</teaser>
+    <categories>
+      <category>Matching</category>
+      <category>Science</category>
+    </categories>
+    <new>False</new>
+    <date>2008-06-09 06:00:00</date>
+  </game>
+
+  <game>
+    <title>Dog Ears 2</title>
+    <show>FETCH! with Ruff Ruffman</show>
+    <url>http://pbskids.org/fetch/games/dogears_02/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-fetch-dogear2.jpg</image>
+    <teaser>Crack and pop the audio safe!</teaser>
+    <categories>
+      <category>Music</category>
+      <category>Words</category>
+    </categories>
+    <new>False</new>
+    <date>2008-04-30 06:00:00</date>
+  </game>
+
+  <game>
+    <title>Dog Pound 2</title>
+    <show>FETCH! with Ruff Ruffman</show>
+    <url>http://pbskids.org/fetch/games/dogpound_02/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-fetch-dogpound2.jpg</image>
+    <teaser>Pound the answers, not the dog!</teaser>
+    <categories>
+      <category>Math</category>
+      <category>Matching</category>
+      <category>Science</category>
+      <category>Quiz</category>
+    </categories>
+    <new>False</new>
+    <date>2008-04-30 06:00:00</date>
+  </game>
+
+  <game>
+    <title>Cyberolympics</title>
+    <show>Cyberchase</show>
+    <url>http://pbskids.org/cyberchase/cyberolympics/</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-cyberolympics.gif</image>
+    <teaser>Lead Team Motherboard to victory!</teaser>
+    <categories>
+      <category>Math</category>
+    </categories>
+    <new>False</new>
+    <date>2008-04-21 06:00:00</date>
+  </game>
+
+  <game>
+    <title>Nanobots</title>
+    <show>DragonflyTV</show>
+    <url>http://pbskids.org/dragonflytv/games/game_nano.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-dragonflytv-nano.gif</image>
+    <teaser>Can your bot master these obstacle courses?</teaser>
+    <categories>
+      <category>Science</category>
+    </categories>
+    <new>False</new>
+    <date>2008-03-26 06:00:00</date>
+  </game>
+
+  <game>
+    <title>Geyser Surpriser</title>
+    <show>FETCH! with Ruff Ruffman</show>
+    <url>http://pbskids.org/fetch/games/geyser/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-fetch-geyser.gif</image>
+    <teaser>Cook Ruff&#39;s lunch...with geysers!</teaser>
+    <categories>
+      <category>Math</category>
+      <category>Science</category>
+    </categories>
+    <new>False</new>
+    <date>2008-02-15 05:00:00</date>
+  </game>
+
+  <game>
+    <title>CSI: Squeak Sneak</title>
+    <show>FETCH! with Ruff Ruffman</show>
+    <url>http://pbskids.org/fetch/games/csi_1/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-fetch-csi_1.gif</image>
+    <teaser>Use canine sniffer intelligence to solve the case</teaser>
+    <categories>
+      <category>Puzzles</category>
+      <category>Matching</category>
+      <category>Science</category>
+      <category>Mystery</category>
+    </categories>
+    <new>False</new>
+    <date>2008-02-15 05:00:00</date>
+  </game>
+
+  <game>
+    <title>String Thing</title>
+    <show>Design Squad</show>
+    <url>http://pbskids.org/designsquad/games/string_thing/string_thing.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-designsquad-stringthing.gif</image>
+    <teaser>Can you make music with this?</teaser>
+    <categories>
+      <category>Music</category>
+      <category>Machines</category>
+    </categories>
+    <new>False</new>
+    <date>2008-01-24 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Beach City Blues</title>
+    <show>It&#39;s My Life</show>
+    <url>http://pbskids.org/itsmylife/games/beachcityblues/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-itsmylife-beachcityblues.gif</image>
+    <teaser>Will this vacation end in fun or disaster?</teaser>
+    <categories>
+    </categories>
+    <new>False</new>
+    <date>2008-01-17 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Maya&#39;s Card Creator</title>
+    <show>Maya &amp; Miguel</show>
+    <url>http://pbskids.org/mayaandmiguel/english/games/cardcreator/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-mayaandmiguel-cardcreator.gif</image>
+    <teaser>Make and share a card with Maya</teaser>
+    <categories>
+    </categories>
+    <new>False</new>
+    <date>2007-12-17 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Pants on Fire</title>
+    <show>The Greens</show>
+    <url>http://pbskids.org/meetthegreens/episode4/pants-on-fire.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-meetthegreens-pantsonfire.gif</image>
+    <teaser>Test your eco-smarts</teaser>
+    <categories>
+      <category>Science</category>
+    </categories>
+    <new>False</new>
+    <date>2007-11-08 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Mystery Meat comic</title>
+    <show>WordGirl</show>
+    <url>http://pbskids.org/wordgirl/games/comicBook/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-wordgirl-mysterymeat.gif</image>
+    <teaser>Will WordGirl defeat The Butcher?</teaser>
+    <categories>
+    </categories>
+    <new>False</new>
+    <date>2007-11-01 06:00:00</date>
+  </game>
+
+  <game>
+    <title>Favorite Word</title>
+    <show>WordGirl</show>
+    <url>http://pbskids.org/wordgirl/favoriteWord/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-wordgirl-favoritewords.gif</image>
+    <teaser>What&#39;s YOUR favorite word?</teaser>
+    <categories>
+      <category>Words</category>
+    </categories>
+    <new>False</new>
+    <date>2007-08-29 06:00:00</date>
+  </game>
+
+  <game>
+    <title>Movie Maker</title>
+    <show>Arthur</show>
+    <url>http://pbskids.org/arthur/games/moviemaker/</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-arthur-bustersmoviemaker.gif</image>
+    <teaser>Lights, Camera....BUSTER!</teaser>
+    <categories>
+      <category>Create</category>
+    </categories>
+    <new>False</new>
+    <date>2007-08-07 06:00:00</date>
+  </game>
+
+  <game>
+    <title>Facts and Opinions</title>
+    <show>Arthur</show>
+    <url>http://pbskids.org/arthur/games/factsopinions/</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-arthur-factsopinions.gif</image>
+    <teaser>Get your facts straight!</teaser>
+    <categories>
+      <category>Quiz</category>
+    </categories>
+    <new>False</new>
+    <date>2007-08-02 06:00:00</date>
+  </game>
+
+  <game>
+    <title>WHOAHler Coaster</title>
+    <show>FETCH! with Ruff Ruffman</show>
+    <url>http://pbskids.org/fetch/games/coaster/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-fetch-whoahlercoaster.gif</image>
+    <teaser>Give Ruff the ride of his life!</teaser>
+    <categories>
+      <category>Create</category>
+      <category>Science</category>
+    </categories>
+    <new>False</new>
+    <date>2007-07-27 06:00:00</date>
+  </game>
+
+  <game>
+    <title>Global Gizmo</title>
+    <show>Arthur</show>
+    <url>http://pbskids.org/arthur/games/globalgizmo/</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-arthur-globalgizmo.gif</image>
+    <teaser>What&#39;s that sound?</teaser>
+    <categories>
+      <category>Matching</category>
+      <category>Music</category>
+    </categories>
+    <new>False</new>
+    <date>2007-06-26 06:00:00</date>
+  </game>
+
+  <game>
+    <title>Make a Jersey</title>
+    <show>Maya &amp; Miguel</show>
+    <url>http://pbskids.org/mayaandmiguel/english/games/sports/soccer/makeajersey/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-mayaandmiguel-makeajersey.gif</image>
+    <teaser>Create your own sports jersey</teaser>
+    <categories>
+      <category>Create</category>
+      <category>Sports</category>
+    </categories>
+    <new>False</new>
+    <date>2007-04-16 06:00:00</date>
+  </game>
+
+  <game>
+    <title>Dish It Out</title>
+    <show>FETCH! with Ruff Ruffman</show>
+    <url>http://pbskids.org/fetch/games/dishitout/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-fetch-dishitout.gif</image>
+    <teaser>Make your own challenge!</teaser>
+    <categories>
+      <category>Math</category>
+      <category>Create</category>
+      <category>Science</category>
+    </categories>
+    <new>False</new>
+    <date>2007-02-26 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Robot Rover</title>
+    <show>FETCH! with Ruff Ruffman</show>
+    <url>http://pbskids.org/fetch/games/rover/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-fetch-robotrover.gif</image>
+    <teaser>Build a FETCHing robot dog</teaser>
+    <categories>
+      <category>Create</category>
+      <category>Science</category>
+      <category>Animals</category>
+    </categories>
+    <new>False</new>
+    <date>2007-02-20 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Huggy&#39;s Freeze Frame Game</title>
+    <show>WordGirl</show>
+    <url>http://pbskids.org/wordgirl/games/game_1/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-wordgirl-freezeframegame.gif</image>
+    <teaser>Freeze! What&#39;s the right word?</teaser>
+    <categories>
+      <category>Words</category>
+    </categories>
+    <new>False</new>
+    <date>2007-02-06 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Kayak Challenge</title>
+    <show>Kids World Sports</show>
+    <url>http://pbskids.org/kws/games/kayakchallenge/</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-kws-kayakchallenge.gif</image>
+    <teaser>See how fast you can paddle through the flags</teaser>
+    <categories>
+      <category>Sports</category>
+    </categories>
+    <new>False</new>
+    <date>2007-02-06 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Trading Cards</title>
+    <show>Kids World Sports</show>
+    <url>http://pbskids.org/kws/games/tradingcards/</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-kws-tradingcards.gif</image>
+    <teaser>Create a trading card and email it to a friend</teaser>
+    <categories>
+      <category>Create</category>
+    </categories>
+    <new>False</new>
+    <date>2007-02-06 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Be Your Own Boss</title>
+    <show>It&#39;s My Life</show>
+    <url>http://pbskids.org/itsmylife/games/boss/</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-itsmylife-boss.gif</image>
+    <teaser>Can you manage your own business?</teaser>
+    <categories>
+    </categories>
+    <new>False</new>
+    <date>2007-02-06 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Inventors&#39; Workshop</title>
+    <show>Cyberchase</show>
+    <url>http://pbskids.org/cyberchase/inventions/</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-inventions.gif</image>
+    <teaser>Create cool inventions and solve crazy courses!</teaser>
+    <categories>
+      <category>Create</category>
+      <category>Science</category>
+      <category>Machines</category>
+    </categories>
+    <new>False</new>
+    <date>2006-11-20 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Dog Ears</title>
+    <show>FETCH! with Ruff Ruffman</show>
+    <url>http://pbskids.org/fetch/games/dogears/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-fetch-dogears.gif</image>
+    <teaser>Crack and pop the audio safe</teaser>
+    <categories>
+      <category>Puzzles</category>
+      <category>Words</category>
+    </categories>
+    <new>False</new>
+    <date>2006-05-15 06:00:00</date>
+  </game>
+
+  <game>
+    <title>Dog Pound</title>
+    <show>FETCH! with Ruff Ruffman</show>
+    <url>http://pbskids.org/fetch/games/dogpound/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-fetch-dogpound.gif</image>
+    <teaser>Pound the answers, not the dog.</teaser>
+    <categories>
+      <category>Matching</category>
+      <category>Science</category>
+      <category>Quiz</category>
+    </categories>
+    <new>False</new>
+    <date>2006-05-15 06:00:00</date>
+  </game>
+
+  <game>
+    <title>Link-o-Vision</title>
+    <show>FETCH! with Ruff Ruffman</show>
+    <url>http://pbskids.org/fetch/games/linkovision/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-fetch-linkovision.gif</image>
+    <teaser>Make links and earn bones</teaser>
+    <categories>
+      <category>Matching</category>
+      <category>Science</category>
+      <category>Animals</category>
+    </categories>
+    <new>False</new>
+    <date>2006-03-02 05:00:00</date>
+  </game>
+
+  <game>
+    <title>The Quest: Eco-Haven Emergency</title>
+    <show>Cyberchase</show>
+    <url>http://pbskids.org/cyberchase/quest3/launch.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-quest3.gif</image>
+    <teaser>Stop Hacker before he ruins Eco-Haven!</teaser>
+    <categories>
+      <category>Math</category>
+      <category>Adventure</category>
+      <category>Science</category>
+    </categories>
+    <new>False</new>
+    <date>2006-01-30 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Send in the Trolls</title>
+    <show>Cyberchase</show>
+    <url>http://pbskids.org/cyberchase/games/dataclusters/</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-sendinthetrolls.gif</image>
+    <teaser>Which troll will win the Cyber beauty pageant?</teaser>
+    <categories>
+      <category>Math</category>
+    </categories>
+    <new>False</new>
+    <date>2003-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Muffy&#39;s Wardrobe</title>
+    <show>Arthur</show>
+    <url>http://pbskids.org/arthur/games/wardrobe/</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-arthur-wardrobe.gif</image>
+    <teaser>Find the perfect outfit in Muffy&#39;s Wardrobe</teaser>
+    <categories>
+      <category>Dress Up</category>
+    </categories>
+    <new>False</new>
+    <date>2002-04-16 06:00:00</date>
+  </game>
+
+  <game>
+    <title>Alien: Assembly Required</title>
+    <show>Arthur</show>
+    <url>http://pbskids.org/arthur/games/alien/</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-arthur-alien.gif</image>
+    <teaser>Create the alien of your (&amp; Buster&#39;s) dreams.</teaser>
+    <categories>
+      <category>Create</category>
+      <category>Science</category>
+    </categories>
+    <new>False</new>
+    <date>2002-04-16 06:00:00</date>
+  </game>
+
+  <game>
+    <title>Goldburger to Go</title>
+    <show>ZOOM</show>
+    <url>http://pbskids.org/zoom/games/goldburgertogo/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-zoom-goldburger.gif</image>
+    <teaser>Perfect the invention to deliver lunch</teaser>
+    <categories>
+      <category>Science</category>
+      <category>Machines</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Power Words</title>
+    <show>WordGirl</show>
+    <url>http://pbskids.org/wordgirl/games/game_2/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-wordgirl-powerwords.gif</image>
+    <teaser>Now with new games! Help WordGirl save the day</teaser>
+    <categories>
+      <category>Words</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Comic Strip Capers</title>
+    <show>WordGirl</show>
+    <url>http://pbskids.org/wordgirl/games/game_3/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-wordgirl-comicstripcapers.gif</image>
+    <teaser>Make your own comic adventure</teaser>
+    <categories>
+      <category>Words</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Postcards from You</title>
+    <show>Postcards from Buster</show>
+    <url>http://pbskids.org/buster/pfy/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-buster-postcardsfromyou.gif</image>
+    <teaser>Send Buster a video postcard</teaser>
+    <categories>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Build-A-Flag</title>
+    <show>Postcards from Buster</show>
+    <url>http://pbskids.org/buster/games/flag/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-buster-flag.gif</image>
+    <teaser>Create your own flag with Buster</teaser>
+    <categories>
+      <category>Create</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Coast to Coast</title>
+    <show>Postcards from Buster</show>
+    <url>http://pbskids.org/buster/games/coasttocoast/</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-buster-coasttocoast.gif</image>
+    <teaser>Test your state smarts and get across the country</teaser>
+    <categories>
+      <category>Quiz</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Connect the States</title>
+    <show>Postcards from Buster</show>
+    <url>http://pbskids.org/buster/games/connectthestates/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-buster-connectthestates.gif</image>
+    <teaser>Beat Buster in this state-matching game!</teaser>
+    <categories>
+      <category>Matching</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Dream On</title>
+    <show>Postcards from Buster</show>
+    <url>http://pbskids.org/buster/games/dreamon/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-buster-dreamon.gif</image>
+    <teaser>Collect ingredients to make dreamy dishes</teaser>
+    <categories>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Pet Shop Match-Up</title>
+    <show>Maya &amp; Miguel</show>
+    <url>http://pbskids.org/mayaandmiguel/english/games/petshopmatchup/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-mayaandmiguel-petshopmatchup.gif</image>
+    <teaser>How many matches can you make?</teaser>
+    <categories>
+      <category>Matching</category>
+      <category>Animals</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Cooking with Abuela</title>
+    <show>Maya &amp; Miguel</show>
+    <url>http://pbskids.org/mayaandmiguel/english/games/cooking/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-mayaandmiguel-cookingwithabuela.gif</image>
+    <teaser>Help Abuela find all the ingredients</teaser>
+    <categories>
+      <category>Matching</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Global Groovin&#39;</title>
+    <show>Maya &amp; Miguel</show>
+    <url>http://pbskids.org/mayaandmiguel/english/games/globalgroovin/game.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-mayaandmiguel-globalgroovin.gif</image>
+    <teaser>Groove with gongs, bagpipes and world beats</teaser>
+    <categories>
+      <category>Music</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Miguel &amp; Andy&#39;s World of Sports</title>
+    <show>Maya &amp; Miguel</show>
+    <url>http://pbskids.org/mayaandmiguel/english/games/sports/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-mayaandmiguel-worldofsports.gif</image>
+    <teaser>Pick up your paddle and play!</teaser>
+    <categories>
+      <category>Sports</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Miguel&#39;s Sketchpad</title>
+    <show>Maya &amp; Miguel</show>
+    <url>http://pbskids.org/mayaandmiguel/english/games/sketch/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-mayaandmiguel-sketch.gif</image>
+    <teaser>Help Miguel make a comic strip for Tito</teaser>
+    <categories>
+      <category>Create</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Adventure Scrapbook</title>
+    <show>Maya &amp; Miguel</show>
+    <url>http://pbskids.org/mayaandmiguel/english/games/scrapbook/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-mayaandmiguel-scrapbook.gif</image>
+    <teaser>Grab your camera for an adventure with Maya</teaser>
+    <categories>
+      <category>Create</category>
+      <category>Words</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Snowboard Savage</title>
+    <show>Kids World Sports</show>
+    <url>http://pbskids.org/kws/games/snowboardsavage/</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-kws-snowboardsavage.gif</image>
+    <teaser>Try and get big air and land a Frontside 360</teaser>
+    <categories>
+      <category>Sports</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Story Strips</title>
+    <show>It&#39;s My Life</show>
+    <url>http://pbskids.org/itsmylife/games/story_strips_flash.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-itsmylife-storystrips.gif</image>
+    <teaser>Make your own comic strip and send it to a friend</teaser>
+    <categories>
+      <category>Create</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Tough Crush Canyon</title>
+    <show>It&#39;s My Life</show>
+    <url>http://pbskids.org/itsmylife/games/tough_crush_canyon.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-itsmylife-toughcrushcanyon.gif</image>
+    <teaser>You and your crush are at the same camp. Now what?</teaser>
+    <categories>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>You&#39;re in Charge</title>
+    <show>It&#39;s My Life</show>
+    <url>http://pbskids.org/itsmylife/games/in_charge_flash.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-itsmylife-incharge.gif</image>
+    <teaser>You&#39;re in charge until mom gets home</teaser>
+    <categories>
+      <category>Puzzles</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Mad Money</title>
+    <show>It&#39;s My Life</show>
+    <url>http://pbskids.org/itsmylife/games/mad_money.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-itsmylife-madmoney.gif</image>
+    <teaser>Can you make your money stretch?</teaser>
+    <categories>
+      <category>Math</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+    </game>
+
+  <game>
+    <title>Make Up or Break Up</title>
+    <show>It&#39;s My Life</show>
+    <url>http://pbskids.org/itsmylife/games/ff_stories.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-itsmylife-makeup.gif</image>
+    <teaser>You call the shots in the battle of best friends</teaser>
+    <categories>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Mortifying Monday</title>
+    <show>It&#39;s My Life</show>
+    <url>http://pbskids.org/itsmylife/games/mortifying/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-itsmylife-mortifying.gif</image>
+    <teaser>Choose your own way to escape Mortifying Monday</teaser>
+    <categories>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Rumor Control</title>
+    <show>It&#39;s My Life</show>
+    <url>http://pbskids.org/itsmylife/games/rumorcontrol.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-itsmylife-rumorctrl.gif</image>
+    <teaser>Put a stop to school rumors</teaser>
+    <categories>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>School Daze, Crazy Maze</title>
+    <show>It&#39;s My Life</show>
+    <url>http://pbskids.org/itsmylife/games/middleschool_flash.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-itsmylife-middleschool.gif</image>
+    <teaser>Can you survive a day in this crazy middle school?</teaser>
+    <categories>
+      <category>Math</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Beat the Bully</title>
+    <show>It&#39;s My Life</show>
+    <url>http://pbskids.org/itsmylife/games/bullies_flash.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-itsmylife-bully.gif</image>
+    <teaser>Beat the Bully in a race of smarts and speed</teaser>
+    <categories>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>EekoHouse</title>
+    <show>EekoWorld</show>
+    <url>http://pbskids.org/eekoworld//index.html?load=eekohouse</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-eekoworld-house.gif</image>
+    <teaser>Earn points and raise the world health</teaser>
+    <categories>
+      <category>Science</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Mechanical Madness</title>
+    <show>DragonflyTV</show>
+    <url>http://pbskids.org/dragonflytv/games/flashsniffer_mechanical.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-dragonflytv-mechmadness.gif</image>
+    <teaser>Piece together machines to get the ball rolling</teaser>
+    <categories>
+      <category>Create</category>
+      <category>Science</category>
+      <category>Machines</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Planetary Rescue Squad</title>
+    <show>DragonflyTV</show>
+    <url>http://pbskids.org/dragonflytv/games/flashsniffer_planetary.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-dragonflytv-planetary.gif</image>
+    <teaser>Join the Planetary Rescue Squad</teaser>
+    <categories>
+      <category>Math</category>
+      <category>Science</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>So Many Parts</title>
+    <show>DragonflyTV</show>
+    <url>http://pbskids.org/dragonflytv/games/flashsniffer_space_station.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-dragonflytv-somanyparts.gif</image>
+    <teaser>Fix the space station parts before it&#39;s doomed</teaser>
+    <categories>
+      <category>Science</category>
+      <category>Machines</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>The Great Balloon Race</title>
+    <show>DragonflyTV</show>
+    <url>http://pbskids.org/dragonflytv/games/flashsniffer_balloon.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-dragonflytv-balloonrace.gif</image>
+    <teaser>How quickly can you finish the Great Balloon Race?</teaser>
+    <categories>
+      <category>Science</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Weebit World</title>
+    <show>DragonflyTV</show>
+    <url>http://pbskids.org/dragonflytv/games/flashsniffer_balance.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-dragonflytv-weebitworld.gif</image>
+    <teaser>Weebits depend on you to take good care of them</teaser>
+    <categories>
+      <category>Science</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>EekoCreature</title>
+    <show>EekoWorld</show>
+    <url>http://pbskids.org/eekoworld//index.html?load=eekocreature</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-eekoworld-creature.gif</image>
+    <teaser>New creature builder! What will your creature say?</teaser>
+    <categories>
+      <category>Create</category>
+      <category>Science</category>
+      <category>Animals</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Dog Breeding</title>
+    <show>DragonflyTV</show>
+    <url>http://pbskids.org/dragonflytv/games/flashsniffer_dogbreeding.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-dragonflytv-dogbreeding.gif</image>
+    <teaser>It&#39;s all in the genes</teaser>
+    <categories>
+      <category>Matching</category>
+      <category>Science</category>
+      <category>Animals</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>DragonflyTV Cup</title>
+    <show>DragonflyTV</show>
+    <url>http://pbskids.org/dragonflytv/games/flashsniffer_sailing.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-dragonflytv-dragonflycup.gif</image>
+    <teaser>Trim the sails. The race is on!</teaser>
+    <categories>
+      <category>Science</category>
+      <category>Sports</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Symmetrizer</title>
+    <show>Cyberchase</show>
+    <url>http://pbskids.org/cyberchase/games/symmetry/</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-symmetrize.gif</image>
+    <teaser>A kaleidoscope of cyber-fun!</teaser>
+    <categories>
+      <category>Math</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Virus Hunt</title>
+    <show>Cyberchase</show>
+    <url>http://pbskids.org/cyberchase/games/navigation/</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-virushunt.gif</image>
+    <teaser>Quick navigating will save Pleasant Island</teaser>
+    <categories>
+      <category>Math</category>
+      <category>Adventure</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Vortex!</title>
+    <show>Cyberchase</show>
+    <url>http://pbskids.org/cyberchase/games/timelapse/</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-vortex.gif</image>
+    <teaser>Can you keep the pace with the spinning Vortex?</teaser>
+    <categories>
+      <category>Math</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>The Quest: Save Motherboard</title>
+    <show>Cyberchase</show>
+    <url>http://pbskids.org/cyberchase/quest/</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-thequest.gif</image>
+    <teaser>Without your help, Hacker might defeat Motherboard!</teaser>
+    <categories>
+      <category>Math</category>
+      <category>Adventure</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Point Out the View</title>
+    <show>Cyberchase</show>
+    <url>http://pbskids.org/cyberchase/games/pointofview/</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-pointofview.gif</image>
+    <teaser>See things from a different point of view</teaser>
+    <categories>
+      <category>Math</category>
+      <category>Matching</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Pour to Score</title>
+    <show>Cyberchase</show>
+    <url>http://pbskids.org/cyberchase/games/hardproblems/</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-pourtoscore.gif</image>
+    <teaser>No splashing around with this tough liquid puzzle!</teaser>
+    <categories>
+      <category>Math</category>
+      <category>Puzzles</category>
+      <category>Science</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Railroad Repair</title>
+    <show>Cyberchase</show>
+    <url>http://pbskids.org/cyberchase/games/decimals/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-railroad.gif</image>
+    <teaser>Fix the tracks before the Cybertrain comes through!</teaser>
+    <categories>
+      <category>Math</category>
+      <category>Puzzles</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Stop that Creature</title>
+    <show>Cyberchase</show>
+    <url>http://pbskids.org/cyberchase/games/functions/</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-stopcreatures.gif</image>
+    <teaser>Find the patterns that protect the power station</teaser>
+    <categories>
+      <category>Math</category>
+      <category>Puzzles</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Star Gazing</title>
+    <show>Cyberchase</show>
+    <url>http://pbskids.org/cyberchase/games/anglemeasurement/</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-stargazing.gif</image>
+    <teaser>A new angle on space exploration</teaser>
+    <categories>
+      <category>Math</category>
+      <category>Science</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Logic Zoo</title>
+    <show>Cyberchase</show>
+    <url>http://pbskids.org/cyberchase/games/logic/</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-logic.gif</image>
+    <teaser>Hacker let the Logic Zoo animals escape!</teaser>
+    <categories>
+      <category>Math</category>
+      <category>Puzzles</category>
+      <category>Animals</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Lost in the Northern Frontier</title>
+    <show>Cyberchase</show>
+    <url>http://pbskids.org/cyberchase/games/circles/</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-wheresdigit.gif</image>
+    <teaser>Save Digit using the power of circles!</teaser>
+    <categories>
+      <category>Math</category>
+      <category>Puzzles</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Maze &amp; Marbles</title>
+    <show>Cyberchase</show>
+    <url>http://pbskids.org/cyberchase/games/timekeeping/</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-mazemarble.gif</image>
+    <teaser>Will you be fast enough to keep the clock running?</teaser>
+    <categories>
+      <category>Math</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Melvin&#39;s Make a Match</title>
+    <show>Cyberchase</show>
+    <url>http://pbskids.org/cyberchase/games/equivalentfractions/</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-makeamatch.gif</image>
+    <teaser>Help Melvin get his potions back together</teaser>
+    <categories>
+      <category>Math</category>
+      <category>Matching</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Mission: Magnetite</title>
+    <show>Cyberchase</show>
+    <url>http://pbskids.org/cyberchase/games/percent/</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-magnetite.gif</image>
+    <teaser>Stop Hacker&#39;s rocket!</teaser>
+    <categories>
+      <category>Math</category>
+      <category>Machines</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Pattern Player</title>
+    <show>Cyberchase</show>
+    <url>http://pbskids.org/cyberchase/games/patterns/</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-patternplayer.gif</image>
+    <teaser>Rock out with the Pattern Player!</teaser>
+    <categories>
+      <category>Math</category>
+      <category>Create</category>
+      <category>Music</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Pattern Quest</title>
+    <show>Cyberchase</show>
+    <url>http://pbskids.org/cyberchase/games/data/</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-patternquest.gif</image>
+    <teaser>Use clues to find the secret patterns</teaser>
+    <categories>
+      <category>Math</category>
+      <category>Puzzles</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Poddle Weigh-In</title>
+    <show>Cyberchase</show>
+    <url>http://pbskids.org/cyberchase/games/algebra/</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-poddle.gif</image>
+    <teaser>Quick thinking will replace the poddles&#39; numbers</teaser>
+    <categories>
+      <category>Math</category>
+      <category>Puzzles</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Cybersquad and the Eye of Rom</title>
+    <show>Cyberchase</show>
+    <url>http://pbskids.org/cyberchase/games/inverseoperations/</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-eyeofrom.gif</image>
+    <teaser>Build the mysterious Eye of Rom!</teaser>
+    <categories>
+      <category>Math</category>
+      <category>Adventure</category>
+      <category>Create</category>
+      <category>Mystery</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Disguise Combos</title>
+    <show>Cyberchase</show>
+    <url>http://pbskids.org/cyberchase/games/combinations/</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-disguise.gif</image>
+    <teaser>How many ways can you disguise the CyberSquad?</teaser>
+    <categories>
+      <category>Math</category>
+      <category>Puzzles</category>
+      <category>Matching</category>
+      <category>Dress Up</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Bike Route</title>
+    <show>Cyberchase</show>
+    <url>http://pbskids.org/cyberchase/webisode_3/web_game3.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-bikeroute.gif</image>
+    <teaser>Follow the map to finish the errands</teaser>
+    <categories>
+      <category>Math</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Can You Fill It?</title>
+    <show>Cyberchase</show>
+    <url>http://pbskids.org/cyberchase/games/liquidvolume/</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-fillit.gif</image>
+    <teaser>Be careful not to soak the CyberSquad!</teaser>
+    <categories>
+      <category>Math</category>
+      <category>Puzzles</category>
+      <category>Science</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Crossing the River</title>
+    <show>Cyberchase</show>
+    <url>http://pbskids.org/cyberchase/games/modeling/</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-crossriver.gif</image>
+    <teaser>The CyberSquad has to cross a river in a tiny boat</teaser>
+    <categories>
+      <category>Math</category>
+      <category>Puzzles</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Cyberchase Squares</title>
+    <show>Cyberchase</show>
+    <url>http://pbskids.org/cyberchase/games/counterexamples/</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-squares.gif</image>
+    <teaser>Play the weirdest game show in Cyberspace</teaser>
+    <categories>
+      <category>Matching</category>
+      <category>Science</category>
+      <category>Words</category>
+      <category>Quiz</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Cyberspaceship Builder</title>
+    <show>Cyberchase</show>
+    <url>http://pbskids.org/cyberchase/games/perimeterarea/</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-spaceship.gif</image>
+    <teaser>Help Dr. Marbles build a fleet of spaceships!</teaser>
+    <categories>
+      <category>Math</category>
+      <category>Create</category>
+      <category>Machines</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Scoop</title>
+    <show>Arthur</show>
+    <url>http://pbskids.org/arthur/games/scoop/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-arthur-scoop.gif</image>
+    <teaser>Help Buster scoop up an Electric Sundae.</teaser>
+    <categories>
+      <category>Matching</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Supermarket Adventure</title>
+    <show>Arthur</show>
+    <url>http://pbskids.org/arthur/games/supermarket/</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-arthur-supermarket.gif</image>
+    <teaser>Shop til you drop with D.W.</teaser>
+    <categories>
+      <category>Matching</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Tibble Super Action Challenge</title>
+    <show>Arthur</show>
+    <url>http://pbskids.org/arthur/games/superactionchallenge</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-arthur-superactionchallenge.gif</image>
+    <teaser>Jump in the ring for some serious Arthur trivia</teaser>
+    <categories>
+      <category>Quiz</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>The un-Matching Game</title>
+    <show>Arthur</show>
+    <url>http://pbskids.org/arthur/games/unmatching/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium_arthur_unmatching.gif</image>
+    <teaser>Can you help Francine UN-match these things?</teaser>
+    <categories>
+      <category>Matching</category>
+      <category>Words</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Virtual Goose</title>
+    <show>Arthur</show>
+    <url>http://pbskids.org/arthur/games/virtualgoose/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-arthur-virtualgoose.gif</image>
+    <teaser>Can you beat the champion, DISASTERWARNING99?</teaser>
+    <categories>
+      <category>Math</category>
+      <category>Matching</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>You&#39;ve Got To Be Kidding</title>
+    <show>Arthur</show>
+    <url>http://pbskids.org/arthur/games/yougottobekidding/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-arthur-yougotkidding.gif</image>
+    <teaser>How fast can you get to the tree house?</teaser>
+    <categories>
+      <category>Quiz</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Connect the World</title>
+    <show>Arthur</show>
+    <url>http://pbskids.org/arthur/games/connectworld/</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-arthur-connectworld.gif</image>
+    <teaser>Get four cards in a row before Buster does!</teaser>
+    <categories>
+      <category>Matching</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Crank It Up!</title>
+    <show>Arthur</show>
+    <url>http://pbskids.org/arthur/games/crankitup/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-arthur-crankitup.gif</image>
+    <teaser>Make music with D.W. in the Read family garage!</teaser>
+    <categories>
+      <category>Music</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Don&#39;t Wake Kate!</title>
+    <show>Arthur</show>
+    <url>http://pbskids.org/arthur/games/dontwakekate/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-arthur-dontwakekate.gif</image>
+    <teaser>Shhh! Avoid noisy toys so you don&#39;t wake Baby Kate</teaser>
+    <categories>
+      <category>Puzzles</category>
+      <category>Matching</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Fern&#39;s Poetry Club</title>
+    <show>Arthur</show>
+    <url>http://pbskids.org/arthur/games/poetry/</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-arthur-poetry.gif</image>
+    <teaser>Send in your poems! Read the poems Fern publishes</teaser>
+    <categories>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Fern, the Effective Detective</title>
+    <show>Arthur</show>
+    <url>http://pbskids.org/arthur/games/effectivedetective</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-arthur-effectivedetective.gif</image>
+    <teaser>Sleuth it out with Fern the Effective Detective</teaser>
+    <categories>
+      <category>Mystery</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Go! George Go!</title>
+    <show>Arthur</show>
+    <url>http://pbskids.org/arthur/games/gogeorgego/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-arthur-gogeorgego.gif</image>
+    <teaser>Help George deliver the ice cream before it melts!</teaser>
+    <categories>
+      <category>Puzzles</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Let&#39;s Draw Arthur!</title>
+    <show>Arthur</show>
+    <url>http://pbskids.org/arthur/games/letsdrawarthur/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-arthur-letsdrawarthur.gif</image>
+    <teaser>Learn to draw Arthur - don&#39;t forget the bow tie!</teaser>
+    <categories>
+      <category>Create</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>Lunch-o-Matic</title>
+    <show>Arthur</show>
+    <url>http://pbskids.org/arthur/games/lunchomatic/</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-arthur-lunchomatic.gif</image>
+    <teaser>Take this cafeteria challenge</teaser>
+    <categories>
+      <category>Matching</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+  <game>
+    <title>About Face</title>
+    <show>Arthur</show>
+    <url>http://pbskids.org/arthur/games/aboutface</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-arthur-aboutface.gif</image>
+    <teaser>Do moldy sandwiches make Buster happy?</teaser>
+    <categories>
+      <category>Matching</category>
+      <category>Animals</category>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+
+</games>
