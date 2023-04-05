@@ -2,28 +2,28 @@
 <features>
      
       <game>
-            <gameurl>http://pbskids.org/democracy/presforaday/index.html</gameurl>
-            <gameimage>/images/programs/xlarge-democracy-president.gif</gameimage>
+            <gameurl>/democracy/presforaday/index.html</gameurl>
+            <gameimage>/go/images/programs/xlarge-democracy-president.gif</gameimage>
       </game>
       
       <game>
-            <gameurl>http://pbskids.org/arthur/games/groovygarden/index.html</gameurl>
-            <gameimage>/images/programs/xlarge-arthur-groovyGarden.gif </gameimage>
+            <gameurl>/arthur/games/groovygarden/index.html</gameurl>
+            <gameimage>/go/images/programs/xlarge-arthur-groovyGarden.gif </gameimage>
       </game>
       
       <game>
-            <gameurl>http://pbskids.org/arthur/games/lunchomatic/</gameurl>
-            <gameimage>/images/programs/xlarge-arthur-lunchomatic.gif</gameimage>
+            <gameurl>/arthur/games/lunchomatic/</gameurl>
+            <gameimage>/go/images/programs/xlarge-arthur-lunchomatic.gif</gameimage>
       </game>
       
       <game>
-            <gameurl>http://pbskids.org/fetch/games/dishitout/index.html</gameurl>
-            <gameimage>/images/programs/xlarge-fetch-dishitout.gif</gameimage>
+            <gameurl>/fetch/games/dishitout/index.html</gameurl>
+            <gameimage>/go/images/programs/xlarge-fetch-dishitout.gif</gameimage>
       </game>
       
       <game>
-            <gameurl>http://pbskids.org/arthur/games/moviemaker/</gameurl>
-            <gameimage>/images/programs/xlarge-arthur-bustersmoviemaker.gif</gameimage>
+            <gameurl>/arthur/games/moviemaker/</gameurl>
+            <gameimage>/go/images/programs/xlarge-arthur-bustersmoviemaker.gif</gameimage>
       </game>
       
 </features>
