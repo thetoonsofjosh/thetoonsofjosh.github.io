@@ -1,0 +1,171 @@
+body
+{
+margin: 0;
+padding: 0;
+background-image: url('/go/images/home-background.gif');
+background-repeat: repeat-x;
+}
+
+#flashcontent
+{
+width: 935px;
+height: 550px;
+margin: auto;
+}
+
+#login
+{
+width: 935px;
+height: 35px;
+margin: 20px auto 0 auto;
+background: #f78a1c;
+clear: both;
+}
+
+#footer
+{
+padding: 15px 0 0 0;
+font-family: Arial, sans-serif;
+color: #949292;
+font-size: 12px;
+width: 935px;
+margin: auto;
+clear: both;
+}
+
+#footer a:link,
+#footer a:visited,
+#footer a:active
+{
+color: #949292;
+text-decoration: none;
+}
+
+#footer a:hover
+{
+color: #FFF;
+text-decoration: none;
+background: #f7ba4d;
+}
+
+#fineprint
+{
+padding: 15px 0 0 0;
+clear: both;
+text-align: center;
+font-family: Arial, sans-serif;
+color: #949292;
+font-size: 12px;
+}
+
+#fineprint a:link,
+#fineprint a:visited,
+#fineprint a:active
+{
+color: #949292;
+text-decoration: none;
+}
+
+#fineprint a:hover
+{
+color: #FFF;
+text-decoration: none;
+background: #f7ba4d;
+}
+
+#containerstation
+{
+float: left;
+text-align: left;
+padding: 0 10px 0 0;
+}
+
+#containerlogin
+{
+float: left;
+text-align: left;
+}
+
+#containerdrop
+{
+float: right;
+text-align: right;
+}
+
+#containerdrop a:hover
+{
+text-decoration: none;
+background: none;
+}
+
+#containernav
+{
+float: right;
+text-align: right;
+background: #ffffff;
+}
+
+#stationheader
+{
+padding: 0 0 5px 0;
+font-size: 10px;
+}
+
+#stationfooter,
+#stationfooter a:link,
+#stationfooter a:visited,
+#stationfooter a:active
+{
+margin: 5px 0 0 0;
+font-size: 10px;
+}
+
+#stationfooter a:hover
+{
+color: #FFF;
+text-decoration: none;
+background: #f7ba4d;
+}
+
+#showlist
+{
+margin: 10px 0 0 0;
+}
+
+#showlist select
+{
+font-family: Arial, sans-serif;
+color: #949292;
+font-size: 11px;
+margin-bottom: 5px;
+}
+
+.menuimage
+{
+padding: 0 0 0 3px;
+}
+
+#containercpb
+{
+float: left;
+text-align: left;
+}
+
+#containersponsor
+{
+float: left;
+text-align: left;
+padding: 0 0 0 15px;
+}
+
+#cpbheader
+{
+padding: 0 0 5px 0;
+font-size: 10px;
+}
+
+#sponsorheader
+{
+padding: 0 0 5px 0;
+font-size: 10px;
+}
