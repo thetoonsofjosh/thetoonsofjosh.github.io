@@ -82,6 +82,6 @@
 		<char id="1" name="arthurgirl" src="arthurgirl.swf" tagline="Arthur: girl" thumbnail="arthurgirl.jpg" colorable="headneck,hairfront,top,bottom,foot" notcolorable="eyes,nose,mouth" scale="1"/>
 		<char id="2" name="arthurboy" src="arthurboy.swf" tagline="Arthur: boy" thumbnail="arthurboy.jpg" colorable="headneck,top,bottom,foot" notcolorable="eyes,hairfront,nose,mouth" scale="1"/>
 		<char id="3" name="wordgirl" src="wordgirl.swf" tagline="WordGirl" thumbnail="wordgirl.jpg" colorable="headneck,hairfront,top,bottom,foot" notcolorable="eyes,nose,mouth" scale="1"/>
-		<!--<char id="3" name="huggy" src="huggy.swf" tagline="Word Girl" thumbnail="huggy.jpg" colorable="" notcolorable="headneck,hairfront,top,bottom,foot,eyes,nose,mouth" scale="1"/>-->
+		<char id="4" name="huggy" src="huggy.swf" tagline="Word Girl" thumbnail="huggy.jpg" colorable="" notcolorable="headneck,hairfront,top,bottom,foot,eyes,nose,mouth" scale="1"/>
 	</chars>
 </root>
