@@ -1,0 +1,38 @@
+<!--  
+
+1). If a character has no swf image for a silhouette then set image="none"
+2). Every character that has an image url (meaning the image value is not set to "none"), 
+	then they also need to have a value for the videoPID.
+
+-->
+<characters>
+	<character name="Blossom" image="silhouettes/blossom.swf" gender="female" videoPID="D_CdFI4gxMYasNd8_ZrcbeY19n5Xnlj8" category="FETCH! with Ruff Ruffman"/>
+	<character name="Violet" image="none" gender="female" videoPID=""/>
+	<character name="Two Brains" image="silhouettes/twoBrains.swf" gender="male" videoPID="Teekp_CVTolS3Qk760gYyLgX_C7HE5md" category="WordGirl"/>
+	<character name="Huggy Face" image="silhouettes/huggyFace.swf" gender="male" videoPID="zqNkd3TUaJTqbPxvSYm6s65d9wK_Exc_" category="WordGirl"/>
+	<character name="Inez" image="silhouettes/inez.swf" gender="female" videoPID="MPDq7_ADkl1LDcak_7hUqW_xJdix4iYp" category="Cyberchase"/>
+	<character name="Word Girl" image="silhouettes/wordGirl.swf" gender="female" videoPID="wl_lg_97Yk9zjP_lZ7EAwO5HCKPTFm4X" category="WordGirl"/>
+	<character name="Digit" image="silhouettes/digit.swf" gender="male" videoPID="KAlMv_nc7HZth_4Cvk5IevDfKfqSmuVV" category="Cyberchase"/>
+	<character name="D.W." image="none" gender="female" videoPID=""/>
+	<character name="Hacker" image="silhouettes/hacker.swf" gender="male" videoPID="K79U_7f1gvwGJV3Wj1eoQXI0Nh44iqxH" category="Cyberchase"/>
+	<character name="Ruff Ruffman" image="silhouettes/fetch.swf" gender="male" videoPID="6wIhYKq2rcKEyUqqavs5BMLVWHtUrTL9" category="FETCH! with Ruff Ruffman"/>
+	<character name="Arthur" image="silhouettes/arthur.swf" gender="male" videoPID="gQ2N0kAWhFsnNPMyPTTDLsI6BGNDAh9c" category="Arthur"/>
+	<character name="Buster" image="silhouettes/buster.swf" gender="male" videoPID="odqn_YQQAS3w2Z39QtOEcfV5u_NmEBc7" category="Postcards from Buster"/>
+	<character name="The Butcher" image="none" gender="male" videoPID=""/>
+	<character name="Pal" image="none" gender="male" videoPID=""/>
+	<character name="Delete" image="none" gender="male" videoPID=""/>
+	<character name="Matt" image="none" gender="male" videoPID=""/>
+	<character name="Buzz" image="none" gender="male" videoPID=""/>
+	<character name="Jackie" image="none" gender="female" videoPID=""/>
+	<character name="Motherboard" image="none" gender="female" videoPID=""/>
+	<character name="Tobey" image="none" gender="male" videoPID=""/>
+	<character name="TJ" image="none" gender="male" videoPID=""/>
+	<character name="Scoops" image="none" gender="male" videoPID=""/>
+	<character name="Maya" image="none" gender="female" videoPID=""/>
+	<character name="Chrissy" image="none" gender="female" videoPID=""/>
+	<character name="Maggie" image="none" gender="female" videoPID=""/>
+	<character name="Dewey" image="none" gender="male" videoPID=""/>
+	<character name="Deysi" image="none" gender="female" videoPID=""/>
+	<character name="Kim" image="none" gender="female" videoPID=""/>
+	<character name="Leah" image="none" gender="female" videoPID=""/>
+</characters>
