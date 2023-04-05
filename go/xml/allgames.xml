@@ -263,7 +263,7 @@
 
   <game>
     <title>How do You Say...?</title>
-    <show>Oh Noah!</show>
+    <show>Noah Comprende</show>
     <url>/noah/howdoyousay.html</url>
     <image>http://thetoonsofjosh.github.io/go/images/programs/medium-noah-hdys.jpg</image>
     <teaser>Say it in Spanish!</teaser>
@@ -277,7 +277,7 @@
 
   <game>
     <title>You Catch It, You Keep it</title>
-    <show>Oh Noah!</show>
+    <show>Noah Comprende</show>
     <url>/noah/games.html#/youcatchit/furniture_jungleanimals</url>
     <image>http://thetoonsofjosh.github.io/go/images/programs/medium-noah-youcatchit.jpg</image>
     <teaser>Catch it if you can!</teaser>
@@ -290,7 +290,7 @@
 
   <game>
     <title>Word Race</title>
-    <show>Oh Noah!</show>
+    <show>Noah Comprende</show>
     <url>/noah/games.html#/wordrace/furniture_jungleanimals</url>
     <image>http://thetoonsofjosh.github.io/go/images/programs/medium-noah-wordrace.jpg</image>
     <teaser>Win the race to get all of the words!</teaser>
@@ -303,7 +303,7 @@
 
   <game>
     <title>Match It</title>
-    <show>Oh Noah!</show>
+    <show>Noah Comprende</show>
     <url>/noah/games.html#/matchit/furniture</url>
     <image>http://thetoonsofjosh.github.io/go/images/programs/medium-noah-matchit.jpg</image>
     <teaser>Make a match with Noah</teaser>
@@ -1360,6 +1360,18 @@
     <date>2007-11-08 05:00:00</date>
   </game>
 
+  <game>
+    <title>Mystery Meat comic</title>
+    <show>WordGirl</show>
+    <url>http://pbskids.org/wordgirl/games/comicBook/index.html</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-wordgirl-mysterymeat.gif</image>
+    <teaser>Will WordGirl defeat The Butcher?</teaser>
+    <categories>
+    </categories>
+    <new>False</new>
+    <date>2007-11-01 06:00:00</date>
+  </game>
+    
   <game>
     <title>Favorite Word</title>
     <show>WordGirl</show>
@@ -2505,6 +2517,18 @@
     <date>2000-01-01 05:00:00</date>
   </game>
 
+  <game>
+    <title>Fern's Poetry Club</title>
+    <show>Arthur</show>
+    <url>/arthur/games/poetry/</url>
+    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-arthur-poetry.gif</image>
+    <teaser>Send in your poems! Read the poems Fern publishes</teaser>
+    <categories>
+    </categories>
+    <new>False</new>
+    <date>2000-01-01 05:00:00</date>
+  </game>
+    
   <game>
     <title>Fern, the Effective Detective</title>
     <show>Arthur</show>
