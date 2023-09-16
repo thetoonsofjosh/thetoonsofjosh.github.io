@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*
+{
+margin: 0px;
+padding: 0px;
+}
+
+body
+{
+margin: 0px;
+padding: 0px;
+background: #B8B4B7 url('/go/video/images/tile.gif') repeat-x;
+}
+
+
+#fineprint
+{
+padding: 15px 0;
+clear: both;
+text-align: center;
+font-family: Arial, sans-serif;
+color: #FFF;
+font-size: 14px;
+}
+
+#fineprint a:link,
+#fineprint a:visited,
+#fineprint a:active
+{
+color: #FFF;
+text-decoration: none;
+}
+
+#fineprint a:hover
+{
+color: #FFF;
+text-decoration: none;
+background: #99cc00;
+}
