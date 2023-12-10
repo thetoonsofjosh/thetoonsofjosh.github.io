@@ -1,0 +1,105 @@
+#pbs-localize-panel div.bd {
+    padding: 0px;
+    background-color: #d4ff1d;
+}
+
+div#pbs-scroller {
+    height: 440px;
+    width: 700px;
+    overflow: auto;
+    position: relative;
+}
+
+table.pbs-localize-hidden { display: none; }
+table.pbs-localize-visible { display: block; }
+
+table#pbs-where { height: 420px; }
+
+a#closebutton { 
+    display: block;
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+}
+a#closebutton img { border: 0px; }
+
+table.pbs-localize {
+    margin-top: 20px;
+    width: 650px;
+    color: #000;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 11px;
+}
+
+table.pbs-localize td.maincontent {
+    text-align: center;
+    vertical-align: top;
+}
+
+table.pbs-localize td.sidebar {
+    background-color: #cdf71c;
+    padding: 1em;
+    width: 130px;
+    text-align: center;
+    vertical-align: top;
+}
+
+table.pbs-localize td.maincontent div.stationfinder {
+    color: #000;
+    margin: 0pt auto;
+    width: 413px;
+}
+
+div#selectstate {
+    background: transparent url(/tvschedules/images/bground-map.gif) repeat scroll 0% 0%;
+    height: 233px;
+    margin: 0pt auto 6px;
+    width: 413px;
+}
+
+table.pbs-localize div.stationfinder form {
+    margin: 0pt;
+    padding: 0pt;
+}
+
+#statelist {
+    margin: 0pt 0pt 14px;
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+#selectzipcode {
+    background: transparent url(/tvschedules/images/bground-bluebox.gif) repeat scroll 0% 0%;
+    height: 61px;
+    margin: 8px auto 0pt;
+    text-align: center;
+    vertical-align: middle;
+    width: 361px;
+}
+
+#form { padding-top: 18px; }
+
+table.pbs-localize #stationlist {
+    background: transparent url(/tvschedules/images/stationlist-bground.gif);
+    width: 430px;
+}
+table.pbs-localize #stationlist img {
+    display: block;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+table.pbs-localize #stationlist table {
+    background-color: #3EE7F9;
+    margin: 0px auto;
+    width: 420px;
+}
+    
+table.pbs-localize #stationlist td {
+    color: #0d8693;
+    background-color: #3EE7F9;
+    text-align: left;
+    vertical-align: middle;
+}
+    
