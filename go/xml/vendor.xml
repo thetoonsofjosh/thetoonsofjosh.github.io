@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<playlist>
+
+
+<frame id="0">
+    <layout> 3</layout>
+    <tag> Go Places</tag>
+    <game>
+        <url>/itsmylife/games/beachcityblues/index.html</url>
+        <image>/images/programs/medium-itsmylife-beachcityblues.gif</image>
+        <show>It's My Life</show>
+        <teaser>Will this vacation end in fun or disaster?</teaser>
+        <newstatus>False</newstatus>
+    </game>
+    <game> 
+        <url>/buster/games/coasttocoast/</url>
+        <image>/images/programs/medium-buster-coasttocoast.gif</image>
+        <show>Postcards from Buster</show>
+        <teaser>Test your state smarts and get across the country</teaser>
+        <newstatus>False</newstatus>
+    </game>
+    <game>
+        <url>/wilsonandditch/plategame/index.html</url>
+        <image>/images/programs/medium-wilsonandditch-roadquest.jpg</image>
+        <show>Wilson & Ditch</show>
+        <teaser>Can you spot the plates for all fifty states?</teaser>
+        <newstatus>False</newstatus>
+    </game>
+
+
+</frame >
+
+<frame id="1">
+    <layout> 1</layout>
+    <tag> Sandwiches</tag>
+    <game>
+        <url>/wordgirl/games/chucksandwich/</url>
+        <image>/images/programs/xlarge-wordgirl-chuckExtreme.jpg</image>
+        <show>WordGirl</show>
+        <teaser>Crush the disgusting sandwiches!
+
+</teaser>
+        <newstatus>False</newstatus>
+    </game>
+    <game> 
+        <url>NULL</url>
+        <image>NULL</image>
+        <show>NULL</show>
+        <teaser>NULL</teaser>
+        <newstatus>NULL</newstatus>
+    </game>
+    <game>
+        <url>NULL</url>
+        <image>NULL</image>
+        <show>NULL</show>
+        <teaser>NULL</teaser>
+        <newstatus>NULL</newstatus>
+    </game>
+
+
+</frame >
+
+<frame id="2">
+    <layout> 1</layout>
+    <tag> Glide On! </tag>
+    <game>
+        <url>/wildkratts/games/draco-glide/</url>
+        <image>/images/programs/xlarge-wilk-draco.jpg</image>
+        <show>Wild Kratts</show>
+        <teaser>Use your gliding power to fly through hoops!</teaser>
+        <newstatus>False</newstatus>
+    </game>
+    <game> 
+        <url>NULL</url>
+        <image>NULL</image>
+        <show>NULL</show>
+        <teaser>NULL</teaser>
+        <newstatus>NULL</newstatus>
+    </game>
+    <game>
+        <url>NULL</url>
+        <image>NULL</image>
+        <show>NULL</show>
+        <teaser>NULL</teaser>
+        <newstatus>NULL</newstatus>
+    </game>
+
+
+</frame >
+
+<frame id="3">
+    <layout> 1</layout>
+    <tag> Jam Out!</tag>
+    <game>
+        <url>/go/video/?pid=uavJtx_YjmuvC_l4_4xSbOP_1po_bFfl&category=games</url>
+        <image>/images/programs/xlarge-fetch-musical.gif</image>
+        <show>PBS KIDS GO!</show>
+        <teaser>Musical madness at your fingertips!</teaser>
+        <newstatus>False</newstatus>
+    </game>
+    <game> 
+        <url>NULL</url>
+        <image>NULL</image>
+        <show>NULL</show>
+        <teaser>NULL</teaser>
+        <newstatus>NULL</newstatus>
+    </game>
+    <game>
+        <url>NULL</url>
+        <image>NULL</image>
+        <show>NULL</show>
+        <teaser>NULL</teaser>
+        <newstatus>NULL</newstatus>
+    </game>
+
+
+</frame >
+
+</playlist>
