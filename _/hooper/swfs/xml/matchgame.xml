@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<gameitems>
+	<cardback>images/dashssecrettreasure/cardbackpattern.jpg</cardback>
+	
+	<cardset>
+		<id>1</id>
+		<theme>Healthy Foods</theme>
+		<reward>/pbskids2008/pbskids2008/hooper/flvs/dashssecrettreasure/food/01_video.flv</reward>
+		<secret>images/dashssecrettreasure/treasures/sandwich.jpg</secret>
+		<intro>swfs/dashssecrettreasure/food/01_intro_healthy_foods.swf</intro>
+		<outro>swfs/dashssecrettreasure/outro.swf</outro>
+		<link>/pbskids2008//clifford/</link>
+		<eximage>images/dashssecrettreasure/link/clifford.png</eximage>
+		<card>images/dashssecrettreasure/food/food1.jpg</card>
+		<card>images/dashssecrettreasure/food/food2.jpg</card>
+		<card>images/dashssecrettreasure/food/food3.jpg</card>
+		<card>images/dashssecrettreasure/food/food4.jpg</card>	
+	</cardset>
+	
+	<cardset>
+		<id>2</id>
+		<theme>Making Art</theme>
+		<reward>/pbskids2008/hooper/flvs/dashssecrettreasure/art/02_video.flv</reward>
+		<secret>images/dashssecrettreasure/treasures/paintbrush.jpg</secret>
+		<intro>swfs/dashssecrettreasure/art/02_intro_making_art.swf</intro>
+		<outro>swfs/dashssecrettreasure/outro.swf</outro>
+		<link>/pbskids2008//curiousgeorge/</link>
+		<eximage>images/dashssecrettreasure/link/curious.png</eximage>
+		<card>images/dashssecrettreasure/art/art1.jpg</card>
+		<card>images/dashssecrettreasure/art/art2.jpg</card>
+		<card>images/dashssecrettreasure/art/art3.jpg</card>
+		<card>images/dashssecrettreasure/art/art4.jpg</card>	
+	</cardset>
+	
+	<cardset>
+		<id>3</id>
+		<theme>Safety</theme>
+		<reward>/pbskids2008/hooper/flvs/dashssecrettreasure/safety/03_video.flv</reward>
+		<secret>images/dashssecrettreasure/treasures/helmet.jpg</secret>
+		<intro>swfs/dashssecrettreasure/safety/03_intro_safty_online.swf</intro>
+		<outro>swfs/dashssecrettreasure/outro.swf</outro>
+		<link>/pbskids2008//clifford/</link>
+		<eximage>images/dashssecrettreasure/link/clifford.png</eximage>
+		<card>images/dashssecrettreasure/safety/safety1.jpg</card>
+		<card>images/dashssecrettreasure/safety/safety2.jpg</card>
+		<card>images/dashssecrettreasure/safety/safety3.jpg</card>
+		<card>images/dashssecrettreasure/safety/safety4.jpg</card>	
+	</cardset>
+	
+	
+	<cardset>
+		<id>4</id>
+		<theme>Transportation</theme>
+		<reward>/pbskids2008/hooper/flvs/dashssecrettreasure/transport/04_video.flv</reward>
+		<secret>images/dashssecrettreasure/treasures/rollerskates.jpg</secret>
+		<intro>swfs/dashssecrettreasure/transport/04_intro_transportation.swf</intro>
+		<outro>swfs/dashssecrettreasure/outro.swf</outro>
+		<link>/pbskids2008//superwhy/</link>
+		<eximage>images/dashssecrettreasure/link/superwhy.png</eximage>
+		<card>images/dashssecrettreasure/transport/transport1.jpg</card>
+		<card>images/dashssecrettreasure/transport/transport2.jpg</card>
+		<card>images/dashssecrettreasure/transport/transport3.jpg</card>
+		<card>images/dashssecrettreasure/transport/transport4.jpg</card>	
+	</cardset>
+
+	
+	<cardset>
+		<id>5</id>
+		<theme>Who's in the Sea</theme>
+		<reward>/pbskids2008/hooper/flvs/dashssecrettreasure/sea/05_video.flv</reward>
+		<secret>images/dashssecrettreasure/treasures/fish.jpg</secret>
+		<intro>swfs/dashssecrettreasure/sea/05_intro_sea_creatures.swf</intro>
+		<outro>swfs/dashssecrettreasure/outro.swf</outro>
+		<link>/pbskids2008//dragontales/index_sw.html</link>
+		<eximage>images/dashssecrettreasure/link/dragon.png</eximage>
+		<card>images/dashssecrettreasure/sea/sea1.jpg</card>
+		<card>images/dashssecrettreasure/sea/sea2.jpg</card>
+		<card>images/dashssecrettreasure/sea/sea3.jpg</card>
+		<card>images/dashssecrettreasure/sea/sea4.jpg</card>	
+	</cardset>
+	
+	
+	<cardset>
+		<id>6</id>
+		<theme>Matching Numbers</theme>
+		<reward>/pbskids2008/hooper/flvs/dashssecrettreasure/counting/06_video.flv</reward>
+		<secret>images/dashssecrettreasure/treasures/three.jpg</secret>
+		<intro>swfs/dashssecrettreasure/counting/06_intro_matching_numbers.swf</intro>
+		<outro>swfs/dashssecrettreasure/outro.swf</outro>
+		<link>/pbskids2008//curiousgeorge/</link>
+		<eximage>images/dashssecrettreasure/link/curious.png</eximage>
+		<card>images/dashssecrettreasure/counting/counting1.jpg</card>
+		<card>images/dashssecrettreasure/counting/counting2.jpg</card>
+		<card>images/dashssecrettreasure/counting/counting3.jpg</card>
+		<card>images/dashssecrettreasure/counting/counting4.jpg</card>	
+	</cardset>
+	
+	
+	<cardset>
+		<id>7</id>
+		<theme>Rhyme Time</theme>
+		<reward>/pbskids2008/hooper/flvs/dashssecrettreasure/rhyme/07_video.flv</reward>
+		<secret>images/dashssecrettreasure/treasures/plane.jpg</secret>
+		<intro>swfs/dashssecrettreasure/rhyme/07_intro_rhyme_time.swf</intro>
+		<outro>swfs/dashssecrettreasure/outro.swf</outro>
+		<link>/pbskids2008//superwhy/</link>
+		<eximage>images/dashssecrettreasure/link/superwhy.png</eximage>
+		<card>images/dashssecrettreasure/rhyme/rhyme1.jpg</card>
+		<card>images/dashssecrettreasure/rhyme/rhyme2.jpg</card>
+		<card>images/dashssecrettreasure/rhyme/rhyme3.jpg</card>
+		<card>images/dashssecrettreasure/rhyme/rhyme4.jpg</card>	
+	</cardset>
+
+	
+	<cardset>
+		<id>8</id>
+		<theme>Kinds of Time</theme>
+		<reward>/pbskids2008/hooper/flvs/dashssecrettreasure/time/08_video.flv</reward>
+		<secret>images/dashssecrettreasure/treasures/alarmclock.jpg</secret>
+		<intro>swfs/dashssecrettreasure/time/08_intro_kinds_of_time.swf</intro>
+		<outro>swfs/dashssecrettreasure/outro.swf</outro>
+		<link>/pbskids2008//dragontales/index_sw.html</link>
+		<eximage>images/dashssecrettreasure/link/dragon.png</eximage>
+		<card>images/dashssecrettreasure/time/time1.jpg</card>
+		<card>images/dashssecrettreasure/time/time2.jpg</card>
+		<card>images/dashssecrettreasure/time/time3.jpg</card>
+		<card>images/dashssecrettreasure/time/time4.jpg</card>	
+	</cardset>
+	
+	
+	<cardset>
+		<id>9</id>
+		<theme>People We Meet</theme>
+		<reward>/pbskids2008/hooper/flvs/dashssecrettreasure/people/09_video.flv</reward>
+		<secret>images/dashssecrettreasure/treasures/policebadge.jpg</secret>
+		<intro>swfs/dashssecrettreasure/people/09_intro_people_we_meet.swf</intro>
+		<outro>swfs/dashssecrettreasure/outro.swf</outro>
+		<link>/pbskids2008//curiousgeorge/</link>
+		<eximage>images/dashssecrettreasure/link/curious.png</eximage>
+		<card>images/dashssecrettreasure/people/people1.jpg</card>
+		<card>images/dashssecrettreasure/people/people2.jpg</card>
+		<card>images/dashssecrettreasure/people/people3.jpg</card>
+		<card>images/dashssecrettreasure/people/people4.jpg</card>	
+	</cardset>
+	
+	
+	<cardset>
+		<id>10</id>
+		<theme>What's in Space?</theme>
+		<reward>/pbskids2008/hooper/flvs/dashssecrettreasure/space/10_video.flv</reward>
+		<secret>images/dashssecrettreasure/treasures/shootingstar.jpg</secret>
+		<intro>swfs/dashssecrettreasure/space/10_intro_whats_in_space.swf</intro>
+		<outro>swfs/dashssecrettreasure/outro.swf</outro>
+		<link>/pbskids2008//clifford/</link>
+		<eximage>images/dashssecrettreasure/link/clifford.png</eximage>
+		<card>images/dashssecrettreasure/space/space1.jpg</card>
+		<card>images/dashssecrettreasure/space/space2.jpg</card>
+		<card>images/dashssecrettreasure/space/space3.jpg</card>
+		<card>images/dashssecrettreasure/space/space4.jpg</card>	
+	</cardset>
+	
+	
+	<cardset>
+		<id>11</id>
+		<theme>What's On a Safari'</theme>
+		<reward>/pbskids2008/hooper/flvs/dashssecrettreasure/safari/11_video.flv</reward>
+		<secret>images/dashssecrettreasure/treasures/binoculars.jpg</secret>
+		<intro>swfs/dashssecrettreasure/safari/11_intro_whats_on_safari.swf</intro>
+		<outro>swfs/dashssecrettreasure/outro.swf</outro>
+		<link>/pbskids2008//clifford/</link>
+		<eximage>images/dashssecrettreasure/link/clifford.png</eximage>
+		<card>images/dashssecrettreasure/safari/safari1.jpg</card>
+		<card>images/dashssecrettreasure/safari/safari2.jpg</card>
+		<card>images/dashssecrettreasure/safari/safari3.jpg</card>
+		<card>images/dashssecrettreasure/safari/safari4.jpg</card>	
+	</cardset>
+	
+	
+	<cardset>
+		<id>12</id>
+		<theme>Pets</theme>
+		<reward>/pbskids2008/hooper/flvs/dashssecrettreasure/pets/12_video.flv</reward>
+		<secret>images/dashssecrettreasure/treasures/pethorse.jpg</secret>
+		<intro>swfs/dashssecrettreasure/pets/12_intro_pets_game.swf</intro>
+		<outro>swfs/dashssecrettreasure/outro.swf</outro>
+		<link>/pbskids2008//superwhy/</link>
+		<eximage>images/dashssecrettreasure/link/superwhy.png</eximage>
+		<card>images/dashssecrettreasure/pets/pets1.jpg</card>
+		<card>images/dashssecrettreasure/pets/pets2.jpg</card>
+		<card>images/dashssecrettreasure/pets/pets3.jpg</card>
+		<card>images/dashssecrettreasure/pets/pets4.jpg</card>	
+	</cardset>
+	
+	
+	<cardset>
+		<id>13</id>
+		<theme>Recycle</theme>
+		<reward>/pbskids2008/hooper/flvs/dashssecrettreasure/recycle/13_video.flv</reward>
+		<secret>images/dashssecrettreasure/treasures/recyclebin.jpg</secret>
+		<intro>swfs/dashssecrettreasure/recycle/13_intro_recycle.swf</intro>
+		<outro>swfs/dashssecrettreasure/outro.swf</outro>
+		<link>/pbskids2008//curiousgeorge/</link>
+		<eximage>images/dashssecrettreasure/link/curious.png</eximage>
+		<card>images/dashssecrettreasure/recycle/recycle1.jpg</card>
+		<card>images/dashssecrettreasure/recycle/recycle2.jpg</card>
+		<card>images/dashssecrettreasure/recycle/recycle3.jpg</card>
+		<card>images/dashssecrettreasure/recycle/recycle4.jpg</card>	
+	</cardset>
+	
+	
+	<cardset>
+		<id>14</id>
+		<theme>Weather</theme>
+		<reward>/pbskids2008/hooper/flvs/dashssecrettreasure/weather/14_video.flv</reward>
+		<secret>images/dashssecrettreasure/treasures/winterhat.jpg</secret>
+		<intro>swfs/dashssecrettreasure/weather/14_intro_weather.swf</intro>
+		<outro>swfs/dashssecrettreasure/outro.swf</outro>
+		<link>/pbskids2008//dragontales/index_sw.html</link>
+		<eximage>images/dashssecrettreasure/link/dragon.png</eximage>
+		<card>images/dashssecrettreasure/weather/weather1.jpg</card>
+		<card>images/dashssecrettreasure/weather/weather2.jpg</card>
+		<card>images/dashssecrettreasure/weather/weather3.jpg</card>
+		<card>images/dashssecrettreasure/weather/weather4.jpg</card>	
+	</cardset>
+	
+	
+	<cardset>
+		<id>15</id>
+		<theme>All About Dash</theme>
+		<reward>/pbskids2008/hooper/flvs/dashssecrettreasure/aboutme/15_video.flv</reward>
+		<secret>images/dashssecrettreasure/treasures/birthdaycake.jpg</secret>
+		<intro>swfs/dashssecrettreasure/aboutme/15_intro_about_dash.swf</intro>
+		<outro>swfs/dashssecrettreasure/outro.swf</outro>
+		<link>/pbskids2008//clifford/</link>
+		<eximage>images/dashssecrettreasure/link/clifford.png</eximage>
+		<card>images/dashssecrettreasure/aboutme/aboutme1.jpg</card>
+		<card>images/dashssecrettreasure/aboutme/aboutme2.jpg</card>
+		<card>images/dashssecrettreasure/aboutme/aboutme3.jpg</card>
+		<card>images/dashssecrettreasure/aboutme/aboutme4.jpg</card>	
+	</cardset>
+	
+</gameitems>
