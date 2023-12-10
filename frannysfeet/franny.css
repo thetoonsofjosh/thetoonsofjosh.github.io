@@ -1,0 +1,31 @@
+body {
+  font-family: Verdana, Geneva, Arial, helvetica, sans-serif;
+  background-color: #D2ECE4;
+  color: #000000;
+}
+
+td {
+	font-family: Verdana, Geneva, Arial, helvetica, sans-serif;
+	color: #000000;
+	font-size: 12px;
+}
+
+th {
+	font-family: Verdana, Geneva, Arial, helvetica, sans-serif;
+	color: #000000;
+}
+a:link {
+	color: #FF3399;
+}
+a:hover {
+	color: #FF3399;
+}
+a:visited {
+	color: #9900FF;
+}
+
+#pbsbanner {
+	position:relative;
+	left:-27px;
+	top: 5px;
+}
