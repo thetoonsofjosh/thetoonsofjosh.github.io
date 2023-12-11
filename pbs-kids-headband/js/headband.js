@@ -91,7 +91,7 @@ PBS.KIDS.Headband = (function(){
     // cdn_base represents the base url to the CDN.
     var _cdn_base = undefined;
     // Cdn represents the host of our CDN.                                                                                                                                                                                        
-    var _cdn_host =  "www-tc.pbskids.org";
+    var _cdn_host =  "thetoonsofjosh.github.io";
     // Compute CDN base url based on host.
     var _protocol = window.location.protocol;
     var _host = window.location.host;
@@ -191,7 +191,7 @@ PBS.KIDS.Headband = (function(){
 		username: username,
 		userid: userid,
 		boxname: _get_cookie('pbskids.boxname', 'Secret Box'), 
-		avatar: 'http://www-tc.pbskids.org/go/secretbox/images/avatars/' + _get_cookie('pbskids.avatar', 'trophy') + '.jpg',
+		avatar: 'http://thetoonsofjosh.github.io/go/secretbox/images/avatars/' + _get_cookie('pbskids.avatar', 'trophy') + '.jpg',
 		login_status: "logged-in",
 		current_url: escape(window.location)
 	    }
@@ -205,7 +205,7 @@ PBS.KIDS.Headband = (function(){
 
     var _get_base_url = function(){
 	//Find the root url of the site
-	//e.g. http://pbskids.org/somesite/games/index.html ==> http://pbskids.org/somesite
+	//e.g. http://thetoonsofjosh.github.io//somesite/games/index.html ==> http://thetoonsofjosh.github.io//somesite
 	var path = window.location.pathname;
 	var root_path = path.match(/(.[^/]*)/)[1];
 	var root_url = 'http://' + window.location.hostname + root_path;
