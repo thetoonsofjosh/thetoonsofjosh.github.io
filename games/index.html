@@ -1,3 +1,9 @@
+
+
+
+
+
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
@@ -10,15 +16,14 @@
 
 <meta name="description" content="Play hundreds of fun educational kids games with PBS KIDS favorites such as Curious George, Elmo, Super Why and many more!  ">
 <meta name="keywords" content="PBS KIDS games, kids games, fun games, educational games, play games, free kids games">
-<link rel="canonical" href="/games/" />
+<link rel="canonical" href="http://pbskids.org/games/" />
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
-<script type="text/javascript" src="/includes/javascript/jquery.flash.min.js"></script>
+<script type="text/javascript" src="http://www-tc.pbskids.org/includes/javascript/jquery.flash.min.js"></script>
 <!-- <script type="text/javascript" src="/includes/flash/swfobject.js"></script> -->
 
-<link rel="stylesheet" href="/games/css/index.css" type="text/css" />
-<link href="/includes/footer/pk-footer.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/includes/pk-sponsor/styles/pk-sponsor-styles.css" rel="stylesheet" type="text/css" media="screen" />
-<link rel="stylesheet" href="/gmac_assets/css/sifr.css" type="text/css" />
+<link rel="stylesheet" href="http://www-tc.pbskids.org/games/css/index.css" type="text/css" />
+
+<link rel="stylesheet" href="http://www-tc.pbskids.org/gmac_assets/css/sifr.css" type="text/css" />
 <!--[if IE 6]>
 
 <script src="/gmac_assets/js/DD_belatedPNG_0.0.8a-min.js" type="text/javascript"></script>
@@ -27,18 +32,18 @@
 </script>
 <![endif]-->
 
-<script src="/gmac_assets/js/sifr.js" type="text/javascript"></script>
-<script src="/gmac_assets/js/sifr-debug.js" type="text/javascript"></script>
-<script src="/gmac_assets/js/sifr-config.js" type="text/javascript"></script>
-<script type="text/javascript" src="/includes/javascript/bridge.urls.js"></script>
-<script type="text/javascript" src="/includes/javascript/bridge.js"></script>
-<script type="text/javascript" src="/includes/javascript/textresizedetector.min.js"></script>
-<script type="text/javascript" src="/includes/javascript/kids-size.uncompressed.js"></script>
-<script type="text/javascript" src="/includes/javascript/kids-rotator.uncompressed.js"></script>
+<script src="http://www-tc.pbskids.org/gmac_assets/js/sifr.js" type="text/javascript"></script>
+<script src="http://www-tc.pbskids.org/gmac_assets/js/sifr-debug.js" type="text/javascript"></script>
+<script src="http://www-tc.pbskids.org/gmac_assets/js/sifr-config.js" type="text/javascript"></script>
+<script type="text/javascript" src="http://www-tc.pbskids.org/includes/javascript/bridge.urls.js"></script>
+<script type="text/javascript" src="http://www-tc.pbskids.org/includes/javascript/bridge.js"></script>
+<script type="text/javascript" src="http://www-tc.pbskids.org/includes/javascript/textresizedetector.min.js"></script>
+<script type="text/javascript" src="http://www-tc.pbskids.org/includes/javascript/kids-size.uncompressed.js"></script>
+<script type="text/javascript" src="http://www-tc.pbskids.org/includes/javascript/kids-rotator.uncompressed.js"></script>
 
 <link rel="stylesheet" type="text/css" href="/css/kids-rotator.uncompressed.css" />
 <!--[if IE 6]>
-<link rel="stylesheet" type="text/css" href="/css/kids-rotator.ie6.css" />
+<link rel="stylesheet" type="text/css" href="http://www-tc.pbskids.org/css/kids-rotator.ie6.css" />
 <![endif]-->
 <script type="text/javascript">
 
@@ -56,25 +61,25 @@ $(document).ready(function(){
         
 
 $('#maingames').flash({
-        src: 'https://thetoonsofjosh.github.io/games/swfs/games.swf',
+        src: 'http://www-tc.pbskids.org/games/swfs/games.swf',
         width: '935',
         height: '385',
         allowscriptaccess: 'always',
         wmode: 'transparent',
         flashvars: {
-            cdn: /^soup/.test(window.location.hostname) ? "http://soup-tc.pbskids.org/" : /^pbskids/.test(window.location.hostname) ? "/" : "./"
+            cdn: /^soup/.test(window.location.hostname) ? "http://soup-tc.pbskids.org/" : /^pbskids/.test(window.location.hostname) ? "http://www-tc.pbskids.org/" : "./"
        		}
     	},
         {version: '10'}
 	); 
     $('#showbar').flash({
-        src: 'https://thetoonsofjosh.github.io/gmac_assets/swfs/showbar.swf',
+        src: 'http://www-tc.pbskids.org/gmac_assets/swfs/showbar.swf',
         width: '580',
         height: '65',
         allowscriptaccess: 'always',
         wmode: 'transparent',
         flashvars: {
-            	cdn: /^soup/.test(window.location.hostname) ? "http://soup-tc.pbskids.org/" : /^pbskids/.test(window.location.hostname) ? "/" : "./"
+            	cdn: /^soup/.test(window.location.hostname) ? "http://soup-tc.pbskids.org/" : /^pbskids/.test(window.location.hostname) ? "http://www-tc.pbskids.org/" : "./"
         	}
     	},
         {version: '9.0.28'}
@@ -84,7 +89,6 @@ $('#maingames').flash({
 });
 </script>
 </head>
-
 <body class="pk-landing-games">
 <script type="text/javascript">
 var GA_setvar;
@@ -107,41 +111,10 @@ var GA_setvar;
  if(pbskids_wested){
      GA_setvar = {pbskids_wested: pbskids_wested};
  }
-
- //Determines if user is logged in
- var pbskids_username = getCookie('pbskids.username');
- //Determines if account is new
- var returning = getCookie('pbskids.returning');
-
- GA_customvar = {};
-
- var ua_codes = "UA-4005067-1,UA-4005001-1,ET-4005001-3"; 
- var ua_codes_list = ua_codes.split(',');
-
- var login_info;
- //Setup log in info custom variable string
- if (pbskids_username){
-    login_info = "l=1";
-      if(returning){
-	login_info += "&r=1";
-      }	
-      else{
-        login_info += "&r=0";
-      }
- }
- else{
-    login_info = "l=0&r=0";
- } 
-
- for (i=0; i <  ua_codes_list.length; i++){
-  var cv_array = [["GO login tracking", login_info, 2]];
-  GA_customvar[ua_codes_list[i]] = cv_array;
- }
-
 })();
 
 </script>
-<script id="pbskids-headband-script" type="text/javascript" src="/pbs-kids-headband/js/headband.js"></script>
+
 <script type="text/javascript">
 var GA_env = { ua_list: "UA-4005067-1,UA-4005001-1,ET-4005001-3" };
 
@@ -150,22 +123,28 @@ GA_env.vars = { localized: 0 };
 var GA_jshost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
 document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
 </script>
-<script src="/js/ga-4db5d466.js" type="text/javascript"></script>
+<script src="/js/ga-4c59c5cb.js" type="text/javascript"></script>
 
 <!-- Begin comScore Tag -->
 <script>
-  var _comscore = _comscore || [];
-  _comscore.push({ c1: "2", c2: "3005420" });
-  (function() {
-    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
-    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
-    el.parentNode.insertBefore(s, el);
-  })();
+   document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
+</script>
+ <script>
+  COMSCORE.beacon({
+    c1:2,
+    c2:3005420,
+    c3:"",
+    c4:"pbskids.org/games/index.html",
+    c5:"",
+    c6:"",
+    c15:""
+  });
 </script>
 <noscript>
-  <img src="http://b.scorecardresearch.com/p?c1=2&c2=3005420&cv=2.0&cj=1" />
+  <img src="http://b.scorecardresearch.com/b?c1=2&c2=3005420&c3=&c4=pbskids.org/games/index.html&c5=&c6=&c15=&cv=1.3&cj=1" style="display:none" width="0" height="0" alt="" />
 </noscript>
 <!-- End comScore Tag -->
+
 
 <div id="container">
     <div id="content">
@@ -173,7 +152,7 @@ document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga
         <div id="topicmenu-container">
             <form method="post" action="/perl/redirect">
                 <p>
-                    <label for="educational-topics"><img src="/gmac_assets/images/global/global-label-topicform.gif" alt="Games by Educational Topic" /></label>
+                    <label for="educational-topics"><img src="http://www-tc.pbskids.org/gmac_assets/images/global/global-label-topicform.gif" alt="Games by Educational Topic" /></label>
                     <select title="Please select an educational topic" name="selected" id="educational-topics" onchange="this.form.submit()">
             
                         <option value="/games/reading.html">Reading Games</option>
@@ -194,7 +173,7 @@ document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga
             
                         <option value="/games/alltopics.html">All Topics</option>
                     </select>
-                    <input type="image" src="/gmac_assets/images/global/global-button-go_sml.gif" alt="Go" />
+                    <input type="image" src="http://www-tc.pbskids.org/gmac_assets/images/global/global-button-go_sml.gif" alt="Go" />
                 </p>
             </form>
         </div><!-- end #topicmenu-container -->
@@ -204,7 +183,7 @@ document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga
             <div id="games-noflash">
                 <div id="noflash-gutter">
                     <div id="pbskids-logo">
-                        <a href="/" title="Go to PBS KIDS"><img src="/games/images/noflash/noflash-index-pbskidslogo.gif" width="100" height="98" alt="PBS KIDS" /></a>
+                        <a href="/" title="Go to PBS KIDS"><img src="http://www-tc.pbskids.org/games/images/noflash/noflash-index-pbskidslogo.gif" width="100" height="98" alt="PBS KIDS" /></a>
                      </div><!-- end #pbskids-logo -->
                      <div id="noflash-games">
                          <p>PBS KIDS Games: To get the full experience, you need to have Flash Player 10 or newer installed. <a href="http://get.adobe.com/flashplayer/">Download Flash</a>.</p>
@@ -216,16 +195,16 @@ document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga
 		<ul class="items">
 		
                             <li class="item">
-                                <a href="/curiousgeorge/games/big_picture/big_picture.html" title="Big Picture">
+                                <a href="http://pbskids.org/curiousgeorge/games/roller_monkey/roller_monkey.html" title="Roller Monkey">
                                     <span class="image">
-                                        <img src="/kids/images/programs/small-curiousgeorge-bigpic.gif" width="95" height="50" alt="Big Picture" />
+                                        <img src="http://www-tc.pbskids.org/images/programs/small-curiousgeorge-rollermonkey.gif" width="95" height="50" alt="Roller Monkey" />
                                     </span>
                                     <span class="info">
                                         <span class="program-title">
                                         Curious George
                                         </span>
                                         <span class="activity-title">
-                                        Big Picture
+                                        Roller Monkey
                                         </span>
                                     </span>
                                 </a>
@@ -235,35 +214,35 @@ document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga
 		                    
                 
                             <li class="item">
-                                <a href="/wordgirl/favoriteWord/index.html" title="Favorite Word">
+                                <a href="http://pbskids.org/martha/games/marthursticker/index.html" title="Marthur Stickerbook">
                                     <span class="image">
-                                        <img src="/kids/images/programs/small-wordgirl-favoritewords.gif" width="95" height="50" alt="Favorite Word" />
-                                    </span>
-                                    <span class="info">
-                                        <span class="program-title">
-                                        WordGirl
-                                        </span>
-                                        <span class="activity-title">
-                                        Favorite Word
-                                        </span>
-                                    </span>
-                                </a>
-                            </li><!-- end #item -->
-                            	    
-		    
-		                    
-                
-                            <li class="item">
-                                <a href="/martha/games/scrubapup/index.html" title="Scrub a Pup">
-                                    <span class="image">
-                                        <img src="/kids/images/programs/small-martha-scrubapup.jpg" width="95" height="50" alt="Scrub a Pup" />
+                                        <img src="http://www-tc.pbskids.org/images/programs/small-martha-scrapbook.jpg" width="95" height="50" alt="Marthur Stickerbook" />
                                     </span>
                                     <span class="info">
                                         <span class="program-title">
                                         Martha Speaks
                                         </span>
                                         <span class="activity-title">
-                                        Scrub a Pup
+                                        Marthur Stickerbook
+                                        </span>
+                                    </span>
+                                </a>
+                            </li><!-- end #item -->
+                            	    
+		    
+		                    
+                
+                            <li class="item">
+                                <a href="http://pbskids.org/superwhy/#game/princessprestoconcentration" title="Letter Sounds Match-Up">
+                                    <span class="image">
+                                        <img src="http://www-tc.pbskids.org/images/programs/small-superwhy-princessprestomatchup.gif" width="95" height="50" alt="Letter Sounds Match-Up" />
+                                    </span>
+                                    <span class="info">
+                                        <span class="program-title">
+                                        Super Why!
+                                        </span>
+                                        <span class="activity-title">
+                                        Letter Sounds Match-Up
                                         </span>
                                     </span>
                                 </a>
@@ -276,35 +255,16 @@ document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga
 		<ul class="items">
 		
                             <li class="item">
-                                <a href="/fetch/games/dishitout/index.html" title="Dish It Out">
+                                <a href="http://pbskids.org/sid/collectionjar.html" title="Collection Jar">
                                     <span class="image">
-                                        <img src="/kids/images/programs/small-fetch-dishitout.gif" width="95" height="50" alt="Dish It Out" />
-                                    </span>
-                                    <span class="info">
-                                        <span class="program-title">
-                                        FETCH! with Ruff Ruffman
-                                        </span>
-                                        <span class="activity-title">
-                                        Dish It Out
-                                        </span>
-                                    </span>
-                                </a>
-                            </li><!-- end #item -->
-                            	    
-		    
-		                    
-                
-                            <li class="item">
-                                <a href="/sid/mysterylunchbox.html" title="Mystery Lunchbox">
-                                    <span class="image">
-                                        <img src="/kids/images/programs/small-sid-mysterylunchbox.jpg" width="95" height="50" alt="Mystery Lunchbox" />
+                                        <img src="http://www-tc.pbskids.org/images/programs/small-sid-collectionjar.jpg" width="95" height="50" alt="Collection Jar" />
                                     </span>
                                     <span class="info">
                                         <span class="program-title">
                                         Sid the Science Kid
                                         </span>
                                         <span class="activity-title">
-                                        Mystery Lunchbox
+                                        Collection Jar
                                         </span>
                                     </span>
                                 </a>
@@ -314,16 +274,35 @@ document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga
 		                    
                 
                             <li class="item">
-                                <a href="/curiousgeorge/games/count_your_chickens/index.html" title="Count Your Chickens">
+                                <a href="http://pbskids.org/clifford/games/cliffords-big-parade.html" title="Clifford&#39;s Big Parade">
                                     <span class="image">
-                                        <img src="/kids/images/programs/small-curiousgeorge-countyourchickens.gif" width="95" height="50" alt="Count Your Chickens" />
+                                        <img src="http://www-tc.pbskids.org/images/programs/small-clifford-parade.gif" width="95" height="50" alt="Clifford&#39;s Big Parade" />
                                     </span>
                                     <span class="info">
                                         <span class="program-title">
-                                        Curious George
+                                        Clifford The Big Red Dog
                                         </span>
                                         <span class="activity-title">
-                                        Count Your Chickens
+                                        Clifford's Big Parade
+                                        </span>
+                                    </span>
+                                </a>
+                            </li><!-- end #item -->
+                            	    
+		    
+		                    
+                
+                            <li class="item">
+                                <a href="http://pbskids.org/wordgirl/games/game_1/index.html" title="Huggy&#39;s Freeze Frame Game">
+                                    <span class="image">
+                                        <img src="http://www-tc.pbskids.org/images/programs/small-wordgirl-freezeframegame.gif" width="95" height="50" alt="Huggy&#39;s Freeze Frame Game" />
+                                    </span>
+                                    <span class="info">
+                                        <span class="program-title">
+                                        WordGirl
+                                        </span>
+                                        <span class="activity-title">
+                                        Huggy's Freeze Frame Game
                                         </span>
                                     </span>
                                 </a>
@@ -338,76 +317,16 @@ document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga
 		<ul class="items">
 		
                             <li class="item">
-                                <a href="/toopyandbinoo/index.php?ID=MAGC2JEU3" title="Sleep Baby Monster Music Game">
+                                <a href="http://pbskids.org/arthur/games/lungdefender/" title="Buster Baxter: Lung Defender">
                                     <span class="image">
-                                        <img src="/kids/images/programs/small-toopyandbinoo-babymonster.jpg" width="95" height="50" alt="Sleep Baby Monster Music Game" />
-                                    </span>
-                                    <span class="info">
-                                        <span class="program-title">
-                                        Toopy and Binoo
-                                        </span>
-                                        <span class="activity-title">
-                                        Sleep Baby Monster Music Game
-                                        </span>
-                                    </span>
-                                </a>
-                            </li><!-- end #item -->
-                            	    
-		    
-		                    
-                
-                            <li class="item">
-                                <a href="/caillou/immersivegames/?gameID=5" title="Caillou Gardener">
-                                    <span class="image">
-                                        <img src="/kids/images/programs/small-caillou-gardener.gif" width="95" height="50" alt="Caillou Gardener" />
-                                    </span>
-                                    <span class="info">
-                                        <span class="program-title">
-                                        Caillou
-                                        </span>
-                                        <span class="activity-title">
-                                        Caillou Gardener
-                                        </span>
-                                    </span>
-                                </a>
-                            </li><!-- end #item -->
-                            	    
-		    
-		                    
-                
-                            <li class="item">
-                                <a href="/sesame/games/elmoRhymes.html" title="Elmo Rhymes">
-                                    <span class="image">
-                                        <img src="/kids/images/programs/small-sesame-elmorhymes.gif" width="95" height="50" alt="Elmo Rhymes" />
-                                    </span>
-                                    <span class="info">
-                                        <span class="program-title">
-                                        Sesame Street
-                                        </span>
-                                        <span class="activity-title">
-                                        Elmo Rhymes
-                                        </span>
-                                    </span>
-                                </a>
-                            </li><!-- end #item -->
-                            	    
-		    </ul></li>
-		                    
-                
-		<li class="row">
-		<ul class="items">
-		
-                            <li class="item">
-                                <a href="/arthur/games/crankitup/index.html" title="Crank It Up!">
-                                    <span class="image">
-                                        <img src="/kids/images/programs/small-arthur-crankitup.gif" width="95" height="50" alt="Crank It Up!" />
+                                        <img src="http://www-tc.pbskids.org/images/programs/small-arthur-lung.gif" width="95" height="50" alt="Buster Baxter: Lung Defender" />
                                     </span>
                                     <span class="info">
                                         <span class="program-title">
                                         Arthur
                                         </span>
                                         <span class="activity-title">
-                                        Crank It Up!
+                                        Buster Baxter: Lung Defender
                                         </span>
                                     </span>
                                 </a>
@@ -417,16 +336,57 @@ document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga
 		                    
                 
                             <li class="item">
-                                <a href="/rogers/trafficLight.html" title="Stop Light Game">
+                                <a href="http://pbskids.org/toopyandbinoo/index.php?ID=MAGC1JEU2" title="Differences Between Elephants">
                                     <span class="image">
-                                        <img src="/kids/images/programs/small-rogers-stoplight.gif" width="95" height="50" alt="Stop Light Game" />
+                                        <img src="http://www-tc.pbskids.org/images/programs/small-toopyandbinoo-elephants.jpg" width="95" height="50" alt="Differences Between Elephants" />
+                                    </span>
+                                    <span class="info">
+                                        <span class="program-title">
+                                        Toopy and Binoo
+                                        </span>
+                                        <span class="activity-title">
+                                        Differences Between Elephants
+                                        </span>
+                                    </span>
+                                </a>
+                            </li><!-- end #item -->
+                            	    
+		    
+		                    
+                
+                            <li class="item">
+                                <a href="http://pbskids.org/rogers/alphabetDoors.html" title="Alphabet Doors">
+                                    <span class="image">
+                                        <img src="http://www-tc.pbskids.org/images/programs/small-rogers-alphabetdoors.gif" width="95" height="50" alt="Alphabet Doors" />
                                     </span>
                                     <span class="info">
                                         <span class="program-title">
                                         Mister Rogers&#39; Neighborhood
                                         </span>
                                         <span class="activity-title">
-                                        Stop Light Game
+                                        Alphabet Doors
+                                        </span>
+                                    </span>
+                                </a>
+                            </li><!-- end #item -->
+                            	    
+		    </ul></li>
+		                    
+                
+		<li class="row">
+		<ul class="items">
+		
+                            <li class="item">
+                                <a href="http://pbskids.org/arthur/games/scoop/index.html" title="Scoop">
+                                    <span class="image">
+                                        <img src="http://www-tc.pbskids.org/images/programs/small-arthur-scoop.gif" width="95" height="50" alt="Scoop" />
+                                    </span>
+                                    <span class="info">
+                                        <span class="program-title">
+                                        Arthur
+                                        </span>
+                                        <span class="activity-title">
+                                        Scoop
                                         </span>
                                     </span>
                                 </a>
@@ -436,16 +396,35 @@ document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga
 		                    
                 
                             <li class="item">
-                                <a href="/mamamirabelle/games.html" title="Where in the World">
+                                <a href="http://pbskids.org/caillou/immersivegames/?gameID=2" title="Caillou the Architect">
                                     <span class="image">
-                                        <img src="/kids/images/programs/small-mamamirabelle-whereintheworld.jpg" width="95" height="50" alt="Where in the World" />
+                                        <img src="http://www-tc.pbskids.org/images/programs/small-caillou.gif" width="95" height="50" alt="Caillou the Architect" />
                                     </span>
                                     <span class="info">
                                         <span class="program-title">
-                                        Mama Mirabelle&#39;s Home Movies
+                                        Caillou
                                         </span>
                                         <span class="activity-title">
-                                        Where in the World
+                                        Caillou the Architect
+                                        </span>
+                                    </span>
+                                </a>
+                            </li><!-- end #item -->
+                            	    
+		    
+		                    
+                
+                            <li class="item">
+                                <a href="http://pbskids.org/mayaandmiguel/english/postcards/index.html" title="Postcards">
+                                    <span class="image">
+                                        <img src="http://www-tc.pbskids.org/images/programs/small-mayaandmiguel-postcards.gif" width="95" height="50" alt="Postcards" />
+                                    </span>
+                                    <span class="info">
+                                        <span class="program-title">
+                                        Maya &amp; Miguel
+                                        </span>
+                                        <span class="activity-title">
+                                        Postcards
                                         </span>
                                     </span>
                                 </a>
@@ -460,16 +439,16 @@ document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga
 		<ul class="items">
 		
                             <li class="item">
-                                <a href="/catinthehat/games/now-you-see-me.html" title="Now You See Me, Now You Don&#39;t">
+                                <a href="http://pbskids.org/clifford/games/buried-treasure.html" title="Clifford&#39;s Buried Treasure">
                                     <span class="image">
-                                        <img src="/kids/images/programs/small-catinthehat-nowyou.jpg" width="95" height="50" alt="Now You See Me, Now You Don&#39;t" />
+                                        <img src="None" width="95" height="50" alt="Clifford&#39;s Buried Treasure" />
                                     </span>
                                     <span class="info">
                                         <span class="program-title">
-                                        The Cat in the Hat
+                                        Clifford The Big Red Dog
                                         </span>
                                         <span class="activity-title">
-                                        Now You See Me, Now You Don't
+                                        Clifford's Buried Treasure
                                         </span>
                                     </span>
                                 </a>
@@ -479,16 +458,16 @@ document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga
 		                    
                 
                             <li class="item">
-                                <a href="/sesame/games/elmobooks.html" title="Elmo&#39;s World Books">
+                                <a href="http://pbskids.org/fetch/games/geyser/index.html" title="Geyser Surpriser">
                                     <span class="image">
-                                        <img src="/kids/images/programs/small-sesame-elmobook.jpg" width="95" height="50" alt="Elmo&#39;s World Books" />
+                                        <img src="http://www-tc.pbskids.org/images/programs/small-fetch-geyser.gif" width="95" height="50" alt="Geyser Surpriser" />
                                     </span>
                                     <span class="info">
                                         <span class="program-title">
-                                        Sesame Street
+                                        FETCH! with Ruff Ruffman
                                         </span>
                                         <span class="activity-title">
-                                        Elmo's World Books
+                                        Geyser Surpriser
                                         </span>
                                     </span>
                                 </a>
@@ -498,16 +477,16 @@ document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga
 		                    
                 
                             <li class="item">
-                                <a href="/curiousgeorge/games/zoomazing/zoomazing.html" title="ZOOmazing">
+                                <a href="http://pbskids.org/dinosaurtrain/games/hungryhungryherbivore.html" title="Hungry Hungry Herbivore">
                                     <span class="image">
-                                        <img src="/kids/images/programs/small-curiousgeorge-zoomazing.gif" width="95" height="50" alt="ZOOmazing" />
+                                        <img src="http://www-tc.pbskids.org/images/programs/small-dinosaurtrain-hungryhungryherbivore.jpg" width="95" height="50" alt="Hungry Hungry Herbivore" />
                                     </span>
                                     <span class="info">
                                         <span class="program-title">
-                                        Curious George
+                                        Dinosaur Train
                                         </span>
                                         <span class="activity-title">
-                                        ZOOmazing
+                                        Hungry Hungry Herbivore
                                         </span>
                                     </span>
                                 </a>
@@ -534,96 +513,66 @@ document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga
           <form name="tochoice" method="post" action="/perl/redirect">
                <p><select name="selected" onchange="this.form.submit()">             
                    
-                            <option value="/superwhy/">SUPER WHY!</option>
+                            <option value="http://pbskids.org/fromkids/curiousgeorge">Curious George</option>
                    
-                            <option value="/sid/">Sid  the Science Kid</option>
+                            <option value="http://pbskids.org/fromkids/sesame/">Sesame Street</option>
                    
-                            <option value="/sesame/">Sesame Street</option>
+                            <option value="http://pbskids.org/fromkids/sid/">Sid  the Science Kid</option>
                    
-                            <option value="/clifford">Clifford</option>
+                            <option value="http://pbskids.org/fromkids/dinosaurtrain/">Dinosaur Train</option>
                    
-                            <option value="/curiousgeorge">Curious George</option>
+                            <option value="http://pbskids.org/fromkids/martha/">Martha Speaks</option>
                    
-                            <option value="/martha/">Martha Speaks</option>
+                            <option value="http://pbskids.org/fromkids/clifford">Clifford</option>
                    
-                            <option value="/dinosaurtrain/">Dinosaur Train</option>
+                            <option value="http://pbskids.org/fromkids/superwhy/">SUPER WHY!</option>
                    
-                            <option value="/dragontales/">Dragon Tales</option>
-
-                            <option value="/catinthehat">The Cat in the Hat</option>
+                            <option value="http://pbskids.org/fromkids/catinthehat">The Cat in the Hat</option>
                    
-                            <option value="/barney">Barney and Friends</option>
+                            <option value="http://pbskids.org/fromkids/wordgirl/">Word Girl</option>
                    
-                            <option value="/daniel">Daniel Tiger&#39;s Neighborhood</option>
-
-                            <option value="/peg">Peg + Cat</option>
-
-                            <option value="/fetch/">Fetch</option>
+                            <option value="http://pbskids.org/fromkids/barney">Barney and Friends</option>
                    
-                            <option value="/electriccompany/">Electric Company</option>
+                            <option value="http://pbskids.org/fromkids/fetch/">Fetch</option>
                    
-                            <option value="/arthur/">Arthur</option>
+                            <option value="http://pbskids.org/fromkids/electriccompany/">Electric Company</option>
                    
-                            <option value="/wordgirl/">Word Girl</option>
+                            <option value="http://pbskids.org/fromkids/arthur/">Arthur</option>
                    
-                            <option value="/cyberchase">Cyberchase</option>
+                            <option value="http://pbskids.org/fromkids/rogers/">Mister Rogers&#39; Neighborhood</option>
                    
-                            <option value="/rogers/">Mister Rogers&#39; Neighborhood</option>
-
-                            <option value="/sagwa/">Sagwa</option>
+                            <option value="http://pbskids.org/fromkids/mamamirabelle/">Mama Mirabelle&#39;s Home Movies</option>
                    
-                            <option value="/caillou">Caillou</option>
-
-                            <option value="/wildkratts">Wild Kratts</option>
+                            <option value="http://pbskids.org/fromkids/cyberchase">Cyberchase</option>
                    
-                            <option value="/lions/">Between the Lions</option>
+                            <option value="http://pbskids.org/fromkids/lions/">Between the Lions</option>
                    
-                            <option value="/mamamirabelle/">Mama Mirabelle&#39;s Home Movies</option>
+                            <option value="http://pbskids.org/fromkids/caillou">Caillou</option>
                    
-                            <option value="/angelina/">Angelina Ballerina</option>
-
-                            <option value="/thomasandfriends/">THOMAS &amp; FRIENDS</option>
-
-                            <option value="/berenstainbears/">Berenstain Bears</option>
-
-                            <option value="/betsy/">Betsy</option>
-
-                            <option value="/buster/">Postcards from Buster</option>
+                            <option value="http://pbskids.org/fromkids/angelina/">Angelina Ballerina</option>
                    
-                            <option value="/teletubbies">Teletubbies</option>
+                            <option value="http://pbskids.org/fromkids/teletubbies">Teletubbies</option>
                    
-                            <option value="/lomax/">Lomax, the Hound of Music</option>
+                            <option value="http://pbskids.org/fromkids/toopyandbinoo/">Toopy and Binoo</option>
                    
-                            <option value="/noddy">Make Way for Noddy</option>
-
-                            <option value="/panwapa">Panwapa</option>
-
-                            <option value="/readingrainbow">Reading Rainbow</option>
+                            <option value="http://pbskids.org/fromkids/jayjay">Jay Jay the Jet Plane</option>
                    
-                            <option value="/jayjay">Jay Jay the Jet Plane</option>
+                            <option value="http://pbskids.org/fromkids/lomax/">Lomax, the Hound of Music</option>
                    
-                            <option value="/toopyandbinoo/">Toopy and Binoo</option>
+                            <option value="http://pbskids.org/fromkids/read/games/demo/">PBS KIDS Island</option>
                    
-                            <option value="/frannysfeet/">Franny&#39;s Feet</option>
-							
-                            <option value="/georgeshrinks/">George Shrinks</option>							
-
-                            <option value="/bigbigworld/">It&#39;s a Big Big World</option>							
+                            <option value="http://pbskids.org/fromkids/noddy">Make Way for Noddy</option>
                    
-                            <option value="/boohbah">Boohbah</option>
+                            <option value="http://pbskids.org/fromkids/frannysfeet/">Franny&#39;s Feet</option>
                    
-                            <option value="/read/games/demo/">PBS KIDS Island</option>
+                            <option value="http://pbskids.org/fromkids/boohbah">Boohbah</option>
                    
-                            <option value="/wordworld/">Word World</option>
-
-                            <option value="/zoboo/">Zoboomafoo</option>
-
-                            <option value="/zoom/">Zoom</option>
+                            <option value="http://pbskids.org/fromkids/wordworld/">Word World</option>
                    
-                            <option value="/mayaandmiguel">Maya &amp; Miguel</option>
+                            <option value="http://pbskids.org/fromkids/mayaandmiguel">Maya &amp; Miguel</option>
                       
                    </select>
-                   <input type="image" src="/gmac_assets/images/global/global-button-go_lg.gif" alt="Go" /></p>
+                   <input type="image" src="http://www-tc.pbskids.org/gmac_assets/images/global/global-button-go_lg.gif" alt="Go" /></p>
           </form>
     </div>
 </div><!-- end #showbar --> 
@@ -636,25 +585,25 @@ document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga
              <div id="topics-nav">
      <ul>
        
-       <li><a href="/games/coloring.html" title="See Coloring Games"><img src="/gmac_assets/images/topics/icon-coloring.png" alt="Coloring Games" width="70" height="70" class="pngFix" /></a></li>
+       <li><a href="/games/coloring.html" title="See Coloring Games"><img src="http://www-tc.pbskids.org/gmac_assets/images/topics/icon-coloring.png" alt="Coloring Games" width="70" height="70" class="pngFix" /></a></li>
        
-       <li><a href="/games/dressup.html" title="See Dress Up Games"><img src="/gmac_assets/images/topics/icon-dressup.png" alt="Dress Up Games" width="70" height="70" class="pngFix" /></a></li>
+       <li><a href="/games/dressup.html" title="See Dress Up Games"><img src="http://www-tc.pbskids.org/gmac_assets/images/topics/icon-dressup.png" alt="Dress Up Games" width="70" height="70" class="pngFix" /></a></li>
        
-       <li><a href="/games/music.html" title="See Music Games"><img src="/gmac_assets/images/topics/icon-music.png" alt="Music Games" width="70" height="70" class="pngFix" /></a></li>
+       <li><a href="/games/music.html" title="See Music Games"><img src="http://www-tc.pbskids.org/gmac_assets/images/topics/icon-music.png" alt="Music Games" width="70" height="70" class="pngFix" /></a></li>
        
-       <li><a href="/games/science.html" title="See Science Games"><img src="/gmac_assets/images/topics/icon-science.png" alt="Science Games" width="70" height="70" class="pngFix" /></a></li>
+       <li><a href="/games/science.html" title="See Science Games"><img src="http://www-tc.pbskids.org/gmac_assets/images/topics/icon-science.png" alt="Science Games" width="70" height="70" class="pngFix" /></a></li>
        
-       <li><a href="/games/letters.html" title="See Letter Games"><img src="/gmac_assets/images/topics/icon-letter.png" alt="Letter Games" width="70" height="70" class="pngFix" /></a></li>
+       <li><a href="/games/letters.html" title="See Letter Games"><img src="http://www-tc.pbskids.org/gmac_assets/images/topics/icon-letter.png" alt="Letter Games" width="70" height="70" class="pngFix" /></a></li>
        
-       <li><a href="/games/environment.html" title="See Environment Games"><img src="/gmac_assets/images/topics/icon-environment.png" alt="Environment Games" width="70" height="70" class="pngFix" /></a></li>
+       <li><a href="/games/spelling.html" title="See Spelling Games"><img src="http://www-tc.pbskids.org/gmac_assets/images/topics/icon-spelling.png" alt="Spelling Games" width="70" height="70" class="pngFix" /></a></li>
        
-       <li><a href="/games/spelling.html" title="See Spelling Games"><img src="/gmac_assets/images/topics/icon-spelling.png" alt="Spelling Games" width="70" height="70" class="pngFix" /></a></li>
+       <li><a href="/games/matching.html" title="See Matching Games"><img src="http://www-tc.pbskids.org/gmac_assets/images/topics/icon-matching.png" alt="Matching Games" width="70" height="70" class="pngFix" /></a></li>
        
-       <li><a href="/games/vocabulary.html" title="See Vocabulary Games"><img src="/gmac_assets/images/topics/icon-vocabulary.png" alt="Vocabulary Games" width="70" height="70" class="pngFix" /></a></li>
+       <li><a href="/games/environment.html" title="See Environment Games"><img src="http://www-tc.pbskids.org/gmac_assets/images/topics/icon-environment.png" alt="Environment Games" width="70" height="70" class="pngFix" /></a></li>
        
-       <li><a href="/games/math.html" title="See Math Games"><img src="/gmac_assets/images/topics/icon-math.png" alt="Math Games" width="70" height="70" class="pngFix" /></a></li>
+       <li><a href="/games/superheroes.html" title="See Super Hero Games"><img src="http://www-tc.pbskids.org/gmac_assets/images/topics/icon-superhero.png" alt="Super Hero Games" width="70" height="70" class="pngFix" /></a></li>
            
-       <li><a href="/games/alltopics.html" title="See all topics"><img src="/gmac_assets/images/topics/icon-alltopics.gif" alt="All Topics" width="70" height="70" /></a></li>
+       <li><a href="/games/alltopics.html" title="See all topics"><img src="http://www-tc.pbskids.org/gmac_assets/images/topics/icon-alltopics.gif" alt="All Topics" width="70" height="70" /></a></li>
      </ul>
      <div id="caption">Games by Topic</div>
 </div><!-- end #topics-nav -->
@@ -663,7 +612,7 @@ document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga
            
                      
                 <div class="pbskids-promos">
-                    <div class="promo"><a href="/go/?kidscampaign=fromGames" title="Visit PBS KIDS GO"><img src="/gmac_assets/images/promos/promo-pbskidsgo.gif" alt="PBS KIDS GO" /></a></div>
+                    <div class="promo"><a href="http://pbskids.org/go/?kidscampaign=fromGames" title="Visit PBS KIDS GO"><img src="http://www-tc.pbskids.org/gmac_assets/images/promos/promo-pbskidsgo.gif" alt="PBS KIDS GO" /></a></div>
                 </div>
         
            
@@ -679,53 +628,53 @@ document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga
 			    	                      <div id="featured-topic">
                                 <h2>Featured Topic</h2>
                                 <div id="topic-name">
-                                    <a href="/games/math.html">MATH</a>
+                                    <a href="/games/dressup.html">DRESS UP</a>
                                 </div><!-- end #topic-name -->
 				    <ul id="topic-games">
                                     
                                     <li class="topic-game">
-                                        <a href="/cyberchase/games/patterns/" title="Pattern Player">
+                                        <a href="http://pbskids.org/cyberchase/games/combinations/" title="Disguise Combos">
                                             <span class="image">
-                                                <img src="/kids/images/programs/small-cyberchase-patternplayer.gif" width="95" height="50" alt="Pattern Player" />
+                                                <img src="http://www-tc.pbskids.org/images/programs/small-cyberchase-disguise.gif" width="95" height="50" alt="Disguise Combos" />
                                             </span>
                                             <span class="info">
                                                 <span class="program-title">
                                                 Cyberchase
                                                 </span>
                                                 <span class="activity-title">
-                                                Pattern Player
+                                                Disguise Combos
                                                 </span>
                                             </span>
                                         </a>
                                     </li><!-- end #topic-game -->
                                     
                                     <li class="topic-game">
-                                        <a href="/sesame/games/rositaFiesta.html" title="Rosita&#39;s Fiesta">
+                                        <a href="http://pbskids.org/martha/games/dogtags/index.html" title="Dog Tags">
                                             <span class="image">
-                                                <img src="/kids/images/programs/small-sesame-rositafiesta.jpg" width="95" height="50" alt="Rosita&#39;s Fiesta" />
+                                                <img src="http://www-tc.pbskids.org/images/programs/small-martha-dogtags.jpg" width="95" height="50" alt="Dog Tags" />
+                                            </span>
+                                            <span class="info">
+                                                <span class="program-title">
+                                                Martha Speaks
+                                                </span>
+                                                <span class="activity-title">
+                                                Dog Tags
+                                                </span>
+                                            </span>
+                                        </a>
+                                    </li><!-- end #topic-game -->
+                                    
+                                    <li class="topic-game">
+                                        <a href="http://pbskids.org/sesame/games/zoe_dance_moves.html" title="Zoe&#39;s Dance Moves">
+                                            <span class="image">
+                                                <img src="http://www-tc.pbskids.org/images/programs/small-sesame-zoedancemoves.jpg" width="95" height="50" alt="Zoe&#39;s Dance Moves" />
                                             </span>
                                             <span class="info">
                                                 <span class="program-title">
                                                 Sesame Street
                                                 </span>
                                                 <span class="activity-title">
-                                                Rosita's Fiesta
-                                                </span>
-                                            </span>
-                                        </a>
-                                    </li><!-- end #topic-game -->
-                                    
-                                    <li class="topic-game">
-                                        <a href="/sid/rolypoly.html" title="Roly Poly Round-up">
-                                            <span class="image">
-                                                <img src="/kids/images/programs/small-sid-rolypoly.jpg" width="95" height="50" alt="Roly Poly Round-up" />
-                                            </span>
-                                            <span class="info">
-                                                <span class="program-title">
-                                                Sid the Science Kid
-                                                </span>
-                                                <span class="activity-title">
-                                                Roly Poly Round-up
+                                                Zoe's Dance Moves
                                                 </span>
                                             </span>
                                         </a>
@@ -742,19 +691,19 @@ document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga
                                 <h2>Popular Topics</h2>
                                 <ol>
                                     
-                                    <li><span class="image"><a href="/games/puzzles.html" title="See Puzzle Games"><img src="/gmac_assets/images/topics/small/icon-puzzle.png" alt="Puzzle Games" width="35" height="35" class="pngFix" /></a></span><span class="name"><a href="/games/puzzles.html" title="See Puzzle Games">Puzzles</a></span></li>
+                                    <li><span class="image"><a href="/games/superheroes.html" title="See Super Hero Games"><img src="http://www-tc.pbskids.org/gmac_assets/images/topics/small/icon-superhero.png" alt="Super Hero Games" width="35" height="35" class="pngFix" /></a></span><span class="name"><a href="/games/superheroes.html" title="See Super Hero Games">Superheroes</a></span></li>
                                     
-                                    <li><span class="image"><a href="/games/spelling.html" title="See Spelling Games"><img src="/gmac_assets/images/topics/small/icon-spelling.png" alt="Spelling Games" width="35" height="35" class="pngFix" /></a></span><span class="name"><a href="/games/spelling.html" title="See Spelling Games">Spelling</a></span></li>
+                                    <li><span class="image"><a href="/games/dressup.html" title="See Dress Up Games"><img src="http://www-tc.pbskids.org/gmac_assets/images/topics/small/icon-dressup.png" alt="Dress Up Games" width="35" height="35" class="pngFix" /></a></span><span class="name"><a href="/games/dressup.html" title="See Dress Up Games">Dress Up</a></span></li>
                                     
-                                    <li><span class="image"><a href="/games/dressup.html" title="See Dress Up Games"><img src="/gmac_assets/images/topics/small/icon-dressup.png" alt="Dress Up Games" width="35" height="35" class="pngFix" /></a></span><span class="name"><a href="/games/dressup.html" title="See Dress Up Games">Dress Up</a></span></li>
+                                    <li><span class="image"><a href="/games/math.html" title="See Math Games"><img src="http://www-tc.pbskids.org/gmac_assets/images/topics/small/icon-math.png" alt="Math Games" width="35" height="35" class="pngFix" /></a></span><span class="name"><a href="/games/math.html" title="See Math Games">Math</a></span></li>
                                     
-                                    <li><span class="image"><a href="/games/measurement.html" title="See Measurement Games"><img src="/gmac_assets/images/topics/small/icon-measuring.png" alt="Measurement Games" width="35" height="35" class="pngFix" /></a></span><span class="name"><a href="/games/measurement.html" title="See Measurement Games">Measurement</a></span></li>
+                                    <li><span class="image"><a href="/games/matching.html" title="See Matching Games"><img src="http://www-tc.pbskids.org/gmac_assets/images/topics/small/icon-matching.png" alt="Matching Games" width="35" height="35" class="pngFix" /></a></span><span class="name"><a href="/games/matching.html" title="See Matching Games">Matching</a></span></li>
                                     
-                                    <li><span class="image"><a href="/games/literacy.html" title="See Literacy Games"><img src="/gmac_assets/images/topics/small/icon-literacy.png" alt="Literacy Games" width="35" height="35" class="pngFix" /></a></span><span class="name"><a href="/games/literacy.html" title="See Literacy Games">Literacy</a></span></li>
+                                    <li><span class="image"><a href="/games/coloring.html" title="See Coloring Games"><img src="http://www-tc.pbskids.org/gmac_assets/images/topics/small/icon-coloring.png" alt="Coloring Games" width="35" height="35" class="pngFix" /></a></span><span class="name"><a href="/games/coloring.html" title="See Coloring Games">Coloring</a></span></li>
                                     
                                 </ol>
 
-                                <p class="button-alltopics"><a href="/games/alltopics.html" title="See All Topics"><img src="/gmac_assets/images/global/global-button-alltopics.gif" alt="All Topics" /></a></p>
+                                <p class="button-alltopics"><a href="/games/alltopics.html" title="See All Topics"><img src="http://www-tc.pbskids.org/gmac_assets/images/global/global-button-alltopics.gif" alt="All Topics" /></a></p>
                             </div>                            
                              
                         </div><!-- end #right-topics-column -->
@@ -768,91 +717,67 @@ document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga
         </div><!--end #right-column -->
     </div><!--end #supplemental-area -->
     </div>
-<div class="pk-footer">
+    <!-- end #content -->
+    <h3 class="tab">For Grownups</h3>
+<div id="footer">
+        
 
-    <h2 class="tab">For Grownups</h2>
-
-    <div class="appetizer">
-        <span id="appetizer-games"><em>For more fun: </em><a onClick="GA_obj.trackEvent('PBS KIDS Footer', 'PBS KIDS Appetizer Games')" href="/games">Games</a></span>
-        <span id="appetizer-videos"><em>For more fun: </em><a onClick="GA_obj.trackEvent('PBS KIDS Footer', 'PBS KIDS Appetizer Video')" href="/video">Videos</a></span>
-    </div>
-
-    <div class="inner">
-        <div class="jumps">
-            <ul>
-                <li class="shop call-out">
-	                <a href="http://shop.pbskids.org/?utm_source=brandsite&amp;utm_medium=portalnav&amp;utm_campaign=pbskidsnav" title="PBS KIDS Shop" rel="external" onClick="GA_obj.trackEvent('PBS KIDS Footer', 'PBS KIDS Shop')">
-	                    <strong>PBS KIDS Shop</strong>
-	                    <span class="hover-bubble">Every purchase supports PBS.</span> 
-	                </a>
-                </li>
-                <li class="mobile">
-                    <a href="http://pbskids.org/mobile" onClick="GA_obj.trackEvent('PBS KIDS Footer', 'PBS KIDS Mobile Apps')">
-                        <strong>Mobile Apps &amp; Games</strong>
-                        
-                        <span class="hover-bubble">
-                            <img src="/includes/footer/i/placeholder-app-icon.png" alt="Featured game icon" class="flip-image" />
-                            <em class="flip-title">Mobile Apps &amp; Games</em>
-                            <i class="flip-feature">Check out our new games!</i>
-                        </span>
-                    </a>
-                </li>
-                <li class="play">
-                    <a href="http://www.pbskidsplay.org/promo/CKH2222" title="PBS KIDS Play!" onClick="GA_obj.trackEvent('PBS KIDS Footer', 'PBS KIDS Play')">
-                        <strong>PBS KIDS Play!</strong>
-                        
-                        <span class="hover-bubble">Award-winning school readiness program</span>  
-                    </a>
-                </li>
-                <li class="parents">
-                    <a href="http://www.pbs.org/parents" title="PBS Parents" rel="external" onClick="GA_obj.trackEvent('PBS KIDS Footer', 'PBS KIDS Parents')">
-                        <strong>PBS Parents</strong>
-                        
-                        <span class="hover-bubble">Find <em>tips</em> and <em>tools</em> to raise an awesome kid!</span>  
-	                    
-                    </a>
-                </li>
-                <li class="teachers">
-                    <a href="http://www.pbslearningmedia.org/" title="PBS Learning Media" rel="external" onClick="GA_obj.trackEvent('PBS KIDS Footer', 'PBS KIDS Learning Media')">
-                        <strong>PBS Learning Media</strong>
-                        
-                        <span class="hover-bubble">PreK-12 educational resources &amp; activities for educators</span>    
-                    </a>
-                </li>
-                <li class="lab">
-                    <a href="http://pbskids.org/lab" title="PBS KIDS Lab" onClick="GA_obj.trackEvent('PBS KIDS Footer', 'PBS KIDS Labs')">
-                       <strong>PBS KIDS Lab</strong>
-                        
-                        <span class="hover-bubble">Every new technology is an opportunity for learning</span>  
-                    </a>
-                </li>
-            </ul>
+        
+        <div id="related-nav">
+                <div class="inner">
+                        <p>For more fun:</p>
+                        <ul>
+                                
+                                
+                                
+                                <li id="videos"><a href="/video/">Videos</a></li>
+                                
+                        </ul>
+                </div><!-- end .inner -->
+        </div><!-- end #related-nav -->
+        
+        
+        <div id="kids-utilities">
+                <ul>
+                        <li class="mobiledownloads"><a href="http://pbskids.org/mobile/" title="Mobile downloads">Mobile downloads</a></li>
+<!--            <li class="shop"><a href="#">Shop</a></li> -->
+<!--            <li class="mobileapps"><a href="#">Mobile apps</a></li> -->
+                        <li class="play"><a href="http://www.pbskidsplay.org/playnow/?CKH2222&amp;btn=1" title="PBS Play!"><strong>Play!</strong> Personalized learning games to prepare your child for school.</a></li>
+                        <li class="parents"><a href="http://pbs.org/parents/" title="PBS Parents">PBS Parents</a></li>
+                        <li class="teachers"><a href="http://pbs.org/teachers/" title="PBS Teachers">PBS Teachers</a></li>
+                </ul>
         </div>
-        <div class="global">
-            <ul class="constants">
-                <li><a href="/tvschedules/index.html" onClick="GA_obj.trackEvent('PBS KIDS Footer', 'PBS KIDS TV Times')">TV Times</a></li>
-                <li><a href="/music/index.html" onClick="GA_obj.trackEvent('PBS KIDS Footer', 'PBS KIDS Music')">Music</a></li>
-                <li><a href="/coloring/index.html" onClick="GA_obj.trackEvent('PBS KIDS Footer', 'PBS KIDS Coloring')">Coloring</a></li>
-                <li><a href="/findit/index.html" onClick="GA_obj.trackEvent('PBS KIDS Footer', 'PBS KIDS Search')">Search</a></li>
-                <li><a href="//help/index.html" onClick="GA_obj.trackEvent('PBS KIDS Footer', 'PBS KIDS Help')">Help</a></li>
-                <!--<li><a id="returnToMobile" href="http://m.pbskids.org">Mobile View</a></li>-->
-            </ul>
-            
-            <p class="station station-undeclared">
-                <a href="/tvschedules/localizer.html?dest=/video/" onClick="GA_obj.trackEvent('PBS KIDS Footer', 'PBS KIDS Find Station')">Find your local PBS station</a>
-            </p>
-                        
-            <ul class="legal">
-                <li class="first"><a href="/privacy/index.html?campaign=fkhp_prv" onClick="GA_obj.trackEvent('PBS KIDS Footer', 'PBS KIDS Privacy Policy')">Privacy Policy</a></li>
-                <li><a href="/privacy/termsofuse.html?campaign=fkhp_tou" onClick="GA_obj.trackEvent('PBS KIDS Footer', 'PBS KIDS Terms of Use')">Terms of Use</a></li>
-                <li><a href="http://pbs.org" title="PBS" rel="external" onClick="GA_obj.trackEvent('PBS KIDS Footer', 'PBS KIDS pbs.org')">pbs.org</a></li>
-                <li>&copy; 1995&ndash;2013</li>
-            </ul>
+        
+        
+        
+
+        <!-- COPYRIGHT -->
+        
+        <div id="copyright">
+                <div class="inner">
+
+        <ul class="utility-nav">
+            <li><a href="/pkhomepage/redir/fromkids/tvschedules/index.html">TV Times</a></li>
+            <li><a href="/pkhomepage/redir/fromkids/music/index.html">Music</a></li>
+            <li><a href="/pkhomepage/redir/fromkids/coloring/index.html">Coloring</a></li>
+            <li><a href="/pkhomepage/redir/fromkids/findit/index.html">Search</a></li>
+            <li><a href="/pkhomepage/redir/fromkids/help/index.html">Help</a></li>
+        </ul>
+        
+                
+                <p class="station"><a href="/privacy/index.html?campaign=fkhp_prv">Privacy Policy</a> | <a href="/privacy/termsofuse.html?campaign=fkhp_tou">Terms of Use</a> | <a href="http://pbs.org" title="PBS">pbs.org</a> &copy; 1995-2011</p>
+                
+
+                <!-- STATION BUG -->
+                
+        
+                </div><!-- end .inner -->
         </div>
-    </div>
+        <!-- END COPYRIGHT -->
+
+</div><!-- end #footer -->
 
 </div>
-<!-- So ends the relative include -->
-<!--[END] SHOP FOOTER-->
+<!-- end #container -->
 </body>
 </html>
