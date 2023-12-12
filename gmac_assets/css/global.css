@@ -1,0 +1,470 @@
+@charset "UTF-8";
+/*
+*****
+	Global CSS for the Games Area
+*****
+*/
+
+body {
+	background: #ff791f;
+	background-image: url(/gmac_assets/images/backgrounds/global-background.jpg);
+	margin: 0;
+	padding: 0;
+	font-family: arial, sans-serif;
+}
+
+img {
+	border-collapse: collapse;
+	border: none;
+	display: block;
+}
+
+div,
+object,
+embed {
+	margin: 0;
+	padding: 0;
+}
+
+object,
+embed {
+	display: block;
+}
+
+/* Hides No Flash alternate content when Javascript is enabled */
+.flash-replaced .alt {
+	position: absolute;
+	height: 0;
+	width: 0;
+	overflow: hidden;
+}
+
+
+/* Defines the Parents Menu, found in the top right */
+
+#topicmenu-container {
+	margin: 0 auto;
+}
+
+#topicmenu-container img {
+	display: inline;	
+}
+
+#topicmenu-container form {
+	margin: 0;
+	padding: 0;
+}
+
+#topicmenu-container form label {
+	color: #fff;
+	font-size: 11px;
+	display: block;
+	text-align: right;
+}
+
+#topicmenu-container form select {
+	width: 200px;
+	font-size: 12px;
+	margin: 0;
+	padding: 2px;
+	border: none;
+	background-color: #fff;
+	color: #893d09;
+}
+
+#topicmenu-container form p {
+	margin: 0;
+	padding: 0;
+}
+
+#topicmenu-container form select option {
+	padding: 1px 2px;
+}
+
+
+/* Defines the Program selection bar */
+
+#showbar {
+	padding: 10px;
+	text-align: center;
+}
+
+/* No Flash Showbar */
+
+#showbar #noflash-showbar form,
+#showbar #noflash-showbar form p{
+	margin: 0;
+	padding: 10px 0 0 0;
+}
+
+#showbar #noflash-showbar form select {
+	font-size: 22px;
+	margin: 0;
+	padding: 2px;
+	background-color: #fff;
+	border: none;
+	border-collapse: collapse;
+	background-color: #fff;
+	color: #893d09;
+	width: 500px;
+}
+
+
+/*
+===
+	Supplemental Content
+===
+*/
+
+#supplemental-area {
+	width: 915px;
+	margin: 0 auto 17px auto;
+	overflow: hidden;
+	clear: both;
+}
+
+#supplemental-area:after {
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+
+#supplemental-area #left-column {
+	float: left;
+	width: 380px;
+	margin: 0 17px 0 0;
+}
+
+#supplemental-area #right-column {
+	float: left;
+	width: 508px;
+}
+
+/* Creates the Rounded Boxes used */
+
+.box {
+	margin: 0 0 10px 0;
+	clear: both;
+}
+
+.box .hd {
+	background-image: url(/gmac_assets/images/global/global-box-top.gif);
+	background-repeat: no-repeat;
+	padding: 10px 0;
+}
+
+.box .content {
+	background-color: #fff;
+	overflow: hidden;
+	padding: 0 20px;
+}
+
+.box .content:after {
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+
+.box .ft {
+	background-image: url(/gmac_assets/images/global/global-box-bottom.gif);
+	background-repeat: no-repeat;
+	padding: 10px 0;
+}
+
+/* Defines the Games by Topic Area */
+
+#supplemental-area #topics-nav {
+	margin: 0;
+	padding: 0;
+}
+
+#supplemental-area #topics-nav h3 {
+	margin: 0 0 0 0;
+	padding: 0;
+	height: 30px;
+	
+}
+
+#supplemental-area #topics-nav ul {
+	list-style: none;
+	margin: 0 0 0 0;
+	padding: 0;
+}
+
+#supplemental-area #topics-nav ul li {
+	float: left;
+	width: 70px;
+	height: 70px;
+	margin: 0 6px 5px 0;
+	padding: 0;
+	min-height: 70px;
+}
+
+#supplemental-area #topics-nav #caption {
+	clear: both;
+	width: 152px;
+	height: 15px;
+	background-image: url(/gmac_assets/images/global/global-label-gamesbytopic.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	text-indent: -9999px;
+	margin: 0 auto 23px auto;
+	padding: 0;
+}
+
+
+/* PBS KIDS Properties */
+
+#supplemental-area #pbskids-promos {
+	clear: both;
+}
+
+#supplemental-area #pbskids-promos .promo {
+	margin-bottom: 10px;
+}
+
+
+/*
+===
+	Topics Lists Area
+===
+*/
+
+#supplemental-area #topics-lists h2 {
+	text-align: center;
+	margin: 0 auto 10px auto;
+	padding: 5px 0 0 0;
+	border-bottom: 1px solid #cc6017;
+	font-size: 14px;
+	font-weight: 900;
+	color: #e26a1a;
+	text-indent: -9999px;
+}
+
+#supplemental-area #topics-lists #left-topics-column {
+	width: 224px;
+	float: left;
+	margin: 0 20px 0 0;
+	padding: 0;
+}
+
+#supplemental-area #topics-lists #right-topics-column {
+	width: 224px;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+/* Featured Topics */
+
+#supplemental-area #topics-lists #featured-topic h2 {
+	background-image: url(/gmac_assets/images/global/global-label-featuredtopic.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#supplemental-area #topics-lists #featured-topic #topic-name {
+	font-size: 16px;
+	font-weight: 900;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0 auto 10px auto;
+	padding: 10px 8px;
+	color: #ed931b;
+	background-color: #fff700;
+}
+
+#supplemental-area #topics-lists #featured-topic #topic-name a:link,
+#supplemental-area #topics-lists #featured-topic #topic-name a:visited,
+#supplemental-area #topics-lists #featured-topic #topic-name a:hover,
+#supplemental-area #topics-lists #featured-topic #topic-name a:active {
+	color: #ed931b;
+}
+
+
+#supplemental-area #topics-lists #featured-topic #topic-name a:link,
+#supplemental-area #topics-lists #featured-topic #topic-name a:visited,
+#supplemental-area #topics-lists #featured-topic #topic-name a:active {
+	text-decoration: none;
+}
+
+#supplemental-area #topics-lists #featured-topic #topic-name a:hover {
+	text-decoration: underline;
+}
+
+#supplemental-area #topics-lists #featured-topic ul#topic-games {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#supplemental-area #topics-lists #featured-topic ul#topic-games li.topic-game {
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+#supplemental-area #topics-lists #featured-topic ul#topic-games li.topic-game:after {
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+
+#supplemental-area #topics-lists #featured-topic ul#topic-games li.topic-game a {
+	display: block;
+	width: 211px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#supplemental-area #topics-lists #featured-topic ul#topic-games li.topic-game span.image {
+	display: block;
+	width: 97px;
+	float: left;
+	margin: 0 10px 0 0;
+	padding: 0;
+}
+
+#supplemental-area #topics-lists #featured-topic ul#topic-games li.topic-game span.image img {
+	border: 1px solid #bab6b3;
+}
+
+#supplemental-area #topics-lists #featured-topic ul#topic-games li.topic-game span.info {
+	display: block;
+	width: 104px;
+	font-size: 12px;
+	line-height: 14px;
+	color: #000;
+	text-align: left;
+	float: left;
+	margin: 0;
+	padding: 3px 0 0 0;
+}
+
+#supplemental-area #topics-lists #featured-topic ul#topic-games li.topic-game a:link span.info,
+#supplemental-area #topics-lists #featured-topic ul#topic-games li.topic-game a:visited span.info,
+#supplemental-area #topics-lists #featured-topic ul#topic-games li.topic-game a:active span.info {
+	color: #893d09;
+}
+
+#supplemental-area #topics-lists #featured-topic ul#topic-games li.topic-game a:hover span.info {
+	color: #e26a1a;
+}
+
+#supplemental-area #topics-lists #featured-topic ul#topic-games li.topic-game span.info .program-title {
+	text-transform: uppercase;
+	display: block;
+	padding: 0 0 2px 0;
+}
+
+/* Popular Topics */
+
+#supplemental-area #topics-lists #popular-topics h2 {
+	background-image: url(/gmac_assets/images/global/global-label-populartopics.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#supplemental-area #topics-lists #popular-topics ol  {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+}
+
+#supplemental-area #topics-lists #popular-topics ol li {
+	clear: both;
+}
+
+#supplemental-area #topics-lists #popular-topics ol li img {
+	display: inline;
+}
+
+#supplemental-area #topics-lists #popular-topics ol li a {
+	text-transform: uppercase;
+	color: #894a11;
+}
+
+#supplemental-area #topics-lists #popular-topics ol li a:hover {
+	text-decoration: none;
+	color: #e26a1a;
+}
+
+#supplemental-area #topics-lists #popular-topics ol li span.image {
+	float: left;
+	display: block;
+	width: 35px;
+	height: 35px;
+	margin: 0;
+	padding: 0;
+}
+
+#supplemental-area #topics-lists #popular-topics ol li span.name {
+	float: left;
+	display: block;
+	width: 188px;
+	margin: 0;
+	padding: 8px 0 0 0;
+}
+
+#supplemental-area #topics-lists #popular-topics p.button-alltopics {
+	margin: 0 auto;
+	padding: 8px 0 0 0;
+	text-align: center;
+	clear: both;
+}
+
+#supplemental-area #topics-lists #popular-topics p.button-alltopics img {
+	margin: 0 auto;
+	text-align: center;
+}
+
+/*
+===
+	Promotional Stunts
+===
+*/
+
+#supplemental-area .stunt-container .content {
+	background-image: url(/gmac_assets/images/global/global-bground-stunt.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+}
+
+
+/*
+++++++
+	IE6 Specific Styles
+++++++
+*/
+
+* html #supplemental-area,
+* html .box .content,
+* html #supplemental-area #topics-lists #featured-topic ul#topic-games li.topic-game{
+	height: 1%;
+}
+/*
+     FILE ARCHIVED ON 17:19:43 Apr 18, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 04:31:03 Dec 12, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 126.017
+  exclusion.robots: 0.211
+  exclusion.robots.policy: 0.2
+  cdx.remote: 0.062
+  esindex: 0.011
+  LoadShardBlock: 76.545 (3)
+  PetaboxLoader3.datanode: 74.2 (4)
+  load_resource: 94.923
+  PetaboxLoader3.resolve: 70.91
+*/
