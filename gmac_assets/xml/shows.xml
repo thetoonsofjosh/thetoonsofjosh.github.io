@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shows>
+        
+        <show>
+                <name>Martha Speaks</name>
+                <url>/martha/</url>
+                <imageurl>/home/images/shows/martha.gif</imageurl>
+        </show>
+        
+        <show>
+                <name>Sesame Street</name>
+                <url>/sesame/</url>
+                <imageurl>/home/images/shows/sesame.gif</imageurl>
+        </show>
+        
+        <show>
+                <name>SUPER WHY!</name>
+                <url>/superwhy/</url>
+                <imageurl>/home/images/shows/superwhy.gif</imageurl>
+        </show>
+        
+        <show>
+                <name>Sid  the Science Kid</name>
+                <url>/sid/</url>
+                <imageurl>/home/images/shows/sid.gif</imageurl>
+        </show>
+        
+        <show>
+                <name>Curious George</name>
+                <url>/curiousgeorge</url>
+                <imageurl>/home/images/shows/curiousgeorge.gif</imageurl>
+        </show>
+        
+        <show>
+                <name>Clifford</name>
+                <url>/clifford</url>
+                <imageurl>/home/images/shows/clifford.gif</imageurl>
+        </show>
+        
+        <show>
+                <name>The Cat in the Hat</name>
+                <url>/catinthehat</url>
+                <imageurl>/home/images/shows/catinthehat.gif</imageurl>
+        </show>
+        
+        <show>
+                <name>Wild Kratts</name>
+                <url>/wildkratts</url>
+                <imageurl>/home/images/shows/wildkratts.gif</imageurl>
+        </show>
+        
+        <show>
+                <name>Dinosaur Train</name>
+                <url>/dinosaurtrain/</url>
+                <imageurl>/home/images/shows/dinosaurtrain.gif</imageurl>
+        </show>
+        
+        <show>
+                <name>Electric Company</name>
+                <url>/electriccompany/</url>
+                <imageurl>/home/images/shows/electriccompany.gif</imageurl>
+        </show>
+        
+        <show>
+                <name>Barney and Friends</name>
+                <url>/barney</url>
+                <imageurl>/home/images/shows/barney.gif</imageurl>
+        </show>
+        
+        <show>
+                <name>Arthur</name>
+                <url>/arthur/</url>
+                <imageurl>/home/images/shows/arthur.gif</imageurl>
+        </show>
+        
+        <show>
+                <name>Word Girl</name>
+                <url>/wordgirl/</url>
+                <imageurl>/home/images/shows/wordgirl.gif</imageurl>
+        </show>
+        
+        <show>
+                <name>Fetch</name>
+                <url>/fetch/</url>
+                <imageurl>/home/images/shows/fetch.gif</imageurl>
+        </show>
+        
+        <show>
+                <name>Mama Mirabelle&#39;s Home Movies</name>
+                <url>/mamamirabelle/</url>
+                <imageurl>/home/images/shows/mamamirabelle.gif</imageurl>
+        </show>
+        
+        <show>
+                <name>Mister Rogers&#39; Neighborhood</name>
+                <url>/rogers/</url>
+                <imageurl>/home/images/shows/rogers.gif</imageurl>
+        </show>
+        
+        <show>
+                <name>Cyberchase</name>
+                <url>/cyberchase</url>
+                <imageurl>/home/images/shows/cyberchase.gif</imageurl>
+        </show>
+        
+        <show>
+                <name>Between the Lions</name>
+                <url>/lions/</url>
+                <imageurl>/home/images/shows/lions.gif</imageurl>
+        </show>
+        
+        <show>
+                <name>Caillou</name>
+                <url>/caillou</url>
+                <imageurl>/home/images/shows/caillou.gif</imageurl>
+        </show>
+        
+        <show>
+                <name>Angelina Ballerina</name>
+                <url>/angelina/</url>
+                <imageurl>/home/images/shows/angelinaballerina.gif</imageurl>
+        </show>
+        
+        <show>
+                <name>PBS KIDS Island</name>
+                <url>/read/games/demo/</url>
+                <imageurl>/home/images/shows/island.gif</imageurl>
+        </show>
+        
+        <show>
+                <name>Make Way for Noddy</name>
+                <url>/noddy</url>
+                <imageurl>/home/images/shows/noddy.gif</imageurl>
+        </show>
+        
+        <show>
+                <name>Lomax, the Hound of Music</name>
+                <url>/lomax/</url>
+                <imageurl>/home/images/shows/lomax.gif</imageurl>
+        </show>
+        
+        <show>
+                <name>Teletubbies</name>
+                <url>/teletubbies</url>
+                <imageurl>/home/images/shows/teletubbies.gif</imageurl>
+        </show>
+        
+        <show>
+                <name>Franny&#39;s Feet</name>
+                <url>/frannysfeet/</url>
+                <imageurl>/home/images/shows/frannysfeet.gif</imageurl>
+        </show>
+        
+        <show>
+                <name>Toopy and Binoo</name>
+                <url>/toopyandbinoo/</url>
+                <imageurl>/home/images/shows/toopyandbinoo.gif</imageurl>
+        </show>
+        
+        <show>
+                <name>Boohbah</name>
+                <url>/boohbah</url>
+                <imageurl>/home/images/shows/boohbah.gif</imageurl>
+        </show>
+        
+        <show>
+                <name>Jay Jay the Jet Plane</name>
+                <url>/jayjay</url>
+                <imageurl>/home/images/shows/jayjay.gif</imageurl>
+        </show>
+        
+        <show>
+                <name>Maya &amp; Miguel</name>
+                <url>/mayaandmiguel</url>
+                <imageurl>/home/images/shows/mayaandmiguel.gif</imageurl>
+        </show>
+        
+        <show>
+                <name>Word World</name>
+                <url>/wordworld/</url>
+                <imageurl>/home/images/shows/wordworld.gif</imageurl>
+        </show>
+        
+</shows>
