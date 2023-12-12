@@ -191,7 +191,7 @@ PBS.KIDS.Headband = (function(){
 		username: username,
 		userid: userid,
 		boxname: _get_cookie('pbskids.boxname', 'Secret Box'), 
-		avatar: 'http://thetoonsofjosh.github.io/go/secretbox/images/avatars/' + _get_cookie('pbskids.avatar', 'trophy') + '.jpg',
+		avatar: 'https://thetoonsofjosh.github.io/go/secretbox/images/avatars/' + _get_cookie('pbskids.avatar', 'trophy') + '.jpg',
 		login_status: "logged-in",
 		current_url: escape(window.location)
 	    }
@@ -205,10 +205,10 @@ PBS.KIDS.Headband = (function(){
 
     var _get_base_url = function(){
 	//Find the root url of the site
-	//e.g. http://thetoonsofjosh.github.io//somesite/games/index.html ==> http://thetoonsofjosh.github.io//somesite
+	//e.g. https://thetoonsofjosh.github.io//somesite/games/index.html ==> https://thetoonsofjosh.github.io//somesite
 	var path = window.location.pathname;
 	var root_path = path.match(/(.[^/]*)/)[1];
-	var root_url = 'http://' + window.location.hostname + root_path;
+	var root_url = 'https://' + window.location.hostname + root_path;
 	//Return url without trailing slash
 	return root_url.replace(/\/$/, '');
     }
