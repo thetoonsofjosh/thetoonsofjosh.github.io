@@ -10,6 +10,8 @@
 <title>GAMES | PBS KIDS</title>
 <meta name="description" content="Play hundreds of fun educational kids games with PBS KIDS favorites such as Curious George, Elmo, Super Why, The Cat in the Hat and many more!  ">
 <link rel="canonical" href="/games/" />
+
+
 <link rel="stylesheet" href="/games/styles/fonts.css" type="text/css" media="screen" /><!-- This needs to be referenced directly, and not pulled from the caching server. -->
 <link rel="stylesheet" href="/games/styles/style.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="/games/styles/print.css" type="text/css" media="print" />
@@ -17,16 +19,12 @@
 <!--[if lt IE 9]>	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>	<![endif]-->
 <!--[if IE 6]>		<link rel="stylesheet" href="/games/styles/ie6.css" type="text/css" />	<![endif]-->
 <!--[if !IE 7]>		<link rel="stylesheet" href="/games/styles/ie-not7.css" type="text/css" /> <![endif]-->
-<script type="text/javascript" src="/games/js/jquery.js"></script>
-<script type="text/javascript" src="/games/js/global.js"></script>
-<script type="text/javascript" src="/includes/javascript/bridge.urls.js"></script>
-<script type="text/javascript" src="/includes/javascript/bridge.js"></script>
+<link href="/includes/footer/pk-footer.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/includes/pk-sponsor/styles/pk-sponsor-styles.css" rel="stylesheet" type="text/css" media="screen" />
 
 
-	<!-- Assets for Shop Footer. -->
-		<link href="/includes/footer/pk-footer.css" media="screen" rel="stylesheet" type="text/css" />
-		<script src="/includes/footer/pk-footer.js" type="text/javascript"></script>	
-	<!-- /////////////// -->
+
+<script type="text/javascript" src="/includes/javascript/steal/steal.js?homepage-steal-config.js"></script>
 
 
 </head>
@@ -86,7 +84,7 @@ var GA_setvar;
 })();
 
 </script>
-
+<script id="pbskids-headband-script" type="text/javascript" src="/pbs-kids-headband/js/headband.js?v=47"></script>
 <script type="text/javascript">
 var GA_env = { ua_list: "UA-4005067-1,UA-4005001-1,ET-4005001-3" };
 
@@ -99,27 +97,22 @@ document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga
 
 <!-- Begin comScore Tag -->
 <script>
-   document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
-</script>
- <script>
-  COMSCORE.beacon({
-    c1:2,
-    c2:3005420,
-    c3:"",
-    c4:"pbskids.org/games/index.html",
-    c5:"",
-    c6:"",
-    c15:""
-  });
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "3005420" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
 </script>
 <noscript>
-  <img src="http://b.scorecardresearch.com/b?c1=2&c2=3005420&c3=&c4=pbskids.org/games/index.html&c5=&c6=&c15=&cv=1.3&cj=1" style="display:none" width="0" height="0" alt="" />
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=3005420&cv=2.0&cj=1" />
 </noscript>
 <!-- End comScore Tag -->
 
 
 
-
+<div id="pk-sponsor"></div>
 
 
 <div class="page">
@@ -167,53 +160,50 @@ document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga
 
 <section class="billboard">
 	<div class="core">
-		<h2><a href="">PBS KIDS Home</a></h2>
+		<h2><a href="http://thetoonsofjosh.github.io">PBS KIDS Home</a></h2>
 		<nav class="panels">
                 
                         <ul>
                         
-                                <li><a href="/curiousgeorge/games/i_love_shapes/" data-topics="Shapes, Gadgets, Monkeys, Math"><img src="/images/programs/big-curiousgeorge-iloveshapes.gif" alt="Curious George" /><span>I Love Shapes</span></a></li>
+                                <li><a href="/catinthehat/games/gravity.html" data-topics="Test, Experiments, Physics, Gravity"><img src="/images/programs/xlarge-catinthehat-gravity.jpg" alt="The Cat in the Hat" /><span>Gravity-A-Boing-Boing</span></a></li>
                         
-                                <li><a href="/sid/balancingact.html" data-topics="Test, Tools, Estimation, Physics"><img src="/images/programs/big-sid-balancingact.jpg" alt="Sid the Science Kid" /><span>Gabriella&#39;s Balancing Act</span></a></li>
+                                <li><a href="/thomasandfriends/games/steam-team-snapshots/" data-topics="Building, Trains"><img src="/images/programs/big-thomas-steamteam.jpg.jpeg" alt="Thomas &amp; Friends" /><span>Steam Team Snapshots</span></a></li>
                         
-                                <li><a href="/superwhy/#game/rescue" data-topics="Reading, Storytelling, Vocabulary, Literacy"><img src="/images/programs/big-superwhy-rescue.gif" alt="Super Why!" /><span>Super Why to the Rescue!</span></a></li>
+                                <li><a href="/sid/letsfly.html" data-topics="Building, Team Work, Physics, Planes"><img src="/images/programs/big-sid-airplane.png" alt="Sid the Science Kid" /><span>Let&#39;s Fly</span></a></li>
                         
-                                <li><a href="/dinosaurtrain/games/hungryhungryherbivore.html" data-topics="Environment, Dinosaurs, Wildlife, Plants"><img src="/images/programs/big-dinosaurtrain-hungryhungryherbivore.jpg" alt="Dinosaur Train" /><span>Hungry Hungry Herbivore</span></a></li>
+                                <li><a href="/dinosaurtrain/games/playdate.html" data-topics="Dinosaurs, Winning + Losing, Friendship, Competition"><img src="/images/programs/big-dinosaurtrain-playdate.png" alt="Dinosaur Train" /><span>Playdate</span></a></li>
                         
-                                <li><a href="/martha/games/scrubapup/index.html" data-topics="Reading, Words, Vocabulary, Pets"><img src="/images/programs/big-martha-scrubapup.jpg" alt="Martha Speaks" /><span>Scrub a Pup</span></a></li>
-                        
-                                <li><a href="/clifford/games/scavenger-hunt.html" data-topics="Spring, Community, Problem Solving, Dogs"><img src="/images/programs/big-clifford-scavengerhunt.gif" alt="Clifford The Big Red Dog" /><span>Clifford&#39;s Scavenger Hunt</span></a></li>
+                                <li><a href="/curiousgeorge/busyday/rocket/" data-topics="Satellite, Counting, Monkeys, Math"><img src="/images/programs/big-curiousgeorge-rocket.jpg" alt="Curious George" /><span>Blast Off!</span></a></li>
                         
                         </ul>
                 
                         <ul>
                         
-                                <li><a href="/sesame/games/cookieLetterOfDay.html" data-topics="Alphabet, Letters, Literacy"><img src="/images/programs/big-sesame-letteroftheday.gif" alt="Sesame Street" /><span>Letter of the Day</span></a></li>
+                                <li><a href="/dinosaurtrain/games/windowwatcher.html" data-topics="Exploring, Nature, Dinosaurs, Forest"><img src="/images/programs/xlarge-dinosaurtrain-windowwatcher.jpg" alt="Dinosaur Train" /><span>Window Watcher</span></a></li>
                         
-                                <li><a href="/fromkids/catinthehat/games/nocturnal-hat-hunt.html" data-topics="Wildlife, Mammals, Biology, Forest"><img src="/images/programs/big-catinthehat-nocturnal.jpg" alt="The Cat in the Hat" /><span>The Great Nocturnal Hat Hunt</span></a></li>
+                                <li><a href="/daniel/games/tea/" data-topics="Social Skills, Sharing, Friendship"><img src="/images/programs/xlarge-daniel-teaparty.png" alt="Daniel Tiger&#39;s Neighborhood" /><span>Tea Party</span></a></li>
                         
-                                <li><a href="/games/dressup.html" data-topics=""><img src="/images/programs/big-pbskids-dressup.jpg" alt="PBS KIDS" /><span>PBS KIDS Dress Up Games</span></a></li>
-                        
-                                <li><a href="/dinosaurtrain/games/howbigareyou.html" data-topics="Dinosaurs, Estimation, Numbers, Measurement"><img src="/images/programs/big-dinosaurtrain-howbigareyou.jpg" alt="Dinosaur Train" /><span>How Big Are You?</span></a></li>
-                        
-                                <li><a href="/caillou/immersivegames/?gameID=0" data-topics="Jobs, Vocabulary, Team Work, Thanksgiving"><img src="/images/programs/big-caillou-cook.jpg" alt="Caillou" /><span>Caillou the Cook</span></a></li>
-                        
-                                <li><a href="/curiousgeorge/games/roller_monkey/roller_monkey.html" data-topics="Patterns, Rollerskates, Math, Monkeys"><img src="/images/programs/big-curiousgeorge-rollermonkey.gif" alt="Curious George" /><span>Roller Monkey</span></a></li>
+                                <li><a href="/thomasandfriends/games/track-builder/" data-topics="Designing, Trains"><img src="/images/programs/xlarge-thomas-trackbuilder.jpg" alt="Thomas &amp; Friends" /><span>Track Builder</span></a></li>
                         
                         </ul>
                 
                         <ul>
                         
-                                <li><a href="/superwhy/#game/alphapigbingo" data-topics="Alphabet, Letters, Pets, Literacy"><img src="/images/programs/xlarge-superwhy-licketyletter.jpg" alt="Super Why!" /><span>Alpha Pig&#39;s Lickety Letter Bingo</span></a></li>
+                                <li><a href="/curiousgeorge/games/splat_symphony/splat_symphony.html" data-topics="Art, Colors, Musical Instruments, Music"><img src="/images/programs/big-curiousgeorge-splatsymphony.jpg" alt="Curious George" /><span>Splat Symphony</span></a></li>
                         
-                                <li><a href="/curiousgeorge/games/bring_it/bring_it.html" data-topics="Pets, Counting, Numbers, Math"><img src="/images/programs/xlarge-curiousgeorge-bringit.gif" alt="Curious George" /><span>Bring It!</span></a></li>
+                                <li><a href="/martha/games/dogtags/index.html" data-topics="Art, Words, Vocabulary, Pets"><img src="/images/programs/big-martha-dogtags.jpg" alt="Martha Speaks" /><span>Dog Tags</span></a></li>
                         
-                                <li><a href="/martha/puppals/" data-topics="Helping, Pets, Vocabulary, Words"><img src="/images/programs/xlarge-martha-puppals.jpg" alt="Martha Speaks" /><span>Pup Pals</span></a></li>
+                                <li><a href="/arthur/clubs/fashion/index.html" data-topics="Art, Crafts"><img src="/images/programs/big-arthur-fashion.gif" alt="Arthur" /><span>Fashion Club</span></a></li>
+                        
+                                <li><a href="/daniel/games/bedroom/" data-topics="Helping, Exploring"><img src="/images/programs/big-daniel-mybedtime.jpg" alt="Daniel Tiger&#39;s Neighborhood" /><span>My Bedtime</span></a></li>
+                        
+                                <li><a href="/thomasandfriends/games/track-repair/" data-topics="Test, Building, Trains"><img src="/images/programs/big-thomas-trackrepair.jpg" alt="Thomas &amp; Friends" /><span>Track Repair</span></a></li>
+                        
+                                <li><a href="/martha/games/dogsonice/index.html" data-topics="Words, Vocabulary, Competition, Pets"><img src="/images/programs/big-martha-ice.gif" alt="Martha Speaks" /><span>Dogs on Ice</span></a></li>
                         
                         </ul>
                 
 </nav>
-
 		<aside>
 			<span class="up"><a href="#">Up</a></span>
 			<span class="down"><a href="#">Down</a></span>
@@ -234,47 +224,7 @@ document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga
 			
                            <ul>
 			
-					<li class="curious-george"><a href="/fromkids/curiousgeorge">Curious George</a></li>
-			
-			   
-			
-
-			
-
-			
-					<li class="wild-kratts"><a href="/fromkids/wildkratts">Wild Kratts</a></li>
-			
-			   
-			
-
-			
-
-			
-					<li class="dinosaur-train"><a href="/fromkids/dinosaurtrain/">Dinosaur Train</a></li>
-			
-			   
-			
-
-			
-
-			
-					<li class="clifford"><a href="/fromkids/clifford">Clifford</a></li>
-			
-			   
-			
-
-			
-
-			
-					<li class="martha-speaks"><a href="/fromkids/martha/">Martha Speaks</a></li>
-			
-			   
-			
-
-			
-
-			
-					<li class="the-cat-in-the-hat"><a href="/fromkids/catinthehat">The Cat in the Hat</a></li>
+					<li class="sesame-street"><a href="/fromkids/sesame/">Sesame Street</a></li>
 			
 			   
 			
@@ -290,7 +240,7 @@ document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga
 			
 
 			
-					<li class="sesame-street"><a href="/fromkids/sesame/">Sesame Street</a></li>
+					<li class="wild-kratts"><a href="/fromkids/wildkratts">Wild Kratts</a></li>
 			
 			   
 			
@@ -306,7 +256,47 @@ document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga
 			
 
 			
-					<li class="fetch"><a href="/fromkids/fetch/">Fetch</a></li>
+					<li class="martha-speaks"><a href="/fromkids/martha/">Martha Speaks</a></li>
+			
+			   
+			
+
+			
+
+			
+					<li class="dinosaur-train"><a href="/fromkids/dinosaurtrain/">Dinosaur Train</a></li>
+			
+			   
+			
+
+			
+
+			
+					<li class="electric-company"><a href="/fromkids/electriccompany/">Electric Company</a></li>
+			
+			   
+			
+
+			
+
+			
+					<li class="curious-george"><a href="/fromkids/curiousgeorge">Curious George</a></li>
+			
+			   
+			
+
+			
+
+			
+					<li class="arthur"><a href="/fromkids/arthur/">Arthur</a></li>
+			
+			   
+			
+
+			
+
+			
+					<li class="daniel-tigers-neighborhood"><a href="/fromkids/daniel/">Daniel Tiger&#39;s Neighborhood </a></li>
 			
                            </ul>
 			
@@ -324,7 +314,7 @@ document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga
 			
 
 			
-					<li class="electric-company"><a href="/fromkids/electriccompany/">Electric Company</a></li>
+					<li class="the-cat-in-the-hat"><a href="/fromkids/catinthehat">The Cat in the Hat</a></li>
 			
 			   
 			
@@ -332,31 +322,7 @@ document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga
 			
 
 			
-					<li class="barney-and-friends"><a href="/fromkids/barney">Barney and Friends</a></li>
-			
-			   
-			
-
-			
-
-			
-					<li class="arthur"><a href="/fromkids/arthur/">Arthur</a></li>
-			
-			   
-			
-
-			
-
-			
-					<li class="mama-mirabelles-home-movies"><a href="/fromkids/mamamirabelle/">Mama Mirabelle&#39;s Home Movies</a></li>
-			
-			   
-			
-
-			
-
-			
-					<li class="mister-rogers-neighborhood"><a href="/fromkids/rogers/">Mister Rogers&#39; Neighborhood</a></li>
+					<li class="clifford"><a href="/fromkids/clifford">Clifford</a></li>
 			
 			   
 			
@@ -372,7 +338,15 @@ document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga
 			
 
 			
-					<li class="cyberchase"><a href="/fromkids/cyberchase">Cyberchase</a></li>
+					<li class="lomax-the-hound-of-music"><a href="/fromkids/lomax/">Lomax, the Hound of Music</a></li>
+			
+			   
+			
+
+			
+
+			
+					<li class="mister-rogers-neighborhood"><a href="/fromkids/rogers/">Mister Rogers&#39; Neighborhood</a></li>
 			
 			   
 			
@@ -388,73 +362,7 @@ document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga
 			
 
 			
-					<li class="angelina-ballerina"><a href="/fromkids/angelina/">Angelina Ballerina</a></li>
-			
-                           </ul>
-			
-
-			
-
-			
-                           <ul>
-			
-					<li class="teletubbies"><a href="/fromkids/teletubbies">Teletubbies</a></li>
-			
-			   
-			
-
-			
-
-			
-					<li class="frannys-feet"><a href="/fromkids/frannysfeet/">Franny&#39;s Feet</a></li>
-			
-			   
-			
-
-			
-
-			
-					<li class="toopy-and-binoo"><a href="/fromkids/toopyandbinoo/">Toopy and Binoo</a></li>
-			
-			   
-			
-
-			
-
-			
-					<li class="make-way-for-noddy"><a href="/fromkids/noddy">Make Way for Noddy</a></li>
-			
-			   
-			
-
-			
-
-			
-					<li class="boohbah"><a href="/fromkids/boohbah">Boohbah</a></li>
-			
-			   
-			
-
-			
-
-			
-					<li class="lomax-the-hound-of-music"><a href="/fromkids/lomax/">Lomax, the Hound of Music</a></li>
-			
-			   
-			
-
-			
-
-			
-					<li class="pbs-kids-island"><a href="/fromkids/read/games/demo/">PBS KIDS Island</a></li>
-			
-			   
-			
-
-			
-
-			
-					<li class="jay-jay-the-jet-plane"><a href="/fromkids/jayjay">Jay Jay the Jet Plane</a></li>
+					<li class="fetch"><a href="/fromkids/fetch/">Fetch</a></li>
 			
 			   
 			
@@ -470,7 +378,7 @@ document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga
 			
 
 			
-					<li class="maya-miguel"><a href="/fromkids/mayaandmiguel">Maya &amp; Miguel</a></li>
+					<li class="cyberchase"><a href="/fromkids/cyberchase">Cyberchase</a></li>
 			
                            </ul>
 			
@@ -486,19 +394,21 @@ document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga
 					<h3>Games by Topic</h3>
 					<ul>
                                                
-						<li class="math-games"><a href="/games/math.html">Math Games</a></li>
+						<li class="juegos-en-espanol"><a href="/games/spanish.html">Juegos en Español</a></li>
 						
-						<li class="estimation-games"><a href="/games/estimation.html">Estimation Games</a></li>
+						<li class="reading-games"><a href="/games/reading.html">Reading Games</a></li>
 						
-						<li class="puzzle-games"><a href="/games/puzzles.html">Puzzle Games</a></li>
+						<li class="animal-games"><a href="/games/animals.html">Animal Games</a></li>
 						
-						<li class="coloring-games"><a href="/games/coloring.html">Coloring Games</a></li>
+						<li class="dress-up-games"><a href="/games/dressup.html">Dress Up Games</a></li>
 						
-						<li class="healthy-eating-games"><a href="/games/healthyeating.html">Healthy Eating Games</a></li>
+						<li class="rhyming-games"><a href="/games/rhyming.html">Rhyming Games</a></li>
 						
-						<li class="letter-games"><a href="/games/letters.html">Letter Games</a></li>
+						<li class="vocabulary-games"><a href="/games/vocabulary.html">Vocabulary Games</a></li>
 						
-						<li class="monkey-games"><a href="/games/monkeys.html">Monkey Games</a></li>
+						<li class="earth-day"><a href="/games/earthday.html">Earth Day</a></li>
+						
+						<li class="health-games"><a href="/games/health.html">Health Games</a></li>
 						
 						<li class="number-games"><a href="/games/numbers.html">Number Games</a></li>
 						
@@ -519,30 +429,30 @@ document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga
 				<div class="inner c">
 									<aside class="featured">
 						<h2>Featured Topic</h2>
-						<h3><a href="/games/science.html">SCIENCE</a></h3>
+						<h3><a href="/games/spanish.html">JUEGOS EN ESPAÑOL</a></h3>
 						<ul>
                                     
 							<li>
-								<a href="/sid/collectionjar.html">
-									<img src="/images/programs/small-sid-collectionjar.jpg" alt="" />
+								<a href="/curiousgeorge/busyday/span_frogs/">
+									<img src="/images/programs/small-curiousgeorge-frogs.jpg" alt="" />
+									<em>Curious George</em>
+									<span>Ranitas Cantarinas</span>
+								</a>
+							</li>
+				  
+							<li>
+								<a href="/sid/span_fablab_vegetableharvest.html">
+									<img src="/images/programs/small-sid-vegetableharvest.jpg" alt="" />
 									<em>Sid the Science Kid</em>
-									<span>Collection Jar</span>
+									<span>¡Cosechemos vegetales!</span>
 								</a>
 							</li>
 				  
 							<li>
-								<a href="/caillou/games/matching.html">
-									<img src="/images/programs/small-caillou-matchinggame.gif" alt="" />
-									<em>Caillou</em>
-									<span>Matching Game</span>
-								</a>
-							</li>
-				  
-							<li>
-								<a href="/zoboo/gotocloset/index.html">
-									<img src="/images/programs/small-zoboo-goingtothecloset.gif" alt="" />
-									<em>Zoboomafoo</em>
-									<span>Going to the Closet!</span>
+								<a href="/catinthehat/games_span/span-beaver-city.html">
+									<img src="/images/programs/small-catinthehat-beaver.jpg" alt="" />
+									<em>The Cat in the Hat</em>
+									<span>Bienvenidos a Ciudad Castor</span>
 								</a>
 							</li>
 				  
@@ -553,15 +463,15 @@ document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga
 						<h2>Popular Topics</h2>
 						<ul>
                                     
-							<li class="dress-up-games"><a href="/games/dressup.html"><span>Dress Up Games</span></a></li>
+							<li class="juegos-en-espanol"><a href="/games/spanish.html"><span>Juegos en Español</span></a></li>
 				    
-							<li class="shapes-games"><a href="/games/shapes.html"><span>Shapes Games</span></a></li>
+							<li class="dog-games"><a href="/games/dogs.html"><span>Dog Games</span></a></li>
 				    
-							<li class="super-hero-games"><a href="/games/superheroes.html"><span>Super Hero Games</span></a></li>
+							<li class="counting-games"><a href="/games/counting.html"><span>Counting Games</span></a></li>
 				    
-							<li class="math-games"><a href="/games/math.html"><span>Math Games</span></a></li>
+							<li class="number-games"><a href="/games/numbers.html"><span>Number Games</span></a></li>
 				    
-							<li class="dinosaur-games"><a href="/games/dinosaurs.html"><span>Dinosaur Games</span></a></li>
+							<li class="problem-solving-games"><a href="/games/problemsolving.html"><span>Problem Solving Games</span></a></li>
 				    
 						</ul>
 						<h4><a href="/games/alltopics.html">All Topics</a></h4>
@@ -582,53 +492,108 @@ document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga
 
 
 
-
-<!-- Footer include begin. -->
+<!-- So begins the relative include -->
 <div class="pk-footer">
-	<h2 class="tab">For Grownups</h2>
-	<div class="appetizer"><span><em>For more fun: </em><a href="/games">Games</a></span></div>
-	<div class="inner">
-		<div class="jumps">
-			<strong><a href="http://shop.pbskids.org/?utm_source=brandsite&amp;utm_medium=portalnav&amp;utm_campaign=pbskidsnav" title="PBS KIDS Shop">PBS KIDS Shop</a></strong>
-			<ul class="c">
-				<li class="mobile"><a href="/mobile">Mobile Apps</a></li>
-				<li class="play"><a href="http://www.pbskidsplay.org/promo/CKH2222">Play! <em>Personalized learning games to prepare your child for school</em></a></li>
-				<li class="parents"><a href="http://www.pbs.org/parents">PBS Parents</a></li>
-				<li class="teachers"><a href="http://www.pbs.org/teachers">PBS Teachers</a></li>
-			</ul>
-		</div>
-		<div class="global">
-			<ul class="constants">
-				<li><a href="/pkhomepage/redir/fromkids/tvschedules/index.html">TV Times</a></li>
-				<li><a href="/pkhomepage/redir/fromkids/music/index.html">Music</a></li>
-				<li><a href="/pkhomepage/redir/fromkids/coloring/index.html">Coloring</a></li>
-				<li><a href="/pkhomepage/redir/fromkids/findit/index.html">Search</a></li>
-				<li><a href="/pkhomepage/redir/fromkids/help/index.html">Help</a></li>
-			</ul>
-			<ul class="legal">
-				<li class="first"><a href="/privacy/index.html?campaign=fkhp_prv">Privacy Policy</a></li>
-				<li><a href="/privacy/termsofuse.html?campaign=fkhp_tou">Terms of Use</a></li>
-				<li><a href="http://pbs.org" title="PBS">pbs.org</a></li>
-				<li>&copy; 1995&ndash;2011</li>
-			</ul>
-			
-		</div>
-	</div>
-</div>
-<!-- Footer include end. -->
 
+    <h2 class="tab">For Grownups</h2>
+
+    <div class="appetizer">
+        <span id="appetizer-games"><em>For more fun: </em><a onClick="GA_obj.trackEvent('PBS KIDS Footer', 'PBS KIDS Appetizer Games')" href="/games">Games</a></span>
+        <span id="appetizer-videos"><em>For more fun: </em><a onClick="GA_obj.trackEvent('PBS KIDS Footer', 'PBS KIDS Appetizer Video')" href="/video">Videos</a></span>
+    </div>
+
+    <div class="inner">
+        <div class="jumps">
+            <ul>
+                <li class="shop call-out">
+	                <a href="http://shop.pbskids.org/?utm_source=brandsite&amp;utm_medium=portalnav&amp;utm_campaign=pbskidsnav" title="PBS KIDS Shop" rel="external" onClick="GA_obj.trackEvent('PBS KIDS Footer', 'PBS KIDS Shop')">
+	                    <strong>PBS KIDS Shop</strong>
+	                    <span class="hover-bubble">Every purchase supports PBS.</span> 
+	                </a>
+                </li>
+                <li class="mobile">
+                    <a href="/mobile" onClick="GA_obj.trackEvent('PBS KIDS Footer', 'PBS KIDS Mobile Apps')">
+                        <strong>Mobile Apps &amp; Games</strong>
+                        
+                        <span class="hover-bubble">
+                            <img src="/includes/footer/i/placeholder-app-icon.png" alt="Featured game icon" class="flip-image" />
+                            <em class="flip-title">Mobile Apps &amp; Games</em>
+                            <i class="flip-feature">Check out our new games!</i>
+                        </span>
+                    </a>
+                </li>
+                <li class="play">
+                    <a href="http://www.pbskidsplay.org/promo/CKH2222" title="PBS KIDS Play!" onClick="GA_obj.trackEvent('PBS KIDS Footer', 'PBS KIDS Play')">
+                        <strong>PBS KIDS Play!</strong>
+                        
+                        <span class="hover-bubble">Award-winning school readiness program</span>  
+                    </a>
+                </li>
+                <li class="parents">
+                    <a href="http://www.pbs.org/parents" title="PBS Parents" rel="external" onClick="GA_obj.trackEvent('PBS KIDS Footer', 'PBS KIDS Parents')">
+                        <strong>PBS Parents</strong>
+                        
+                        <span class="hover-bubble">Find <em>tips</em> and <em>tools</em> to raise an awesome kid!</span>  
+	                    
+                    </a>
+                </li>
+                <li class="teachers">
+                    <a href="http://www.pbslearningmedia.org/" title="PBS Learning Media" rel="external" onClick="GA_obj.trackEvent('PBS KIDS Footer', 'PBS KIDS Learning Media')">
+                        <strong>PBS Learning Media</strong>
+                        
+                        <span class="hover-bubble">PreK-12 educational resources &amp; activities for educators</span>    
+                    </a>
+                </li>
+                <li class="lab">
+                    <a href="/lab" title="PBS KIDS Lab" onClick="GA_obj.trackEvent('PBS KIDS Footer', 'PBS KIDS Labs')">
+                       <strong>PBS KIDS Lab</strong>
+                        
+                        <span class="hover-bubble">Every new technology is an opportunity for learning</span>  
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="global">
+            <ul class="constants">
+                <li><a href="/pkhomepage/redir/fromkids/tvschedules/index.html" onClick="GA_obj.trackEvent('PBS KIDS Footer', 'PBS KIDS TV Times')">TV Times</a></li>
+                <li><a href="/pkhomepage/redir/fromkids/music/index.html" onClick="GA_obj.trackEvent('PBS KIDS Footer', 'PBS KIDS Music')">Music</a></li>
+                <li><a href="/pkhomepage/redir/fromkids/coloring/index.html" onClick="GA_obj.trackEvent('PBS KIDS Footer', 'PBS KIDS Coloring')">Coloring</a></li>
+                <li><a href="/pkhomepage/redir/fromkids/findit/index.html" onClick="GA_obj.trackEvent('PBS KIDS Footer', 'PBS KIDS Search')">Search</a></li>
+                <li><a href="/pkhomepage/redir/fromkids/help/index.html" onClick="GA_obj.trackEvent('PBS KIDS Footer', 'PBS KIDS Help')">Help</a></li>
+                <!--<li><a id="returnToMobile" href="http://m.pbskids.org">Mobile View</a></li>-->
+            </ul>
+            
+            <p class="station station-undeclared">
+                <a href="/tvschedules/localizer.html?dest=/games/index.html" onClick="GA_obj.trackEvent('PBS KIDS Footer', 'PBS KIDS Find Station')">Find your local PBS station</a>
+            </p>
+                        
+            <ul class="legal">
+                <li class="first"><a href="/privacy/index.html?campaign=fkhp_prv" onClick="GA_obj.trackEvent('PBS KIDS Footer', 'PBS KIDS Privacy Policy')">Privacy Policy</a></li>
+                <li><a href="/privacy/termsofuse.html?campaign=fkhp_tou" onClick="GA_obj.trackEvent('PBS KIDS Footer', 'PBS KIDS Terms of Use')">Terms of Use</a></li>
+                <li><a href="http://pbs.org" title="PBS" rel="external" onClick="GA_obj.trackEvent('PBS KIDS Footer', 'PBS KIDS pbs.org')">pbs.org</a></li>
+                <li>&copy; 1995&ndash;2013</li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+<!-- So ends the relative include -->
 
 
 
 <script type='text/javascript'>
-    // Conversion Name: KIDS Games
-    var ebRand = Math.random()+'';
-    ebRand = ebRand * 1000000;
-    //<![CDATA[ 
-    document.write('<scr'+'ipt src="HTTP://bs.serving-sys.com/BurstingPipe/ActivityServer.bs?cn=as&amp;ActivityID=103599&amp;rnd=' + ebRand + '"></scr' + 'ipt>');
-    //]]>
+var ebRand = Math.random()+'';
+ebRand = ebRand * 1000000;
+//<![CDATA[ 
+document.write('<scr'+'ipt src="HTTP://bs.serving-sys.com/BurstingPipe/ActivityServer.bs?cn=as&amp;ActivityID=103599&amp;rnd=' + ebRand + '"></scr' + 'ipt>');
+//]]>
 </script>
-<noscript><img width="1" height="1" style="border:0" src="HTTP://bs.serving-sys.com/BurstingPipe/ActivityServer.bs?cn=as&amp;ActivityID=103599&amp;ns=1"/></noscript>
+<noscript>
+<img width="1" height="1" style="border:0" src="HTTP://bs.serving-sys.com/BurstingPipe/ActivityServer.bs?cn=as&amp;ActivityID=103599&amp;ns=1"/>
+</noscript>
+
+
+
 
 </body>
 </html>
