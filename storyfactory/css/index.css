@@ -1,0 +1,38 @@
+.container
+{
+	width: 906px;
+	margin: 20px auto;
+	text-align: center;
+}
+
+.left
+{
+	width: 82px;
+	float: left;
+}
+
+.right
+{
+	margin-left: 82px;
+}
+
+/* CSS HACKS FOR CLEARING FLOATS PROPERLY */
+
+.header:after
+{
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+
+.header
+{
+	* height: 1%;
+}
+
+* html .header
+{
+	height: 1%;
+}

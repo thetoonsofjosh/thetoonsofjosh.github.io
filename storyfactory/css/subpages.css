@@ -1,0 +1,93 @@
+.container
+{
+	margin: 6px auto 0 auto;
+	padding: 0;
+	width: 800px;
+	text-align: center;
+}
+
+
+#header
+{
+	width: 765px;
+	margin: 0 auto 10px auto;
+	padding: 0;
+	text-align: center;
+}
+
+#header .left
+{
+	width: 592px;
+	float: left;
+	text-align: left;
+}
+
+#header .right
+{
+	width: 173px;
+	margin-left: 592px;
+	padding-top: 30px;
+}
+
+#header .right.localization
+{
+	width: 120px;
+	margin-left: 640px;
+	padding-top: 20px;
+}
+
+#header .right.localization p
+{
+	margin: 2px 0;
+	padding: 0;
+}
+
+
+.middle.mailinentries
+{
+	background: #FAF39F url('../mailBackground.gif') no-repeat;
+	color: #f16824;
+	font-size: 18px;
+	line-height: 21px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.middle.mailinentries .gutter
+{
+	padding: 110px 80px 50px 80px;
+}
+
+.middle.mailinentries p
+{
+	margin: 15px 0;
+	padding: 0;
+}
+
+.middle.mailinentries p#mailingaddress
+{
+	font-size: 24px;
+	line-height: 28px;
+	margin-top: 30px 0 0 0;
+}
+
+/* CSS HACKS FOR CLEARING FLOATS PROPERLY */
+
+#header:after
+{
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+
+#header
+{
+	* height: 1%;
+}
+
+* html #header
+{
+	height: 1%;
+}
