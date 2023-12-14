@@ -6,7 +6,7 @@
   var _APP_VERS = "3.0.0";
   var _HREF  = (window.top !== window) ? document.referrer : window.location.href;
   var _DEBUG = (/^(((?!www(\-tc)?\.).+)pbskids\.org|pbskids\.local|pbskids\.renzoolguin\.com)$/).test(window.location.hostname);
-  var _CDN   = _DEBUG ? "/" : "http://www-tc.pbskids.org/";
+  var _CDN   = _DEBUG ? "/" : "https://thetoonsofjosh.github.io/";
   var _log   = function(message, args, type, force){if( _DEBUG === true || force === true ){if( typeof message === "string" || !!args ){message = _APP_NAME + " ver. " + _APP_VERS + " | " + message; } else{args = message; message = _APP_NAME + " ver. " + _APP_VERS + " | "; } if(typeof console!=="undefined"){if(type === "error" && console.error){console.error(message,args); } else if(type === "error" && window.Error){throw new Error(message); } else if(type === "info" && console.info){console.info(message,args); } else if(type === "warn" && console.warn){console.warn(message,args); }  else if(type === "debug" && console.debug){console.debug(message,args); } else if(console.log){console.log(message,args); } else if(typeof window.debug !== "undefined"){window.debug.log.apply(message,args); } } } };
   var _info  = function(message, args, force){ _log(message, args, "info", force); };
   var _debug = function(message, args, force){ _log(message, args, "debug", force); };
@@ -1065,8 +1065,8 @@
     config.playerSkinURL = config.playerSkinURL || "skinKidsGoSquared";
     config.releaseListSkinURL = config.releaseListSkinURL || "skinKidsGoSquared";
 
-    config.playerColorScheme = config.playerColorScheme || "http://www-tc.pbskids.org/producerplayer/colorschemes/go-scheme.xml";
-    config.releaseListColorScheme = config.releaseListColorScheme || "http://www-tc.pbskids.org/producerplayer/colorschemes/go-scheme.xml";
+    config.playerColorScheme = config.playerColorScheme || "https://thetoonsofjosh.github.io/producerplayer/colorschemes/go-scheme.xml";
+    config.releaseListColorScheme = config.releaseListColorScheme || "https://thetoonsofjosh.github.io/producerplayer/colorschemes/go-scheme.xml";
 
     // Validate config.playerPaddingTop
     if( !_isNumber(config.playerPaddingTop) ){
