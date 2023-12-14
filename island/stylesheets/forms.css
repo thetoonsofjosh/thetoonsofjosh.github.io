@@ -1,0 +1,143 @@
+/*
+=====
+FORMS
+=====
+*/
+
+.changeNotification { background: #FFFFDF; padding: 1em; }
+
+.suggestedText { background: #fff; }
+.suggestedText.inactive { color: #666; }
+
+.settings { }
+.settings ul { list-style-type: none; margin: 0; padding: 0; }
+.settings ul li ul { margin-left: 2em; }
+
+#management table { margin: 0 0 1em 0; border-collapse: collapse; width: 100%; }
+#management table tr.player th, #management table tr.group th { font-size: 22px; height: 65px; padding: 10px 10px 10px 10px; text-align: left; }
+#management table tr.player th { background: url(../images/template/player.png) no-repeat 90% 100%; }
+#management table tr.group th { background: url(../images/template/players.png) no-repeat 90% 100%; }
+
+#management #kids table tr.odd { background: #AFE6FF; }
+#management #kids table tr.even { background: #DFF5FF; }
+
+#management #groups table tr.odd { background: #D9FFAF; }
+#management #groups table tr.even { background: #F0FFDF; }
+
+#management table td { font-size: 13px; text-align: center; }
+
+#management table td.playerName, #management table td.groupName { font-size: 16px; font-weight: bold; padding: 10px; text-align: left; width: 130px; }
+#management table td.playerName a, #management table td.groupName a { text-decoration: none; }
+#management table td.playerName span, #management table td.groupName span { background: url(../images/template/yoyo.png) no-repeat 0 50%; padding: 6px 0 6px 35px; }
+#management table td.playerName span:hover, #management table td.groupName span:hover { background: url(../images/template/yoyo.png) no-repeat !important; }
+
+#management table tr.createPlayer, #choosePlayers table tr.createPlayer { background: #FFE8BF; }
+#management table tr.createPlayer td.playerName input, #management table tr.createPlayer td.choosePlayers input { margin: 2px; }
+#management table tr.createPlayer td.playNow, #choosePlayers table tr.createPlayer td.playNow  { text-align: left; }
+
+#management table td.playNow { font-weight: bold; }
+#management table td.playNow a, #choosePlayers table td.playNow a { background: #77D8EF url(/island/images/template/tickets.png) no-repeat; border-top: 4px solid #61C7DF; border-right: 4px solid #17A7CC; border-bottom: 4px solid #17A7CC; border-left: 4px solid #61C7DF; padding-left: 34px; text-decoration: none; }
+#management table td.playNow form input, #choosePlayers table tbody td.playNow input {
+	background: #77D8EF url(/island/images/template/tickets.png) no-repeat;
+	border-top: 4px solid #61C7DF; border-right: 4px solid #17A7CC;
+	border-bottom: 4px solid #17A7CC; border-left: 4px solid #61C7DF;
+	color: #066378;
+	font-size: 14px;
+	margin: 0;
+	padding: 5px 5px 5px 34px;
+	text-decoration: none;
+}
+#choosePlayers table tfoot td { padding: 5px; }
+#management table td.playNow form { text-align: left; }
+
+#management table td.choosePlayer a { background: #77EF87; border-top: 4px solid #61DF66; border-right: 4px solid #21CC17; border-bottom: 4px solid #21CC17; border-left: 4px solid #61DF66; font-weight: bold; text-decoration: none; }
+
+#management table a { display: block; margin: 5px; padding: 5px; }
+#management table tr.player a { color: #066378; }
+#management table tr.player a:hover { background: #EFFAFF; color: #066378; }
+#management table tr td.playNow a:hover, #choosePlayers table td.playNow a:hover { background: #8FEAFF url(/island/images/template/tickets.png) no-repeat;  border-top: 4px solid #77D8EF; border-right: 4px solid #29BCDF; border-bottom: 4px solid #29BCDF; border-left: 4px solid #77D8EF; }
+#management table tr.group a { color: #06780B; }
+#management table tr.group a:hover { background: #EFFFF6; color: #06780B; }
+#management table tr.group td.playNow a { color: #066378; }
+#management table tr.group td.playNow a:hover { color: #066378; }
+
+#management table tr.instructions { background: #eee; }
+#management table tr.instructions td { font-size: 12px; padding: 10px; text-align: left; }
+
+#choosePlayers table { border-collapse: collapse; margin: 0 0 1em; width: 100%; }
+#choosePlayers table tr.player.odd { background: #AFE6FF; }
+#choosePlayers table tr.player.even { background: #DFF5FF; }
+#choosePlayers table td {  }
+#choosePlayers table td.playerName { font-size: 18px; width: 150px; }
+#choosePlayers table td.playNow { width: 20%; }
+#choosePlayers table td.playNow a { color: #066378; font-weight: bold; margin: 5px; padding: 3px 3px 3px 34px; }
+#choosePlayers table td.playNow a:hover { color: #066378; }
+#choosePlayers table td a { display: block; padding: 10px; text-decoration: none; }
+#choosePlayers table td a:hover { color: #86AF15; }
+
+.addPlayerModule { background: #eee; margin: 1.5em 0; padding: .5em; }
+.addPlayerModule table thead th { font-size: 12px; margin: 0; padding: 0; text-align: left; width: 100%; }
+.addPlayerModule table tbody .playerName { width: 200px !important; }
+.addPlayerModule table tbody .playNow {  }
+
+form ul { list-style-type: none; margin: 0; padding: 0; }
+form ol { list-style-type: none; margin: 0; padding: 0; }
+
+ol.shuttleBoxes {  }
+ol.shuttleBoxes .col1, ol.shuttleBoxes .col2, ol.shuttleBoxes .col3, ol.shuttleBoxes .col4 { float: left; }
+ol.shuttleBoxes .col1 { width: 200px; }
+ol.shuttleBoxes .col1 select, ol.shuttleBoxes .col3 select { border: 1px solid #7F9DB9; height: 200px; width: 100%; }
+ol.shuttleBoxes .col1 select { background: #FEFFAF; }
+ol.shuttleBoxes select option { padding: 5px; }
+ol.shuttleBoxes .col2 { }
+ol.shuttleBoxes .col3 { width: 200px; }
+ol.shuttleBoxes .col3 select { background: #D9FFAF; }
+ol.shuttleBoxes .add, ol.shuttleBoxes .remove {
+	display: block;
+	height: 45px;
+	margin: 30px 10px;
+	text-indent: -3000px;
+	width: 110px;
+	}
+ol.shuttleBoxes a.add { background: url("../images/template/hand-add.png") no-repeat; }
+ol.shuttleBoxes a.remove { background: url("../images/template/hand-remove.png") no-repeat; }
+
+ol.shuttleBoxes a.add:hover, ol.shuttleBoxes a.remove:hover { background-position: 0 -45px; }
+
+ol.shuttleBoxes .add_all { }
+ol.shuttleBoxes .remove_all { }
+
+#id_name { background: #FEFFAF; border: 1px solid #7F9DB9; float: left; padding: 5px; width: 120px; }
+#id_group_name { background: #FEFFAF; border: 1px solid #7F9DB9; float: left; padding: 5px; width: 120px; }
+
+input.button {
+	background: #fcdb8c;
+	border-top: 4px solid #df8845;
+	border-right: 4px solid #ca6f29;
+	border-bottom: 4px solid #ca6f29;
+	border-left: 4px solid #df8845;
+	cursor: pointer;
+	color: #ca6f29;
+	font-weight: bold;
+	margin: .2em;
+	padding: 3px;
+	-moz-border-radius: 0 20px 0 0;
+	width: auto;
+}
+		
+input.button:hover, input.button:focus {
+	background: #FFF79F;
+}
+		
+input.button:active {
+	background: #DF9300;
+	border-top: 4px solid #AF5615;
+	border-right: 4px solid #ca6f29;
+	border-bottom: 4px solid #ca6f29;
+	border-left: 4px solid #AF5615;
+}
+
+.submit dt { font-weight: bold; padding: 5px; }
+
+#changePassword { background: #EEEF95; margin: 20px 0; padding: 10px 20px; }
+#changePassword h4 { margin: 0; }

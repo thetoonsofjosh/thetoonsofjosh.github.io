@@ -1,0 +1,323 @@
+/*
+=====
+TRACKER CSS
+=====
+*/
+
+
+.sectiontitle p
+{
+	font-size: 18px;
+}
+
+.trackerbody
+{
+margin:auto;
+background:#fff;
+width:670px;
+text-align:center;
+}
+
+.trackerhead
+{
+background-color:#84dfff;
+height:75px;
+margin:0;
+width:670px;
+
+}
+
+.trackerheadleft
+{
+background:#84dfff;
+margin:0;
+width:450px;
+text-align:left;
+float:left;
+height:55px;
+font-size:35px;
+font-family:Arial, Helvetica, sans-serif;
+font-weight:bolder;
+padding: 10px 10px 0px 10px;
+
+}
+
+.trackerheadright
+{
+line-height: .8;
+width:160px;
+height:56px;
+float:right;
+color:#FF0000;
+text-align:center;
+font-weight:bold;
+padding: 0 0 0 0;
+}
+
+.trackerheadright a
+{
+color:#FFFFFF;
+text-decoration: none;
+}
+
+
+.selectors
+{
+background:#00a4d6;
+margin:0;
+width:670px;
+text-align:left;
+height:49px;
+
+}
+
+
+.classselect
+{
+
+background-color:#00a4d6;
+width:330px;
+text-align:left;
+float:left;
+padding: 10px 0 10px 10px;
+color:#FFFFFF;
+font-size:20px;
+font-weight:bold;
+}
+
+
+.childselect
+{
+float:right;
+
+background-color:#00a4d6;
+width:320px;
+text-align:left;
+padding: 10px 0 10px 10px;
+color:#FFFFFF;
+font-size:20px;
+font-weight:bold;
+}
+
+
+.info
+{
+width:670px;
+background:url(../images/tracker-bg.gif) repeat-x;
+margin:auto;
+text-align:center;
+
+
+}
+
+.childinfo
+{
+width:670px;
+font-weight:bold;
+font-size:20px;
+margin: 0;
+padding: 5px 0;
+
+}
+
+
+.lastlogin
+{
+margin: 0;
+padding: 0px 10px 20px 15px;
+
+}
+
+
+.databoxes
+{
+width: 670px;
+margin: auto;
+padding: 0 0 20px 7px;
+text-align:center;
+
+
+}
+
+
+.databox
+{
+float: left;
+margin: auto;
+width: 165px;
+height:155px;
+background:url(../images/tracker-boxbg.gif) no-repeat;
+
+}
+
+.titlewords 
+{
+color:#fff;
+font-size:14px;
+float:left;
+font-weight:bold;
+line-height: 1;
+
+
+}
+
+#ticket
+{
+font-size:16px;
+padding: 10px 0 10px 30px;
+}
+
+#last
+{
+text-align:center;
+font-size:14px;
+padding: 10px 0 20px 20px;
+
+}
+
+
+#mostfrequent
+{
+text-align:center;
+font-size:14px;
+padding: 3px 0 10px 20px;
+
+}
+
+#timeslogged
+{
+text-align:center;
+font-size:14px;
+padding: 10px 20px 20px 22px;
+
+}
+
+#lastdatabox
+{
+background:url(../images/tracker-boxbg-last-top.gif) no-repeat;
+width: 165px;
+height:165px;
+float: left;
+margin: auto;
+}
+
+.titleimg
+{
+float:right;
+margin: 5px 25px 0 5px;
+}
+
+.centerinfo
+{
+margin: 0 auto;
+padding: 20px 5px 0 0;
+text-align: center;
+clear: both;
+}
+
+.ticketsearned
+{
+	margin: 0 auto;
+	text-align: center;
+	padding: 0 0 3px 0;
+	font-size: 20px;
+	font-weight: 900;
+}
+
+.ticketsspent
+{
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 900;
+}
+
+
+
+
+
+.progressheader
+{
+width:675px;
+margin: 0 0 20px 0;
+
+
+}
+.progresschild
+{
+font-weight:bold;
+text-align:left;
+font-size:20px;
+margin: 0;
+padding: 5px 10px 5px 10px;
+
+}
+
+.progressdesc
+{
+text-align:left;
+padding: 10px 0 0 0;
+border:#003366;
+padding: 5px 10px 5px 10px;
+}
+
+.bars
+{
+width: 650px;
+margin: 0 0 0 0;
+padding: 0 0 0 0;
+
+}
+
+.bar
+{
+width:621px;
+height:52;
+background:url(/island/images/tracker-barbg.gif) no-repeat;
+padding:0 0 10px 0;
+float:left;
+}
+
+.skill
+{
+width:229px;
+height: 52px;
+color:#FFFFFF;
+font-size:20px;
+font-weight:bold;
+float:left;
+margin:0;
+padding: 15px 0px 5px 15px;
+
+}
+
+.whatsthis
+{
+float:left;
+width:50px;
+height:52px;
+margin:0 0 0 0px;
+font-size:9px;
+}
+
+.starspace
+{
+margin: 0 0 0 5px;
+text-align: left;
+}
+
+.gamelist
+{
+display: none;
+float:left;
+padding: 20px 0 0 10px;
+width:65px;
+height: 0px;
+}
+
+/*
+=====
+SLIDE SHOW CSS
+=====
+*/
