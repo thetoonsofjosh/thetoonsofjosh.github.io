@@ -1,0 +1,44 @@
+.container {
+	background:#99CC00;
+	overflow: hidden;
+	width:860px;
+	height:512px;
+}
+
+#playerWrapper{
+	width: 842px;
+	margin:0 auto;
+}
+
+#categorylist{
+	margin:10px auto;
+	width: 842px;
+}
+
+.category-button, a.category-button-more {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	display:inline-block;
+	margin: 6px 4px;
+	padding: 4px 9px 3px;
+	cursor:pointer;
+	color:#F27F00;
+	background:#FFED1B;
+	border-radius:12px;
+	-webkit-border-radius:12px;
+	-moz-border-radius:12px;
+	-moz-box-shadow: 2px 4px 0 0 #7AA200;
+  -webkit-box-shadow: 2px 4px 0 0 #7AA200;
+  box-shadow: 2px 4px 0 0 #7AA200;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color='#7AA200')";
+  filter: progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color='#7AA200');
+  text-decoration: none;
+}
+
+.category-button.hover,
+.category-button.selected
+{
+	background-color:#89DBD8;
+	color:#FFF;
+}
