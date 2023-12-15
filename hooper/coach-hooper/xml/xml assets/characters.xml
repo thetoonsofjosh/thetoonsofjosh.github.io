@@ -1,0 +1,51 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+<characters>
+	<character name="Buddy" id="buddy" idle="Buddy_Bounce" gamesURL="/dinosaurtrain/" offsetX="-38" offsetY="-58" scale="1.52" overOffsetX="-36" overOffsetY="-53" overScale="1.55">	
+		<theme id="astronaut" />
+		<theme id="surfing" />
+		<theme id="cowboy" />
+		<theme id="ski" />
+		<rewards>		
+			  <asset id="reward_file_buddy_astronaut" src="assets/rewards/reward_buddy_astronaut.swf" type="sprite" bytes="172775"/>
+			  <asset id="reward_file_buddy_surfing" src="assets/rewards/reward_buddy_surfing.swf" type="sprite" bytes="176226"/>
+			  <asset id="reward_file_buddy_cowboy" src="assets/rewards/reward_buddy_cowboy.swf" type="sprite" bytes="173395"/>
+			  <asset id="reward_file_buddy_ski" src="assets/rewards/reward_buddy_ski.swf" type="sprite" bytes="167216"/>
+       	</rewards>
+	</character>
+	<character name="Super WHY" id="superwhy" idle="SuperWhy_Bounce" gamesURL="/superwhy/" offsetX="-14" offsetY="-9" scale="1.15" overOffsetX="-11.5" overOffsetY="-2" overScale="1.15">
+		<theme id="astronaut" />
+		<theme id="surfing" />
+		<theme id="scuba" />
+		<theme id="ski" />
+		<rewards>		
+			  <asset id="reward_file_superwhy_astronaut" src="assets/rewards/reward_superwhy_astronaut.swf" type="sprite" bytes="175802"/>
+			  <asset id="reward_file_superwhy_surfing" src="assets/rewards/reward_superwhy_surfing.swf" type="sprite" bytes="180151"/>
+			  <asset id="reward_file_superwhy_scuba" src="assets/rewards/reward_superwhy_scuba.swf" type="sprite" bytes="184479"/>
+			  <asset id="reward_file_superwhy_ski" src="assets/rewards/reward_superwhy_ski.swf" type="sprite" bytes="171488"/>
+       	</rewards>
+	</character>
+	<character name="The Cat in the Hat" id="cat" idle="Cat_Bounce" gamesURL="/catinthehat/" offsetX="-45" offsetY="-11" scale="1.15" overOffsetX="-22" overOffsetY="-15" overScale="1.15">
+		<theme id="astronaut" />
+		<theme id="farm" />
+		<theme id="rockstar" />
+		<theme id="scuba" />
+		<rewards>		
+			  <asset id="reward_file_cat_astronaut" src="assets/rewards/reward_cat_astronaut.swf" type="sprite" bytes="186314"/>
+			  <asset id="reward_file_cat_farm" src="assets/rewards/reward_cat_farm.swf" type="sprite" bytes="186170"/>
+			  <asset id="reward_file_cat_rockstar" src="assets/rewards/reward_cat_rockstar.swf" type="sprite" bytes="185450"/>
+			  <asset id="reward_file_cat_scuba" src="assets/rewards/reward_cat_scuba.swf" type="sprite" bytes="192400"/>
+       	</rewards>
+	</character>
+	<character name="Curious George" id="george" idle="George_Bounce" gamesURL="/curiousgeorge/" offsetX="-11" offsetY="-8" scale="1.15" overOffsetX="-17" overOffsetY="-18" overScale="1.15">
+		<theme id="surfing" />
+		<theme id="party" />
+		<theme id="rockstar" />
+		<theme id="ski" />
+		<rewards>		
+			  <asset id="reward_file_george_surfing" src="assets/rewards/reward_george_surfing.swf" type="sprite" bytes="165042"/>
+			  <asset id="reward_file_george_party" src="assets/rewards/reward_george_party.swf" type="sprite" bytes="161766"/>
+			  <asset id="reward_file_george_rockstar" src="assets/rewards/reward_george_rockstar.swf" type="sprite" bytes="162289"/>
+			  <asset id="reward_file_george_ski" src="assets/rewards/reward_george_ski.swf" type="sprite" bytes="157099"/>
+       	</rewards>
+	</character>
+</characters>
