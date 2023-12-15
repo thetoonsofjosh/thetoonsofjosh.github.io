@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<sequence>
+  <exercise id="Cat_Jump" speed="1" loops="4" audio="challenge_scuba_1a_jump"/>
+  <exercise id="Cat_Jump" speed="1" loops="3" audio="exercise_keepItUp"/>
+  <exercise id="Cat_Float" speed="1" loops="3" audio="challenge_scuba_2a_swim"/>
+  <exercise id="Cat_Float" speed="1" loops="3" audio="challenge_scuba_2b_swim"/>
+  <exercise id="Cat_Feed_Fish" speed="1" loops="3" audio="challenge_scuba_3a_feed"/>
+  <exercise id="Cat_Feed_Fish" speed="1" loops="3" audio="challenge_generic_ugotit"/>
+  <exercise id="Cat_Bounce" speed="1" loops="6" audio="challenge_againFaster"/>
+  <exercise id="Cat_Jump" speed="1.5" loops="7" audio="challenge_scuba_1a_jump"/>
+  <exercise id="Cat_Float" speed="1.5" loops="7" audio="challenge_scuba_2a_swim"/>
+  <exercise id="Cat_Feed_Fish" speed="1.5" loops="7" audio="challenge_scuba_3a_feed"/>
+  <exercise id="Cat_Bounce" speed="1" loops="6" audio="challenge_addYourMove"/>
+  <exercise id="Cat_Jump" speed="1" loops="5" audio="challenge_scuba_1a_jump"/>
+  <exercise id="Cat_Float" speed="1" loops="5" audio="challenge_scuba_2a_swim"/>
+  <exercise id="Cat_Feed_Fish" speed="1" loops="5" audio="challenge_scuba_3a_feed"/>
+  <exercise id="Cat_Bounce" speed="1" loops="5" audio="challenge_freestyle"/>
+  <exercise id="Cat_Bounce" speed="1" loops="3" audio="exercise_keepItUp"/>
+  <exercise id="Cat_WaveBye" speed="1" loops="3" audio="congrats_youraPro"/>
+</sequence>

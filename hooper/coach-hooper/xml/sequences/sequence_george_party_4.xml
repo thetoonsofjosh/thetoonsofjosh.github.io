@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<sequence>
+  <exercise id="George_OverWave" speed="1" loops="4" audio="exercise_party_1a_wave"/>
+  <exercise id="George_OverWave" speed="1" loops="4" audio="challenge_party_woohoo"/>
+  <exercise id="George_Bounce" speed="1" loops="4" audio="challenge_party_2a_bounce"/>
+  <exercise id="George_Bounce" speed="1" loops="5" audio="challenge_party_2b_bounce"/>
+  <exercise id="George_Booty" speed="1" loops="4" audio="challenge_party_3a_booty"/>
+  <exercise id="George_Booty" speed="1" loops="4" audio="challenge_party_3b_booty"/>
+  
+  <exercise id="George_Bounce" speed="1" loops="6" audio="challenge_againSlower"/>
+  <exercise id="George_OverWave" speed="0.5" loops="4" audio="exercise_party_1a_wave"/>
+  <exercise id="George_Bounce" speed="0.5" loops="4" audio="challenge_party_2a_bounce"/>
+  <exercise id="George_Booty" speed="0.5" loops="4" audio="challenge_party_3a_booty"/>
+  
+  <exercise id="George_Bounce" speed="1" loops="6" audio="challenge_addYourMove"/>
+  <exercise id="George_OverWave" speed="1" loops="4" audio="exercise_party_1a_wave"/>
+  <exercise id="George_Bounce" speed="1" loops="4" audio="challenge_party_2a_bounce"/>
+  <exercise id="George_Booty" speed="1" loops="4" audio="challenge_party_3a_booty"/>
+  
+  <exercise id="George_Bounce" speed="1" loops="5" audio="challenge_freestyle"/>
+  <exercise id="George_Bounce" speed="1" loops="4" audio="challenge_party_woohoo"/>
+  <exercise id="George_WaveBye" speed="1" loops="3" audio="congrats_greatJob"/>
+</sequence>

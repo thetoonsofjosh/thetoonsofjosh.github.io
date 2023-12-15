@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<sequence>
+  <exercise id="Buddy_Ride" speed="1" loops="6" audio="exercise_cowboy_2a_ride"/>
+  <exercise id="Buddy_Ride" speed="1" loops="7" audio="exercise_cowboy_2b_ride"/>
+  <exercise id="Buddy_Ride" speed="1" loops="7" audio="exercise_keepItUp"/>
+  <exercise id="Buddy_Ride" speed="1" loops="3" audio="congrats_wayToGo"/>
+</sequence>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<sequence>
+  <exercise id="George_Trombone" speed="1" loops="4" audio="challenge_rockstar_1a_trombone"/>
+  <exercise id="George_Trombone" speed="1" loops="4" audio="challenge_rockstar_1b_jam"/>
+  <exercise id="George_Jump" speed="1" loops="4" audio="challenge_rockstar_2a_jump"/>
+  <exercise id="George_Jump" speed="1" loops="4" audio="challenge_rockstar_2b_jump"/>
+  <exercise id="George_OverWave" speed="1" loops="4" audio="challenge_rockstar_3a_wave"/>
+  <exercise id="George_OverWave" speed="1" loops="4" audio="challenge_rockstar_3b_wave"/>
+  
+  <exercise id="George_Bounce" speed="1" loops="6" audio="challenge_againFaster"/>
+  <exercise id="George_Trombone" speed="1.5" loops="7" audio="challenge_rockstar_1a_trombone"/>
+  <exercise id="George_Jump" speed="1.5" loops="7" audio="challenge_rockstar_2a_jump"/>
+  <exercise id="George_OverWave" speed="1.5" loops="7" audio="challenge_rockstar_3a_wave"/>
+  
+  <exercise id="George_Bounce" speed="1" loops="6" audio="challenge_addYourMove"/>
+  <exercise id="George_Trombone" speed="1" loops="6" audio="challenge_rockstar_1a_trombone"/>
+  <exercise id="George_Jump" speed="1" loops="5" audio="challenge_rockstar_2a_jump"/>
+  <exercise id="George_OverWave" speed="1" loops="5" audio="challenge_rockstar_3a_wave"/>
+  
+  <exercise id="George_Bounce" speed="1" loops="5" audio="challenge_freestyle"/>
+  <exercise id="George_Bounce" speed="1" loops="3" audio="challenge_party_woohoo"/>    
+  <exercise id="George_WaveBye" speed="1" loops="3" audio="congrats_youraPro"/>
+</sequence>
