@@ -1,9 +1,18 @@
 body
 {
-	background: #249b25 url('../images/global-bground.gif');
+	background: #003366 url('../images/global-bground.gif');
 	margin: 0 auto;
 	padding: 0;
 	text-align: center;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active
+{
+	font: 11px verdana, arial, sans-serif;
+	color: #66ccff;
 }
 
 /* Parents Area */
@@ -36,7 +45,7 @@ body
 #parentsarea a:active
 {
 	font: 11px verdana, arial, sans-serif;
-	color: #000000;
+	color: #FFFFFF;
 }
 
 #parentsarea p
@@ -145,14 +154,84 @@ body
 	float: left;
 }
 
+#container2
+{
+	width:650px;
+	display:block;
+	margin: 0 auto;
+}
+
+/* Station */
+
+#station
+{
+	width: 250px;
+	float:left;
+	text-align: center;
+	display:inline-block;
+}
+	#station,
+	#station a:link,
+	#station a:visited,
+	#station a:hover,
+	#station a:active
+	{
+		font: 11px verdana, arial, sans-serif;
+		color: #66ccff;
+	}
+
+#containerstation
+{
+	width: 250px;
+	float:left;
+	text-align: center;
+	display:inline-block;
+}
+	#containerstation,
+	#containerstation a:link,
+	#containerstation a:visited,
+	#containerstation a:hover,
+	#containerstation a:active
+	{
+		font: 11px verdana, arial, sans-serif;
+		color: #66ccff;
+	}
+
+#containerPlay
+{
+	width: 300px;
+	margin: 0 auto;
+	float:right;
+	text-align: center;
+	display:inline-block;
+}
+
+	#playRibbon
+	{
+		display:block;
+		margin: 0 auto;
+		width: 196px;
+		height: 66px;
+		background-image: url('../images/playRibbenBlue.png');
+	}
+	
+	#playRibbon:hover {
+		width: 196px; background-position: 0 -66px;	
+	}
+		
+	#playRibbon span {
+		position: absolute;
+		top: -999em;
+	}
 
 /* Footer */
 
 #footer
 {
 	width: 600px;
-	margin: 0 auto;
+	margin: 80px auto 0 auto;
 	text-align: center;
+	display:block;
 }
 
 #footer,
@@ -162,26 +241,7 @@ body
 #footer a:active
 {
 	font: 11px verdana, arial, sans-serif;
-	color: #000000;
-}
-
-/* Station */
-
-#containerstation
-{
-	width: 600px;
-	margin: 0 auto;
-	text-align: center;
-}
-
-#containerstation,
-#containerstation a:link,
-#containerstation a:visited,
-#containerstation a:hover,
-#containerstation a:active
-{
-	font: 11px verdana, arial, sans-serif;
-	color: #000000;
+	color: #66ccff;
 }
 
 #stuntpromo a:hover,
