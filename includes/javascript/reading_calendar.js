@@ -10,14 +10,14 @@ function pbs_toggle_language(language){
 }
 
 function pbs_reading_calendar_module(){
-    var imageurl = 'http://pbskids.org/read/images/calendar/';
+    var imageurl = '/read/images/calendar/';
     var images = ['abc-blocks.gif', 'red-wagon.gif', 'goodjob.gif', 'book-blocks.gif', 'book-tree-dog.gif', 'abc-blocks.gif']
     var ipick = Math.floor(Math.random()*6)
     var title = 'Reading Activity Calendar';
     var month = 'December';
     var day = '2';
-    var link = 'http://soup.pbskids.org/read/activities/calendar/';
-    var link_esp = 'http://soup.pbskids.org/read/activities/calendar/index.html?sp';
+    var link = '/read/activities/calendar/';
+    var link_esp = '/read/activities/calendar/index.html?sp';
     var link_text = 'Check out our year-round reading activity calendar at the PBS KIDS Island';
     var link_text_esp = 'Visite a PBS KIDS Island para encontrar más actividades de la lectura en nuestro calendario';
     var activity_title = 'Handwashing Awareness Week'
