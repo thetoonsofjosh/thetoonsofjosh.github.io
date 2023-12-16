@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<themes>
+  
+  <theme>
+    <name>command</name>
+    <url>/secretbox/swfs/themes/command.swf</url>
+    <thumb>/secretbox/images/themes/thumbnails/command.jpg</thumb>
+    <color>afde3b</color>
+  </theme>
+  
+  <theme>
+    <name>fetch</name>
+    <url>/secretbox/swfs/themes/fetch.swf</url>
+    <thumb>/secretbox/images/themes/thumbnails/fetch.jpg</thumb>
+    <color>88c7ea</color>
+  </theme>
+  
+  <theme>
+    <name>wordgirl</name>
+    <url>/secretbox/swfs/themes/wordgirl.swf</url>
+    <thumb>/secretbox/images/themes/thumbnails/wordgirl.jpg</thumb>
+    <color>d35f5f</color>
+  </theme>
+  
+  <theme>
+    <name>wordgirl-artclass</name>
+    <url>/secretbox/swfs/themes/wordgirl-artclass.swf</url>
+    <thumb>/secretbox/images/themes/thumbnails/wordgirl-artclass.jpg</thumb>
+    <color>bec19b</color>
+  </theme>
+  
+  <theme>
+    <name>wordgirl-tobyroom</name>
+    <url>/secretbox/swfs/themes/wordgirl-tobyroom.swf</url>
+    <thumb>/secretbox/images/themes/thumbnails/wordgirl-tobyroom.jpg</thumb>
+    <color>859baf</color>
+  </theme>
+  
+  <theme>
+    <name>wordgirl-prettyprincess</name>
+    <url>/secretbox/swfs/themes/wordgirl-prettyprincess.swf</url>
+    <thumb>/secretbox/images/themes/thumbnails/wordgirl-prettyprincess.jpg</thumb>
+    <color>cae1e7</color>
+  </theme>
+  
+  <theme>
+    <name>wilsonandditch</name>
+    <url>/secretbox/swfs/themes/wilsonditch.swf</url>
+    <thumb>/secretbox/images/themes/thumbnails/wilsonditch.jpg</thumb>
+    <color>0d84ec</color>
+  </theme>
+  
+  <theme>
+    <name>cyberchase-grimwreaker</name>
+    <url>/secretbox/swfs/themes/cyberchase-grimwreaker.swf</url>
+    <thumb>/secretbox/images/themes/thumbnails/cyberchase-grimwreaker.jpg</thumb>
+    <color>33a0d3</color>
+  </theme>
+  
+  <theme>
+    <name>cyberchase-squadbeach</name>
+    <url>/secretbox/swfs/themes/cyberchase-squadbeach.swf</url>
+    <thumb>/secretbox/images/themes/thumbnails/cyberchase-squadbeach.jpg</thumb>
+    <color>b93abe</color>
+  </theme>
+  
+  <theme>
+    <name>cyberchase-beach</name>
+    <url>/secretbox/swfs/themes/cyberchase-beach.swf</url>
+    <thumb>/secretbox/images/themes/thumbnails/cyberchase-beach.jpg</thumb>
+    <color>0569cd</color>
+  </theme>
+  
+  <theme>
+    <name>cyberchase-donuts</name>
+    <url>/secretbox/swfs/themes/cyberchase-donuts.swf</url>
+    <thumb>/secretbox/images/themes/thumbnails/cyberchase-donuts.jpg</thumb>
+    <color>da8cff</color>
+  </theme>
+  
+  <theme>
+    <name>electricompany</name>
+    <url>/secretbox/swfs/themes/electriccompany.swf</url>
+    <thumb>/secretbox/images/themes/thumbnails/electriccompany.jpg</thumb>
+    <color>2c2f8d</color>
+  </theme>
+  
+  <theme>
+    <name>scigirls-school</name>
+    <url>/secretbox/swfs/themes/scigirls-school.swf</url>
+    <thumb>/secretbox/images/themes/thumbnails/scigirls-school.jpg</thumb>
+    <color>cc9933</color>
+  </theme>
+  
+  <theme>
+    <name>scigirls-room</name>
+    <url>/secretbox/swfs/themes/scigirls-room.swf</url>
+    <thumb>/secretbox/images/themes/thumbnails/scigirls-room.jpg</thumb>
+    <color>3ba18b</color>
+  </theme>
+  
+  <theme>
+    <name>iml-school</name>
+    <url>/secretbox/swfs/themes/iml-school.swf</url>
+    <thumb>/secretbox/images/themes/thumbnails/iml-school.jpg</thumb>
+    <color>d9eed8</color>
+  </theme>
+  
+  <theme>
+    <name>iml-home</name>
+    <url>/secretbox/swfs/themes/iml-home.swf</url>
+    <thumb>/secretbox/images/themes/thumbnails/iml-home.jpg</thumb>
+    <color>e1baa6</color>
+  </theme>
+  
+  <theme>
+    <name>igloo</name>
+    <url>/secretbox/swfs/themes/igloo.swf</url>
+    <thumb>/secretbox/images/themes/thumbnails/igloo.jpg</thumb>
+    <color>9de3ea</color>
+  </theme>
+  
+  <theme>
+    <name>tiki</name>
+    <url>/secretbox/swfs/themes/tiki.swf</url>
+    <thumb>/secretbox/images/themes/thumbnails/tiki.jpg</thumb>
+    <color>edd15d</color>
+  </theme>
+  
+  <theme>
+    <name>princess</name>
+    <url>/secretbox/swfs/themes/princess.swf</url>
+    <thumb>/secretbox/images/themes/thumbnails/princess.jpg</thumb>
+    <color>f78de8</color>
+  </theme>
+  
+  <theme>
+    <name>skatepark</name>
+    <url>/secretbox/swfs/themes/skatepark.swf</url>
+    <thumb>/secretbox/images/themes/thumbnails/skatepark.jpg</thumb>
+    <color>ao1414</color>
+  </theme>
+  
+  <theme>
+    <name>aquarium</name>
+    <url>/secretbox/swfs/themes/aquarium.swf</url>
+    <thumb>/secretbox/images/themes/thumbnails/aquarium.jpg</thumb>
+    <color>288267</color>
+  </theme>
+  
+  <theme>
+    <name>lunchlab-live</name>
+    <url>/secretbox/swfs/themes/lunchLab-live.swf</url>
+    <thumb>/secretbox/images/themes/thumbnails/lunchlab-live.jpg</thumb>
+    <color>33a0d3</color>
+  </theme>
+  
+  <theme>
+    <name>lunchlab-kitchen</name>
+    <url>/secretbox/swfs/themes/lunchLab-kitchen.swf</url>
+    <thumb>/secretbox/images/themes/thumbnails/lunchlab-kitchen.jpg</thumb>
+    <color>88c7ea</color>
+  </theme>
+  
+  <theme>
+    <name>chuck</name>
+    <url>/secretbox/swfs/themes/chuck.swf</url>
+    <thumb>/secretbox/images/themes/thumbnails/chuck.jpg</thumb>
+    <color>fedf84</color>
+  </theme>
+
+</themes>
