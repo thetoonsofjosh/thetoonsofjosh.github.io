@@ -107,8 +107,11 @@ document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga
 </div>
 
 <script type="text/javascript">
-   var fo = new SWFObject("/go/swfs/Games.swf", "flashpage", "935", "550", "9", "#8CAC26");
+   var fo = new SWFObject("/go/swfs/Games.swf", "flashpage", "935", "550", "9");
 	fo.addParam("allowScriptAccess", "always");
+	fo.addParam("allowFullScreen", "false");
+	fo.addParam("wmode", "transparent");
+	fo.addParam("menu", "false");
 	PBS_enable_cdn(fo);
    fo.write("flashcontent");
 </script>
