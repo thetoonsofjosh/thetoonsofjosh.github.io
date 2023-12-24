@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<sequence>
+  <exercise id="SuperWhy_Stomp" speed="1" loops="4" audio="challenge_ski_1a_stomp"/>
+  <exercise id="SuperWhy_Stomp" speed="1" loops="4" audio="exercise_skier_1b_stomp"/>
+  <exercise id="SuperWhy_Row" speed="1" loops="3" audio="challenge_ski_2a_ski"/>
+  <exercise id="SuperWhy_Row" speed="1" loops="4" audio="challenge_ski_2b_ski"/>
+  <exercise id="SuperWhy_Jump" speed="1" loops="3" audio="challenge_ski_3a_jump"/>
+  <exercise id="SuperWhy_Jump" speed="1" loops="3" audio="challenge_generic_ugotit"/>
+  
+  <exercise id="SuperWhy_Bounce" speed="1" loops="6" audio="challenge_againFaster"/>
+  <exercise id="SuperWhy_Stomp" speed="1.5" loops="7" audio="challenge_ski_1a_stomp"/>
+  <exercise id="SuperWhy_Row" speed="1.5" loops="7" audio="challenge_ski_2a_ski"/>
+  <exercise id="SuperWhy_Jump" speed="1.5" loops="7" audio="challenge_ski_3a_jump"/>
+  
+  <exercise id="SuperWhy_Bounce" speed="1" loops="6" audio="challenge_addYourMove"/>
+  <exercise id="SuperWhy_Stomp" speed="1" loops="4" audio="challenge_ski_1a_stomp"/>
+  <exercise id="SuperWhy_Row" speed="1" loops="4" audio="challenge_ski_2a_ski"/>
+  <exercise id="SuperWhy_Jump" speed="1" loops="4" audio="challenge_ski_3a_jump"/>
+  
+  <exercise id="SuperWhy_Bounce" speed="1" loops="5" audio="challenge_freestyle"/>
+  <exercise id="SuperWhy_Bounce" speed="1" loops="3" audio="challenge_party_woohoo"/>
+  <exercise id="SuperWhy_WaveBye" speed="1" loops="3" audio="congrats_greatJob"/>
+</sequence>

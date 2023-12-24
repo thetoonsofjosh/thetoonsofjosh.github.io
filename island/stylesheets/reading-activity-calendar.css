@@ -1,0 +1,51 @@
+#reading-activity-calendar-module, #reading-activity-calendar-module-esp {
+	clear: left;
+	float: left; /* For placement: may be unnecessary, depending on where you place the module */
+	padding: 20px 0; /* Creates space above and below module */
+	width: 250px; /* Set the width of the module, if necessary */
+}
+
+	/* Module title.  Default: "Reading Activity Calendar" */
+	#reading-activity-calendar-module h4, #reading-activity-calendar-module-esp h4 {
+		background: none;
+		border: 0;
+		color: #e73b3f;
+		font-size: 16px;
+		line-height: 1;
+		padding: 0;
+	}
+	
+	/* Image, Month, and Date */
+	#reading-activity-calendar-module .side, #reading-activity-calendar-module-esp .side {
+		float: left;
+		margin: 0 10px 0 0;
+		padding-top: 2px;
+		width: 103px;
+	}
+	
+	#reading-activity-calendar-module .side img, #reading-activity-calendar-module-esp .side img { border: 3px solid #e73b3f; }
+	
+	/* Month and Date */
+	#reading-activity-calendar-module .side h5, #reading-activity-calendar-module-esp .side h5 {
+		color: #e73b3f;
+		line-height: 1;
+		margin: 0;
+		padding: 10px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	
+	/* Date */
+	#reading-activity-calendar-module .side h5 .date, #reading-activity-calendar-module-esp .side h5 .date { font-size: 24px; }
+	
+	/* Module text */
+	#reading-activity-calendar-module .main p, #reading-activity-calendar-module-esp .main p { font-size: 11px; line-height: 1.2; padding-left: 113px; }
+	
+	/* Strong (usually introductory) text */
+	#reading-activity-calendar-module strong, #reading-activity-calendar-module-esp strong { color: #e73b3f; }
+	
+	/* Link Styles */
+	#reading-activity-calendar-module a, #reading-activity-calendar-module-esp a { color: #e73b3f; }
+	#reading-activity-calendar-module a:hover, #reading-activity-calendar-module-esp a:hover { color: #db8500; }
+	
+	#reading-activity-calendar-module p.calendar-link, #reading-activity-calendar-module-esp p.calendar-link { clear: left; padding-left: 0 !important; }

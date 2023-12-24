@@ -1,0 +1,586 @@
+.producerplayer-wrapper{
+  margin:0;
+}
+
+    .producerplayer-wrapper img, .producerplayer-wrapper embed, .producerplayer-wrapper object, .producerplayer-wrapper video{ width:100%; }
+    .producerplayer-wrapper video, .producerplayer-wrapper object, .producerplayer-wrapper embed, .producerplayer-wrapper button{ outline:none; border:none; }
+    .producerplayer-wrapper button{ cursor:pointer; vertical-align:middle; }
+    .producerplayer-wrapper button img{ vertical-align:middle; height:1.2em; }
+
+
+.player-wrapper.kids-go-squared{
+	font-family: Arial, sans-serif;
+}
+
+    .player-wrapper.kids-go-squared .frame{
+    }
+
+    .player-wrapper.kids-go-squared .video-player{
+    }
+
+    .player-wrapper.kids-go-squared .controlrack{
+		  padding: 4px 6px;
+		  width: 100%;
+		  box-sizing: border-box;
+		  position: absolute;
+		  bottom: 0;
+    }
+
+    		.player-wrapper.kids-go-squared .controlrack .secondary-buttons{
+    			float:right;
+    			white-space:nowrap;
+    		}
+
+    		.kids-go-squared button.go-button{
+          width: 45px;
+          height: 35px;
+          padding: 0px;
+          line-height: 35px;
+          border-bottom: solid rgba(0, 0, 0, 0.6) 2px;
+
+          text-transform: uppercase;
+
+          display: inline-block;
+          position: relative;
+          margin-top: 2px;
+          margin-left: 4px;
+          box-sizing: content-box;
+        }
+
+		        .kids-go-squared button.go-button .icon{
+							position: relative;
+					    width: 70%;
+					    height: 60%;
+					    line-height: 1.5em;
+					    font-size: 14px;
+					    font-family: Arial, sans-serif;
+          		font-weight: bold;
+					    display: block;
+					    margin: 0 auto;
+					    border: solid 2px;
+					    box-sizing: content-box;
+        		}
+
+        .kids-go-squared button.go-button:active,
+        .player-wrapper.kids-go-squared .controlrack .toggle-captions.captions-on{
+          border: 0px;
+				  margin-top: 4px;
+				}
+
+				.kids-go-squared .controlrack button.deep-link{
+        	width: 56px;
+        }
+
+        .kids-go-squared .controlrack button.play-pause{
+          width: 65px;
+          height: 42px;
+          line-height: 42px;
+          margin: 0px;
+        }
+
+        		.kids-go-squared .controlrack button.play-pause .icon{
+	        		border: none;
+					    height: 22px;
+	        	}
+
+        .kids-go-squared .controlrack button.play-pause:active{
+          border: 0px;
+				  margin-top: 2px;
+				}
+
+            .kids-go-squared .controlrack button.play-pause .icon:after{
+                content: "";
+                position: absolute;
+						    top: 50%;
+						    left: 50%;
+						    width: 0px;
+						    height: 0px;
+						    margin: -11px 0 0 -6px;
+						    border: solid 11px;
+						    border-left-width: 18px;
+						    border-right-width: 0;
+						    border-top-color: transparent !important;
+						    border-bottom-color: transparent !important;
+            }
+
+            .kids-go-squared .controlrack button.play-pause.playing .icon:after{
+                width: 6px;
+						    height: 22px;
+								margin: -11px 0 0 -12px;
+						    border-left-width: 9px;
+						    border-right-width: 9px;
+						    border-top: none;
+						    border-bottom: none;
+            }
+
+            .player-wrapper.kids-go-squared .controlrack .deep-link .icon:after{
+            	content: "Link";
+            }
+
+            .player-wrapper.kids-go-squared .controlrack .toggle-captions .icon:after{
+        			content:"CC";
+        		}
+
+        		.player-wrapper.kids-go-squared .controlrack .toggle-fullscreen .icon:after{
+        			content: "BIG";
+        		}
+
+        .player-wrapper.kids-go-squared .controlrack .toggle-mute .icon{
+      	  border: none;
+			    top: 0;
+			    width: 100%;
+			    height: 100%;
+			    font-size: 22px;
+    			line-height: 35px;
+    			font-weight: normal;
+        }
+
+		        .player-wrapper.kids-go-squared .controlrack .toggle-mute .icon:after{
+		        	content:"\e006";/*content: "\f107";*/
+		        	font-family: VideoJS;
+		        }
+
+		        .player-wrapper.kids-go-squared .controlrack .toggle-mute.muted .icon:after{
+		        	content:"\e003";/*content: "\f104";*/
+		        }
+
+		  	.player-wrapper.kids-go-squared .controlrack .timer-remaining{
+					font-size:0.875em;
+		      font-family: Arial, sans-serif;
+		      background: none !important;
+		      width: 40px;
+		      height: 35px;
+          line-height: 35px;
+		      margin-right: 6px;
+		      margin-top: 4px;
+		      text-align:right;
+		      display:inline-block;
+		    }
+
+		    .player-wrapper.kids-go-squared .controlrack .scrubber{
+		      position: absolute;
+			    left: 85px;
+			    right: 225px;
+			    display: inline-block;
+			    margin: 6px 0 2px;
+			    cursor: pointer;
+			    background: none!important;
+		    }
+
+		    .player-wrapper.kids-go-squared.remove-deeplink-button .controlrack .scrubber{
+		    	right: 175px;
+		    }
+
+		        .player-wrapper.kids-go-squared .controlrack .scrubber .scrubber-track{
+		          width:100%;
+		          height:8px;
+		          margin:10px 0;
+		          display:inline-block;
+		          vertical-align:middle;
+		          text-align:left;
+		        }
+
+		        .player-wrapper.kids-go-squared .controlrack .scrubber button.scrubber-thumb{
+		          height: 28px;
+					    width: 21px;
+					    border-left: none;
+					    border-radius: 0;
+					    border-top: none;
+		          position:relative !important;
+		          top:-12px;
+		          margin: 0;
+		        }
+
+		        .player-wrapper.kids-go-squared .controlrack .scrubber button.scrubber-thumb:active{
+	        	  border-bottom: solid rgba(0, 0, 0, 0.6) 2px;
+		        }
+
+
+		.player-wrapper.kids-go-squared .deep-link-display{
+			display: none;
+		}
+
+		.player-wrapper.kids-go-squared .deep-link-display.open{
+			display: block;
+	    position: absolute;
+	    width: 100%;
+	    left: 0;
+	    color: #FFFFFF;
+	    font-size: 12px;
+			line-height: 1.2em;
+	    background: rgba(0, 0, 0, 0.5);
+	    text-align: left;
+	    overflow: hidden;
+	    text-overflow: ellipsis;
+	    padding: 8px;
+	    box-sizing: border-box;
+	    word-break: break-all;
+		}
+
+				.player-wrapper.kids-go-squared .deep-link-display .deep-link-label{
+					font-weight: bold;
+			    font-size: 1em;
+			    margin: 0;
+			    padding: 0;
+			    line-height: 1.2em;
+			    text-align: left;
+				}
+
+				.player-wrapper.kids-go-squared .deep-link-display .deep-link-url{
+					border: 1px solid;
+			    padding: 0.4em;
+			    margin: 8px 0;
+			    word-break: break-all;
+				}
+
+				.player-wrapper.kids-go-squared .deep-link-display .deep-link-buttons{
+					text-align: right;
+				}
+
+						.player-wrapper.kids-go-squared .deep-link-display .deep-link-buttons button{
+							border: 1px solid;
+							font-weight: bold;
+							margin-left: 8px;
+							position: relative;
+						}
+
+						.player-wrapper.kids-go-squared .deep-link-display .deep-link-buttons button.deep-link-copy-button:before{
+							position: absolute;
+					    right: 100%;
+					    text-align: right;
+					    width: 110px;
+					    padding-right: 8px;
+					    color: #FFF;
+					    word-break: break-word;
+					    pointer-events: none;
+						}
+
+						.player-wrapper.kids-go-squared .deep-link-display .deep-link-buttons button.deep-link-copy-button.success:before{
+							content: "URL copied!"
+						}
+
+						.player-wrapper.kids-go-squared .deep-link-display .deep-link-buttons button.deep-link-copy-button.failed:before{
+							content: "Oops! Please press Ctrl+C to copy.";
+							top: -5px;
+						}
+
+						.player-wrapper.kids-go-squared .deep-link-display .deep-link-buttons button.deep-link-copy-button.mac.failed:before{
+							content: "Oops! Please press ⌘+C to copy.";
+						}
+
+
+.playlist-wrapper.kids-go-squared{
+  padding: 2px 3px 2px 2px;
+  font-family: Arial, sans-serif;
+}
+
+.playlist-wrapper.kids-go-squared.has-categorylist{
+	padding-bottom: 52px;
+}
+
+.playlist-wrapper.kids-go-squared .categorylist-wrapper{
+ 	position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 2px 3px 52px 2px;
+}
+
+		.playlist-wrapper.kids-go-squared .iScrollContainer{
+		  height: 100%;
+		  box-sizing: border-box;
+		}
+
+		.playlist-wrapper.kids-go-squared .playlist,
+    .playlist-wrapper.kids-go-squared .categorylist{
+		  width: 100%;
+	    padding: 0 22px 0 0;
+	    margin: 0;
+	    box-sizing: border-box;
+		}
+
+        .playlist-wrapper.kids-go-squared .categorylist .categorylistItem{
+        	width: auto;
+		      list-style: none;
+		      font-size: 12px;
+		      padding: 4px 1px;
+		      cursor: pointer;
+		      overflow: hidden;
+		      position: relative;
+		      box-sizing: border-box;
+          background-image: none;
+        }
+
+		    .playlist-wrapper.kids-go-squared .playlist .playlistItem{
+		      width: auto;
+		      box-sizing: border-box;
+		      min-height: 53px;
+		      padding: 10px 8px;
+		      margin: -1px 0 0;
+		      border: solid 1px;
+		      list-style: none;
+		      font-size: 12px;
+		      cursor: pointer;
+		      overflow: hidden;
+		      clear: both;
+		      position: relative;
+          background-image: none;
+		    }
+
+		    .playlist-wrapper.kids-go-squared .playlist.cols-2 .playlistItem{
+		    	display: inline-block;
+		    	width: 50%;
+		    }
+
+		    .playlist-wrapper.kids-go-squared .playlist.cols-2 .playlistItem.alternate{
+		    	float: right;
+		    }
+
+		    .playlist-wrapper.kids-go-squared .playlist .playlistItem:nth-child(1){
+		    	margin: 0;
+		    }
+
+				    .playlist-wrapper.kids-go-squared .playlist .playlistItem:before{
+				    	content: "";
+				    	position: absolute;
+				    	height: 100%;
+				    	width: 100%;
+				    	left: 0;
+				    	bottom: 0;
+						}
+
+
+            .playlist-wrapper.kids-go-squared .playlistItem .thumb-container{
+              position: absolute;
+              width: 69px;
+              height: 51px;
+					    padding: 1px;
+            }
+
+            .playlist-wrapper.kids-go-squared .playlistItem .img{
+              width: 100%;
+              height: 100%;
+              vertical-align: top;
+            }
+
+            .playlist-wrapper.kids-go-squared .playlistItem .new-label,
+            .playlist-wrapper.kids-go-squared .playlistItem .fullep-label
+           {
+              display:none;
+            }
+
+		            .playlist-wrapper.kids-go-squared .playlistItem.new-video .new-label{
+		              position: absolute;
+							    top: 5px;
+							    right: -25px;
+							    color: white;
+							    background: #980000;/*should be the only hardcoded color*/
+							    width: 89px;
+							    display: block;
+							    text-align: center;
+							    padding: 4px 0;
+							    transform: rotate(45deg);
+							    -ms-transform: rotate(45deg);
+							    -webkit-transform: rotate(45deg);
+							    font-size: 14px;
+							    font-weight: bold;
+							    text-transform: uppercase;
+		            }
+
+		            .playlist-wrapper.kids-go-squared .playlistItem.episode .fullep-label{
+		                bottom: -9px;
+								    font-weight: bold;
+								    font-size: 13px;
+								    display: block;
+								    text-align: center;
+								    position: absolute;
+								    width: 85px;
+								    left: -7px;
+								    border: solid 1px;
+								    height: 20px;
+								    line-height: 20px;
+		            }
+
+		            .playlist-wrapper.kids-go-squared .playlistItem .video-info{
+                  position: relative;
+                  margin-left: 83px;
+                  border: solid 1px;
+                  width: auto;
+                  padding: 4px 6px;
+                  height: 53px;
+                  display: block;
+                  box-sizing: border-box;
+                  overflow: hidden;
+                  line-height: 1.3em;
+                }
+
+                    .playlist-wrapper.kids-go-squared .playlistItem .video-info .video-title{
+		            			font-weight: bold;
+		            		}
+
+		                .playlist-wrapper.kids-go-squared .playlistItem .video-info .video-description{
+		                  display: block;
+		                }
+
+
+		    .playlist-wrapper.kids-go-squared .playlist .showmore-videos{
+		      font-weight: bold;
+		      padding: 12px 0;
+		      text-align: center;
+		      text-transform: uppercase;
+		      width: 100%;
+          background-image: none;
+		    }
+
+
+		.playlist-wrapper.kids-go-squared .iScrollContainer .loading-indicator,
+		.playlist-wrapper.kids-go-squared .iScrollContainer .appending-indicator
+		{
+		  width:50px;
+		  height:50px;
+		  display:none;
+		  margin:20px auto;
+		}
+
+		.playlist-wrapper.kids-go-squared .iScrollContainer .appendingIndicator-container{
+		  text-align: center;
+		  padding:10px 0;
+      background-image: none;
+		}
+
+				.playlist-wrapper.kids-go-squared .iScrollContainer .appendingIndicator-container .appending-indicator{
+		      display:inline-block;
+		      margin: 0 10px 0 0;
+		      vertical-align: middle;
+		    }
+
+				.playlist-wrapper.kids-go-squared .iScrollContainer .appendingIndicator-container span{
+		      margin-right:5px;
+		    }
+
+
+		.playlist-wrapper.kids-go-squared .iScrollContainer .scrollbarV{
+	    width: 22px;
+      position: absolute;
+      top: 22px !important;
+      bottom: 22px;
+      z-index: 100;
+      cursor: pointer;
+		}
+
+		.playlist-wrapper.kids-go-squared .iScrollContainer .scrollbarV.touch{
+		  width: 0.42em;
+		  background:none;
+		  cursor: none;
+		}
+
+				.playlist-wrapper.kids-go-squared .iScrollContainer .scrollbarV div{
+		      margin: 0 2px;
+		      cursor: pointer;
+				  cursor: -webkit-grabbing;
+				  cursor: -moz-grabbing;
+		    }
+
+				.playlist-wrapper.kids-go-squared .iScrollContainer .scrollbarV.touch div{
+		      border-radius:0.42em;
+		      border:none;
+		    }
+
+
+    .playlist-wrapper.kids-go-squared .scroll-button{
+      width: 22px;
+      height: 22px;
+      position: absolute;
+      right: 3px;
+      z-index: 150;
+      border: solid 2px;
+      padding: 0;
+      border-radius: 0;
+    }
+
+        .playlist-wrapper.kids-go-squared .scroll-button:after{
+          content: "";
+          width: 0;
+          height: 0;
+          border: solid 6px;
+          border-left-color: transparent !important;
+          border-right-color: transparent !important;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          margin-top: -3px;
+          margin-left: -6px;
+        }
+
+    .playlist-wrapper.kids-go-squared .scroll-down{
+      bottom: 2px;
+    }
+
+    .playlist-wrapper.kids-go-squared.has-categorylist .scroll-down{
+    	bottom: 52px;
+    }
+
+        .playlist-wrapper.kids-go-squared .scroll-down:after{
+            border-bottom: none;
+        }
+
+    .playlist-wrapper.kids-go-squared .scroll-up{
+      top: 2px;
+    }
+
+        .playlist-wrapper.kids-go-squared .scroll-up:after{
+          border-top: none;
+        }
+
+
+        .playlist-wrapper.kids-go-squared.at-top > .scroll-up,
+        .playlist-wrapper.kids-go-squared.at-bottom > .scroll-down,
+        .playlist-wrapper.kids-go-squared .at-top > .scroll-up,
+        .playlist-wrapper.kids-go-squared .at-bottom > .scroll-down{
+          cursor: default;
+          pointer-events: none;
+          opacity: 0.5;
+        }
+
+
+
+		.playlist-wrapper.kids-go-squared .category-button{
+			position: absolute;
+			left: 8px;
+			bottom: 8px;
+			width: 152px;
+			height: 36px;
+		}
+
+				.playlist-wrapper.kids-go-squared .category-button .icon{
+					border:none;
+					font-size: 18px;
+					display: inline;
+					width: 100%;
+				}
+
+						.playlist-wrapper.kids-go-squared .open-categorylist .icon:after{
+							content:"Channels";
+						}
+
+						.playlist-wrapper.kids-go-squared .close-categorylist .icon:after{
+							content:"Now Playing";
+						}
+
+
+
+		.playlist-wrapper.kids-go-squared .no-results-message{
+		  display: none;
+		  text-align: center;
+		  width: 90%;
+		  text-transform: uppercase;
+		  margin: 0 auto;
+		}
+
+		    .playlist-wrapper.kids-go-squared .no-results-message p{
+		      margin:1em 0;
+		    }
+
+		    .playlist-wrapper.kids-go-squared .no-results-message a{
+		    }

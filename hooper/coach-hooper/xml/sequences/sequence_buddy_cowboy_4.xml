@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<sequence>
+  <exercise id="Buddy_Lift" speed="1" loops="3" audio="challenge_cowboy_1a_lift"/>
+  <exercise id="Buddy_Lift" speed="1" loops="4" audio="challenge_cowboy_1b_lift"/>
+  <exercise id="Buddy_Ride" speed="1" loops="6" audio="challenge_cowboy_2a_ride"/>
+  <exercise id="Buddy_Ride" speed="1" loops="6" audio="challenge_cowboy_2b_ride"/>
+  <exercise id="Buddy_Lasso" speed="1" loops="5" audio="challenge_cowboy_3a_lasso"/>
+  <exercise id="Buddy_Lasso" speed="1" loops="4" audio="challenge_cowboy_3b_lasso"/>
+  
+  <exercise id="Buddy_Bounce" speed="1" loops="6" audio="challenge_againSlower"/>
+  <exercise id="Buddy_Lift" speed="0.75" loops="4" audio="challenge_cowboy_1a_lift"/>
+  <exercise id="Buddy_Ride" speed="0.75" loops="4" audio="challenge_cowboy_2a_ride"/>
+  <exercise id="Buddy_Lasso" speed="0.75" loops="5" audio="challenge_cowboy_3a_lasso"/>
+  
+  <exercise id="Buddy_Bounce" speed="1" loops="6" audio="challenge_addYourMove"/>
+  <exercise id="Buddy_Lift" speed="1" loops="5" audio="challenge_cowboy_1a_lift"/>
+  <exercise id="Buddy_Ride" speed="1" loops="8" audio="challenge_cowboy_2a_ride"/>
+  <exercise id="Buddy_Lasso" speed="1" loops="8" audio="challenge_cowboy_3a_lasso"/>
+  
+  <exercise id="Buddy_Bounce" speed="1" loops="5" audio="challenge_freestyle"/>
+  <exercise id="Buddy_Bounce" speed="1" loops="3" audio="challenge_generic_ugotit"/>
+  <exercise id="Buddy_WaveBye" speed="1" loops="4" audio="congrats_youraPro"/>
+</sequence>

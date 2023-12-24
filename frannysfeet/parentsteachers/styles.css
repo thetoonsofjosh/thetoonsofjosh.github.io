@@ -1,0 +1,28 @@
+.body_text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.copyright_text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+a.copyright_text:link {
+	color: #FF3399;
+}
+a.copyright_text:hover {
+	color: #FF3399;
+}
+a.copyright_text:visited {
+	color: #9900FF;
+}
+
+body{
+	background:#D2ECE4
+}
+
+.body_text a {color: #551A8B;}
+.body_text a:hover {color: #B758A3;}
+
+#lps td {font: normal 12px Verdana; border-bottom: 1px solid #ccc; padding: 8px 0px;}
+#lps td.thumb {padding-right: 8px;}

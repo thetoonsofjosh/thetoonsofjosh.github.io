@@ -1,0 +1,1 @@
+{"buttons_color": "#F7971D", "shop_url": "http://shop.pbskids.org/?utm_source=brandsite&utm_medium=portalnav&utm_campaign=pbskidsnav", "go_login": true, "brand": "go", "destination": "", "reload": true, "parents_url": "http://pbs.org/parents", "shop_partner": false, "learning_goals": "", "teachers_url": "http://www.pbslearningmedia.org"}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<sequence>
+  <exercise id="SuperWhy_Bounce" speed="1" loops="5" audio="exercise_astro_3a_bounce"/>
+  <exercise id="SuperWhy_Bounce" speed="1" loops="4" audio="exercise_astro_3b_bounce"/>
+  <exercise id="SuperWhy_Bounce" speed="1" loops="3" audio="exercise_keepItUp"/>
+  <exercise id="SuperWhy_Bounce" speed="1" loops="3" audio="congrats_Awesome"/>
+</sequence>

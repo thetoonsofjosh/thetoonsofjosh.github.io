@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<sequence>
+  <exercise id="George_Stomp" speed="1" loops="3" audio="challenge_surf_1a_stomp"/>
+  <exercise id="George_Stomp" speed="1" loops="3" audio="challenge_generic_ugotit"/>
+  <exercise id="George_Swim" speed="1" loops="2" audio="challenge_surf_2a_swim"/>
+  <exercise id="George_Swim" speed="1" loops="3" audio="challenge_surf_2b_swim"/>
+  <exercise id="George_Booty" speed="1" loops="4" audio="challenge_surf_3a_booty"/>
+  <exercise id="George_Booty" speed="1" loops="4" audio="challenge_surf_3b_booty"/>
+  
+  <exercise id="George_Bounce" speed="1" loops="6" audio="challenge_againFaster"/>
+  <exercise id="George_Stomp" speed="1.5" loops="7" audio="challenge_surf_1a_stomp"/>
+  <exercise id="George_Swim" speed="1.5" loops="7" audio="challenge_surf_2a_swim"/>
+  <exercise id="George_Booty" speed="1.5" loops="7" audio="challenge_surf_3a_booty"/>
+  
+  <exercise id="George_Bounce" speed="1" loops="6" audio="challenge_addYourMove"/>
+  <exercise id="George_Stomp" speed="1" loops="3" audio="challenge_surf_1a_stomp"/>
+  <exercise id="George_Stomp" speed="1" loops="2" audio="challenge_generic_ugotit"/>
+  <exercise id="George_Swim" speed="1" loops="4" audio="challenge_surf_2a_swim"/>
+  <exercise id="George_Booty" speed="1" loops="4" audio="challenge_surf_3a_booty"/>
+  <exercise id="George_Booty" speed="1" loops="3" audio="congrats_youraPro"/>
+  
+  <exercise id="George_Bounce" speed="1" loops="5" audio="challenge_freestyle"/>
+  <exercise id="George_Bounce" speed="1" loops="3" audio="exercise_keepItUp"/>
+  <exercise id="George_WaveBye" speed="1" loops="3" audio="congrats_wayToGo"/>
+</sequence>

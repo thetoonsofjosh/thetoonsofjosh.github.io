@@ -1,0 +1,62 @@
+﻿<characters>
+  <asset id="characters" src="characters.swf" title="CHARACTERS" offsetX="0" offsetY="0" scale="1" bytes="51604">
+    <asset id="Buddy_Booty" src="assets/dances/Buddy_Booty.swf" title="Surf" offsetX="-8" offsetY="-15" scale="1.25" bytes="16840"/>
+    <asset id="Buddy_Bounce" src="assets/dances/Buddy_Bounce.swf" title="Bounce" offsetX="-26" offsetY="-28" scale="1.32" bytes="9348"/>
+    <asset id="Buddy_Climb" src="assets/dances/Buddy_Climb.swf" title="Pick the Apples" offsetX="-18" offsetY="5" scale="1.1" bytes="11878"/>
+    <asset id="Buddy_Jump" src="assets/dances/Buddy_Jump.swf" title="Jump" offsetX="-24" offsetY="-38" scale="1.29" bytes="13707"/>
+    <asset id="Buddy_Lasso" src="assets/dances/Buddy_Lasso.swf" title="Swing the Lasso" offsetX="-23" offsetY="-18" scale="1.32" bytes="11749"/>
+    <asset id="Buddy_Lift" src="assets/dances/Buddy_Lift.swf" title="Lift" offsetX="-17" offsetY="2" scale="1.13" bytes="11522"/>
+    <asset id="Buddy_OverWave" src="assets/dances/Buddy_OverWave.swf" title="Wave" offsetX="-24" offsetY="-23" scale="1.35" bytes="9539"/>
+    <asset id="Buddy_Rain" src="assets/dances/Buddy_Rain.swf" title="Spirit Fingers" offsetX="-27" offsetY="-25" scale="1.34" bytes="21280"/>
+    <asset id="Buddy_Ride" src="assets/dances/Buddy_Ride.swf" title="Ride" offsetX="-28" offsetY="-14" scale="1.32" bytes="8945"/>
+    <asset id="Buddy_Row" src="assets/dances/Buddy_Row.swf" title="Ski" offsetX="-1" offsetY="6" scale="1.09" bytes="9907"/>
+    <asset id="Buddy_Stomp" src="assets/dances/Buddy_Stomp.swf" title="Stomp" offsetX="-30" offsetY="-15" scale="1.33" bytes="9494"/>
+    <asset id="Buddy_Swim" src="assets/dances/Buddy_Swim.swf" title="Swim" offsetX="-10" offsetY="6" scale="1.11" bytes="29716"/>
+    <asset id="Buddy_Float" src="assets/dances/Buddy_Float.swf" title="Float" offsetX="-10" offsetY="6" scale="1.11" bytes="29716"/>
+    <asset id="Buddy_WaveBye" src="assets/dances/Buddy_WaveBye.swf" title="Wave" offsetX="-32" offsetY="-21" scale="1.3" bytes="8937"/>
+    <asset id="Cat_Booty" src="assets/dances/Cat_Booty.swf" title="Shake" offsetX="-9" offsetY="30" scale="1" bytes="160638"/>
+    <asset id="Cat_Bounce" src="assets/dances/Cat_Bounce.swf" title="Bounce" offsetX="-26" offsetY="20" scale="1" bytes="161245"/>
+    <asset id="Cat_Climb" src="assets/dances/Cat_Climb.swf" title="Pick the Apples" offsetX="-16" offsetY="19" scale="1" bytes="196714"/>
+    <asset id="Cat_Feed" src="assets/dances/Cat_Feed.swf" title="Feed the Animals" offsetX="-24" offsetY="19" scale="1" bytes="215956"/>
+    <asset id="Cat_Feed_Fish" src="assets/dances/Cat_Feed_Fish.swf" title="Feed the Fish" offsetX="-24" offsetY="19" scale="1" bytes="215956"/>
+    <asset id="Cat_Float" src="assets/dances/Cat_Float.swf" title="Float" offsetX="1" offsetY="20" scale="1" bytes="227826"/>
+    <asset id="Cat_Swim" src="assets/dances/Cat_Float.swf" title="Swim" offsetX="1" offsetY="20" scale="1" bytes="227826"/>
+    <asset id="Cat_Jump" src="assets/dances/Cat_Jump.swf" title="Jump" offsetX="-32" offsetY="17" scale="1" bytes="180073"/>
+    <asset id="Cat_Lift" src="assets/dances/Cat_Lift.swf" title="Lift" offsetX="-21" offsetY="20" scale="1" bytes="168489"/>
+    <asset id="Cat_OverWave" src="assets/dances/Cat_OverWave.swf" title="Wave" offsetX="-4" offsetY="16" scale="1" bytes="185758"/>
+    <asset id="Cat_Paint" src="assets/dances/Cat_Paint.swf" title="Paint" offsetX="-4" offsetY="16" scale="1" bytes="183201"/>
+    <asset id="Cat_Rain" src="assets/dances/Cat_Rain.swf" title="Spirit Fingers" offsetX="-11" offsetY="19" scale="1" bytes="204409"/>
+    <asset id="Cat_Row" src="assets/dances/Cat_Row.swf" title="Ski" offsetX="7" offsetY="26" scale="1" bytes="177624"/>
+    <asset id="Cat_Stomp" src="assets/dances/Cat_Stomp.swf" title="Stomp" offsetX="-22" offsetY="26" scale="1" bytes="169405"/>
+    <asset id="Cat_Drum" src="assets/dances/Cat_Drum.swf" title="Play the Drums" offsetX="-24" offsetY="19" scale="1" bytes="225058"/>
+    <asset id="Cat_WaveBye" src="assets/dances/Cat_WaveBye.swf" title="Wave" offsetX="-27" offsetY="17" scale="1" bytes="177348"/>
+    <asset id="George_Booty" src="assets/dances/George_Booty.swf" title="Shake" offsetX="13" offsetY="-7" scale="1.25" bytes="14933"/>
+    <asset id="George_Bounce" src="assets/dances/George_Bounce.swf" title="Bounce" offsetX="-18" offsetY="-20" scale="1.25" bytes="7745"/>
+    <asset id="George_Climb" src="assets/dances/George_Climb.swf" title="Pick the Apples" offsetX="-1" offsetY="15" scale="1" bytes="31605"/>
+    <asset id="George_Jump" src="assets/dances/George_Jump.swf" title="Jump" offsetX="-20" offsetY="-40" scale="1.25" bytes="11095"/>
+    <asset id="George_Lift" src="assets/dances/George_Lift.swf" title="Lift" offsetX="-2" offsetY="18" scale="1" bytes="11675"/>
+    <asset id="George_OverWave" src="assets/dances/George_OverWave.swf" title="Wave" offsetX="-27" offsetY="-29" scale="1.25" bytes="5391"/>
+    <asset id="George_Paint" src="assets/dances/George_Paint.swf" title="Swing" offsetX="17" offsetY="14" scale="1" bytes="18157"/>
+    <asset id="George_Rain" src="assets/dances/George_Rain.swf" title="Spirit Fingers" offsetX="-22" offsetY="-16" scale="1.25" bytes="25262"/>
+    <asset id="George_Ride" src="assets/dances/George_Ride.swf" title="Ride" offsetX="0" offsetY="35" scale="1" bytes="11966"/>
+    <asset id="George_Row" src="assets/dances/George_Row.swf" title="Ski" offsetX="32" offsetY="14" scale="1" bytes="10652"/>
+    <asset id="George_Stomp" src="assets/dances/George_Stomp.swf" title="Stomp" offsetX="-8" offsetY="-6" scale="1.25" bytes="17541"/>
+    <asset id="George_Swim" src="assets/dances/George_Swim.swf" title="Swim" offsetX="-5" offsetY="25" scale="1" bytes="30495"/>
+    <asset id="George_Trombone" src="assets/dances/George_Trombone.swf" title="Play the Trombone" offsetX="-25" offsetY="10" scale="1" bytes="13969"/>
+    <asset id="George_WaveBye" src="assets/dances/George_WaveBye.swf" title="Wave" offsetX="-16" offsetY="-32" scale="1.26" bytes="5023"/>
+    <asset id="SuperWhy_Booty" src="assets/dances/SuperWhy_Booty.swf" title="Ride That Wave!" offsetX="16" offsetY="14" scale="1" bytes="14842"/>
+    <asset id="SuperWhy_Bounce" src="assets/dances/SuperWhy_Bounce.swf" title="Bounce" offsetX="-4" offsetY="11" scale="1" bytes="7455"/>
+    <asset id="SuperWhy_Feed" src="assets/dances/SuperWhy_Feed.swf" title="Feed the Fish" offsetX="-3" offsetY="16" scale="1" bytes="14907"/>
+    <asset id="SuperWhy_Swim" src="assets/dances/SuperWhy_Swim.swf" title="Swim" offsetX="-3" offsetY="10" scale="1" bytes="16834"/>
+    <asset id="SuperWhy_Float" src="assets/dances/SuperWhy_Float.swf" title="Float" offsetX="-3" offsetY="10" scale="1" bytes="16834"/>
+    <asset id="SuperWhy_Jump" src="assets/dances/SuperWhy_Jump.swf" title="Jump" offsetX="-4" offsetY="15" scale="1" bytes="10535"/>
+    <asset id="SuperWhy_Lasso" src="assets/dances/SuperWhy_Lasso.swf" title="Swing the Lasso" offsetX="-6" offsetY="11" scale="1" bytes="7654"/>
+    <asset id="SuperWhy_Lotion" src="assets/dances/SuperWhy_Lotion.swf" title="Rub on the Lotion" offsetX="-4" offsetY="15" scale="1" bytes="10530"/>
+    <asset id="SuperWhy_Mix" src="assets/dances/SuperWhy_Mix.swf" title="Mix" offsetX="-7" offsetY="13" scale="1" bytes="9095"/>
+    <asset id="SuperWhy_overWave" src="assets/dances/SuperWhy_OverWave.swf" title="Wave" offsetX="0" offsetY="18" scale="1" bytes="8159"/>
+    <asset id="SuperWhy_Rain" src="assets/dances/SuperWhy_Rain.swf" title="Spirit Fingers" offsetX="1" offsetY="18" scale="1" bytes="11216"/>
+    <asset id="SuperWhy_Row" src="assets/dances/SuperWhy_Row.swf" title="Ski" offsetX="1" offsetY="18" scale="1" bytes="12876"/>
+    <asset id="SuperWhy_Stomp" src="assets/dances/SuperWhy_Stomp.swf" title="Stomp" offsetX="-3" offsetY="24" scale="1" bytes="10850"/>
+    <asset id="SuperWhy_WaveBye" src="assets/dances/SuperWhy_WaveBye.swf" title="Wave" offsetX="0" offsetY="10" scale="1" bytes="7597"/>
+  </asset>
+</characters>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shows>
+
+	<show status="primary">
+		<shortname>arthur</shortname> 
+		<name>Arthur</name>
+	</show>
+
+	<show status="primary">
+		<shortname>wordgirl</shortname> 
+		<name>WordGirl</name>
+	</show>
+
+	<show status="primary">
+		<shortname>wildkratts</shortname> 
+		<name>Wild Kratts</name>
+	</show>
+
+	<show status="primary">
+		<shortname>electriccompany</shortname> 
+		<name>Electric Company</name>
+	</show>
+
+	<show status="primary">
+		<shortname>fetch</shortname> 
+		<name>Fetch!</name>
+	</show>
+
+	<show status="primary">
+		<shortname>cyberchase</shortname> 
+		<name>Cyberchase</name>
+	</show>
+	
+	<show status="primary">
+		<shortname>lunchlab</shortname> 
+		<name>Fizzy's Lunch Lab</name>
+	</show>
+	
+	<show status="primary">
+		<shortname>wilsonandditch</shortname> 
+		<name>Wilson &amp; Ditch </name>
+	</show>
+
+	<show status="secondary">
+		<shortname>chuck</shortname> 
+		<name>Chuck Vanderchuck</name>
+	</show>
+	
+	<show status="secondary">
+		<shortname>noah</shortname> 
+		<name>Oh Noah!</name>
+	</show>
+
+	<show status="secondary">
+		<shortname>designsquad</shortname> 
+		<name>Design Squad</name>
+	</show>
+	
+	<show status="secondary">
+		<shortname>mayaandmiguel</shortname> 
+		<name>Maya &amp; Miguel</name>
+	</show>
+
+	<show status="secondary">
+		<shortname>scigirls</shortname> 
+		<name>SciGirls</name>
+	</show>
+
+	<show status="secondary">
+		<shortname>itsmylife</shortname> 
+		<name>It&apos;s My Life</name>
+	</show>
+
+	<show status="secondary">
+		<shortname>eekoworld</shortname> 
+		<name>EekoWorld</name>
+	</show>
+	
+	<show status="secondary">
+		<shortname>zoom</shortname> 
+		<name>ZOOM</name>
+	</show>
+		
+	<show status="secondary">
+		<shortname>webonauts</shortname> 
+		<name>Webonauts</name>
+	</show>
+</shows>

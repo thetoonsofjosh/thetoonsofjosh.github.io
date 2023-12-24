@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<sequence>
+  <exercise id="Buddy_Jump" speed="1" loops="3" audio="challenge_astro_1a_jump"/>
+  <exercise id="Buddy_Jump" speed="1" loops="3" audio="challenge_astro_1b_jump"/>
+  <exercise id="Buddy_Swim" speed="1" loops="3" audio="challenge_astro_2a_float"/>
+  <exercise id="Buddy_Swim" speed="1" loops="3" audio="challenge_astro_2b_float"/>
+  <exercise id="Buddy_Bounce" speed="1" loops="3" audio="challenge_astro_3a_bounce"/>
+  <exercise id="Buddy_Bounce" speed="1" loops="3" audio="challenge_astro_3b_bounce"/>
+  
+  <exercise id="Buddy_Bounce" speed="1" loops="6" audio="challenge_againFaster"/>
+  <exercise id="Buddy_Jump" speed="1.5" loops="7" audio="challenge_astro_1a_jump"/>
+  <exercise id="Buddy_Swim" speed="1.5" loops="7" audio="challenge_astro_2a_float"/>
+  <exercise id="Buddy_Bounce" speed="1.5" loops="7" audio="challenge_astro_3a_bounce"/>
+  
+  <exercise id="Buddy_Bounce" speed="1" loops="6" audio="challenge_addYourMove"/>
+  <exercise id="Buddy_Jump" speed="1" loops="4" audio="challenge_astro_1a_jump"/>
+  <exercise id="Buddy_Swim" speed="1" loops="4" audio="challenge_astro_2a_float"/>
+  <exercise id="Buddy_Bounce" speed="1" loops="5" audio="challenge_astro_3a_bounce"/>
+  
+  <exercise id="Buddy_Bounce" speed="1" loops="5" audio="challenge_freestyle"/>
+  <exercise id="Buddy_Bounce" speed="1" loops="3" audio="exercise_keepItUp"/>
+  <exercise id="Buddy_WaveBye" speed="1" loops="3" audio="congrats_greatJob"/>
+</sequence>

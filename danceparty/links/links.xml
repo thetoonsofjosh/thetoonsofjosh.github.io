@@ -1,0 +1,90 @@
+<!DOCTYPE root>
+
+<root>
+	<links>
+		<link char="george">
+			<url>http://pbskids.org/curiousgeorge/games/day_at_beach/day_at_beach.html </url>
+			<thumbnail>links/big-curiousgeorge-dayatbeach.jpg</thumbnail>
+		</link>
+		
+		<link char="george">
+			<url>http://pbskids.org/curiousgeorge/games/cows_dont_quack/cows_dont_quack.html </url>
+			<thumbnail>links/big-curiousgeorge-cowsdontquack.jpg</thumbnail>
+		</link>
+		
+		<link char="george">
+			<url>http://pbskids.org/curiousgeorge/games/monkey_faces/monkey_faces.html</url>
+			<thumbnail>links/big-curiousgeorge-monkeyfaces.jpg</thumbnail>
+		</link>
+		
+		<link char="george">
+			<url>http://pbskids.org/curiousgeorge/games/mix_and_paint/mix_and_paint.html</url>
+			<thumbnail>links/big-curiousgeorge-mixandpaint.jpg</thumbnail>
+		</link>
+		
+		<link char="george">
+			<url>http://pbskids.org/curiousgeorge/games/juggling_george/juggling_george.html</url>
+			<thumbnail>links/big-curiousgeorge-jugglinggeorge.jpg</thumbnail>
+		</link>
+		
+		<link char="sid">
+			<url>http://pbskids.org/catinthehat/games/migration-adventure.html</url>
+			<thumbnail>links/big-catinthehat-migration.jpg</thumbnail>
+		</link>
+		
+		<link char="sid">
+			<url>http://pbskids.org/catinthehat/games/now-you-see-me.html</url>
+			<thumbnail>links/big-catinthehat-nowyou.jpg</thumbnail>
+		</link>
+		
+		<link char="sid">
+			<url>http://pbskids.org/catinthehat/games/weather-transformer.html</url>
+			<thumbnail>links/big-catinthehat-weather.jpg</thumbnail>
+		</link>
+		
+		<link char="superwhy">
+			<url>http://pbskids.org/superwhy/#game/freezedance</url>
+			<thumbnail>links/big-superwhy-freezedance.jpg</thumbnail>
+		</link>
+		
+		<link char="superwhy">
+			<url>http://pbskids.org/superwhy/#game/storybookcreator</url>
+			<thumbnail>links/big-superwhy-storybook.jpg</thumbnail>
+		</link>
+		
+		<link char="superwhy">
+			<url>http://pbskids.org/superwhy/#game/superhero</url>
+			<thumbnail>links/big-superwhy-createsuperhero.jpg</thumbnail>
+		</link>
+		
+		<link char="superwhy">
+			<url>http://pbskids.org/superwhy/#game/paintbyletter</url>
+			<thumbnail>links/big-superwhy-paintbyletter.jpg</thumbnail>
+		</link>
+		
+		<link char="superwhy">
+			<url>http://pbskids.org/superwhy/#game/alphabricks</url>
+			<thumbnail>links/big-superwhy-alphabricks.jpg</thumbnail>
+		</link>
+		
+		<link char="buddy">
+			<url>http://pbskids.org/dinosaurtrain/games/pteranodonfishing.html </url>
+			<thumbnail>links/big-dinosaurtrain-pteranodonfishing.jpg</thumbnail>
+		</link>
+		
+		<link char="buddy">
+			<url>http://pbskids.org/dinosaurtrain/games/fieldguide.html</url>
+			<thumbnail>links/big-dinosaurtrain-fieldguide.jpg</thumbnail>
+		</link>
+		
+		<link char="buddy">
+			<url>http://pbskids.org/dinosaurtrain/games/hungryhungryherbivore.html</url>
+			<thumbnail>links/big-dinosaurtrain-hungryhungryherbivore.jpg</thumbnail>
+		</link>
+		
+		<link char="buddy">
+			<url>http://pbskids.org/dinosaurtrain/games/howbigareyou.html</url>
+			<thumbnail>links/big-dinosaurtrain-howbigareyou.jpg</thumbnail>
+		</link>
+	</links>
+</root>

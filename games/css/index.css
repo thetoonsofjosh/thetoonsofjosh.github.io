@@ -1,0 +1,227 @@
+@charset "UTF-8";
+/*
+*****
+	CSS Document for Main Games page
+*****
+*/
+
+@import url('/gmac_assets/css/global.css'); /* Brings in the global styles for the Games area */
+
+object,
+embed {
+	margin: 0 auto;
+	text-align: center;
+}
+
+/* Defines background area of Games Container */
+#maingames {
+	background: url('/gmac_assets/images/backgrounds/hills.jpg') repeat-x 0 65px;
+	text-align: center;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+/* Defines the No Flash Content */
+#maingames #games-noflash {
+	padding-top: 85px;
+}
+
+#maingames #games-noflash p {
+	margin: 0 0 15px 0;
+	padding: 4px;
+	background-color: #fff;
+	font-size: 12px;
+}
+
+#maingames #games-noflash p a:link,
+#maingames #games-noflash p a:visited,
+#maingames #games-noflash p a:active {
+	color: #900
+}
+
+#maingames #games-noflash p a:hover {
+	color: #000;
+}
+
+#maingames #games-noflash #noflash-gutter {
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	width: 870px;
+}
+
+#maingames #games-noflash #noflash-gutter:after {
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+
+#maingames #games-noflash #pbskids-logo {
+	float: left;
+	width: 105px;
+	margin: 0 12px 0 0;
+	padding: 0;
+}
+
+#maingames #games-noflash #noflash-games {
+	float: left;
+	width: 740px;
+	margin: 0;
+	padding: 0;
+}
+#maingames #games-noflash ul#grid {
+	width: 740px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#maingames #games-noflash ul#grid li.row {
+	list-style: none;
+	overflow: hidden; /* fixes hasLayout issue in IE */
+	height: 1%;
+	margin: 0;
+	padding: 0;
+	clear: both;
+}
+
+#maingames #games-noflash ul#grid li.row ul.items {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+#maingames #games-noflash ul#grid li.item {
+	min-height: 50px;
+	width: 211px;
+	margin: 0 30px 15px 0;
+	padding: 0;
+	float: left;
+	list-style: none;
+}
+
+#maingames #games-noflash ul#grid li.item a {
+	display: block;
+	width: 211px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#maingames #games-noflash ul#grid li.item span.image {
+	width: 95px;
+	padding: 0;
+}
+
+#maingames #games-noflash ul#grid li.item span.image img {
+	float: left;
+	margin: 0 10px 0 0;
+}
+
+#maingames #games-noflash ul#grid li.item span.info {
+	display: block;
+	width: 106px;
+	font-size: 12px;
+	line-height: 14px;
+	color: #000;
+	text-align: left;
+	float: left;
+	margin: 0;
+	padding: 3px 0 0 0;
+}
+
+#maingames #games-noflash ul#grid li.item a:link span.info,
+#maingames #games-noflash ul#grid li.item a:visited span.info,
+#maingames #games-noflash ul#grid li.item a:active span.info {
+	color: #000;
+}
+
+#maingames #games-noflash ul#grid li.item a:hover span.info {
+	color: #fff;
+}
+
+
+#maingames #games-noflash ul#grid li.item .info .program-title {
+	text-transform: uppercase;
+	display: block;
+	padding-bottom: 2px;
+}
+
+/* Positions the Parents Topic Navigation above the Flash */
+
+#topicmenu-container {
+	width: 100%;
+	margin: 0 auto;
+	text-align: right;
+	padding: 12px 0 0 0;
+	position: absolute;
+	z-index: 999;
+}
+
+#topicmenu-container form {
+	width: 900px;
+	margin: 0 auto;
+	text-align: right;
+}
+
+/*
+===
+	Index page specific area with h1 and Showbar
+===
+*/
+
+#index-toolbar {
+	width: 800px;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+
+#index-toolbar h1#index-title {
+	float: left;
+	margin: 0;
+	padding: 10px 0 0 0;
+	text-transform: uppercase;
+	color: #fff;
+	width: 220px;
+	font-size: 50px;
+}
+
+#index-toolbar #showbar {
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 580px;
+}
+
+/*
+===
+	Supplemental Area
+===
+*/
+
+#supplemental-area {
+	padding-top: 10px;
+}
+/*
+     FILE ARCHIVED ON 01:06:30 Apr 11, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 04:24:04 Dec 12, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 55.806
+  exclusion.robots: 0.084
+  exclusion.robots.policy: 0.076
+  cdx.remote: 0.07
+  esindex: 0.008
+  LoadShardBlock: 35.064 (3)
+  PetaboxLoader3.datanode: 48.512 (4)
+  load_resource: 106.898
+  PetaboxLoader3.resolve: 76.905
+*/

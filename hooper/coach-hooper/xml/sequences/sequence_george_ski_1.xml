@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<sequence>
+  <exercise id="George_Stomp" speed="1" loops="4" audio="exercise_skier_1a_stomp"/>
+  <exercise id="George_Stomp" speed="1" loops="4" audio="exercise_skier_1b_stomp"/>
+  <exercise id="George_Stomp" speed="1" loops="4" audio="challenge_generic_ugotit"/>
+  <exercise id="George_Stomp" speed="1" loops="1" audio="congrats_Awesome"/>
+</sequence>

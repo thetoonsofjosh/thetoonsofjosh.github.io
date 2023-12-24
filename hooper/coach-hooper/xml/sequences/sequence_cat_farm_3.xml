@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<sequence>
+  <exercise id="Cat_Paint" speed="1" loops="4" audio="exercise_farmer_3a_paint"/>
+  <exercise id="Cat_Paint" speed="1" loops="6" audio="exercise_farmer_3b_paint"/>
+  <exercise id="Cat_Paint" speed="1" loops="4" audio="exercise_keepItUp"/>
+  <exercise id="Cat_Paint" speed="1" loops="2" audio="congrats_wayToGo"/>
+</sequence>
