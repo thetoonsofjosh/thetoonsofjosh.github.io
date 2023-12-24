@@ -1,0 +1,336 @@
+
+<meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+<title>Gallery . Cartoon Studio | PBS KIDS GO!</title>
+<meta name="description" content="Watch cartoons and animations made by kids with characters from all your favorite PBS KIDS GO! shows."/>
+<meta name="keywords" content="kids animations, watch animations, make cartoons, pbs kids cartoons, kids comics"/>
+
+<link rel="stylesheet" href="/go/studio/css/home.css" type="text/css" media="screen" charset="utf-8"/>
+<link type="text/css" media="screen" rel="stylesheet" href="http://pbskids.org/includes/auth/ajax.css"/>
+
+
+<script type="text/javascript" src="/includes/flash/swfobject.js"></script>
+<script type="text/javascript" src="/includes/javascript/sites/pbskids.js"></script>
+<script type="text/javascript" src="/go/studio/js/cartoonstudio.js"></script>
+  
+<link rel="stylesheet" href="/go/studio/css/main.css" type="text/css" media="screen" charset="utf-8"/>
+
+</head>
+<body>
+ 
+  <script type="text/javascript">
+var GA_setvar;
+(function() {
+ var getCookie = function(c_name) {
+     if (document.cookie.length>0) {
+         c_start=document.cookie.indexOf(c_name + "=");
+         if (c_start!=-1) {
+             c_start=c_start + c_name.length+1;
+             c_end=document.cookie.indexOf(";",c_start);
+             if (c_end==-1) c_end=document.cookie.length;
+             return unescape(document.cookie.substring(c_start,c_end));
+         }
+     }
+     return "";
+ };
+
+ var pbskids_wested = getCookie('pbskids.wested');
+
+ if(pbskids_wested){
+     GA_setvar = {pbskids_wested: pbskids_wested};
+ }
+
+ //Determines if user is logged in
+ var pbskids_username = getCookie('pbskids.username');
+ //Determines if account is new
+ var returning = getCookie('pbskids.returning');
+
+ GA_customvar = {};
+
+ var ua_codes = "UA-4005067-1,UA-4005001-1,UA-3964855-1,UA-3994564-1,ET-3994564-2"; 
+ var ua_codes_list = ua_codes.split(',');
+
+ var login_info;
+ //Setup log in info custom variable string
+ if (pbskids_username){
+    login_info = "l=1";
+      if(returning){
+	login_info += "&r=1";
+      }	
+      else{
+        login_info += "&r=0";
+      }
+ }
+ else{
+    login_info = "l=0&r=0";
+ } 
+
+ for (i=0; i <  ua_codes_list.length; i++){
+  var cv_array = [["GO login tracking", login_info, 2]];
+  GA_customvar[ua_codes_list[i]] = cv_array;
+ }
+
+})();
+
+</script>
+<script type="text/javascript" src="pbs-kids-headband/js/headband.js"></script>
+<script type="text/javascript">
+var GA_env = { ua_list: "UA-4005067-1,UA-4005001-1,UA-3964855-1,UA-3994564-1,ET-3994564-2" };
+
+GA_env.vars = { localized: 0 };
+
+var GA_jshost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script src="/js/ga-4db5d466.js" type="text/javascript"></script>
+
+<!-- Begin comScore Tag -->
+<script>
+   document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
+</script>
+ <script>
+  COMSCORE.beacon({
+    c1:2,
+    c2:3005420,
+    c3:"",
+    c4:"/go/studio/gallery/index.html",
+    c5:"",
+    c6:"",
+    c15:""
+  });
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/b?c1=2&amp;c2=3005420&amp;c3=&amp;c4=/go/studio/gallery/index.html&amp;c5=&amp;c6=&amp;c15=&amp;cv=1.3&amp;cj=1" style="display:none" width="0" height="0" alt=""/>
+</noscript>
+<!-- End comScore Tag -->
+
+
+
+  
+  
+
+
+
+<div id="container">  
+  <div id="wrapper">
+  
+    <div id="header">
+      <ul id="menu">
+        <li class="first"><a href="/go/" title="PBS Kids Go!" id="nav_go" class="img_replace">PBS Kids Go!</a></li>
+        <li><a href="/go/studio/" title="Cartoon Studio" id="nav_studio" class="img_replace">Cartoon Studio</a></li>
+        <li><a href="/go/studio/characters/" title="Build a Character" id="nav_character" class="img_replace">Build a Character</a></li>
+        <li><a href="/go/studio/animate/" title="Make a Cartoon" id="nav_make_cartoon" class="img_replace">Make a Cartoon</a></li>
+        <li class="last"><a href="/go/studio/gallery/" title="Watch Cartoons" id="nav_watch_cartoon" class="img_replace active">Watch Cartoons</a></li>
+      </ul>
+      <!--// END menu -->
+    </div>
+    <!--// END header -->
+    
+  <div id="content_wrapper">
+    
+    <div id="top_cartoon">
+      <h2 class="img_replace top_cartoon_makers">THE TOP CARTOON MAKERS</h2>
+      <div id="top_cartoon_content">
+        <div id="top_flash">
+         <img src="/go/studio/images/loading.gif" alt="loading"/>
+        </div>
+        <div id="top_flash_details"> </div>
+      </div>
+    </div>
+    <!--// END top cartoon -->
+    
+    <div id="features_cartoon">
+      <div id="features_cartoon_content">
+        <ul class="cartoons_list">
+        </ul>
+      </div>
+    </div>
+    <!--// END features cartoon -->
+  
+  </div>
+  <!--// END content wrapper -->
+  
+  <div id="login"> 
+    <div id="containerlogin"><a href="/go/apps/auth/prompt/" class="cboxElement"><img src="/go/studio/images/home-login.gif" border="0" alt="Login now!"/></a></div> 
+    
+     <div id="containernav"> 
+     <a href="/tvschedules?campaign=button_tvtimes" class="menuimage"><img src="/go/studio/images/home-button-tvtimes.gif" alt="TV Times" border="0"/></a><a href="/go/allshows?campaign=button_search" class="menuimage"><img src="/go/studio/images/home-button-search.gif" alt="Search" border="0"/></a><a href="/help?campaign=button_help" class="menuimage"><img src="/go/studio/images/home-button-help.gif" alt="Help" border="0"/></a> 
+     </div><!--// END containernav -->
+  </div> <!--// END login -->
+ 
+  <div id="footer"> 
+   
+     <div id="containerstation"> 
+         
+     </div><!--// END containerstation -->
+     
+       <div id="containercpb"> 
+          <div id="cpbheader">Funded by:</div> 
+          <img src="/go/studio/images/logo-cpb.gif" border="0" alt="CPB"> 
+       </div><!--// END containercpb -->
+     
+      <div id="containerdrop"> 
+        <div id="showlist"><form name="tochoice" method="post" action="/perl/redirect"> 
+        <select name="selected"> 
+            <option value="/everything.html">Everything PBS KIDS</option>
+	<option value="/africa/">Africa for Kids</option>
+	<option value="/aaworld/">African American World for Kids</option>
+	<option value="/wayback/">American Experience: WayBack</option>	
+    <option value="/arthur/">Arthur</option>
+    <option value="/barney/">Barney</option>
+	<option value="/berenstainbears/">Berenstain Bears</option>
+    <option value="/lions/">Between the Lions</option>
+	<option value="/bigapplehistory/">Big Apple History</option>
+    <option value="/boohbah/">Boohbah</option>
+	<option value="/caillou/">Caillou</option>
+    <option value="/chuck/">Chuck Vanderchuck</option>
+	<option value="/clifford/">Clifford the Big Red Dog</option>
+	<option value="/curiousgeorge/">Curious George</option>
+	<option value="/cyberchase/">Cyberchase</option>
+	<option value="/democracy/">Democracy Project</option>
+	<option value="/designsquad/">Design Squad</option>
+	<option value="/dinosaurtrain/">Dinosaur Train</option>
+	<option value="/dontbuyit">Don&rsquo;t Buy It</option>
+	<option value="/dragonflytv/">DragonflyTV</option>
+	<option value="/eekoworld/">EekoWorld</option>
+	<option value="/electriccompany/">The Electric Company</option>        
+    <option value="/fetch/">Fetch!</option>
+    <option value="/lunchlab/">Fizzy&rsquo;s Lunch Lab</option>
+	<option value="/frannysfeet/">Franny's Feet</option>
+    <option value="/georgeshrinks/">George Shrinks</option>
+	<option value="/meetthegreens/">The Greens</option>
+	<option value="/historydetectives">History Detectives</option>
+	<option value="/bigbigworld">It&rsquo;s a Big Big World</option>
+	<option value="/itsmylife">It&rsquo;s My Life</option>
+	<option value="/jayjay/">Jay Jay The Jet Plane</option>
+	<option value="/jazz/">Jazz</option>
+	<option value="/kws">Kids World Sports</option>
+	<option value="/krattscreatures/">Kratts&rsquo; Creatures</option>
+	<option value="/lifeboat/">Lifeboat to Mars</option>
+	<option value="/lomax/">Lomax</option>
+	<option value="/noddy/">Make Way for Noddy</option>
+	<option value="/mamamirabelle/">Mama Mirabelle</option>
+	<option value="/martha/">Martha Speaks</option>
+	<option value="/mayaandmiguel/">Maya &amp; Miguel</option>
+    <option value="/noah/">Noah Comprende</option>
+    <option value="/rogers/">Mister Rogers' Neighborhood</option>
+	<option value="/stantonanthony/">Not For Ourselves Alone</option>
+	<option value="/buster/">Postcards from Buster</option>
+	<option value="/sagwa/">Sagwa The Chinese Siamese Cat</option>
+    <option value="/scigirls/">SciGirls</option>
+    <option value="/sesame/">Sesame Street</option>
+	<option value="/sid/">Sid the Science Kid</option>
+	<option value="/superwhy/">Super Why!</option>
+	<option value="/teletubbies/">Teletubbies</option>
+    <option value="/wildkratts">Wild Kratts</option>
+	<option value="/wilsonandditch">Wilson &amp; Ditch Digging America</option>
+	<option value="/wordgirl">WordGirl</option>
+	<option value="http://www.pbs.org/wonders/Kids/kids.htm">Wonders of the African World</option>
+	<option value="/wordworld/">WordWorld</option>
+	<option value="/zoboo/">Zoboomafoo</option>
+    <option value="/zoom/">ZOOM</option>
+	<option value="">
+	<option value="/">PBS KIDS
+	<option value="/go/">PBS KIDS GO!
+ 
+        </select> 
+        <input type="image" src="/go/studio/images/home-button-go.gif" alt="Go" border="0"></td> 
+        </form></div> 
+      </div><!--// END containerdrop --> 
+  </div><!--// END footer -->
+ 
+  <div id="fineprint"><a href="http://pbs.org/parents">PARENTS</a> | <a href="http://pbs.org/teachers">TEACHERS</a> | <a href="http://pbskids.org/privacy/">Privacy Policy</a> | <a href="http://pbskids.org/privacy/termsofuse.html">Terms of Use</a> | <a href="http://pbs.org/">pbs.org</a> &copy; 1995-2008</div>
+  
+  </div>
+  <!--// END wrapper -->
+
+</div>
+ 
+ <!-- SCRIPTS -->
+<script type="text/javascript" src="http://www.google.com/jsapi?key=ABQIAAAA1LPNecY-WqkhOKcfEP82dRQmRTOt2W4c0Rjc7xKhEwEcr9i10RT4o6A3bN2PDZiZDzvkLIyfrRihpg"></script>
+<script type="text/javascript">
+    // Load jQuery from Google AJAX if it is not already loaded
+    if (typeof(jQuery) == 'undefined') { google.load('jquery', '1.4.2'); }
+</script>
+
+<script type="text/javascript" src="/scripts/cookie/jquery.cookie.min.js"></script>
+<!-- SoundManager: used for Voice-Over -->
+<script type="text/javascript" src="/scripts/soundmanager2/script/soundmanager2-nodebug-jsmin.js"></script>
+<!-- Colorbox - Lightbox Plugin -->
+<script type="text/javascript" src="/scripts/colorbox/jquery.colorbox.js"></script>
+<!-- PBS KIDS Auth Scripts -->
+<script type="text/javascript" src="/includes/auth/auth.js"></script>
+<script type="text/javascript">
+
+function gallery_loadXML(data) {
+  $(data).find('resource').each(function(index){
+    if (index == 0) {
+      var pid = $(this).find('id').text();
+      var data = $(this).find('data').text();
+      var url = $(this).find('link').text();
+      var title = $(this).find('title').text();
+      var username = $(this).find('safe_username').text();
+      var html = '<a href="' + url + '" class="title">' + title + '</a>';
+      html += '<p class="author">by ' + username + '</p>';
+      $('#top_flash_details').append(html);
+      
+      var fo = new SWFObject("preview.swf", "flashpage", "341", "246", "9.0");
+      fo.addVariable("id", pid); 
+      fo.addVariable("link", escape(url)); 
+      fo.addVariable("data", data); 
+      $('#top_flash').html(fo.getSWFHTML());
+//       fo.write("top_flash");
+    } else {
+      $('.cartoons_list').append(gallery_composeItem(this, index));
+    }
+    
+  });
+};
+
+/**
+  * Item html creation helper.
+  */
+function gallery_composeItem(data, index) {
+  var pid = $(data).find('id').text();
+  var src = $(data).find('thumbnail_url').text();
+  var title = $(data).find('title').text();
+  var username = $(data).find('safe_username').text();
+  var url = $(data).find('link').text();
+  
+  var html = '';
+  if (index%2 !== 0) {
+    html += '<li class="first">';
+  } else {
+    html += '<li>';
+  }
+  html += '<img src="' + src + '" alt="' + title + '" width="120" \/><a href="' + url + '" class="img_replace play_btn">Play<\/a><a href="' + url + '" class="title">' + title + '<\/a><p class="author">by ' + username + '</p><\/li>';
+  
+  return html;
+};
+
+$(function(){
+  $('a#new_play_btn').hover(function() {
+    $('#top_flash img').css('border', '3px solid #ff9a00');
+  }, function() {
+    $('#top_flash img').css('border', '3px solid #fff');
+  });
+  
+  $('#top_flash img').hover(function() {
+    $('#top_flash img').css('border', '3px solid #ff9a00');
+  }, function() {
+    $('#top_flash img').css('border', '3px solid #fff');
+  });
+  
+  $.ajax({
+    type: "GET",
+    url: PBS.KIDS.base + "/go/apps/cartoons/gallery.xml",
+    dataType: "xml",
+    success:function(response){
+      gallery_loadXML(response);
+    }
+  });
+
+});
+</script>
+
+</body>
+</html>
