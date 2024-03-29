@@ -1,0 +1,246 @@
+/* ################################## */
+/* ############# BRIDGE ############# */
+/* ################################## */
+
+.backToPbsKids {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+		.backToPbsKids,
+		.backToPbsKids a {
+			display: block;
+			width: 245px;
+			height: 43px;
+			overflow: hidden;
+		}
+				.backToPbsKids a {
+					text-indent: -9999px;
+					background: url(bridge_backtopbskids.png) no-repeat;
+				}
+						.backToPbsKids a:hover {
+							background-position: 0 -43px;
+						}
+
+.advanceToDestination {
+	position: absolute;
+	top: 206px;
+	right: 17px;
+}
+		.advanceToDestination,
+		.advanceToDestination a {
+			display: block;
+			width: 223px;
+			height: 63px;
+			overflow: hidden;
+		}
+				.advanceToDestination a {
+					text-indent: -9999px;
+					background: url(bridge_learnmoreatchrysler.png) no-repeat;
+				}
+						.advanceToDestination a:hover {
+							background-position: 0 -63px;
+						}
+
+.closeWindow {
+	position: absolute;
+	top: 5px;
+	right: 6px;
+}
+		.closeWindow,
+		.closeWindow a {
+			display: block;
+			width: 26px;
+			height: 26px;
+			overflow: hidden;
+		}
+				.closeWindow a {
+					text-indent: -9999px;
+					background: url(bridge_closebutton.png) no-repeat;
+				}
+						.closeWindow a:hover {
+							background-position: 0 -26px;
+						}
+
+
+
+/* ########################################### */
+/* ############# PARTNERSHIP TAB ############# */
+/* ########################################### */
+
+body {
+	z-index: 1;
+}
+
+.partnership,
+.partnership span,
+.partnership span a {
+	width: 191px;
+	height: 53px;
+	display: block;
+}
+		.partnership {
+			position: absolute;
+			z-index: 2;
+			top: 0;
+			right: 15px;
+		}
+		.partnership span {
+			background: url(tab-chrysler.png) no-repeat;			
+		}
+		.partnership a {
+			outline: 0;
+			text-indent: -9999px;
+			overflow: hidden;
+		}
+
+
+		* html .partnership span { /* Yes, it's inexcusably and nearly-unjustifiably hacky. */
+			background-image: url(tab-chrysler.gif);
+		}
+
+
+
+/* ############################## */
+/* ############# GO ############# */
+/* ############################## */
+
+.pk-go-landing .partnership {
+	width: 935px;
+	margin: 0px auto;
+	height: 0px;
+	z-index: 2;
+	position: relative;
+	right: 0;
+}
+		.pk-go-landing .partnership span {
+			position: absolute;
+			top: 0;
+			right: 10px;
+		}
+
+
+
+
+/* ############################# */
+/* ######### WEBONAUTS ######### */
+/* ############################# */
+
+.pk-webonauts-landing #header {
+	position: relative;
+	overflow: hidden;
+}
+		.pk-webonauts-landing #header #nav {
+			float: none;
+			width: 279px;
+			height: 32px;
+			position: absolute;
+			top: 0;
+			right: 200px;
+			overflow: hidden;
+		}
+				.pk-webonauts-landing #header #nav a {
+					display: block;
+					width: 279px;
+					height: 32px;
+				}
+						.pk-webonauts-landing #header #nav img {
+							margin: 0 0 0 0;
+						}
+
+
+.pk-webonauts-landing .partnership {
+	width: 950px;
+	margin: 0px auto;
+	height: 0px;
+	z-index: 2;
+	position: relative;
+	right: 0;
+}
+		.pk-webonauts-landing .partnership span {
+			position: absolute;
+			top: 0;
+			right: 0;
+		}
+
+
+
+/* ############################# */
+/* ######### GO! GAMES ######### */
+/* ############################# */
+
+.pk-go-games {
+}
+		.pk-go-games #footer {
+			position: relative;
+		}
+		.pk-go-games .partnership {
+			top: 27px;
+			left: 190px;
+		}
+		.pk-go-games .partnership span {
+			background-image: url(tab-chrysler-footer-gray.png);
+		}
+				.pk-go-games .partnership span a {	
+				}
+						.pk-go-games #footer .partnership span a:hover {
+							background: none;
+						}
+
+
+
+/* ########################## */
+/* ######### HOOPER ######### */
+/* ########################## */
+
+.pk-hooper-landing {
+}
+		.pk-hooper-landing .partnership {
+			position: static;
+			width: 100%;
+			margin-bottom: 20px;
+		}
+		.pk-hooper-landing .partnership span {
+			margin: 0px auto;
+			background-image: url(tab-chrysler-footer-hooper.png);
+		}
+
+
+
+/* ########################## */
+/* ######### ISLAND ######### */
+/* ########################## */
+
+.pk-island-landing,
+.pk-wordquest-landing {
+}
+		.pk-island-landing .partnership,
+		.pk-wordquest-landing .partnership {
+			position: static;
+			height: 120px;
+			width: 940px;
+			margin: 30px auto 0px;
+			border-top: 1px solid #9ee3f5;
+			padding: 25px 0 0;
+		}
+		.pk-wordquest-landing .partnership {
+			border-top-color: #b9c5d1;
+		}
+		.pk-island-landing .partnership span,
+		.pk-wordquest-landing .partnership span {
+			margin: 0px auto;
+			background-image: url(tab-chrysler-island.png);
+		}
+		* html .pk-island-landing .partnership span,
+		* html .pk-wordquest-landing .partnership span {
+			background-image: url(tab-chrysler-generic-rounded.gif);
+		}
+
+
+
+
+
+
+
+
+
