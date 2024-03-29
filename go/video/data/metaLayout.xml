@@ -1,0 +1,63 @@
+<layout>
+<controls>
+<!-- <card id="tpNormalControls"> -->
+<region id="tpBottomRegion" paddingTop="0" paddingBottom="-98" paddingRight="17" paddingLeft="17">
+<row percentWidth="100" height="30" verticalAlign="middle">
+<group width="100%" height="20" verticalAlign="middle">
+<control id="tpScrubber"/>
+<control id="tpRemainingTime"/>
+</group>
+</row>
+<row percentWidth="100" height="68" verticalAlign="middle">
+<group padding="0" height="68" verticalAlign="bottom">
+<control id="tpPrevious" tooltips=""/>
+<spacer width="1"/>
+<control id="tpPlay" tooltips=" , "/>
+<spacer width="2"/>
+<control id="tpNext" tooltips=""/>
+</group>
+<spacer width="100%"/>
+<group padding="0" height="60" verticalAlign="bottom">
+<control id="pbsVolume" tooltips=""/>
+</group>
+<group padding="0" height="60" verticalAlign="bottom">
+<control id="tpFullScreen" tooltips=" "/>
+</group>
+<group padding="0" height="60" verticalAlign="bottom">
+<control id="pbsCC" tooltips=" "/>
+</group>
+</row>
+</region>
+<!-- </card> -->
+<!-- <card id="tpFullScreenControls">
+			<region id="tpBottomFloatRegion" percentWidth="100" paddingBottom="50" horizontalAlign="center">
+				<row percentWidth="70" height="68" verticalAlign="bottom">
+					<group padding="0" height="68" verticalAlign="bottom">
+						<control id="tpPrevious" />
+						<spacer width="1"/>
+						<control id="tpPlay" />
+						<spacer width="2"/>
+						<control id="tpNext" />
+					</group>
+					
+					<group width="100%" height="20" verticalAlign="middle" paddingLeft="20" paddingRight="20">
+						<control id="tpScrubber" />
+						<control id="tpTotalTime" />
+					</group>
+					
+					<group padding="0" height="68" verticalAlign="bottom">
+						<control id="pbsVolume" />
+					</group>
+					
+					<group padding="0" height="68" verticalAlign="bottom">
+						<control id="tpFullScreen"/>
+					</group>
+					
+					<group padding="0" height="68" verticalAlign="bottom">
+						<control id="pbsCC"/>
+					</group>
+				</row>
+			</region>
+		</card> -->
+</controls>
+</layout>
