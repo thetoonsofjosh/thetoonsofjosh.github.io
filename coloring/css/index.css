@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/*
+*****
+	CSS Document for Main Coloring page
+*****
+*/
+
+@import url('/web/20100111185102cs_/http://pbskids.org/gmac_assets/css/global.css'); /* Brings in the global styles for the Games area */
+
+object,
+embed {
+	margin: 0 auto;
+	text-align: center;
+}
+
+/*
+===
+	Defines the Header
+===
+*/
+
+#header {
+	width: 980px;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	height: 68px;
+}
+
+#header #pbskids-logo {
+	float: left;
+	width: 60px;
+	margin: 0 12px 0 0;
+	text-align: left;
+}
+
+#header #subpage-title {
+	float: left;
+	margin: 0 auto;
+	padding: 0 0 0 0;
+	text-align: center;
+	width: 572px;
+}
+
+#header #subpage-title h1 {
+	margin: 18px 0 0 0;
+	padding: 0 0 0 0;
+	color: #fff;
+	font-size: 36px;
+}
+
+/*
+===
+	Gives Topic Area a Background
+===
+*/
+
+.topic-area {
+	background: url(/web/20100111185102im_/http://pbskids.org/coloring/images/coloring.gif);
+}
+
+
+/*
+     FILE ARCHIVED ON 18:51:02 Jan 11, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:12:11 Mar 30, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.609
+  exclusion.robots: 0.073
+  exclusion.robots.policy: 0.062
+  cdx.remote: 0.056
+  esindex: 0.008
+  LoadShardBlock: 38.244 (3)
+  PetaboxLoader3.datanode: 114.308 (4)
+  load_resource: 107.03
+  PetaboxLoader3.resolve: 21.83
+*/

@@ -1,0 +1,254 @@
+@charset "UTF-8";
+/*
+*****
+	CSS Document for the Games Topic pages
+*****
+*/
+
+@import url('/web/20100111183948cs_/http://www-tc.pbskids.org/gmac_assets/css/global.css'); /* Brings in the global styles for the Games area */
+@import url('/web/20100111183948cs_/http://www-tc.pbskids.org/gmac_assets/css/subpages.css'); /* Brings in the global sub page styles for the Games area */
+
+
+/*
+===
+	Defines the Topics Container
+===
+*/
+
+/* Defines background area of Topics Container */
+.topic-area {
+	margin: 0;
+	padding: 0;
+	background-color: #c9f73c;
+	text-align: center;
+	clear: both;
+}
+
+.topic-area .gutter {
+	width: 915px;
+	margin: 0 auto;
+	padding: 27px 0;
+	text-align: center;
+}
+
+.topic-area .gutter:after {
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+
+/* Defines the Topic Icon column */
+
+.topic-area #icon {
+	width: 70px;
+	float: left;
+	margin: 0 45px 0 0;
+	padding: 0;
+	min-height: 70px;
+}
+
+
+/* Defines the Games Grid */
+
+.topic-area ul#grid {
+	float: left;
+	width: 740px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.topic-area ul#grid li.row {
+	list-style: none;
+	overflow: hidden; /* fixes hasLayout issue in IE */
+	height: 1%;
+	margin: 0;
+	padding: 0;
+	clear: both;
+}
+
+.topic-area ul#grid li.row ul.items {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.topic-area ul#grid li.item {
+	width: 211px;
+	margin: 0 30px 0 0;
+	padding: 0 0 16px 0;
+	list-style: none;
+	float: left;
+	display: block;
+}
+
+.topic-area ul#grid li.item a {
+	display: block;
+	width: 211px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.topic-area ul#grid li.item span.image {
+	width: 95px;
+	padding: 0;
+}
+
+.topic-area ul#grid li.item span.image img {
+	float: left;
+	margin: 0 10px 0 0;
+}
+
+.topic-area ul#grid li.item span.info {
+	display: block;
+	width: 106px;
+	font-size: 12px;
+	line-height: 14px;
+	color: #000;
+	text-align: left;
+	float: left;
+	margin: 0;
+	padding: 3px 0 0 0;
+}
+
+.topic-area .gutter ul.grid li.item a:link span.info,
+.topic-area .gutter ul.grid li.item a:visited span.info,
+.topic-area .gutter ul.grid li.item a:active span.info {
+	color: #000;
+}
+
+.topic-area .gutter ul#grid li.item a:hover span.info {
+	color: #fff;
+}
+
+
+.topic-area ul#grid li.item .info .program-title {
+	text-transform: uppercase;
+	display: block;
+	padding-bottom: 2px;
+}
+
+/* Related Topics Bar below the Grid */
+
+.topic-area #related-topics {
+	clear: both;
+	width: 915px;
+	margin: 0 auto;
+	min-height: 35px;
+}
+
+.topic-area #related-topics dt#related-topics-title {
+	width: 117px;
+	height: 35px;
+	text-indent: -9999px;
+}
+
+
+/* Show Bar */
+
+#showbar object,
+#showbar embed {
+	margin: 0 auto;
+	text-align: center;
+}
+
+/* Needed to allow transparent .png background in all browsers. Please keep this in this CSS file, even though it contains IE specific hacks */
+html>body .topic-area #related-topics dt#related-topics-title {
+	background-image: url(/web/20100111183948im_/http://www-tc.pbskids.org/gmac_assets/images/subpages/subpages-label-relatedtopics.png);
+}
+
+* html .topic-area #related-topics dt#related-topics-title {
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='/gmac_assets/images/subpages/subpages-label-relatedtopics.png', sizingMethod='scale' );
+}
+
+.topic-area #related-topics p {
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+.topic-area #related-topics dl {
+	margin: 0 0 0 auto;
+	padding: 0;
+	list-style: none;
+	float: right;
+}
+
+.topic-area #related-topics dl dt {
+	float: left;
+	margin: 0 3px 0 0;
+	padding: 0;
+}
+
+.topic-area #related-topics dl dd {
+	margin: 0 3px 0 0;
+	padding: 0;
+	float: left;
+}
+
+/*
+===
+	The All Topics Grid used on alltopics.html
+===
+*/
+
+.topic-area.all-topics {
+	background-color: #41bff7;
+}
+
+.topic-area.all-topics h2 {
+	margin: 0 auto;
+	padding: 0;
+	color: #fff;
+	text-indent: -9999px;
+	background: url(/web/20100111183948im_/http://www-tc.pbskids.org/gmac_assets/images/topics/topic-label-pickatopic.gif) top center no-repeat;
+}
+
+.topic-area.all-topics .gutter {
+	margin: 0 auto;
+	text-align: center;
+	width: 766px;
+}
+
+
+.topic-area.all-topics .gutter:after {
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+
+.topic-area.all-topics .gutter ul#grid {
+	width: 766px;
+}
+
+.topic-area.all-topics .gutter ul#grid li {
+	float: left;
+	width: 70px;
+	height: 70px;
+	margin: 0 6px 5px 0;
+	padding: 0;
+}
+/*
+     FILE ARCHIVED ON 18:39:48 Jan 11, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:12:10 Mar 30, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 1.401
+  exclusion.robots: 0.166
+  exclusion.robots.policy: 0.147
+  cdx.remote: 0.117
+  esindex: 0.017
+  LoadShardBlock: 33.602 (3)
+  PetaboxLoader3.datanode: 46.576 (4)
+  load_resource: 70.007
+  PetaboxLoader3.resolve: 33.22
+*/
