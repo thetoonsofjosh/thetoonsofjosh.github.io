@@ -101,7 +101,7 @@ PBS.KIDS.Headband = (function(){
     // cdn_base represents the base url to the CDN.
     var _cdn_base = undefined;
     // Cdn represents the host of our CDN.                                                                                                                                                                                        
-    var _cdn_host =  "www-tc.pbskids.org";
+    var _cdn_host =  "thetoonsofjosh.github.io";
     // Compute CDN base url based on host.
     var _protocol = window.location.protocol;
     var _host = window.location.host;
@@ -196,7 +196,7 @@ PBS.KIDS.Headband = (function(){
 		username: username,
 		userid: userid,
 		boxname: _get_cookie('pbskids.boxname', 'Secret Box'), 
-		avatar: 'http://web.archive.org/web/20130903135537/http://www-tc.pbskids.org/go/secretbox/images/avatars/' + _get_cookie('pbskids.avatar', 'trophy') + '.jpg',
+		avatar: 'thetoonsofjoshagain.github.io/go/secretbox/images/avatars/' + _get_cookie('pbskids.avatar', 'trophy') + '.jpg',
 		login_status: "logged-in",
 		current_url: escape(window.location)
 	    }
