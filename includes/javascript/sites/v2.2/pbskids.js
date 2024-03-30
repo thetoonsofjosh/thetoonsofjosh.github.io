@@ -32,7 +32,7 @@ if (typeof(this.PBS.KIDS) === "undefined") {
         
         debug: false,
         
-        _deployment_uri: 'http://pbskids.org',
+        _deployment_uri: 'https://pbskids.org',
         
         // base represents the url to the current host, without site segment.
         base: undefined, // Set at run time.
@@ -111,7 +111,7 @@ if (typeof(this.PBS.KIDS) === "undefined") {
                 { 
                     'name': 'jQuery-1.6.2-noconflict', 
                     'type': 'js', 
-                    'src': 'http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js',
+                    'src': 'https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js',
                     'callback': function () {
                         // relinquish control of jQuery top level symbols.
                         if (this.debug) {
@@ -125,7 +125,7 @@ if (typeof(this.PBS.KIDS) === "undefined") {
                 { 
                     'name': 'jQuery-1.4.2', 
                     'type': 'js', 
-                    'src': 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js',
+                    'src': 'https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js',
                     'callback': function () {
                     }
                 },
@@ -133,7 +133,7 @@ if (typeof(this.PBS.KIDS) === "undefined") {
                 { 
                     'name': 'jQuery-1.4.4', 
                     'type': 'js', 
-                    'src': 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js',
+                    'src': 'https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js',
                     'callback': function () {
                     }
                 },
@@ -186,7 +186,7 @@ if (typeof(this.PBS.KIDS) === "undefined") {
             {
             'name': 'swfobject-2.2',
             'type': 'js',
-            'src': 'http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js',
+            'src': 'https://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js',
             'callback': function(){
             }		
             },
