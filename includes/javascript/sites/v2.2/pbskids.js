@@ -32,7 +32,7 @@ if (typeof(this.PBS.KIDS) === "undefined") {
         
         debug: false,
         
-        _deployment_uri: 'https://pbskids.org',
+        _deployment_uri: 'thetoonsofjosh.github.io',
         
         // base represents the url to the current host, without site segment.
         base: undefined, // Set at run time.
