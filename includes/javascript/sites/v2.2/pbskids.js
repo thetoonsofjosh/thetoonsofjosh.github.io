@@ -38,7 +38,7 @@ if (typeof(this.PBS.KIDS) === "undefined") {
         base: undefined, // Set at run time.
         
         // cdn_host represents the host of our CDN.
-        cdn_host: "www-tc.pbskids.org",
+        cdn_host: "thetoonsofjosh.github.io",
         mobile_host: "m.pbskids.org",
         
         // cdn_base represents the base url to the CDN.
