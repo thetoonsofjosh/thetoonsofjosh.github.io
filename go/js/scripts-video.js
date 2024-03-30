@@ -8,8 +8,8 @@ $(function(){
   var PLAYER_ID           = "player";
   var PLAYER_WIDTH        = "100%";
   var PLAYER_HEIGHT       = "100%";
-  var PLAYER_SWF          = "http://www-tc.pbskids.org/pbsk/video/swf/VideoPlayer.swf";
-  var EXPRESS_INSTALL_SWF = "http://www-tc.pbskids.org/pbsk/video/swf/expressInstall.swf";
+  var PLAYER_SWF          = "/pbsk/video/swf/VideoPlayer.swf";
+  var EXPRESS_INSTALL_SWF = "/pbsk/video/swf/expressInstall.swf";
   var FLASH_VERSION       = "10.1.0";
 
   var player          = $("video#"+PLAYER_ID);
