@@ -5,7 +5,7 @@
     <title>Sully's Delivery Day</title>
     <show>Fizzy's Lunch Lab</show>
     <url>/lunchlab/#/games/delivery-day</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-lunchlab-DeliveryDay.jpg</image>
+    <image>/go/images/programs/medium-lunchlab-DeliveryDay.jpg</image>
     <teaser>Take a ride with Sully</teaser>
     <categories>
       <category>Adventure</category>
@@ -18,7 +18,7 @@
     <title>Face Off</title>
     <show>WordGirl</show>
     <url>/wordgirl/games/misspower/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-wordgirl-faceoff.jpg</image>
+    <image>/go/images/programs/medium-wordgirl-faceoff.jpg</image>
     <teaser>Who will win?</teaser>
     <categories>
       <category>Words</category>
@@ -31,7 +31,7 @@
     <title>My Kitchen</title>
     <show>Fizzy's Lunch Lab</show>
     <url>/lunchlab/#/kitchen</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-lunchlab-kitchen.jpg</image>
+    <image>/go/images/programs/medium-lunchlab-kitchen.jpg</image>
     <teaser>Make your own Lunch Lab kitchen!</teaser>
     <categories>
       <category>Create</category>
@@ -44,7 +44,7 @@
     <title>Build A Bot</title>
     <show>Fizzy's Lunch Lab</show>
     <url>/lunchlab/#/build-a-bot</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-lunchlab-buildabot.jpg</image>
+    <image>/go/images/programs/medium-lunchlab-buildabot.jpg</image>
     <teaser>Build a robot for your kitchen!</teaser>
     <categories>
       <category>Create</category>
@@ -57,7 +57,7 @@
     <title>Spy with Ruff</title>
     <show>FETCH! with Ruff Ruffman</show>
     <url>/fetch/spyhounds/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-fetch-spy.gif</image>
+    <image>/go/images/programs/medium-fetch-spy.gif</image>
     <teaser>Ruff Ruffman needs your help for his latest spy mission!</teaser>
     <categories>
       <category>Science</category>
@@ -72,7 +72,7 @@
     <title>Go Batty!</title>
     <show>Wild Kratts</show>
     <url>/wildkratts/games/going-batty/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-wildkratts-goingBatty.jpg</image>
+    <image>/go/images/programs/medium-wildkratts-goingBatty.jpg</image>
     <teaser>Go Batty!</teaser>
     <categories>
       <category>Science</category>
@@ -86,7 +86,7 @@
     <title>Escape from Greasy World</title>
     <show>Fizzy's Lunch Lab</show>
     <url>/lunchlab/#/games/escape-from-greasy-world</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-lunchlab-escape.jpg</image>
+    <image>/go/images/programs/medium-lunchlab-escape.jpg</image>
     <teaser>Help save Professor Fizzy!</teaser>
     <categories>
       <category>Math</category>
@@ -100,7 +100,7 @@
     <title>Robo Rebuild</title>
     <show>Fizzy's Lunch Lab</show>
     <url>/lunchlab/?level=1#/games/escape-from-greasy-world</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-lunchlab-escapeL1.jpg</image>
+    <image>/go/images/programs/medium-lunchlab-escapeL1.jpg</image>
     <teaser>A robot puzzle!</teaser>
     <categories>
       <category>Math</category>
@@ -116,7 +116,7 @@
     <title>Crane Game</title>
     <show>Fizzy's Lunch Lab</show>
     <url>/lunchlab/?level=5#/games/escape-from-greasy-world</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-lunchlab-escapeL5.jpg</image>
+    <image>/go/images/programs/medium-lunchlab-escapeL5.jpg</image>
     <teaser>Balance the weights to help Avril and Henry escape!</teaser>
     <categories>
       <category>Math</category>
@@ -130,7 +130,7 @@
     <title>Dunk Tank Dilemma</title>
     <show>Fizzy's Lunch Lab</show>
     <url>/lunchlab/?level=4#/games/escape-from-greasy-world</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-lunchlab-escapeL4-orange.jpg</image>
+    <image>/go/images/programs/medium-lunchlab-escapeL4-orange.jpg</image>
     <teaser>Save Corporal Cup from the dunk tank!</teaser>
     <categories>
       <category>Math</category>
@@ -143,7 +143,7 @@
     <title>Freezer Burn Snack Sort</title>
     <show>Fizzy's Lunch Lab</show>
     <url>/lunchlab/?level=2#/games/escape-from-greasy-world</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-lunchlab-escapeL2.jpg</image>
+    <image>/go/images/programs/medium-lunchlab-escapeL2.jpg</image>
     <teaser>Sort the foods to help Professor Fizzy.</teaser>
     <categories>
       <category>Math</category>
@@ -156,7 +156,7 @@
     <title>Freddy's Carnival Count-off</title>
     <show>Fizzy's Lunch Lab</show>
     <url>/lunchlab/#/games/carnival-countoff</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-lunchlab-countoff.jpg</image>
+    <image>/go/images/programs/medium-lunchlab-countoff.jpg</image>
     <teaser>Compete against Fast Food Freddy!</teaser>
     <categories>
       <category>Math</category>
@@ -169,7 +169,7 @@
     <title>Ruff Cut</title>
     <show>FETCH! with Ruff Ruffman</show>
     <url>/fetch/games/hollywood/ruffcut/index.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-fetch-ruffcut.gif</image>
+    <image>/go/images/programs/medium-fetch-ruffcut.gif</image>
     <teaser>Make a movie with Ruff!</teaser>
     <categories>
       <category>Math</category>
@@ -183,7 +183,7 @@
     <title>Escape from Fresh World</title>
     <show>Fizzy's Lunch Lab</show>
     <url>/lunchlab/?level=3#/games/escape-from-greasy-world</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-lunchlab-escapeL3-orange.jpg</image>
+    <image>/go/images/programs/medium-lunchlab-escapeL3-orange.jpg</image>
     <teaser>Test your measuring skills in Freddy's arcade.</teaser>
     <categories>
       <category>Math</category>
@@ -196,7 +196,7 @@
     <title>Lyrical Solarium: Rock</title>
     <show>Chuck Vanderchuck</show>
     <url>/chuck/index2.html#/rock/lyrics/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-chuck-rockLyrics.jpg</image>
+    <image>/go/images/programs/medium-chuck-rockLyrics.jpg</image>
     <teaser>Chuck sings your Salsa tune!</teaser>
     <categories>
       <category>Music</category>
@@ -209,7 +209,7 @@
     <title>Zen: Rock</title>
     <show>Chuck Vanderchuck</show>
     <url>/chuck/index2.html#/rock/compose/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-chuck-rockZen.jpg</image>
+    <image>/go/images/programs/medium-chuck-rockZen.jpg</image>
     <teaser>Tap your feet to the Rock beat!</teaser>
     <categories>
       <category>Matching</category>
@@ -223,7 +223,7 @@
     <title>What Sounds Like What: Rock</title>
     <show>Chuck Vanderchuck</show>
     <url>/chuck/index2.html#/rock/sounds/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-chuck-rockWhatsoundslikewhat.jpg</image>
+    <image>/go/images/programs/medium-chuck-rockWhatsoundslikewhat.jpg</image>
     <teaser>Do you hear that guitar solo?</teaser>
     <categories>
       <category>Music</category>
@@ -236,7 +236,7 @@
     <title>Pretty Princess Magical Rescue</title>
     <show>WordGirl</show>
     <url>/wordgirl/prettyprincess/game/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-wordgirl-rescue.jpg</image>
+    <image>/go/images/programs/medium-wordgirl-rescue.jpg</image>
     <teaser>Join Becky, Violet and TJ in the land of Sparkletopia!</teaser>
     <categories>
       <category>Adventure</category>
@@ -250,7 +250,7 @@
     <title>Dioramo-O-Rama</title>
     <show>SciGirls</show>
     <url>/scigirls/dioramaorama</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-scigirls-dioramaOrama.jpg</image>
+    <image>/go/images/programs/medium-scigirls-dioramaOrama.jpg</image>
     <teaser>Win prizes for your diorama</teaser>
     <categories>
       <category>Create</category>
@@ -265,7 +265,7 @@
     <title>How do You Say...?</title>
     <show>Noah Comprende</show>
     <url>/noah/howdoyousay.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-noah-hdys.jpg</image>
+    <image>/go/images/programs/medium-noah-hdys.jpg</image>
     <teaser>Say it in Spanish!</teaser>
     <categories>
       <category>Matching</category>
@@ -279,7 +279,7 @@
     <title>You Catch It, You Keep it</title>
     <show>Noah Comprende</show>
     <url>/noah/games.html#/youcatchit/furniture_jungleanimals</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-noah-youcatchit.jpg</image>
+    <image>/go/images/programs/medium-noah-youcatchit.jpg</image>
     <teaser>Catch it if you can!</teaser>
     <categories>
       <category>Words</category>
@@ -292,7 +292,7 @@
     <title>Word Race</title>
     <show>Noah Comprende</show>
     <url>/noah/games.html#/wordrace/furniture_jungleanimals</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-noah-wordrace.jpg</image>
+    <image>/go/images/programs/medium-noah-wordrace.jpg</image>
     <teaser>Win the race to get all of the words!</teaser>
     <categories>
       <category>Words</category>
@@ -305,7 +305,7 @@
     <title>Match It</title>
     <show>Noah Comprende</show>
     <url>/noah/games.html#/matchit/furniture</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-noah-matchit.jpg</image>
+    <image>/go/images/programs/medium-noah-matchit.jpg</image>
     <teaser>Make a match with Noah</teaser>
     <categories>
       <category>Matching</category>
@@ -319,7 +319,7 @@
     <title>Prankster Planet</title>
     <show>The Electric Company</show>
     <url>/electriccompany/pranksterplanet/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-electriccompany-pranksterplanet.jpg</image>
+    <image>/go/images/programs/medium-electriccompany-pranksterplanet.jpg</image>
     <teaser>Help Jessica and Marcus save the day!</teaser>
     <categories>
       <category>Math</category>
@@ -334,7 +334,7 @@
     <title>Hectic Harvest</title>
     <show>Fizzy's Lunch Lab</show>
     <url>/lunchlab/games/hectic-harvest</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-lunchlab-hecticharvest.jpg</image>
+    <image>/go/images/programs/medium-lunchlab-hecticharvest.jpg</image>
     <teaser>Help Mixie Bot on Professor Fizzy's Farm!</teaser>
     <categories>
       <category>Create</category>
@@ -348,7 +348,7 @@
     <title>Manny's Word Mangler</title>
     <show>The Electric Company</show>
     <url>/electriccompany/#/games/manny/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-electriccompany-mannyWwm.jpg</image>
+    <image>/go/images/programs/medium-electriccompany-mannyWwm.jpg</image>
     <teaser>Build words in Manny's gadget lab</teaser>
     <categories>
       <category>Create</category>
@@ -362,7 +362,7 @@
     <title>Kickboxing Kangaroo</title>
     <show>Wild Kratts</show>
     <url>/wildkratts/games/kickboxing-kangaroo/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-wilk-kangaroo.jpg</image>
+    <image>/go/images/programs/medium-wilk-kangaroo.jpg</image>
     <teaser>Show off your kangaroo moves!</teaser>
     <categories>
       <category>Science</category>
@@ -375,7 +375,7 @@
     <title>Draco Glide</title>
     <show>Wild Kratts</show>
     <url>/wildkratts/games/draco-glide/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-wilk-draco.jpg</image>
+    <image>/go/images/programs/medium-wilk-draco.jpg</image>
     <teaser>Use your gliding power to fly through hoops!</teaser>
     <categories>
       <category>Science</category>
@@ -388,7 +388,7 @@
     <title>Smoothie Operator</title>
     <show>FETCH! with Ruff Ruffman</show>
     <url>/fetch/games/smoothie/index.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-fetch-smoothie.gif</image>
+    <image>/go/images/programs/medium-fetch-smoothie.gif</image>
     <teaser>How many smoothies can you make?</teaser>
     <categories>
       <category>Math</category>
@@ -401,7 +401,7 @@
     <title>Chuck's Extreme Sandwich Crusher</title>
     <show>WordGirl</show>
     <url>/wordgirl/games/chucksandwich/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-wordgirl-chuckExtreme.jpg</image>
+    <image>/go/images/programs/medium-wordgirl-chuckExtreme.jpg</image>
     <teaser>Crush the disgusting sandwiches!</teaser>
     <categories>
       <category>Words</category>
@@ -414,7 +414,7 @@
     <title>What's the Story</title>
     <show>The Electric Company</show>
     <url>/electriccompany/#/games/whats</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-tec-wts.jpg</image>
+    <image>/go/images/programs/medium-tec-wts.jpg</image>
     <teaser>You make the story!</teaser>
     <categories>
       <category>Adventure</category>
@@ -428,7 +428,7 @@
     <title>Next Electric Company Star</title>
     <show>The Electric Company</show>
     <url>/electriccompany/#/games/tnes</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-tec-tnecs.jpg</image>
+    <image>/go/images/programs/medium-tec-tnecs.jpg</image>
     <teaser>Who will be the next star?</teaser>
     <categories>
       <category>Matching</category>
@@ -441,7 +441,7 @@
     <title>Supermarket Mania</title>
     <show>Fizzy's Lunch Lab</show>
     <url>/lunchlab/games/supermarket-mania</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-lunchlab-supermarket.jpg</image>
+    <image>/go/images/programs/medium-lunchlab-supermarket.jpg</image>
     <teaser>Fill your grocery cart</teaser>
     <categories>
     </categories>
@@ -453,7 +453,7 @@
     <title>Kitchen Tour with Mixie</title>
     <show>Fizzy's Lunch Lab</show>
     <url>/lunchlab/#/games/tour</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-lunchlab-kitchentour.jpg</image>
+    <image>/go/images/programs/medium-lunchlab-kitchentour.jpg</image>
     <teaser>Take a tour of the kitchen with Mixie!</teaser>
     <categories>
     </categories>
@@ -465,7 +465,7 @@
     <title>Corporal Cup's Food Camp</title>
     <show>Fizzy's Lunch Lab</show>
     <url>/lunchlab/games/food-camp</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-lunchlab-foodCamp.jpg</image>
+    <image>/go/images/programs/medium-lunchlab-foodCamp.jpg</image>
     <teaser>Earn your gold star at Corporal Cup's Food Camp!</teaser>
     <categories>
     </categories>
@@ -477,7 +477,7 @@
     <title>Your Wild Kratts Room</title>
     <show>Wild Kratts</show>
     <url>/wildkratts/your-room/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-wilk-character.jpg</image>
+    <image>/go/images/programs/medium-wilk-character.jpg</image>
     <teaser>Dress your Wild Kratts character!</teaser>
     <categories>
       <category>Create</category>
@@ -492,7 +492,7 @@
     <title>Ride on Remora</title>
     <show>Wild Kratts</show>
     <url>/wildkratts/games/ride-on-remora/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-wilk-RideOnRemora.jpg</image>
+    <image>/go/images/programs/medium-wilk-RideOnRemora.jpg</image>
     <teaser>Catch a ride!</teaser>
     <categories>
       <category>Science</category>
@@ -506,7 +506,7 @@
     <title>Caracal Leap</title>
     <show>Wild Kratts</show>
     <url>/wildkratts/games/caracal-leap/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-wilk-CaracalLeap.jpg</image>
+    <image>/go/images/programs/medium-wilk-CaracalLeap.jpg</image>
     <teaser>Jump like a Caracal cat</teaser>
     <categories>
       <category>Science</category>
@@ -520,7 +520,7 @@
     <title>Firefly Flash</title>
     <show>Wild Kratts</show>
     <url>/wildkratts/games/firefly-flash/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-wilk-FireflyFlash.jpg</image>
+    <image>/go/images/programs/medium-wilk-FireflyFlash.jpg</image>
     <teaser>Can you figure out the firefly code?</teaser>
     <categories>
       <category>Math</category>
@@ -536,7 +536,7 @@
     <title>Go Cheetah Go</title>
     <show>Wild Kratts</show>
     <url>/wildkratts/games/go-cheetah-go/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-wilk-GoCheetahGo.jpg</image>
+    <image>/go/images/programs/medium-wilk-GoCheetahGo.jpg</image>
     <teaser>Race your own cheetah</teaser>
     <categories>
       <category>Create</category>
@@ -551,7 +551,7 @@
     <title>Go Nuts</title>
     <show>Wild Kratts</show>
     <url>/wildkratts/games/go-nuts/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-wilk-GoNuts.jpg</image>
+    <image>/go/images/programs/medium-wilk-GoNuts.jpg</image>
     <teaser>Help your squirrel collect nuts</teaser>
     <categories>
       <category>Science</category>
@@ -564,7 +564,7 @@
     <title>Go Go GoBros</title>
     <show>Wilson &amp; Ditch</show>
     <url>/wilsonandditch/games/?game=go-go-bros</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-wilsonandditch-gobros.jpg</image>
+    <image>/go/images/programs/medium-wilsonandditch-gobros.jpg</image>
     <teaser>Hop on a pogo stick or surf across the USA!</teaser>
     <categories>
       <category>Adventure</category>
@@ -577,7 +577,7 @@
     <title>Scavenger Hunt</title>
     <show>PBS KIDS GO!</show>
     <url>/go/video/?pid=QoFfgwhPVkj_Z2KQa7K1W87QQH_dnH0l&amp;category=games</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-wordgirl-scavengerhunt.jpg</image>
+    <image>/go/images/programs/medium-wordgirl-scavengerhunt.jpg</image>
     <teaser>Help Mr. Botsford find the hidden objects</teaser>
     <categories>
     </categories>
@@ -589,7 +589,7 @@
     <title>Comic Creator</title>
     <show>Arthur</show>
     <url>/arthur/games/comiccreator/index.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-arthur-comic.gif</image>
+    <image>/go/images/programs/medium-arthur-comic.gif</image>
     <teaser>Make your own comic with Arthur and friends!</teaser>
     <categories>
       <category>Create</category>
@@ -602,7 +602,7 @@
     <title>Webonauts Internet Academy</title>
     <show>Webonauts</show>
     <url>/webonauts/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-webonauts.jpg</image>
+    <image>/go/images/programs/medium-webonauts.jpg</image>
     <teaser>Start your mission!</teaser>
     <categories>
       <category>Adventure</category>
@@ -616,7 +616,7 @@
     <title>Wheel Houz</title>
     <show>It's My Life</show>
     <url>/itsmylife/games/wheelhouz/index.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-itsmylife-wheelhouz.gif</image>
+    <image>/go/images/programs/medium-itsmylife-wheelhouz.gif</image>
     <teaser>Express yourself and then share with friends!</teaser>
     <categories>
       <category>Create</category>
@@ -629,7 +629,7 @@
     <title>Marthur Stickerbook Mashup</title>
     <show>Arthur</show>
     <url>/arthur/games/marthursticker/index.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-martha-stickerbook.jpg</image>
+    <image>/go/images/programs/medium-martha-stickerbook.jpg</image>
     <teaser>What happens when Martha meets Arthur?</teaser>
     <categories>
       <category>Create</category>
@@ -642,7 +642,7 @@
     <title>Buster Baxter: Lung Defender</title>
     <show>Arthur</show>
     <url>/arthur/games/lungdefender/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-arthur-lung.gif</image>
+    <image>/go/images/programs/medium-arthur-lung.gif</image>
     <teaser>Help Buster catch all of the asthma triggers</teaser>
     <categories>
       <category>Adventure</category>
@@ -656,7 +656,7 @@
     <title>Dog Pound 3</title>
     <show>FETCH! with Ruff Ruffman</show>
     <url>/fetch/games/dogpound_03/index.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-fetch-dogpound3.jpg</image>
+    <image>/go/images/programs/medium-fetch-dogpound3.jpg</image>
     <teaser>Pound the answers, not the dog.</teaser>
     <categories>
       <category>Matching</category>
@@ -671,7 +671,7 @@
     <title>Build-a-Lair</title>
     <show>WordGirl</show>
     <url>/wordgirl/games/buildalair/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-wordgirl-lair.jpg</image>
+    <image>/go/images/programs/medium-wordgirl-lair.jpg</image>
     <teaser>Build a hideout for your favorite character!</teaser>
     <categories>
       <category>Create</category>
@@ -684,7 +684,7 @@
     <title>Tobey's Robot Workshop</title>
     <show>WordGirl</show>
     <url>/wordgirl/games/robotworkshop</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-wordgirl-robot.jpg</image>
+    <image>/go/images/programs/medium-wordgirl-robot.jpg</image>
     <teaser>What talent will your robot have?</teaser>
     <categories>
       <category>Create</category>
@@ -698,7 +698,7 @@
     <title>Road Quest</title>
     <show>Wilson &amp; Ditch</show>
     <url>/wilsonandditch/games/?game=roadquest</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-wilsonandditch-roadquest.jpg</image>
+    <image>/go/images/programs/medium-wilsonandditch-roadquest.jpg</image>
     <teaser>Can you spot the plates for all fifty states?</teaser>
     <categories>
       <category>Matching</category>
@@ -711,7 +711,7 @@
     <title>Picture Yourself Digging America</title>
     <show>Wilson &amp; Ditch</show>
     <url>/wilsonandditch/games/?game=picture-yourself</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-wilsonandditch-picture.jpg</image>
+    <image>/go/images/programs/medium-wilsonandditch-picture.jpg</image>
     <teaser>Picture these gopher brothers in your town!</teaser>
     <categories>
       <category>Adventure</category>
@@ -725,7 +725,7 @@
     <title>The Great Word Quest</title>
     <show>The Great Word Quest</show>
     <url>/wordquest/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-wordquest-mascots.jpg</image>
+    <image>/go/images/programs/medium-wordquest-mascots.jpg</image>
     <teaser>Play quests, compete with teams, and get word gems</teaser>
     <categories>
       <category>Adventure</category>
@@ -739,7 +739,7 @@
     <title>Butcherisms</title>
     <show>PBS KIDS GO!</show>
     <url>/go/video/?pid=iF0UpkONvm5J45L4bUWyGnKQltMqFO8A&amp;category=games</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-wordgirl-butcherisms.jpg</image>
+    <image>/go/images/programs/medium-wordgirl-butcherisms.jpg</image>
     <teaser>Can you catch the Butcherisms?</teaser>
     <categories>
       <category>Words</category>
@@ -752,7 +752,7 @@
     <title>Lifeboat to Mars</title>
     <show>Lifeboat to Mars</show>
     <url>/lifeboat/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-lifeboat.jpg</image>
+    <image>/go/images/programs/medium-lifeboat.jpg</image>
     <teaser>Can you save the lifeboat's mission to Mars?</teaser>
     <categories>
       <category>Adventure</category>
@@ -767,7 +767,7 @@
     <title>Mixie's Boogie Buffet</title>
     <show>Fizzy's Lunch Lab</show>
     <url>/lunchlab/games/boogie-buffet</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-lunchlab-boogieBuffet.jpg</image>
+    <image>/go/images/programs/medium-lunchlab-boogieBuffet.jpg</image>
     <teaser>Get Your Groove On!</teaser>
     <categories>
       <category>Music</category>
@@ -780,7 +780,7 @@
     <title>Sully the Cell's Memory Match</title>
     <show>Fizzy's Lunch Lab</show>
     <url>/lunchlab/games/memory-match</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-lunchlab-match.jpg</image>
+    <image>/go/images/programs/medium-lunchlab-match.jpg</image>
     <teaser>Tour the Human Body with Sully the Cell</teaser>
     <categories>
       <category>Matching</category>
@@ -793,7 +793,7 @@
     <title>Fizzy's Balance Bots</title>
     <show>Fizzy's Lunch Lab</show>
     <url>/lunchlab/#/games/balance-bot</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-fizzy-balancebot.jpg</image>
+    <image>/go/images/programs/medium-fizzy-balancebot.jpg</image>
     <teaser>Can you make these robots dance?</teaser>
     <categories>
     </categories>
@@ -805,7 +805,7 @@
     <title>Freddy's Sneaky Switcheroo</title>
     <show>Fizzy's Lunch Lab</show>
     <url>/lunchlab/games/sneaky-switcheroo</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-lunchlab-switcheroo.jpg</image>
+    <image>/go/images/programs/medium-lunchlab-switcheroo.jpg</image>
     <teaser>Don't Let Freddy's Greasy Treats Slow You Down!</teaser>
     <categories>
     </categories>
@@ -817,7 +817,7 @@
     <title>Disco Fiasco</title>
     <show>FETCH! with Ruff Ruffman</show>
     <url>/fetch/games/disco/index.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-fetch-discofiasco.gif</image>
+    <image>/go/images/programs/medium-fetch-discofiasco.gif</image>
     <teaser>Get Ruff's party started!</teaser>
     <categories>
       <category>Science</category>
@@ -830,7 +830,7 @@
     <title>Video SmashUps</title>
     <show>The Electric Company</show>
     <url>/electriccompany/#/videos/smashups</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-electriccompany-smashups.jpg</image>
+    <image>/go/images/programs/medium-electriccompany-smashups.jpg</image>
     <teaser>Take the video mash up challenge!</teaser>
     <categories>
       <category>Create</category>
@@ -843,7 +843,7 @@
     <title>Light It Right</title>
     <show>The Greens</show>
     <url>/meetthegreens/games/light-it-right.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-greens-lightitright.gif</image>
+    <image>/go/images/programs/medium-greens-lightitright.gif</image>
     <teaser>Quick! Turn out the lights!</teaser>
     <categories>
       <category>Science</category>
@@ -856,7 +856,7 @@
     <title>Thrifty Threads</title>
     <show>The Greens</show>
     <url>/meetthegreens/games/thrifty-threads.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-greens-thriftythreads.gif</image>
+    <image>/go/images/programs/medium-greens-thriftythreads.gif</image>
     <teaser>Turn old clothes into something new</teaser>
     <categories>
       <category>Create</category>
@@ -870,7 +870,7 @@
     <title>Design Squad XChange</title>
     <show>Design Squad</show>
     <url>/designsquad//exchange/index.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-designsquad-dsxchange.jpg</image>
+    <image>/go/images/programs/medium-designsquad-dsxchange.jpg</image>
     <teaser>Make a drawing or a wish about an invention</teaser>
     <categories>
       <category>Create</category>
@@ -884,7 +884,7 @@
     <title>Move it or Luge it!</title>
     <show>FETCH! with Ruff Ruffman</show>
     <url>/fetch/games/luge/index.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-fetch-lugeit.jpg</image>
+    <image>/go/images/programs/medium-fetch-lugeit.jpg</image>
     <teaser>Race downhill to beat Scruff!</teaser>
     <categories>
       <category>Science</category>
@@ -898,7 +898,7 @@
     <title>Star in WordGirl</title>
     <show>PBS KIDS GO!</show>
     <url>/go/video/?pid=IPriTmJmfjCyX6DVzSubD_0QO3IIjC0L&amp;category=games</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-wordgirl-star.jpg</image>
+    <image>/go/images/programs/medium-wordgirl-star.jpg</image>
     <teaser>Create a character to appear in a WordGirl video</teaser>
     <categories>
       <category>Create</category>
@@ -911,7 +911,7 @@
     <title>May I Have a Word?</title>
     <show>PBS KIDS GO!</show>
     <url>/go/video/?pid=9q0_6bxTdvvFmt8R4ygHlMxevVYv555A&amp;category=games</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-wordgirl-mihaw.jpg</image>
+    <image>/go/images/programs/medium-wordgirl-mihaw.jpg</image>
     <teaser>Play the hit game show!</teaser>
     <categories>
       <category>Words</category>
@@ -924,7 +924,7 @@
     <title>Stop the Stormerator!</title>
     <show>Cyberchase</show>
     <url>/cyberchase/games/quest4/quest.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-stormeratorNoNew.jpg</image>
+    <image>/go/images/programs/medium-cyberchase-stormeratorNoNew.jpg</image>
     <teaser>Disable the weatherbots before its too late!</teaser>
     <categories>
       <category>Math</category>
@@ -939,7 +939,7 @@
     <title>Sort It Out</title>
     <show>The Electric Company</show>
     <url>/electriccompany/#/games/sort</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-electriccompany-sort.jpg</image>
+    <image>/go/images/programs/medium-electriccompany-sort.jpg</image>
     <teaser>Show off your sorting skills with Francine</teaser>
     <categories>
       <category>Matching</category>
@@ -953,7 +953,7 @@
     <title>Water We Doing</title>
     <show>FETCH! with Ruff Ruffman</show>
     <url>/fetch/games/water/index.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-fetch-water.gif</image>
+    <image>/go/images/programs/medium-fetch-water.gif</image>
     <teaser>Take Chet's place as Ruff's intern</teaser>
     <categories>
       <category>Science</category>
@@ -966,7 +966,7 @@
     <title>Honey Bee Hunt</title>
     <show>PBS KIDS GO!</show>
     <url>/go/video/?pid=EPrnl5n3VN84vU2Jk2lCst4INTF5cdSc&amp;category=games</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-wordgirl-honeybeehunt.jpg</image>
+    <image>/go/images/programs/medium-wordgirl-honeybeehunt.jpg</image>
     <teaser>See how many honey bees you can find</teaser>
     <categories>
     </categories>
@@ -978,7 +978,7 @@
     <title>Great Escapes</title>
     <show>The Electric Company</show>
     <url>/electriccompany/#/games/escapes/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-electriccompany-escapes.jpg</image>
+    <image>/go/images/programs/medium-electriccompany-escapes.jpg</image>
     <teaser>Will special agent Jack Bowser escape this time?</teaser>
     <categories>
       <category>Adventure</category>
@@ -992,7 +992,7 @@
     <title>PlaySpace</title>
     <show>Cyberchase</show>
     <url>http://example.com%20%20http://pbskids.org/cyberchase/math-games/playspace/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-playspace.jpg</image>
+    <image>/go/images/programs/medium-cyberchase-playspace.jpg</image>
     <teaser>PlaySpace is your place to tell cool stories</teaser>
     <categories>
       <category>Create</category>
@@ -1005,7 +1005,7 @@
     <title>Shock's Beatbox</title>
     <show>The Electric Company</show>
     <url>/electriccompany/games/shocksbeatbox/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-electriccompany-shock.jpg</image>
+    <image>/go/images/programs/medium-electriccompany-shock.jpg</image>
     <teaser>Make music on the beatbox machine</teaser>
     <categories>
       <category>Music</category>
@@ -1018,7 +1018,7 @@
     <title>Word Transformer</title>
     <show>The Electric Company</show>
     <url>/electriccompany/#/games/word</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-electriccompany-word.jpg</image>
+    <image>/go/images/programs/medium-electriccompany-word.jpg</image>
     <teaser>Jam out with Music Man</teaser>
     <categories>
       <category>Music</category>
@@ -1031,7 +1031,7 @@
     <title>Chain Game</title>
     <show>The Electric Company</show>
     <url>/electriccompany/#/games/chain</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-electriccompany-chain.jpg</image>
+    <image>/go/images/programs/medium-electriccompany-chain.jpg</image>
     <teaser>Earn points as you transform words down the chain</teaser>
     <categories>
       <category>Matching</category>
@@ -1045,7 +1045,7 @@
     <title>Combotronic</title>
     <show>The Electric Company</show>
     <url>/electriccompany/#/games/combo</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-electriccompany-combo.jpg</image>
+    <image>/go/images/programs/medium-electriccompany-combo.jpg</image>
     <teaser>How many words can you make?</teaser>
     <categories>
       <category>Words</category>
@@ -1059,7 +1059,7 @@
     <title>CSI: Hat Snatcher</title>
     <show>FETCH! with Ruff Ruffman</show>
     <url>/fetch/games/csi_3/index.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-fetch-csi3.gif</image>
+    <image>/go/images/programs/medium-fetch-csi3.gif</image>
     <teaser>Use sleuthing skills to see who snatched the hat!</teaser>
     <categories>
       <category>Matching</category>
@@ -1074,7 +1074,7 @@
     <title>Lucky Star</title>
     <show>Cyberchase</show>
     <url>/cyberchase/lucky_star/launch.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-luckystar.jpg</image>
+    <image>/go/images/programs/medium-cyberchase-luckystar.jpg</image>
     <teaser>Are you feeling lucky?</teaser>
     <categories>
       <category>Math</category>
@@ -1088,7 +1088,7 @@
     <title>Maze Mania</title>
     <show>WordGirl</show>
     <url>/wordgirl/games/mazemania</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-wordgirl-mazemania.jpg</image>
+    <image>/go/images/programs/medium-wordgirl-mazemania.jpg</image>
     <teaser>Help WordGirl catch The Butcher</teaser>
     <categories>
       <category>Words</category>
@@ -1101,7 +1101,7 @@
     <title>Huggy Dance</title>
     <show>WordGirl</show>
     <url>/wordgirl/games/huggydance</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-wordgirl-huggydance.jpg</image>
+    <image>/go/images/programs/medium-wordgirl-huggydance.jpg</image>
     <teaser>How is Captain Huggy Face feeling today?</teaser>
     <categories>
       <category>Animals</category>
@@ -1115,7 +1115,7 @@
     <title>Fidgit</title>
     <show>Design Squad</show>
     <url>/designsquad/games/fidgit/index.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-designSquad-fidgit.jpg</image>
+    <image>/go/images/programs/medium-designSquad-fidgit.jpg</image>
     <teaser>Build a Fidgit room and share it with friends!</teaser>
     <categories>
       <category>Create</category>
@@ -1129,7 +1129,7 @@
     <title>Groovy Garden</title>
     <show>Arthur</show>
     <url>/arthur/games/groovygarden/index.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-arthur-groovyGarden.gif</image>
+    <image>/go/images/programs/medium-arthur-groovyGarden.gif</image>
     <teaser>Grow your own groovy garden</teaser>
     <categories>
       <category>Create</category>
@@ -1143,7 +1143,7 @@
     <title>Germinator</title>
     <show>FETCH! with Ruff Ruffman</show>
     <url>/fetch/games/germinator/index.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-fetch-germinator.gif</image>
+    <image>/go/images/programs/medium-fetch-germinator.gif</image>
     <teaser>Watch out for the soap!</teaser>
     <categories>
     </categories>
@@ -1155,7 +1155,7 @@
     <title>CSI: Tugboat Thug</title>
     <show>FETCH! with Ruff Ruffman</show>
     <url>/fetch/games/csi_2/index.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-fetch-csi2.gif</image>
+    <image>/go/images/programs/medium-fetch-csi2.gif</image>
     <teaser>Who took Ruff's bathtub tugboat?</teaser>
     <categories>
       <category>Matching</category>
@@ -1170,7 +1170,7 @@
     <title>Paco's Passport</title>
     <show>Maya &amp; Miguel</show>
     <url>/mayaandmiguel/english/games/passport/index.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-mayaandmiguel-passport.gif</image>
+    <image>/go/images/programs/medium-mayaandmiguel-passport.gif</image>
     <teaser>Celebrate Hispanic Heritage with Paco</teaser>
     <categories>
       <category>Puzzles</category>
@@ -1184,7 +1184,7 @@
     <title>U Fix It</title>
     <show>Cyberchase</show>
     <url>/cyberchase/ufixit/launch.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-ufixit.jpg</image>
+    <image>/go/images/programs/medium-cyberchase-ufixit.jpg</image>
     <teaser>Are you a master building fixer upper?</teaser>
     <categories>
       <category>Math</category>
@@ -1199,7 +1199,7 @@
     <title>Fetch! Face-Off</title>
     <show>FETCH! with Ruff Ruffman</show>
     <url>/fetch/games/faceoff/index.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-fetch-faceoff.gif</image>
+    <image>/go/images/programs/medium-fetch-faceoff.gif</image>
     <teaser>Challenge a friend to see who's the biggest fan</teaser>
     <categories>
       <category>Quiz</category>
@@ -1212,7 +1212,7 @@
     <title>ROV</title>
     <show>DragonflyTV</show>
     <url>/dragonflytv/games/game_rov.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-dragonflytv-rov.gif</image>
+    <image>/go/images/programs/medium-dragonflytv-rov.gif</image>
     <teaser>Explore the ocean and discover marine life!</teaser>
     <categories>
       <category>Matching</category>
@@ -1226,7 +1226,7 @@
     <title>Dog Ears 2</title>
     <show>FETCH! with Ruff Ruffman</show>
     <url>/fetch/games/dogears_02/index.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-fetch-dogear2.jpg</image>
+    <image>/go/images/programs/medium-fetch-dogear2.jpg</image>
     <teaser>Crack and pop the audio safe!</teaser>
     <categories>
       <category>Matching</category>
@@ -1241,7 +1241,7 @@
     <title>Dog Pound 2</title>
     <show>FETCH! with Ruff Ruffman</show>
     <url>/fetch/games/dogpound_02/index.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-fetch-dogpound2.jpg</image>
+    <image>/go/images/programs/medium-fetch-dogpound2.jpg</image>
     <teaser>Pound the answers, not the dog!</teaser>
     <categories>
       <category>Math</category>
@@ -1257,7 +1257,7 @@
     <title>Cyberolympics</title>
     <show>Cyberchase</show>
     <url>/cyberchase/cyberolympics/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-cyberolympics.gif</image>
+    <image>/go/images/programs/medium-cyberchase-cyberolympics.gif</image>
     <teaser>Lead Team Motherboard to victory!</teaser>
     <categories>
       <category>Math</category>
@@ -1270,7 +1270,7 @@
     <title>Nanobots</title>
     <show>DragonflyTV</show>
     <url>/dragonflytv/games/game_nano.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-dragonflytv-nano.gif</image>
+    <image>/go/images/programs/medium-dragonflytv-nano.gif</image>
     <teaser>Can your bot master these obstacle courses?</teaser>
     <categories>
       <category>Science</category>
@@ -1284,7 +1284,7 @@
     <title>Geyser Surpriser</title>
     <show>FETCH! with Ruff Ruffman</show>
     <url>/fetch/games/geyser/index.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-fetch-geyser.gif</image>
+    <image>/go/images/programs/medium-fetch-geyser.gif</image>
     <teaser>Cook Ruff's lunch...with geysers!</teaser>
     <categories>
       <category>Math</category>
@@ -1298,7 +1298,7 @@
     <title>CSI: Squeak Sneak</title>
     <show>FETCH! with Ruff Ruffman</show>
     <url>/fetch/games/csi_1/index.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-fetch-csi_1.gif</image>
+    <image>/go/images/programs/medium-fetch-csi_1.gif</image>
     <teaser>Use canine sniffer intelligence to solve the case</teaser>
     <categories>
       <category>Matching</category>
@@ -1313,7 +1313,7 @@
     <title>String Thing</title>
     <show>Design Squad</show>
     <url>/designsquad/games/string_thing/string_thing.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-designsquad-stringthing.gif</image>
+    <image>/go/images/programs/medium-designsquad-stringthing.gif</image>
     <teaser>Can you make music with this?</teaser>
     <categories>
       <category>Music</category>
@@ -1327,7 +1327,7 @@
     <title>Beach City Blues</title>
     <show>It's My Life</show>
     <url>/itsmylife/games/beachcityblues/index.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-itsmylife-beachcityblues.gif</image>
+    <image>/go/images/programs/medium-itsmylife-beachcityblues.gif</image>
     <teaser>Will this vacation end in fun or disaster?</teaser>
     <categories>
     </categories>
@@ -1339,7 +1339,7 @@
     <title>Maya's Card Creator</title>
     <show>Maya &amp; Miguel</show>
     <url>/mayaandmiguel/english/games/cardcreator/index.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-mayaandmiguel-cardcreator.gif</image>
+    <image>/go/images/programs/medium-mayaandmiguel-cardcreator.gif</image>
     <teaser>Make and share a card with Maya</teaser>
     <categories>
     </categories>
@@ -1351,7 +1351,7 @@
     <title>Pants on Fire</title>
     <show>The Greens</show>
     <url>/meetthegreens/episode4/pants-on-fire.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-meetthegreens-pantsonfire.gif</image>
+    <image>/go/images/programs/medium-meetthegreens-pantsonfire.gif</image>
     <teaser>Test your eco-smarts</teaser>
     <categories>
       <category>Science</category>
@@ -1364,7 +1364,7 @@
     <title>Mystery Meat comic</title>
     <show>WordGirl</show>
     <url>http://pbskids.org/wordgirl/games/comicBook/index.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-wordgirl-mysterymeat.gif</image>
+    <image>/go/images/programs/medium-wordgirl-mysterymeat.gif</image>
     <teaser>Will WordGirl defeat The Butcher?</teaser>
     <categories>
     </categories>
@@ -1376,7 +1376,7 @@
     <title>Favorite Word</title>
     <show>WordGirl</show>
     <url>/wordgirl/games/favoriteword</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-wordgirl-favoritewords.gif</image>
+    <image>/go/images/programs/medium-wordgirl-favoritewords.gif</image>
     <teaser>What's YOUR favorite word?</teaser>
     <categories>
       <category>Words</category>
@@ -1389,7 +1389,7 @@
     <title>Movie Maker</title>
     <show>Arthur</show>
     <url>/arthur/games/moviemaker/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-arthur-bustersmoviemaker.gif</image>
+    <image>/go/images/programs/medium-arthur-bustersmoviemaker.gif</image>
     <teaser>Lights, Camera....BUSTER!</teaser>
     <categories>
       <category>Create</category>
@@ -1402,7 +1402,7 @@
     <title>Facts and Opinions</title>
     <show>Arthur</show>
     <url>/arthur/games/factsopinions/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-arthur-factsopinions.gif</image>
+    <image>/go/images/programs/medium-arthur-factsopinions.gif</image>
     <teaser>Get your facts straight!</teaser>
     <categories>
       <category>Quiz</category>
@@ -1415,7 +1415,7 @@
     <title>WHOAHler Coaster</title>
     <show>FETCH! with Ruff Ruffman</show>
     <url>/fetch/games/coaster/index.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-fetch-whoahlercoaster.gif</image>
+    <image>/go/images/programs/medium-fetch-whoahlercoaster.gif</image>
     <teaser>Give Ruff the ride of his life!</teaser>
     <categories>
       <category>Create</category>
@@ -1429,7 +1429,7 @@
     <title>Global Gizmo</title>
     <show>Arthur</show>
     <url>/arthur/games/globalgizmo/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-arthur-globalgizmo.gif</image>
+    <image>/go/images/programs/medium-arthur-globalgizmo.gif</image>
     <teaser>What's that sound?</teaser>
     <categories>
       <category>Matching</category>
@@ -1443,7 +1443,7 @@
     <title>Make a Jersey</title>
     <show>Maya &amp; Miguel</show>
     <url>/mayaandmiguel/english/games/sports/soccer/makeajersey/index.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-mayaandmiguel-makeajersey.gif</image>
+    <image>/go/images/programs/medium-mayaandmiguel-makeajersey.gif</image>
     <teaser>Create your own sports jersey</teaser>
     <categories>
       <category>Create</category>
@@ -1457,7 +1457,7 @@
     <title>Dish It Out</title>
     <show>FETCH! with Ruff Ruffman</show>
     <url>/fetch/games/dishitout/index.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-fetch-dishitout.gif</image>
+    <image>/go/images/programs/medium-fetch-dishitout.gif</image>
     <teaser>Make your own challenge!</teaser>
     <categories>
       <category>Math</category>
@@ -1472,7 +1472,7 @@
     <title>Robot Rover</title>
     <show>FETCH! with Ruff Ruffman</show>
     <url>/fetch/games/rover/index.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-fetch-robotrover.gif</image>
+    <image>/go/images/programs/medium-fetch-robotrover.gif</image>
     <teaser>Build a FETCHing robot dog</teaser>
     <categories>
       <category>Create</category>
@@ -1487,7 +1487,7 @@
     <title>Huggy's Freeze Frame Game</title>
     <show>WordGirl</show>
     <url>/wordgirl/games/freezeframe</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-wordgirl-freezeframegame.gif</image>
+    <image>/go/images/programs/medium-wordgirl-freezeframegame.gif</image>
     <teaser>Freeze! What's the right word?</teaser>
     <categories>
       <category>Words</category>
@@ -1500,7 +1500,7 @@
     <title>Kayak Challenge</title>
     <show>Kids World Sports</show>
     <url>/kws/games/kayakchallenge/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-kws-kayakchallenge.gif</image>
+    <image>/go/images/programs/medium-kws-kayakchallenge.gif</image>
     <teaser>See how fast you can paddle through the flags</teaser>
     <categories>
       <category>Sports</category>
@@ -1513,7 +1513,7 @@
     <title>Trading Cards</title>
     <show>Kids World Sports</show>
     <url>/kws/games/tradingcards/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-kws-tradingcards.gif</image>
+    <image>/go/images/programs/medium-kws-tradingcards.gif</image>
     <teaser>Create a trading card and email it to a friend</teaser>
     <categories>
       <category>Create</category>
@@ -1526,7 +1526,7 @@
     <title>Be Your Own Boss</title>
     <show>It's My Life</show>
     <url>/itsmylife/games/boss/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-itsmylife-boss.gif</image>
+    <image>/go/images/programs/medium-itsmylife-boss.gif</image>
     <teaser>Can you manage your own business?</teaser>
     <categories>
     </categories>
@@ -1538,7 +1538,7 @@
     <title>Inventors' Workshop</title>
     <show>Cyberchase</show>
     <url>/cyberchase/inventions/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-inventions.gif</image>
+    <image>/go/images/programs/medium-cyberchase-inventions.gif</image>
     <teaser>Create cool inventions and solve crazy courses!</teaser>
     <categories>
       <category>Create</category>
@@ -1553,7 +1553,7 @@
     <title>Dog Ears</title>
     <show>FETCH! with Ruff Ruffman</show>
     <url>/fetch/games/dogears/index.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-fetch-dogears.gif</image>
+    <image>/go/images/programs/medium-fetch-dogears.gif</image>
     <teaser>Crack and pop the audio safe</teaser>
     <categories>
       <category>Matching</category>
@@ -1568,7 +1568,7 @@
     <title>Dog Pound</title>
     <show>FETCH! with Ruff Ruffman</show>
     <url>/fetch/games/dogpound/index.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-fetch-dogpound.gif</image>
+    <image>/go/images/programs/medium-fetch-dogpound.gif</image>
     <teaser>Pound the answers, not the dog.</teaser>
     <categories>
       <category>Matching</category>
@@ -1583,7 +1583,7 @@
     <title>Link-o-Vision</title>
     <show>FETCH! with Ruff Ruffman</show>
     <url>/fetch/games/linkovision/index.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-fetch-linkovision.gif</image>
+    <image>/go/images/programs/medium-fetch-linkovision.gif</image>
     <teaser>Make links and earn bones</teaser>
     <categories>
       <category>Matching</category>
@@ -1598,7 +1598,7 @@
     <title>The Quest: Eco-Haven Emergency</title>
     <show>Cyberchase</show>
     <url>/cyberchase/quest3/launch.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-quest3.gif</image>
+    <image>/go/images/programs/medium-cyberchase-quest3.gif</image>
     <teaser>Stop Hacker before he ruins Eco-Haven!</teaser>
     <categories>
       <category>Math</category>
@@ -1613,7 +1613,7 @@
     <title>Send in the Trolls</title>
     <show>Cyberchase</show>
     <url>/cyberchase/games/dataclusters/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-sendinthetrolls.gif</image>
+    <image>/go/images/programs/medium-cyberchase-sendinthetrolls.gif</image>
     <teaser>Which troll will win the Cyber beauty pageant?</teaser>
     <categories>
       <category>Math</category>
@@ -1626,7 +1626,7 @@
     <title>Muffy's Wardrobe</title>
     <show>Arthur</show>
     <url>/arthur/games/wardrobe/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-arthur-wardrobe.gif</image>
+    <image>/go/images/programs/medium-arthur-wardrobe.gif</image>
     <teaser>Find the perfect outfit in Muffy's Wardrobe</teaser>
     <categories>
       <category>Dress Up</category>
@@ -1639,7 +1639,7 @@
     <title>Alien: Assembly Required</title>
     <show>Arthur</show>
     <url>/arthur/games/alien/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-arthur-alien.gif</image>
+    <image>/go/images/programs/medium-arthur-alien.gif</image>
     <teaser>Create the alien of your (&amp; Buster's) dreams.</teaser>
     <categories>
       <category>Create</category>
@@ -1653,7 +1653,7 @@
     <title>3 Puck Chuck</title>
     <show>ZOOM</show>
     <url>/zoom/games/3puckchuck/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-3puck-chuck.jpg</image>
+    <image>/go/images/programs/medium-3puck-chuck.jpg</image>
     <teaser>Chuck a puck and test your luck</teaser>
     <categories>
       <category>Science</category>
@@ -1666,7 +1666,7 @@
     <title>Goldburger to Go</title>
     <show>ZOOM</show>
     <url>/zoom/games/goldburgertogo/index.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-zoom-goldburger.gif</image>
+    <image>/go/images/programs/medium-zoom-goldburger.gif</image>
     <teaser>Perfect the invention to deliver lunch</teaser>
     <categories>
       <category>Science</category>
@@ -1680,7 +1680,7 @@
     <title>ZOOMer Flip</title>
     <show>ZOOM</show>
     <url>/zoom/games/flip/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-zoom-zoomerflip.jpg</image>
+    <image>/go/images/programs/medium-zoom-zoomerflip.jpg</image>
     <teaser>Concentrate and flip some ZOOMers</teaser>
     <categories>
       <category>Matching</category>
@@ -1693,7 +1693,7 @@
     <title>Power Words</title>
     <show>WordGirl</show>
     <url>/wordgirl/games/powerwords</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-wordgirl-powerwords.gif</image>
+    <image>/go/images/programs/medium-wordgirl-powerwords.gif</image>
     <teaser>Now with new games! Help WordGirl save the day</teaser>
     <categories>
       <category>Words</category>
@@ -1706,7 +1706,7 @@
     <title>Comic Strip Capers</title>
     <show>WordGirl</show>
     <url>/wordgirl/games/comicstripcapers</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-wordgirl-comicstripcapers.gif</image>
+    <image>/go/images/programs/medium-wordgirl-comicstripcapers.gif</image>
     <teaser>Make your own comic adventure</teaser>
     <categories>
       <category>Words</category>
@@ -1719,7 +1719,7 @@
     <title>Build-A-Flag</title>
     <show>Postcards from Buster</show>
     <url>/buster/games/flag/index.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-buster-flag.gif</image>
+    <image>/go/images/programs/medium-buster-flag.gif</image>
     <teaser>Create your own flag with Buster</teaser>
     <categories>
       <category>Create</category>
@@ -1732,7 +1732,7 @@
     <title>Coast to Coast</title>
     <show>Postcards from Buster</show>
     <url>/buster/games/coasttocoast/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-buster-coasttocoast.gif</image>
+    <image>/go/images/programs/medium-buster-coasttocoast.gif</image>
     <teaser>Test your state smarts and get across the country</teaser>
     <categories>
       <category>Quiz</category>
@@ -1745,7 +1745,7 @@
     <title>Connect the States</title>
     <show>Postcards from Buster</show>
     <url>/buster/games/connectthestates/index.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-buster-connectthestates.gif</image>
+    <image>/go/images/programs/medium-buster-connectthestates.gif</image>
     <teaser>Beat Buster in this state-matching game!</teaser>
     <categories>
       <category>Matching</category>
@@ -1758,7 +1758,7 @@
     <title>Dream On</title>
     <show>Postcards from Buster</show>
     <url>/buster/games/dreamon/index.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-buster-dreamon.gif</image>
+    <image>/go/images/programs/medium-buster-dreamon.gif</image>
     <teaser>Collect ingredients to make dreamy dishes</teaser>
     <categories>
     </categories>
@@ -1770,7 +1770,7 @@
     <title>Where's Buster?</title>
     <show>Postcards from Buster</show>
     <url>/buster/games/wheresbuster/index.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-buster-wheresbuster.gif</image>
+    <image>/go/images/programs/medium-buster-wheresbuster.gif</image>
     <teaser>Where's Buster? Follow the clues to find out</teaser>
     <categories>
       <category>Puzzles</category>
@@ -1784,7 +1784,7 @@
     <title>Miguel &amp; Andy's World of Sports</title>
     <show>Maya &amp; Miguel</show>
     <url>/mayaandmiguel/english/games/sports/index.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-mayaandmiguel-worldofsports.gif</image>
+    <image>/go/images/programs/medium-mayaandmiguel-worldofsports.gif</image>
     <teaser>Pick up your paddle and play!</teaser>
     <categories>
       <category>Sports</category>
@@ -1797,7 +1797,7 @@
     <title>Miguel's Sketchpad</title>
     <show>Maya &amp; Miguel</show>
     <url>/mayaandmiguel/english/games/sketch/index.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-mayaandmiguel-sketch.gif</image>
+    <image>/go/images/programs/medium-mayaandmiguel-sketch.gif</image>
     <teaser>Help Miguel make a comic strip for Tito</teaser>
     <categories>
       <category>Create</category>
@@ -1810,7 +1810,7 @@
     <title>Pet Shop Match-Up</title>
     <show>Maya &amp; Miguel</show>
     <url>/mayaandmiguel/english/games/petshopmatchup/index.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-mayaandmiguel-petshopmatchup.gif</image>
+    <image>/go/images/programs/medium-mayaandmiguel-petshopmatchup.gif</image>
     <teaser>How many matches can you make?</teaser>
     <categories>
       <category>Matching</category>
@@ -1824,7 +1824,7 @@
     <title>Adventure Scrapbook</title>
     <show>Maya &amp; Miguel</show>
     <url>/mayaandmiguel/english/games/scrapbook/index.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-mayaandmiguel-scrapbook.gif</image>
+    <image>/go/images/programs/medium-mayaandmiguel-scrapbook.gif</image>
     <teaser>Grab your camera for an adventure with Maya</teaser>
     <categories>
       <category>Create</category>
@@ -1838,7 +1838,7 @@
     <title>Cooking with Abuela</title>
     <show>Maya &amp; Miguel</show>
     <url>/mayaandmiguel/english/games/cooking/index.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-mayaandmiguel-cookingwithabuela.gif</image>
+    <image>/go/images/programs/medium-mayaandmiguel-cookingwithabuela.gif</image>
     <teaser>Help Abuela find all the ingredients</teaser>
     <categories>
       <category>Math</category>
@@ -1851,7 +1851,7 @@
     <title>Global Groovin'</title>
     <show>Maya &amp; Miguel</show>
     <url>/mayaandmiguel/english/games/globalgroovin/game.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-mayaandmiguel-globalgroovin.gif</image>
+    <image>/go/images/programs/medium-mayaandmiguel-globalgroovin.gif</image>
     <teaser>Groove with gongs, bagpipes and world beats</teaser>
     <categories>
       <category>Music</category>
@@ -1864,7 +1864,7 @@
     <title>Snowboard Savage</title>
     <show>Kids World Sports</show>
     <url>/kws/games/snowboardsavage/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-kws-snowboardsavage.gif</image>
+    <image>/go/images/programs/medium-kws-snowboardsavage.gif</image>
     <teaser>Try and get big air and land a Frontside 360</teaser>
     <categories>
       <category>Sports</category>
@@ -1877,7 +1877,7 @@
     <title>Mad Money</title>
     <show>It's My Life</show>
     <url>/itsmylife/games/mad_money.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-itsmylife-madmoney.gif</image>
+    <image>/go/images/programs/medium-itsmylife-madmoney.gif</image>
     <teaser>Can you make your money stretch?</teaser>
     <categories>
       <category>Math</category>
@@ -1890,7 +1890,7 @@
     <title>Make Up or Break Up</title>
     <show>It's My Life</show>
     <url>/itsmylife/games/ff_stories.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-itsmylife-makeup.gif</image>
+    <image>/go/images/programs/medium-itsmylife-makeup.gif</image>
     <teaser>You call the shots in the battle of best friends</teaser>
     <categories>
     </categories>
@@ -1902,7 +1902,7 @@
     <title>Mortifying Monday</title>
     <show>It's My Life</show>
     <url>/itsmylife/games/mortifying/index.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-itsmylife-mortifying.gif</image>
+    <image>/go/images/programs/medium-itsmylife-mortifying.gif</image>
     <teaser>Choose your own way to escape Mortifying Monday</teaser>
     <categories>
     </categories>
@@ -1914,7 +1914,7 @@
     <title>Rumor Control</title>
     <show>It's My Life</show>
     <url>/itsmylife/games/rumorcontrol.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-itsmylife-rumorctrl.gif</image>
+    <image>/go/images/programs/medium-itsmylife-rumorctrl.gif</image>
     <teaser>Put a stop to school rumors</teaser>
     <categories>
     </categories>
@@ -1926,7 +1926,7 @@
     <title>School Daze, Crazy Maze</title>
     <show>It's My Life</show>
     <url>/itsmylife/games/middleschool_flash.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-itsmylife-middleschool.gif</image>
+    <image>/go/images/programs/medium-itsmylife-middleschool.gif</image>
     <teaser>Can you survive a day in this crazy middle school?</teaser>
     <categories>
       <category>Math</category>
@@ -1939,7 +1939,7 @@
     <title>Story Strips</title>
     <show>It's My Life</show>
     <url>/itsmylife/games/story_strips_flash.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-itsmylife-storystrips.gif</image>
+    <image>/go/images/programs/medium-itsmylife-storystrips.gif</image>
     <teaser>Make your own comic strip and send it to a friend</teaser>
     <categories>
       <category>Create</category>
@@ -1952,7 +1952,7 @@
     <title>Tough Crush Canyon</title>
     <show>It's My Life</show>
     <url>/itsmylife/games/tough_crush_canyon.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-itsmylife-toughcrushcanyon.gif</image>
+    <image>/go/images/programs/medium-itsmylife-toughcrushcanyon.gif</image>
     <teaser>You and your crush are at the same camp. Now what?</teaser>
     <categories>
     </categories>
@@ -1964,7 +1964,7 @@
     <title>You're in Charge</title>
     <show>It's My Life</show>
     <url>/itsmylife/games/in_charge_flash.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-itsmylife-incharge.gif</image>
+    <image>/go/images/programs/medium-itsmylife-incharge.gif</image>
     <teaser>You're in charge until mom gets home</teaser>
     <categories>
     </categories>
@@ -1976,7 +1976,7 @@
     <title>Beat the Bully</title>
     <show>It's My Life</show>
     <url>/itsmylife/games/bullies_flash.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-itsmylife-bully.gif</image>
+    <image>/go/images/programs/medium-itsmylife-bully.gif</image>
     <teaser>Beat the Bully in a race of smarts and speed</teaser>
     <categories>
     </categories>
@@ -1988,7 +1988,7 @@
     <title>The Great Balloon Race</title>
     <show>DragonflyTV</show>
     <url>/dragonflytv/games/flashsniffer_balloon.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-dragonflytv-balloonrace.gif</image>
+    <image>/go/images/programs/medium-dragonflytv-balloonrace.gif</image>
     <teaser>How quickly can you finish the Great Balloon Race?</teaser>
     <categories>
       <category>Science</category>
@@ -2001,7 +2001,7 @@
     <title>Weebit World</title>
     <show>DragonflyTV</show>
     <url>/dragonflytv/games/flashsniffer_balance.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-dragonflytv-weebitworld.gif</image>
+    <image>/go/images/programs/medium-dragonflytv-weebitworld.gif</image>
     <teaser>Weebits depend on you to take good care of them</teaser>
     <categories>
       <category>Science</category>
@@ -2014,7 +2014,7 @@
     <title>EekoCreature</title>
     <show>EekoWorld</show>
     <url>/eekoworld//index.html?load=eekocreature</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-eekoworld-creature.gif</image>
+    <image>/go/images/programs/medium-eekoworld-creature.gif</image>
     <teaser>New creature builder! What will your creature say?</teaser>
     <categories>
       <category>Create</category>
@@ -2029,7 +2029,7 @@
     <title>EekoHouse</title>
     <show>EekoWorld</show>
     <url>/eekoworld//index.html?load=eekohouse</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-eekoworld-house.gif</image>
+    <image>/go/images/programs/medium-eekoworld-house.gif</image>
     <teaser>Earn points and raise the world health</teaser>
     <categories>
       <category>Science</category>
@@ -2042,7 +2042,7 @@
     <title>Dog Breeding</title>
     <show>DragonflyTV</show>
     <url>/dragonflytv/games/flashsniffer_dogbreeding.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-dragonflytv-dogbreeding.gif</image>
+    <image>/go/images/programs/medium-dragonflytv-dogbreeding.gif</image>
     <teaser>It's all in the genes</teaser>
     <categories>
       <category>Matching</category>
@@ -2057,7 +2057,7 @@
     <title>DragonflyTV Cup</title>
     <show>DragonflyTV</show>
     <url>/dragonflytv/games/flashsniffer_sailing.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-dragonflytv-dragonflycup.gif</image>
+    <image>/go/images/programs/medium-dragonflytv-dragonflycup.gif</image>
     <teaser>Trim the sails. The race is on!</teaser>
     <categories>
       <category>Science</category>
@@ -2071,7 +2071,7 @@
     <title>Mechanical Madness</title>
     <show>DragonflyTV</show>
     <url>/dragonflytv/games/flashsniffer_mechanical.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-dragonflytv-mechmadness.gif</image>
+    <image>/go/images/programs/medium-dragonflytv-mechmadness.gif</image>
     <teaser>Piece together machines to get the ball rolling</teaser>
     <categories>
       <category>Create</category>
@@ -2086,7 +2086,7 @@
     <title>Planetary Rescue Squad</title>
     <show>DragonflyTV</show>
     <url>/dragonflytv/games/flashsniffer_planetary.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-dragonflytv-planetary.gif</image>
+    <image>/go/images/programs/medium-dragonflytv-planetary.gif</image>
     <teaser>Join the Planetary Rescue Squad</teaser>
     <categories>
       <category>Math</category>
@@ -2100,7 +2100,7 @@
     <title>So Many Parts</title>
     <show>DragonflyTV</show>
     <url>/dragonflytv/games/flashsniffer_space_station.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-dragonflytv-somanyparts.gif</image>
+    <image>/go/images/programs/medium-dragonflytv-somanyparts.gif</image>
     <teaser>Fix the space station parts before it's doomed</teaser>
     <categories>
       <category>Science</category>
@@ -2114,7 +2114,7 @@
     <title>Virus Hunt</title>
     <show>Cyberchase</show>
     <url>/cyberchase/games/navigation/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-virushunt.gif</image>
+    <image>/go/images/programs/medium-cyberchase-virushunt.gif</image>
     <teaser>Quick navigating will save Pleasant Island</teaser>
     <categories>
       <category>Math</category>
@@ -2128,7 +2128,7 @@
     <title>Vortex!</title>
     <show>Cyberchase</show>
     <url>/cyberchase/games/timelapse/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-vortex.gif</image>
+    <image>/go/images/programs/medium-cyberchase-vortex.gif</image>
     <teaser>Can you keep the pace with the spinning Vortex?</teaser>
     <categories>
       <category>Math</category>
@@ -2142,7 +2142,7 @@
     <title>Pour to Score</title>
     <show>Cyberchase</show>
     <url>/cyberchase/games/hardproblems/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-pourtoscore.gif</image>
+    <image>/go/images/programs/medium-cyberchase-pourtoscore.gif</image>
     <teaser>No splashing around with this tough liquid puzzle!</teaser>
     <categories>
       <category>Math</category>
@@ -2156,7 +2156,7 @@
     <title>Railroad Repair</title>
     <show>Cyberchase</show>
     <url>/cyberchase/games/decimals/index.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-railroad.gif</image>
+    <image>/go/images/programs/medium-cyberchase-railroad.gif</image>
     <teaser>Fix the tracks before the Cybertrain comes through!</teaser>
     <categories>
       <category>Math</category>
@@ -2170,7 +2170,7 @@
     <title>Sleuths on the Loose</title>
     <show>Cyberchase</show>
     <url>/cyberchase/games/bodymath/index.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-sleuthsLoose.jpg</image>
+    <image>/go/images/programs/medium-cyberchase-sleuthsLoose.jpg</image>
     <teaser>Are you up for measuring monsters?</teaser>
     <categories>
       <category>Math</category>
@@ -2184,7 +2184,7 @@
     <title>Star Gazing</title>
     <show>Cyberchase</show>
     <url>/cyberchase/games/anglemeasurement/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-stargazing.gif</image>
+    <image>/go/images/programs/medium-cyberchase-stargazing.gif</image>
     <teaser>A new angle on space exploration</teaser>
     <categories>
       <category>Math</category>
@@ -2199,7 +2199,7 @@
     <title>Stop that Creature</title>
     <show>Cyberchase</show>
     <url>/cyberchase/games/functions/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-stopcreatures.gif</image>
+    <image>/go/images/programs/medium-cyberchase-stopcreatures.gif</image>
     <teaser>Find the patterns that protect the power station</teaser>
     <categories>
       <category>Math</category>
@@ -2213,7 +2213,7 @@
     <title>Symmetrizer</title>
     <show>Cyberchase</show>
     <url>/cyberchase/games/symmetry/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-symmetrize.gif</image>
+    <image>/go/images/programs/medium-cyberchase-symmetrize.gif</image>
     <teaser>A kaleidoscope of cyber-fun!</teaser>
     <categories>
       <category>Math</category>
@@ -2226,7 +2226,7 @@
     <title>Pattern Player</title>
     <show>Cyberchase</show>
     <url>/cyberchase/games/patterns/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-patternplayer.gif</image>
+    <image>/go/images/programs/medium-cyberchase-patternplayer.gif</image>
     <teaser>Rock out with the Pattern Player!</teaser>
     <categories>
       <category>Math</category>
@@ -2241,7 +2241,7 @@
     <title>Pattern Quest</title>
     <show>Cyberchase</show>
     <url>/cyberchase/games/data/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-patternquest.gif</image>
+    <image>/go/images/programs/medium-cyberchase-patternquest.gif</image>
     <teaser>Use clues to find the secret patterns</teaser>
     <categories>
       <category>Math</category>
@@ -2255,7 +2255,7 @@
     <title>Poddle Weigh-In</title>
     <show>Cyberchase</show>
     <url>/cyberchase/games/algebra/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-poddle.gif</image>
+    <image>/go/images/programs/medium-cyberchase-poddle.gif</image>
     <teaser>Quick thinking will replace the poddles' numbers</teaser>
     <categories>
       <category>Math</category>
@@ -2268,7 +2268,7 @@
     <title>Point Out the View</title>
     <show>Cyberchase</show>
     <url>/cyberchase/games/pointofview/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-pointofview.gif</image>
+    <image>/go/images/programs/medium-cyberchase-pointofview.gif</image>
     <teaser>See things from a different point of view</teaser>
     <categories>
       <category>Math</category>
@@ -2282,7 +2282,7 @@
     <title>Cyberchase Squares</title>
     <show>Cyberchase</show>
     <url>/cyberchase/games/counterexamples/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-squares.gif</image>
+    <image>/go/images/programs/medium-cyberchase-squares.gif</image>
     <teaser>Play the weirdest game show in Cyberspace</teaser>
     <categories>
       <category>Matching</category>
@@ -2298,7 +2298,7 @@
     <title>Cyberspaceship Builder</title>
     <show>Cyberchase</show>
     <url>/cyberchase/games/perimeterarea/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-spaceship.gif</image>
+    <image>/go/images/programs/medium-cyberchase-spaceship.gif</image>
     <teaser>Help Dr. Marbles build a fleet of spaceships!</teaser>
     <categories>
       <category>Math</category>
@@ -2313,7 +2313,7 @@
     <title>Cybersquad and the Eye of Rom</title>
     <show>Cyberchase</show>
     <url>/cyberchase/games/inverseoperations/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-eyeofrom.gif</image>
+    <image>/go/images/programs/medium-cyberchase-eyeofrom.gif</image>
     <teaser>Build the mysterious Eye of Rom!</teaser>
     <categories>
       <category>Math</category>
@@ -2328,7 +2328,7 @@
     <title>Disguise Combos</title>
     <show>Cyberchase</show>
     <url>/cyberchase/games/combinations/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-disguise.gif</image>
+    <image>/go/images/programs/medium-cyberchase-disguise.gif</image>
     <teaser>How many ways can you disguise the CyberSquad?</teaser>
     <categories>
       <category>Math</category>
@@ -2343,7 +2343,7 @@
     <title>Logic Zoo</title>
     <show>Cyberchase</show>
     <url>/cyberchase/games/logic/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-logic.gif</image>
+    <image>/go/images/programs/medium-cyberchase-logic.gif</image>
     <teaser>Hacker let the Logic Zoo animals escape!</teaser>
     <categories>
       <category>Math</category>
@@ -2358,7 +2358,7 @@
     <title>Lost in the Northern Frontier</title>
     <show>Cyberchase</show>
     <url>/cyberchase/games/circles/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-wheresdigit.gif</image>
+    <image>/go/images/programs/medium-cyberchase-wheresdigit.gif</image>
     <teaser>Save Digit using the power of circles!</teaser>
     <categories>
       <category>Math</category>
@@ -2371,7 +2371,7 @@
     <title>Maze &amp; Marbles</title>
     <show>Cyberchase</show>
     <url>/cyberchase/games/timekeeping/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-mazemarble.gif</image>
+    <image>/go/images/programs/medium-cyberchase-mazemarble.gif</image>
     <teaser>Will you be fast enough to keep the clock running?</teaser>
     <categories>
       <category>Math</category>
@@ -2384,7 +2384,7 @@
     <title>Melvin's Make a Match</title>
     <show>Cyberchase</show>
     <url>/cyberchase/games/equivalentfractions/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-makeamatch.gif</image>
+    <image>/go/images/programs/medium-cyberchase-makeamatch.gif</image>
     <teaser>Help Melvin get his potions back together</teaser>
     <categories>
       <category>Math</category>
@@ -2398,7 +2398,7 @@
     <title>Mission: Magnetite</title>
     <show>Cyberchase</show>
     <url>/cyberchase/games/percent/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-magnetite.gif</image>
+    <image>/go/images/programs/medium-cyberchase-magnetite.gif</image>
     <teaser>Stop Hacker's rocket!</teaser>
     <categories>
       <category>Math</category>
@@ -2412,7 +2412,7 @@
     <title>Bike Route</title>
     <show>Cyberchase</show>
     <url>/cyberchase/webisode_3/web_game3.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-bikeroute.gif</image>
+    <image>/go/images/programs/medium-cyberchase-bikeroute.gif</image>
     <teaser>Follow the map to finish the errands</teaser>
     <categories>
       <category>Math</category>
@@ -2425,7 +2425,7 @@
     <title>Can You Fill It?</title>
     <show>Cyberchase</show>
     <url>/cyberchase/games/liquidvolume/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-fillit.gif</image>
+    <image>/go/images/programs/medium-cyberchase-fillit.gif</image>
     <teaser>Be careful not to soak the CyberSquad!</teaser>
     <categories>
       <category>Math</category>
@@ -2440,7 +2440,7 @@
     <title>Crossing the River</title>
     <show>Cyberchase</show>
     <url>/cyberchase/games/modeling/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-cyberchase-crossriver.gif</image>
+    <image>/go/images/programs/medium-cyberchase-crossriver.gif</image>
     <teaser>The CyberSquad has to cross a river in a tiny boat</teaser>
     <categories>
       <category>Math</category>
@@ -2453,7 +2453,7 @@
     <title>Tibble Super Action Challenge</title>
     <show>Arthur</show>
     <url>/arthur/games/superactionchallenge</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-arthur-superactionchallenge.gif</image>
+    <image>/go/images/programs/medium-arthur-superactionchallenge.gif</image>
     <teaser>Jump in the ring for some serious Arthur trivia</teaser>
     <categories>
       <category>Quiz</category>
@@ -2466,7 +2466,7 @@
     <title>The un-Matching Game</title>
     <show>Arthur</show>
     <url>/arthur/games/unmatching/index.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium_arthur_unmatching.gif</image>
+    <image>/go/images/programs/medium_arthur_unmatching.gif</image>
     <teaser>Can you help Francine UN-match these things?</teaser>
     <categories>
       <category>Matching</category>
@@ -2480,7 +2480,7 @@
     <title>Virtual Goose</title>
     <show>Arthur</show>
     <url>/arthur/games/virtualgoose/index.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-arthur-virtualgoose.gif</image>
+    <image>/go/images/programs/medium-arthur-virtualgoose.gif</image>
     <teaser>Can you beat the champion, DISASTERWARNING99?</teaser>
     <categories>
       <category>Math</category>
@@ -2494,7 +2494,7 @@
     <title>You've Got To Be Kidding</title>
     <show>Arthur</show>
     <url>/arthur/games/yougottobekidding/index.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-arthur-yougotkidding.gif</image>
+    <image>/go/images/programs/medium-arthur-yougotkidding.gif</image>
     <teaser>How fast can you get to the tree house?</teaser>
     <categories>
       <category>Quiz</category>
@@ -2507,7 +2507,7 @@
     <title>Don't Wake Kate!</title>
     <show>Arthur</show>
     <url>/arthur/games/dontwakekate/index.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-arthur-dontwakekate.gif</image>
+    <image>/go/images/programs/medium-arthur-dontwakekate.gif</image>
     <teaser>Shhh! Avoid noisy toys so you don't wake Baby Kate</teaser>
     <categories>
       <category>Puzzles</category>
@@ -2521,7 +2521,7 @@
     <title>Fern's Poetry Club</title>
     <show>Arthur</show>
     <url>/arthur/games/poetry/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-arthur-poetry.gif</image>
+    <image>/go/images/programs/medium-arthur-poetry.gif</image>
     <teaser>Send in your poems! Read the poems Fern publishes</teaser>
     <categories>
     </categories>
@@ -2533,7 +2533,7 @@
     <title>Fern, the Effective Detective</title>
     <show>Arthur</show>
     <url>/arthur/games/effectivedetective</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-arthur-effectivedetective.gif</image>
+    <image>/go/images/programs/medium-arthur-effectivedetective.gif</image>
     <teaser>Sleuth it out with Fern the Effective Detective</teaser>
     <categories>
       <category>Mystery</category>
@@ -2546,7 +2546,7 @@
     <title>Go! George Go!</title>
     <show>Arthur</show>
     <url>/arthur/games/gogeorgego/index.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-arthur-gogeorgego.gif</image>
+    <image>/go/images/programs/medium-arthur-gogeorgego.gif</image>
     <teaser>Help George deliver the ice cream before it melts!</teaser>
     <categories>
       <category>Puzzles</category>
@@ -2559,7 +2559,7 @@
     <title>Let's Draw Arthur!</title>
     <show>Arthur</show>
     <url>/arthur/games/letsdrawarthur/index.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-arthur-letsdrawarthur.gif</image>
+    <image>/go/images/programs/medium-arthur-letsdrawarthur.gif</image>
     <teaser>Learn to draw Arthur - don't forget the bow tie!</teaser>
     <categories>
       <category>Create</category>
@@ -2572,7 +2572,7 @@
     <title>Lunch-o-Matic</title>
     <show>Arthur</show>
     <url>/arthur/games/lunchomatic/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-arthur-lunchomatic.gif</image>
+    <image>/go/images/programs/medium-arthur-lunchomatic.gif</image>
     <teaser>Take this cafeteria challenge</teaser>
     <categories>
       <category>Matching</category>
@@ -2585,7 +2585,7 @@
     <title>Scoop</title>
     <show>Arthur</show>
     <url>/arthur/games/scoop/index.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-arthur-scoop.gif</image>
+    <image>/go/images/programs/medium-arthur-scoop.gif</image>
     <teaser>Help Buster scoop up an Electric Sundae.</teaser>
     <categories>
       <category>Matching</category>
@@ -2598,7 +2598,7 @@
     <title>Supermarket Adventure</title>
     <show>Arthur</show>
     <url>/arthur/games/supermarket/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-arthur-supermarket.gif</image>
+    <image>/go/images/programs/medium-arthur-supermarket.gif</image>
     <teaser>Shop til you drop with D.W.</teaser>
     <categories>
       <category>Matching</category>
@@ -2611,7 +2611,7 @@
     <title>Find the Face</title>
     <show>African American World for Kids</show>
     <url>/aaworld/face.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-aaworld-mlkfindtheface.gif</image>
+    <image>/go/images/programs/medium-aaworld-mlkfindtheface.gif</image>
     <teaser>What made these African American heroes famous?</teaser>
     <categories>
       <category>Matching</category>
@@ -2624,7 +2624,7 @@
     <title>About Face</title>
     <show>Arthur</show>
     <url>/arthur/games/aboutface</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-arthur-aboutface.gif</image>
+    <image>/go/images/programs/medium-arthur-aboutface.gif</image>
     <teaser>Do moldy sandwiches make Buster happy?</teaser>
     <categories>
       <category>Matching</category>
@@ -2637,7 +2637,7 @@
     <title>Connect the World</title>
     <show>Arthur</show>
     <url>/arthur/games/connectworld/</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-arthur-connectworld.gif</image>
+    <image>/go/images/programs/medium-arthur-connectworld.gif</image>
     <teaser>Get four cards in a row before Buster does!</teaser>
     <categories>
       <category>Matching</category>
@@ -2650,7 +2650,7 @@
     <title>Crank It Up!</title>
     <show>Arthur</show>
     <url>/arthur/games/crankitup/index.html</url>
-    <image>http://thetoonsofjosh.github.io/go/images/programs/medium-arthur-crankitup.gif</image>
+    <image>/go/images/programs/medium-arthur-crankitup.gif</image>
     <teaser>Make music with D.W. in the Read family garage!</teaser>
     <categories>
       <category>Music</category>
