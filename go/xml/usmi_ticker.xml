@@ -6,7 +6,7 @@
   <topic> 
      <showtitle>It&#39;s my life</showtitle> 
      <thumbnailURL>/go/timessquare/widgets/usmi/thumbs/itsmylife.png</thumbnailURL>
-     <link>http://pbskids.org/itsmylife/friends/index.html</link> 
+     <link>/itsmylife/friends/index.html</link> 
      <question>How do you feel about being left out?</question>
 
      <submission>
@@ -34,7 +34,7 @@
   <topic> 
      <showtitle>Maya &amp; Miguel</showtitle> 
      <thumbnailURL>/go/timessquare/widgets/usmi/thumbs/mayaandmiguel.png</thumbnailURL>
-     <link>http://pbskids.org/mayaandmiguel/espanol/games/tellusvision/index.html</link> 
+     <link>/mayaandmiguel/espanol/games/tellusvision/index.html</link> 
      <question>¿Cuál ha sido la fiesta de cumpleaños más sorprendente que jamás hayas tenido? </question>
 
      <submission>
@@ -62,7 +62,7 @@
   <topic> 
      <showtitle>Cyberchase</showtitle> 
      <thumbnailURL>/go/timessquare/widgets/usmi/thumbs/cyberchase.png</thumbnailURL>
-     <link>http://pbskids.org/cyberchase/club/send/index.html</link> 
+     <link>/cyberchase/club/send/index.html</link> 
      <question>Send us your stories!</question>
 
      <submission>
