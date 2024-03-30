@@ -2,7 +2,7 @@
 <root>
 	<basePath>../</basePath>
 	<notbasePath>/go/studio/</notbasePath>
-	<cdnPath>http://thetoonsofjosh.github.io/go/studio/</cdnPath>
+	<cdnPath>https://thetoonsofjosh.github.io/go/studio/</cdnPath>
 	<imagePath>images/</imagePath>
 	<fontsPath>fonts.xml</fontsPath>
 	<stringsPath>strings.xml</stringsPath>
@@ -24,7 +24,7 @@
 			<id>243</id>
 		</resource>
 		<resource>
-			<link>http://pbskids.org/characters/index.html?id=244</link>
+			<link>https://pbskids.org/characters/index.html?id=244</link>
 			<thumbnail_url>/uploads/characters/thumbnails/2011/06/98625c66-8d1e-11e0-811e-0011259de55e.jpg</thumbnail_url>
 			<data>FBFBKBCKKBCKKFJBJFBFB|HSGYBUGYAJNMHFDMNVIWCUAKGGDM0IWCUAKNUMSEEGYBUGYAJNM|HHHBHHJHHJEGCCGBGGHHB|wordgirl</data>
 			<name>Your Boy</name>
