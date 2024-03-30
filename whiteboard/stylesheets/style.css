@@ -1,0 +1,357 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Layout */
+
+html, body { margin: 0; padding: 0; }
+
+body { background: #B0DD3A url('/hybrid/hybrid-background-green.gif'); padding: 4em 0 0 0; }
+
+#header {
+	margin: 0 auto 4em;
+	width: 820px;
+}
+
+	#header .top {
+		background: #00a2bc url('/smartboard/images/title-grad.gif') 0 0 repeat-x;
+		color: #fff;
+		height: 92px;
+		position: relative;
+	}
+	
+	#header .top h1 {
+		background: url('/smartboard/images/title.gif') 0 0 no-repeat;
+		height: 92px;
+		margin: 0;
+		padding: 0;
+		text-indent: -3000px;
+		width: 536px;
+	}
+	
+	#header .top p {
+		background: url('/smartboard/images/pbskidslogo.gif') 0 0 no-repeat;
+		height: 76px;
+		left: 20px;
+		position: absolute;
+		top: 8px;
+		width: 63px;
+	}
+	
+	#header .top p a {
+		display: block;
+		height: 76px;
+		outline: none;
+		text-indent: -3000px;
+		width: 63px;
+	}
+	
+	#header .top img {
+		position: absolute;
+		right: -30px;
+		top: -30px;
+		z-index: 1;
+	}
+	
+	#header .introduction {
+		background: #d4ff1d url('/smartboard/images/intro-grad.gif') repeat-x 0 0;
+		color: #4a5b00;
+		font-size: 1.6em;
+		margin: 0;
+		padding: 20px 300px 20px 20px;
+	}
+	
+	#header .navigation {
+		background: #ff8a00;
+		color: #874900;
+		padding: 15px 0 10px 20px;
+		position: relative;
+	}
+	
+	#header .navigation ul {
+		right: 20px;
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		position: absolute;
+		top: 15px;
+	}
+	
+	#header .navigation ul li {
+		display: inline;
+		float: left;
+		margin: 0 20px 0 0
+	}
+	
+	#header .navigation ul li a {
+		display: block;
+		height: 26px;
+		outline: none;
+		text-indent: -3000px;
+	}
+	
+		#nav-languagearts a {
+			background-image: url('/smartboard/images/nav-languagearts.gif');
+			width: 144px;
+		}
+		
+		#nav-thearts a {
+			background-image: url('/smartboard/images/nav-thearts.gif');
+			width: 87px;
+		}
+		
+		#nav-math a {
+			background-image: url('/smartboard/images/nav-math.gif');
+			width: 55px;
+		}
+		
+		#nav-socialscience a {
+			background-image: url('/smartboard/images/nav-socialscience.gif');
+			width: 150px;
+		}
+	
+	#header .navigation ul li a:hover {
+		background-position: 0 -26px;
+	}
+	
+	#header .navigation h2 {
+		background: url('/smartboard/images/showmegames.gif') 0 0 no-repeat;
+		height: 26px;
+		margin: 0;
+		padding: 0;
+		text-indent: -3000px;
+		width: 232px;
+	}
+	
+	#header .navigation a {
+		color: #fff;
+	}
+
+#content {
+	margin: 0 auto;
+	width: 820px;
+}
+
+#content table {
+	background: url('/smartboard/images/table-header.png') no-repeat;
+	border-collapse: collapse;
+}
+
+#content table thead tr {
+	color: #fff;
+}
+
+#content table tbody tr {
+	background: #c3f1f8;
+}
+
+#content tbody tr.odd {
+	background: #A7D8DF;
+}
+
+#content table tbody tr.native {
+    background: #f7efc3;
+}
+
+#content tbody tr.odd.native {
+    background: #ded5a6;
+}
+
+#content table th {
+	padding: 10px 15px 10px 10px;
+}
+
+#content table th a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#content table th a:visited {
+	color: #fff;
+}
+
+#content table th a:hover {
+	color: #A7D8DF;
+}
+
+th.headerSortUp { 
+    background-image: url('/smartboard/images/asc.gif'); 
+    background-color: #1BC7DF;
+	background-position: 100% 50%;
+	background-repeat: no-repeat;
+}
+
+th.headerSortUp { 
+    background-image: url('/smartboard/images/asc.gif'); 
+    background-color: #1BC7DF;
+	background-position: 100% 50%;
+	background-repeat: no-repeat;
+} 
+
+th.headerSortDown { 
+    background-image: url('/smartboard/images/desc.gif'); 
+    background-color: #1BC7DF; 
+	background-position: 100% 50%;
+	background-repeat: no-repeat;
+}
+
+#content table td {
+	padding: 10px;
+}
+
+#content table td.title {
+	width: 150px;
+}
+
+h3#languagearts {
+	background: url('/smartboard/images/header-languagearts.png');
+	height: 54px;
+	margin: 0 0 1em 20px;
+	text-indent: -3000px;
+	width: 285px;
+}
+
+h3#thearts {
+	background: url('/smartboard/images/header-thearts.png');
+	height: 54px;
+	margin: 0 0 1em 20px;
+	text-indent: -3000px;
+	width: 172px;
+}
+
+h3#math {
+	background: url('/smartboard/images/header-math.png');
+	height: 54px;
+	margin: 0 0 1em 20px;
+	text-indent: -3000px;
+	width: 105px;
+}
+
+h3#socialscience {
+	background: url('/smartboard/images/header-socialscience.png');
+	height: 54px;
+	margin: 0 0 1em 20px;
+	text-indent: -3000px;
+	width: 296px;
+}
+
+p.top { font-size: 1.8em; margin: 1em 20px 3em; }
+
+
+/* General */
+
+a img {
+	border: 0;
+}
+
+/* Typography */
+
+a {
+	color: #1785CE;
+}
+
+a:hover {
+		color: #fff;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 62.5%;
+	line-height: 22px;
+}
+
+h1 {
+	font-size: 2.4em;
+	margin: 0 0 .75em 0;
+}
+
+h2 {
+	font-size: 2.1em;
+	margin:  0 0 .857em 0;
+}
+
+h3 {
+	font-size: 1.8em;
+	margin: 0 0 1em 0;
+}
+
+p {
+	font-size: 1.4em;
+	margin: 0 0 1.285em 0;
+}
+
+ul {
+	font-size: 1.4em;
+	margin: 0;
+	padding: 0 0 0 3em;
+}
+
+li {
+	margin: 0 0 1.285em 0;
+}
+
+th {
+	font-size: 1.4em;
+	line-height: 1em;
+	text-align: left;
+}
+
+th.audio {
+	font-size: 1em;
+	width: 60px;
+}
+
+th.native {
+    font-size: 1em;
+}
+
+td {
+	font-size: 1.4em;
+	vertical-align: top;
+}
+
+td.level, td.topics, td.audio, td.native {
+	font-size: 1.2em;
+	line-height: 14px;
+}
+
+.initial-three {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#content table td.title {
+	font-size: 1.8em;
+	font-weight: bold;
+}
+
+#content table td.title a {
+	color: #333;
+	text-decoration: none;
+}
+
+#content table td.title a:visited {
+	color: #666;
+}
+
+.fineprint {
+	font-size: 1.2em;
+	margin: 0 0 2em 0;
+}
+
+span.smart {
+    xbackground-color: hsl(225, 97%, 59%);
+    background-color: hsl(225, 73%, 49%);
+    background-image:
+        url(../images/smart.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    display: block;
+    height: 30px;
+    margin: 0 6px 6px;
+    -moz-border-radius: 5px;
+    -moz-box-shadow: 0 1px 0.5em hsla(0, 0%, 0%, 0.5);
+    text-indent: -9999px;
+    -webkit-border-radius: 5px;
+    -webkit-box-shadow: 0 1px 0.5em hsla(0, 0%, 0%, 0.5);
+    width: 84px;
+}
