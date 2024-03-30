@@ -1,17 +1,6 @@
 function bridgeURLs(hostname, pathname) { 
-	return ( hostname != 'www-tc.pbskids.org' ) 
+	return ( hostname != 'thetoonsofjosh.github.io' ) 
             && ( pathname.indexOf('/redir/http') == -1 )
-            && ( hostname != 'pbskids.org' )
-            && ( hostname != 'www.pbskids.org' )
-            && ( hostname != 'pbskidsgo.org' )
-            && ( hostname != 'pbskidsplay.org' )
-            && ( hostname != 'www.pbskidsplay.org' )
-            && ( hostname != 'dipsy.pbs.org' )
-            && ( hostname != 'soup.pbskids.org' )
-            && ( hostname != 'ernie.pbskids.org' )
-            && ( hostname != 'video.pbs.org' )
-            && ( hostname != 'm-dev.pbskids.org' )
-            && ( hostname != 'm.pbskids.org' )
             && ( hostname.length > 0 || pathname.length > 0 )
             // Relative URLs cause hostname to be blank in IE 8 or lower. These should not cause bridge overlay to appear.
             && ( !(navigator.appName == 'Microsoft Internet Explorer' && hostname.length == 0) )
