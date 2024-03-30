@@ -1,3 +1,4 @@
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -6,27 +7,106 @@
 
 <!-- To populated by the Admin Tool --------------------------------------->
 <meta name="description" content="At PBS KIDS GO! you can play hundreds of free online games including science games, math games, and more!">
-<meta name="keywords" content="best kids games, pbs kids games, kids games, free online games, learning games, games for kids, kids <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<title>PBS KIDS GO! . Games</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
-<!-- To be populated by the Admin Tool --------------------------------------->
-<meta name="description" content="At PBS KIDS GO! you can play hundreds of free online games including science games, math games, and more!">
 <meta name="keywords" content="best kids games, pbs kids games, kids games, free online games, learning games, games for kids, kids online games, science games, word games, Arthur games">
 <!------------------------------------------------------------------------->
 
-<script type="text/javascript" src="/includes/flash/swfobject.js"></script>
+<script type='text/javascript' src='/includes/flash/swfobject2.js'></script>
+<script type='text/javascript' src='/includes/javascript/swfaddress.js'></script>
+
 <link rel="stylesheet" href="/go/css/home.css" type="text/css">
 <link rel="stylesheet" href="/go/css/noflash.css" type="text/css">
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
-<script type="text/javascript" src="/includes/javascript/bridge.urls.js"></script>
-<script type="text/javascript" src="/includes/javascript/bridge.js"></script>
+<link type="text/css" media="screen" rel="stylesheet" href="/includes/auth/ajax.css" />
+
+
+<link href="/includes/pk-sponsor/styles/pk-sponsor-styles.css" rel="stylesheet" type="text/css" media="screen">
+
+<!-- PAGE-TRACKING : BEGIN -->
+<script type="text/javascript">
+	function trackPageview(_url){
+		if (GA_obj) if(GA_obj.trackPageview) GA_obj.trackPageview(_url);
+	}
+</script>
+<!-- PAGE-TRACKING : END -->
+
+<!-- SWFOBJECT : BEGIN -->
+<script type="text/javascript">
+    // ADD FLASH VARS -------------------------------------------
+        var flashvars = {};
+        
+    // ADD FLASH PARAMETERS AND ATTRIBUTES ----------------------
+        var params = {};
+            params.menu = "false";
+            params.wmode = "transparent";
+            params.allowFullScreen = "false";
+            params.allowscriptaccess = "always";
+            
+        var attributes = {};
+            attributes.id = "GamesPage"
+            attributes.name = "GamesPage";
+            
+    // CREATE THE PLAYER SWF ------------------------------------
+    swfobject.embedSWF_PBS_enable_cdn("/go/swfs/Games.swf", "noflash", 935, 550, "10.0.0","(none)video/swf/expressinstall.swf", flashvars, params, attributes);
+</script>
+<!-- SWFOBJECT : END -->
 </head>
 
-<body>
-<script id="pbskids-headband-script" type="text/javascript" src="/pbs-kids-headband/js/headband.js?v=46"></script>
+<body class="pk-go-games">
+<script type="text/javascript">
+var GA_setvar;
+(function() {
+ var getCookie = function(c_name) {
+     if (document.cookie.length>0) {
+         c_start=document.cookie.indexOf(c_name + "=");
+         if (c_start!=-1) {
+             c_start=c_start + c_name.length+1;
+             c_end=document.cookie.indexOf(";",c_start);
+             if (c_end==-1) c_end=document.cookie.length;
+             return unescape(document.cookie.substring(c_start,c_end));
+         }
+     }
+     return "";
+ };
+
+ var pbskids_wested = getCookie('pbskids.wested');
+
+ if(pbskids_wested){
+     GA_setvar = {pbskids_wested: pbskids_wested};
+ }
+
+ //Determines if user is logged in
+ var pbskids_username = getCookie('pbskids.username');
+ //Determines if account is new
+ var returning = getCookie('pbskids.returning');
+
+ GA_customvar = {};
+
+ var ua_codes = "UA-4005067-1,UA-4005001-1,UA-3964855-1,UA-3994564-1,ET-3994564-2"; 
+ var ua_codes_list = ua_codes.split(',');
+
+ var login_info;
+ //Setup log in info custom variable string
+ if (pbskids_username){
+    login_info = "l=1";
+      if(returning){
+	login_info += "&r=1";
+      }	
+      else{
+        login_info += "&r=0";
+      }
+ }
+ else{
+    login_info = "l=0&r=0";
+ } 
+
+ for (i=0; i <  ua_codes_list.length; i++){
+  var cv_array = [["GO login tracking", login_info, 2]];
+  GA_customvar[ua_codes_list[i]] = cv_array;
+ }
+
+})();
+
+</script>
+
 <script type="text/javascript">
 var GA_env = { ua_list: "UA-4005067-1,UA-4005001-1,UA-3964855-1,UA-3994564-1,ET-3994564-2" };
 
@@ -39,16 +119,21 @@ document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga
 
 <!-- Begin comScore Tag -->
 <script>
-  var _comscore = _comscore || [];
-  _comscore.push({ c1: "2", c2: "3005420" });
-  (function() {
-    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
-    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
-    el.parentNode.insertBefore(s, el);
-  })();
+   document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
+</script>
+ <script>
+  COMSCORE.beacon({
+    c1:2,
+    c2:3005420,
+    c3:"",
+    c4:"pbskids.org/go/games/index.html",
+    c5:"",
+    c6:"",
+    c15:""
+  });
 </script>
 <noscript>
-  <img src="http://b.scorecardresearch.com/p?c1=2&c2=3005420&cv=2.0&cj=1" />
+  <img src="http://b.scorecardresearch.com/b?c1=2&c2=3005420&c3=&c4=pbskids.org/go/games/index.html&c5=&c6=&c15=&cv=1.3&cj=1" style="display:none" width="0" height="0" alt="" />
 </noscript>
 <!-- End comScore Tag -->
 
@@ -57,70 +142,63 @@ document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga
 
 
 
+
+
+
 <div id="flashcontent">
-	<div id="noflash">
-    	<div id="noflashcontent">
-    		<div id="noflashpadding">
-        		<div id="noflashlogo"><img src="/go/images/noflash-logo.gif" border="0" alt="PBS KIDS GO!" /></div>
+    <div id="noflash">
+        <div id="noflashcontent">
+            <div id="noflashpadding">
+                <div id="noflashlogo"><img src="/go/images/noflash-logo.gif" border="0" alt="PBS KIDS GO!" /></div>
             
-				<div id="noflashtext">
-            	<!-- To be populated by the Admin Tool --------------------------------------->
-            		At PBS KIDS GO! you can play hundreds of free online games including science games, math games, and more!
-	            <!------------------------------------------------------------------------->
-            	</div>
-            	<br /><br />
-        	</div>
-			
+                <div id="noflashtext">
+                <!-- To be populated by the Admin Tool --------------------------------------->
+                    At PBS KIDS GO! you can play hundreds of free online games including science games, math games, and more!
+                <!------------------------------------------------------------------------->
+                </div>
+                <br /><br />
+            </div>
+            
             <div id="large">To get the full experience and play online games and videos,</div>
             
-        	<div id="bold">
-            	<div id="linkbold">
-                	<a href="http://get.adobe.com/flashplayer/" title="Adobe Flash Player">Download the free Flash player.</a>
+            <div id="bold">
+                <div id="linkbold">
+                    <a href="http://get.adobe.com/flashplayer/" title="Adobe Flash Player">Download the free Flash player.</a>
                 </div>
             </div>
             <div class="smallright">(version 9 or higher)</div>
-			<br /><br />
-  		</div>
+            <br /><br />
+          </div>
   
-		<div id="noflashnav">
-			<div id="noflashpadding">
-				<div><a href="/pkgohp/redir/animalia/?campaign=noflash_animalia">Animalia</a></div>
-                <div><a href="/pkgohp/redir/arthur/?campaign=noflash_arthur">Arthur</a></div>
-                <div><a href="/pkgohp/redir/cyberchase/?campaign=noflash_cyberchase">Cyberchase</a></div>
-                <div><a href="/pkgohp/redir/designsquad/?campaign=noflash_designsquad">Design Squad</a></div>
-                <div><a href="/pkgohp/redir/dragonflytv/?campaign=noflash_dragonflytv">DragonflyTV</a></div>
-                <div><a href="/pkgohp/redir/electriccompany/?campaign=noflash_electriccompany">The Electric Company</a></div>
-                <div><a href="/pkgohp/redir/eekoworld/?campaign=noflash_eekoworld">EekoWorld</a></div>
-                <div><a href="/pkgohp/redir/fetch/?campaign=noflash_fetch">Fetch!</a></div>
-                <div><a href="/pkgohp/redir/meetthegreens/?campaign=noflash_thegreens">The Greens</a></div>
-                <div><a href="/pkgohp/redir/itsmylife/?campaign=noflash_itsmylife">It's My Life</a></div>
-                <div><a href="/pkgohp/redir/kws/?campaign=noflash_kws">Kids World Sports</a></div>
-                <div><a href="/pkgohp/redir/krattscreatures/?campaign=noflash_krattscreatures">Kratts' Creatures</a></div>
-                <div><a href="/pkgohp/redir/mayaandmiguel/?campaign=noflash_mayaandmiguel">Maya &amp; Miguel</a></div>
-                <div><a href="/pkgohp/redir/buster/?campaign=noflash_buster">Postcards from Buster</a></div>
-                <div><a href="/pkgohp/redir/wordgirl/">WordGirl</a></div>
-                <div><a href="/pkgohp/redir/zoom/?campaign=noflash_zoom">ZOOM</a></div>
-                <div><a href="http://pbskids.org/go/allshows/?campaign=go_shows">More &raquo;</a></div>
-			</div>
-		</div> 
-	</div>  
+        <div id="noflashnav">
+            <div id="noflashpadding">
+                <div><a href="/animalia/?campaign=noflash_animalia">Animalia</a></div>
+                <div><a href="/arthur/?campaign=noflash_arthur">Arthur</a></div>
+                <div><a href="/cyberchase/?campaign=noflash_cyberchase">Cyberchase</a></div>
+                <div><a href="/designsquad/?campaign=noflash_designsquad">Design Squad</a></div>
+                <div><a href="/dragonflytv/?campaign=noflash_dragonflytv">DragonflyTV</a></div>
+                <div><a href="/electriccompany/?campaign=noflash_electriccompany">The Electric Company</a></div>
+                <div><a href="/eekoworld/?campaign=noflash_eekoworld">EekoWorld</a></div>
+                <div><a href="/fetch/?campaign=noflash_fetch">Fetch!</a></div>
+                <div><a href="/meetthegreens/?campaign=noflash_thegreens">The Greens</a></div>
+                <div><a href="/itsmylife/?campaign=noflash_itsmylife">It's My Life</a></div>
+                <div><a href="/kws/?campaign=noflash_kws">Kids World Sports</a></div>
+                <div><a href="/krattscreatures/?campaign=noflash_krattscreatures">Kratts' Creatures</a></div>
+                <div><a href="/mayaandmiguel/?campaign=noflash_mayaandmiguel">Maya &amp; Miguel</a></div>
+                <div><a href="/buster/?campaign=noflash_buster">Postcards from Buster</a></div>
+                <div><a href="/wordgirl/">WordGirl</a></div>
+                <div><a href="/zoom/?campaign=noflash_zoom">ZOOM</a></div>
+                <div><a href="/go/allshows/?campaign=go_shows">More &raquo;</a></div>
+            </div>
+        </div> 
+    </div>  
 </div>
 
-<script type="text/javascript">
-   var fo = new SWFObject("/go/swfs/Games.swf", "flashpage", "935", "550", "9");
-	fo.addParam("allowScriptAccess", "always");
-	fo.addParam("allowFullScreen", "false");
-	fo.addParam("wmode", "transparent");
-	fo.addParam("menu", "false");
-	PBS_enable_cdn(fo);
-   fo.write("flashcontent");
-</script>
-
 <div id="login">
-	<div id="containerlogin"><a href="/mypbskids/"><img src="/go/images/home-login.gif" border="0" alt="Login now!"/></a></div>
+    <div id="containerlogin"><a href="/go/apps/auth/prompt/"><img src="/go/images/home-login.gif" border="0" alt="Login now!"/></a></div>
 
     <div id="containernav">
-    <a href="/pkgohp/redir/tvschedules?campaign=button_tvtimes" class="menuimage"><img src="/go/images/home-button-tvtimes.gif" alt="TV Times" border="0"/></a><a href="/pkgohp/redir/go/allshows?campaign=button_search" class="menuimage"><img src="/go/images/home-button-search.gif" alt="Search"  border="0"/></a><a href="/pkgohp/redir/help?campaign=button_help" class="menuimage"><img src="/go/images/home-button-help.gif" alt="Help" border="0"/></a>
+    <a href="/tvschedules?campaign=button_tvtimes" class="menuimage"><img src="/go/images/home-button-tvtimes.gif" alt="TV Times" border="0"/></a><a href="/go/allshows?campaign=button_search" class="menuimage"><img src="/go/images/home-button-search.gif" alt="Search"  border="0"/></a><a href="/help?campaign=button_help" class="menuimage"><img src="/go/images/home-button-help.gif" alt="Help" border="0"/></a>
     </div>
 </div>
 
@@ -131,80 +209,103 @@ document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga
     </div>
     
         <div id="containercpb">
-        <div id="cpbheader">Funded by:</div>
-        <img src="/go/images/logo-cpb.gif" border="0" alt="CPB">
-    </div>
-    
-        <div id="containerdrop">
-            <div id="showlist"><form name="tochoice" method=post action="/perl/redirect">
-            <select name=selected>
-                    <option value="http://pbskids.org/everything.html">Everything PBS KIDS</option>
-	<option value="http://pbskidsgo.org/africa/">Africa for Kids</option>
-	<option value="http://pbskidsgo.org/aaworld/">African American World for Kids</option>
-	<option value="http://pbskidsgo.org/wayback/">American Experience: WayBack</option>	
-        <option value="http://pbskidsgo.org/arthur/">Arthur</option>
-        <option value="http://pbskids.org/barney/">Barney</option>
-	<option value="http://pbskids.org/beeswax/">Beeswax</option>
-	<option value="http://pbskids.org/berenstainbears/">Berenstain Bears</option>
-        <option value="http://pbskids.org/lions/">Between the Lions</option>
-	<option value="http://www.pbskids.org/bigapplehistory/">Big Apple History</option>
-        <option value="http://pbskids.org/boohbah/">Boohbah</option>
-	<option value="http://pbskids.org/caillou/">Caillou</option>
-	<option value="http://pbskids.org/clifford/">Clifford the Big Red Dog</option>
-	<option value="http://pbskidsgo.org/cyberchase/">Cyberchase</option>
-	<option value="http://pbskidsgo.org/democracy/">Democracy Project</option>
-	<option value="http://pbskids.org/designsquad/">Design Squad</option>
-	<option value="http://pbskidsgo.org/dontbuyit">Don&rsquo;t Buy It</option>
-	<option value="http://pbskids.org/dragontales/">Dragon Tales</option>
-	<option value="http://pbskidsgo.org/dragonflytv/">DragonflyTV</option>
-	<option value="http://pbskidsgo.org/eekoworld/">EekoWorld</option>
-	<option value="http://pbskidsgo.org/electriccompany/">The Electric Company</option>        
-    <option value="http://pbskidsgo.org/fetch/">Fetch!</option>
-    <option value="http://pbskids.org/lunchlab/">Fizzy&rsquo;s Lunch Lab</option>
-	<option value="http://pbskids.org/frannysfeet/">Franny's Feet</option>
-        <option value="http://pbskids.org/georgeshrinks/">George Shrinks</option>
-		<option value="http://pbskids.org/meetthegreens/">The Greens</option>
-	<option value="http://pbskidsgo.org/historydetectives">History Detectives</option>
-	<option value="http://pbskids.org/bigbigworld">It&rsquo;s a Big Big World</option>
-	<option value="http://pbskidsgo.org/itsmylife">It&rsquo;s My Life</option>
-	<option value="http://pbskids.org/jayjay/">Jay Jay The Jet Plane</option>
-	<option value="http://pbskids.org/jazz/">Jazz</option>
-	<option value="http://www.pbskids.org/kws">Kids World Sports</option>
-	<option value="http://www.pbskids.org/krattscreatures/">Kratts&rsquo; Creatures</option>
-	<option value="http://www.pbskids.org/lifeboat/">Lifeboat to Mars</option>
-	<option value="http://www.pbskids.org/lomax/">Lomax</option>
-	<option value="http://pbskids.org/noddy/">Make Way for Noddy</option>
-	<option value="http://pbskids.org/mamamirabelle/">Mama Mirabelle</option>
-	<option value="http://pbskids.org/martha/">Martha Speaks</option>
-	<option value="http://pbskidsgo.org/mayaandmiguel/">Maya &amp; Miguel</option>
-        <option value="http://pbskids.org/rogers/">Mister Rogers' Neighborhood</option>
-	<option value="http://pbskidsgo.org/nf5/">News Flash Five</option>
-	<option value="http://pbskidsgo.org/stantonanthony/">Not For Ourselves Alone</option>
-	<option value="http://pbskidsgo.org/buster/">Postcards from Buster</option>
-	<option value="http://pbskids.org/readingrainbow/">Reading Rainbow</option>
-	<option value="http://pbskids.org/sagwa/">Sagwa The Chinese Siamese Cat</option>
-    <option value="http://pbskidsgo.org/scigirls/">SciGirls</option>
-    <option value="http://pbskids.org/sesame/">Sesame Street</option>
-	<option value="http://pbskids.org/sid/">Sid the Science Kid</option>
-	<option value="http://pbskids.org/superwhy/">Super Why!</option>
-	<option value="http://pbskids.org/teletubbies/">Teletubbies</option>
-	<option value="http://pbskids.org/wilsonandditch">Wilson &amp; Ditch Digging America</option>
-	<option value="http://www.pbskids.org/wordgirl">WordGirl</option>
-	<option value="http://www.pbs.org/wonders/Kids/kids.htm">Wonders of the African World</option>
-	<option value="http://pbskids.org/wordworld/">WordWorld</option>
-	<option value="http://pbskids.org/zoboo/">Zoboomafoo</option>
-    <option value="http://pbskidsgo.org/zoom/">ZOOM</option>
-	<option value="">
-	<option value="http://pbskids.org/">PBS KIDS
-	<option value="http://pbskidsgo.org/">PBS KIDS GO!
 
-            </select>
-            <input type="image" src="/go/images/home-button-go.gif" alt="Go" border="0"></td>
-            </form></div>
-        </div>
+        <div id="cpbheader">Funded by:</div>
+        	<img src="/go/images/logo-cpb.gif" border="0" alt="CPB">
+    	</div>
+		<div id="pk-sponsor">
+		</div>
+    
+    <div id="containerdrop">
+      <div id="showlist">
+        <form name="tochoice" method=post action="/perl/redirect">
+        <select name=selected>
+            <option value="/everything.html">Everything PBS KIDS</option>
+	<option value="/africa/">Africa for Kids</option>
+	<option value="/aaworld/">African American World for Kids</option>
+	<option value="/wayback/">American Experience: WayBack</option>	
+    <option value="/arthur/">Arthur</option>
+    <option value="/barney/">Barney</option>
+	<option value="/berenstainbears/">Berenstain Bears</option>
+    <option value="/lions/">Between the Lions</option>
+	<option value="/bigapplehistory/">Big Apple History</option>
+    <option value="/boohbah/">Boohbah</option>
+	<option value="/caillou/">Caillou</option>
+    <option value="/chuck/">Chuck Vanderchuck</option>
+	<option value="/clifford/">Clifford the Big Red Dog</option>
+	<option value="/curiousgeorge/">Curious George</option>
+	<option value="/cyberchase/">Cyberchase</option>
+	<option value="/democracy/">Democracy Project</option>
+	<option value="/designsquad/">Design Squad</option>
+	<option value="/dinosaurtrain/">Dinosaur Train</option>
+	<option value="/dontbuyit">Don&rsquo;t Buy It</option>
+	<option value="/dragonflytv/">DragonflyTV</option>
+	<option value="/eekoworld/">EekoWorld</option>
+	<option value="/electriccompany/">The Electric Company</option>        
+    <option value="/fetch/">Fetch!</option>
+    <option value="/lunchlab/">Fizzy&rsquo;s Lunch Lab</option>
+	<option value="/frannysfeet/">Franny's Feet</option>
+    <option value="/georgeshrinks/">George Shrinks</option>
+	<option value="/meetthegreens/">The Greens</option>
+	<option value="/historydetectives">History Detectives</option>
+	<option value="/bigbigworld">It&rsquo;s a Big Big World</option>
+	<option value="/itsmylife">It&rsquo;s My Life</option>
+	<option value="/jayjay/">Jay Jay The Jet Plane</option>
+	<option value="/jazz/">Jazz</option>
+	<option value="/kws">Kids World Sports</option>
+	<option value="/krattscreatures/">Kratts&rsquo; Creatures</option>
+	<option value="/lifeboat/">Lifeboat to Mars</option>
+	<option value="/lomax/">Lomax</option>
+	<option value="/noddy/">Make Way for Noddy</option>
+	<option value="/mamamirabelle/">Mama Mirabelle</option>
+	<option value="/martha/">Martha Speaks</option>
+	<option value="/mayaandmiguel/">Maya &amp; Miguel</option>
+    <option value="/noah/">Noah Comprende</option>
+    <option value="/rogers/">Mister Rogers' Neighborhood</option>
+	<option value="/stantonanthony/">Not For Ourselves Alone</option>
+	<option value="/buster/">Postcards from Buster</option>
+	<option value="/sagwa/">Sagwa The Chinese Siamese Cat</option>
+    <option value="/scigirls/">SciGirls</option>
+    <option value="/sesame/">Sesame Street</option>
+	<option value="/sid/">Sid the Science Kid</option>
+	<option value="/superwhy/">Super Why!</option>
+	<option value="/teletubbies/">Teletubbies</option>
+    <option value="/wildkratts">Wild Kratts</option>
+	<option value="/wilsonandditch">Wilson &amp; Ditch Digging America</option>
+	<option value="/wordgirl">WordGirl</option>
+	<option value="http://www.pbs.org/wonders/Kids/kids.htm">Wonders of the African World</option>
+	<option value="/wordworld/">WordWorld</option>
+	<option value="/zoboo/">Zoboomafoo</option>
+    <option value="/zoom/">ZOOM</option>
+	<option value="">
+	<option value="/">PBS KIDS
+	<option value="/">PBS KIDS GO!
+
+        </select>
+        <input type="image" src="/go/images/home-button-go.gif" alt="Go" border="0"></td>
+        </form>
+      </div>
+    </div>
 </div>
 
-<div id="fineprint"><a href="/pkgohp/redir/cgi-registry/kidsbridge.cgi?context=pbskidsgo_parents">PARENTS</a> | <a href="/pkgohp/redir/cgi-registry/kidsbridge.cgi?context=pbskidsgo_teachersource">TEACHERS</a> | <a href="/pkgohp/redir/privacy/">Privacy Policy</a> | <a href="/pkgohp/redir/privacy/termsofuse.html">Terms of Use</a> | <a href="/pkgohp/redir/cgi-registry/kidsbridge.cgi?context=pbskidsgo_pbs">pbs.org</a> © 1995-2008</div>
+<div id="fineprint"><a href="http://pbs.org/parents">PARENTS</a> | <a href="http://pbs.org/teachers">TEACHERS</a> | <a href="/privacy/">Privacy Policy</a> | <a href="/privacy/termsofuse.html">Terms of Use</a> | <a href="http://pbs.org">pbs.org</a> © 1995-2011</div> 
+
+<script type="text/javascript" src="/includes/javascript/sites/shell/go.js"></script>
+
+<!-- CAMPAIGN CODE -->
+<script type='text/javascript'>
+// Conversion Name: GO Games Main
+var ebRand = Math.random()+'';
+ebRand = ebRand * 1000000;
+//<![CDATA[ 
+document.write('<scr'+'ipt src="HTTP://bs.serving-sys.com/BurstingPipe/ActivityServer.bs?cn=as&amp;ActivityID=103602&amp;rnd=' + ebRand + '"></scr' + 'ipt>');
+//]]>
+</script>
+<noscript>
+<img width="1" height="1" style="border:0" src="HTTP://bs.serving-sys.com/BurstingPipe/ActivityServer.bs?cn=as&amp;ActivityID=103602&amp;ns=1"/>
+</noscript>
+
+
 
 </body>
 </html>
