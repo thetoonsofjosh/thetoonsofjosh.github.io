@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<highlights>
+	<section type="main">
+		<highlight>
+			<title>Brain's Big Book of Terms</title>
+			<href>/arthur/holiday/glossary/index.html</href>
+			<imgurl>brainsbook.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Elwood City Celebrates</title>
+			<href>/arthur/holiday/index.html</href>
+			<imgurl>celebrate.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>E-Cards</title>
+			<href>/arthur/games/ecards/index.html</href>
+			<imgurl>ecards.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Francine</title>
+			<href>/arthur/friends/francine/index.html</href>
+			<imgurl>francine.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Masks</title>
+			<href>/arthur/print/masks/index.html</href>
+			<imgurl>masks.png</imgurl>
+		</highlight>
+	</section>
+	<section type="games">
+		<highlight>
+			<title>Effective Detective</title>
+			<href>/arthur/games/effectivedetective/index.html</href>
+			<imgurl>/arthur/i/related/detective.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Groovy Garden</title>
+			<href>/arthur/games/groovygarden/index.html</href>
+			<imgurl>/arthur/i/related/groovygarden.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Buster Baxter: Lung Defender</title>
+			<href>/arthur/games/lungdefender/index.html
+</href>
+			<imgurl>/arthur/i/related/lung.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Super Action Challenge</title>
+			<href>/arthur/games/superactionchallenge/index.html</href>
+			<imgurl>/arthur/i/related/superaction.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Sue Ellen's Travel Tales</title>
+			<href>/arthur/games/traveltales/index.html</href>
+			<imgurl>/arthur/i/related/traveltales.gif</imgurl>
+		</highlight>
+	</section>
+	<section type="print">
+		<highlight>
+			<title>Coloring Pages</title>
+			<href>/arthur/print/coloringpages/index.html</href>
+			<imgurl>/arthur/i/related/coloring.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Cootie Catcher</title>
+			<href>/arthur/print/cootiecatcher/index.html</href>
+			<imgurl>/arthur/i/related/cootie.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Let's Draw Arthur</title>
+			<href>/arthur/games/letsdrawarthur/index.html</href>
+			<imgurl>/arthur/i/related/drawarthur.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Go Fetch!</title>
+			<href>/arthur/print/fetch/index.html</href>
+			<imgurl>/arthur/i/related/fetch.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Party Hats</title>
+			<href>/arthur/print/hats/index.html</href>
+			<imgurl>/arthur/i/related/partyhats.gif</imgurl>
+		</highlight>
+	</section>
+	<section type="videos">
+		<highlight>
+			<title>Karaoke</title>
+			<href>/arthur/video/karaoke.html</href>
+			<imgurl>/arthur/i/related/karaoke.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Arthur's Show Biz</title>
+			<href>/arthur/video/index.html?pid=V4H5nMqUTvotFbyczuekoqt2ldlhatzR</href>
+			<imgurl>/arthur/i/related/showbiz.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Castles in the Sky</title>
+			<href>/arthur/video/index.html?pid=jrQFQic9P_YJ_yf32ZVzZp2LrkThcWdo</href>
+			<imgurl>/arthur/i/related/castlesinsky.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>D.W. on Ice</title>
+			<href>/arthur/video/index.html?pid=V9c3NpLzFY_5A4nF4KWmgwV6T5SDBpzA</href>
+			<imgurl>/arthur/i/related/dwonice.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>The Long Dull Winter</title>
+			<href>/arthur/video/index.html?pid=fiuzMEEx1H3QR82mMeyaQTD0e4a2DfIv</href>
+			<imgurl>/arthur/i/related/longdullwinter.gif</imgurl>
+		</highlight>
+	</section>
+</highlights>
