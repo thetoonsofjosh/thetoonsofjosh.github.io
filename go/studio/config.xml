@@ -341,7 +341,6 @@
 <asset type="prop" thumbURL="assets/food/wg_food_grapes.swf" assetURL="assets/food/wg_food_grapes.swf"/>
 <asset type="prop" thumbURL="assets/food/wg_food_lemon.swf" assetURL="assets/food/wg_food_lemon.swf"/>
 <asset type="prop" thumbURL="assets/food/wg_food_lemons_bunch.swf" assetURL="assets/food/wg_food_lemons_bunch.swf"/>
-<!--  /* extra */  -->
 <asset type="prop" thumbURL="assets/food/wg_food_orange.swf" assetURL="assets/food/wg_food_orange.swf"/>
 <asset type="prop" thumbURL="assets/food/wg_food_watermelon.swf" assetURL="assets/food/wg_food_watermelon.swf"/>
 <asset type="prop" thumbURL="assets/food/wg_food_watermelon_half.swf" assetURL="assets/food/wg_food_watermelon_half.swf"/>
@@ -377,29 +376,21 @@
 <asset type="prop" thumbURL="assets/food/wg_food_luau_drink.swf" assetURL="assets/food/wg_food_luau_drink.swf"/>
 <asset type="prop" thumbURL="assets/food/wg_food_bacon.swf" assetURL="assets/food/wg_food_bacon.swf"/>
 <asset type="prop" thumbURL="assets/food/wg_food_beef.swf" assetURL="assets/food/wg_food_beef.swf"/>
-<!--  /* extra */  -->
 <asset type="prop" thumbURL="assets/food/wg_food_ham.swf" assetURL="assets/food/wg_food_ham.swf"/>
 <asset type="prop" thumbURL="assets/food/wg_food_steak.swf" assetURL="assets/food/wg_food_steak.swf"/>
 <asset type="prop" thumbURL="assets/food/wg_food_fish.swf" assetURL="assets/food/wg_food_fish.swf"/>
 <asset type="prop" thumbURL="assets/food/wg_food_chicken.swf" assetURL="assets/food/wg_food_chicken.swf"/>
-<!--  /* extra */  -->
 <asset type="prop" thumbURL="assets/food/wg_food_cheese_wedge.swf" assetURL="assets/food/wg_food_cheese_wedge.swf"/>
 </category>
 <category name="WORDGIRL">
 <asset type="pbs_character" thumbURL="assets/wordgirl/wg_chf_eating.swf" assetURL="assets/wordgirl/wg_chf_eating.swf"/>
 <asset type="pbs_character" thumbURL="assets/wordgirl/wg_chf_spinning.swf" assetURL="assets/wordgirl/wg_chf_spinning.swf"/>
 <asset type="pbs_character" thumbURL="assets/wordgirl/wg_chf_fighting.swf" assetURL="assets/wordgirl/wg_chf_fighting.swf"/>
-<!--  /* off */  -->
 <asset type="pbs_character" thumbURL="assets/wordgirl/wg_chf_kung_fu.swf" assetURL="assets/wordgirl/wg_chf_kung_fu.swf"/>
-<!--  /* off */  -->
 <asset type="pbs_character" thumbURL="assets/wordgirl/wg_chf_kung_fu2.swf" assetURL="assets/wordgirl/wg_chf_kung_fu2.swf"/>
-<!--  /* off */  -->
 <asset type="pbs_character" thumbURL="assets/wordgirl/wg_wordgirl_running.swf" assetURL="assets/wordgirl/wg_wordgirl_running.swf"/>
-<!--  /* off */  -->
 <asset type="pbs_character" thumbURL="assets/wordgirl/wg_wordgirl_walking.swf" assetURL="assets/wordgirl/wg_wordgirl_walking.swf"/>
-<!--  /* off */  -->
 <asset type="pbs_character" thumbURL="assets/wordgirl/becky_walk_iso.swf" assetURL="assets/wordgirl/becky_walk_iso.swf"/>
-<!--  /* off */  -->
 <asset type="pbs_character" thumbURL="assets/wordgirl/wg_wordgirl_flying.swf" assetURL="assets/wordgirl/wg_wordgirl_flying.swf"/>
 <asset type="pbs_character" thumbURL="assets/wordgirl/wg_wordgirl_front.swf" assetURL="assets/wordgirl/wg_wordgirl_front.swf"/>
 <asset type="pbs_character" thumbURL="assets/wordgirl/wg_wordgirl_front2.swf" assetURL="assets/wordgirl/wg_wordgirl_front2.swf"/>
@@ -438,7 +429,6 @@
 </category>
 <category name="ARTHUR">
 <asset type="pbs_character" thumbURL="assets/arthur/ar_arthur_standing.swf" assetURL="assets/arthur/ar_arthur_standing.swf"/>
-<!--  /* too small */  -->
 <asset type="pbs_character" thumbURL="assets/arthur/ar_arthur_wave.swf" assetURL="assets/arthur/ar_arthur_wave.swf"/>
 <asset type="pbs_character" thumbURL="assets/arthur/ar_arthur_front.swf" assetURL="assets/arthur/ar_arthur_front.swf"/>
 <asset type="pbs_character" thumbURL="assets/arthur/ar_arthur_books.swf" assetURL="assets/arthur/ar_arthur_books.swf"/>
@@ -475,7 +465,6 @@
 <asset type="pbs_character" thumbURL="assets/electriccompany/ec_jessica_angry.swf" assetURL="assets/electriccompany/ec_jessica_angry.swf"/>
 <asset type="pbs_character" thumbURL="assets/electriccompany/ec_jessica_shout.swf" assetURL="assets/electriccompany/ec_jessica_shout.swf"/>
 <asset type="pbs_character" thumbURL="assets/electriccompany/jessica_run_to_camera.swf" assetURL="assets/electriccompany/jessica_run_to_camera.swf"/>
-<!--  /* extra */  -->
 <asset type="pbs_character" thumbURL="assets/electriccompany/ec_jessica_sandwich_costume.swf" assetURL="assets/electriccompany/ec_jessica_sandwich_costume.swf"/>
 <asset type="pbs_character" thumbURL="assets/electriccompany/ec_jessica_standing.swf" assetURL="assets/electriccompany/ec_jessica_standing.swf"/>
 <asset type="pbs_character" thumbURL="assets/electriccompany/ec_jessica_sassy.swf" assetURL="assets/electriccompany/ec_jessica_sassy.swf"/>
@@ -485,15 +474,11 @@
 <asset type="pbs_character" thumbURL="assets/electriccompany/ec_marcus_standing.swf" assetURL="assets/electriccompany/ec_marcus_standing.swf"/>
 <asset type="pbs_character" thumbURL="assets/electriccompany/ec_marcus_standing2.swf" assetURL="assets/electriccompany/ec_marcus_standing2.swf"/>
 <asset type="pbs_character" thumbURL="assets/electriccompany/ec_marcus_shout.swf" assetURL="assets/electriccompany/ec_marcus_shout.swf"/>
-<!--  /* extra */  -->
 <asset type="pbs_character" thumbURL="assets/electriccompany/ec_marcus_run.swf" assetURL="assets/electriccompany/ec_marcus_run.swf"/>
-<!--  /* extra */  -->
 <asset type="pbs_character" thumbURL="assets/electriccompany/ec_marcus_shocked.swf" assetURL="assets/electriccompany/ec_marcus_shocked.swf"/>
 <asset type="pbs_character" thumbURL="assets/electriccompany/ec_marcus_sandwich_costume.swf" assetURL="assets/electriccompany/ec_marcus_sandwich_costume.swf"/>
 <asset type="pbs_character" thumbURL="assets/electriccompany/ec_marcus_hero_pose.swf" assetURL="assets/electriccompany/ec_marcus_hero_pose.swf"/>
-<!--  /* extra */  -->
 <asset type="pbs_character" thumbURL="assets/electriccompany/ec_marcus_bent_down.swf" assetURL="assets/electriccompany/ec_marcus_bent_down.swf"/>
-<!--  /* extra, too big */  -->
 <asset type="pbs_character" thumbURL="assets/electriccompany/ec_marcus_rocket.swf" assetURL="assets/electriccompany/ec_marcus_rocket.swf"/>
 <asset type="pbs_character" thumbURL="assets/electriccompany/ec_manny_menacing.swf" assetURL="assets/electriccompany/ec_manny_menacing.swf"/>
 <asset type="pbs_character" thumbURL="assets/electriccompany/ec_manny_flying.swf" assetURL="assets/electriccompany/ec_manny_flying.swf"/>
@@ -506,13 +491,9 @@
 </category>
 <category name="FETCH">
 <asset type="pbs_character" thumbURL="assets/fetch/fe_ruff_walk_and_talk.swf" assetURL="assets/fetch/fe_ruff_walk_and_talk.swf"/>
-<!--  /* offset */  -->
 <asset type="pbs_character" thumbURL="assets/fetch/fe_ruff_happy_dance_fixed.swf" assetURL="assets/fetch/fe_ruff_happy_dance_fixed.swf"/>
-<!--  /* offset */  -->
 <asset type="pbs_character" thumbURL="assets/fetch/fe_ruff_angry_noooo.swf" assetURL="assets/fetch/fe_ruff_angry_noooo.swf"/>
-<!--  /* offset */  -->
 <asset type="pbs_character" thumbURL="assets/fetch/fe_ruff_standing.swf" assetURL="assets/fetch/fe_ruff_standing.swf"/>
-<!--  /* too big */  -->
 <asset type="pbs_character" thumbURL="assets/fetch/fe_ruff_happy.swf" assetURL="assets/fetch/fe_ruff_happy.swf"/>
 <asset type="pbs_character" thumbURL="assets/fetch/fe_ruff_reading_paper.swf" assetURL="assets/fetch/fe_ruff_reading_paper.swf"/>
 <asset type="pbs_character" thumbURL="assets/fetch/fe_ruff_desk_hop.swf" assetURL="assets/fetch/fe_ruff_desk_hop.swf"/>
@@ -521,16 +502,13 @@
 <asset type="pbs_character" thumbURL="assets/fetch/fe_chet_jump_around.swf" assetURL="assets/fetch/fe_chet_jump_around.swf"/>
 <asset type="pbs_character" thumbURL="assets/fetch/fe_chet_tail_bounce.swf" assetURL="assets/fetch/fe_chet_tail_bounce.swf"/>
 <asset type="pbs_character" thumbURL="assets/fetch/fe_chet_trenchcoat.swf" assetURL="assets/fetch/fe_chet_trenchcoat.swf"/>
-<!--  /* offset */  -->
 <asset type="pbs_character" thumbURL="assets/fetch/fe_blossom_walking_left.swf" assetURL="assets/fetch/fe_blossom_walking_left.swf"/>
-<!--  /* offset */  -->
 <asset type="pbs_character" thumbURL="assets/fetch/fe_blossom_walking_right.swf" assetURL="assets/fetch/fe_blossom_walking_right.swf"/>
 <asset type="pbs_character" thumbURL="assets/fetch/fe_blossom_dancing.swf" assetURL="assets/fetch/fe_blossom_dancing.swf"/>
 <asset type="pbs_character" thumbURL="assets/fetch/fe_blossom_dancing2.swf" assetURL="assets/fetch/fe_blossom_dancing2.swf"/>
 <asset type="pbs_character" thumbURL="assets/fetch/fe_blossom_dancing3.swf" assetURL="assets/fetch/fe_blossom_dancing3.swf"/>
 <asset type="pbs_character" thumbURL="assets/fetch/fe_blossom_dancing4.swf" assetURL="assets/fetch/fe_blossom_dancing4.swf"/>
 <asset type="pbs_character" thumbURL="assets/fetch/fe_grandma_ruffman_wave.swf" assetURL="assets/fetch/fe_grandma_ruffman_wave.swf"/>
-<!--  /* too big */  -->
 </category>
 <category name="MARTHA SPEAKS">
 <asset type="pbs_character" thumbURL="assets/martha/ma_martha_super_pooch_cape_flapping.swf" assetURL="assets/martha/ma_martha_super_pooch_cape_flapping.swf"/>
@@ -551,14 +529,11 @@
 <asset type="pbs_character" thumbURL="assets/martha/ma_alice_kitten.swf" assetURL="assets/martha/ma_alice_kitten.swf"/>
 <asset type="pbs_character" thumbURL="assets/martha/ma_alice_tophat.swf" assetURL="assets/martha/ma_alice_tophat.swf"/>
 <asset type="pbs_character" thumbURL="assets/martha/ma_truman_standing_front.swf" assetURL="assets/martha/ma_truman_standing_front.swf"/>
-<!--  /* offset */  -->
 <asset type="pbs_character" thumbURL="assets/martha/ma_truman_standing_back.swf" assetURL="assets/martha/ma_truman_standing_back.swf"/>
-<!--  /* offset */  -->
 <asset type="pbs_character" thumbURL="assets/martha/ma_truman_hat_goggles.swf" assetURL="assets/martha/ma_truman_hat_goggles.swf"/>
 <asset type="pbs_character" thumbURL="assets/martha/ma_truman_golf.swf" assetURL="assets/martha/ma_truman_golf.swf"/>
 <asset type="pbs_character" thumbURL="assets/martha/ma_truman_dracula.swf" assetURL="assets/martha/ma_truman_dracula.swf"/>
 <asset type="pbs_character" thumbURL="assets/martha/ma_truman_afraid.swf" assetURL="assets/martha/ma_truman_afraid.swf"/>
-<!--  /* offset */  -->
 <asset type="pbs_character" thumbURL="assets/martha/ma_td_running.swf" assetURL="assets/martha/ma_td_running.swf"/>
 <asset type="pbs_character" thumbURL="assets/martha/ma_td_flying_super_hero_truman.swf" assetURL="assets/martha/ma_td_flying_super_hero_truman.swf"/>
 <asset type="pbs_character" thumbURL="assets/martha/ma_bert_running.swf" assetURL="assets/martha/ma_bert_running.swf"/>
