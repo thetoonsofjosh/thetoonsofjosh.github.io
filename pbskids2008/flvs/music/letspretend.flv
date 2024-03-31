@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"646c3c011e",applicationID:"20827537"};window.NREUM||(NREUM={}),__nr_require=function(n,e,t){function r(t){if(!e[t]){var i=e[t]={exports:{}};n[t][0].call(i.exports,function(e){var i=n[t][1][e];return r(i||e)},i,i.exports)}return e[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<t.length;i++)r(t[i]);return r}({1:[function(n,e,t){function r(){}function i(n,e,t){return function(){return o(n,[u.now()].concat(f(arguments)),e?null:this,t),e?void 0:this}}var o=n("handle"),a=n(4),f=n(5),c=n("ee").get("tracer"),u=n("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(n,e){s[e]=i(d+e,!0,"api")}),s.addPageAction=i(d+"addPageAction",!0),s.setCurrentRouteName=i(d+"routeName",!0),e.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(n,e){var t={},r=this,i="function"==typeof e;return o(l+"tracer",[u.now(),n,t],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],t),i)try{return e.apply(this,arguments)}catch(n){throw c.emit("fn-err",[arguments,this,n],t),n}finally{c.emit("fn-end",[u.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(n,e){m[e]=i(l+e)}),newrelic.noticeError=function(n,e){"string"==typeof n&&(n=new Error(n)),o("err",[n,u.now(),!1,e])}},{}],2:[function(n,e,t){function r(n,e){var t=n.getEntries();t.forEach(function(n){"first-paint"===n.name?a("timing",["fp",Math.floor(n.startTime)]):"first-contentful-paint"===n.name&&a("timing",["fcp",Math.floor(n.startTime)])})}function i(n){if(n instanceof c&&!s){var e,t=Math.round(n.timeStamp);e=t>1e12?Date.now()-t:f.now()-t,s=!0,a("timing",["fi",t,{type:n.type,fid:e}])}}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var o,a=n("handle"),f=n("loader"),c=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){o=new PerformanceObserver(r);try{o.observe({entryTypes:["paint"]})}catch(u){}}if("addEventListener"in document){var s=!1,p=["click","keydown","mousedown","pointerdown","touchstart"];p.forEach(function(n){document.addEventListener(n,i,!1)})}}},{}],3:[function(n,e,t){function r(n,e){if(!i)return!1;if(n!==i)return!1;if(!e)return!0;if(!o)return!1;for(var t=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}e.exports={agent:i,version:o,match:r}},{}],4:[function(n,e,t){function r(n,e){var t=[],r="",o=0;for(r in n)i.call(n,r)&&(t[o]=e(r,n[r]),o+=1);return t}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],5:[function(n,e,t){function r(n,e,t){e||(e=0),"undefined"==typeof t&&(t=n?n.length:0);for(var r=-1,i=t-e||0,o=Array(i<0?0:i);++r<i;)o[r]=n[e+r];return o}e.exports=r},{}],6:[function(n,e,t){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(n,e,t){function r(){}function i(n){function e(n){return n&&n instanceof r?n:n?c(n,f,o):o()}function t(t,r,i,o){if(!d.aborted||o){n&&n(t,r,i);for(var a=e(i),f=v(t),c=f.length,u=0;u<c;u++)f[u].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(n,e){h[n]=v(n).concat(e)}function m(n,e){var t=h[n];if(t)for(var r=0;r<t.length;r++)t[r]===e&&t.splice(r,1)}function v(n){return h[n]||[]}function g(n){return p[n]=p[n]||i(t)}function w(n,e){u(n,function(n,t){e=e||"feature",y[t]=e,e in s||(s[e]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:e,buffer:w,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var f="nr@context",c=n("gos"),u=n(4),s={},p={},d=e.exports=i();d.backlog=s},{}],gos:[function(n,e,t){function r(n,e,t){if(i.call(n,e))return n[e];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(n,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return n[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(n,e,t){function r(n,e,t,r){i.buffer([n],r),i.emit(n,e,t)}var i=n("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(n,e,t){function r(n){var e=typeof n;return!n||"object"!==e&&"function"!==e?-1:n===window?0:a(n,o,function(){return i++})}var i=1,o="nr@id",a=n("gos");e.exports=r},{}],loader:[function(n,e,t){function r(){if(!x++){var n=E.info=NREUM.info,e=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(n&&n.licenseKey&&n.applicationID&&e))return s.abort();u(y,function(e,t){n[e]||(n[e]=t)}),c("mark",["onload",a()+E.offset],null,"api");var t=l.createElement("script");t.src="https://"+n.agent,e.parentNode.insertBefore(t,e)}}function i(){"complete"===l.readyState&&o()}function o(){c("mark",["domContent",a()+E.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(f=Math.max((new Date).getTime(),f))-E.offset}var f=(new Date).getTime(),c=n("handle"),u=n(4),s=n("ee"),p=n(3),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1158.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),E=e.exports={offset:f,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};n(1),n(2),l[m]?(l[m]("DOMContentLoaded",o,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",i),d[v]("onload",r)),c("mark",["firstbyte",f],null,"api");var x=0,O=n(6)},{}],"wrap-function":[function(n,e,t){function r(n){return!(n&&n instanceof Function&&n.apply&&!n[a])}var i=n("ee"),o=n(5),a="nr@original",f=Object.prototype.hasOwnProperty,c=!1;e.exports=function(n,e){function t(n,e,t,i){function nrWrapper(){var r,a,f,c;try{a=this,r=o(arguments),f="function"==typeof t?t(r,a):t||{}}catch(u){d([u,"",[r,a,i],f])}s(e+"start",[r,a,i],f);try{return c=n.apply(a,r)}catch(p){throw s(e+"err",[r,a,p],f),p}finally{s(e+"end",[r,a,c],f)}}return r(n)?n:(e||(e=""),nrWrapper[a]=n,p(n,nrWrapper),nrWrapper)}function u(n,e,i,o){i||(i="");var a,f,c,u="-"===i.charAt(0);for(c=0;c<e.length;c++)f=e[c],a=n[f],r(a)||(n[f]=t(a,u?f+i:i,o,f))}function s(t,r,i){if(!c||e){var o=c;c=!0;try{n.emit(t,r,i,e)}catch(a){d([a,t,r,i])}c=o}}function p(n,e){if(Object.defineProperty&&Object.keys)try{var t=Object.keys(n);return t.forEach(function(t){Object.defineProperty(e,t,{get:function(){return n[t]},set:function(e){return n[t]=e,e}})}),e}catch(r){d([r])}for(var i in n)f.call(n,i)&&(e[i]=n[i]);return e}function d(e){try{n.emit("internal-error",e)}catch(t){}}return n||(n=i),t.inPlace=u,t.flag=a,t}},{}]},{},["loader"]);</script>
+    <title>Hooper</title>
+    
+    <link href="https://cms-tc.pbskids.org/retire/resources/css/retirement.css" rel="stylesheet" type="text/css">
+    <!--[if IE]><link href="https://cms-tc.pbskids.org/retire/resources/css/whoopsIE.css" rel="stylesheet" type="text/css"><![endif]-->
+    
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://cms-tc.pbskids.org/retire/resources/js/whoops.js"></script>
+    <script type="text/javascript" src="https://cms-tc.pbskids.org/retire/resources/js/sound.js"></script>
+    
+  <link rel="stylesheet" type="text/css" href="https://cms-tc.pbskids.org/headband/resources/sass/producer-headband.css"/></head>
+  <body>
+    <!-- START GLOBAL INCLUDE -->
+
+
+
+
+
+  
+<!-- Start Google Tag Manager -->
+<noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-MR8JHB" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
+   var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MR8JHB');
+</script>
+<!-- End Google Tag Manager -->
+
+
+<!-- Start Login Tracking and Google Analytics Tag -->
+<script type="text/javascript">
+  (function() {
+    var getCookie = function(c_name) {
+      if (document.cookie.length > 0) {
+        c_start = document.cookie.indexOf(c_name + "=");
+        if (c_start != -1) {
+          c_start = c_start + c_name.length + 1;
+          c_end = document.cookie.indexOf(";", c_start);
+          if (c_end == -1)
+            c_end = document.cookie.length;
+          return unescape(document.cookie.substring(c_start, c_end));
+        }
+      }
+      return "";
+    };
+
+
+    //-- Start Login Tracking ----
+    var pbskids_username = getCookie('pbskids.username');// Determines if user is logged in
+    var returning = getCookie('pbskids.returning');// Determines if account is new
+    var ua_codes = 'ET-4005001-3';
+    var ua_codes_list = ua_codes.split(',');
+    var login_info;
+    GA_customvar = {};
+
+    // Setup log in info custom variable string
+    if (pbskids_username) {
+      login_info = "l=1";
+      login_info += returning ? "&r=1" : "&r=0";
+    }
+    else {
+      login_info = "l=0&r=0";
+    }
+
+    for ( i = 0; i < ua_codes_list.length; i++) {
+      var cv_array = [["GO login tracking", login_info, 2]];
+      GA_customvar[ua_codes_list[i]] = cv_array;
+    }
+    //-- End Login Tracking ----
+
+
+    //-- Start Google Analytics Tag ----
+    var GA_jshost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    var station_letters = getCookie('pbskids.station');
+    window.GA_env = { ua_list: 'ET-4005001-3' };
+    window.GA_env.vars = station_letters ? { localized: 1, station: station_letters } : { localized: 0 };
+    document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    //-- End Google Analytics Tag ----
+
+  })();
+</script>
+<script src="https://cms-tc.pbskids.org/headband/resources/js/ga-current.js" type="text/javascript"></script>
+<!-- End Login Tracking and Google Analytics Tag -->
+
+
+<!-- Start comScore Tag -->
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "3005420" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://b.scorecardresearch.com/p?c1=2&c2=3005420&cv=2.0&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+
+
+<!-- Start Headband -->
+
+
+<div id="headband-container" class='producer-headband'>
+  <div class="headband-nav">
+    <div id="headband-user-block" class="logged-out">
+      <div class="header">
+        <a href="" class="avatar" rel="user" title="Visit Your Profile">
+          <h3>Visit Your Profile</h3>
+          <img alt="Your Avatar" src=""/>
+        </a>
+        <h2 class="user-name">
+          <a href="/profile/" target="_self"><em></em></a>
+          <a class="log-out" data-action="pbskids-login-sign-out">logout</a>
+        </h2>
+      </div>
+
+      <a class="sign-in" data-action="pbskids-login-sign-in"><em>Sign In</em> To PBS KIDS</a>
+    </div>
+
+    <div id="parents-message-bar">
+      <div class="wrap">
+        <div id="parents-messages"></div>
+      </div>
+      <div class="parents-bar-tooltips"></div>
+      <button id="squished-headband-toggle"></button>
+    </div>
+
+    <ul>
+      <li class="nav-item apps"><a href="https://pbskids.org/apps/">Apps</a></li>
+
+              <li class="nav-item shop hidden"><a href="https://shop.pbskids.org/?utm_source=PBS_kids&utm_medium=brandsite&utm_content=ShopButton&utm_campaign=homepage_091914">Shop</a></li>
+        <li class="nav-item parents hidden"><a href="https://pbskids.org/grownups/">Parents</a></li>
+
+                <script type="text/javascript">
+          if ( !(/NO_SHOP_LINK=/).test(document.cookie) ) {
+            document.querySelector('.nav-item.shop').classList.remove('hidden');
+            document.querySelector('.nav-item.parents').classList.remove('hidden');
+          }
+        </script>
+
+            
+      <li class="nav-item station" style="display:none;">
+        <a class="callsign" href="" title="" >
+          <span class="alt-call-letters"></span>
+          <img src=""/>
+        </a>
+      </li>
+
+      <li class="nav-item tv-times"><a href="https://pbskids.org/tv-times/">TV Times</a></li>
+      <li class="nav-item settings">
+        <button data-action="settings-trigger">Settings</button>
+      </li>
+    </ul>
+  </div>
+
+</div>
+<!-- End Headband -->
+
+  
+
+<script type='text/javascript'>
+  var _loader_root = "https://cms-tc.pbskids.org/loader/resources/";
+  var _headband_js_root = "https://cms-tc.pbskids.org/headband/resources/js/";
+  var _shell_root = "https://www-tc.pbskids.org/shell/";
+</script>
+
+<script type="text/javascript" src="https://cms-tc.pbskids.org/loader/resources/js/lib/PBS.KIDS.require.js" data-main="https://cms-tc.pbskids.org/loader/resources/js/loaders/producers.require.config.js"></script><!-- END GLOBAL INCLUDE -->
+    
+    <div id="wrapper">
+    
+    <div id="kidsLogo"><a href="https://pbskids.org/"><img width="100" border="0" height="100" alt="KidsHome" src="https://cms-tc.pbskids.org/retire/resources/images/kidsLogo.svg" data-audio-type="PBS kids logo."></a></div>
+    
+    <div id="clickyBoxes">
+        <div id="retireText">
+          <h1>Hooper is no longer available at pbskids.org</h1>
+        </div>
+    
+        <div class="boxButton boxyBox" data-audio-type="pbsKids2"><a href="https://pbskids.org/"><img width="237" border="0" height="133" alt="PBS kids home button" src="https://cms-tc.pbskids.org/retire/resources/images/kidsHome.svg"></a></div>
+        <div class="boxButton" data-audio-type="videos"><a href="https://pbskids.org/video/"><img width="237" border="0" height="133" alt="Videos" src="https://cms-tc.pbskids.org/retire/resources/images/videos.svg"></a></div>
+        <div class="boxButtonend" data-audio-type="games"><a href="https://pbskids.org/games/"><img width="237" border="0" height="133" alt="Games" src="https://cms-tc.pbskids.org/retire/resources/images/games.svg"></a></div>
+        
+    </div>
+    
+    <div id="searchBox">
+        <form method="get" action="https://pbskids.org/findit/search_results.html" id="find-it-box" class="search-box">
+             <p class="input-group">
+                <label for="searchy-box">The best way to find more fun on pbskids.org is to explore!
+                  <br>
+                  To search, type a word or phrase into this box:</label>
+                <input id="searchy-box" type="text" name="q" value="" placeholder="Search pbskids.org">
+                <input class="phat-button" type="submit" value="Find It!" data-audio-type="findIt">
+            </p>
+        </form>
+    </div>
+    
+    
+    </div>    
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"646c3c011e","applicationID":"20827537","transactionName":"Z1NQZEtSCEcAVEQPWF4Zc1NNWglaTnRCB1FEamZVVEMKVRVSQyVYXkJAX1VfA0ZORVUIU1VE","queueTime":0,"applicationTime":190,"atts":"SxRTEgNIG0k=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
