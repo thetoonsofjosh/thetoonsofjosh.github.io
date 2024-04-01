@@ -263,7 +263,7 @@
 
   <game>
     <title>How do You Say...?</title>
-    <show>Noah Comprende</show>
+    <show>Oh Noah!</show>
     <url>/noah/howdoyousay.html</url>
     <image>/go/images/programs/medium-noah-hdys.jpg</image>
     <teaser>Say it in Spanish!</teaser>
@@ -277,7 +277,7 @@
 
   <game>
     <title>You Catch It, You Keep it</title>
-    <show>Noah Comprende</show>
+    <show>Oh Noah!</show>
     <url>/noah/games.html#/youcatchit/furniture_jungleanimals</url>
     <image>/go/images/programs/medium-noah-youcatchit.jpg</image>
     <teaser>Catch it if you can!</teaser>
@@ -290,7 +290,7 @@
 
   <game>
     <title>Word Race</title>
-    <show>Noah Comprende</show>
+    <show>Oh Noah!</show>
     <url>/noah/games.html#/wordrace/furniture_jungleanimals</url>
     <image>/go/images/programs/medium-noah-wordrace.jpg</image>
     <teaser>Win the race to get all of the words!</teaser>
@@ -303,7 +303,7 @@
 
   <game>
     <title>Match It</title>
-    <show>Noah Comprende</show>
+    <show>Oh Noah!</show>
     <url>/noah/games.html#/matchit/furniture</url>
     <image>/go/images/programs/medium-noah-matchit.jpg</image>
     <teaser>Make a match with Noah</teaser>
