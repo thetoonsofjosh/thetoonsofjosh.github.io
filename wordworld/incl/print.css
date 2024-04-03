@@ -1,5 +1,5 @@
 /* ------ CSS Created by Bean Creative Funktional Web Design ---------------*/
-/* ----------                  http://www.beancreative.com                   -------------*/
+/* ----------                  https://www.beancreative.com                   -------------*/
 
 
 
@@ -80,7 +80,7 @@ body {
 }
 
 #todayswordcontent {
-	background:url(/wordworld/images/todaysword_bg.gif) repeat-y;
+	background:url(../images/todaysword_bg.gif) repeat-y;
 	padding:.5em 16px 1em 16px;
 }
 
@@ -94,7 +94,7 @@ body {
 #todayswordbottom {
 	width:243px;
 	height:7px;
-	background:url(/wordworld/images/todaysword_bottom.gif) no-repeat;
+	background:url(../images/todaysword_bottom.gif) no-repeat;
 	line-height:1;
 }
 
@@ -111,7 +111,7 @@ div.pusher {
 #pagebottom {
 	width:674px;
 	height:10px;
-	background:url(/wordworld/images/pagebottom.gif) no-repeat;
+	background:url(../images/pagebottom.gif) no-repeat;
 	line-height:1;
 	margin:0 auto;
 }
