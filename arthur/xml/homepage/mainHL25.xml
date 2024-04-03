@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<highlights>
+	<section type="main">
+		<highlight>
+			<title>Binky</title>
+			<href>/arthur/friends/binky/index.html</href>
+			<imgurl>binky.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Virtual Goose</title>
+			<href>/arthur/games/virtualgoose/index.html</href>
+			<imgurl>goose.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Lunch-o-matic</title>
+			<href>/arthur/games/lunchomatic/index.html</href>
+			<imgurl>lunchomatic.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Mrs. Read</title>
+			<href>/arthur/friends/mom/index.html</href>
+			<imgurl>mrsread.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Video</title>
+			<href>/arthur/video/index.html</href>
+			<imgurl>video.png</imgurl>
+		</highlight>
+	</section>
+	<section type="games">
+		<highlight>
+			<title>Hey, Francine</title>
+			<href>/arthur/games/heyfrancine/index.html</href>
+			<imgurl>/arthur/i/related/heyfrancine.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>You've Got To Be Kidding</title>
+			<href>/arthur/games/yougottobekidding/index.html</href>
+			<imgurl>/arthur/i/related/kidding.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Buster Baxter: Lung Defender</title>
+			<href>/arthur/games/lungdefender/index.html</href>
+			<imgurl>/arthur/i/related/lung.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Poetry Club</title>
+			<href>/arthur/games/poetry/index.html</href>
+			<imgurl>/arthur/i/related/poetry.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Songbook</title>
+			<href>/arthur/games/songbook/index.html</href>
+			<imgurl>/arthur/i/related/songbook.gif</imgurl>
+		</highlight>
+	</section>
+	<section type="print">
+		<highlight>
+			<title>You've Got Braille</title>
+			<href>/arthur/print/braille/index.html</href>
+			<imgurl>/arthur/i/related/braille.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Coloring Pages</title>
+			<href>/arthur/print/coloringpages/index.html</href>
+			<imgurl>/arthur/i/related/coloring.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Crazy Bus</title>
+			<href>/arthur/print/crazybus/index.html</href>
+			<imgurl>/arthur/i/related/crazybus.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Elwingo!</title>
+			<href>/arthur/print/elwingo/index.html</href>
+			<imgurl>/arthur/i/related/elwingo.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Groove It</title>
+			<href>/arthur/print/grooveit/index.html</href>
+			<imgurl>/arthur/i/related/grooveit.gif</imgurl>
+		</highlight>
+	</section>
+	<section type="videos">
+		<highlight>
+			<title>Buster the Myth Maker</title>
+			<href>/arthur/video/index.html?pid=UX5iyCljqIx19fyqW0KMrCYWkTHVQEC_</href>
+			<imgurl>/arthur/i/related/bustermyth.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Kiss and Tell</title>
+			<href>/arthur/video/index.html?pid=XybyK7NgmrG2Vc0wUj4whueanKPUKiLq</href>
+			<imgurl>/arthur/i/related/kissandtell.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Karaoke</title>
+			<href>/arthur/video/karaoke.html</href>
+			<imgurl>/arthur/i/related/karaoke.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Tales of Grotesquely Grim</title>
+			<href>/arthur/video/index.html?pid=67ptokFuv546f8Ul4PxEs9I9kZM887RQ</href>
+			<imgurl>/arthur/i/related/grotesquelygrim.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>D.W. on Ice</title>
+			<href>/arthur/video/index.html?pid=V9c3NpLzFY_5A4nF4KWmgwV6T5SDBpzA</href>
+			<imgurl>/arthur/i/related/dwonice.gif</imgurl>
+		</highlight>
+	</section>
+</highlights>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<highlights>
+	<section type="main">
+		<highlight>
+			<title>Connect the World</title>
+			<href>/arthur/games/connectworld/index.html</href>
+			<imgurl>connect.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>George</title>
+			<href>/arthur/friends/george/index.html</href>
+			<imgurl>george.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Groove It</title>
+			<href>/arthur/print/grooveit/index.html</href>
+			<imgurl>grooveit.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Poetry Club</title>
+			<href>/arthur/games/poetry/index.html</href>
+			<imgurl>poetry.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Postcard From Buster</title>
+			<href>/buster/index.html</href>
+			<imgurl>postcardsbuster.png</imgurl>
+		</highlight>
+	</section>
+	<section type="games">
+		<highlight>
+			<title>Elwood City Map</title>
+			<href>/arthur/games/elwoodcity/index.html</href>
+			<imgurl>/arthur/i/related/elwoodcity.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Art Gallery</title>
+			<href>/arthur/games/artgallery/index.html</href>
+			<imgurl>/arthur/i/related/gallery.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Virtual Goose</title>
+			<href>/arthur/games/virtualgoose/index.html</href>
+			<imgurl>/arthur/i/related/goose.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>You've Got To Be Kidding</title>
+			<href>/arthur/games/yougottobekidding/index.html</href>
+			<imgurl>/arthur/i/related/kidding.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Movie Maker</title>
+			<href>/arthur/games/moviemaker/index.html</href>
+			<imgurl>/arthur/i/related/moviemaker.gif</imgurl>
+		</highlight>
+	</section>
+	<section type="print">
+		<highlight>
+			<title>Bookmarks</title>
+			<href>/arthur/print/bookmarks/index.html</href>
+			<imgurl>/arthur/i/related/bookmarks.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Coloring Pages</title>
+			<href>/arthur/print/coloringpages/index.html</href>
+			<imgurl>/arthur/i/related/coloring.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Tower of Cows</title>
+			<href>/arthur/print/towerofcow/index.html</href>
+			<imgurl>/arthur/i/related/cows.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Let's Draw Arthur</title>
+			<href>/arthur/games/letsdrawarthur/index.html</href>
+			<imgurl>/arthur/i/related/drawarthur.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Groove It</title>
+			<href>/arthur/print/grooveit/index.html</href>
+			<imgurl>/arthur/i/related/grooveit.gif</imgurl>
+		</highlight>
+	</section>
+	<section type="videos">
+		<highlight>
+			<title>A is for Angry</title>
+			<href>/arthur/video/index.html?pid=_zQoRUrziBRSOeDFxtkSz5fv176bc2lF</href>
+			<imgurl>/arthur/i/related/aforangry.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>The World of Tomorrow</title>
+			<href>/arthur/video/index.html?pid=i_LuM6tZqop4QZhq2a6Q936_AsOiNlkw</href>
+			<imgurl>/arthur/i/related/worldtomorrow.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Arthur's Show Biz</title>
+			<href>/arthur/video/index.html?pid=V4H5nMqUTvotFbyczuekoqt2ldlhatzR</href>
+			<imgurl>/arthur/i/related/showbiz.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>D.W. on Ice</title>
+			<href>/arthur/video/index.html?pid=V9c3NpLzFY_5A4nF4KWmgwV6T5SDBpzA</href>
+			<imgurl>/arthur/i/related/dwonice.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Room To Ride</title>
+			<href>/arthur/video/index.html?pid=CzGhWX80_TK8ceDD4yDXoltE4E4u0Uew</href>
+			<imgurl>/arthur/i/related/roomtoride.gif</imgurl>
+		</highlight>
+	</section>
+</highlights>

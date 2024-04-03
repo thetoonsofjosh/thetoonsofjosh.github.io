@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<highlights>
+	<section type="main">
+		<highlight>
+			<title>Emily</title>
+			<href>/arthur/friends/emily/index.html</href>
+			<imgurl>emily.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Facts and Opinions</title>
+			<href>/arthur/games/factsopinions/index.html</href>
+			<imgurl>factsopinions.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Letters To...</title>
+			<href>/arthur/games/lettersto/index.html</href>
+			<imgurl>letters_to.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Super Action Challenge</title>
+			<href>/arthur/games/superactionchallenge/index.html</href>
+			<imgurl>superaction.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>The Tibble Twins</title>
+			<href>/arthur/friends/tibbles/index.html</href>
+			<imgurl>tibbles.png</imgurl>
+		</highlight>
+	</section>
+	<section type="games">
+		<highlight>
+			<title>Elwood City Map</title>
+			<href>/arthur/games/elwoodcity/index.html</href>
+			<imgurl>/arthur/i/related/elwoodcity.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Global Gizmo</title>
+			<href>/arthur/games/globalgizmo/index.html</href>
+			<imgurl>/arthur/i/related/globalgizmo.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>You've Got To Be Kidding</title>
+			<href>/arthur/games/yougottobekidding/index.html</href>
+			<imgurl>/arthur/i/related/kidding.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Lunch-o-matic</title>
+			<href>/arthur/games/lunchomatic/index.html</href>
+			<imgurl>/arthur/i/related/lunchomatic.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Supermarket Adventure</title>
+			<href>/arthur/games/supermarket/index.html</href>
+			<imgurl>/arthur/i/related/supermarket.gif</imgurl>
+		</highlight>
+	</section>
+	<section type="print">
+		<highlight>
+			<title>You've Got Braille</title>
+			<href>/arthur/print/braille/index.html</href>
+			<imgurl>/arthur/i/related/braille.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Cootie Catcher</title>
+			<href>/arthur/print/cootiecatcher/index.html</href>
+			<imgurl>/arthur/i/related/cootie.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Tower of Cows</title>
+			<href>/arthur/print/towerofcow/index.html</href>
+			<imgurl>/arthur/i/related/cows.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Party Hats</title>
+			<href>/arthur/print/hats/index.html</href>
+			<imgurl>/arthur/i/related/partyhats.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Trading Cards</title>
+			<href>/arthur/print/tradingcards/index.html</href>
+			<imgurl>/arthur/i/related/trading.gif</imgurl>
+		</highlight>
+	</section>
+	<section type="videos">
+		<highlight>
+			<title>Kiss and Tell</title>
+			<href>/arthur/video/index.html?pid=XybyK7NgmrG2Vc0wUj4whueanKPUKiLq</href>
+			<imgurl>/arthur/i/related/kissandtell.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>The Lint Rush</title>
+			<href>/arthur/video/index.html?pid=msANwkSPX_1u6ScqaB_ldGGqoLroUFot</href>
+			<imgurl>/arthur/i/related/lintrush.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Vomitrocious</title>
+			<href>/arthur/video/index.html?pid=0pfsNjVreZEtsBlA_VmtjpeY2hcZrQ_c</href>
+			<imgurl>/arthur/i/related/vomitrocious.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Karaoke</title>
+			<href>/arthur/video/karaoke.html</href>
+			<imgurl>/arthur/i/related/karaoke.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>The Long Dull Winter</title>
+			<href>/arthur/video/index.html?pid=fiuzMEEx1H3QR82mMeyaQTD0e4a2DfIv</href>
+			<imgurl>/arthur/i/related/longdullwinter.gif</imgurl>
+		</highlight>
+	</section>
+</highlights>

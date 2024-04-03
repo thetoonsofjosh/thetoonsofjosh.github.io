@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<highlights>
+	<section type="main">
+		<highlight>
+			<title>Ask Brain</title>
+			<href>/arthur/games/askbrain/index.html</href>
+			<imgurl>askbrain.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Elwood City Map</title>
+			<href>/arthur/games/elwoodcity/index.html</href>
+			<imgurl>elwoodcity.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Lunch-o-matic</title>
+			<href>/arthur/games/lunchomatic/index.html</href>
+			<imgurl>lunchomatic.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>The Tibble Twins</title>
+			<href>/arthur/friends/tibbles/index.html</href>
+			<imgurl>tibbles.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Marthur Video Mashup</title>
+			<href>/arthur/video/index.html?pid=m3veJY18D_DKhfBTbTmXTqcYB6s0o6qP</href>
+			<imgurl>videomashup.png</imgurl>
+		</highlight>
+	</section>
+	<section type="games">
+		<highlight>
+			<title>About Face</title>
+			<href>/arthur/games/aboutface/index.html</href>
+			<imgurl>/arthur/i/related/aboutface.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Alien: Assembly Required</title>
+			<href>/arthur/games/alien/index.html</href>
+			<imgurl>/arthur/i/related/alien.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Effective Detective</title>
+			<href>/arthur/games/effectivedetective/index.html</href>
+			<imgurl>/arthur/i/related/detective.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Hey, Francine</title>
+			<href>/arthur/games/heyfrancine/index.html</href>
+			<imgurl>/arthur/i/related/heyfrancine.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Poetry Club</title>
+			<href>/arthur/games/poetry/index.html</href>
+			<imgurl>/arthur/i/related/poetry.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Muffy's Wardrobe</title>
+			<href>/arthur/games/wardrobe/index.html</href>
+			<imgurl>/arthur/i/related/wardrobe.gif</imgurl>
+		</highlight>
+	</section>
+	<section type="print">
+		<highlight>
+			<title>Cosmic Combos</title>
+			<href>/arthur/print/cosmiccombos/index.html</href>
+			<imgurl>/arthur/i/related/cosmic.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Crazy Bus</title>
+			<href>/arthur/print/crazybus/index.html</href>
+			<imgurl>/arthur/i/related/crazybus.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Elwingo!</title>
+			<href>/arthur/print/elwingo/index.html</href>
+			<imgurl>/arthur/i/related/elwingo.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Go Fetch!</title>
+			<href>/arthur/print/fetch/index.html</href>
+			<imgurl>/arthur/i/related/fetch.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Trading Cards</title>
+			<href>/arthur/print/tradingcards/index.html</href>
+			<imgurl>/arthur/i/related/trading.gif</imgurl>
+		</highlight>
+	</section>
+	<section type="videos">
+		<highlight>
+			<title>D.W. Goes To Washington</title>
+			<href>/arthur/video/index.html?pid=VmVMf7QX3AfprJubm7BlQhMz2N8pfDYM</href>
+			<imgurl>/arthur/i/related/dwwashington.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Buster the Myth Maker</title>
+			<href>/arthur/video/index.html?pid=UX5iyCljqIx19fyqW0KMrCYWkTHVQEC_</href>
+			<imgurl>/arthur/i/related/bustermyth.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Vomitrocious</title>
+			<href>/arthur/video/index.html?pid=0pfsNjVreZEtsBlA_VmtjpeY2hcZrQ_c</href>
+			<imgurl>/arthur/i/related/vomitrocious.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Castles in the Sky</title>
+			<href>/arthur/video/index.html?pid=jrQFQic9P_YJ_yf32ZVzZp2LrkThcWdo</href>
+			<imgurl>/arthur/i/related/castlesinsky.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>The Long Dull Winter</title>
+			<href>/arthur/video/index.html?pid=fiuzMEEx1H3QR82mMeyaQTD0e4a2DfIv</href>
+			<imgurl>/arthur/i/related/longdullwinter.gif</imgurl>
+		</highlight>
+	</section>
+</highlights>

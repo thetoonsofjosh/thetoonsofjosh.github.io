@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<highlights>
+	<section type="main">
+		<highlight>
+			<title>Brain</title>
+			<href>/arthur/friends/brain/index.html</href>
+			<imgurl>brain.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Coloring Pages</title>
+			<href>/arthur/print/coloringpages/index.html</href>
+			<imgurl>coloring.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Lunch-o-matic</title>
+			<href>/arthur/games/lunchomatic/index.html</href>
+			<imgurl>lunchomatic.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Muffy</title>
+			<href>/arthur/friends/muffy/index.html</href>
+			<imgurl>muffy.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Poetry Club</title>
+			<href>/arthur/games/poetry/index.html</href>
+			<imgurl>poetry.png</imgurl>
+		</highlight>
+	</section>
+	<section type="games">
+		<highlight>
+			<title>Global Gizmo</title>
+			<href>/arthur/games/globalgizmo/index.html</href>
+			<imgurl>/arthur/i/related/globalgizmo.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Go Green Challenge</title>
+			<href>/arthur/games/gogreen/index.html</href>
+			<imgurl>/arthur/i/related/gogreen.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Movie Maker</title>
+			<href>/arthur/games/moviemaker/index.html</href>
+			<imgurl>/arthur/i/related/moviemaker.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Sugar Bowl Poll</title>
+			<href>/arthur/games/sugarbowlpoll/index.html</href>
+			<imgurl>/arthur/i/related/poll.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Baby Kate's Stickers</title>
+			<href>/arthur/games/stickers/index.html</href>
+			<imgurl>/arthur/i/related/stickers.gif</imgurl>
+		</highlight>
+	</section>
+	<section type="print">
+		<highlight>
+			<title>Bookmarks</title>
+			<href>/arthur/print/bookmarks/index.html</href>
+			<imgurl>/arthur/i/related/bookmarks.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>You've Got Braille</title>
+			<href>/arthur/print/braille/index.html</href>
+			<imgurl>/arthur/i/related/braille.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Go Fetch!</title>
+			<href>/arthur/print/fetch/index.html</href>
+			<imgurl>/arthur/i/related/fetch.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Masks</title>
+			<href>/arthur/print/masks/index.html</href>
+			<imgurl>/arthur/i/related/masks.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Play Maker</title>
+			<href>/arthur/print/playmaker/index.html</href>
+			<imgurl>/arthur/i/related/playmaker.gif</imgurl>
+		</highlight>
+	</section>
+	<section type="videos">
+		<highlight>
+			<title>A is for Angry</title>
+			<href>/arthur/video/index.html?pid=_zQoRUrziBRSOeDFxtkSz5fv176bc2lF</href>
+			<imgurl>/arthur/i/related/aforangry.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Buster the Myth Maker</title>
+			<href>/arthur/video/index.html?pid=UX5iyCljqIx19fyqW0KMrCYWkTHVQEC_</href>
+			<imgurl>/arthur/i/related/bustermyth.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Karaoke</title>
+			<href>/arthur/video/karaoke.html</href>
+			<imgurl>/arthur/i/related/karaoke.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Prunella and the Haunted Locker</title>
+			<href>/arthur/video/index.html?pid=MZvMaQgzKUCM7XM5dfS7SHGwlzDDfFx_</href>
+			<imgurl>/arthur/i/related/hauntedlocker.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Happy Anniversary Part 1</title>
+			<href>/arthur/video/index.html?pid=tZ6EF51RRPpyic1Gjw4AamEZNykocM07</href>
+			<imgurl>/arthur/i/related/anniversary1.gif</imgurl>
+		</highlight>
+	</section>
+</highlights>

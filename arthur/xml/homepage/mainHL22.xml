@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<highlights>
+	<section type="main">
+		<highlight>
+			<title>Binky</title>
+			<href>/arthur/friends/binky/index.html</href>
+			<imgurl>binky.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>D.W.</title>
+			<href>/arthur/friends/dw/index.html</href>
+			<imgurl>dw.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Mr. Read</title>
+			<href>/arthur/friends/dad/index.html</href>
+			<imgurl>mrread.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Muffy</title>
+			<href>/arthur/friends/muffy/index.html</href>
+			<imgurl>muffy.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Trading Cards</title>
+			<href>/arthur/print/tradingcards/index.html</href>
+			<imgurl>trading.png</imgurl>
+		</highlight>
+	</section>
+	<section type="games">
+		<highlight>
+			<title>Crank It Up</title>
+			<href>/arthur/games/crankitup/index.html</href>
+			<imgurl>/arthur/i/related/crankitup.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>E-Cards</title>
+			<href>/arthur/games/ecards/index.html</href>
+			<imgurl>/arthur/i/related/ecards.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Songbook</title>
+			<href>/arthur/games/songbook/index.html</href>
+			<imgurl>/arthur/i/related/songbook.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Marthur Stickerbook Mashup</title>
+			<href>/arthur/games/marthursticker/index.html</href>
+			<imgurl>/arthur/i/related/stickerbook.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Baby Kate's Stickers</title>
+			<href>/arthur/games/stickers/index.html</href>
+			<imgurl>/arthur/i/related/stickers.gif</imgurl>
+		</highlight>
+	</section>
+	<section type="print">
+		<highlight>
+			<title>Tower of Cows</title>
+			<href>/arthur/print/towerofcow/index.html</href>
+			<imgurl>/arthur/i/related/cows.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Let's Draw Arthur</title>
+			<href>/arthur/games/letsdrawarthur/index.html</href>
+			<imgurl>/arthur/i/related/drawarthur.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>High Five</title>
+			<href>/arthur/print/highfive/index.html</href>
+			<imgurl>/arthur/i/related/highfive.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Masks</title>
+			<href>/arthur/print/masks/index.html</href>
+			<imgurl>/arthur/i/related/masks.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Play Maker</title>
+			<href>/arthur/print/playmaker/index.html</href>
+			<imgurl>/arthur/i/related/playmaker.gif</imgurl>
+		</highlight>
+	</section>
+	<section type="videos">
+		<highlight>
+			<title>Videos</title>
+			<href>/arthur/video/index.html</href>
+			<imgurl>/arthur/i/related/video.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Buster the Myth Maker</title>
+			<href>/arthur/video/index.html?pid=UX5iyCljqIx19fyqW0KMrCYWkTHVQEC_</href>
+			<imgurl>/arthur/i/related/bustermyth.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Francine's Pilfered Paper</title>
+			<href>/arthur/video/index.html?pid=iPfEH_q_CeS7_b49fu24__rgHTa9CG_S</href>
+			<imgurl>/arthur/i/related/pilferedpaper.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>Is that Kosher?</title>
+			<href>/arthur/video/index.html?pid=UazUVcMSSKh8b9HI_DoNZ_8lwzIpPxJv</href>
+			<imgurl>/arthur/i/related/kosher.gif</imgurl>
+		</highlight>
+		<highlight>
+			<title>The Election</title>
+			<href>/arthur/video/index.html?pid=_CWks8YP3AYHfcjlUjgnO6uHGPLeFiSd</href>
+			<imgurl>/arthur/i/related/election.gif</imgurl>
+		</highlight>
+	</section>
+</highlights>
