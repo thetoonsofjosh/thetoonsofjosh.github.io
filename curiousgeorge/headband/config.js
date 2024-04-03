@@ -1,0 +1,1 @@
+{"buttons_color": "#fd2100", "shop_url": "", "go_login": false, "brand": "preschool", "destination": "", "reload": false, "parents_url": "http://www.pbs.org/parents/curiousgeorge/", "shop_partner": false, "learning_goals": "", "teachers_url": "http://www.pbs.org/teachers/curiousgeorge/"}

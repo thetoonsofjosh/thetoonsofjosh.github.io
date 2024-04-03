@@ -1,0 +1,1 @@
+{"buttons_color": "#ffcc00", "shop_url": "", "go_login": false, "brand": "preschool", "destination": "", "reload": false, "parents_url": "http://www.pbs.org/parents/betsy/parents.html", "shop_partner": false, "learning_goals": "", "teachers_url": "http://www.pbs.org/parents/betsy/parents.html"}

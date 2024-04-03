@@ -1,0 +1,1 @@
+{"buttons_color": "#c75300", "shop_url": "", "go_login": true, "brand": "both", "destination": "", "reload": true, "parents_url": "http://www.pbs.org/parents/fetch/index.html", "shop_partner": false, "learning_goals": "", "teachers_url": "http://www.pbs.org/parents/fetch/index.html"}

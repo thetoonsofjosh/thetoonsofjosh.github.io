@@ -1,0 +1,1 @@
+{"buttons_color": "#993c95", "shop_url": "http://angelinaballerina.shop.pbskids.org/", "go_login": false, "brand": "preschool", "destination": "", "reload": false, "parents_url": "http://pbs.org/parents", "shop_partner": true, "learning_goals": "", "teachers_url": "http://pbs.org/teachers"}

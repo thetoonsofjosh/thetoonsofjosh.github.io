@@ -1,0 +1,1 @@
+{"buttons_color": "#38d965", "shop_url": "http://barney.shop.pbskids.org/", "go_login": false, "brand": "preschool", "destination": "", "reload": false, "parents_url": "http://www.pbs.org/parents/barney/parents/index.html", "shop_partner": true, "learning_goals": "", "teachers_url": "http://www.pbs.org/parents/barney/educators/"}

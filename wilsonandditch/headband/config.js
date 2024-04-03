@@ -1,0 +1,1 @@
+{"buttons_color": "#3e5ba7", "shop_url": "", "go_login": true, "brand": "go", "destination": "", "reload": true, "parents_url": "http://www.pbs.org/parents/wilsonandditch/", "shop_partner": false, "learning_goals": "", "teachers_url": "http://www.pbs.org/teachers/wilsonandditch/"}

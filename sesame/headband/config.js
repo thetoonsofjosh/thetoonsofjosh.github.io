@@ -1,0 +1,1 @@
+{"buttons_color": "#75e3f2", "shop_url": "http://sesamestreet.shop.pbskids.org/", "go_login": false, "brand": "preschool", "destination": "", "reload": true, "parents_url": "http://www.pbs.org/parents/sesame/index.html", "shop_partner": false, "learning_goals": "", "teachers_url": "http://www.pbs.org/parents/sesame/index.html"}

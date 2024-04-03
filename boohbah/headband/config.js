@@ -1,0 +1,1 @@
+{"buttons_color": "#006699", "shop_url": "", "go_login": false, "brand": "preschool", "destination": "", "reload": false, "parents_url": "http://www.pbs.org/parents/boohbah/parents.html", "shop_partner": false, "learning_goals": "", "teachers_url": "http://www.pbs.org/parents/boohbah/parents.html"}

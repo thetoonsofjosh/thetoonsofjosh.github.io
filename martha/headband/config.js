@@ -1,0 +1,1 @@
+{"buttons_color": "#a0d350", "shop_url": "http://marthaspeaks.shop.pbskids.org/", "go_login": false, "brand": "both", "destination": "", "reload": false, "parents_url": "http://www.pbs.org/parents/martha/index.html", "shop_partner": true, "learning_goals": "", "teachers_url": "http://www.pbslearningmedia.org/collection/msrb/"}

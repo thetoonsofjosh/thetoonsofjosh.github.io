@@ -1,0 +1,1 @@
+{"buttons_color": "#0d30be", "shop_url": "http://clifford.shop.pbskids.org/", "go_login": false, "brand": "preschool", "destination": "", "reload": false, "parents_url": "http://www.pbs.org/parents/clifford/index.html", "shop_partner": true, "learning_goals": "", "teachers_url": "http://www.pbs.org/parents/clifford/index.html"}

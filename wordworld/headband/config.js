@@ -1,0 +1,1 @@
+{"buttons_color": "007aca", "shop_url": "https://wordworld.shop.pbskids.org/", "go_login": false, "brand": "preschool", "destination": "", "reload": true, "parents_url": "https://www.pbs.org/parents/wordworld/index.html", "shop_partner": true, "learning_goals": "", "teachers_url": "https://www.pbs.org/teachers/"}

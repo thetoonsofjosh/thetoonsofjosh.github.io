@@ -1,0 +1,1 @@
+{"buttons_color": "#ffd904", "shop_url": "", "go_login": false, "brand": "preschool", "destination": "", "reload": true, "parents_url": "http://pbskids.org/lomax/parents_teachers.html", "shop_partner": false, "learning_goals": "", "teachers_url": "http://pbskids.org/lomax/parents_teachers.html"}

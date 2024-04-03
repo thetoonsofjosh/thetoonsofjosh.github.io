@@ -1,0 +1,1 @@
+{"buttons_color": "#ff6800", "shop_url": "https://mayamiguel.shop.pbskids.org/", "go_login": false, "brand": "go", "destination": "", "reload": false, "parents_url": "https://www.pbs.org/parents/mayaandmiguel/english/index.html", "shop_partner": true, "learning_goals": "", "teachers_url": "https://www.pbs.org/parents/mayaandmiguel/english/index.html"}
