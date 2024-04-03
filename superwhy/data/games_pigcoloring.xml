@@ -1,0 +1,31 @@
+<section id="GAMES" hasSponsorBar="true">
+	<title><![CDATA[SUPER WHY! . GAMES | PBS KIDS]]></title>
+	<swf url="sections/games/games.swf" />
+	<libraries>
+		<library id="burbankbigcdttbdembedded" url="libraries/burbankbigcdttbdembedded.swf" type="font" name="BurbankBigCdTTBdEmbedded" font="BurbankBigCdTTBdEmbeddedFont" />
+		<library id="modules" url="libraries/modules.swf" />
+	</libraries>	
+	<assets>
+		<audio id="audio" isGroup="true">
+			<audio id="paintbyletter" type="audio" url="audio/games/title_paintbyletter.mp3" />
+			<audio id="rescue" type="audio" url="audio/games/button_sw_to_rescue.mp3" />	
+			<audio id="alphabricks" type="audio" url="audio/games/button_alphabricks.mp3" />
+			<audio id="superhero" type="audio" url="audio/games/button_pp_create_hero.mp3" />
+			<audio id="rhymenroll" type="audio" url="audio/games/button_red_rhymenroll.mp3" />
+			<audio id="superreaderchallenge" type="audio" url="audio/games/button_src.mp3" />
+			<audio id="arrow" type="audio" url="audio/games/button_arrow_rollover.mp3" />		
+			<audio id="intro" type="audio" url="audio/games/onload_click_game.mp3" />
+		</audio>
+		<promos id="promos" isGroup="true">
+			<promo id="superreaderchallenge" location="game/superreaderchallenge" url="promos/games_superreaderchallenge.jpg"><title><![CDATA[Super Readers Challenge]]></title></promo>
+		</promos>
+		<games id="games" isGroup="true">
+			<game id="paintbyletter" location="game/paintbyletter" character="alphapig" url="sections/games/images/alphapigspaintbyletter_smal.jpg"><title><![CDATA[Alpha Pig's Paint By Letter]]></title></game>
+			<game id="rescue" location="game/rescue" character="superwhy" url="sections/games/images/rescue_small.jpg"><title><![CDATA[Super Why...\nTo The Rescue!]]></title></game>
+			<game id="alphabricks" location="game/alphabricks" character="alphapig" url="sections/games/images/alphabricks_small.jpg"><title><![CDATA[Alpha Pig's Alpha Bricks]]></title></game>
+			<game id="superhero" location="game/superhero" character="princesspresto" url="sections/games/images/superhero_small.jpg"><title><![CDATA[Create-your-own Hero]]></title></game>
+			<game id="rhymenroll" location="game/rhymenroll" character="wonderred" url="sections/games/images/rhymenroll_small.jpg"><title><![CDATA[Red's\nRhyme N' Roll]]></title></game>
+			<game id="superreaderchallenge" location="game/superreaderchallenge" character="alphapig" url="sections/games/images/superreaderchallenge_small.jpg"><title><![CDATA[Super Readers\nChallenge]]></title></game>
+		</games>
+	</assets>
+</section>

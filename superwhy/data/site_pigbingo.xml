@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<superwhysite>
+	<libraries>
+		<library id="globalui" url="libraries/globalui.swf" />
+		<library id="transitions" url="libraries/transitions.swf" />
+	</libraries>
+	
+	<sections>
+		<section id="home" url="data/home.xml" />
+		<section id="games" url="data/games.xml" />
+		<section id="storybrookvillage" url="data/storybrookvillage.xml" />
+		<section id="superstuff" url="data/superstuff.xml" />
+		<section id="alphapig" url="data/alphapig.xml" />
+		<section id="princesspresto" url="data/princesspresto.xml" />
+		<section id="superwhy" url="data/superwhy.xml" />
+		<section id="wonderred" url="data/wonderred.xml" />
+	</sections>
+	
+	<games>
+		<game id="alphapigbingo" url="sections/games/alphapigbingo/data/alphapigbingo.xml" />
+		<game id="paintbyletter" url="sections/games/paintbyletter/data/paintbyletter.xml" />
+		<game id="alphabricks" url="sections/games/alphabricks/data/alphabricks.xml" />
+		<game id="superhero" url="sections/games/superhero/data/superhero.xml" />
+		<game id="rhymenroll" url="sections/games/rhymenroll/data/rhymenroll.xml" />
+		<game id="rescue" url="sections/games/rescue/data/rescue.xml" />
+		<game id="superreaderchallenge" url="sections/games/superreaderchallenge/data/superreaderchallenge.xml" />
+	</games>
+	
+	<transitions>
+		<transition origin="home" destination="storybrookvillage" out="EmptyTransitionOut" in="StoryBrookVillageTransitionIn" />
+		<transition origin="home" destination="alphapig" out="FlashBulbTransitionOut" in="FlashBulbTransitionIn" />
+		<transition origin="home" destination="princesspresto" out="FlashBulbTransitionOut" in="FlashBulbTransitionIn" />
+		<transition origin="home" destination="superwhy" out="FlashBulbTransitionOut" in="FlashBulbTransitionIn" />
+		<transition origin="home" destination="wonderred" out="FlashBulbTransitionOut" in="FlashBulbTransitionIn" />
+		<transition origin="home" destination="games" out="FlashBulbTransitionOut" in="FlashBulbTransitionIn" />
+		<transition origin="home" destination="" out="FlashBulbTransitionOut" in="FlashBulbTransitionIn" />
+	</transitions>
+	
+	<globalAssets>
+		<sitenav id="sitenav" isGroup="true">
+			<audio id="home" type="audio" url="audio/sitenav/button_home.mp3" />
+			<audio id="games" type="audio" url="audio/sitenav/button_games.mp3" />
+			<audio id="superstuff" type="audio" url="audio/sitenav/button_superstuff.mp3" />
+			<audio id="alphapig" type="audio" url="audio/sitenav/rollover_pig.mp3" />
+			<audio id="princesspresto" type="audio" url="audio/sitenav/rollover_princess.mp3" />
+			<audio id="wonderred" type="audio" url="audio/sitenav/rollover_red.mp3" />
+			<audio id="superwhy" type="audio" url="audio/sitenav/rollover_superwhy.mp3" />
+		</sitenav>
+	</globalAssets>
+	
+	<dirtyWordFilter>
+		<exactMatchList>
+			<![CDATA[a-hole,a_hole,ass,asshole,ass-whipe,ass-wipe,be-yotch,bee-yotch,blowjob,chickenhead,
+			dickhead,f_you,f-ing,fuc,f-you,give head,gives head,hell,tit,tits,gun,guns,god,butt]]>
+		</exactMatchList>
+		<containsList>
+		 	<![CDATA[69,666,ahole,alcohol,alcoholic,anal,anul,anus,arse,arson,
+			arsonist,assassinate,assassination,asshole,asswhipe,asswipe,bang,bastard,beyotch,beeyotch,biatch,
+			bisexual,bitch,blood,blowjob,blunt,bollocks,bollox,bollux,boob,booze,bratz,breast,burn,butts,caca,
+			cancer,chickenhead,christ,cigar,clit,cocaine,cock,coke,condemn,crackhead,cunt,damn,dammit,damnit,decapitate,
+			dead,destroy,dickhead,dike,dipshit,doody,drinker,druggie,drunk,dyke,eradicate,eradicator,evil,execute,
+			execution,exterminate,exterminator,fag,fuck,fuct,fuk,fukt,funeral,fux,fyou,gang,gangbang,gangsta,
+			givehead,giveshead,gook,grave,hangover,heroin,homo,horror,jerk,kike,kill,knife,lesbian,
+			lethal,maniac,motherfucker,murder,nigga,nigger,nympho,penis,piss,playboy,poison,poop,prostitute,pubic,
+			pussi,pussy,queer,rape,rectum,sex,shag,sheepshagger,shit,shite,shoit,shoot,slaughter,slut,speedball,
+			spic,spik,stab,stooped,stupid,suck,sucs,suffocate,suffocation,suicide,suicidal,suks,sux,terror,
+			tosser,transexual,transvestite,twat,urine,vagina,vixen,wanker,warlock,weapon,whore,witch,wop,yerin]]>
+		</containsList>
+	</dirtyWordFilter>
+</superwhysite>

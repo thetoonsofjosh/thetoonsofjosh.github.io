@@ -1,0 +1,180 @@
+<section id="SUPER_WHY" hasSponsorBar="true">
+	<title><![CDATA[SUPER WHY! . CHARACTERS . SUPER WHY | PBS KIDS]]></title>
+	<swf url="sections/superwhy/superwhy.swf" />
+	<libraries>
+		<library id="burbankbigcdttbdembedded" url="libraries/burbankbigcdttbdembedded.swf" type="font" name="BurbankBigCdTTBdEmbedded" font="BurbankBigCdTTBdEmbeddedFont" />
+		<library id="modules" url="libraries/modules.swf" />
+	</libraries>	
+	<assets>
+		<promos id="promos" isGroup="true">
+			<promo id="deliciousdish" location="game/deliciousdish" url="promos/feature_promo_woofster_deliciousDish.jpg"></promo>
+			<promo id="bookjumble" location="game/bookjumble" url="promos/featuredpromo_bookJumble.jpg"></promo>
+			<promo id="djgame" location="game/djgame" url="promos/featurepromo_superwhy_DJ.jpg"></promo>
+		</promos>
+		<audio id="audio" isGroup="true">
+			<audio id="back" type="audio" url="audio/superwhy/sw_button_back.mp3" />
+			<audio id="close" type="audio" url="audio/superwhy/sw_button_close.mp3" />
+			<audio id="go" type="audio" url="audio/superwhy/sw_button_go.mp3" />
+			<audio id="next" type="audio" url="audio/superwhy/sw_button_next.mp3" />
+			<audio id="pause" type="audio" url="audio/superwhy/sw_button_pause.mp3" />
+			<audio id="play" type="audio" url="audio/superwhy/sw_button_play.mp3" />
+			<audio id="printPhase1" type="audio" url="audio/superwhy/sw_button_print.mp3" />
+			<audio id="stop" type="audio" url="audio/superwhy/sw_button_stop.mp3" />
+			<audio id="videos" type="audio" url="audio/superwhy/sw_button_watch.mp3" />
+			<audio id="transition" type="audio" url="audio/superwhy/transition_superwhy.mp3" />
+		</audio>
+	</assets>
+	<modules>		
+		<module id="games" isGroup="true">
+            <game
+				id="deliciousdish"
+				url="promos/sw_subpromo_CASR.jpg"
+				location="game/deliciousdish"
+				>
+				<title><![CDATA[Delicious Dish]]></title>
+			</game>
+			<game 
+				id="calling_superreaders" 
+				url="promos/sw_subpromo_CASR.jpg" 
+				location="game/calling_superreaders"
+				>
+				<title><![CDATA[Calling All Super Readers!]]></title>
+			</game>
+			<game 
+				id="bookjumble" 
+				url="sections/games/images/bookJumble_large.jpg" 
+				location="game/bookjumble"
+				>
+				<title><![CDATA[Book Jumble]]></title>
+			</game>
+			<game 
+				id="sw_concentration" 
+				url="sections/games/images/sw_concentration_large.jpg" 
+				location="game/superwhyconcentration"
+				>
+				<title><![CDATA[Right-On Reader Match Up]]></title>
+			</game>
+			<game 
+				id="sw_comicbook" 
+				url="promos/game_page_feature_attackEraser.jpg" 
+				location="game/comicbook"
+				>
+				<title><![CDATA[Attack of the Eraser]]></title>
+			</game>
+			<game 
+				id="superwhybingo" 
+				url="sections/games/images/swBingo_large.jpg" 
+				location="game/superwhybingo"
+				>
+				<title><![CDATA[Reading Power Bingo!]]></title>
+			</game>
+			<game 
+				id="rescue" 
+				url="sections/games/images/rescue_large.jpg" 
+				location="game/rescue"
+				>
+				<title><![CDATA[Super Why...to the Rescue]]></title>
+			</game>
+			<game 
+				id="superreaderchallenge" 
+				url="sections/games/images/superreaderchallenge_large.jpg" 
+				location="game/superreaderchallenge"
+				>
+				<title><![CDATA[Super Readers Challenge]]></title>
+			</game>
+			<game 
+				id="storybookcreator" 
+				url="sections/games/images/swStorybook_large.jpg" 
+				location="game/storybookcreator"
+				>
+				<title><![CDATA[Super Why's Storybook Creator]]></title>
+			</game>
+		</module>
+		<module id="videos" isGroup="true">	
+			<video 
+				id="vocabulary_vocabulary_friend" 
+				url="sections/videos/images/VocabularyVocabularyFriend_200x150.jpg" 
+				video="sections/videos/VocabularyVocabularyFriend_200x150.flv"
+				>
+				<title><![CDATA[Vocabulary, Vocabulary, 'Friend']]></title>
+				</video>
+			<video 
+				id="fairytale_friends" 
+				url="sections/videos/images/FairytaleFriends200x150.jpg" 
+				video="sections/videos/FairytaleFriends200x150.flv"
+				>
+				<title><![CDATA[Fairytale Friends]]></title>
+				</video>
+			<video 
+				id="super_why_video" 
+				url="sections/videos/images/superwhy_why_video.jpg" 
+				video="sections/videos/superwhy_why_video.flv"
+				>
+				<title><![CDATA[W-H-Y Spells Why]]></title>
+			</video>	
+			<video 
+				id="super_why_open" 
+				url="sections/videos/images/superwhy_open_clip2.jpg" 
+				video="sections/videos/superwhy_open_clip2.flv"
+				>
+				<title><![CDATA[SUPER WHY Opening]]></title>
+			</video>
+			<video 
+				id="hip_hip_hurray" 
+				url="sections/videos/images/superstuff_hip_hip_hurray_sequence.jpg" 
+				video="sections/videos/superstuff_hip_hip_hurray_sequence.flv"
+				>
+				<title><![CDATA[Hip Hip Hooray!]]></title>
+			</video>
+			<video 
+				id="three_pigs" 
+				url="sections/videos/images/superstuff_transform_three_pigs_book.jpg" 
+				video="sections/videos/superstuff_transform_three_pigs_book.flv"
+				>
+				<title><![CDATA[It's Time to Transform!]]></title>
+			</video>
+		</module>
+		<module id="printablesPhase1" isGroup="true">		
+			<printable 
+				id="sw_large_printable" 
+				isGroup="true" 
+				orientation="portrait" 
+				>
+				<image id="thumbnail" url="sections/printables/images/printable_superwhy_lg.jpg" />
+				<image id="preview" url="sections/printables/images/printable_superwhy_lg_preview.gif" />
+				<image id="printable" preload="false" url="sections/printables/sw_large_printable.swf" />			
+				<title><![CDATA[Super Why Coloring Page]]></title>
+			</printable>
+			<printable 
+				id="wordfind_sw_printable" 
+				isGroup="true" 
+				orientation="portrait" 
+				>
+				<image id="thumbnail" url="sections/printables/images/printable_superwhy_wf.jpg" />
+				<image id="preview" url="sections/printables/images/printable_superwhy_wf_preview.gif" />
+				<image id="printable" preload="false" url="sections/printables/wordfind_sw_printable.swf" />			
+				<title><![CDATA[Super Why Word Find]]></title>
+			</printable>
+			<printable 
+				id="flying_printable" 
+				isGroup="true" 
+				orientation="landscape" 
+				>
+				<image id="thumbnail" url="sections/printables/images/printable_flying.jpg" />
+				<image id="preview" url="sections/printables/images/printable_flying_preview.gif" />
+				<image id="printable" preload="false" url="sections/printables/flying_printable.swf" />			
+				<title><![CDATA[Why Flyer Coloring Page]]></title>
+			</printable>
+			<printable 
+				id="superyou_printable" 
+				isGroup="true" 
+				orientation="landscape" 			 
+				>
+				<image id="thumbnail" url="sections/printables/images/printable_superyou.jpg" />
+				<image id="preview" url="sections/printables/images/printable_superyou_preview.gif" />
+				<image id="printable" preload="false" url="sections/printables/superyou_printable.swf" />			
+				<title><![CDATA[Super YOU Coloring Page]]></title>
+			</printable>
+		</module>
+	</modules>
+</section>

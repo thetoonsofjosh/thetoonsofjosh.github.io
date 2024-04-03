@@ -1,0 +1,570 @@
+<section id="WOOFSTER" hasSponsorBar="true">
+	<title><![CDATA[SUPER WHY! . CHARACTERS . WOOFSTER | PBS KIDS]]></title>
+	<swf url="sections/woofster/woofster.swf" />
+	<air_update_path>https://woofster.local/update_woofster.xml</air_update_path>
+	<libraries>
+		<library id="burbankbigcdttbdembedded" url="libraries/burbankbigcdttbdembedded.swf" type="font" name="BurbankBigCdTTBdEmbedded" font="BurbankBigCdTTBdEmbeddedFont" />
+		<library id="modules" url="libraries/modules.swf" />
+	</libraries>
+	<assets>
+		<promos id="promos" isGroup="true">
+		<!--	<promo id="createasuperdog" location="game/createasuperdog" url="promos/feature_promo_woofster_createasuperpet.jpg"></promo> -->
+			<promo id="deliciousdish" location="game/deliciousdish" url="promos/feature_promo_woofster_deliciousDish.jpg"></promo>
+		</promos>
+		<audio id="audio" isGroup="true">
+			<audio id="back" type="audio" url="audio/woofster/wf_button_back.mp3" />
+			<audio id="close" type="audio" url="audio/woofster/wf_button_close.mp3" />
+			<audio id="go" type="audio" url="audio/woofster/wf_button_go.mp3" />
+			<audio id="next" type="audio" url="audio/woofster/wf_button_next.mp3" />
+			<audio id="pause" type="audio" url="audio/woofster/wf_button_pause.mp3" />
+			<audio id="play" type="audio" url="audio/woofster/wf_button_play.mp3" />
+			<audio id="printPhase1" type="audio" url="audio/woofster/wf_button_print.mp3" />
+			<audio id="stop" type="audio" url="audio/woofster/wf_button_stop.mp3" />
+			<audio id="videos" type="audio" url="audio/woofster/wf_button_watch.mp3" />
+			<audio id="words" type="audio" url="audio/woofster/wf_button_words.mp3" />
+			<audio id="transition" type="audio" url="audio/woofster/transition_woofster.mp3" />
+		</audio>
+	</assets>
+	<modules>
+		<module id="games" isGroup="true">
+				<game 
+				id="createasuperdog" 
+				url="promos/game_page_feature_createasuperdog.jpg" 
+				location="game/createasuperdog"
+				>
+				<title><![CDATA[Create A Super Dog]]></title>
+			</game>
+			<game 
+				id="deliciousdish" 
+				url="promos/games_page_feature_deliciousdish.jpg" 
+				location="game/deliciousdish"
+				>
+				<title><![CDATA[Delicious Dish]]></title>
+			</game>
+			<game 
+				id="woofstersjourney" 
+				url="promos/game_page_feature_goldenbone.jpg" 
+				location="game/woofstersjourney"
+				>
+				<title><![CDATA[Journey to the Golden Bone]]></title>
+			</game>
+			<game 
+				id="sw_comicbook" 
+				url="promos/game_page_feature_attackEraser.jpg" 
+				location="game/comicbook"
+				>
+				<title><![CDATA[Attack of the Eraser]]></title>
+			</game>
+			<game 
+				id="rescue" 
+				url="sections/games/images/rescue_large.jpg" 
+				location="game/rescue"
+				>
+				<title><![CDATA[Super Why...to the Rescue]]></title>
+			</game>
+			
+		</module>
+		<module id="videos" isGroup="true">
+			<video
+				id="woofster_goldenbone"
+				url="sections/videos/images/woofster_goldenbone.jpg"
+				video="sections/videos/woofster_goldenbone.flv"
+				>
+				<title><![CDATA[Woofster with Dictionary Power!]]></title>
+				</video>
+			<video
+				id="super_dog"
+				url="sections/videos/images/woofster_superdog.jpg"
+				video="sections/videos/woofster_Woofster Super Dog.f4v"
+				>
+				<title><![CDATA[Super Dog]]></title>
+			</video>
+			<video
+				id="eat_healthy"
+				url="sections/videos/images/woofster_healthy.jpg"
+				video="sections/videos/woofster_Eat Healthy.f4v"
+				>
+				<title><![CDATA[Eat Healthy!]]></title>
+				</video>
+			<video
+				id="move_groove"
+				url="sections/videos/images/woofster_moveit.jpg"
+				video="sections/videos/woofster_Move It, Groove It.f4v"
+				>
+				<title><![CDATA[Move It, Groove It]]></title>
+				</video>		
+		</module>
+		<module id="printablesPhase1" isGroup="true">
+			<printable
+				id="printable_woofster_1"
+				isGroup="true"
+				orientation="portrait"
+				>
+				<image id="thumbnail" url="sections/printables/images/sheet_1_68x50.jpg" />
+				<image id="preview" url="sections/printables/images/sheet_1_104X135.jpg" />
+				<image id="printable" preload="false" url="sections/printables/printable_woofster_1.swf" />
+				<title><![CDATA[Dictionary Power!]]></title>
+			</printable>
+			<printable
+				id="printable_woofster_2"
+				isGroup="true"
+				orientation="portrait"
+				>
+				<image id="thumbnail" url="sections/printables/images/sheet_2_68X50.jpg" />
+				<image id="preview" url="sections/printables/images/sheet_2_104X135.jpg" />
+				<image id="printable" preload="false" url="sections/printables/printable_woofster_2.swf" />
+				<title><![CDATA[Give your tail a wag!]]></title>
+			</printable>
+			<printable
+				id="printable_woofster_3"
+				isGroup="true"
+				orientation="portrait"
+				>
+				<image id="thumbnail" url="sections/printables/images/sheet_3_68x50.jpg" />
+				<image id="preview" url="sections/printables/images/sheet_3_104X135.jpg" />
+				<image id="printable" preload="false" url="sections/printables/printable_woofster_3.swf" />
+				<title><![CDATA[Woof-de-doo!]]></title>
+			</printable>
+					<printable
+				id="printable_woofster_4"
+				isGroup="true"
+				orientation="portrait"
+				>
+				<image id="thumbnail" url="sections/printables/images/sheet_4_68X50.jpg" />
+				<image id="preview" url="sections/printables/images/sheet_4_104X135.jpg" />
+				<image id="printable" preload="false" url="sections/printables/printable_woofster_4.swf" />
+				<title><![CDATA[Pup-tastic!]]></title>
+			</printable>
+			<printable
+				id="printable_woofster_5"
+				isGroup="true"
+				orientation="portrait"
+				>
+				<image id="thumbnail" url="sections/printables/images/sheet_5_68X50.jpg" />
+				<image id="preview" url="sections/printables/images/sheet_5_104X135.jpg" />
+				<image id="printable" preload="false" url="sections/printables/printable_woofster_5.swf" />
+				<title><![CDATA[Woof, woof!]]></title>
+			</printable>
+			<printable
+				id="printable_woofster_6"
+				isGroup="true"
+				orientation="landscape"
+				>
+				<image id="thumbnail" url="sections/printables/images/sheet_6_68X50.jpg" />
+				<image id="preview" url="sections/printables/images/sheet_6_104X135.jpg" />
+				<image id="printable" preload="false" url="sections/printables/printable_woofster_6.swf" />
+				<title><![CDATA[I woof you!]]></title>
+			</printable>
+			<printable
+				id="printable_woofster_7"
+				isGroup="true"
+				orientation="landscape"
+				>
+				<image id="thumbnail" url="sections/printables/images/sheet_7_68X50.jpg" />
+				<image id="preview" url="sections/printables/images/sheet_7_104X135.jpg" />
+				<image id="printable" preload="false" url="sections/printables/printable_woofster_7.swf" />
+				<title><![CDATA[Super friends!]]></title>
+			</printable>
+			<printable
+				id="printable_woofster_8"
+				isGroup="true"
+				orientation="landscape"
+				>
+				<image id="thumbnail" url="sections/printables/images/sheet_8_68X50.jpg" />
+				<image id="preview" url="sections/printables/images/sheet_8_104X135.jpg" />
+				<image id="printable" preload="false" url="sections/printables/printable_woofster_8.swf" />
+				<title><![CDATA[Woofster to the rescue!]]></title>
+			</printable>
+			<printable
+				id="printable_woofster_9"
+				isGroup="true"
+				orientation="landscape"
+				>
+				<image id="thumbnail" url="sections/printables/images/sheet_9_68X50.jpg" />
+				<image id="preview" url="sections/printables/images/sheet_9_104X135.jpg" />
+				<image id="printable" preload="false" url="sections/printables/printable_woofster_9.swf" />
+				<title><![CDATA[Now we know what it means!]]></title>
+			</printable>
+			<printable
+				id="printable_woofster_10"
+				isGroup="true"
+				orientation="portrait"
+				>
+				<image id="thumbnail" url="sections/printables/images/sheet_10_68X50.jpg" />
+				<image id="preview" url="sections/printables/images/sheet_10_104X135.jpg" />
+				<image id="printable" preload="false" url="sections/printables/printable_woofster_10.swf" />
+				<title><![CDATA[A word, a word!]]></title>
+			</printable>
+		</module>
+		<module id="words" isGroup="true" >
+				
+			<item id="word_adopt" isGroup="true" releaseDate="09/19/2011" letter="a" >
+				<title><![CDATA[Adopt]]></title>
+				<image preload="false" id="image" url="sections/woofster/images/dictionary/18_adopt.png" />
+				<audio preload="false" type="audio" id="word_vo" url="audio/woofster/dictionary/woofster_word_adopt.mp3" />
+				<audio preload="false" type="audio" id="definition_vo" url="audio/woofster/dictionary/woofster_def_adopt.mp3" />
+			</item>
+			
+			<item id="word_ancient" isGroup="true" releaseDate="04/30/2012" letter="a" >
+				<title><![CDATA[Ancient]]></title>
+				<image preload="false" id="image" url="sections/woofster/images/dictionary/30_ancient.png" />
+				<audio preload="false" type="audio" id="word_vo" url="audio/woofster/dictionary/woofster_word_ancient.mp3" />
+				<audio preload="false" type="audio" id="definition_vo" url="audio/woofster/dictionary/woofster_def_ancient.mp3" />
+			</item>
+			
+			<item id="word_asteroid" isGroup="true" releaseDate="08/06/2012" letter="a" >
+				<title><![CDATA[Asteroid]]></title>
+				<image preload="false" id="image" url="sections/woofster/images/dictionary/17_asteroid.png" />
+				<audio preload="false" type="audio" id="word_vo" url="audio/woofster/dictionary/woofster_word_asteroid.mp3" />
+				<audio preload="false" type="audio" id="definition_vo" url="audio/woofster/dictionary/woofster_def_asteroid.mp3" />
+			</item>
+			
+			<item id="word_astronaut" isGroup="true" releaseDate="07/16/2012" letter="a" >
+				<title><![CDATA[Astronaut]]></title>
+				<image preload="false" id="image" url="sections/woofster/images/dictionary/32_astronaut.png" />
+				<audio preload="false" type="audio" id="word_vo" url="audio/woofster/dictionary/woofster_word_astronaut.mp3" />
+				<audio preload="false" type="audio" id="definition_vo" url="audio/woofster/dictionary/woofster_def_astronaut.mp3" />
+			</item>
+			
+			<item id="word_barrel" isGroup="true" releaseDate="04/16/2012" letter="b" >
+				<title><![CDATA[Barrel]]></title>
+				<image preload="false" id="image" url="sections/woofster/images/dictionary/38_barrel.png" />
+				<audio preload="false" type="audio" id="word_vo" url="audio/woofster/dictionary/woofster_word_barrel.mp3" />
+				<audio preload="false" type="audio" id="definition_vo" url="audio/woofster/dictionary/woofster_def_barrel.mp3" />
+			</item>
+			
+			<item id="word_brachiosaurus" isGroup="true" releaseDate="05/14/2012" letter="b" >
+				<title><![CDATA[Brachiosaurus]]></title>
+				<image preload="false" id="image" url="sections/woofster/images/dictionary/24_brachiosaurus.png" />
+				<audio preload="false" type="audio" id="word_vo" url="audio/woofster/dictionary/woofster_word_brachiosaurus.mp3" />
+				<audio preload="false" type="audio" id="definition_vo" url="audio/woofster/dictionary/woofster_def_brachiosaurus.mp3" />
+			</item>
+			
+				<item id="word_brave" isGroup="true" releaseDate="11/28/2011" letter="b" >
+				<title><![CDATA[Brave]]></title>
+				<image preload="false" id="image" url="sections/woofster/images/dictionary/48_brave.png" />
+				<audio preload="false" type="audio" id="word_vo" url="audio/woofster/dictionary/woofster_word_brave.mp3" />
+				<audio preload="false" type="audio" id="definition_vo" url="audio/woofster/dictionary/woofster_def_brave.mp3" />
+			</item>
+			
+			<item id="word_cave" isGroup="true" releaseDate="05/07/2012" letter="c" >
+				<title><![CDATA[Cave]]></title>
+				<image preload="false" id="image" url="sections/woofster/images/dictionary/25_cave.png" />
+				<audio preload="false" type="audio" id="word_vo" url="audio/woofster/dictionary/woofster_word_cave.mp3" />
+				<audio preload="false" type="audio" id="definition_vo" url="audio/woofster/dictionary/woofster_def_cave.mp3" />
+			</item>
+			
+			<item id="word_carnivore" isGroup="true" releaseDate="02/06/2012" letter="c" >
+				<title><![CDATA[Carnivore]]></title>
+				<image preload="false" id="image" url="sections/woofster/images/dictionary/09_carnivore.png" />
+				<audio preload="false" type="audio" id="word_vo" url="audio/woofster/dictionary/woofster_word_carnivore.mp3" />
+				<audio preload="false" type="audio" id="definition_vo" url="audio/woofster/dictionary/woofster_def_carnivore.mp3" />
+			</item>
+			
+			<item id="word_cowboy" isGroup="true" releaseDate="01/30/2012" letter="c" >
+				<title><![CDATA[Cowboy]]></title>
+				<image preload="false" id="image" url="sections/woofster/images/dictionary/26_cowboy.png" />
+				<audio preload="false" type="audio" id="word_vo" url="audio/woofster/dictionary/woofster_word_cowboy.mp3" />
+				<audio preload="false" type="audio" id="definition_vo" url="audio/woofster/dictionary/woofster_def_cowboy.mp3" />
+			</item>
+			
+			<item id="word_code" isGroup="true" releaseDate="06/18/2012" letter="c" >
+				<title><![CDATA[Code]]></title>
+				<image preload="false" id="image" url="sections/woofster/images/dictionary/31_code.png" />
+				<audio preload="false" type="audio" id="word_vo" url="audio/woofster/dictionary/woofster_word_code.mp3" />
+				<audio preload="false" type="audio" id="definition_vo" url="audio/woofster/dictionary/woofster_def_code.mp3" />
+			</item>
+			
+			<item id="word_comet" isGroup="true" releaseDate="08/13/2012" letter="c" >
+				<title><![CDATA[Comet]]></title>
+				<image preload="false" id="image" url="sections/woofster/images/dictionary/47_comet.png" />
+				<audio preload="false" type="audio" id="word_vo" url="audio/woofster/dictionary/woofster_word_comet.mp3" />
+				<audio preload="false" type="audio" id="definition_vo" url="audio/woofster/dictionary/woofster_def_comet.mp3" />
+			</item>
+			
+			<item id="word_create" isGroup="true" releaseDate="05/28/2012" letter="c" >
+				<title><![CDATA[Create]]></title>
+				<image preload="false" id="image" url="sections/woofster/images/dictionary/29_create.png" />
+				<audio preload="false" type="audio" id="word_vo" url="audio/woofster/dictionary/woofster_word_create.mp3" />
+				<audio preload="false" type="audio" id="definition_vo" url="audio/woofster/dictionary/woofster_def_create.mp3" />
+			</item>
+			
+			<item id="word_directions" isGroup="true" releaseDate="12/26/2011" letter="d" >
+				<title><![CDATA[Directions]]></title>
+				<image preload="false" id="image" url="sections/woofster/images/dictionary/50_directions.png" />
+				<audio preload="false" type="audio" id="word_vo" url="audio/woofster/dictionary/woofster_word_directions.mp3" />
+				<audio preload="false" type="audio" id="definition_vo" url="audio/woofster/dictionary/woofster_def_directions.mp3" />
+			</item>
+			
+			
+			<item id="word_erase" isGroup="true" releaseDate="12/19/2011" letter="e" >
+				<title><![CDATA[Erase]]></title>
+				<image preload="false" id="image" url="sections/woofster/images/dictionary/35_erase.png" />
+				<audio preload="false" type="audio" id="word_vo" url="audio/woofster/dictionary/woofster_word_erase.mp3" />
+				<audio preload="false" type="audio" id="definition_vo" url="audio/woofster/dictionary/woofster_def_erase.mp3" />
+			</item>
+			
+			<item id="word_firefly" isGroup="true" releaseDate="10/10/2011" letter="f" >
+				<title><![CDATA[Firefly]]></title>
+				<image preload="false" id="image" url="sections/woofster/images/dictionary/04_firefly.png" />
+				<audio preload="false" type="audio" id="word_vo" url="audio/woofster/dictionary/woofster_word_firefly.mp3" />
+				<audio preload="false" type="audio" id="definition_vo" url="audio/woofster/dictionary/woofster_def_firefly.mp3" />
+			</item>
+			
+			<item id="word_germs" isGroup="true" releaseDate="10/03/2011" letter="g" >
+				<title><![CDATA[Germs]]></title>
+				<image preload="false" id="image" url="sections/woofster/images/dictionary/23_germs.png" />
+				<audio preload="false" type="audio" id="word_vo" url="audio/woofster/dictionary/woofster_word_germs.mp3" />
+				<audio preload="false" type="audio" id="definition_vo" url="audio/woofster/dictionary/woofster_def_germs.mp3" />
+			</item>
+			
+			<item id="word_grasshopper" isGroup="true" releaseDate="12/05/2011" letter="g" >
+				<title><![CDATA[Grasshopper]]></title>
+				<image preload="false" id="image" url="sections/woofster/images/dictionary/28_grasshopper.png" />
+				<audio preload="false" type="audio" id="word_vo" url="audio/woofster/dictionary/woofster_word_grasshopper.mp3" />
+				<audio preload="false" type="audio" id="definition_vo" url="audio/woofster/dictionary/woofster_def_grasshopper.mp3" />
+			</item>
+			<item id="word_harp" isGroup="true" releaseDate="02/27/2012" letter="h" >
+				<title><![CDATA[Harp]]></title>
+				<image preload="false" id="image" url="sections/woofster/images/dictionary/11_harp.png" />
+				<audio preload="false" type="audio" id="word_vo" url="audio/woofster/dictionary/woofster_word_harp.mp3" />
+				<audio preload="false" type="audio" id="definition_vo" url="audio/woofster/dictionary/woofster_def_harp.mp3" />
+			</item>
+			
+			<item id="word_hatch" isGroup="true" releaseDate="04/23/2012" letter="h" >
+				<title><![CDATA[Hatch]]></title>
+				<image preload="false" id="image" url="sections/woofster/images/dictionary/27_hatch.png" />
+				<audio preload="false" type="audio" id="word_vo" url="audio/woofster/dictionary/woofster_word_hatch.mp3" />
+				<audio preload="false" type="audio" id="definition_vo" url="audio/woofster/dictionary/woofster_def_hatch.mp3" />
+			</item>
+			
+			<item id="word_herbivore" isGroup="true" releaseDate="02/13/2012" letter="h" >
+				<title><![CDATA[Herbivore]]></title>
+				<image preload="false" id="image" url="sections/woofster/images/dictionary/10_herbivore.png" />
+				<audio preload="false" type="audio" id="word_vo" url="audio/woofster/dictionary/woofster_word_herbivore.mp3" />
+				<audio preload="false" type="audio" id="definition_vo" url="audio/woofster/dictionary/woofster_def_herbivore.mp3" />
+			</item>
+			
+			<item id="word_hero" isGroup="true" releaseDate="03/26/2012" letter="h" >
+				<title><![CDATA[Hero]]></title>
+				<image preload="false" id="image" url="sections/woofster/images/dictionary/20_hero.png" />
+				<audio preload="false" type="audio" id="word_vo" url="audio/woofster/dictionary/woofster_word_hero.mp3" />
+				<audio preload="false" type="audio" id="definition_vo" url="audio/woofster/dictionary/woofster_def_hero.mp3" />
+			</item>
+			
+			<item id="word_invent" isGroup="true" releaseDate="03/12/2012" letter="i" >
+				<title><![CDATA[Invent]]></title>
+				<image preload="false" id="image" url="sections/woofster/images/dictionary/45_invent.png" />
+				<audio preload="false" type="audio" id="word_vo" url="audio/woofster/dictionary/woofster_word_invent.mp3" />
+				<audio preload="false" type="audio" id="definition_vo" url="audio/woofster/dictionary/woofster_def_invent.mp3" />
+			</item>
+			
+			<item id="word_jester" isGroup="true" releaseDate="03/19/2012" letter="j" >
+				<title><![CDATA[Jester]]></title>
+				<image preload="false" id="image" url="sections/woofster/images/dictionary/40_jester.png" />
+				<audio preload="false" type="audio" id="word_vo" url="audio/woofster/dictionary/woofster_word_jester.mp3" />
+				<audio preload="false" type="audio" id="definition_vo" url="audio/woofster/dictionary/woofster_def_jester.mp3" />
+			</item>
+			
+			<item id="word_lather" isGroup="true" releaseDate="09/26/2011" letter="l" >
+				<title><![CDATA[Lather]]></title>
+				<image preload="false" id="image" url="sections/woofster/images/dictionary/03_lather.png" />
+				<audio preload="false" type="audio" id="word_vo" url="audio/woofster/dictionary/woofster_word_lather.mp3" />
+				<audio preload="false" type="audio" id="definition_vo" url="audio/woofster/dictionary/woofster_def_lather.mp3" />
+			</item>
+			
+			<item id="word_map" isGroup="true" releaseDate="05/21/2012" letter="m" >
+				<title><![CDATA[Map]]></title>
+				<image preload="false" id="image" url="sections/woofster/images/dictionary/33_map.png" />
+				<audio preload="false" type="audio" id="word_vo" url="audio/woofster/dictionary/woofster_word_map.mp3" />
+				<audio preload="false" type="audio" id="definition_vo" url="audio/woofster/dictionary/woofster_def_map.mp3" />
+			</item>
+			
+			<item id="word_math" isGroup="true" releaseDate="06/25/2012" letter="m" >
+				<title><![CDATA[Math]]></title>
+				<image preload="false" id="image" url="sections/woofster/images/dictionary/13_math.png" />
+				<audio preload="false" type="audio" id="word_vo" url="audio/woofster/dictionary/woofster_word_math.mp3" />
+				<audio preload="false" type="audio" id="definition_vo" url="audio/woofster/dictionary/woofster_def_math.mp3" />
+			</item>
+				
+			<item id="word_menacing" isGroup="true" releaseDate="09/05/2011" letter="m" >
+				<title><![CDATA[Menacing]]></title>
+				<image preload="false" id="image" url="sections/woofster/images/dictionary/01_menacing.png" />
+				<audio preload="false" type="audio" id="word_vo" url="audio/woofster/dictionary/woofster_word_menacing.mp3" />
+				<audio preload="false" type="audio" id="definition_vo" url="audio/woofster/dictionary/woofster_def_menacing.mp3" />
+			</item>
+			
+			
+			<item id="word_mend" isGroup="true" releaseDate="10/24/2011" letter="m" >
+				<title><![CDATA[Mend]]></title>
+				<image preload="false" id="image" url="sections/woofster/images/dictionary/05_mend.png" />
+				<audio preload="false" type="audio" id="word_vo" url="audio/woofster/dictionary/woofster_word_mend.mp3" />
+				<audio preload="false" type="audio" id="definition_vo" url="audio/woofster/dictionary/woofster_def_mend.mp3" />
+			</item>
+			
+			<item id="word_mosaic" isGroup="true" releaseDate="07/23/2012" letter="m" >
+				<title><![CDATA[Mosaic]]></title>
+				<image preload="false" id="image" url="sections/woofster/images/dictionary/42_mosaic.png" />
+				<audio preload="false" type="audio" id="word_vo" url="audio/woofster/dictionary/woofster_word_mosaic.mp3" />
+				<audio preload="false" type="audio" id="definition_vo" url="audio/woofster/dictionary/woofster_def_mosaic.mp3" />
+			</item>
+			
+			<item id="word_museum" isGroup="true" releaseDate="07/09/2012" letter="m" >
+				<title><![CDATA[Museum]]></title>
+				<image preload="false" id="image" url="sections/woofster/images/dictionary/15_museum.png" />
+				<audio preload="false" type="audio" id="word_vo" url="audio/woofster/dictionary/woofster_word_museum.mp3" />
+				<audio preload="false" type="audio" id="definition_vo" url="audio/woofster/dictionary/woofster_def_museum.mp3" />
+			</item>
+			
+			<item id="word_nervous" isGroup="true" releaseDate="10/17/2011" letter="n" >
+				<title><![CDATA[Nervous]]></title>
+				<image preload="false" id="image" url="sections/woofster/images/dictionary/41_nervous.png" />
+				<audio preload="false" type="audio" id="word_vo" url="audio/woofster/dictionary/woofster_word_nervous.mp3" />
+				<audio preload="false" type="audio" id="definition_vo" url="audio/woofster/dictionary/woofster_def_nervous.mp3" />
+			</item>
+			
+			<item id="word_nutritious" isGroup="true" releaseDate="01/23/2012" letter="n" >
+				<title><![CDATA[Nutritious]]></title>
+				<image preload="false" id="image" url="sections/woofster/images/dictionary/44_nutritious.png" />
+				<audio preload="false" type="audio" id="word_vo" url="audio/woofster/dictionary/woofster_word_nutritious.mp3" />
+				<audio preload="false" type="audio" id="definition_vo" url="audio/woofster/dictionary/woofster_def_nutritious.mp3" />
+			</item>
+			
+			
+			<item id="word_observe" isGroup="true" releaseDate="04/02/2012" letter="o" >
+				<title><![CDATA[Observe]]></title>
+				<image preload="false" id="image" url="sections/woofster/images/dictionary/21_observe.png" />
+				<audio preload="false" type="audio" id="word_vo" url="audio/woofster/dictionary/woofster_word_observe.mp3" />
+				<audio preload="false" type="audio" id="definition_vo" url="audio/woofster/dictionary/woofster_def_observe.mp3" />
+			</item>
+			
+			<item id="word_orbit" isGroup="true" releaseDate="08/27/2012" letter="o" >
+				<title><![CDATA[Orbit]]></title>
+				<image preload="false" id="image" url="sections/woofster/images/dictionary/37_orbit.png" />
+				<audio preload="false" type="audio" id="word_vo" url="audio/woofster/dictionary/woofster_word_orbit.mp3" />
+				<audio preload="false" type="audio" id="definition_vo" url="audio/woofster/dictionary/woofster_def_orbit.mp3" />
+			</item>
+			
+			<item id="word_percussion" isGroup="true" releaseDate="07/02/2012" letter="p" >
+				<title><![CDATA[Percussion]]></title>
+				<image preload="false" id="image" url="sections/woofster/images/dictionary/39_percussion.png" />
+				<audio preload="false" type="audio" id="word_vo" url="audio/woofster/dictionary/woofster_word_percussion.mp3" />
+				<audio preload="false" type="audio" id="definition_vo" url="audio/woofster/dictionary/woofster_def_percussion.mp3" />
+			</item>
+			
+			<item id="word_pointilism" isGroup="true" releaseDate="07/30/2012" letter="p" >
+				<title><![CDATA[Pointilism]]></title>
+				<image preload="false" id="image" url="sections/woofster/images/dictionary/46_pointilism.png" />
+				<audio preload="false" type="audio" id="word_vo" url="audio/woofster/dictionary/woofster_word_pointilism.mp3" />
+				<audio preload="false" type="audio" id="definition_vo" url="audio/woofster/dictionary/woofster_def_pointilism.mp3" />
+			</item>
+			
+			<item id="word_prairie" isGroup="true" releaseDate="09/12/2011" letter="p" >
+				<title><![CDATA[Prairie]]></title>
+				<image preload="false" id="image" url="sections/woofster/images/dictionary/02_prairie.png" />
+				<audio preload="false" type="audio" id="word_vo" url="audio/woofster/dictionary/woofster_word_prairie.mp3" />
+				<audio preload="false" type="audio" id="definition_vo" url="audio/woofster/dictionary/woofster_def_prairie.mp3" />
+			</item>
+			
+			<item id="word_proud" isGroup="true" releaseDate="01/02/2012" letter="p" >
+				<title><![CDATA[Proud]]></title>
+				<image preload="false" id="image" url="sections/woofster/images/dictionary/49_proud.png" />
+				<audio preload="false" type="audio" id="word_vo" url="audio/woofster/dictionary/woofster_word_proud.mp3" />
+				<audio preload="false" type="audio" id="definition_vo" url="audio/woofster/dictionary/woofster_def_proud.mp3" />
+			</item>
+			
+			<item id="word_quicksand" isGroup="true" releaseDate="06/11/2012" letter="q" >
+				<title><![CDATA[Quicksand]]></title>
+				<image preload="false" id="image" url="sections/woofster/images/dictionary/16_quicksand.png" />
+				<audio preload="false" type="audio" id="word_vo" url="audio/woofster/dictionary/woofster_word_quicksand.mp3" />
+				<audio preload="false" type="audio" id="definition_vo" url="audio/woofster/dictionary/woofster_def_quicksand.mp3" />
+			</item>
+			
+			<item id="word_recipe" isGroup="true" releaseDate="12/12/2011" letter="r" >
+				<title><![CDATA[Recipe]]></title>
+				<image preload="false" id="image" url="sections/woofster/images/dictionary/34_recipe.png" />
+				<audio preload="false" type="audio" id="word_vo" url="audio/woofster/dictionary/woofster_word_recipe.mp3" />
+				<audio preload="false" type="audio" id="definition_vo" url="audio/woofster/dictionary/woofster_def_recipe.mp3" />
+			</item>
+			
+			<item id="word_ripe" isGroup="true" releaseDate="10/31/2011" letter="r" >
+				<title><![CDATA[Ripe]]></title>
+				<image preload="false" id="image" url="sections/woofster/images/dictionary/06_ripe.png" />
+				<audio preload="false" type="audio" id="word_vo" url="audio/woofster/dictionary/woofster_word_ripe.mp3" />
+				<audio preload="false" type="audio" id="definition_vo" url="audio/woofster/dictionary/woofster_def_ripe.mp3" />
+			</item>
+			
+			<item id="word_resourceful" isGroup="true" releaseDate="01/16/2012" letter="r" >
+				<title><![CDATA[resourceful]]></title>
+				<image preload="false" id="image" url="sections/woofster/images/dictionary/51_resourceful.png" />
+				<audio preload="false" type="audio" id="word_vo" url="audio/woofster/dictionary/woofster_word_resourceful.mp3" />
+				<audio preload="false" type="audio" id="definition_vo" url="audio/woofster/dictionary/woofster_def_resourceful.mp3" />
+			</item>
+			
+			
+			<item id="word_robot" isGroup="true" releaseDate="04/09/2012" letter="r" >
+				<title><![CDATA[Robot]]></title>
+				<image preload="false" id="image" url="sections/woofster/images/dictionary/36_robot.png" />
+				<audio preload="false" type="audio" id="word_vo" url="audio/woofster/dictionary/woofster_word_robot.mp3" />
+				<audio preload="false" type="audio" id="definition_vo" url="audio/woofster/dictionary/woofster_def_robot.mp3" />
+			</item>
+			
+			<item id="word_saddle" isGroup="true" releaseDate="02/20/2012" letter="s" >
+				<title><![CDATA[Saddle]]></title>
+				<image preload="false" id="image" url="sections/woofster/images/dictionary/08_saddle.png" />
+				<audio preload="false" type="audio" id="word_vo" url="audio/woofster/dictionary/woofster_word_saddle.mp3" />
+				<audio preload="false" type="audio" id="definition_vo" url="audio/woofster/dictionary/woofster_def_saddle.mp3" />
+			</item>
+			
+			<item id="word_shrink" isGroup="true" releaseDate="01/09/2012" letter="s" >
+				<title><![CDATA[Shrink]]></title>
+				<image preload="false" id="image" url="sections/woofster/images/dictionary/52_shrink.png" />
+				<audio preload="false" type="audio" id="word_vo" url="audio/woofster/dictionary/woofster_word_shrink.mp3" />
+				<audio preload="false" type="audio" id="definition_vo" url="audio/woofster/dictionary/woofster_def_shrink.mp3" />
+			</item>
+			
+			<item id="word_sphinx" isGroup="true" releaseDate="06/04/2012" letter="s" >
+				<title><![CDATA[Sphinx]]></title>
+				<image preload="false" id="image" url="sections/woofster/images/dictionary/07_sphinx.png" />
+				<audio preload="false" type="audio" id="word_vo" url="audio/woofster/dictionary/woofster_word_sphinx.mp3" />
+				<audio preload="false" type="audio" id="definition_vo" url="audio/woofster/dictionary/woofster_def_sphinx.mp3" />
+			</item>
+			
+			<item id="word_spring" isGroup="true" releaseDate="03/05/2012" letter="s" >
+				<title><![CDATA[Spring]]></title>
+				<image preload="false" id="image" url="sections/woofster/images/dictionary/12_spring.png" />
+				<audio preload="false" type="audio" id="word_vo" url="audio/woofster/dictionary/woofster_word_spring.mp3" />
+				<audio preload="false" type="audio" id="definition_vo" url="audio/woofster/dictionary/woofster_def_spring.mp3" />
+			</item>
+			
+			<item id="word_sturdy" isGroup="true" releaseDate="11/21/2011" letter="s" >
+				<title><![CDATA[Sturdy]]></title>
+				<image preload="false" id="image" url="sections/woofster/images/dictionary/43_sturdy.png" />
+				<audio preload="false" type="audio" id="word_vo" url="audio/woofster/dictionary/woofster_word_sturdy.mp3" />
+				<audio preload="false" type="audio" id="definition_vo" url="audio/woofster/dictionary/woofster_def_sturdy.mp3" />
+			</item>
+			
+			<item id="word_teamwork" isGroup="true" releaseDate="11/14/2011" letter="t" >
+				<title><![CDATA[Teamwork]]></title>
+				<image preload="false" id="image" url="sections/woofster/images/dictionary/22_teamwork.png" />
+				<audio preload="false" type="audio" id="word_vo" url="audio/woofster/dictionary/woofster_word_teamwork.mp3" />
+				<audio preload="false" type="audio" id="definition_vo" url="audio/woofster/dictionary/woofster_def_teamwork.mp3" />
+			</item>
+			
+			<item id="word_variety" isGroup="true" releaseDate="11/07/2011" letter="v" >
+				<title><![CDATA[Variety]]></title>
+				<image preload="false" id="image" url="sections/woofster/images/dictionary/19_variety.png" />
+				<audio preload="false" type="audio" id="word_vo" url="audio/woofster/dictionary/woofster_word_variety.mp3" />
+				<audio preload="false" type="audio" id="definition_vo" url="audio/woofster/dictionary/woofster_def_variety.mp3" />
+			</item>
+			
+			<item id="word_woodwind" isGroup="true" releaseDate="08/20/2012" letter="w" >
+				<title><![CDATA[Woodwind]]></title>
+				<image preload="false" id="image" url="sections/woofster/images/dictionary/14_woodwind.png" />
+				<audio preload="false" type="audio" id="word_vo" url="audio/woofster/dictionary/woofster_word_woodwind.mp3" />
+				<audio preload="false" type="audio" id="definition_vo" url="audio/woofster/dictionary/woofster_def_woodwind.mp3" />
+			</item>	
+			
+		</module>
+	</modules>
+</section>

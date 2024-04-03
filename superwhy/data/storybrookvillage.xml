@@ -1,0 +1,123 @@
+<section id="STORYBROOK_VILLAGE" hasSponsorBar="true">
+	<title><![CDATA[SUPER WHY! . STORYBROOK VILLAGE | PBS KIDS]]></title>
+	<swf url="sections/storybrookvillage/storybrookvillage.swf" />	
+	<libraries>
+		<library id="burbankbigcdttbdembedded" url="libraries/burbankbigcdttbdembedded.swf" type="font" name="BurbankBigCdTTBdEmbedded" font="BurbankBigCdTTBdEmbeddedFont" />
+	</libraries>
+	
+	<preloadAssets>	
+		<asset isGroup = "true" id="intro">
+			<asset type="audio" id="intro1" url="sections/storybrookvillage/details/syweb29whyatt_02.mp3" />
+			<asset type="audio" id="intro2" url="sections/storybrookvillage/details/syweb30whyatt_06.mp3" />
+		</asset>
+		<titleAssets id="titles" isGroup="true">
+			<asset type="audio" id="rapunzeltower" url="sections/storybrookvillage/details/syweb31whyatt_05.mp3" />
+			<asset type="audio" id="shoeshop" url="sections/storybrookvillage/details/syweb33whyatt_01-01.mp3" />
+			<asset type="audio" id="peacastle" url="sections/storybrookvillage/details/syweb35whyatt_02.mp3" />
+			<asset type="audio" id="cowjumpedbook" url="sections/storybrookvillage/details/syweb37whyatt_01.mp3" />
+			<asset type="audio" id="library" url="sections/storybrookvillage/details/syweb39whyatt_02.mp3" />
+			<asset type="audio" id="windmill" url="sections/storybrookvillage/details/syweb41whyatt_04.mp3" />
+			<asset type="audio" id="presentsstore" url="sections/storybrookvillage/details/syweb43whyatt_01.mp3" />
+			<asset type="audio" id="oldshoe" url="sections/storybrookvillage/details/syweb47whyatt_05.mp3" />
+			<asset type="audio" id="schoolhouse" url="sections/storybrookvillage/details/syweb49whyatt_01.mp3" />
+			<asset type="audio" id="pumpkinhouse" url="sections/storybrookvillage/details/syweb45whyatt_03.mp3" />
+			<asset type="audio" id="bank" url="sections/storybrookvillage/details/syweb51whyatt_02.mp3" />
+			<asset type="audio" id="sweetshop" url="sections/storybrookvillage/details/syweb53whyatt_03.mp3" />
+			<asset type="audio" id="goosestatue" url="sections/storybrookvillage/details/syweb56whyatt_01.mp3" />
+			<asset type="audio" id="cafe" url="sections/storybrookvillage/details/syweb58whyatt_02.mp3" />
+			<asset type="audio" id="giantcastle" url="sections/storybrookvillage/details/syweb60whyatt_06.mp3" />
+		</titleAssets>
+	</preloadAssets>
+	
+	<loadAssets>		
+		<asset isGroup = "true" id="rapunzeltower">
+			<asset type="image" id="detailImage" url="sections/storybrookvillage/details/rapunzeltower.swf" />
+			<asset type="audio" id="detailAudio" url="sections/storybrookvillage/details/syweb32whyatt_03.mp3" />
+			<title><![CDATA[Rapunzel's Tower]]></title>
+		</asset>
+
+		<asset isGroup = "true" id="shoeshop">
+			<asset type="image" id="detailImage" url="sections/storybrookvillage/details/shoeshop.swf" />
+			<asset type="audio" id="detailAudio" url="sections/storybrookvillage/details/syweb34whyatt_03_edit.mp3" />
+			<title><![CDATA[Cinderella's Shoe Shop]]></title>
+		</asset>
+
+		<asset isGroup = "true" id="peacastle">
+			<asset type="image" id="detailImage" url="sections/storybrookvillage/details/peacastle.swf" />
+			<asset type="audio" id="detailAudio" url="sections/storybrookvillage/details/syweb36whyatt_01.mp3" />
+			<title><![CDATA[Princess Pea's Castle]]></title>
+		</asset>
+		
+		<asset isGroup = "true" id="cowjumpedbook">
+			<asset type="image" id="detailImage" url="sections/storybrookvillage/details/cowjumpedbook.swf" />
+			<asset type="audio" id="detailAudio" url="sections/storybrookvillage/details/syweb38whyatt_01.mp3" />
+			<title><![CDATA[The Cow Jumped Over The Moon]]></title>
+		</asset>
+		
+		<asset isGroup = "true" id="library">
+			<asset type="image" id="detailImage" url="sections/storybrookvillage/details/library.swf" />
+			<asset type="audio" id="detailAudio" url="sections/storybrookvillage/details/syweb40whyatt_02.mp3" />
+			<title><![CDATA[Storybrook Village Library]]></title>
+		</asset>
+
+		<asset isGroup = "true" id="windmill">
+			<asset type="image" id="detailImage" url="sections/storybrookvillage/details/windmill.swf" />
+			<asset type="audio" id="detailAudio" url="sections/storybrookvillage/details/syweb42whyatt_03.mp3" />
+			<title><![CDATA[Windmill]]></title>
+		</asset>
+
+		<asset isGroup = "true" id="presentsstore">
+			<asset type="image" id="detailImage" url="sections/storybrookvillage/details/presentsstore.swf" />
+			<asset type="audio" id="detailAudio" url="sections/storybrookvillage/details/syweb44whyatt_02.mp3" />
+			<title><![CDATA[Mama and Papa Bear's Presents Store]]></title>
+		</asset>
+		
+		<asset isGroup = "true" id="pumpkinhouse">
+			<asset type="image" id="detailImage" url="sections/storybrookvillage/details/pumpkinhouse.swf" />
+			<asset type="audio" id="detailAudio" url="sections/storybrookvillage/details/syweb46whyatt_03.mp3" />
+			<title><![CDATA[Peter, Peter Pumpkin Eater's House]]></title>
+		</asset>
+		
+		<asset isGroup = "true" id="oldshoe">
+			<asset type="image" id="detailImage" url="sections/storybrookvillage/details/oldshoe.swf" />
+			<asset type="audio" id="detailAudio" url="sections/storybrookvillage/details/syweb48whyatt_04.mp3" />
+			<title><![CDATA[The Old Lady's Shoe]]></title>
+		</asset>
+		
+		<asset isGroup = "true" id="schoolhouse">
+			<asset type="image" id="detailImage" url="sections/storybrookvillage/details/schoolhouse.swf" />
+			<asset type="audio" id="detailAudio" url="sections/storybrookvillage/details/syweb50whyatt_02.mp3" />
+			<title><![CDATA[Storybrook Village Schoolhouse]]></title>
+		</asset>
+
+		<asset isGroup = "true" id="bank">
+			<asset type="image" id="detailImage" url="sections/storybrookvillage/details/bank.swf" />
+			<asset type="audio" id="detailAudio" url="sections/storybrookvillage/details/syweb52whyatt_02.mp3" />
+			<title><![CDATA[Storybrook Village Bank]]></title>
+		</asset>
+
+		<asset isGroup = "true" id="sweetshop">
+			<asset type="image" id="detailImage" url="sections/storybrookvillage/details/sweetshop.swf" />
+			<asset type="audio" id="detailAudio" url="sections/storybrookvillage/details/syweb54whyatt_04.mp3" />
+			<title><![CDATA[Hansel & Gretel's Sweet Shop]]></title>
+		</asset>
+
+		<asset isGroup = "true" id="goosestatue">
+			<asset type="image" id="detailImage" url="sections/storybrookvillage/details/goosestatue.swf" />
+			<asset type="audio" id="detailAudio" url="sections/storybrookvillage/details/syweb57whyatt_04.mp3" />
+			<title><![CDATA[Mother Goose Statue]]></title>
+		</asset>		
+		
+		<asset isGroup = "true" id="cafe">
+			<asset type="image" id="detailImage" url="sections/storybrookvillage/details/cafe.swf" />
+			<asset type="audio" id="detailAudio" url="sections/storybrookvillage/details/syweb59whyatt_04.mp3" />
+			<title><![CDATA[Miss Muffet's Tea Cafe]]></title>
+		</asset>
+		
+		<asset isGroup = "true" id="giantcastle">
+			<asset type="image" id="detailImage" url="sections/storybrookvillage/details/giantcastle.swf" />
+			<asset type="audio" id="detailAudio" url="sections/storybrookvillage/details/syweb61whyatt_02.mp3" />
+			<title><![CDATA[The Giant's Castle]]></title>
+		</asset>		
+	</loadAssets>
+</section>

@@ -1,0 +1,232 @@
+<section id="ALPHA_PIG" hasSponsorBar="true">
+	<title><![CDATA[SUPER WHY! . CHARACTES . ALPHA PIG | PBS KIDS]]></title>
+	<swf url="sections/alphapig/alphapig.swf" />
+	<libraries>
+		<library id="burbankbigcdttbdembedded" url="libraries/burbankbigcdttbdembedded.swf" type="font" name="BurbankBigCdTTBdEmbedded" font="BurbankBigCdTTBdEmbeddedFont" />
+		<library id="modules" url="libraries/modules.swf" />
+	</libraries>
+	<assets>
+		<promos id="promos" isGroup="true">
+			<promo id="alphapigconcentration" location="game/alphapigconcentration" url="promos/featurepromo_alphapig_04.jpg"></promo>
+		</promos>
+		<audio id="audio" isGroup="true">
+			<audio id="back" type="audio" url="audio/alphapig/pig_button_back.mp3" />
+			<audio id="close" type="audio" url="audio/alphapig/pig_button_close.mp3" />
+			<audio id="go" type="audio" url="audio/alphapig/pig_button_go.mp3" />
+			<audio id="next" type="audio" url="audio/alphapig/pig_button_next.mp3" />
+			<audio id="pause" type="audio" url="audio/alphapig/pig_button_pause.mp3" />
+			<audio id="play" type="audio" url="audio/alphapig/pig_button_play.mp3" />
+			<audio id="printPhase1" type="audio" url="audio/alphapig/pig_button_print.mp3" />
+			<audio id="stop" type="audio" url="audio/alphapig/pig_button_stop.mp3" />
+			<audio id="videos" type="audio" url="audio/alphapig/pig_button_watch.mp3" />
+			<audio id="transition" type="audio" url="audio/alphapig/transition_pig.mp3" />
+		</audio>
+	</assets>
+	<modules>		
+		<module id="games" isGroup="true">
+			<game 
+				id="alphapigconcentration" 
+				url="sections/games/images/ap_concentration_large.jpg" 
+				location="game/alphapigconcentration"
+				>
+				<title><![CDATA[Amazing Alphabet Match Up]]></title>
+			</game>
+			<game 
+				id="alphapigbingo" 
+				url="sections/games/images/alphapigbingo_large.jpg" 
+				location="game/alphapigbingo"
+				>
+				<title><![CDATA[Lickety Letter Bingo]]></title>
+			</game>
+			<game 
+				id="paintbyletter" 
+				url="sections/games/images/alphapigspaintbyletter_large.jpg" 
+				location="game/paintbyletter"
+				>
+				<title><![CDATA[Paint By Letter]]></title>
+			</game>
+			<game 
+				id="alphabricks" 
+				url="sections/games/images/alphabricks_large.jpg" 
+				location="game/alphabricks"
+				>
+				<title><![CDATA[Alpha Bricks]]></title>
+			</game>
+			<game 
+				id="superreaderchallenge" 
+				url="sections/games/images/superreaderchallenge_large.jpg" 
+				location="game/superreaderchallenge"
+				>
+				<title><![CDATA[Super Readers Challenge]]></title>
+			</game>			
+		</module>
+		<module id="videos" isGroup="true">	
+			<video 
+				id="pig_game_pig" 
+				url="sections/videos/images/pig_game_pig.jpg" 
+				video="sections/videos/pig_game_pig.flv"
+				>
+				<title><![CDATA[Alpha Pig "PIG" Game]]></title>
+			</video>
+			<video 
+				id="lickety_letters_1" 
+				url="sections/videos/images/LicketyLettersV1_200x150.jpg" 
+				video="sections/videos/LicketyLettersV1_200x150.flv"
+				>
+				<title><![CDATA[Lickety Letters - Version 1]]></title>
+			</video>
+			<video 
+				id="alphapig_abc_music_video" 
+				url="sections/videos/images/alphapig_abc_music_video.jpg" 
+				video="sections/videos/alphapig_abc_music_video.flv"
+				>
+				<title><![CDATA[ABC, Sing with Me]]></title>
+			</video>
+			<video 
+				id="fairytale_friends" 
+				url="sections/videos/images/FairytaleFriends200x150.jpg" 
+				video="sections/videos/FairytaleFriends200x150.flv"
+				>
+				<title><![CDATA[Fairytale Friends]]></title>
+			</video>
+				<video 
+				id="three_pigs" 
+				url="sections/videos/images/superstuff_transform_three_pigs_book.jpg" 
+				video="sections/videos/superstuff_transform_three_pigs_book.flv"
+				>
+				<title><![CDATA[It's Time to Transform!]]></title>
+			</video>
+			<video 
+				id="hip_hip_hurray" 
+				url="sections/videos/images/superstuff_hip_hip_hurray_sequence.jpg" 
+				video="sections/videos/superstuff_hip_hip_hurray_sequence.flv"
+				>
+				<title><![CDATA[Hip Hip Hurray!]]></title>
+			</video>
+			<video 
+				id="little_bo_peep" 
+				url="sections/videos/images/pig_little_bo_peep.jpg" 
+				video="sections/videos/pig_little_bo_peep.flv"
+				>
+				<title><![CDATA[Little Bo Peep]]></title>
+			</video>
+			<video 
+				id="little_red_riding_hood" 
+				url="sections/videos/images/pig_little_red_riding_hood.jpg" 
+				video="sections/videos/pig_little_red_riding_hood.flv"
+				>
+				<title><![CDATA[Little Red Riding Hood]]></title>
+			</video>
+			<video 
+				id="the_three_little_pigs" 
+				url="sections/videos/images/pig_the_three_little_pigs.jpg" 
+				video="sections/videos/pig_the_three_little_pigs.flv"
+				>
+				<title><![CDATA[The Three Little Pigs]]></title>
+	    	</video>
+			<video 
+				id="thumbelina" 
+				url="sections/videos/images/pig_thumbelina.jpg" 
+				video="sections/videos/pig_thumbelina.flv"
+				>
+				<title><![CDATA[Thumbelina]]></title>
+			</video>
+			<video 
+				id="thumbelina_2" 
+				url="sections/videos/images/pig_thumbelina2.jpg" 
+				video="sections/videos/pig_thumbelina2.flv"
+				>
+				<title><![CDATA[Thumbelina]]></title>
+			</video>
+			<video 
+				id="the_ugly_duckling" 
+				url="sections/videos/images/pig_the_ugly_duckling.jpg" 
+				video="sections/videos/pig_the_ugly_duckling.flv"
+				>
+				<title><![CDATA[The Ugly Duckling]]></title>
+			</video>
+			</module>
+		<module id="printablesPhase1" isGroup="true">		
+			<printable 
+				id="ap_large_printable2" 
+				isGroup="true" 
+				orientation="portrait" 
+				>
+				<image id="thumbnail" url="sections/printables/images/printable_alphapig2_lg.jpg" />
+				<image id="preview" url="sections/printables/images/printable_alphapig2_lg_preview.gif" />
+				<image id="printable" preload="false" url="sections/printables/ap_large_printable2.swf" />			
+				<title><![CDATA[Alpha Pig Coloring Page]]></title>
+			</printable>
+			<printable 
+				id="ap_large_printable3" 
+				isGroup="true" 
+				orientation="portrait" 
+				>
+				<image id="thumbnail" url="sections/printables/images/printable_alphapig3_lg.jpg" />
+				<image id="preview" url="sections/printables/images/printable_alphapig3_lg_preview.gif" />
+				<image id="printable" preload="false" url="sections/printables/ap_large_printable3.swf" />			
+				<title><![CDATA[Alpha Pig Coloring Page]]></title>
+			</printable>
+			<printable 
+				id="ap_large_printable4" 
+				isGroup="true" 
+				orientation="landscape" 
+				>
+				<image id="thumbnail" url="sections/printables/images/printable_alphapig4_lg.jpg" />
+				<image id="preview" url="sections/printables/images/printable_alphapig4_lg_preview.gif" />
+				<image id="printable" preload="false" url="sections/printables/ap_large_printable4.swf" />			
+				<title><![CDATA[Pig Coloring Page]]></title>
+			</printable>
+			<printable 
+				id="ap_large_printable" 
+				isGroup="true" 
+				orientation="portrait" 
+				>
+				<image id="thumbnail" url="sections/printables/images/printable_alphapig_lg.jpg" />
+				<image id="preview" url="sections/printables/images/printable_alphapig_lg_preview.gif" />
+				<image id="printable" preload="false" url="sections/printables/ap_large_printable.swf" />			
+				<title><![CDATA[Alpha Pig Coloring Page]]></title>
+			</printable>
+			<printable 
+				id="wordfind_ap_printable" 
+				isGroup="true" 
+				orientation="portrait" 
+				>
+				<image id="thumbnail" url="sections/printables/images/printable_alphapig_wf.jpg" />
+				<image id="preview" url="sections/printables/images/printable_alphapig_wf_preview.gif" />
+				<image id="printable" preload="false" url="sections/printables/wordfind_ap_printable.swf" />			
+				<title><![CDATA[Alpha Pig Word Find]]></title>
+			</printable>
+			<printable 
+				id="sr_large_printable1" 
+				isGroup="true" 
+				orientation="portrait" 
+				>
+				<image id="thumbnail" url="sections/printables/images/printable_superreaders1_lg.jpg" />
+				<image id="preview" url="sections/printables/images/printable_superreaders1_lg_preview.gif" />
+				<image id="printable" preload="false" url="sections/printables/sr_large_printable1.swf" />			
+				<title><![CDATA[SUPER WHY Coloring Page]]></title>
+			</printable>
+			<printable 
+				id="flying_printable" 
+				isGroup="true" 
+				orientation="landscape" 
+				>
+				<image id="thumbnail" url="sections/printables/images/printable_flying.jpg" />
+				<image id="preview" url="sections/printables/images/printable_flying_preview.gif" />
+				<image id="printable" preload="false" url="sections/printables/flying_printable.swf" />			
+				<title><![CDATA[Why Flyer Coloring Page]]></title>
+			</printable>
+			<printable 
+				id="superyou_printable" 
+				isGroup="true" 
+				orientation="landscape" 			 
+				>
+				<image id="thumbnail" url="sections/printables/images/printable_superyou.jpg" />
+				<image id="preview" url="sections/printables/images/printable_superyou_preview.gif" />
+				<image id="printable" preload="false" url="sections/printables/superyou_printable.swf" />			
+				<title><![CDATA[Super YOU Coloring Page]]></title>
+			</printable>
+		</module>
+	</modules>
+</section>

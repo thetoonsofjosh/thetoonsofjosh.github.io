@@ -1,0 +1,218 @@
+<section id="WONDER_RED" hasSponsorBar="true">
+	<title><![CDATA[SUPER WHY! . CHARACTERS . WONDER RED | PBS KIDS]]></title>
+	<swf url="sections/wonderred/wonderred.swf" />
+	<libraries>
+		<library id="burbankbigcdttbdembedded" url="libraries/burbankbigcdttbdembedded.swf" type="font" name="BurbankBigCdTTBdEmbedded" font="BurbankBigCdTTBdEmbeddedFont" />
+		<library id="modules" url="libraries/modules.swf" />
+	</libraries>	
+	<assets>
+		<promos id="promos" isGroup="true">
+			<promo id="wonderredconcentration" location="game/wonderredconcentration" url="promos/featurepromo_wonderred_06.jpg"></promo>
+		</promos>
+		<audio id="audio" isGroup="true">
+			<audio id="back" type="audio" url="audio/wonderred/red_button_back.mp3" />
+			<audio id="close" type="audio" url="audio/wonderred/red_button_close.mp3" />
+			<audio id="go" type="audio" url="audio/wonderred/red_button_go.mp3" />
+			<audio id="next" type="audio" url="audio/wonderred/red_button_next.mp3" />
+			<audio id="pause" type="audio" url="audio/wonderred/red_button_pause.mp3" />
+			<audio id="play" type="audio" url="audio/wonderred/red_button_play.mp3" />
+			<audio id="printPhase1" type="audio" url="audio/wonderred/red_button_print.mp3" />
+			<audio id="stop" type="audio" url="audio/wonderred/red_button_stop.mp3" />
+			<audio id="videos" type="audio" url="audio/wonderred/red_button_watch.mp3" />
+			<audio id="transition" type="audio" url="audio/wonderred/transition_red.mp3" />
+		</audio>
+	</assets>
+	<modules>		
+		<module id="games" isGroup="true">	
+			<game 
+				id="wonderredbingo" 
+				url="sections/games/images/wrBingo_large.jpg" 
+				location="game/wonderredbingo"
+				>
+				<title><![CDATA[Rhyme Time Bingo]]></title>
+			</game>
+			<game 
+				id="freezedance" 
+				url="sections/games/images/wrfd_large.jpg" 
+				location="game/freezedance"
+				>
+				<title><![CDATA[Freeze Dance Rhyming]]></title>
+			</game>
+			<game 
+				id="rhymenroll" 
+				url="sections/games/images/rhymenroll_large.jpg" 
+				location="game/rhymenroll"
+				>
+				<title><![CDATA[Rhyme N Roll]]></title>
+			</game>
+			<game 
+				id="superreaderchallenge" 
+				url="sections/games/images/superreaderchallenge_large.jpg" 
+				location="game/superreaderchallenge"
+				>
+				<title><![CDATA[Super Readers Challenge]]></title>
+			</game>
+		</module>
+		<module id="videos" isGroup="true">	
+			<video 
+				id="red_game_all" 
+				url="sections/videos/images/red_game_all.jpg" 
+				video="sections/videos/red_game_all.flv"
+				>
+				<title><![CDATA[Wonder Red "ALL" Game]]></title>
+				</video>
+			<video 
+				id="word_power" 
+				url="sections/videos/images/WordPower_200x150.jpg" 
+				video="sections/videos/WordPower_200x150.flv"
+				>
+				<title><![CDATA[Word Power]]></title>
+				</video>
+			<video 
+				id="red_rhyming_time" 
+				url="sections/videos/images/red_rhyming_time.jpg" 
+				video="sections/videos/red_rhyming_time.flv"
+				>
+				<title><![CDATA[Rhyming Time "UN/ALL"]]></title>
+			</video>			
+			<video 
+				id="fairytale_friends" 
+				url="sections/videos/images/FairytaleFriends200x150.jpg" 
+				video="sections/videos/FairytaleFriends200x150.flv"
+				>
+				<title><![CDATA[Fairytale Friends]]></title>
+				</video>
+			<video 
+				id="three_pigs" 
+				url="sections/videos/images/superstuff_transform_three_pigs_book.jpg" 
+				video="sections/videos/superstuff_transform_three_pigs_book.flv"
+				>
+				<title><![CDATA[It's Time to Transform!]]></title>
+			</video>
+			<video 
+				id="hip_hip_hurray" 
+				url="sections/videos/images/superstuff_hip_hip_hurray_sequence.jpg" 
+				video="sections/videos/superstuff_hip_hip_hurray_sequence.flv"
+				>
+				<title><![CDATA[Hip Hip Hurray!]]></title>
+			</video>
+			<video 
+				id="beauty_and_the_beast" 
+				url="sections/videos/images/red_beauty_and_the_beast.jpg" 
+				video="sections/videos/red_beauty_and_the_beast.flv"
+				>
+				<title><![CDATA[Beauty and the Beast]]></title>
+			</video>
+			<video 
+				id="the_frog_prince" 
+				url="sections/videos/images/red_the_frog_prince.jpg" 
+				video="sections/videos/red_the_frog_prince.flv"
+				>
+				<title><![CDATA[The Frog Prince]]></title>
+			</video>
+			<video 
+				id="goldilocks_and_the_three_bears" 
+				url="sections/videos/images/red_goldilocks_and_the_three_bears.jpg" 
+				video="sections/videos/red_goldilocks_and_the_three_bears.flv"
+				>
+				<title><![CDATA[Goldilocks and the Three Bears]]></title>
+			</video>
+			<video 
+				id="little_red_riding_hood" 
+				url="sections/videos/images/red_little_red_riding_hood.jpg" 
+				video="sections/videos/red_little_red_riding_hood.flv"
+				>
+				<title><![CDATA[Little Red Riding Hood]]></title>
+			</video>
+			<video 
+				id="rumpelstiltskin" 
+				url="sections/videos/images/red_rumpelstiltskin.jpg" 
+				video="sections/videos/red_rumpelstiltskin.flv"
+				>
+				<title><![CDATA[Rumpelstiltskin]]></title>
+			</video>
+			</module>
+		<module id="printablesPhase1" isGroup="true">				
+			<printable 
+				id="wr_large_printable2" 
+				isGroup="true" 
+				orientation="portrait" 
+				>
+				<image id="thumbnail" url="sections/printables/images/printable_wonderred2_lg.jpg" />
+				<image id="preview" url="sections/printables/images/printable_wonderred2_lg_preview.gif" />
+				<image id="printable" preload="false" url="sections/printables/wr_large_printable2.swf" />			
+				<title><![CDATA[Wonder Red Coloring Page]]></title>
+			</printable>
+			<printable 
+				id="wr_large_printable3" 
+				isGroup="true" 
+				orientation="portrait" 
+				>
+				<image id="thumbnail" url="sections/printables/images/printable_wonderred3_lg.jpg" />
+				<image id="preview" url="sections/printables/images/printable_wonderred3_lg_preview.gif" />
+				<image id="printable" preload="false" url="sections/printables/wr_large_printable3.swf" />			
+				<title><![CDATA[Wonder Red Coloring Page]]></title>
+			</printable>
+			<printable 
+				id="wr_large_printable4" 
+				isGroup="true" 
+				orientation="portrait" 
+				>
+				<image id="thumbnail" url="sections/printables/images/printable_wonderred4_lg.jpg" />
+				<image id="preview" url="sections/printables/images/printable_wonderred4_lg_preview.gif" />
+				<image id="printable" preload="false" url="sections/printables/wr_large_printable4.swf" />			
+				<title><![CDATA[Red Coloring Page]]></title>
+			</printable>
+			<printable 
+				id="wr_large_printable" 
+				isGroup="true" 
+				orientation="portrait" 
+				>
+				<image id="thumbnail" url="sections/printables/images/printable_wonderred_lg.jpg" />
+				<image id="preview" url="sections/printables/images/printable_wonderred_lg_preview.gif" />
+				<image id="printable" preload="false" url="sections/printables/wr_large_printable.swf" />			
+				<title><![CDATA[Wonder Red Coloring Page]]></title>
+			</printable>			
+			<printable 
+				id="wordfind_wr_printable" 
+				isGroup="true" 
+				orientation="portrait" 
+				>
+				<image id="thumbnail" url="sections/printables/images/printable_wonderred_wf.jpg" />
+				<image id="preview" url="sections/printables/images/printable_wonderred_wf_preview.gif" />
+				<image id="printable" preload="false" url="sections/printables/wordfind_wr_printable.swf" />			
+				<title><![CDATA[Wonder Red Word Find]]></title>
+			</printable>
+			<printable 
+				id="sr_large_printable1" 
+				isGroup="true" 
+				orientation="portrait" 
+				>
+				<image id="thumbnail" url="sections/printables/images/printable_superreaders1_lg.jpg" />
+				<image id="preview" url="sections/printables/images/printable_superreaders1_lg_preview.gif" />
+				<image id="printable" preload="false" url="sections/printables/sr_large_printable1.swf" />			
+				<title><![CDATA[SUPER WHY Coloring Page]]></title>
+			</printable>
+			<printable 
+				id="flying_printable" 
+				isGroup="true" 
+				orientation="landscape" 
+				>
+				<image id="thumbnail" url="sections/printables/images/printable_flying.jpg" />
+				<image id="preview" url="sections/printables/images/printable_flying_preview.gif" />
+				<image id="printable" preload="false" url="sections/printables/flying_printable.swf" />			
+				<title><![CDATA[Why Flyer Coloring Page]]></title>
+			</printable>
+			<printable 
+				id="superyou_printable" 
+				isGroup="true" 
+				orientation="landscape" 			 
+				>
+				<image id="thumbnail" url="sections/printables/images/printable_superyou.jpg" />
+				<image id="preview" url="sections/printables/images/printable_superyou_preview.gif" />
+				<image id="printable" preload="false" url="sections/printables/superyou_printable.swf" />			
+				<title><![CDATA[Super YOU Coloring Page]]></title>
+			</printable>
+		</module>
+	</modules>
+</section>

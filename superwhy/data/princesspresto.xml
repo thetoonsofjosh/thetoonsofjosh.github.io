@@ -1,0 +1,260 @@
+<section id="PRINCESS_PRESTO" hasSponsorBar="true">
+	<title><![CDATA[SUPER WHY! . CHARACTERS . PRINCESS PRESTO | PBS KIDS]]></title>
+	<swf url="sections/princesspresto/princesspresto.swf" />
+	<libraries>
+		<library id="burbankbigcdttbdembedded" url="libraries/burbankbigcdttbdembedded.swf" type="font" name="BurbankBigCdTTBdEmbedded" font="BurbankBigCdTTBdEmbeddedFont" />
+		<library id="modules" url="libraries/modules.swf" />
+	</libraries>	
+	<assets>
+		<promos id="promos" isGroup="true">
+			<promo id="cakemaker" location="game/cakegame" url="promos/featurepromo_cake.jpg"></promo>
+		</promos>
+		<audio id="audio" isGroup="true">
+			<audio id="back" type="audio" url="audio/princesspresto/pp_button_back.mp3" />
+			<audio id="close" type="audio" url="audio/princesspresto/pp_button_close.mp3" />
+			<audio id="go" type="audio" url="audio/princesspresto/pp_button_go.mp3" />
+			<audio id="next" type="audio" url="audio/princesspresto/pp_button_next.mp3" />
+			<audio id="pause" type="audio" url="audio/princesspresto/pp_button_pause.mp3" />
+			<audio id="play" type="audio" url="audio/princesspresto/pp_button_play.mp3" />
+			<audio id="printPhase1" type="audio" url="audio/princesspresto/pp_button_print.mp3" />
+			<audio id="stop" type="audio" url="audio/princesspresto/pp_button_stop.mp3" />
+			<audio id="videos" type="audio" url="audio/princesspresto/pp_button_watch.mp3" />
+			<audio id="transition" type="audio" url="audio/princesspresto/transition_princess.mp3" />
+		</audio>
+	</assets>
+	<modules>		
+		<module id="games" isGroup="true">	
+			<game 
+				id="princessprestoconcentration" 
+				url="sections/games/images/pp_concentration_large.jpg" 
+				location="game/princessprestoconcentration"
+				>
+				<title><![CDATA[Lovely Letter Match Up]]></title>
+			</game>
+			<game 
+				id="princessprestobingo" 
+				url="sections/games/images/ppBingo_large.jpg" 
+				location="game/princessprestobingo"
+				>
+				<title><![CDATA[Spectacular Sounds Bingo]]></title>
+			</game>
+			<game 
+				id="spellingbee" 
+				url="sections/games/images/pp_spellingbee_large.jpg" 
+				location="game/spellingbee"
+				>
+				<title><![CDATA[Spelling Bee]]></title>
+			</game>
+			<game 
+				id="superhero" 
+				url="sections/games/images/superhero_large.jpg" 
+				location="game/superhero"
+				>
+				<title><![CDATA[Superhero]]></title>
+			</game>
+			<game 
+				id="superreaderchallenge" 
+				url="sections/games/images/superreaderchallenge_large.jpg" 
+				location="game/superreaderchallenge"
+				>
+				<title><![CDATA[Super Readers Challenge]]></title>
+			</game>
+				
+		</module>
+		<module id="videos" isGroup="true">	
+			<video 
+				id="princess_game_sun" 
+				url="sections/videos/images/princess_game_sun.jpg" 
+				video="sections/videos/princess_game_sun.flv"
+				>
+				<title><![CDATA[Princess Presto "SUN" Game]]></title>
+				</video>
+			<video 
+				id="presto_song" 
+				url="sections/videos/images/Presto_200x150.jpg" 
+				video="sections/videos/Presto_200x150.flv"
+				>
+				<title><![CDATA[Presto! Song]]></title>
+			</video>
+			<video 
+				id="i_love_to_spell" 
+				url="sections/videos/images/princess_i_love_to_spell.jpg" 
+				video="sections/videos/princess_i_love_to_spell.flv"
+				>
+				<title><![CDATA[I Love to Spell "SING"]]></title>
+			</video>		
+			<video 
+				id="fairytale_friends" 
+				url="sections/videos/images/FairytaleFriends200x150.jpg" 
+				video="sections/videos/FairytaleFriends200x150.flv"
+				>
+				<title><![CDATA[Fairytale Friends]]></title>
+			</video>
+			<video 
+				id="three_pigs" 
+				url="sections/videos/images/superstuff_transform_three_pigs_book.jpg" 
+				video="sections/videos/superstuff_transform_three_pigs_book.flv"
+				>
+				<title><![CDATA[It's Time to Transform!]]></title>
+			</video>
+			<video 
+				id="hip_hip_hurray" 
+				url="sections/videos/images/superstuff_hip_hip_hurray_sequence.jpg" 
+				video="sections/videos/superstuff_hip_hip_hurray_sequence.flv"
+				>
+				<title><![CDATA[Hip Hip Hurray!]]></title>
+			</video>
+			<video 
+				id="boy_who_cried_wolf" 
+				url="sections/videos/images/princess_boy_who_cried_wolf.jpg" 
+				video="sections/videos/princess_boy_who_cried_wolf.flv"
+				>
+				<title><![CDATA[The Boy Who Cried Wolf]]></title>
+			</video>
+			<video 
+				id="cinderella" 
+				url="sections/videos/images/princess_cinderella.jpg" 
+				video="sections/videos/princess_cinderella.flv"
+				>
+				<title><![CDATA[Cinderella]]></title>
+			</video>
+				<video 
+				id="hansel_and_gretel" 
+				url="sections/videos/images/princess_hansel_and_gretel.jpg" 
+				video="sections/videos/princess_hansel_and_gretel.flv"
+				>
+				<title><![CDATA[Hansel and Gretel]]></title>
+			</video>
+				<video 
+				id="little_miss_muffet" 
+				url="sections/videos/images/princess_little_miss_muffet.jpg" 
+				video="sections/videos/princess_little_miss_muffet.flv"
+				>
+				<title><![CDATA[Little Miss Muffet]]></title>
+			</video>
+				<video 
+				id="rapunzel" 
+				url="sections/videos/images/princess_rapunzel.jpg" 
+				video="sections/videos/princess_rapunzel.flv"
+				>
+				<title><![CDATA[Rapunzel]]></title>
+			</video>
+			<video 
+				id="the_princess_and_the_pea" 
+				url="sections/videos/images/princess_the_princess_and_the_pea.jpg" 
+				video="sections/videos/princess_the_princess_and_the_pea.flv"
+				>
+				<title><![CDATA[The Princess and the Pea]]></title>
+			</video>
+				<video 
+				id="the_ugly_duckling" 
+				url="sections/videos/images/princess_the_ugly_duckling.jpg" 
+				video="sections/videos/princess_the_ugly_duckling.flv"
+				>
+				<title><![CDATA[The Ugly Duckling]]></title>
+			</video>
+		    </module>
+		<module id="printablesPhase1" isGroup="true">				
+			<printable 
+				id="pp_large_printable5" 
+				isGroup="true" 
+				orientation="landscape" 
+				>
+				<image id="thumbnail" url="sections/printables/images/printable_princesspresto5_lg.jpg" />
+				<image id="preview" url="sections/printables/images/printable_princesspresto5_lg_preview.gif" />
+				<image id="printable" preload="false" url="sections/printables/pp_large_printable5.swf" />			
+				<title><![CDATA[Princess Presto Halloween]]></title>
+			    </printable>
+				 <printable 
+				id="sr_large_printable2" 
+				isGroup="true" 
+				orientation="landscape" 
+				>
+				<image id="thumbnail" url="sections/printables/images/printable_superreaders2_lg.jpg" />
+				<image id="preview" url="sections/printables/images/printable_superreaders2_lg_preview.gif" />
+				<image id="printable" preload="false" url="sections/printables/sr_large_printable2.swf" />			
+				<title><![CDATA[SUPER WHY Halloween]]></title>
+			    </printable>
+			<printable 
+				id="pp_large_printable2" 
+				isGroup="true" 
+				orientation="portrait" 
+				>
+				<image id="thumbnail" url="sections/printables/images/printable_princesspresto2_lg.jpg" />
+				<image id="preview" url="sections/printables/images/printable_princesspresto2_lg_preview.gif" />
+				<image id="printable" preload="false" url="sections/printables/pp_large_printable2.swf" />			
+				<title><![CDATA[Princess Presto Coloring Page]]></title>
+			</printable>
+			<printable 
+				id="pp_large_printable3" 
+				isGroup="true" 
+				orientation="landscape" 
+				>
+				<image id="thumbnail" url="sections/printables/images/printable_princesspresto3_lg.jpg" />
+				<image id="preview" url="sections/printables/images/printable_princesspresto3_lg_preview.gif" />
+				<image id="printable" preload="false" url="sections/printables/pp_large_printable3.swf" />			
+				<title><![CDATA[Princess Presto Coloring Page]]></title>
+			</printable>
+			<printable 
+				id="pp_large_printable4" 
+				isGroup="true" 
+				orientation="landscape" 
+				>
+				<image id="thumbnail" url="sections/printables/images/printable_princesspresto4_lg.jpg" />
+				<image id="preview" url="sections/printables/images/printable_princesspresto4_lg_preview.gif" />
+				<image id="printable" preload="false" url="sections/printables/pp_large_printable4.swf" />			
+				<title><![CDATA[Princess Pea Coloring Page]]></title>
+			</printable>
+			<printable 
+				id="pp_large_printable" 
+				isGroup="true" 
+				orientation="portrait" 
+				>
+				<image id="thumbnail" url="sections/printables/images/printable_princess_lg.jpg" />
+				<image id="preview" url="sections/printables/images/printable_princess_lg_preview.gif" />
+				<image id="printable" preload="false" url="sections/printables/pp_large_printable.swf" />			
+				<title><![CDATA[Princess Presto Coloring Page]]></title>
+			</printable>			
+			<printable 
+				id="wordfind_pp_printable" 
+				isGroup="true" 
+				orientation="portrait" 
+				>
+				<image id="thumbnail" url="sections/printables/images/printable_princess_wf.jpg" />
+				<image id="preview" url="sections/printables/images/printable_princess_wf_preview.gif" />
+				<image id="printable" preload="false" url="sections/printables/wordfind_pp_printable.swf" />			
+				<title><![CDATA[Princess Presto Word Find]]></title>
+			</printable>
+			<printable 
+				id="sr_large_printable1" 
+				isGroup="true" 
+				orientation="portrait" 
+				>
+				<image id="thumbnail" url="sections/printables/images/printable_superreaders1_lg.jpg" />
+				<image id="preview" url="sections/printables/images/printable_superreaders1_lg_preview.gif" />
+				<image id="printable" preload="false" url="sections/printables/sr_large_printable1.swf" />			
+				<title><![CDATA[SUPER WHY Coloring Page]]></title>
+			</printable>
+			<printable 
+				id="flying_printable" 
+				isGroup="true" 
+				orientation="landscape" 
+				>
+				<image id="thumbnail" url="sections/printables/images/printable_flying.jpg" />
+				<image id="preview" url="sections/printables/images/printable_flying_preview.gif" />
+				<image id="printable" preload="false" url="sections/printables/flying_printable.swf" />			
+				<title><![CDATA[Why Flyer Coloring Page]]></title>
+			</printable>
+			<printable 
+				id="superyou_printable" 
+				isGroup="true" 
+				orientation="landscape" 			 
+				>
+				<image id="thumbnail" url="sections/printables/images/printable_superyou.jpg" />
+				<image id="preview" url="sections/printables/images/printable_superyou_preview.gif" />
+				<image id="printable" preload="false" url="sections/printables/superyou_printable.swf" />			
+				<title><![CDATA[Super YOU Coloring Page]]></title>
+			</printable>
+		</module>
+	</modules>
+</section>

@@ -1,0 +1,19 @@
+<section id="COLLECTABLES" hasSponsorBar="true">
+	<title><![CDATA[SUPER WHY! . COLLECTABLES | PBS KIDS]]></title>
+	<swf url="sections/prizes/prizes.swf" />	
+	<libraries>
+		<library id="burbankbigcdttbdembedded" url="libraries/burbankbigcdttbdembedded.swf" type="font" name="BurbankBigCdTTBdEmbedded" font="BurbankBigCdTTBdEmbeddedFont" />
+	</libraries>
+	
+	<assets>	
+
+		<voiceovers id="voiceovers" isGroup="true">
+			<audio id="entercode" type="audio" url="sections/collectables/audio/Line02.mp3" />
+			<audio id="rollover" type="audio" url="sections/collectables/audio/Line06.mp3" />
+			<audio id="tryagain" type="audio" url="sections/collectables/audio/Line08.mp3" />
+			<audio id="zap" type="audio" url="sections/collectables/audio/sfx_electric_zap.mp3" />
+
+		</voiceovers>
+	</assets>
+
+</section>
