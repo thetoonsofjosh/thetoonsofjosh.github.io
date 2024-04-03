@@ -37,15 +37,9 @@
             <audio id="alphabricks" type="audio" url="audio/games/button_alphabricks.mp3" />
             <audio id="arrow" type="audio" url="audio/games/button_arrow_rollover.mp3" />
             <audio id="intro" type="audio" url="audio/games/onload_click_game.mp3" />
-            <audio id="rhymeracer" type="audio" url="assets/audio/mp3/wonderred/wr_title.mp3" />
-            <audio id="savestheday" type="audio" url="assets/audio/mp3/superwhyatt/sw_title.mp3" />
-            <audio id="spellingplay" type="audio" url="assets/audio/mp3/princesspresto/pp_title.mp3" />
         </audio>
 
         <games id="games" isGroup="true">
-            <game id="savestheday" location="game/savestheday" character="superwhy" preload="false" url="sections/games/images/savestheday_small.jpg"><title><![CDATA[Super Why Saves the Day]]></title></game>
-            <game id="spellingplay" location="game/spellingplay" character="princesspresto" preload="false" url="sections/games/images/spellingplay_small.jpg"><title><![CDATA[Spectactular Spelling Play]]></title></game>
-
             <game id="deliciousdish" location="game/deliciousdish" character="woofster" preload="false" url="sections/games/images/games_page_thumb_deliciousdish.jpg"><title><![CDATA[Delicious Dish]]></title></game>
             <game id="calling_superreaders" location="game/calling_superreaders" character="superwhy" preload="false" url="promos/game_page_thumb_CASR.jpg"><title><![CDATA[Calling All Super Readers]]></title></game>
             <game id="puppydaycare" location="game/puppydaycare" character="woofster" preload="false" url="sections/games/images/games_thumb_puppyDaycare.jpg"><title><![CDATA[Puppy Day Care]]></title></game>
