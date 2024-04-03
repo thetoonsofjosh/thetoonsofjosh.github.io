@@ -1,0 +1,1 @@
+{"buttons_color": "#3c9edb", "shop_url": "http://sidthesciencekid.shop.pbskids.org/", "go_login": false, "brand": "preschool", "destination": "", "reload": false, "parents_url": "http://www.pbs.org/parents/sid/index.html", "shop_partner": true, "learning_goals": "", "teachers_url": "http://www.pbs.org/parents/sid/index.html"}

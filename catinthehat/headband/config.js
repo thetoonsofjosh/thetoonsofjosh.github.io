@@ -1,0 +1,1 @@
+{"buttons_color": "#FFD104", "shop_url": "http://catinthehat.shop.pbskids.org/", "go_login": false, "brand": "preschool", "destination": "", "reload": false, "parents_url": "http://www.pbs.org/parents/catinthehat", "shop_partner": true, "learning_goals": "", "teachers_url": "http://www.pbs.org/teachers/catinthehat"}
