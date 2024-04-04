@@ -1,0 +1,22 @@
+<controls>
+    <region id="tpBottomRegion" paddingTop="0">
+        <row percentWidth="100" >
+           <group percentWidth="100" height="65" paddingTop="15"> <!--paddingTop="150">-->
+                <control id="tpPlay" />
+                <spacer width="10"/>
+                <control id="tpScrubber"/>
+                <!--<control id="tpCurrentTime" /> 
+                <control id="tpTimeDivider" text="/" />
+                <control id="tpTotalTime" />-->
+                <control id="" />
+                <spacer width="10"/>
+                <control id="tpFullScreen"/>
+                <control id="tpEmail"/>
+                <control id="tpLink"/>
+                <control id="pbsCC"/>
+                <control id="tpVolume" expandDirection="up"  />
+                <spacer width="5"/>
+            </group>
+        </row>
+    </region>
+</controls>
