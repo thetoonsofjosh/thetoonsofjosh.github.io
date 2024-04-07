@@ -1,0 +1,85 @@
+body {
+	background-color: #76C2E9;
+}
+
+#container {
+	width: 960px;
+}
+
+#login {
+	width: 101px;
+	margin: 0 auto;
+	height: 25px;
+}
+
+#login img {
+	display: block;
+	border: 0;
+}
+
+#footer {
+	text-align: center;
+	font: 0.8em Arial, Helvetica, sans-serif;
+}
+
+#footer #credits {
+	background: url(/wildkratts/images/logosBG.gif);
+	width: 850px;
+	margin-left: 110px;
+	overflow: hidden;
+	font-size: 0.7em;
+}
+
+#footer #credits #funded img, #footer #credits #produced img, #footer #credits #developed img { 
+	display: inline;
+	padding: 5px 10px;
+	border: 0;
+}
+
+#footer #credits #funded, #footer #credits #produced, #footer #credits #developed {
+	float: right;
+	text-align: left;
+	padding: 5px 10px;
+	margin: 0px 2px;
+}
+
+#footer #credits #localization {
+	float: left;
+	text-align: left;
+	padding: 5px 15px;
+	margin: 0px 2px;
+}
+
+#footer #credits #localization #localizationWidget {
+	background-color: #76C2E9;
+	margin: 5px 0 0 15px;
+	padding: 10px;
+	width: 175px;
+	text-align: center;
+	font-size: 1.3em;
+}
+
+#footer #credits #localization img {
+	display: inline;
+}
+
+#footer #copyright {
+}
+
+#footer a {	
+	color: black;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	color: #ccaa00;
+}
+
+#installFlash {
+	text-align: center;
+}
+
+#installFlash img {
+	display: inline;
+	border: 0;
+}
