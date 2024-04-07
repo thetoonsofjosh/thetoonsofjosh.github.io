@@ -1,0 +1,22 @@
+<ads delay='5'>
+	<ad>
+		<display>ads/F_MakeACharacter.jpg</display>
+		<target>your-room</target>
+	</ad>
+	<ad>
+		<display>ads/F_GoNuts.jpg</display>
+		<target>games/go-nuts</target>
+	</ad>
+	<ad>
+		<display>ads/F_FireflyFlash.jpg</display>
+		<target>games/firefly-flash</target>
+	</ad>
+	<ad>
+		<display>ads/F_RideOnRemora.jpg</display>
+		<target>games/ride-on-remora</target>
+	</ad>
+	<ad>
+		<display>ads/F_Africa.jpg</display>
+		<target>habitats/african-savannah</target>
+	</ad>
+</ads>
