@@ -11,8 +11,8 @@ if ( pbs & subdomain != 'soup' ) mediaDomain = 'thetoonsofjosh.github.io';
 
 // config
 var tvoMode = !pbs && !test;
-var urlRoot = 'http://' + domain + '/wildkratts/';
-var mediaUrlRoot = 'http://' + mediaDomain + '/wildkratts/';
+var urlRoot = 'https://' + domain + '/wildkratts/';
+var mediaUrlRoot = 'https://' + mediaDomain + '/wildkratts/';
 
 // FLASH DIMENSIONS
 var width = tvoMode ? "100%" : "960";
