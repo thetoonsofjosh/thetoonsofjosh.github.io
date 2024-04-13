@@ -32,13 +32,13 @@ if (typeof(this.PBS.KIDS) === "undefined") {
 
         debug: false,
 
-        _deployment_uri: 'thetoonsofjosh.github.io',
+        _deployment_uri: '/',
 
         // base represents the url to the current host, without site segment.
         base: undefined, // Set at run time.
 
         // cdn_host represents the host of our CDN.
-        cdn_host: "thetoonsofjosh.github.io",
+        cdn_host: "/",
         mobile_host: "m.pbskids.org",
 
         // cdn_base represents the base url to the CDN.
@@ -56,10 +56,10 @@ if (typeof(this.PBS.KIDS) === "undefined") {
         _getCDNBase: function () {
 
             if (this.host.match(/.*ernie.*/)) {
-                this.cdn_host = "ernie-tc.pbskids.org";
+                this.cdn_host = "/";
             }
             if (this.host.match(/.*soup.*/)) {
-                this.cdn_host = "soup-tc.pbskids.org";
+                this.cdn_host = "/";
             }
 
             this.cdn_base = this.protocol + "//" + this.cdn_host;

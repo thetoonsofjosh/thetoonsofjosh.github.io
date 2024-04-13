@@ -2,7 +2,7 @@ function PBS_FlashDispatch(PBScontentURL, PBScontentVersion, PBSaltURL) {
 	if (PBScontentURL.indexOf("/") == 0)
 		PBScontentURL = location.protocol + "//" + window.location.host + PBScontentURL;
 		
-	if (PBScontentURL.indexOf("http://") != 0) {
+	if (PBScontentURL.indexOf("https://") != 0) {
 		var qs = location.href.indexOf('?');
 		var baseURL = qs >= 0 ? location.href.substr(0, qs) : location.href;
 		PBScontentURL = baseURL.substring(0, baseURL.lastIndexOf("/") + 1) + PBScontentURL;
@@ -11,7 +11,7 @@ function PBS_FlashDispatch(PBScontentURL, PBScontentVersion, PBSaltURL) {
 	if (PBSaltURL.indexOf("/") == 0)
 		PBSaltURL = location.protocol + "//" + window.location.host + PBSaltURL;
 		
-	if (PBSaltURL.indexOf("http://") != 0) {
+	if (PBSaltURL.indexOf("https://") != 0) {
 		var baseURL = location.href;
 		PBSaltURL = baseURL.substring(0, baseURL.lastIndexOf("/") + 1) + PBSaltURL;
 	}

@@ -70,7 +70,7 @@ PBS.kids.localize = (function() {
                 var td;
                 td = document.createElement("td");
                 td.style.width="88px";
-                td.innerHTML = link + '<img src="https://web.archive.org/web/20100329201809/http://pbskids.org/tvschedules/images/button-thisone.gif" width="88" height="26" alt="This One"></a>';
+                td.innerHTML = link + '<img src="/tvschedules/images/button-thisone.gif" width="88" height="26" alt="This One"></a>';
                 row.appendChild(td);
 
                 td = document.createElement("td");

@@ -52,7 +52,7 @@ if (isTouchDevice()){
 	// Switch out the default "Appetizer" HREF (if we're on the Games page)
 	if($("body").hasClass("pk-landing-games")) {
 		if($(".pk-footer .appetizer a").length != 0) {
-			$(".pk-footer .appetizer a").attr("href","http://pbskids.org/video");
+			$(".pk-footer .appetizer a").attr("href","/video");
 		}
 	} 
 

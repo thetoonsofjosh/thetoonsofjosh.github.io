@@ -28,7 +28,7 @@ if (!this.PBS) {
         base: undefined, // Set at run time.
         
         // cdn_host represents the host of our CDN.
-        cdn_host: "thetoonsofjosh.github.io",
+        cdn_host: "/",
         
         // cdn_base represents the base url to the CDN.
         cdn_base: undefined, // Set at run time.
@@ -43,10 +43,10 @@ if (!this.PBS) {
         // Compute CDN base url based on host.
         _getCDNBase: function () {
                 if (this.host.match(/.*ernie.*/)) {
-            this.cdn_host = "ernie-tc.pbskids.org";
+            this.cdn_host = "/";
                 }
                 if (this.host.match(/.*soup.*/)) {
-            this.cdn_host = "soup-tc.pbskids.org";
+            this.cdn_host = "/";
                 }
                 this.cdn_base = this.protocol + "//" + this.cdn_host;
         },
