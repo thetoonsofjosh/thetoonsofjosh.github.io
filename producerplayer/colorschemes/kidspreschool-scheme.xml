@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<colorschemes>
+    <player>
+          <backgroundColor>0x99CC00</backgroundColor>
+          
+          <frameColor>0xFFFFFF</frameColor>
+          
+          <controlColor>0xF27F00</controlColor>
+          
+          <controlFrameColor>0x4EA100</controlFrameColor>
+          
+          <controlBackgroundColor>0xFFED1B</controlBackgroundColor>
+          
+          <controlHighlightColor>0xFFFFFF</controlHighlightColor>
+          
+          <controlHoverColor>0xF6AE00</controlHoverColor>
+          
+          <controlSelectedColor>0xF6AE00</controlSelectedColor>
+          
+          <loadProgressColor>0xB6CECE</loadProgressColor>
+          
+          <playProgressColor>0x9AB5B4</playProgressColor>
+          
+          <scrubberColor>0xFFFFFF</scrubberColor>
+          
+          <scrubTrackColor>0x799B99</scrubTrackColor>
+          
+          <textBackgroundColor>0xFFED1B</textBackgroundColor>
+          
+          <textColor>0x9AB5B4</textColor>
+        
+          <subtitlesBackgroundColor>0x000000</subtitlesBackgroundColor>
+    </player>
+    
+    <releaseList>
+          <backgroundColor>0x89DBD8</backgroundColor>
+          
+          <frameColor>0x99CC00</frameColor>
+          
+          <itemBackgroundColor>0x89DBD8</itemBackgroundColor>
+          
+          <itemBackground2Color>0x89DBD8</itemBackground2Color>
+          
+          <itemBackgroundHoverColor>0xFFED1B</itemBackgroundHoverColor>
+          
+          <itemBackgroundSelectedColor>0xFFED1B</itemBackgroundSelectedColor>
+          
+          <itemFrameColor>0x89DBD8</itemFrameColor>
+          
+          <textColor>0xFFFFFF</textColor>
+          
+          <text2Color>0xFFFFFF</text2Color>
+          
+          <textFrameColor>0xFFFFFF</textFrameColor>
+          
+          <textHoverColor>0x5B7900</textHoverColor>
+          
+          <textSelectedColor>0x5B7900</textSelectedColor>
+          
+          <thumbnailFrameColor>0xFFFFFF</thumbnailFrameColor>
+          
+          <scrollButtonColor>0xFFED1B</scrollButtonColor>
+          
+          <scrollIconColor>0xF27F00</scrollIconColor>
+          
+          <scrollThumbColor>0x99CC00</scrollThumbColor>
+          
+          <scrollTrackColor>0x99CC00</scrollTrackColor>
+          
+          <scrollTrackFrameColor>0x99CC00</scrollTrackFrameColor>
+      </releaseList>
+</colorschemes>

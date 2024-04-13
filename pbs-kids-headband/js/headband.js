@@ -91,25 +91,25 @@ PBS.KIDS.Headband = (function(){
     // cdn_base represents the base url to the CDN.
     var _cdn_base = undefined;
     // Cdn represents the host of our CDN.                                                                                                                                                                                        
-    var _cdn_host =  "thetoonsofjosh.github.io";
+    var _cdn_host =  "/";
     // Compute CDN base url based on host.
     var _protocol = window.location.protocol;
     var _host = window.location.host;
     var _base = _protocol + "//" + _host;
     if (_host.match(/.*ernie.*/)) {
-        _cdn_host = "ernie-tc.pbskids.org";
+        _cdn_host = "/";
     }
     if (_host.match(/.*soup.*/)) {
-        _cdn_host = "soup-tc.pbskids.org";
+        _cdn_host = "/";
     }
     if (_host.match(/.*dev.*/)) {
         _cdn_host = _host;
     }
     if (_host.match(/.*qa.*/)) {
-        _cdn_host = "qa.pbskids.org";
+        _cdn_host = "/";
     }
     if (_host.match(/.*stage.*/)) {
-        _cdn_host = "stage.pbskids.org";
+        _cdn_host = "/";
     }
     if (_host.match(/.*localhost.*/)) {
         _cdn_host = "localhost";
@@ -191,7 +191,7 @@ PBS.KIDS.Headband = (function(){
 		username: username,
 		userid: userid,
 		boxname: _get_cookie('pbskids.boxname', 'Secret Box'), 
-		avatar: 'https://thetoonsofjosh.github.io/go/secretbox/images/avatars/' + _get_cookie('pbskids.avatar', 'trophy') + '.jpg',
+		avatar: '/go/secretbox/images/avatars/' + _get_cookie('pbskids.avatar', 'trophy') + '.jpg',
 		login_status: "logged-in",
 		current_url: escape(window.location)
 	    }
@@ -205,7 +205,7 @@ PBS.KIDS.Headband = (function(){
 
     var _get_base_url = function(){
 	//Find the root url of the site
-	//e.g. https://thetoonsofjosh.github.io//somesite/games/index.html ==> https://thetoonsofjosh.github.io//somesite
+	//e.g. //somesite/games/index.html ==> //somesite
 	var path = window.location.pathname;
 	var root_path = path.match(/(.[^/]*)/)[1];
 	var root_url = 'https://' + window.location.hostname + root_path;

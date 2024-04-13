@@ -31,10 +31,10 @@ $(document).ready(function(){
           onComplete:function(){
             var configObj = {};
 						configObj.category = initCategory;
-           	configObj.controlLayoutURL = "http://pbskids.org/producerplayer/data/metaLayout-KidsPreschool.xml";
-						configObj.playerSkinURL = "http://www-tc.pbskids.org/producerplayer/swf/skins/skinKidsPreschool.swf";
-						configObj.playerColorScheme = "http://pbskids.org/producerplayer/colorschemes/kidspreschool-scheme.xml";
-						configObj.releaseListSkinURL = "http://www-tc.pbskids.org/producerplayer/swf/skins/skinKidsGoSquared.swf";
+           	configObj.controlLayoutURL = "/producerplayer/data/metaLayout-KidsPreschool.xml";
+						configObj.playerSkinURL = "/producerplayer/swf/skins/skinKidsPreschool.swf";
+						configObj.playerColorScheme = "/producerplayer/colorschemes/kidspreschool-scheme.xml";
+						configObj.releaseListSkinURL = "/producerplayer/swf/skins/skinKidsGoSquared.swf";
 						configObj.releaseListColorScheme =
 						"<colorschemes>"+
 							"<releaseList>"+
