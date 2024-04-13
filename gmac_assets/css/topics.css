@@ -5,8 +5,8 @@
 *****
 */
 
-@import url('/web/20100111183948cs_/http://www-tc.pbskids.org/gmac_assets/css/global.css'); /* Brings in the global styles for the Games area */
-@import url('/web/20100111183948cs_/http://www-tc.pbskids.org/gmac_assets/css/subpages.css'); /* Brings in the global sub page styles for the Games area */
+@import url('/gmac_assets/css/global.css'); /* Brings in the global styles for the Games area */
+@import url('/gmac_assets/css/subpages.css'); /* Brings in the global sub page styles for the Games area */
 
 
 /*

@@ -171,7 +171,7 @@ jQuery(document).ready(function($) {
     // -----------------------------------------------------------------------------
     // Safely insert the "All Shows" button back into the SHOW LEDGE
     // -----------------------------------------------------------------------------
-    $(".band-showledge .wrap").prepend("<mark class=\"ledge-allshows\"><a href=\"http://pbskids.org/everything.html\" title=\"All Shows\">All Shows</a></mark>");
+    $(".band-showledge .wrap").prepend("<mark class=\"ledge-allshows\"><a href=\"/everything.html\" title=\"All Shows\">All Shows</a></mark>");
 
 
 

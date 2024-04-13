@@ -991,7 +991,7 @@
   <game>
     <title>PlaySpace</title>
     <show>Cyberchase</show>
-    <url>http://example.com%20%20http://pbskids.org/cyberchase/math-games/playspace/</url>
+    <url>/cyberchase/math-games/playspace/</url>
     <image>/go/images/programs/medium-cyberchase-playspace.jpg</image>
     <teaser>PlaySpace is your place to tell cool stories</teaser>
     <categories>
@@ -1363,7 +1363,7 @@
   <game>
     <title>Mystery Meat comic</title>
     <show>WordGirl</show>
-    <url>http://pbskids.org/wordgirl/games/comicBook/index.html</url>
+    <url>/wordgirl/games/comicBook/index.html</url>
     <image>/go/images/programs/medium-wordgirl-mysterymeat.gif</image>
     <teaser>Will WordGirl defeat The Butcher?</teaser>
     <categories>
