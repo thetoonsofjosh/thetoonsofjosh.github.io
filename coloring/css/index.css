@@ -5,7 +5,7 @@
 *****
 */
 
-@import url('/web/20100111185102cs_/http://pbskids.org/gmac_assets/css/global.css'); /* Brings in the global styles for the Games area */
+@import url('/gmac_assets/css/global.css'); /* Brings in the global styles for the Games area */
 
 object,
 embed {
@@ -56,7 +56,7 @@ embed {
 */
 
 .topic-area {
-	background: url(/web/20100111185102im_/http://pbskids.org/coloring/images/coloring.gif);
+	background: url(/coloring/images/coloring.gif);
 }
 
 
