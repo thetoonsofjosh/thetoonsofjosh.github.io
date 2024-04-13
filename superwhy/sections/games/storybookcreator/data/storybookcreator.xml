@@ -8,8 +8,8 @@
 		idleTime = "30000"
 	/>
 
-	<email 	sendURL="https://pbskids.org/cgi-registry/tell_a_friend.cgi"
-			urlToSend="https://pbskids.org/superwhy/index.html#game/storybookcreator" 
+	<email 	sendURL="/cgi-registry/tell_a_friend.cgi"
+			urlToSend="/superwhy/index.html#game/storybookcreator" 
 			thanksURL="/superwhy/sections/games/storybookcreator/email/success.html" 
 			errorURL="/superwhy/sections/games/storybookcreator/email/error.html">
 			<content><![CDATA[Checkout the story I created on the SUPER WHY site!]]></content>		

@@ -6,8 +6,8 @@
 		<library id="princesspresto_endscreen" url="libraries/princesspresto_endscreen.swf" />
 	</libraries> 
 	<swf url="sections/games/superhero/superhero.swf" />
-	<email 	sendURL="https://pbskids.org/cgi-registry/tell_a_friend.cgi"
-			urlToSend="https://pbskids.org/superwhy/index.html#game/superhero" 
+	<email 	sendURL="/cgi-registry/tell_a_friend.cgi"
+			urlToSend="/superwhy/index.html#game/superhero" 
 			thanksURL="/superwhy/sections/games/superhero/email/success.html" 
 			errorURL="/superwhy/sections/games/superhero/email/error.html">
 		<content><![CDATA[Check out the Superhero I created on the SUPER WHY website!]]></content>		

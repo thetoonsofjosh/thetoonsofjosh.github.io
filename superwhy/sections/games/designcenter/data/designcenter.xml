@@ -16,8 +16,8 @@
 	</libraries> 
 
 	<email>
-		<sendURL><![CDATA[https://pbskids.org/cgi-registry/tell_a_friend.cgi]]></sendURL>
-		<urlToSend><![CDATA[https://pbskids.org/superwhy/index.html#game/designcenter]]></urlToSend>
+		<sendURL><![CDATA[/cgi-registry/tell_a_friend.cgi]]></sendURL>
+		<urlToSend><![CDATA[/superwhy/index.html#game/designcenter]]></urlToSend>
 		<thanksURL><![CDATA[/superwhy/sections/games/superhero/email/success.html]]></thanksURL> 
 		<errorURL><![CDATA[/superwhy/sections/games/superhero/email/error.html]]></errorURL>
 		<content><![CDATA[Checkout the Design I created on the SUPER WHY website!]]></content>		
