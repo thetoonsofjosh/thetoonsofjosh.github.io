@@ -12,14 +12,14 @@
   <simpleNavButton X="452" Y="3" buttonSwf="images/topnav/top_videos.png" rollOverMP3="site_audio/top_navigation/videos.mp3">
     <metaInfo id="adventures"/>
   </simpleNavButton>
-  <!--<<simpleNavButton X="798" Y="5" buttonSwf="images/topnav/parents.png" rollOverMP3="site_audio/top_navigation/parents.mp3">
+  <simpleNavButton X="798" Y="5" buttonSwf="images/topnav/parents.png" rollOverMP3="site_audio/top_navigation/parents.mp3">
     <metaInfo id="parents"/>
   </simpleNavButton>
   <simpleNavButton X="798" Y="42" buttonSwf="images/topnav/teachers.png" rollOverMP3="site_audio/top_navigation/teachers.mp3">
     <metaInfo id="teachers"/>
   </simpleNavButton>
-  simpleNavButton X="50" Y="0" buttonSwf="images/topnav/PBSlogo.png" kidsButtonSwf="images/topnav/KIDSlogo.png" rollOverMP3="site_audio/top_navigation/pbskidsgo.mp3">-->
-  <simpleNavButton X="50" Y="0" buttonSwf="images/topnav/PBSlogo.png" kidsButtonSwf="images/topnav/KIDSlogo.png" rollOverMP3="">
+  <!--simpleNavButton X="50" Y="0" buttonSwf="images/topnav/PBSlogo.png" kidsButtonSwf="images/topnav/KIDSlogo.png" rollOverMP3="site_audio/top_navigation/pbskidsgo.mp3">-->
+  <simpleNavButton X="50" Y="0" buttonSwf="images/topnav/PBSlogo.png" kidsButtonSwf="images/topnav/KIDSlogo.png" rollOverMP3="site_audio/top_navigation/pbskidsgo.mp3">
     <metaInfo id="pbskids"/>
   </simpleNavButton>
 </TopNav>
