@@ -8,7 +8,7 @@
 .border .left{
 			width:179px;
 			height:540px;
-			background:url(/web/20131030201405im_/http://www-tc.pbskids.org/daniel/assets/img/Web_Frame_Left.png) repeat-x;
+			background:url(/daniel/assets/img/Web_Frame_Left.png) repeat-x;
 			background-size:179px 540px;
 			float:left;
 }
@@ -16,14 +16,14 @@
 .border .right{
 			width:294px;
 			height:607px;
-			background:url(/web/20131030201405im_/http://www-tc.pbskids.org/daniel/assets/img/Web_Frame_Right.png) repeat-x;
+			background:url(/daniel/assets/img/Web_Frame_Right.png) repeat-x;
 			background-size:294px 607px;
 			float:right;
 }
 
 .bg{
 	width:100%;
-	background: url(/web/20131030201405im_/http://www-tc.pbskids.org/daniel/assets/img/grass_repeat.jpg) repeat;	
+	background: url(/daniel/assets/img/grass_repeat.jpg) repeat;	
 }
 	.bg .wallpaper{
 		overflow:hidden;
@@ -33,21 +33,21 @@
 		.bg .wallpaper .sky{
 			width: 100%;
 			height:220px;
-			background: url(/web/20131030201405im_/http://www-tc.pbskids.org/daniel/assets/img/Sky_BG.png) repeat-x;
+			background: url(/daniel/assets/img/Sky_BG.png) repeat-x;
 			background-size:5px 220px;
 			position:relative;
 		}
 		.bg .wallpaper .water{
 			width:100%;
 			height:40px;
-			background:url(/web/20131030201405im_/http://www-tc.pbskids.org/daniel/assets/img/Water_BG.jpg) repeat-x;
+			background:url(/daniel/assets/img/Water_BG.jpg) repeat-x;
 			background-size:300px 40px;
 			position:relative;
 		}
 		.bg .wallpaper .beach{
 			width:100%;
 			height:73px;
-			background:url(/web/20131030201405im_/http://www-tc.pbskids.org/daniel/assets/img/Beach_BG.png) repeat-x;
+			background:url(/daniel/assets/img/Beach_BG.png) repeat-x;
 			background-size:245px 73px;
 			position:relative;
 			top:-10px;
@@ -55,7 +55,7 @@
 		.bg .wallpaper .house{
 			width:222px;
 			height:115px;
-			background:url(/web/20131030201405im_/http://www-tc.pbskids.org/daniel/assets/img/DanielHouse.png) repeat-x;
+			background:url(/daniel/assets/img/DanielHouse.png) repeat-x;
 			background-size:222px 115px;
 			position:relative;
 			left:25%;
@@ -83,7 +83,7 @@
 					margin-left:auto;
 					margin-right:auto;
 					z-index:15;
-					background:url(/web/20131030201405im_/http://www-tc.pbskids.org/daniel/assets/img/DanielTiger.png) no-repeat;
+					background:url(/daniel/assets/img/DanielTiger.png) no-repeat;
 					background-size:360px 543px;
 				}
 	
@@ -116,11 +116,11 @@
 				height:222px;			
 			}
 			.nav#stories a{
-				background: url(/web/20131030201405im_/http://www-tc.pbskids.org/daniel/assets/img/Storybooks_Btn.png);
+				background: url(/daniel/assets/img/Storybooks_Btn.png);
 				background-size:300px 222px;
 			}
 			.nav#video a{
-				background: url(/web/20131030201405im_/http://www-tc.pbskids.org/daniel/assets/img/Video_Btn.png);	
+				background: url(/daniel/assets/img/Video_Btn.png);	
 				background-size:300px 222px;
 			}
 			
@@ -139,11 +139,11 @@
 		  height:185px;			
 	}
 	.nav#stories a{
-		  background: url(/web/20131030201405im_/http://www-tc.pbskids.org/daniel/assets/img/Storybooks_Btn.png) no-repeat;
+		  background: url(/daniel/assets/img/Storybooks_Btn.png) no-repeat;
 		  background-size:250px 185px;
 	}
 	.nav#video a{
-		  background: url(/web/20131030201405im_/http://www-tc.pbskids.org/daniel/assets/img/Video_Btn.png) no-repeat;	
+		  background: url(/daniel/assets/img/Video_Btn.png) no-repeat;	
 		  background-size:250px 185px;
 	}
 }
@@ -204,11 +204,11 @@
 				height:130px;			
 			}
 			.nav#stories a{
-				background: url(/web/20131030201405im_/http://www-tc.pbskids.org/daniel/assets/img/Storybooks_Btn.png) no-repeat;
+				background: url(/daniel/assets/img/Storybooks_Btn.png) no-repeat;
 				background-size:175px 130px;
 			}
 			.nav#video a{
-				background: url(/web/20131030201405im_/http://www-tc.pbskids.org/daniel/assets/img/Video_Btn.png) no-repeat;	
+				background: url(/daniel/assets/img/Video_Btn.png) no-repeat;	
 				background-size:175px 130px;
 			}
 	
@@ -261,11 +261,11 @@
 				height:92px;			
 			}
 			.nav#stories a{
-				background: url(/web/20131030201405im_/http://www-tc.pbskids.org/daniel/assets/img/Storybooks_Btn.png) no-repeat;
+				background: url(/daniel/assets/img/Storybooks_Btn.png) no-repeat;
 				background-size:125px 92px;
 			}
 			.nav#video a{
-				background: url(/web/20131030201405im_/http://www-tc.pbskids.org/daniel/assets/img/Video_Btn.png) no-repeat;	
+				background: url(/daniel/assets/img/Video_Btn.png) no-repeat;	
 				background-size:125px 92px;
 			}
 	
