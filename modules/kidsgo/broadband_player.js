@@ -38,7 +38,7 @@ pbs.kidsgo.broadbandplayer.init = function(_stationID, _supersite, _configObj) {
     var urlCategory;
     var accountPortalID = _configObj && _configObj.feedID ? _configObj.feedID : "rjSDErhLvLTAl4Q__FuvtUBOdfslKYDM"; //production feed if not other feed is set
     var communityAccountID = _configObj && _configObj.communityID ? _configObj.communityID : 824012198; // production community if no other community is set
-    var host = _configObj && _configObj.host ? _configObj.host : "/"; // production host if no other host is set
+    var host = _configObj && _configObj.host ? _configObj.host : "thetoonsofjosh.github.io"; // production host if no other host is set
     var path = _configObj && _configObj.path ? _configObj.path : "/go/video/"; //production path if no other path is set
     var cdn = _configObj && _configObj.cdn ? _configObj.cdn : "/go/video/"; // production cdn if no other cdn is set
     var releasesEndIndex = 100;
