@@ -6,7 +6,7 @@ var pbs = domain.indexOf('pbskids') >= 0;
 var test = domain == 'wktest';
 
 var mediaDomain = domain;
-if ( pbs & subdomain != 'soup' ) mediaDomain = '/';
+if ( pbs & subdomain != 'soup' ) mediaDomain = 'thetoonsofjosh.github.io';
 
 
 // config
