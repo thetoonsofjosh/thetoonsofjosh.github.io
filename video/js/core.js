@@ -159,8 +159,8 @@ $(function(){
                                             scrubber              : "#player .scrubber",
                                             volumeDisplay         : "#volume-dropdown .volume-level",
                                             volumeSlider          : "#volume-dropdown .scrubber",
-                                            onHoverOverlay        : {url:"httpss://www-tc.pbskids.org/video/img/button_big.png", width:"58px", height:"30px", fs_url:"httpss://www-tc.pbskids.org/video/img/button_small.png", fs_width:"78px"},
-                                            loadingOverlay        : {url:"httpss://www-tc.pbskids.org/video/img/arrowspin.gif" , width:"50px", height:"50px", swf:"httpss://www-tc.pbskids.org/video/img/arrowspin.swf"}
+                                            onHoverOverlay        : {url:"/video/img/button_big.png", width:"58px", height:"30px", fs_url:"/video/img/button_small.png", fs_width:"78px"},
+                                            loadingOverlay        : {url:"/video/img/arrowspin.gif" , width:"50px", height:"50px", swf:"/video/img/arrowspin.swf"}
                                           });
 
     $(window).resize();//first resize
@@ -180,19 +180,19 @@ $(function(){
     ***************************************************/
     playlist = new org.pbskids.video.PlayList(
       "now-playing-list", 'playlistItem', playerInstance,
-      {iScrollOpts:iScrollOpts_playlist, loadingIndicator:"httpss://www-tc.pbskids.org/video/img/arrowspin.gif", loadMoreVideosMessage : "Show More Videos", loadMoreButtonClass : "showmore-videos", autoPlay:false, autoPlayNext:!isKindleApp, previousVideoControl:"#controlrack .previous", nextVideoControl:"#controlrack .next"}
+      {iScrollOpts:iScrollOpts_playlist, loadingIndicator:"/video/img/arrowspin.gif", loadMoreVideosMessage : "Show More Videos", loadMoreButtonClass : "showmore-videos", autoPlay:false, autoPlayNext:!isKindleApp, previousVideoControl:"#controlrack .previous", nextVideoControl:"#controlrack .next"}
     );
 
     if($("#kuchucka-playlist").length > 0){
       kuchucka = new org.pbskids.video.PlayList(
         "kuchucka-playlist", 'playlistItem', playerInstance,
-        {iScrollOpts:"NO_ISCROLL", loadingIndicator:"httpss://www-tc.pbskids.org/video/img/arrowspin.gif", autoPlay:false, autoPlayNext:false, reverseOrder:true}
+        {iScrollOpts:"NO_ISCROLL", loadingIndicator:"/video/img/arrowspin.gif", autoPlay:false, autoPlayNext:false, reverseOrder:true}
       );
     }
 
     browsingPlaylist = new org.pbskids.video.PlayList(
       "browsing-list", 'playlistItem', playerInstance,
-      {iScrollOpts:iScrollOpts_browsinglist, loadingIndicator:"httpss://www-tc.pbskids.org/video/img/arrowspin.gif", loadMoreVideosMessage : "Show More Videos", loadMoreButtonClass : "showmore-videos", autoPlay:false, autoPlayNext:false}
+      {iScrollOpts:iScrollOpts_browsinglist, loadingIndicator:"/video/img/arrowspin.gif", loadMoreVideosMessage : "Show More Videos", loadMoreButtonClass : "showmore-videos", autoPlay:false, autoPlayNext:false}
     );
 
     buildShowsList();
@@ -543,7 +543,7 @@ $(function(){
     if( e.type == org.pbskids.video.VideoErrorEvent.GEO_RESTRICTED ){
       $('#error-message p.message').html("PBS KIDS Video is restricted to the United States and its territories.<br/>"+
                                          "<small>If you were directed to this page in error, <a href='mailto:audienceservices@pbs.org'>please report the issue here.</a></small>");
-      $('#error-message img').attr("src", "httpss://www-tc.pbskids.org/video/img/icon_nowatch.png").resetStyles();
+      $('#error-message img').attr("src", "/video/img/icon_nowatch.png").resetStyles();
       $('#error-message button').hide();
       $('#error-message').css("display","block");
     }
@@ -578,7 +578,7 @@ $(function(){
     }
     else {
       $('#error-message p.message').html(e.message);
-      $('#error-message img').attr("src", "httpss://www-tc.pbskids.org/video/img/icon_nowatch.png");
+      $('#error-message img').attr("src", "/video/img/icon_nowatch.png");
       $('#error-message button').hide();
       $('#error-message').css("display","block");
     }
@@ -634,7 +634,7 @@ $(function(){
     var o = __model.clone();
     $("<img/>")
       .appendTo($("button", o))
-      .attr({"src":"httpss://www-tc.pbskids.org/upload/theplatform/staging/httpss/images/pbskids/showthumbnails/dash-large.png"});
+      .attr({"src":"/upload/theplatform/staging/httpss/images/pbskids/showthumbnails/dash-large.png"});
 
     if(audioData && typeof audioData == "object")
     {
