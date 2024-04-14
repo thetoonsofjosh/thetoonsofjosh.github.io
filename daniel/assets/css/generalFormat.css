@@ -1,0 +1,63 @@
+body
+{
+	margin-top:0px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-bottom:0px;
+}
+
+p
+{
+	font-family: Arial, Helvetica, sans-serif;
+	color:#000000;
+}
+
+p.footer1
+{
+	font-size:.875em;
+}
+
+p.footer2
+{
+	font-size:.75em;
+}
+
+a:link /* unvisited link */
+{
+	color:#000000;
+} 
+
+a:visited /* visited link */
+{
+	color:#303030;
+}  
+
+a:hover /* mouse over link */
+{
+	color:#303030;
+}  
+
+a:active /* selected link */
+{
+	color:#000000;
+} 
+/*
+     FILE ARCHIVED ON 11:36:23 Sep 19, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:10:59 Apr 14, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.703
+  exclusion.robots: 0.082
+  exclusion.robots.policy: 0.07
+  cdx.remote: 0.067
+  esindex: 0.011
+  LoadShardBlock: 48.947 (3)
+  PetaboxLoader3.datanode: 69.355 (5)
+  load_resource: 133.816 (2)
+  PetaboxLoader3.resolve: 94.053 (2)
+*/

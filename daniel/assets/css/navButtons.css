@@ -1,0 +1,87 @@
+div#gamesButton
+{
+	position:absolute;
+	border:0px;
+	display:block;
+	width:143px;
+	height:117px;
+	background-position: 0px 0px;	
+}
+
+div#gamesButton span
+{
+	position: absolute;
+	top: -999em;
+}
+
+div#gamesButton:hover
+{
+	cursor:pointer;
+	background-position: 0px 117px; 
+}
+
+div#videosButton
+{
+	position:absolute;
+	border:0px;
+	display:block;
+	width:130px;
+	height:113px;
+	left:150px;
+	background-position: 0px 0px;	
+}
+
+div#videosButton span
+{
+	position: absolute;
+	top: -999em;
+}
+
+div#videosButton:hover
+{
+	cursor:pointer;
+	background-position: 0px 113px; 
+}
+
+div#printButton
+{
+	position:absolute;
+	border:0px;
+	display:block;
+	width:142px;
+	height:120px;
+	left:300px;
+	background-position: 0px 0px;	
+}
+
+div#printButton span
+{
+	position: absolute;
+	top: -999em;
+}
+
+div#printButton:hover
+{
+	cursor:pointer;
+	background-position: 0px 120px; 
+}
+/*
+     FILE ARCHIVED ON 20:14:04 Oct 30, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:10:59 Apr 14, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.884
+  exclusion.robots: 0.111
+  exclusion.robots.policy: 0.098
+  cdx.remote: 0.089
+  esindex: 0.012
+  LoadShardBlock: 46.736 (3)
+  PetaboxLoader3.datanode: 95.26 (5)
+  load_resource: 220.539 (2)
+  PetaboxLoader3.resolve: 145.901 (2)
+*/

@@ -1,0 +1,39 @@
+.touch body 
+{
+	 background: url(/web/20130919231026im_/http://www-tc.pbskids.org/daniel/assets/img/lower_texture.jpg) repeat;
+}
+
+.no-touch body 
+{
+	 background: url(/web/20130919231026im_/http://www-tc.pbskids.org/daniel/assets/img/daniel_bg.jpg) repeat;
+}
+
+.touch #desktop
+{
+	display:none;
+}
+
+.no-touch #mobile
+{
+	display:none;
+}
+/*
+     FILE ARCHIVED ON 23:10:26 Sep 19, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:11:00 Apr 14, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.622
+  exclusion.robots: 0.077
+  exclusion.robots.policy: 0.069
+  cdx.remote: 0.059
+  esindex: 0.01
+  LoadShardBlock: 663.131 (3)
+  PetaboxLoader3.datanode: 682.803 (5)
+  load_resource: 477.381 (2)
+  PetaboxLoader3.resolve: 439.481 (2)
+*/
