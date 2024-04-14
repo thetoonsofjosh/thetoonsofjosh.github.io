@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	
-	var _cdn = /^soup/.test(window.location.hostname) ? "http://soup-tc.pbskids.org/" : /^pbskids/.test(window.location.hostname) ? "http://www-tc.pbskids.org/" : "./";
+	var _cdn = /^soup/.test(window.location.hostname) ? "thetoonsofjosh.github.io/" : /^pbskids/.test(window.location.hostname) ? "thetoonsofjosh.github.io/" : "./";
   	var _src = _cdn + 'home/swfs/home.swf'; 
 	$('#flashcontent').flash(
         {
