@@ -1,5 +1,5 @@
 function bridgeURLs(hostname, pathname) { 
-	return ( hostname != '/' ) 
+	return ( hostname != 'thetoonsofjosh.github.io' ) 
             && ( pathname.indexOf('/redir/http') == -1 )
             && ( hostname.length > 0 || pathname.length > 0 )
             // Relative URLs cause hostname to be blank in IE 8 or lower. These should not cause bridge overlay to appear.
