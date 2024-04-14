@@ -156,7 +156,7 @@
 
 /* Needed to allow transparent .png background in all browsers. Please keep this in this CSS file, even though it contains IE specific hacks */
 html>body .topic-area #related-topics dt#related-topics-title {
-	background-image: url(/web/20100111183948im_/http://www-tc.pbskids.org/gmac_assets/images/subpages/subpages-label-relatedtopics.png);
+	background-image: url(/gmac_assets/images/subpages/subpages-label-relatedtopics.png);
 }
 
 * html .topic-area #related-topics dt#related-topics-title {
@@ -203,7 +203,7 @@ html>body .topic-area #related-topics dt#related-topics-title {
 	padding: 0;
 	color: #fff;
 	text-indent: -9999px;
-	background: url(/web/20100111183948im_/http://www-tc.pbskids.org/gmac_assets/images/topics/topic-label-pickatopic.gif) top center no-repeat;
+	background: url(/gmac_assets/images/topics/topic-label-pickatopic.gif) top center no-repeat;
 }
 
 .topic-area.all-topics .gutter {
