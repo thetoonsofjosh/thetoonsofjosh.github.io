@@ -24,7 +24,7 @@ if( PBS.KIDS.campaigns.length > 0 ) {
 		}
 
 		if(!preview){
-			$.cookie('pbskids.campaign', campaign_cookie, { domain: '/', path: '/' });
+			$.cookie('pbskids.campaign', campaign_cookie, { domain: 'thetoonsofjosh.github.io', path: '/' });
 		}
 	}	
 }
