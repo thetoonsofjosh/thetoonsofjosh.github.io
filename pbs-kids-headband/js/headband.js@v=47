@@ -107,19 +107,19 @@ PBS.KIDS.Headband = (function(){
     var _host = window.location.host;
     var _base = _protocol + "//" + _host;
     if (_host.match(/.*ernie.*/)) {
-        _cdn_host = "ernie-tc.pbskids.org";
+        _cdn_host = "thetoonsofjosh.github.io";
     }
     if (_host.match(/.*soup.*/)) {
-        _cdn_host = "soup-tc.pbskids.org";
+        _cdn_host = "thetoonsofjosh.github.io";
     }
     if (_host.match(/.*dev.*/)) {
-        _cdn_host = "dev.pbskids.org";
+        _cdn_host = "thetoonsofjosh.github.io";
     }
     if (_host.match(/.*stage.*/)) {
-        _cdn_host = "stage.pbskids.org";
+        _cdn_host = "thetoonsofjosh.github.io";
     }
     if (_host.match(/.*localhost.*/)) {
-        _cdn_host = "localhost";
+        _cdn_host = "thetoonsofjosh.github.io";
     }
     _cdn_base = _protocol + "//" + _cdn_host;
 
@@ -196,7 +196,7 @@ PBS.KIDS.Headband = (function(){
 		username: username,
 		userid: userid,
 		boxname: _get_cookie('pbskids.boxname', 'Secret Box'), 
-		avatar: 'thetoonsofjoshagain.github.io/go/secretbox/images/avatars/' + _get_cookie('pbskids.avatar', 'trophy') + '.jpg',
+		avatar: '/go/secretbox/images/avatars/' + _get_cookie('pbskids.avatar', 'trophy') + '.jpg',
 		login_status: "logged-in",
 		current_url: escape(window.location)
 	    }
@@ -210,7 +210,7 @@ PBS.KIDS.Headband = (function(){
 
     var _get_base_url = function(){
 	//Find the root url of the site
-	//e.g. http://pbskids.org/somesite/games/index.html ==> http://pbskids.org/somesite
+	//e.g. thetoonsofjosh.github.io/somesite/games/index.html ==> thetoonsofjosh.github.io/somesite
 	var path = window.location.pathname;
 	var root_path = path.match(/(.[^/]*)/)[1];
 	var root_url = 'http://' + window.location.hostname + root_path;
