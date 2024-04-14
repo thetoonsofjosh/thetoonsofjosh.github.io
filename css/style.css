@@ -1,0 +1,174 @@
+.teaser {
+	font-family: Arial, Helvetica, sans-serif, Myriad;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+.teaser a {
+	font-family: Arial, Helvetica, sans-serif, Myriad;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+
+.teaser a:hover{
+	color: #000000;
+}
+
+.teaser a:hover{
+	color: #000000;
+}
+
+div.videocategory {
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	color:#efca3f;	
+	font-weight:bold;
+	font-size: 1em;
+	width:250px; 
+	float:left; 
+	padding-top: 15px;
+	padding-bottom: 15px;
+	/*padding:0px 25px;*/
+}
+div.videocategory a:link{
+	color: #efca3f;
+}
+div.videocategory a:visited{
+	color: #935820;
+}
+
+div.videocategory a:link{
+	color: #efca3f;
+}
+div.videocategory a:hover{
+	color: #c2742a;
+}
+
+#noflash{
+	background-color: white;
+	position: relative;
+	top: 125px;
+	width: 600px;
+	color: #666666;
+    font-family: Arial;
+    font-size: 12pt;
+    margin-left: auto ;
+	margin-right: auto ;
+	padding: 10px
+}
+#noflashGames{
+	background-color: white;
+	position: relative;
+	top: 65px;
+	width: 600px;
+	color: #666666;
+    font-family: Arial;
+    font-size: 12pt;
+    margin-left: auto ;
+	margin-right: auto ;
+	padding: 10px
+}
+#noflash_nav{
+	width: 960px;
+	position: relative;
+    margin-left: auto ;
+	margin-right: auto ;
+}
+.noFlashHeader{
+   color: #1277C9;
+   font-size: 14pt;
+}
+
+#wrapper {
+	background-image:url('/web/20130809180624im_/http://pbskids.org/enablecdn/wordgirl/cdn_content/images/comicBG.jpg');
+				background-repeat:no-repeat;
+  /*width: 1405px ;
+  margin-left: auto ;
+  margin-right: auto ;
+    text-align: center; */
+    background-position: 50% top;
+    min-width: 960px;
+}
+#wrapperhome {
+	background-image:url('/web/20130809180624im_/http://pbskids.org/enablecdn/wordgirl/cdn_content/images/comicBG.jpg');
+				background-repeat:no-repeat;
+  /*width: 1405px ;
+  margin-left: auto ;
+  margin-right: auto ;
+    text-align: center; */
+    background-position: 50% top;
+    min-width: 1160px;
+     outline:none;
+}
+
+#WordGirl { height:705px; text-align:center; margin-left:auto; margin-right:auto; min-width: 960px; outline:none;}
+
+body{
+	background-color: #1277C9; /*ps: change this value to the same background color of your flash movie*/
+	text-align:center; 
+	margin:0;
+}
+
+div#footer {
+	font-family:verdana;
+	text-align:center;
+	font-size:80%;
+	color:#ffffff;
+}
+
+div#footer a {
+	text-decoration:none;
+}
+
+div#footer a:link {
+	color:#9aeef4;
+}
+
+div#footer a:visited {
+	color:#1ba1d0;
+}
+
+div#footer a:hover {
+	color:#ffffff;
+}
+
+div#footer {
+	font-family:verdana;
+	text-align:center;
+	font-size:80%;
+	color:#ffffff;
+}
+
+div#noflash a {
+	text-decoration:none;
+}
+
+div#noflash a:link {
+	color:#1277C9;
+}
+
+div#noflash a:visited {
+	color:#1277C9;
+}
+
+div#noflash a:hover {
+	color:#9aeef4;
+}
+/*
+     FILE ARCHIVED ON 18:06:24 Aug 09, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:06:35 Apr 14, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 1.076
+  exclusion.robots: 0.129
+  exclusion.robots.policy: 0.115
+  cdx.remote: 0.122
+  esindex: 0.013
+  LoadShardBlock: 46.219 (3)
+  PetaboxLoader3.datanode: 83.62 (5)
+  load_resource: 115.091 (2)
+  PetaboxLoader3.resolve: 49.984 (2)
+*/
