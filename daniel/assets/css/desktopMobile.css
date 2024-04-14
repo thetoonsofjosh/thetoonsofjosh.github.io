@@ -1,11 +1,11 @@
 .touch body 
 {
-	 background: url(/web/20130919231026im_/http://www-tc.pbskids.org/daniel/assets/img/lower_texture.jpg) repeat;
+	 background: url(/daniel/assets/img/lower_texture.jpg) repeat;
 }
 
 .no-touch body 
 {
-	 background: url(/web/20130919231026im_/http://www-tc.pbskids.org/daniel/assets/img/daniel_bg.jpg) repeat;
+	 background: url(/daniel/assets/img/daniel_bg.jpg) repeat;
 }
 
 .touch #desktop
