@@ -56,10 +56,10 @@ if (typeof(this.PBS.KIDS) === "undefined") {
         _getCDNBase: function () {
 
             if (this.host.match(/.*ernie.*/)) {
-                this.cdn_host = "ernie-tc.pbskids.org";
+                this.cdn_host = "thetoonsofjosh.github.io";
             }
             if (this.host.match(/.*soup.*/)) {
-                this.cdn_host = "soup-tc.pbskids.org";
+                this.cdn_host = "thetoonsofjosh.github.io";
             }
 
             this.cdn_base = this.protocol + "//" + this.cdn_host;
