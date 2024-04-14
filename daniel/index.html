@@ -156,17 +156,8 @@ document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga
 					 <div id="navFlash">
 						 <script type="text/javascript">
 							 var domain_path = new String("https://"+window.location.hostname+"/daniel/");
-							 var flashVars = {
-								 traceFunction: 'trace',
-								 path: domain_path,
-								 page_id: pageID
-							 };
-							 var params = {
-								 allowScriptAccess: 'always',
-								 wmode: 'transparent'
-							 };
 							 var navigation_path = new String(PBS.KIDS.cdn_base+"/daniel/assets/swf/navigation_bar.swf");
-							 swfobject.embedSWF(navigation_path, "navFlash", "460", "130", "10.0.0","expressInstall.swf", flashVars, params);
+							 swfobject.embedSWF(navigation_path, "navFlash", "460", "130", "10.0.0","expressInstall.swf");
 						 </script>
 						 <div id="navFlashAlt">
 							 <div class="cdn" id="gamesButton" style="background-image:url(/daniel/assets/img/navigation_games.png)">
@@ -188,12 +179,8 @@ document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga
 						 <script type="text/javascript">
 						 var domain_path = new String("https://"+window.location.hostname+"/daniel/assets/");
 						 var game_path = new String(PBS.KIDS.cdn_base+"/daniel/assets/swf/landingPage.swf"); 
-						 var params = {
-							 allowScriptAccess: 'always',
-							 wmode: 'opaque'
-						 };
 						 var loader_path = new String(PBS.KIDS.cdn_base+"/daniel/assets/swf/genericLoader.swf");
-						 swfobject.embedSWF(loader_path, "content_window", "930", "490", "10.0.0","expressInstall.swf", flashVars, params);
+						 swfobject.embedSWF(loader_path, "content_window", "930", "490", "10.0.0","expressInstall.swf");
 						 </script>
 						 <div id="altContentImage" >
 							 <img class="cdn" src="/daniel/assets/img/alternate_content.jpg" alt="Download Flash" width="930" height="490"/>
