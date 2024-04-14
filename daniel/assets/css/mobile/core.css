@@ -4,7 +4,7 @@ div#mobile {
 	margin-left:0px;
 	margin-right:0px;
 	padding-top:0px;
-	background: url(/web/20130919175419im_/http://www-tc.pbskids.org/daniel/assets/img/lower_texture.jpg) repeat;
+	background: url(/daniel/assets/img/lower_texture.jpg) repeat;
 }
 .logos{
 	overflow:hidden;
@@ -39,19 +39,19 @@ div#mobile {
 	.main{
 		/*width:100%;*/
 		/*background: #000066;*/
-		background: -moz-linear-gradient(top,  rgba(255,244,137,1) 0%, rgba(255,244,137,0) 100%),url(/web/20130919175419im_/http://www-tc.pbskids.org/daniel/assets/img/daniel_bg.jpg) repeat center 420px; /* FF3.6+ */
-		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,244,137,1)), color-stop(100%,rgba(255,244,137,0))),url(/web/20130919175419im_/http://www-tc.pbskids.org/daniel/assets/img/daniel_bg.jpg) repeat center 420px; /* Chrome,Safari4+ */
-		background: -webkit-linear-gradient(top,  rgba(255,244,137,1) 0%,rgba(255,244,137,0) 100%),url(/web/20130919175419im_/http://www-tc.pbskids.org/daniel/assets/img/daniel_bg.jpg) repeat center 420px; /* Chrome10+,Safari5.1+ */
-		background: -o-linear-gradient(top,  rgba(255,244,137,1) 0%,rgba(255,244,137,0) 100%),url(/web/20130919175419im_/http://www-tc.pbskids.org/daniel/assets/img/daniel_bg.jpg) repeat center 420px; /* Opera 11.10+ */
-		background: -ms-linear-gradient(top,  rgba(255,244,137,1) 0%,rgba(255,244,137,0) 100%),url(/web/20130919175419im_/http://www-tc.pbskids.org/daniel/assets/img/daniel_bg.jpg) repeat center 420px; /* IE10+ */
-		background: linear-gradient(to bottom,  rgba(255,244,137,1) 0%,rgba(255,244,137,0) 100%),url(/web/20130919175419im_/http://www-tc.pbskids.org/daniel/assets/img/daniel_bg.jpg) repeat center 420px; /* W3C */
+		background: -moz-linear-gradient(top,  rgba(255,244,137,1) 0%, rgba(255,244,137,0) 100%),url(/daniel/assets/img/daniel_bg.jpg) repeat center 420px; /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,244,137,1)), color-stop(100%,rgba(255,244,137,0))),url(/daniel/assets/img/daniel_bg.jpg) repeat center 420px; /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  rgba(255,244,137,1) 0%,rgba(255,244,137,0) 100%),url(/daniel/assets/img/daniel_bg.jpg) repeat center 420px; /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  rgba(255,244,137,1) 0%,rgba(255,244,137,0) 100%),url(/daniel/assets/img/daniel_bg.jpg) repeat center 420px; /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  rgba(255,244,137,1) 0%,rgba(255,244,137,0) 100%),url(/daniel/assets/img/daniel_bg.jpg) repeat center 420px; /* IE10+ */
+		background: linear-gradient(to bottom,  rgba(255,244,137,1) 0%,rgba(255,244,137,0) 100%),url(/daniel/assets/img/daniel_bg.jpg) repeat center 420px; /* W3C */
 
 	}
 	.footer{
 		width: 100%;
 	/*	height: 100%; */
 		background: #FF9E0D;
-		background: url(/web/20130919175419im_/http://www-tc.pbskids.org/daniel/assets/img/lower_texture.jpg) repeat;
+		background: url(/daniel/assets/img/lower_texture.jpg) repeat;
 	}
 		.footer .adbar{
 			text-align:center;
@@ -67,14 +67,14 @@ div#mobile {
 				display:inline-block;
 				width:354px;
 				height:106px;
-				background: url(/web/20130919175419im_/http://www-tc.pbskids.org/daniel/assets/img/Banner_DayNightApp.png) no-repeat;
+				background: url(/daniel/assets/img/Banner_DayNightApp.png) no-repeat;
 			}
 			.ad#banner01 a{
 				display:inline-block;
 				width:300px;
 				height:95px;
 				top:11px;
-				background: url(/web/20130919175419im_/http://www-tc.pbskids.org/daniel/assets/img/Banner_Toys.png) no-repeat;
+				background: url(/daniel/assets/img/Banner_Toys.png) no-repeat;
 			}
 		.footer .sponsors{			
 			text-align:center;
@@ -103,12 +103,12 @@ div#mobile {
 .mainContent .bgGradient{
 	height: 100%;
 	width: 100%;
-	background: -moz-linear-gradient(top,  rgba(255,244,137,1) 0%, rgba(255,244,137,0) 100%),url(/web/20130919175419im_/http://www-tc.pbskids.org/daniel/assets/img/daniel_bg.jpg) repeat center 420px; /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,244,137,1)), color-stop(100%,rgba(255,244,137,0))),url(/web/20130919175419im_/http://www-tc.pbskids.org/daniel/assets/img/daniel_bg.jpg) repeat center 420px; /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  rgba(255,244,137,1) 0%,rgba(255,244,137,0) 100%),url(/web/20130919175419im_/http://www-tc.pbskids.org/daniel/assets/img/daniel_bg.jpg) repeat center 420px; /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  rgba(255,244,137,1) 0%,rgba(255,244,137,0) 100%),url(/web/20130919175419im_/http://www-tc.pbskids.org/daniel/assets/img/daniel_bg.jpg) repeat center 420px; /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  rgba(255,244,137,1) 0%,rgba(255,244,137,0) 100%),url(/web/20130919175419im_/http://www-tc.pbskids.org/daniel/assets/img/daniel_bg.jpg) repeat center 420px; /* IE10+ */
-	background: linear-gradient(to bottom,  rgba(255,244,137,1) 0%,rgba(255,244,137,0) 100%),url(/web/20130919175419im_/http://www-tc.pbskids.org/daniel/assets/img/daniel_bg.jpg) repeat center 420px; /* W3C */
+	background: -moz-linear-gradient(top,  rgba(255,244,137,1) 0%, rgba(255,244,137,0) 100%),url(/daniel/assets/img/daniel_bg.jpg) repeat center 420px; /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,244,137,1)), color-stop(100%,rgba(255,244,137,0))),url(/daniel/assets/img/daniel_bg.jpg) repeat center 420px; /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(255,244,137,1) 0%,rgba(255,244,137,0) 100%),url(/daniel/assets/img/daniel_bg.jpg) repeat center 420px; /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(255,244,137,1) 0%,rgba(255,244,137,0) 100%),url(/daniel/assets/img/daniel_bg.jpg) repeat center 420px; /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(255,244,137,1) 0%,rgba(255,244,137,0) 100%),url(/daniel/assets/img/daniel_bg.jpg) repeat center 420px; /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(255,244,137,1) 0%,rgba(255,244,137,0) 100%),url(/daniel/assets/img/daniel_bg.jpg) repeat center 420px; /* W3C */
 }
 
 /* Links */
@@ -121,14 +121,14 @@ a:link{
 	display:block;
 	width:75px;
 	height:75px;
-	background: url(/web/20130919175419im_/http://www-tc.pbskids.org/daniel/assets/img/PBSKids_Logo_high.png);
+	background: url(/daniel/assets/img/PBSKids_Logo_high.png);
 	background-size:75px 75px;
 }
 .dtnLogo a{
 	display:block;
 	width:185px;
 	height:150px;
-	background: url(/web/20130919175419im_/http://www-tc.pbskids.org/daniel/assets/img/dtn_logo_high.png);
+	background: url(/daniel/assets/img/dtn_logo_high.png);
 	background-size:185px 150px;
 }
 
@@ -143,21 +143,21 @@ a:link{
 		display:block;
 		width:253px;
 		height:73px;
-		background: url(/web/20130919175419im_/http://www-tc.pbskids.org/daniel/assets/img/frc_logo.png) no-repeat;
+		background: url(/daniel/assets/img/frc_logo.png) no-repeat;
 		background-size:253px 73px;
 	}
 	.logo#cpb a{
 		display:block;
 		width:48px;
 		height:47px;
-		background: url(/web/20130919175419im_/http://www-tc.pbskids.org/daniel/assets/img/cpb_logo_sm.png) no-repeat;
+		background: url(/daniel/assets/img/cpb_logo_sm.png) no-repeat;
 		background-size:48px 47px;
 	}
 	.logo#pbs a{
 		display:block;
 		width:102px;
 		height:55px;
-		background: url(/web/20130919175419im_/http://www-tc.pbskids.org/daniel/assets/img/PBS_Logo.png) no-repeat;
+		background: url(/daniel/assets/img/PBS_Logo.png) no-repeat;
 		background-size:102px 55px;
 	}
 /* End Links */
