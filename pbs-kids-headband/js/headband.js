@@ -91,25 +91,25 @@ PBS.KIDS.Headband = (function(){
     // cdn_base represents the base url to the CDN.
     var _cdn_base = undefined;
     // Cdn represents the host of our CDN.                                                                                                                                                                                        
-    var _cdn_host =  "/";
+    var _cdn_host =  "thetoonsofjosh.github.io";
     // Compute CDN base url based on host.
     var _protocol = window.location.protocol;
     var _host = window.location.host;
     var _base = _protocol + "//" + _host;
     if (_host.match(/.*ernie.*/)) {
-        _cdn_host = "/";
+        _cdn_host = "thetoonsofjosh.github.io";
     }
     if (_host.match(/.*soup.*/)) {
-        _cdn_host = "/";
+        _cdn_host = "thetoonsofjosh.github.io";
     }
     if (_host.match(/.*dev.*/)) {
         _cdn_host = _host;
     }
     if (_host.match(/.*qa.*/)) {
-        _cdn_host = "/";
+        _cdn_host = "thetoonsofjosh.github.io";
     }
     if (_host.match(/.*stage.*/)) {
-        _cdn_host = "/";
+        _cdn_host = "thetoonsofjosh.github.io";
     }
     if (_host.match(/.*localhost.*/)) {
         _cdn_host = "localhost";
@@ -205,7 +205,7 @@ PBS.KIDS.Headband = (function(){
 
     var _get_base_url = function(){
 	//Find the root url of the site
-	//e.g. //somesite/games/index.html ==> //somesite
+	//e.g. thetoonsofjosh.github.io//somesite/games/index.html ==> thetoonsofjosh.github.io//somesite
 	var path = window.location.pathname;
 	var root_path = path.match(/(.[^/]*)/)[1];
 	var root_url = 'https://' + window.location.hostname + root_path;
