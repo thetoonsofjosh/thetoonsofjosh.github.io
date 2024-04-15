@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+
+<quadrants>
+
+	
+	<quadrant>
+		<route>videos</route>
+		<data>
+			<character>quincy</character>
+			<section>videos</section>  
+			<file>/sesame/images/quadrants/Quad1.png</file>
+		</data>	
+	</quadrant>
+	<quadrant>
+		<route>games</route>
+		<data>
+           		<character>murray</character>
+			<gameID>murrayWOTS</gameID> 
+			<file>/sesame/images/quadrants/Quad2.png</file>
+		</data>
+	</quadrant>
+	<quadrant>
+		<route>games</route>
+		<data>
+           		<character>big bird</character>
+			<gameID>bigbird_cluehunt</gameID> 
+            <file>/sesame/images/quadrants/Quad3.png</file>
+		</data>
+	</quadrant>
+	<quadrant>
+		<route>printables</route>
+		<data>
+			<character>elmo</character>
+			<section>printables</section> 
+			<file>/sesame/images/quadrants/Quad4.png</file>
+		</data>
+	</quadrant>
+
+</quadrants>
