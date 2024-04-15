@@ -66,10 +66,7 @@
 			<asset id="cake_general_prompt" type="audio" url="audio/cakepan/vo_cake_onload.mp3" />
 			
 			<!-- ooh.  I love that one.  OK, onto the next step.  To fill in cake batter, we need to spell the word [insert word] -->
-			<!-- old 
-			<asset id="cake_onselect" type="audio" url="audio/cakepan/vo_cake_onselect.mp3" />
-			-->
-			
+			<asset id="cake_onselect" type="audio" url="audio/cakepan/vo_cake_onselect.mp3" />			
 			<!--
 				On cake pan select:
 				new file: vo_cake_onselect_short.mp3 
@@ -129,14 +126,10 @@
 			<!-- ok, super you... chose a frosting flavor, on station arrival -->
 			<asset id="frosting_general_prompt_1" type="audio" url="audio/frosting/vo_frosting_onload_1.mp3" />
 			
-			<!-- old 
 			<asset id="frosting_onselect" type="audio" url="audio/frosting/vo_frosting_onselect_letter_0.mp3" />
-			-->
 			
 			<!-- initial frosting on selection VO - this is followed by letter selection panel and click the letter VO -->
-			<!-- old
 			<asset id="frosting_onselect_short" type="audio" url="audio/frosting/vo_frosting_onselect_short.mp3" />
-			-->
 			
 			<!-- REVISION: -->
 			<!-- on frosting select: 
