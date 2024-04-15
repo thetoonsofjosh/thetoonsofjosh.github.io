@@ -1,6 +1,6 @@
 <game id="rescue"> 
 	<libraries>
-		<!-- library id="burbankbigcdttbdembedded" url="libraries/burbankbigcdttbdembedded.swf" type="font" name="BurbankBigCdTTBdEmbedded" font="BurbankBigCdTTBdEmbeddedFont" /> -->
+		<ibrary id="burbankbigcdttbdembedded" url="libraries/burbankbigcdttbdembedded.swf" type="font" name="BurbankBigCdTTBdEmbedded" font="BurbankBigCdTTBdEmbeddedFont" />
 		<library id="superwhy_endscreen" url="libraries/superwhy_endscreen.swf" />
 	</libraries> 
 	<swf url="sections/games/rescue/rescue.swf" /> 
