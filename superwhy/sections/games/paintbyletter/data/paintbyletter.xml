@@ -22,16 +22,16 @@
 		<kudo id="amazing" type="audio" url="sections/games/paintbyletter/audio/vo/kudos/kudos_1.mp3"/>
 	</kudos>
 	<oops>
-		<!--oop id="try_again" type="audio" url="sections/games/paintbyletter/audio/vo/oops/try_again.mp3"/>
-		<oop id="keep_trying" type="audio" url="sections/games/paintbyletter/audio/vo/oops/keep_trying.mp3"/-->
+		<oop id="try_again" type="audio" url="sections/games/paintbyletter/audio/vo/oops/try_again.mp3"/>
+		<oop id="keep_trying" type="audio" url="sections/games/paintbyletter/audio/vo/oops/keep_trying.mp3"/>
 		<oop id="try_another" type="audio" url="sections/games/paintbyletter/audio/vo/oops/oops_1.mp3"/>
 		<oop id="see_letter" type="audio" url="sections/games/paintbyletter/audio/vo/oops/oops_2.mp3"/>
 	</oops>
-	<!-- don't need promos for this activity! promos>
+	<promos>
 		<promo id="whyatt" location="game/rescue" url="promos/endscreen_promo_sw_rescue.jpg" />
 		<promo id="wonderred" location="game/rhymenroll" url="promos/endscreen_promo_rhymeroll.jpg" />
 		<promo id="alphapig" location="game/alphabricks" url="promos/endscreen_promo_ap_bricks.jpg" />
-	</promos -->
+	</promos>
 	<pages>
 		<page id="pig" type="swf" url="sections/games/paintbyletter/pages/pig.swf" name="Alpha Pig" />
 		<page id="princess" type="swf" url="sections/games/paintbyletter/pages/princess.swf" name="Princess Presto"/>
