@@ -88,7 +88,7 @@
 			
 			<asset id="treasure_kudos_start" type="audio" url="audio/global/gb_treasurechest.mp3" />
 			<asset id="treasure_word_start" type="audio" url="audio/global/gb_treasure_word.mp3" />
-			<!-- <asset id="treasure_word_know" type="audio" url="audio/global/gb_know.mp3" /> -->
+			<asset id="treasure_word_know" type="audio" url="audio/global/gb_know.mp3" />
 
 			<asset id="treasure_word_kudos_end_1" type="audio" url="audio/global/gb_word_kudos_end_1.mp3" />
 			<asset id="treasure_word_kudos_end_2" type="audio" url="audio/global/gb_word_kudos_end_2.mp3" />
