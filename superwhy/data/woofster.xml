@@ -8,7 +8,7 @@
 	</libraries>
 	<assets>
 		<promos id="promos" isGroup="true">
-		<!--	<promo id="createasuperdog" location="game/createasuperdog" url="promos/feature_promo_woofster_createasuperpet.jpg"></promo> -->
+		        <promo id="createasuperdog" location="game/createasuperdog" url="promos/feature_promo_woofster_createasuperpet.jpg"></promo>
 			<promo id="deliciousdish" location="game/deliciousdish" url="promos/feature_promo_woofster_deliciousDish.jpg"></promo>
 		</promos>
 		<audio id="audio" isGroup="true">
