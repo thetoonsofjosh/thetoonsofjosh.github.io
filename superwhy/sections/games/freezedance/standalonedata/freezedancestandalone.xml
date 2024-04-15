@@ -47,15 +47,15 @@
 			<answersound id="fall" type="audio" url="../sections/games/freezedance/audio/words/all/fall.mp3"/>
 			<answersound id="tall" type="audio" url="../sections/games/freezedance/audio/words/all/tall.mp3"/>
 			<answersound id="small" type="audio" url="../sections/games/freezedance/audio/words/all/small.mp3"/>
-			<answersound id="wall" type="audio" url="../sections/games/freezedance/audio/words/all/wall.mp3"/> <!-- temp audio -->
+			<answersound id="wall" type="audio" url="../sections/games/freezedance/audio/words/all/wall.mp3"/>
 			
 			<answersound id="sun" type="audio" url="../sections/games/freezedance/audio/words/un/sun.mp3"/>
 			<answersound id="bun" type="audio" url="../sections/games/freezedance/audio/words/un/bun.mp3"/>
 			<answersound id="fun" type="audio" url="../sections/games/freezedance/audio/words/un/fun.mp3"/>
 			<answersound id="pun" type="audio" url="../sections/games/freezedance/audio/words/un/pun.mp3"/>
 			<answersound id="run" type="audio" url="../sections/games/freezedance/audio/words/un/run.mp3"/>
-			<answersound id="stun" type="audio" url="../sections/games/freezedance/audio/words/un/stun.mp3"/> <!-- temp audio -->
-			<answersound id="spun" type="audio" url="../sections/games/freezedance/audio/words/un/spun.mp3"/> <!-- temp audio -->
+			<answersound id="stun" type="audio" url="../sections/games/freezedance/audio/words/un/stun.mp3"/>
+			<answersound id="spun" type="audio" url="../sections/games/freezedance/audio/words/un/spun.mp3"/>
 			
 			<answersound id="bump" type="audio" url="../sections/games/freezedance/audio/words/ump/bump.mp3"/>
 			<answersound id="stump" type="audio" url="../sections/games/freezedance/audio/words/ump/stump.mp3"/>
@@ -63,7 +63,7 @@
 			<answersound id="lump" type="audio" url="../sections/games/freezedance/audio/words/ump/lump.mp3"/>
 			<answersound id="hump" type="audio" url="../sections/games/freezedance/audio/words/ump/hump.mp3"/>
 			<answersound id="pump" type="audio" url="../sections/games/freezedance/audio/words/ump/pump.mp3"/>
-			<answersound id="dump" type="audio" url="../sections/games/freezedance/audio/words/ump/dump.mp3"/> <!-- temp audio -->
+			<answersound id="dump" type="audio" url="../sections/games/freezedance/audio/words/ump/dump.mp3"/>
 			
 			<answersound id="log" type="audio" url="../sections/games/freezedance/audio/words/og/log.mp3"/>
 			<answersound id="frog" type="audio" url="../sections/games/freezedance/audio/words/og/frog.mp3"/>
@@ -73,22 +73,22 @@
 			<answersound id="bog" type="audio" url="../sections/games/freezedance/audio/words/og/bog.mp3"/>
 			<answersound id="cog" type="audio" url="../sections/games/freezedance/audio/words/og/cog.mp3"/>
 			
-			<answersound id="snake" type="audio" url="../sections/games/freezedance/audio/words/ake/snake.mp3"/> <!-- temp audio -->
+			<answersound id="snake" type="audio" url="../sections/games/freezedance/audio/words/ake/snake.mp3"/>
 			<answersound id="cake" type="audio" url="../sections/games/freezedance/audio/words/ake/cake.mp3"/>
 			<answersound id="rake" type="audio" url="../sections/games/freezedance/audio/words/ake/rake.mp3"/>
 			<answersound id="lake" type="audio" url="../sections/games/freezedance/audio/words/ake/lake.mp3"/>
 			<answersound id="bake" type="audio" url="../sections/games/freezedance/audio/words/ake/bake.mp3"/>
 			<answersound id="make" type="audio" url="../sections/games/freezedance/audio/words/ake/make.mp3"/>
 			<answersound id="wake" type="audio" url="../sections/games/freezedance/audio/words/ake/wake.mp3"/>
-			<answersound id="take" type="audio" url="../sections/games/freezedance/audio/words/ake/take.mp3"/> <!-- temp audio -->
+			<answersound id="take" type="audio" url="../sections/games/freezedance/audio/words/ake/take.mp3"/>
 			
 			<answersound id="rat" type="audio" url="../sections/games/freezedance/audio/words/at/rat.mp3"/>
 			<answersound id="bat" type="audio" url="../sections/games/freezedance/audio/words/at/bat.mp3"/>				
 			<answersound id="hat" type="audio" url="../sections/games/freezedance/audio/words/at/hat.mp3"/>
 			<answersound id="mat" type="audio" url="../sections/games/freezedance/audio/words/at/mat.mp3"/>
 			<answersound id="cat" type="audio" url="../sections/games/freezedance/audio/words/at/cat.mp3"/>
-			<answersound id="sat" type="audio" url="../sections/games/freezedance/audio/words/at/sat.mp3"/> <!-- temp audio -->
-			<answersound id="flat" type="audio" url="../sections/games/freezedance/audio/words/at/flat.mp3"/> <!-- temp audio -->
+			<answersound id="sat" type="audio" url="../sections/games/freezedance/audio/words/at/sat.mp3"/>
+			<answersound id="flat" type="audio" url="../sections/games/freezedance/audio/words/at/flat.mp3"/>
 			
 			<answersound id="tell" type="audio" url="../sections/games/freezedance/audio/words/ell/tell.mp3"/>
 			<answersound id="yell" type="audio" url="../sections/games/freezedance/audio/words/ell/yell.mp3"/>
@@ -96,8 +96,8 @@
 			<answersound id="sell" type="audio" url="../sections/games/freezedance/audio/words/ell/sell.mp3"/>
 			<answersound id="well" type="audio" url="../sections/games/freezedance/audio/words/ell/well.mp3"/>
 			<answersound id="fell" type="audio" url="../sections/games/freezedance/audio/words/ell/fell.mp3"/>
-			<answersound id="shell" type="audio" url="../sections/games/freezedance/audio/words/ell/shell.mp3"/> <!-- temp audio -->
-			<answersound id="smell" type="audio" url="../sections/games/freezedance/audio/words/ell/smell.mp3"/> <!-- temp audio -->
+			<answersound id="shell" type="audio" url="../sections/games/freezedance/audio/words/ell/shell.mp3"/>
+			<answersound id="smell" type="audio" url="../sections/games/freezedance/audio/words/ell/smell.mp3"/>
 			
 			<answersound id="chairs" type="audio" url="../sections/games/freezedance/audio/words/airs/chairs.mp3"/>
 			<answersound id="stairs" type="audio" url="../sections/games/freezedance/audio/words/airs/stairs.mp3"/>
