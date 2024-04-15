@@ -11,8 +11,8 @@
 	<libraries>
 		<library id="burbankbigcdttbdembedded" url="../libraries/burbankbigcdttbdembedded.swf" type="font" name="BurbankBigCdTTBdEmbedded" font="BurbankBigCdTTBdEmbeddedFont" />
 		<library id="futuratdemeduembedded" url="../libraries/futuratdemeduembedded.swf" type="font" name="FuturaTDemEduEmbedded" font="FuturaTDemEduEmbeddedFont"/>
-		<!--<library id="superwhy_endscreen" url="../libraries/superwhy_endscreen.swf" />
-		<library id="prizescreen" url="../libraries/activityprizescreen.swf" />-->
+		<library id="superwhy_endscreen" url="../libraries/superwhy_endscreen.swf" />
+		<library id="prizescreen" url="../libraries/activityprizescreen.swf" />
 	</libraries>
 	
 	<game>
