@@ -21,7 +21,7 @@ body#hm { background: #F10; }
 }
 
 #hm-content {
-	background-image: url(/web/20130116042512im_/http://pbskids.org/curiousgeorge/img/hm_box_bg.gif);
+	background-image: url(/curiousgeorge/img/hm_box_bg.gif);
 	background-repeat: repeat-y;
 	height: 125px;
 }
@@ -76,7 +76,7 @@ body#hm { background: #F10; }
 }
 
 #hm-marquee {
-	background-image: url(/web/20130116042512im_/http://pbskids.org/curiousgeorge/img/bg_pattern.gif);
+	background-image: url(/curiousgeorge/img/bg_pattern.gif);
 	background-repeat: repeat;
 	height: 427px;
 }

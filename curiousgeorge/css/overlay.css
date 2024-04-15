@@ -67,7 +67,7 @@
 }
 
 #cg-overlay .advanceToDestination {
-    background: url("/web/20130825063255im_/http://pbskids.org/curiousgeorge/img/goto_cgdotcom.png");
+    background: url("/curiousgeorge/img/goto_cgdotcom.png");
     background-color: #f5b903;
     width: 215px;
     height: 55px;
@@ -77,7 +77,7 @@
 }
 
 #cg-overlay .close-btn {
-    background: url("/web/20130825063255im_/http://pbskids.org/pbs-kids-headband/images/explorer-close-btn.png") no-repeat center top transparent;
+    background: url("/pbs-kids-headband/images/explorer-close-btn.png") no-repeat center top transparent;
     border: none;
     outline: none;
     text-indent: -999em;
@@ -97,7 +97,7 @@
 #cg-overlay .cg-overlay-close:hover { cursor: pointer; }
 
 #cg-overlay .backToPbsKids {
-    background: url("/web/20130825063255im_/http://pbskids.org/includes/pk-sponsor/styles/i/bridge_assets.png") 0 -136px no-repeat;
+    background: url("/includes/pk-sponsor/styles/i/bridge_assets.png") 0 -136px no-repeat;
     text-indent: -9999px;
     display: block;
     width: 245px;
