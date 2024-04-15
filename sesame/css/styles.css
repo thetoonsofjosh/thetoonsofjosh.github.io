@@ -1,0 +1,88 @@
+@import url("reset.css");
+@import url("flash_positioning.css");
+
+body
+{
+	background-color:#90f2fd;
+}
+
+#wrapper
+{
+	width:960px;
+	margin:0px auto;
+}
+
+.left
+{
+	float:left;
+}
+
+.legal
+{
+	padding:0px 40px;
+	width:630px;
+}
+
+a
+{
+color:#0c2276;
+}
+
+a:hover
+{
+color:#5e1806;
+}
+
+#gameframe
+{
+	border:0px;
+}
+
+
+#footer
+{
+	
+	margin:30px auto;
+	width:960px;
+
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	margin-bottom:10px;
+
+}
+
+#footer .biglinks a
+{
+	margin-left:40px;
+}
+
+#footer .biglinks{
+	margin:20px 0;
+}
+
+#footer  p
+{
+	margin-bottom:15px;
+}
+
+#sponsors
+{
+background-image: url('/sesame/images/BottomSponsorsBox.png');
+background-repeat: no-repeat;
+background-position:center; 
+
+	margin-bottom:10px;
+
+
+	padding-top:10px;
+	padding-bottom:5px;
+	
+	
+	
+}
+
+#sponsors a
+{
+	margin-left:30px;
+}
