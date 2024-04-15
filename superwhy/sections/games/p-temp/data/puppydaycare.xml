@@ -54,7 +54,7 @@
 			<asset id="bubble_appear" type="audio" url="audio/highlight_18_edit.mp3" />
 			<asset id="item_placed" type="audio" url="audio/notifier_04.mp3" />
 			<asset id="grow_sfx" type="audio" url="audio/Trans_sparkle.mp3" />
-			<!--asset id="oops3_1a" type="audio" url="audio/pdc_oops_context1alt.mp3" /-->
+			<asset id="oops3_1a" type="audio" url="audio/pdc_oops_context1alt.mp3" />
 			<asset id="oops3_2" type="audio" url="audio/pdc_oops_context2.mp3" />
 			<asset id="oops4_1" type="audio" url="audio/pdc_oops_prompt1.mp3" />
 			<asset id="oops4_2" type="audio" url="audio/pdc_oops_prompt2.mp3" />
@@ -73,7 +73,7 @@
 			<asset id="word4" type="audio" url="audio/pdc_walk.mp3" />
 			<asset id="puppy_correct" type="audio" url="audio/cutsie_dog_bark_edit.mp3" />
 			<asset id="puppy_incorrect1" type="audio" url="audio/dog_whine_edit.mp3" />
-			<!--asset id="puppy_incorrect2" type="audio" url="audio/whine_02.mp3" /-->
+			<asset id="puppy_incorrect2" type="audio" url="audio/whine_02.mp3" />
 		</assets>
 <!--
 		
