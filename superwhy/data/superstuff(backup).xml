@@ -621,7 +621,7 @@
 				<image id="printable" preload="false" url="sections/printables/sr_large_printable2.swf" />			
 				<title><![CDATA[SUPER WHY Halloween]]></title>
 			    </printable> 
-				 <!-- <printable 
+				 <printable 
 				id="pp_large_printable6" 
 				isGroup="true" 
 				orientation="portrai" 
@@ -660,7 +660,7 @@
 				<image id="preview" url="sections/printables/images/printable_wonderred6_lg_preview.gif" />
 				<image id="printable" preload="false" url="sections/printables/wr_large_printable6.swf" />			
 				<title><![CDATA[Red Valentine's Day]]></title>
-			    </printable>-->
+			    </printable>
 				<printable 
 				id="sr_large_printable3" 
 				isGroup="true" 
