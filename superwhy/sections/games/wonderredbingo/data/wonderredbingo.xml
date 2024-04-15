@@ -90,7 +90,7 @@
 				<answer id="lox" type="audio" url="sections/games/wonderredbingo/audio/words/lox.mp3"><![CDATA[lox]]></answer>
 				<answer id="ox" type="audio" url="sections/games/wonderredbingo/audio/words/ox.mp3"><![CDATA[ox]]></answer>
 				<answer id="pox" type="audio" url="sections/games/wonderredbingo/audio/words/pox.mp3"><![CDATA[pox]]></answer>
-				<!--answer id="sox" type="audio" url="sections/games/wonderredbingo/audio/words/sox.mp3"><![CDATA[sox]]></answer-->
+				<answer id="sox" type="audio" url="sections/games/wonderredbingo/audio/words/sox.mp3"><![CDATA[sox]]></answer>
 				<answer id="bug" type="audio" url="sections/games/wonderredbingo/audio/words/bug.mp3"><![CDATA[bug]]></answer>
 				<answer id="dug" type="audio" url="sections/games/wonderredbingo/audio/words/dug.mp3"><![CDATA[dug]]></answer>
 				<answer id="hug" type="audio" url="sections/games/wonderredbingo/audio/words/hug.mp3"><![CDATA[hug]]></answer>
@@ -226,9 +226,9 @@
 			<kudos id="kudos_3b" type="audio" url="sections/games/wonderredbingo/audio/kudos/Kudos3b.mp3" />
 			<kudos id="kudos_4" type="audio" url="sections/games/wonderredbingo/audio/kudos/Kudos4a.mp3" />
 			<kudos id="kudos_4b" type="audio" url="sections/games/wonderredbingo/audio/kudos/Kudos4b.mp3" />
-			<!--kudos id="great" type="audio" url="sections/games/alphapigbingo/audio/kudos/great.mp3" />
+			<kudos id="great" type="audio" url="sections/games/alphapigbingo/audio/kudos/great.mp3" />
 			<kudos id="there_it_is" type="audio" url="sections/games/alphapigbingo/audio/kudos/there_it_is.mp3" />
-			<kudos id="you_found_it" type="audio" url="sections/games/alphapigbingo/audio/kudos/you_found_it.mp3" /-->
+			<kudos id="you_found_it" type="audio" url="sections/games/alphapigbingo/audio/kudos/you_found_it.mp3" />
 		</kudos>
 		
 		<finaleKudos id="finaleKudos" isGroup="true">
@@ -362,7 +362,7 @@
 				<answer id="lox" type="audio" url="sections/games/wonderredbingo/audio/words/lox.mp3"><![CDATA[lox]]></answer>
 				<answer id="ox" type="audio" url="sections/games/wonderredbingo/audio/words/ox.mp3"><![CDATA[ox]]></answer>
 				<answer id="pox" type="audio" url="sections/games/wonderredbingo/audio/words/pox.mp3"><![CDATA[pox]]></answer>
-				<!--answer id="sox" type="audio" url="sections/games/wonderredbingo/audio/words/sox.mp3"><![CDATA[sox]]></answer-->
+				<answer id="sox" type="audio" url="sections/games/wonderredbingo/audio/words/sox.mp3"><![CDATA[sox]]></answer>
 			</answerset>
 			<answerset id="ug" isGroup="true">
 				<answer id="bug" type="audio" url="sections/games/wonderredbingo/audio/words/bug.mp3"><![CDATA[bug]]></answer>
