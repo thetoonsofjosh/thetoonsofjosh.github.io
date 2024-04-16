@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+
+<videos>
+	<video id="binoculars">
+		<title>Binoculars</title>
+		<movie>/hooper/flvs/videos/SW01_Binoculars_Final_1.flv</movie>
+	</video>
+	<video id="bottles">
+		<title>Bottles</title>
+		<movie>/hooper/flvs/videos/SW03_Bottles_Final.flv</movie>
+	</video>	
+	<video id="buttons">
+		<title>Buttons</title>
+		<movie>/hooper/flvs/videos/SW04_Buttons_Final.flv</movie>
+	</video>
+	<video id="can">
+		<title>Can</title>
+		<movie>/hooper/flvs/videos/SW05_Can_Final.flv</movie>
+	</video>
+	<video id="cardboardtunnel">
+		<title>Cardboard Tunnel</title>
+		<movie>/hooper/flvs/videos/SW06_CardboardTunnel_Final.flv</movie>
+	</video>
+	<video id="conch">
+		<title>Conch</title>
+		<movie>/hooper/flvs/videos/SW07_Conch_Final.flv</movie>
+	</video>
+
+	<video id="magnets">
+		<title>Magnets</title>
+		<movie>/hooper/flvs/videos/SW10_Magents_Final.flv</movie>
+	</video>	
+	<video id="magnifyingglass">
+		<title>Magnifying Glass</title>
+		<movie>/hooper/flvs/videos/SW11_MagnifyingGlass_Final.flv</movie>
+	</video>
+	<video id="paper">
+		<title>Paper</title>
+		<movie>/hooper/flvs/videos/SW13_Paper_Final.flv</movie>
+	</video>
+	<video id="plasticballs">
+		<title>Plastic Balls</title>
+		<movie>/hooper/flvs/videos/SW14_PlasticBalls_Final.flv</movie>
+	</video>
+	<video id="spoons">
+		<title>Spoons</title>
+		<movie>/hooper/flvs/videos/SW16_Spoons_Final.flv</movie>
+	</video>
+	<video id="strainer">
+		<title>Strainer</title>
+		<movie>/hooper/flvs/videos/SW17_Strainer_Final.flv</movie>
+	</video>
+	<video id="straw">
+		<title>Straw</title>
+		<movie>/hooper/flvs/videos/SW18_Straw_Final.flv</movie>
+	</video>	
+	<video id="wagonramp">
+		<title>Wagon Ramp</title>		
+		<movie>/hooper/flvs/videos/SW19_WagonRamp_Final.flv</movie>
+	</video>	
+	<video id="shadows">
+		<title>Shadows</title>		
+		<movie>/hooper/flvs/videos/SW23_Shadows_Final_1.flv</movie>
+	</video>	
+</videos>
