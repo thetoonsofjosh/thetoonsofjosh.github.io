@@ -111,8 +111,8 @@ PBS.KIDS.Headband = (function(){
     if (_host.match(/.*stage.*/)) {
         _cdn_host = "thetoonsofjosh.github.io";
     }
-    if (_host.match(/.*localhost.*/)) {
-        _cdn_host = "localhost";
+    if (_host.match(/.*thetoonsofjosh.github.io.*/)) {
+        _cdn_host = "thetoonsofjosh.github.io";
     }
     _cdn_base = _protocol + "//" + _cdn_host;
 
