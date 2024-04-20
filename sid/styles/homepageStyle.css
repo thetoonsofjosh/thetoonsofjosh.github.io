@@ -1,46 +1,38 @@
 body {
-        /*background-image: url(../media/images/staticFooterBackground.gif);*/
-        background-image: url(../media/images/bkg.gif);
+        background-image: url(../media/images/staticFooterBackground.gif);
         background-repeat: repeat;
-        color: #453f95;
         font-family: Arial; 
 }
 .sponsors {
         position: relative;
-        width: 960px;
-        margin: 0px 0px 20px 0px;
-        padding: 0px;
+        width: 985px;
+        height: 156px;
+        margin: 20px 0 20px 0;
         color: #453f95;
         font-size: 9pt;
         font-family: Arial;
 }
 .sponsorsMini{
-        position: relative;
+        position: absolute;
         background-image: url(../media/images/funderBarLargeBackground2.gif);
         background-repeat: repeat-x;
-        width: 960px;
+        width: 985px;
         height: 100px;
         text-align: center;
+        visibility: hidden;
 }
 .sponsorsFull{
         position: relative;
-        background-image: url(../media/images/funderBarLargeBackground3.gif);
-        background-position:left top;
-        background-color: #151540;
+        background-image: url(../media/images/funderBarLargeBackground2.gif);
         background-repeat: repeat-x;
-        width: 960px;
-        height: 340px;
+        width: 985px;
+        height: 156px;
 }
 
 .funder {
+        float: left;
         border: 0;
-        vertical-align: middle;
-}
-.funderTop {
-    padding: 0px 40px 10px 40px;
-}
-.funderBottom {
-    padding: 0px 50px 15px 50px;
+        padding: 0 0 0 5px;
 }
 
 .majorFunding{
@@ -49,54 +41,49 @@ body {
         text-align: right;
         margin: 7px 8px 0 15px;
 }
-.cr {
-        /* clear: both; */
+.cr{
+        clear: both;
+        width: 720px;
         padding: 10px 0 0 0;
         text-align: center;
 }
-.producedByDiv {
-	display:block;
-        width: 100%;
-        margin: 30px 0px 0px 0px;
-        padding: 0;
+.producedBy{
+        float: left;
+        width: 80px;
+        text-align: right;
+        padding: 18px 5px 0 0;
 }
-.producedByTitle {
-        height: 25px;
-        margin: 0;
-        padding: 6px 0px 0px 0px;
-        text-align: center;
-}
-.tvDiv {
+.tvDiv{
         float: left;
         width: 180px;
         text-align: center;
         padding: 7px 7px 0 7px;
 }
-.reg-footer-kidsplay {
-	float: left;
-	width: 108px;
-	height: 79px;
-	padding-top: 10px;
-	padding-left: 48px;
-}
 
 .fundingDiv{
-	display: block;
-    margin: 0px;
-    padding: 0px;
-    text-align: left;
+        float: left;
+        width: 460px;
+        margin: 0;
+        padding: 0;
+}
+.producedByDiv{
+        float: left;
+        width: 300px;
+        margin: 0;
+        padding: 0;
 }
 .fundingTitle{
         height: 25px;
         margin: 0;
-        /* padding: 7px 0 0 12px; */
-        padding: 0px;
-        text-align: center;
+        padding: 7px 0 0 150px;
+        text-align: left;
 }
-.sponsorLogosDiv {
-        text-align: center;
+.producedByTitle{
+        height: 25px;
+        margin: 0;
+        padding: 7px 0 0 80px;
+        text-align: left;
 }
-
 .seperator{
         float: left;
         width: 12px;
@@ -106,39 +93,6 @@ body {
 }
 .rightSide{
         float: left;
-        padding: 6px 0px 0px 0px;
-}
-.science_fair_mobile {
-        /* padding: 15px 0px 15px 0px; */
-        padding: 0px;
-        margin: 0;
-        border: 0;
-}
-
-.sponsorsFablab{
-        position: relative;
-        background-color: #19194d;
-        width: 960px;
-        height: 100px;
-        text-align: center;
-}
-
-.fablab_footer {
-        width: 960px;
-        background-color: #19194d;
-        font-size: 9pt;
-        font-family: Arial;
-}
-.fablab_footer_text {
-        padding: 5px 30px 5px 30px;
-        color: #453f95;
-        background-color: #19194d;
-        text-align: center;
-}
-.fablab_footer_logos {
-        padding: 15px 0px 15px 0px;
-        text-align: center;
-        background-color: #19194d;
 }
 a.quickLinks:active {
         color: #453f95;
@@ -159,3 +113,59 @@ a.quickLinks:hover {
 a:focus{
         outline: none;
 }
+
+.centervideo {
+    text-align: center;
+}
+
+
+/*Footer Styles*/
+.funder, .pbskids_bridge_sponsor {
+        border: 0;
+        padding: 0 25px 0 5px;
+		float:none;
+		}
+
+.cr{
+        clear: both;
+        padding: 30px 0 0 0;
+        text-align: center;
+		width:auto;
+}
+
+.fundingDiv p {
+        margin: 5px 0 10px 0;
+        padding: 0;
+}
+
+.fundingDiv img {
+vertical-align:middle;
+}
+
+.producedByDiv {
+		margin-top:20px;
+		padding:0;
+		clear:both;
+		text-align:center;
+		float:none;
+		width:auto;
+		}
+		
+.producedByDiv p {
+        margin: 5px 0;
+        padding: 0;
+}
+.fundingTitle{
+        margin: 0;
+        padding: 7px 0 0 0;
+        text-align: left;
+		height:auto;
+}
+.producedByTitle{
+        margin: 0;
+        padding: 7px 0 0 0;
+        text-align: center;
+		height:auto;
+}
+
+

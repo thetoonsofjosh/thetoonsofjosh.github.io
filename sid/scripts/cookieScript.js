@@ -43,8 +43,14 @@ function readCookie(){
                 return(0);
         }
 }
+
 function newCookie(n,v){
         var expireDate = new Date();
         expireDate.setMonth(expireDate.getMonth()+6);
         document.cookie = n + "=" + v +";expires=" + expireDate.toGMTString();
 }
+
+
+
+
+

@@ -66,6 +66,7 @@
 	font-family: Arial;
 	font-size: 12pt;
 }
+}
 
 
 a:active {
@@ -116,19 +117,12 @@ a:hover {
         color: #4c36b3;
         font-size: 14pt;
 }
-.noFlashh1{
-        color: #4c36b3;
-        font-size: 14pt;
-	background-color: white;
-	padding: 0px;
-	margin: 0px;
-}
 
 .fullPage{
 	position: relative;
-	margin:0px 0px 0px 0px;
+	margin:10px auto 10px auto;
 	width: 960px;
-	height: 646px;
+	height: 650px;
 }
 .noBorder{
 	border: 0;
@@ -150,3 +144,17 @@ a:hover {
 	top: 487px;
 	left: 171px;
 }
+
+	
+
+
+
+
+
+
+
+
+
+
+
+

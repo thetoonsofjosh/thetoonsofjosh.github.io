@@ -11,7 +11,8 @@ funbookMessages[7]="Trace your hands!";
 funbookMessages[8]="What did you have for lunch?";
 funbookMessages[9]="_____________'s Journal";
 
-function gotoActivity(id){
+function gotoActivity(id)
+{
  thisMovie("myFlash").gotoActivity(id);
 }
 
@@ -22,14 +23,26 @@ function thisMovie(movieName) {
              return document[movieName];
          }
 }
+
+function showSponsors(){
+        document.getElementById("sponsorsFull").style.visibility="visible";
+        document.getElementById("sponsorsMini").style.visibility="hidden";
+}
+function hideSponsors(){
+        document.getElementById("sponsorsFull").style.visibility="hidden";
+        document.getElementById("sponsorsMini").style.visibility="visible";
+}
+
 function openParents(){
         window.open("parentsAndTeachers.html");
 }
+
 function getURLString(){
        var url=document.location.href;
        var urlArray=url.split("/");
        var count=urlArray.length;
-
+	   
+	   
 
        if(urlArray[count-2]=="#"){
                 return(urlArray[count-1]);
@@ -37,7 +50,7 @@ function getURLString(){
        if(urlArray[count-3]=="#"){
                 return(urlArray[count-2]);
        }
-
+	   
 	   //new seo (static html pages) linking
 	   var page=urlArray[count-1];
 	   page=page.replace(".html","");
@@ -74,11 +87,14 @@ function returnVideoName(){
    var video=page.split("-");
    return(video[1]);
 }
+
+
 function swapImage(obj,img){
 	obj.src="media/images/" + img;
 }
 
 function move(oNode){
+
 	iY = event.y;
 	iYTwo = iY - Mary;
 	if (iYTwo <= 0) iYTwo = 0;
@@ -117,9 +133,11 @@ function funbookBtnClick(d){
 	funbookPage+=dir;
 	if(funbookPage<1){
 		funbookPage=1;
-	} else if(funbookPage>10){
+	}
+	else if(funbookPage>10){
 		funbookPage=10;
-	} else{
+	}
+	else{
 		//flip page
 		str='<div class="funbookTitle">'+funbookMessages[funbookPage-1]+'</div>';
 		str+='<div style="float:left"><a href=""><img src="media/images/fb_printBtn.jpg" style="visibility: hidden;class="noBorder" /></a></div>';
@@ -128,56 +146,19 @@ function funbookBtnClick(d){
 	}
 	if(funbookPage==1){
 		document.getElementById("leftBtn").style.visibility="hidden";
-	} else{
+	}
+	else{
 		document.getElementById("leftBtn").style.visibility="visible";
-	} if(funbookPage==10){
+	}
+	if(funbookPage==10){
 		document.getElementById("rightBtn").style.visibility="hidden";
-	} else{
+	}
+	else{
 		document.getElementById("rightBtn").style.visibility="visible";
 	}
 }
 function getGoogleCode(){
 	return(GA_env);
 }
+	
 
-// PBS GAS system
-var gas;
-
-function getGASXML(id) {
-	// alert("getGASXML: "+id);
-	gas = PBS.KIDS.GAS({'config_id':id});
-	// var gas = PBS.KIDS.GAS({'config_id':'dc50e4b0-6a26-11e2-85db-1231390cc5a5'});
-	var c = gas.get_configuration();
-	var gasXML = c.to_xml();
-	// alert("gasXML: " + gasXML);
-	return gasXML;
-}
-
-function gasTrackEvent(eventName, extraTrackedVariables)
-{
-	//alert("gte");
-	//alert(gas);
-	return gas.track(eventName, extraTrackedVariables);
-}
-
-// end GAS system
-
-
-function placeShell(activity,additionalFlashVars){
-	//var shelly	= (Browser.ie6==true || Browser.ie7==true) ? "shell.swf" : PBS.KIDS.cdn_base+"/sid/shell.swf";
-    // alert(additionalFlashVars);
-
-	var shelly	= PBS.KIDS.cdn_base+"/sid/shell.swf";
-        var fo = new SWFObject(shelly, "myFlash", "960", "645", "10.1", "#3399cc");
-                fo.addParam("quality", "high");
-                fo.addParam("scale", "noscale");
-                fo.addParam("align", "middle");
-                fo.addParam("wmode", "window");
-                fo.addParam("FlashVars", "activity="+activity+"&linkBase="+PBS.KIDS.base+"&additionalFlashVars="+additionalFlashVars);
-                fo.addParam("allowFullScreen", "true");
-                fo.addParam("allowscriptaccess", "always");
-                fo.addParam("menu", "false");
-	//if( Browser.ie6 == undefined && Browser.ie7 == undefined )
-		fo.addParam('base', PBS.KIDS.cdn_base+"/sid/");
-        fo.write("flashcontent");
-}
