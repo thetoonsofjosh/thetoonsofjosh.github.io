@@ -1,0 +1,580 @@
+
+
+
+/* ****************************************************************************************************************************************
+/* RESET
+/* ----------------------------------------- */
+
+/* Global reset */
+/* Based upon 'reset.css' in the Yahoo! User Interface Library: http://developer.yahoo.com/yui */
+.kidSurvey *,
+.kidSurvey html,
+.kidSurvey body,
+.kidSurvey div,
+.kidSurvey dl,
+.kidSurvey dt,
+.kidSurvey dd,
+.kidSurvey ul,
+.kidSurvey ol,
+.kidSurvey li,
+.kidSurvey h1,
+.kidSurvey h2,
+.kidSurvey h3,
+.kidSurvey h4,
+.kidSurvey h5,
+.kidSurvey h6,
+.kidSurvey pre,
+.kidSurvey form,
+.kidSurvey label,
+.kidSurvey fieldset,
+.kidSurvey input,
+.kidSurvey p,
+.kidSurvey blockquote,
+.kidSurvey th,
+.kidSurvey td {
+	margin:0;
+	padding:0
+}
+.kidSurvey table {
+	border-collapse:collapse;
+	border-spacing:0
+}
+.kidSurvey fieldset,
+.kidSurvey img {
+	border:0
+}
+.kidSurvey address,
+.kidSurvey caption,
+.kidSurvey cite,
+.kidSurvey code,
+.kidSurvey dfn,
+.kidSurvey em,
+.kidSurvey strong,
+.kidSurvey th,
+.kidSurvey var {
+	font-style:normal;
+	font-weight:normal
+}
+.kidSurvey ol,
+.kidSurvey ul,
+.kidSurvey li {
+	list-style:none
+}
+.kidSurvey caption,
+.kidSurvey th {
+	text-align:left
+}
+.kidSurvey h1,
+.kidSurvey h2,
+.kidSurvey h3,
+.kidSurvey h4,
+.kidSurvey h5,
+.kidSurvey h6 {
+	font-size:100%;
+	font-weight:normal
+}
+.kidSurvey q:before,
+.kidSurvey q:after {
+	content:''
+}
+.kidSurvey a img {
+	border:none
+} /* Gets rid of IE's blue borders */
+
+
+
+/* ****************************************************************************************************************************************
+/* FONTS
+/* ----------------------------------------- */
+
+@font-face {
+	font-family: 'Colfax-Regular';
+	src: url('/shell/fonts/ColfaxWebRegular.eot'); /* IE9 Compat Modes */
+	src: url('/shell/fonts/ColfaxWebRegular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('/shell/fonts/ColfaxWebRegular.woff') format('woff'); /* Modern Browsers */
+	}
+
+@font-face {
+	font-family: 'Colfax-Regular';
+	font-style: italic;
+	src: url('/shell/fonts/ColfaxWebRegularItalic.eot'); /* IE9 Compat Modes */
+	src: url('/shell/fonts/ColfaxWebRegularItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('/shell/fonts/ColfaxWebRegularItalic.woff') format('woff'); /* Modern Browsers */
+	} 
+	
+@font-face {
+	font-family: 'Colfax-Medium';
+	src: url('/shell/fonts/ColfaxWebMedium.eot'); /* IE9 Compat Modes */
+	src: url('/shell/fonts/ColfaxWebMedium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('/shell/fonts/ColfaxWebMedium.woff') format('woff'); /* Modern Browsers */
+	}
+
+@font-face {
+	font-family: 'Colfax-Medium';
+	font-style: italic;
+	src: url('/shell/fonts/ColfaxWebMediumItalic.eot'); /* IE9 Compat Modes */
+	src: url('/shell/fonts/ColfaxWebMediumItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('/shell/fonts/ColfaxWebMediumItalic.woff') format('woff'); /* Modern Browsers */
+	}
+	
+@font-face {
+	font-family: 'Colfax-Bold';
+	src: url('/shell/fonts/ColfaxWebBold.eot'); /* IE9 Compat Modes */
+	src: url('/shell/fonts/ColfaxWebBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('/shell/fonts/ColfaxWebBold.woff') format('woff'); /* Modern Browsers */
+	} 
+
+@font-face {
+	font-family: 'Colfax-Bold';
+	font-style: italic;
+	src: url('/shell/fonts/ColfaxWebBoldItalic.eot'); /* IE9 Compat Modes */
+	src: url('/shell/fonts/ColfaxWebBoldItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('/shell/fonts/ColfaxWebBoldItalic.woff') format('woff'); /* Modern Browsers */
+	} 
+
+
+/* ****************************************************************************************************************************************
+/* CLEARFIX
+/* ----------------------------------------- */
+
+/* http://www.positioniseverything.net/easyclearing.html */
+
+.c:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+.c {display: inline-block;}
+/* Hides from IE-mac \*/
+.c {display: block;}
+* html .c {height: 1%;}
+/* end hide from IE-mac */
+
+
+
+/* **************************************************************************************************************************************** */
+/* KID SURVEY MODAL
+/* ----------------------------------------- */
+
+body {
+	background: #FFF;
+	/*padding: 70px;*/
+}
+#staticAudioLaunchers {
+	padding: 15px;
+	background: #cb8591;
+	margin-bottom: 70px;
+	display: none;
+}
+		#staticAudioLaunchers li {
+			cursor: pointer;
+			padding: 5px;
+			margin-bottom: 10px;
+			background: #9d616c;
+			width: 200px;
+			color: #f9e5e9;
+			border: 1px solid #532029;
+		}
+				#staticAudioLaunchers li:hover {
+					color: white;
+					text-decoration: underline;
+				}
+
+
+.kidSurvey {
+	font: normal 12px/1.2 arial, sans-serif;
+	overflow: hidden;
+	width: 410px;
+	height: 255px;
+	border: 10px solid white;
+	background: gray;
+	position: relative;
+}
+
+		.kidSurvey-panels {
+			width: 100%; /* implicitly 410 */
+			height: 100%; /* implicitly 255 */
+			background: maroon;
+			overflow: hidden;
+			position: absolute;
+			top: 0;
+			z-index: 1;
+		}
+
+				.kidSurvey-loading {
+					position: absolute;
+					background: #9bca00;
+					text-align: center;
+					color: white;
+					width: 100%;
+					height: 100%;
+					z-index: 8;
+					cursor: default;
+				}
+						.kidSurvey-loading img {
+							position: absolute;
+							left: 197px;
+							top: 119px;
+						}
+	
+				.kidSurvey-panel {
+					position: absolute;
+					width: 100%;
+					height: 100%;
+					background: #9bca00;
+					outline: 11px solid white;
+					text-align:center;
+				}
+				.kidSurvey .closeBtn {
+					position: absolute;
+					display: block;
+					width: 34px;
+					height: 37px;
+					background: url(i/close_button.png) no-repeat;
+					overflow: hidden;
+					left: 370px;
+					top: 2px;
+					text-indent: -9999px;
+					cursor: pointer;
+					z-index: 7; /* top-most *//* except for the loading screen */
+				}
+						.kidSurvey .closeBtn:hover {
+							background-position: -34px 0;
+						}
+
+				.panel-info {
+					z-index: 6;
+					top: -370px;
+					background: #47c3ea;
+					color: white;
+				}
+				.panel-intro {
+					z-index: 4;
+				}
+				.panel-age {
+					z-index: 3;
+				}
+				.panel-thanks {
+					z-index: 2;
+				}
+				.whatIsThis {
+					font-size: 12px;
+					z-index: 5;
+					display: block;
+					position: absolute;
+					left: 5px;
+					top: 237px;
+					color: white;
+				}
+						.whatIsThis strong {
+							text-transform: uppercase;
+						}
+						.whatIsThis span {
+							text-decoration: underline;
+							cursor: pointer;
+						}
+
+
+img.homepage-bug{
+	display:block;
+	margin:28px auto 0;
+}
+
+p.ruff-prologue {
+	font-family: Colfax-Medium, Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	color: #637C00;
+	margin: 16px auto 10px;
+	text-align: center;
+	width: 390px;
+	line-height: 1.1em;
+}
+
+.kidSurvey-panel h2 {
+	color:#FFF;
+	font-family: Colfax-Medium, Arial, Helvetica, sans-serif;
+	font-size: 22px;
+}
+		.panel-intro h2 {
+			margin: 5px 0px 0px 5px;
+			text-transform: uppercase;
+			display: inline-block;
+			zoom: 1;*display: inline;/*inline-block fix for IE7*/
+			vertical-align: middle;
+		}
+		.panel-age h2 {
+			margin: 28px 0 8px 10px;
+			text-transform: uppercase;
+		}
+		.panel-age h2.other {
+			margin: 7px 0 0;
+			color: #D9EA71;
+			font-size: 16px;
+			text-align: left;
+		}
+		.panel-thanks h2 {
+			width: 260px;
+			margin: 60px auto 20px;
+		}
+
+
+
+.panel-info .prose {
+	margin: 39px 25px 0px;
+	text-align: left;
+}
+		.panel-info .prose p {
+			font-size: 13px;
+			line-height: 1.28;
+		}
+		.panel-info .prose h3 {
+			text-transform: uppercase;
+			font-size: 18px;
+			margin-bottom: 2px;
+		}
+
+
+.kidSurvey-panel ul {
+	
+}
+		.kidSurvey-panel li {
+			display: inline;
+		}
+				.kidSurvey-panel li strong {
+					overflow: hidden;
+					display: block;
+					float: left;
+					width: 42px;
+					height: 80px;
+					cursor: pointer;
+				}
+
+						/* ...........................................*/
+						/* SPECIFIC PANEL: Intro */
+
+						.panel-intro ul {
+							width: 220px;
+							display: inline-block;
+							zoom: 1;*display: inline;/*inline-block fix for IE7*/
+							vertical-align: middle;
+						}
+								.panel-intro li strong {
+									width: 100px;
+									height: 50px;
+									margin-left: 8px;
+									text-indent: -9999px;
+									background: url(i/survey_buttons.png) no-repeat; /* just 8-bit */
+									background-position: -614px 0;
+								}
+										.panel-intro li.surveyGender-boy strong:hover		  { background-position: -614px  -50px; }
+										.panel-intro li.surveyGender-boy strong:active		{ background-position: -614px -100px; }
+										.panel-intro li.surveyGender-girl strong			    { background-position: -714px    0px; }
+										.panel-intro li.surveyGender-girl strong:hover		{ background-position: -714px  -50px; }
+										.panel-intro li.surveyGender-girl strong:active		{ background-position: -714px -100px; }
+
+
+
+						/* ...........................................*/
+						/* SPECIFIC PANEL: Age */
+
+						.panel-age ul {
+							margin: 0 4% 4px;
+							text-align: left
+						}
+								.panel-age li{
+									height:auto;
+									width:42px;
+									margin: 0 4px 4px;
+									background:#CE6300;
+									display:inline-block;
+									zoom: 1;*display: inline;/*inline-block fix for IE7*/
+								}
+
+										.panel-age li strong{
+											color:#FFF;
+											text-align: center;
+											font-family: Colfax-Medium, Arial, Helvetica, sans-serif;
+											font-size: 22px;
+											background:#E78B00;
+											height: 50px;
+											margin: 0 0 8px;
+											line-height: 50px;
+											vertical-align: middle;
+											padding: 5px 0 0;
+										}
+
+
+								.panel-age li:hover{
+									margin-top: -3px;
+								}
+
+										.panel-age li:hover strong{
+											background:#ECA030;
+											margin-bottom:11px;
+										}
+
+								.panel-age li:active{
+									margin-top: 8px;
+								}
+
+										.panel-age li:active strong{
+											background:#ECA030;
+											margin-bottom:0px;
+										}
+
+
+						.surveyAge-custom {
+							width: 163px;
+							height: 30px;
+							overflow: hidden;
+							position: absolute;
+							right: -35px;
+						}
+								.surveyAge-custom input {
+									display: block;
+									position: absolute;
+									width: 40px; /* 50 */
+									height: 15px; /* 25 */
+									background: white;
+									border: none;
+									outline: 0;
+									left: 65px;
+									top: 3px;
+									font: normal 16px/1.2 arial, sans-serif;
+									color: #516a00;
+									padding: 5px;
+									text-align: center;
+								}
+								.surveyAge-custom strong {
+									display: block;
+									width: 40px;
+									height: 28px;
+									text-indent: -9999px;
+									overflow: hidden;
+									background: url(i/survey_buttons.png) no-repeat -814px 0;
+									cursor: pointer;
+									position: absolute;
+									top: 0;
+									left: 120px;
+									display: none; /* overridden by javascript */
+								}
+										.surveyAge-custom strong:hover		{ background-position: -814px -28px; }
+										.surveyAge-custom strong:active		{ background-position: -814px -56px; }
+
+
+ 
+
+						/* ...........................................*/
+						/* SPECIFIC PANEL: Info */
+						
+						.panel-info .button-wrapper{
+							position:absolute;
+							bottom:10px;	
+							right: 0;
+							left:0;
+						}
+							.panel-info .closeInfo {
+								display: block;
+								text-indent: -9999px;
+								overflow: hidden;
+								background: url(i/survey_buttons.png) no-repeat -294px 0;
+								width: 160px;
+								height: 50px;
+								cursor: pointer;
+								margin: 0 auto;
+							}
+									.panel-info .closeInfo:hover				{ background-position: -294px -50px; }
+									.panel-info .closeInfo:active				{ background-position: -294px -100px; }
+
+
+
+						/* ...........................................*/
+						/* SPECIFIC PANEL: Thanks */
+
+						.panel-thanks .allDone {
+							display: inline-block;
+							zoom: 1;*display: inline;/*inline-block fix for IE7*/
+							width: 160px;
+							height: 50px;
+							background: url(i/survey_buttons.png) no-repeat -454px 0;
+							text-indent: -9999px;
+							overflow: hidden;
+							cursor: pointer;
+						}
+								.panel-thanks .allDone:hover				{ background-position: -454px -50px; }
+								.panel-thanks .allDone:active				{ background-position: -454px -100px; }
+
+
+
+
+
+
+@media only screen and (max-width: 430px) {
+	.kidSurvey {
+		width: 95% !important;
+		border-width: 10px 0px;
+		margin: 0 auto;
+	}
+
+	.closeBtn{
+		right: 5px;
+		left: auto !important;
+	}
+}
+
+
+@media only screen and (max-width: 380px) {
+	p.ruff-prologue{
+		margin-top: 50px;
+		width: 90%
+	}
+
+	img.homepage-bug{
+		display:none;
+	}
+}
+
+
+@media only screen and (max-width: 370px) {
+	.panel-age h2{
+		margin-top: 18px;
+		margin-left: 5%;
+		text-align: left;
+	}
+
+	.panel-age ul {
+		margin-bottom: 6px;
+		margin-right: 2%;
+	}
+
+	.panel-info .prose{
+		margin-top: 20px;
+	}
+
+
+}
+
+@media only screen and (max-width: 325px) {
+	.panel-info .prose{
+		margin-top: 16px;
+	}
+
+	.panel-info .button-wrapper{
+		bottom:8px;	
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

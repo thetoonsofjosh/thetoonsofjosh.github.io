@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Kid Survey</title>
+<link href="style/reset.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="style/kid-survey-styles.css" media="screen" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/flashdetect.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/soundmanager2-nodebug-jsmin.js"></script>
+<script type="text/javascript" src="js/jquery.numeric.js"></script>
+<script type="text/javascript" src="js/kid-survey-scripts.js"></script>
+</head>
+<body>
+
+	<ul id="staticAudioLaunchers">
+		<li id="playClip1">Play audio clip "intro"</li>
+		<li id="playClip2">Play audio clip "how old"</li>
+		<li id="playClip3">Play audio clip "thanks"</li>
+	</ul>
+
+
+
+	<div class="kidSurvey">
+
+		<div class="kidSurvey-panels">
+
+			<div class="kidSurvey-loading"><img src="style/i/ajax-loader.gif" alt="" /></div>
+
+			<span class="closeBtn">Leave this survey</span>
+
+			<em class="whatIsThis"><strong>PBS KIDS Survey:</strong> <span>What is this?</span></em>
+
+			<div class="kidSurvey-panel panel-info">
+				<div class="prose">
+					<h3>What is this?</h3>
+					<p>To make PBS KIDS better, we are collecting two pieces of data on our users, age and gender. This information will help guide what kind of sites and games we should be adding to the site. Feel free to opt out by clicking the red X above. The data collected will not be connected to any accounts, stored past 30 days or shared outside of PBS.</p>
+					<em class="closeInfo">Back</em>
+				</div>
+			</div>
+
+			<div class="kidSurvey-panel panel-intro">
+				<p class="ruff-prologue">Help make PBS KIDS better by answering two easy questions!</p>
+				<h2>Are you a:</h2>
+				<ul class="surveyGenderOptions c">
+					<li class="surveyGender-boy"><strong>Boy</strong></li>
+					<li class="surveyGender-girl"><strong>Girl</strong></li>
+				</ul>
+			</div>
+
+			<div class="kidSurvey-panel panel-age">
+				<h2>How old are you?</h2>
+				<ul class="surveyAgeOptions c">
+					<li class="surveyAge-3"><strong>3</strong></li>
+					<li class="surveyAge-4"><strong>4</strong></li>
+					<li class="surveyAge-5"><strong>5</strong></li>
+					<li class="surveyAge-6"><strong>6</strong></li>
+					<li class="surveyAge-7"><strong>7</strong></li>
+					<li class="surveyAge-8"><strong>8</strong></li>
+					<li class="surveyAge-9"><strong>9</strong></li>
+					<li class="surveyAge-10"><strong>10</strong></li>
+					<li class="surveyAge-11"><strong>11</strong></li>
+					<li class="surveyAge-12"><strong>12</strong></li>
+
+				</ul>
+				<div class="surveyAge-custom">
+					<h2 class="other">Other:</h2>
+					<input type="text" name="customAge" maxlength="3" id="enterOtherAge" />
+					<strong class="submitOtherAge">I'm this age</strong>
+				</div>
+			</div>
+
+			<div class="kidSurvey-panel panel-thanks">
+				<h2>Thank you for helping make PBS KIDS better!</h2>
+				<strong class="allDone">OK</strong>
+			</div>
+
+		</div>
+
+	</div><!--/ .kidSurvey -->
+
+
+
+
+</body>
+</html>
