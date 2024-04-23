@@ -1,0 +1,748 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+<!--Website design and development by Bean Creative Funktional Web Design -->
+<!-- www.beancreative.com-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>EekoWorld | PBS KIDS GO!</title>
+<meta name="description" content="EekoWorld invites children to explore, experiment, and collaborate as they learn about conservation, the environment and the important role they play in taking care of the earth">
+<meta name="keywords" content="environmental education, recycling, conservation, community, ecosystems, pollution, global awareness, environment games, recycling games, educational games">
+
+<link type="text/css" media="screen" rel="stylesheet" href="/includes/auth/ajax.css" />
+
+<link rel="stylesheet" type="text/css" href="incl/main.css" media="screen">
+<link rel="stylesheet" type="text/css" href="incl/print.css" media="print">
+
+
+<link type="text/css" media="screen" rel="stylesheet" href="/includes/auth/ajax.css" />
+
+<script type="text/Javascript"> 
+
+function expandcollapse (postid) { 
+
+   whichpost = document.getElementById(postid); 
+   resultsTxt = document.getElementById("res"); 
+   
+   if (whichpost.className=="postshown") { 
+      whichpost.className="posthidden"; 
+	  resultsTxt.className="postshown";
+   } 
+   else { 
+      whichpost.className="postshown"; 
+	  resultsTxt.className="posthidden";
+   } 
+} 
+</script>
+
+<script language="javascript" type="text/javascript" src="incl/scripts.js"></script>
+<script type="text/javascript" src="/includes/flash/swfobject.js"></script>
+<script type="text/javascript" src="/includes/flash/dispatcher.js"></script>
+<script language="VBScript" src="/includes/flash/dispatcher.vbs"></script>
+<script type="text/javascript" src="/includes/flash/pbsflash.js"></script>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://soup-tc.pbskids.org/includes/javascript/bridge.urls.js"></script>
+<script type="text/javascript" src="https://soup-tc.pbskids.org/includes/javascript/bridge.js"></script>
+</head>
+
+<script LANGUAGE="JavaScript">
+<!--
+//
+//this function calls the flash movie
+//
+function flashObj() { 
+	if(navigator.appName == 'Netscape'){ 
+		return document.embeds[0] 
+	} else { 
+		// use the name/ID of the embeded swf 
+		return document["flash"]
+	} 
+} 
+//
+//  Function to correct for 2.x Mac date bug.  Call this function to
+//  fix a date object prior to passing it to SetCookie.
+//  IMPORTANT:  This function should only be called *once* for
+//  any given date object!  See example at the end of this document.
+//
+function FixCookieDate (date) {
+  var base = new Date(0);
+  var skew = base.getTime(); // dawn of (Unix) time - should be 0
+  if (skew > 0)  // Except on the Mac - ahead of its time
+    date.setTime (date.getTime() - skew);
+}
+//
+//
+//this function sets the cookie which expires one hour from the time it is set
+//using the Date object and its methods
+//
+function setCookie(name){
+	//var mycookie = name+"="+flashObj().GetVariable('cookieValue')+";";
+	// set the cookie expiration date
+	var howlong = new Date(); // Setting "howlong" variable to current time
+	FixCookieDate (howlong); // Correct for Mac date bug - call only once for given Date object!
+	howlong.setTime(howlong.getTime() + 3600000); //adding 1 hour to "howlong"
+	howlong = howlong.toGMTString(); // translating "howlong" to GMT format
+	//
+	//mycookie = mycookie+"expires="+howlong; 
+	document.cookie = name+"="+flashObj().GetVariable('cookieValue')+";"+"expires="+howlong;
+}
+// -->
+</script>
+
+
+<script type="text/javascript">
+function getHTTPObject() {
+	var http = false;
+	//Use IE's ActiveX items to load the file.
+	if(typeof ActiveXObject != 'undefined') {
+		try {http = new ActiveXObject("Msxml2.XMLHTTP");}
+		catch (e) {
+			try {http = new ActiveXObject("Microsoft.XMLHTTP");}
+			catch (E) {http = false;}
+		}
+	//If ActiveX is not available, use the XMLHttpRequest of Firefox/Mozilla etc. to load the document.
+	} else if (XMLHttpRequest) {
+		try {http = new XMLHttpRequest();}
+		catch (e) {http = false;}
+	}
+	return http;
+}
+var http = getHTTPObject();
+
+var url = "/cgi-registry/poll/poll.pl";
+
+
+function handler() {//Call a function when the state changes.
+	if(http.readyState == 4 && http.status == 200) {
+		
+		var results = http.responseText;
+		var tmpArray = new Array();
+		tmpArray = results.split(',');
+		
+		// TO CHANGE NUMBER OF QUESTIONS, REMOVE OR COMMENT OUT THE LAST NUMBERED TOTAL (I.E. TOTAL5)
+		// THEN CHANGE THE LAST VALUE TO MATCH THE ONE YOU COMMENTED OUT (TOTAL)
+		total1 = tmpArray[0];
+		
+		total2 = tmpArray[1];
+		
+		total3 = tmpArray[2];
+		
+		total4 = tmpArray[3];
+		
+		total5 = tmpArray[4];
+		
+		total = tmpArray[5];
+
+		
+		<!------------------------------------>
+		<!-------- QUESTION RESULTS ---------->
+		<!------------------------------------>
+		
+		<!--- TO CHANGE NUMBER OF QUESTIONS, REMOVE OR COMMENT OUT FROM THE BOTTOM UP --->
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+		document.getElementById("res").innerHTML="Riding your bike: <strong>" + total1 + "%</strong><br><img src='/eekoworld/images/votebar.gif' width=" + total1 +" height=8 alt='' border=0 style='margin-top:0; margin-bottom: 1px; padding:0;' hspace=0 vspace=0 /><br>";
+		
+		document.getElementById("res").innerHTML=document.getElementById("res").innerHTML + "Going fruit picking: <strong>" + total2 + "%</strong><br><img src='/eekoworld/images/votebar.gif' width=" + total2 +" height=8 alt='' border=0 style='margin-top:0; margin-bottom: 1px; padding:0;' hspace=0 vspace=0 /><br>";
+		
+		document.getElementById("res").innerHTML=document.getElementById("res").innerHTML + "Bird watching: <strong>" + total3 + "%</strong><br><img src='/eekoworld/images/votebar.gif' width=" + total3 +" height=8 alt='' border=0 style='margin-top:0; margin-bottom: 1px; padding:0;' hspace=0 vspace=0 /><br>";
+		
+		document.getElementById("res").innerHTML=document.getElementById("res").innerHTML + "Planting a garden: <strong>" + total4 + "%</strong><br><img src='/eekoworld/images/votebar.gif' width=" + total4 +" height=8 alt='' border=0 style='margin-top:0; margin-bottom: 1px; padding:0;' hspace=0 vspace=0 /><br>";
+		
+		document.getElementById("res").innerHTML=document.getElementById("res").innerHTML + "Making a rain barrel: <strong>" + total5 + "%</strong><br><img src='/eekoworld/images/votebar.gif' width=" + total5 +" height=8 alt='' border=0 style='margin-top:0; margin-bottom: 0; padding:0;' hspace=0 vspace=0 /><br>";
+		
+
+		
+		<!---------------------------------------->
+		<!-------- END QUESTION RESULTS ---------->
+		<!---------------------------------------->
+		
+		
+		document.getElementById("res").innerHTML=document.getElementById("res").innerHTML + "Total Votes: <strong>" + total + "</strong><br />";
+		<!--- POLL SOLICITATION --->
+		document.getElementById("res").innerHTML=document.getElementById("res").innerHTML + "<p style='font-size:10px; font-family:Verdana, Arial, Helvetica, sans-serif; font-weight: bold; margin: 5px 0 0 0;'><strong>Got a poll to suggest? <a href='exchange/poll_submit.html'>Tell us!</a></strong></p>";
+		
+	}
+}
+
+function postMethod() {
+	http.open("POST", url, true);
+	
+	// IF CHANGING NUMBER OF QUESTIONS, COMMENT OUT STARTING AT "5" BELOW
+	
+	if (document.getElementById("q1").checked) { var val=1; }
+		else if (document.getElementById("q2").checked) { var val=2; }
+		else if (document.getElementById("q3").checked) { var val=3; }
+		else if (document.getElementById("q4").checked) { var val=4; }
+		else if (document.getElementById("q5").checked) { var val=5; }
+		else { var val=0;}
+	
+	if (!(val==0)) {
+	
+	// CHANGE POLL ID BELOW FOR A NEW POLL. JUST ADD 1 TO THE INCREMENT
+	// CHANGE NUMBER OF QUESTION IN POLL RESULTS.HTML AS WELL
+	var params = "site_id=eekoworld&poll_id=eeko_poll56&q1=" + val + "&results=/eekoworld/poll_results.html";
+	
+	//Send the proper header infomation along with the request
+	http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+	http.setRequestHeader("Content-length", params.length);
+	http.setRequestHeader("Connection", "close");
+
+	http.onreadystatechange = handler;
+	http.send(params);
+	
+	javascript:expandcollapse('poll');
+	
+	} else {
+		return false;
+	}
+	
+}
+</script>
+
+
+
+<body onLoad="MM_preloadImages('images/button_pt-over.jpg','images/button_whatis-over.jpg');">
+<!--- THIS IS WHERE THE GA CODE SHOULD BE --->
+<script>
+    var lookupTable = {
+    "": "UA-4005001-1,ET-4005001-3",
+    "aaworld": "UA-4005001-1,UA-3968572-1,UA-3999801-1,ET-3999801-2",
+    "arthur": "UA-4005001-1,UA-3966576-1,UA-3999950-1,ET-3999950-2",
+    "beeswax": "UA-4005001-1,UA-3966576-1,UA-10616832-1,ET-10616832-2",
+    "berenstainbears": "UA-4005001-1,UA-3968098-1,UA-3994369-1,ET-3994369-2",
+    "buster": "UA-4005001-1,UA-3966576-1,UA-3999991-1,ET-3999991-2",
+    "caillou": "UA-4005001-1,UA-3967441-1,UA-3993958-1,ET-3993958-2",
+    "caillou_french": "UA-4005001-1,UA-3967441-1,UA-3993993-1,ET-3993993-2",
+    "catinthehat": "UA-4005001-1,UA-16154142-1,UA-16155509-1,ET-16155509-2",
+    "chuck": "UA-4005001-1,UA-3968372-1,UA-21787719-1,ET-21787719-2",
+    "clifford": "UA-4005001-1,UA-3968372-1,UA-3999587-1,ET-3999587-2",
+    "clifford/parentsteachers": "UA-1996666-1,UA-3964855-1,UA-3978951-1,ET-3978951-2,UA-3968372-1,UA-3999587-1",
+    "curiousgeorge": "UA-4005001-1,UA-3966576-1,UA-4000040-1,ET-4000040-2",
+    "curiousgeorge/parentsteachers": "UA-1996666-1,UA-3964855-1,UA-3978951-1,ET-3978951-2,UA-3966576-1,UA-4000040-1",
+    "cyberchase": "UA-4005001-1,UA-3968572-1,UA-2223922-1,ET-2223922-2",
+    "cyberchase/parentsteachers": "UA-1996666-1,UA-3964855-1,UA-3978951-1,ET-3978951-2,UA-3966759-1,UA-2223922-1",
+    "daniel": "UA-4005001-1,UA-3967651-1,UA-30580064-1,ET-30580064-2",
+    "designsquad": "UA-4005001-1,UA-3966576-1,UA-4000083-1,ET-4000083-2",
+    "dinosaurtrain": "UA-4005001-1,UA-10166412-1,UA-10166683-1,ET-10166683-2",
+    "dontbuyit": "UA-4005001-1,UA-3967876-1,UA-3994203-1,ET-3994203-2",
+    "dragonflytv": "UA-4005001-1,UA-3965989-1,UA-3999924-1,ET-3999924-2",
+    "earthday": "UA-4005001-1,UA-3964855-1,UA-3994540-1,ET-3994540-2",
+    "eekoworld": "UA-4005001-1,UA-3967115-1,UA-3993810-1,ET-3993810-2",
+    "electriccompany": "UA-4005001-1,UA-3968507-1,UA-5414685-1,ET-5414685-2",
+    "fetch": "UA-4005001-1,UA-3966576-1,UA-4000129-1,ET-4000129-2",
+    "frannysfeet": "UA-4005001-1,UA-3968572-1,UA-3999901-1,ET-3999901-2",
+    "healthysummer": "UA-4005001-1,UA-3964855-1,UA-3994602-1,ET-3994602-2",
+    "hooper": "UA-4005001-1,UA-3964855-1,UA-3994749-1,ET-3994749-2",
+    "in_your_town": "UA-4005001-1,UA-3964855-1,UA-3994707-1,ET-3994707-2",
+    "island": "UA-4005001-1,UA-3964855-1,UA-3992719-1,ET-3992719-2",
+    "itsmylife": "UA-4005001-1,UA-3967369-1,UA-3993912-1,ET-3993912-2",
+    "lab": "UA-4005001-1,UA-3964855-1,UA-26042731-1,ET-26042731-2",
+    "lifeboat": "UA-4005001-1,UA-10617025-1,UA-10617056-1,ET-10617056-2",
+    "lions": "UA-4005001-1,UA-3966576-1,UA-4000155-1,ET-4000155-2",
+    "lomax": "UA-4005001-1,UA-6719338-1,UA-6719298-1,ET-6719298-2",
+    "loopscoops": "UA-4005001-1,UA-3966576-1,UA-20228423-1,ET-20228423-2",
+    "lunchlab": "UA-4005001-1,UA-10616664-1,UA-10616734-1,ET-10616734-2",
+    "martha": "UA-4005001-1,UA-3966576-1,UA-5036549-1,ET-5036549-2",
+    "mayaandmiguel": "UA-4005001-1,UA-3968372-1,UA-3999619-1,ET-3999619-2",
+    "noah": "UA-4005001-1,UA-3968572-1,UA-21783296-1,ET-21783296-2",
+    "pets": "UA-4005001-1,UA-3964855-1,UA-3994771-1,ET-3994771-2",
+    "readytolearn": "UA-4005001-1,UA-3964855-1,UA-26042731-3,UA-26042731-4",
+    "retired_backyardjungle.html": "UA-4005001-1,UA-3967720-1,UA-3994136-1,ET-3994136-2",
+    "rogers": "UA-4005001-1,UA-3967651-1,UA-3994102-1,ET-3994102-2",
+    "scigirls": "UA-4005001-1,UA-3965989-1,UA-10617102-1,ET-10617102-2",
+    "sesame": "UA-4005001-1,UA-3968507-1,UA-3999779-1,ET-3999779-2",
+    "sid": "UA-4005001-1,UA-3963045-1,UA-5035505-1,ET-5035505-2",
+    "speakout": "UA-4005001-1,UA-3964855-1,UA-6307581-1,ET-6307581-2",
+    "storyfactory": "UA-4005001-1,UA-3964855-1,UA-3994817-1,ET-3994817-2",
+    "superwhy": "UA-4005001-1,UA-3968166-1,UA-3994472-1,ET-3994472-2",
+    "talentshow": "UA-4005001-1,UA-3964855-1,UA-3999413-1,ET-3999413-2",
+    "thomasandfriends": "UA-4005001-1,UA-3967794-1,UA-42889099-1,ET-42889099-2",
+    "toopyandbinoo": "UA-4005001-1,UA-6043722-1,UA-6043633-1,ET-6043633-2",
+    "video": "UA-4005001-1,ET-4005001-5",
+    "wildkratts": "UA-4005001-1,UA-3967957-1,UA-18413296-1,ET-18413296-2",
+    "wilsonandditch": "UA-4005001-1,UA-10166412-1,UA-10616776-1,ET-10616776-2",
+    "wordgirl": "UA-4005001-1,UA-3968372-1,UA-3999648-1,ET-3999648-2",
+    "wordquest": "UA-4005001-1,UA-3964855-1,UA-15498767-1,ET-15498767-2",
+    "wordworld": "UA-4005001-1,UA-3968877-1,UA-4000339-1,ET-4000339-2",
+    "writerscontest": "UA-4005001-1,UA-3964855-1,UA-15499539-1,ET-15499539-2",
+    "zoboo": "UA-4005001-1,UA-3967957-1,UA-3994275-1,ET-3994275-2",
+    "zoom": "UA-4005001-1,UA-3966576-1,UA-4000252-1,ET-4000252-2",
+    "readyjetgo": "UA-4005001-1,UA-69435322-1,UA-68471816-1,ET-68471816-2",
+    "naturecat": "UA-4005001-1,UA-69435628-1,UA-68465755-1,ET-68465755-2",
+    "plumlanding": "UA-4005001-1,UA-3966576-1,UA-47836444-1,ET-47836444-2",
+    "oddsquad": "UA-4005001-1,UA-3967651-1,UA-50934115-1,ET-50934115-2",
+    "bobthebuilder": "UA-4005001-1,UA-3967794-1,UA-68468616-1,ET-68468616-2",
+    "peg": "UA-4005001-1,UA-24428255-1,ET-24428255-2",
+    "splashandbubbles": "UA-4005001-1,UA-10166412-1,UA-77875190-1,ET-77875190-2"
+};
+var ua_codes = "";
+try {
+    var pathArray = window.location.pathname.split( '/' );
+    ua_codes = lookupTable[pathArray[1]];
+    if (ua_codes == "" || ua_codes == null) {
+        ua_codes = "UA-4005001-1,ET-4005001-3";
+    }
+} catch (e) {
+    ua_codes = "UA-4005001-1,ET-4005001-3";
+}
+</script>  
+
+                
+  
+    <script type="text/javascript">
+  (function() {
+    var getCookie = function(c_name) {
+      if (document.cookie.length > 0) {
+        c_start = document.cookie.indexOf(c_name + "=");
+        if (c_start != -1) {
+          c_start = c_start + c_name.length + 1;
+          c_end = document.cookie.indexOf(";", c_start);
+          if (c_end == -1)
+            c_end = document.cookie.length;
+          return unescape(document.cookie.substring(c_start, c_end));
+        }
+      }
+      return "";
+    };
+
+    //Determines if user is logged in
+    var pbskids_username = getCookie('pbskids.username');
+    //Determines if account is new
+    var returning = getCookie('pbskids.returning');
+
+    GA_customvar = {};
+    //var ua_codes = '(none)';
+    //end paste
+
+
+    var ua_codes_list = ua_codes.split(',');
+
+    var login_info;
+    //Setup log in info custom variable string
+    if (pbskids_username) {
+      login_info = "l=1";
+      if (returning) {
+        login_info += "&r=1";
+      } else {
+        login_info += "&r=0";
+      }
+    } else {
+      login_info = "l=0&r=0";
+    }
+
+    for ( i = 0; i < ua_codes_list.length; i++) {
+      var cv_array = [["GO login tracking", login_info, 2]];
+      GA_customvar[ua_codes_list[i]] = cv_array;
+    }
+
+  })();
+</script>
+
+	<script type="text/javascript">
+var GA_env = { ua_list: ua_codes };
+
+GA_env.vars = { localized: 0 };
+
+var GA_jshost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script src="/js/ga-current.js" type="text/javascript"></script>
+
+  <!-- Begin comScore Tag -->
+<script>
+   document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
+</script>
+ <script>
+  COMSCORE.beacon({
+    c1:2,
+    c2:3005420,
+    c3:"",
+    c4:"r53-vip-soup.pbskids.org/eekoworld/index.html",
+    c5:"",
+    c6:"",
+    c15:""
+  });
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/b?c1=2&c2=3005420&c3=&c4=r53-vip-soup.pbskids.org/eekoworld/index.html&c5=&c6=&c15=&cv=1.3&cj=1" style="display:none" width="0" height="0" alt="" />
+</noscript>
+<!-- End comScore Tag -->
+
+
+
+
+
+
+
+
+
+<div id="pbs-ga-overlay" style="position:fixed; top:0; height:20px; padding:4px; background-color:#ccc; color:#000; width:100%; opacity:0.75; text-align:center; z-index:100;" onClick="this.style.display='none'; return false;">
+  <span style="opacity:1.0; font-family: sans-serif; font-size: 12px;"> 
+    Global Include is good.
+    <script type="application/javascript">
+      var GA_env_test = '(none)';
+    </script> 
+     
+      <span style="background-color: #f00">GA_env is unset!</span> 
+     
+  </span>
+</div>
+
+
+       
+
+
+
+  
+
+  <link rel="stylesheet" type="text/css" href='https://cms-tc.pbskids.org/headband/resources/sass/producer-headband.css' />
+
+  <div id="headband-container" class='producer-headband '>
+    <div class="headband-nav">
+      <ul class="headband-primary-nav">
+        <!-- Do not delete this. This is used for structure and is a
+        placeholder if we want to add the newsletter button back. -->
+      </ul>
+
+      <div id="parents-message-bar">
+        <div class="wrap">
+          <div id="parents-messages"></div>
+        </div>
+        <div class="parents-bar-tooltips"></div>
+        <button id="squished-headband-toggle"><span class="hidden">Toggle message bar</span></button>
+      </div>
+
+      <ul class="headband-supplementary-nav">
+          <li class="nav-item apps"><a href="/apps">Apps</a></li>
+
+          
+            <li class="nav-item shop"><a href="https://shop.pbskids.org/?utm_source=PBS_kids&utm_medium=brandsite&utm_content=ShopButton&utm_campaign=homepage_091914">Shop</a></li>
+            <li class="nav-item parents"><a href="https://pbskids.org/grownups/">Parents</a></li>
+          
+
+          <li class="nav-item station" style="display:none;"></li>
+
+          <li class="nav-item tv-times" style="display:none;">
+            <a href="">TV Times</a>
+          </li>
+          <li class="nav-item settings">
+            <button data-action="settings-trigger">Settings</button>
+          </li>
+      </ul>
+    </div>
+
+  </div> <!-- End Headband -->
+
+
+    <script type='text/javascript' src='/js/loader/lib/PBS.KIDS.require.js' data-main='/js/loader/loaders/producers.require.config.js' ></script>
+
+  
+
+
+
+<!--- END GA CODE --->
+
+<!--<div id="topbar">#include virtual="/mypbskids/includes/strip.html"</div> -->
+<!-- END TOPBAR -->
+
+<div id="headerflash">
+	
+    <!-- Non-Flash content goes here -->
+    <div class="noflashmessagehome">
+    <h1>Flash 8.0 Plug-in Required </h1>
+  	<p>In order to access the animated portions of this site, you will <br>
+  	need to download a newer version of the <strong><a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" target="_blank">Flash Player Plug-In</a></strong>.</p>
+	</div>
+    <script type="text/javascript">
+    <!--
+	
+    if (PBS_FlashCanPlay(9)) {
+
+		var fo = new PBS_SWFObject("flash/header.swf", "header", "970", "131", "8", "#9DC500");
+		
+		
+
+			fo.addParam('FlashVars', 'PBSID=(none)&PBSUserName=(none)');
+
+
+		
+		fo.addVariable("allowScriptAccess", "always");
+		fo.addParam('allowScriptAccess', 'always');
+		fo.addParam('wmode', 'transparent');
+
+		
+		PBS_enable_cdn(fo);
+   		fo.write("headerflash");
+
+    }
+    //-->
+    </script>
+
+</div>
+<!-- END FLASH HEADER -->
+
+<div style="width:1020px">
+
+<div id="leftnav">
+
+<script type="text/javascript">
+    <!--
+    if (PBS_FlashCanPlay(9)) {
+
+		var fo = new PBS_SWFObject("flash/sidebar.swf", "sidebar", "236", "569", "8", "#9DC500");
+		
+		
+			fo.addParam('FlashVars', 'PBSID=(none)&PBSUserName=(none)');
+
+
+		
+		fo.addVariable("allowScriptAccess", "always");
+		fo.addParam('allowScriptAccess', 'always');
+		fo.addParam('wmode', 'transparent');
+
+		
+		//PBS_enable_cdn(fo);
+   		 fo.write("leftnav");
+
+    }
+    //-->
+</script>
+	
+</div><!-- END FLASH LEFT NAV -->
+
+<div id="flashcontentwrapper">
+
+<div id="flashcontent">
+<!-- INSERT PAGE CONTENT HERE -->
+  
+  <!-- main SWF GOES HERE -->
+  <script type="text/javascript">
+    <!--
+    if (PBS_FlashCanPlay(9)) {
+
+		var fo;
+		
+		
+			fo = new PBS_SWFObject("flash/core.swf", "flash", "764", "298", "8", "#9DC500");
+		
+		
+		
+			fo.addParam('FlashVars', 'PBSID=(none)&PBSUserName=(none)');
+
+
+		
+		fo.addVariable("allowScriptAccess", "always");
+		fo.addParam('allowScriptAccess', 'always');
+		fo.addParam('wmode', 'transparent');
+		
+		//PBS_enable_cdn(fo);
+   		 fo.write("flashcontent");
+
+    }
+    //-->
+</script>
+	
+  
+  
+  
+  
+</div><!-- END MAIN CONTENT -->
+
+<style>
+.posthidden {display:none; margin:0; padding:0;} 
+.postshown {display:inline; margin:0; padding:0;}
+</style>
+
+
+
+<!-- BEGIN 3 COLUMN CONTAINER TABLE FOR EXCHANGE HOF AND THINK -->
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+  
+  
+  <!-- BEGIN EEKOSCHOOL -->
+    <td>
+    <div id="exchange">
+      <!-- main SWF GOES HERE -->
+      <script type="text/javascript">
+        <!--
+        if (PBS_FlashCanPlay(9)) {
+				
+				var fo = new PBS_SWFObject("flash/eekoschool_hppanel.swf", "exchange", "225", "275", "8", "#9DC500");		
+		
+			
+			fo.addVariable("allowScriptAccess", "always");
+			fo.addParam('allowScriptAccess', 'always');
+			fo.addParam('wmode', 'transparent');
+			
+			
+			//PBS_enable_cdn(fo);
+            fo.write("exchange");
+    
+        }
+        //-->
+    </script>
+    </div>
+    </td>
+    
+    
+    <!-- BEGIN HOF -->
+    <td>
+    <div id="hof">
+      <!-- main SWF GOES HERE -->
+      <script type="text/javascript">
+        <!--
+        if (PBS_FlashCanPlay(9)) {
+    
+            var fo = new PBS_SWFObject("flash/hof.swf", "hof", "314", "275", "8", "#9DC500");
+            fo.addParam('FlashVars', 'PBSID=(none)&PBSUserName=(none)');
+			
+			fo.addVariable("allowScriptAccess", "always");
+			fo.addParam('allowScriptAccess', 'always');
+			fo.addParam('wmode', 'transparent');
+			
+			PBS_enable_cdn(fo);
+            fo.write("hof");
+    
+        }
+        //-->
+    </script>
+    </div>
+    </td>
+    
+    
+    <!-- BEGIN WHAT DO YOU THINK -->
+    <td valign="top">
+    <script>
+		if (PBS_FlashCanPlay(9)) {
+		
+		document.write('<img src="images/think_top.gif" width="227">');
+			document.write('<div class="think">');
+				document.write('<div class="thinktext">');
+				
+				<!---------------------------->
+				<!-- NEW QUESTION GOES HERE -->
+				<!---------------------------->
+				<!---------------------------->
+				
+				document.write('<div style="margin: 0 5px 2px 6px;">&nbsp;');
+				<!--document.write('<span style="float: right; font-size: 11px;"><em>– from Noelle S.</em></span>');-->
+				
+		document.write('<img src="images/spacer.gif" width="100" height="4" alt="spacer"><br />');
+				
+				<!--- THIS IS THE POLL SUBMITTER'S NAME --->		
+				// document.write('<span style="float: right; font-size: 11px;"><em>– from ncsetzer, 9</em></span></div>');
+				
+				//document.write('</div>');
+				<!---------------------------->
+				<!---------------------------->
+				
+				
+					
+		
+				<!-- POLL SOLICITATION -->
+		
+				document.write('</span>');
+				
+				document.write('<span class="posthidden" id="res"></span>');
+		
+				document.write('</div>');
+			document.write('</div>');
+			
+		
+		}
+		</script>
+    </td>
+    
+    
+  </tr>
+</table>
+<!-- END 3 COLUMN CONTAINER TABLE -->
+
+</div><!-- END CONTENT WRAPPER -->
+
+</div>
+
+<script>
+if (PBS_FlashCanPlay(9)) {
+
+document.write('<div id="footercontainer">');
+  document.write('<div id="bottombuttons"><a href="parentsteachers/index.html"><img src="images/button_pt.jpg" alt="Parents &amp; Teachers" name="pt" width="164" height="32" id="pt" onMouseOver="MM_swapImage(\'pt\',\'\',\'images/button_pt-over.jpg\',1)" onMouseOut="MM_swapImgRestore()"></a><a href="aboutew/index.html"><img src="images/button_whatis.jpg" alt="What is EekoWorld?" name="what" width="165" height="32" id="what" onMouseOver="MM_swapImage(\'what\',\'\',\'images/button_whatis-over.jpg\',1)" onMouseOut="MM_swapImgRestore()"></a></div>');
+  document.write('<div id="footer">');
+  	document.write('<table border="0" cellspacing="0" cellpadding="0" id="footertable">');
+  document.write('<tr>');
+    document.write('<td class="footercol1">Made Possible by</td>');
+    document.write('<td class="footercol2">Produced by</td>');
+    document.write('<td class="footercol3"></td>');
+    document.write('<td>&nbsp;</td>');
+  document.write('</tr>');
+  document.write('<tr>');
+    document.write('<td class="footercol1"><a href="http://www.cpb.org" title="Corporation for Public Broadcasting" target="_blank"><img src="images/logo_cpb.gif" alt="CPB - Corporation for Public Broadcasting" width="35" height="36"></a></td>');
+    document.write('<td class="footercol2"><a href="http://www.beancreative.com" title="Bean Creative Funktional Web Design" target="_blank"><img src="images/logo_beancreative.gif" alt="Bean Creative" width="103" height="36"></a></td>');
+	
+    document.write('<td class="footercol3"></td>');
+
+    document.write('<td align="right" valign="top"><a href="contact/index.html">Contact us</a>  |  <a href="http://pbskids.org/privacy/">Privacy Policy</a>  |  <a href="aboutew/index.html">About the Site</a><br>');
+      document.write('Copyright &copy; 2005 -2007 <a href="http://www.pbs.org" title="PBS">PBS INTERACTIVE, Inc</a>. All rights reserved.</td>');
+  document.write('</tr>');
+document.write('</table>');
+
+  document.write('</div>');
+document.write('</div>');
+
+
+}
+</script>
+
+<!-- SCRIPTS -->
+<script type="text/javascript" src="http://www.google.com/jsapi?key=ABQIAAAA1LPNecY-WqkhOKcfEP82dRQmRTOt2W4c0Rjc7xKhEwEcr9i10RT4o6A3bN2PDZiZDzvkLIyfrRihpg"></script>
+<script type="text/javascript">
+    // Load jQuery from Google AJAX if it is not already loaded
+    if (typeof(jQuery) == 'undefined') { google.load('jquery', '1.4.2'); }
+</script>
+
+
+
+<!--- REMOVING LOGIN DEPENDENCIES
+<script type="text/javascript" src="/scripts/soundmanager2/script/soundmanager2-nodebug-jsmin.js"></script>
+<script type="text/javascript" src="/scripts/colorbox/jquery.colorbox.js"></script>
+<script type="text/javascript" src="/includes/auth/auth.js"></script>
+--->
+
+</body>
+</html>

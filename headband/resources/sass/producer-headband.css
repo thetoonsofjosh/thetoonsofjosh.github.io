@@ -1,0 +1,1561 @@
+@font-face {
+  font-family: 'Colfax-Regular';
+  /* IE9 Compat Modes */
+  src: url('../fonts/ColfaxWebRegular.eot');
+  /* IE6-IE8 */
+  src: url('../fonts/ColfaxWebRegular.eot?#iefix') format('embedded-opentype'), url('../fonts/ColfaxWebRegular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Colfax-Regular';
+  font-style: italic;
+  /* IE9 Compat Modes */
+  src: url('../fonts/ColfaxWebRegularItalic.eot');
+  /* IE6-IE8 */
+  src: url('../fonts/ColfaxWebRegularItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/ColfaxWebRegularItalic.woff') format('woff');
+}
+@font-face {
+  font-family: 'Colfax-Medium';
+  /* IE9 Compat Modes */
+  src: url('../fonts/ColfaxWebMedium.eot');
+  /* IE6-IE8 */
+  src: url('../fonts/ColfaxWebMedium.eot?#iefix') format('embedded-opentype'), url('../fonts/ColfaxWebMedium.woff') format('woff');
+}
+@font-face {
+  font-family: 'Colfax-Medium';
+  font-style: italic;
+  /* IE9 Compat Modes */
+  src: url('../fonts/ColfaxWebMediumItalic.eot');
+  /* IE6-IE8 */
+  src: url('../fonts/ColfaxWebMediumItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/ColfaxWebMediumItalic.woff') format('woff');
+}
+@font-face {
+  font-family: 'Colfax-Bold';
+  /* IE9 Compat Modes */
+  src: url('../fonts/ColfaxWebBold.eot');
+  /* IE6-IE8 */
+  src: url('../fonts/ColfaxWebBold.eot?#iefix') format('embedded-opentype'), url('../fonts/ColfaxWebBold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Colfax-Bold';
+  font-style: italic;
+  /* IE9 Compat Modes */
+  src: url('../fonts/ColfaxWebBoldItalic.eot');
+  /* IE6-IE8 */
+  src: url('../fonts/ColfaxWebBoldItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/ColfaxWebBoldItalic.woff') format('woff');
+}
+@font-face {
+  font-family: 'PBS_KIDS_Headline';
+  /* IE9 Compat Modes */
+  src: url('../fonts/pbskidsheadline-regular-webfont.eot');
+  /* IE6-IE8 */
+  src: url('../fonts/pbskidsheadline-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/pbskidsheadline-regular-webfont.woff') format('woff'), url('../fonts/pbskidsheadline-regular-webfont.ttf') format('truetype'), url('../fonts/pbskidsheadline-regular-webfont.svg#PBS_KIDS_Headline') format('svg');
+}
+@font-face {
+  font-family: 'PBS_KIDS_Headline_Bold';
+  /* IE9 Compat Modes */
+  src: url('../fonts/pbskidsheadline-bold-webfont.eot');
+  /* IE6-IE8 */
+  src: url('../fonts/pbskidsheadline-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/pbskidsheadline-bold-webfont.woff') format('woff'), url('../fonts/pbskidsheadline-bold-webfont.ttf') format('truetype'), url('../fonts/pbskidsheadline-bold-webfont.svg#PBS_KIDS_Headline_Bold') format('svg');
+}
+#headband-container {
+  /* remember to define focus styles! */
+  /* tables still need 'cellspacing='0'' in the markup */
+}
+#headband-container div, #headband-container span, #headband-container applet, #headband-container object, #headband-container iframe, #headband-container h1, #headband-container h2, #headband-container h3, #headband-container h4, #headband-container h5, #headband-container h6, #headband-container p, #headband-container blockquote, #headband-container pre, #headband-container a, #headband-container abbr, #headband-container acronym, #headband-container address, #headband-container big, #headband-container cite, #headband-container code, #headband-container del, #headband-container dfn, #headband-container em, #headband-container font, #headband-container img, #headband-container ins, #headband-container kbd, #headband-container q, #headband-container s, #headband-container samp, #headband-container small, #headband-container strike, #headband-container strong, #headband-container sub, #headband-container sup, #headband-container tt, #headband-container var, #headband-container dl, #headband-container dt, #headband-container dd, #headband-container ol, #headband-container ul, #headband-container li, #headband-container fieldset, #headband-container form, #headband-container label, #headband-container legend, #headband-container table, #headband-container caption, #headband-container tbody, #headband-container tfoot, #headband-container thead, #headband-container tr, #headband-container th, #headband-container td {
+  border: 0;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+#headband-container :focus {
+  outline: 0;
+}
+#headband-container body {
+  line-height: 1;
+}
+#headband-container ol, #headband-container ul {
+  list-style: none;
+}
+#headband-container table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+#headband-container caption, #headband-container th, #headband-container td {
+  font-weight: normal;
+  text-align: left;
+}
+#headband-container blockquote:before, #headband-container blockquote:after, #headband-container q:before, #headband-container q:after {
+  content: '';
+}
+#headband-container blockquote, #headband-container q {
+  quotes: '' '';
+}
+#headband-container .hidden {
+  display: none !important;
+  visibility: hidden;
+}
+#headband-container .visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+#headband-container .visuallyhidden.focusable:active, #headband-container .visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+#headband-container .invisible {
+  visibility: hidden;
+}
+#headband-container .disabled {
+  -khtml-opacity: 0.5 !important;
+  -moz-opacity: 0.5 !important;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=50)";
+  -webkit-opacity: 0.5 !important;
+  filter: "alpha(opacity=50)";
+  opacity: 0.5 !important;
+  cursor: auto !important;
+  pointer-events: none !important;
+}
+.topics-group {
+  display: block;
+}
+.topics-group .parent-topic {
+  font-family: PBS_KIDS_Headline, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 1px;
+  background-color: #00dbff;
+  font-size: 24px;
+  height: 2em;
+  letter-spacing: 1px;
+  /* Should this blue be made a variable? It is used in other styles. */
+  line-height: 2.3em;
+  margin: 0;
+  padding: 0 6px;
+  text-transform: uppercase;
+}
+.topics-group .sub-topics {
+  background-color: #fff;
+  margin: 0 0 18px;
+  overflow: hidden;
+  padding: 20px 24px 6px;
+}
+.topics-group .sub-topics .sub-topic {
+  font-family: Colfax-Regular, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.4;
+  color: #00c3f7;
+  cursor: pointer;
+  float: left;
+  letter-spacing: 0.0333em;
+  margin-bottom: 14px;
+  text-decoration: underline;
+  width: 220px;
+}
+#headband-container {
+  /* Resets not covered in imports
+  ************************************/
+  /* Variables
+  ************************************/
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-touch-callout: none !important;
+  -webkit-user-select: none !important;
+  background-color: #fff;
+  color: #00c3f7;
+  height: 40px;
+  position: relative;
+  font-family: Colfax-Medium, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.4;
+  text-align: left;
+  width: 100%;
+  z-index: 10;
+  z-index: 10000;
+}
+#headband-container *, #headband-container *:before, #headband-container *:after {
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+#headband-container body div, #headband-container span, #headband-container object, #headband-container iframe, #headband-container h1, #headband-container h2, #headband-container h3, #headband-container h4, #headband-container h5, #headband-container h6, #headband-container p, #headband-container blockquote, #headband-container pre, #headband-container abbr, #headband-container address, #headband-container cite, #headband-container code, #headband-container del, #headband-container dfn, #headband-container em, #headband-container img, #headband-container ins, #headband-container kbd, #headband-container q, #headband-container samp, #headband-container small, #headband-container strong, #headband-container sub, #headband-container sup, #headband-container var, #headband-container b, #headband-container i, #headband-container dl, #headband-container dt, #headband-container dd, #headband-container ol, #headband-container ul, #headband-container li, #headband-container fieldset, #headband-container form, #headband-container label, #headband-container legend, #headband-container table, #headband-container caption, #headband-container tbody, #headband-container tfoot, #headband-container thead, #headband-container tr, #headband-container th, #headband-container td, #headband-container article, #headband-container aside, #headband-container figure, #headband-container footer, #headband-container header, #headband-container menu, #headband-container nav, #headband-container section, #headband-container time, #headband-container mark, #headband-container audio, #headband-container video, #headband-container details, #headband-container summary {
+  background: inherit;
+  border: 0;
+  color: inherit;
+  float: none;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  height: auto;
+  margin: 0;
+  min-height: inherit;
+  min-width: inherit;
+  outline: 0;
+  padding: 0;
+  text-align: inherit;
+  vertical-align: baseline;
+  width: auto;
+}
+#headband-container a {
+  color: inherit;
+}
+#headband-container a:link, #headband-container a:visited {
+  text-decoration: none;
+}
+#headband-container a:focus, #headband-container a:hover, #headband-container a:active {
+  text-decoration: underline;
+}
+#headband-container a:focus img, #headband-container a:hover img {
+  border: 0;
+  outline: none;
+}
+#headband-container h1, #headband-container h2, #headband-container h3, #headband-container h4, #headband-container h5, #headband-container h6 {
+  color: inherit;
+  line-height: 1;
+  margin: 10px 0;
+  text-rendering: optimizelegibility;
+  text-shadow: none;
+}
+#headband-container p {
+  line-height: 1.4;
+  margin: 0 0 0 10px;
+}
+#headband-container .header, #headband-container header {
+  position: relative;
+}
+#headband-container .footer, #headband-container footer {
+  position: relative;
+  visibility: visible;
+}
+#headband-container .footer::before, #headband-container .footer::after, #headband-container footer::before, #headband-container footer::after {
+  content: none;
+}
+#headband-container .nav {
+  -moz-transition: none;
+  -webkit-transition: none;
+  left: inherit;
+  max-width: 100%;
+  transition: none;
+}
+#headband-container .nav:before, #headband-container .nav:after {
+  content: none;
+}
+#headband-container.show-me {
+  display: block !important;
+}
+@media only screen and (max-width: 1025px) {
+  #headband-container {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 850px) {
+  #headband-container {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 650px) {
+  #headband-container {
+    height: auto;
+    overflow: hidden;
+  }
+  #headband-container.expanded {
+    margin-bottom: 0;
+    overflow: visible;
+  }
+  #headband-container.expanded #parents-message-bar .parents-message {
+    margin-top: 4px;
+  }
+  #headband-container.expanded #parents-message-bar .parents-message .message {
+    font-size: 14px;
+    height: auto;
+    line-height: 1;
+    padding: 8px 0 0;
+  }
+  #headband-container.expanded #parents-message-bar .parents-message.video h3 {
+    font-size: 14px;
+    line-height: 1;
+    padding-top: 8px;
+  }
+  #headband-container.expanded #parents-message-bar .parents-message.video .message {
+    height: auto;
+  }
+  #headband-container.expanded #parents-message-bar #squished-headband-toggle:after {
+    border-bottom: 10px solid #fff;
+    border-top: 0;
+    margin-top: -6px;
+  }
+}
+@media only screen and (min-width: 651px) {
+  #headband-container {
+    top: 0 !important;
+  }
+}
+#headband-container .headband-nav {
+  background-color: #fff;
+  height: 40px;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media only screen and (max-width: 650px) {
+  #headband-container .headband-nav {
+    height: auto;
+    margin-top: -71px;
+    display: grid;
+    grid-template-areas: "primary-nav" "supplementary-nav" "parent-messages";
+    justify-content: stretch;
+  }
+}
+#headband-container .headband-nav .headband-primary-nav {
+  padding: 0 10px;
+  display: none;
+}
+@media only screen and (max-width: 650px) {
+  #headband-container .headband-nav .headband-primary-nav {
+    display: flex;
+    grid-area: primary-nav;
+    background-color: #fff;
+    height: 31px;
+    padding-left: 20px;
+  }
+  #headband-container .headband-nav .headband-primary-nav .nav-item {
+    font-size: 14px;
+    height: 1.1em;
+  }
+  #headband-container .headband-nav .headband-primary-nav .nav-item a {
+    font-size: 14px;
+    color: #5BC0ED;
+  }
+}
+#headband-container .headband-nav .headband-supplementary-nav {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+@media only screen and (max-width: 650px) {
+  #headband-container .headband-nav .headband-supplementary-nav {
+    grid-area: supplementary-nav;
+    background-color: #0869b2;
+    color: #fff;
+    height: 40px;
+    justify-content: center;
+  }
+}
+#headband-container .headband-nav .nav-item {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  padding: 7.5px 14px;
+}
+@media only screen and (max-width: 1440px) {
+  #headband-container .headband-nav .nav-item {
+    padding: 8px 12px;
+  }
+}
+@media only screen and (max-width: 1025px) {
+  #headband-container .headband-nav .nav-item {
+    font-size: 14px;
+    padding: 8px 6px;
+  }
+}
+@media only screen and (max-width: 850px) {
+  #headband-container .headband-nav .nav-item {
+    font-size: 12px;
+    padding: 11px 4px;
+  }
+}
+#headband-container .headband-nav .nav-item.station {
+  position: relative;
+  height: 100%;
+  padding: 0;
+  display: inline-flex;
+}
+#headband-container .headband-nav .nav-item.station img {
+  max-height: 32px;
+  max-width: 100px;
+}
+#headband-container .headband-nav .nav-item.station .callsign {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+#headband-container .headband-nav .nav-item.station .alt-call-letters {
+  display: none;
+}
+@media only screen and (max-width: 1025px) {
+  #headband-container .headband-nav .nav-item.station img {
+    display: none;
+  }
+  #headband-container .headband-nav .nav-item.station .alt-call-letters {
+    display: inline;
+  }
+}
+#headband-container .headband-nav .nav-item.settings {
+  padding: 0 14px 0 4px;
+  position: relative;
+  top: -2px;
+  z-index: 1000;
+}
+@media only screen and (max-width: 1025px) {
+  #headband-container .headband-nav .nav-item.settings {
+    padding-right: 6px;
+    padding-top: 4px;
+  }
+}
+#headband-container .headband-nav .nav-item.settings button[data-action='settings-trigger'] {
+  background-color: transparent;
+  background-image: url('../img/present/settings-icon.svg');
+  background-position: -22px 50%;
+  background-repeat: no-repeat;
+  border: 0;
+  display: block;
+  height: 40px;
+  outline: none;
+  padding: 0;
+  position: relative;
+  text-indent: -999em;
+  width: 20px;
+  z-index: 1;
+}
+.no-svg #headband-container .headband-nav .nav-item.settings button[data-action='settings-trigger'] {
+  background-image: url('../img/present/settings-icon.png');
+}
+@media only screen and (max-width: 1025px) {
+  #headband-container .headband-nav .nav-item.settings button[data-action='settings-trigger'] {
+    height: 30px;
+  }
+}
+#headband-container .headband-nav .nav-item.settings button[data-action='settings-trigger']:hover {
+  cursor: pointer;
+}
+#headband-container .headband-nav .nav-item.settings .parents-tooltip:before {
+  left: auto;
+  margin: 0;
+  right: 0;
+}
+@media only screen and (max-width: 650px) {
+  #headband-container .headband-nav .nav-item {
+    padding: 5px 6px;
+  }
+  #headband-container .headband-nav .nav-item.settings, #headband-container .headband-nav .nav-item.station.is-localized, #headband-container .headband-nav .nav-item.help {
+    display: none;
+  }
+  #headband-container .headband-nav .nav-item.station {
+    height: auto;
+    padding: 5px 6px;
+  }
+}
+#headband-container .headband-nav .nav-item a {
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 650px) {
+  #headband-container .headband-nav .nav-item a {
+    font-size: 16px;
+    height: 1.1em;
+  }
+}
+#headband-container .parents-tooltip {
+  font-family: Colfax-Regular, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.4;
+  background-color: #fff;
+  color: #999;
+  height: 0;
+  height: auto;
+  letter-spacing: 0.0333em;
+  opacity: 0;
+  overflow: hidden;
+  padding: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  width: auto;
+}
+#headband-container .parents-tooltip.show {
+  height: auto;
+  opacity: 1;
+  pointer-events: initial;
+  overflow: visible;
+  -webkit-transition: top 0.5s, opacity 0.25s;
+  transition: top 0.5s, opacity 0.25s;
+}
+#headband-container .parents-tooltip:after, #headband-container .parents-tooltip > .after {
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 22px solid #fff;
+  bottom: -14px;
+  content: '';
+  display: block;
+  height: 0;
+  left: 50%;
+  margin-left: -20px;
+  position: absolute;
+  width: 0;
+}
+#headband-container .parents-tooltip.down {
+  -moz-box-shadow: "0 2px 2px rgba(0, 0, 0, 20%)";
+  -webkit-box-shadow: "0 2px 2px rgba(0, 0, 0, 20%)";
+  box-shadow: "0 2px 2px rgba(0, 0, 0, 20%)";
+  top: 12px;
+  /*for tooltips over white-ish pages*/
+}
+#headband-container .parents-tooltip.down:before, #headband-container .parents-tooltip.down > .before {
+  border-bottom: 22px solid #fff;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  content: '';
+  display: block;
+  height: 0;
+  left: 50%;
+  margin-left: -20px;
+  position: absolute;
+  top: -12px;
+  width: 0;
+}
+#headband-container .parents-tooltip.down:after, #headband-container .parents-tooltip.down > .after {
+  content: none;
+}
+#headband-container .parents-tooltip .close-tooltip-button {
+  background: #ff8b00;
+  border: 0;
+  border-radius: 32px;
+  color: #fff;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 26px;
+  font-style: inherit;
+  font-weight: bold;
+  height: 32px;
+  line-height: 1em;
+  outline: none;
+  padding: 0;
+  position: absolute;
+  right: 10px;
+  text-align: center;
+  top: 10px;
+  width: 32px;
+}
+#headband-container .parents-tooltip .close-tooltip-button:before, #headband-container .parents-tooltip .close-tooltip-button > .before {
+  font-family: PBS_KIDS_Headline, Arial, Helvetica, sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 1px;
+  content: 'x';
+  margin-right: -2px;
+}
+#headband-container .parents-tooltip .close-tooltip-button em {
+  height: 26px;
+  left: -999em;
+  position: absolute;
+  width: 26px;
+}
+@media only screen and (max-width: 650px) {
+  #headband-container .parents-tooltip .close-tooltip-button {
+    background: transparent;
+    bottom: 16px;
+    display: block;
+    font-size: 16px;
+    left: 0;
+    right: auto;
+    top: auto;
+    width: auto;
+    width: 100%;
+  }
+  #headband-container .parents-tooltip .close-tooltip-button em {
+    color: #ff8b00;
+    position: static;
+    text-decoration: underline;
+  }
+}
+#headband-container #parents-message-bar {
+  display: block;
+  height: 40px;
+  overflow: visible;
+  width: 100%;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+@media only screen and (min-width: 651px) {
+  #headband-container #parents-message-bar {
+    height: inherit !important;
+  }
+}
+@media only screen and (max-width: 650px) {
+  #headband-container #parents-message-bar {
+    grid-area: parent-messages;
+  }
+}
+#headband-container #parents-message-bar .wrap {
+  height: 100%;
+  overflow: hidden;
+}
+@media only screen and (max-width: 650px) {
+  #headband-container #parents-message-bar .wrap {
+    margin-left: 6px;
+    margin-right: 36px;
+  }
+}
+#headband-container #parents-message-bar .parents-tooltip.down {
+  top: -20px;
+}
+#headband-container #parents-message-bar .parents-tooltip.down.show {
+  height: auto;
+  top: 14px;
+}
+@media only screen and (max-width: 650px) {
+  #headband-container #parents-message-bar .parents-tooltip.down.show {
+    border-top: 1px solid #ff8b00;
+    padding-bottom: 60px;
+    top: 0;
+  }
+  #headband-container #parents-message-bar .parents-tooltip.down.show:before {
+    display: none;
+  }
+}
+#headband-container #parents-message-bar .parents-tooltip.down.no-show {
+  padding: 0 !important;
+}
+#headband-container #parents-message-bar #squished-headband-toggle-label {
+  display: none;
+}
+#headband-container #parents-message-bar #squished-headband-toggle {
+  background-color: #ff8b00;
+  border: 0;
+  border-radius: 6px;
+  bottom: 9px;
+  box-sizing: border-box;
+  display: none;
+  height: 22px;
+  outline: none;
+  position: absolute;
+  right: 6px;
+  width: 22px;
+}
+@media only screen and (max-width: 650px) {
+  #headband-container #parents-message-bar #squished-headband-toggle {
+    display: block;
+  }
+}
+#headband-container #parents-message-bar #squished-headband-toggle:hover {
+  cursor: pointer;
+}
+#headband-container #parents-message-bar #squished-headband-toggle:after {
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 10px solid #fff;
+  content: '';
+  display: block;
+  left: 50%;
+  margin-left: -7px;
+  margin-top: -4px;
+  position: absolute;
+  top: 50%;
+}
+#headband-container #parents-message-bar #parents-messages {
+  position: relative;
+}
+#headband-container #parents-message-bar .parents-message {
+  display: table;
+  font-size: 14px;
+  margin: 0 auto 60px;
+  max-width: 550px;
+}
+@media only screen and (max-width: 1025px) {
+  #headband-container #parents-message-bar .parents-message {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 940px) {
+  #headband-container #parents-message-bar .parents-message {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 650px) {
+  #headband-container #parents-message-bar .parents-message {
+    font-size: 12px;
+    margin-left: 6px;
+  }
+}
+#headband-container #parents-message-bar .parents-message .message {
+  color: #00c3f7;
+  display: table-cell;
+  line-height: 1.1;
+  margin: 0;
+  padding: 5px 0 0;
+  position: relative;
+  text-align: left;
+  vertical-align: middle;
+}
+@media only screen and (max-width: 1025px) {
+  #headband-container #parents-message-bar .parents-message .message {
+    padding: 8px 0 0;
+  }
+}
+@media only screen and (max-width: 650px) {
+  #headband-container #parents-message-bar .parents-message .message {
+    height: 27px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+@media only screen and (max-width: 550px) {
+  #headband-container #parents-message-bar .parents-message .message {
+    display: block;
+    max-width: 240px !important;
+  }
+}
+#headband-container #parents-message-bar .parents-message .more-toggle {
+  background: none;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+  display: inline !important;
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  margin-left: 0.4em;
+  outline: none;
+  position: absolute;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+@media only screen and (max-width: 650px) {
+  #headband-container #parents-message-bar .parents-message .more-toggle {
+    background-color: #fff !important;
+    margin-left: 4px;
+    position: static;
+  }
+  #headband-container #parents-message-bar .parents-message .more-toggle:not([href^="http"]) {
+    display: none;
+  }
+  #headband-container #parents-message-bar .parents-message .more-toggle:before {
+    display: none;
+  }
+  .expanded #headband-container #parents-message-bar .parents-message .more-toggle {
+    display: block;
+    float: right;
+    margin-right: 14px;
+    margin-top: 10px;
+  }
+}
+#headband-container #parents-message-bar .parents-message .message-badge {
+  font-family: PBS_KIDS_Headline, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 1px;
+  background-color: #00c3f7;
+  border-radius: 10px;
+  color: #fff;
+  display: block;
+  float: left;
+  line-height: 1;
+  margin: 6px 8px 0 0;
+  padding: 6px 6px 6px 30px;
+  position: relative;
+  text-transform: uppercase;
+}
+#headband-container #parents-message-bar .parents-message .message-badge:before {
+  background-image: url('../img/present/message-badge-icons.svg');
+  background-repeat: no-repeat;
+  content: '';
+  height: 30px;
+  left: 2px;
+  margin-top: -15px;
+  position: absolute;
+  top: 50%;
+  width: 30px;
+}
+.no-svg #headband-container #parents-message-bar .parents-message .message-badge:before {
+  background-image: url('../img/present/message-badge-icons.png');
+}
+#headband-container #parents-message-bar .parents-message .message-badge.now-playing:before {
+  background-position: 0px 0;
+}
+#headband-container #parents-message-bar .parents-message .message-badge.tip:before, #headband-container #parents-message-bar .parents-message .message-badge.daily-tip:before {
+  background-position: -30px 2px;
+  height: 26px;
+}
+#headband-container #parents-message-bar .parents-message .message-badge.activity:before {
+  background-position: -60px 0;
+}
+#headband-container #parents-message-bar .parents-message .message-badge.newsletter {
+  padding-left: 32px;
+}
+#headband-container #parents-message-bar .parents-message .message-badge.newsletter:before {
+  background-position: -90px 0;
+}
+#headband-container #parents-message-bar .parents-message .message-badge.new-show:before {
+  background-position: -120px 0;
+}
+#headband-container #parents-message-bar .parents-message .message-badge.game-tip:before {
+  background-position: -150px 0;
+}
+#headband-container #parents-message-bar .parents-message .message-badge.special:before {
+  background-position: -180px 0;
+}
+#headband-container #parents-message-bar .parents-message .message-badge.recipe:before {
+  background-position: -210px 0;
+}
+#headband-container #parents-message-bar .parents-message .message-badge.app:before {
+  background-position: -240px 0;
+}
+@media only screen and (max-width: 1025px) {
+  #headband-container #parents-message-bar .parents-message .message-badge {
+    font-size: 12px;
+    left: 1px;
+  }
+}
+@media only screen and (max-width: 940px) {
+  #headband-container #parents-message-bar .parents-message .message-badge {
+    border-radius: 30px;
+    height: 30px;
+    margin-right: 6px;
+    margin-top: 5px;
+    padding: 0;
+    width: 30px;
+  }
+  #headband-container #parents-message-bar .parents-message .message-badge:before {
+    left: 0;
+  }
+  #headband-container #parents-message-bar .parents-message .message-badge.newsletter {
+    padding: 0;
+  }
+  #headband-container #parents-message-bar .parents-message .message-badge .copy {
+    display: none;
+  }
+}
+#headband-container #parents-message-bar .parents-message.video {
+  display: block;
+  position: relative;
+}
+#headband-container #parents-message-bar .parents-message.video h3 {
+  line-height: 1;
+  margin: 0;
+  padding-top: 6px;
+}
+#headband-container #parents-message-bar .parents-message.video h3 .titles {
+  display: inline-block;
+  max-width: 360px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  white-space: nowrap;
+  zoom: 1;
+}
+#headband-container #parents-message-bar .parents-message.video h3 i {
+  font-style: normal;
+  vertical-align: middle;
+}
+#headband-container #parents-message-bar .parents-message.video .message {
+  display: block;
+  padding: 0;
+}
+#headband-container #parents-message-bar .parents-message.video .message .goals {
+  display: inline-block;
+  max-width: 330px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  white-space: nowrap;
+  zoom: 1;
+}
+@media only screen and (max-width: 1025px) {
+  #headband-container #parents-message-bar .parents-message.video h3 {
+    padding: 7px 0 0;
+  }
+}
+@media only screen and (max-width: 940px) {
+  #headband-container #parents-message-bar .parents-message.video h3 {
+    padding-top: 10px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  #headband-container #parents-message-bar .parents-message.video h3 .titles {
+    max-width: 75%;
+  }
+  #headband-container #parents-message-bar .parents-message.video .message .goals {
+    max-width: 60%;
+  }
+}
+@media only screen and (max-width: 650px) {
+  #headband-container #parents-message-bar .parents-message.video h3 {
+    line-height: 1.2;
+    padding-top: 7px;
+  }
+  #headband-container #parents-message-bar .parents-message.video .message {
+    height: 13px;
+  }
+  #headband-container #parents-message-bar .parents-message.video .message .goals {
+    max-width: 75%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  #headband-container #parents-message-bar .parents-message.video h3 .titles, #headband-container #parents-message-bar .parents-message.video .message .goals {
+    max-width: 65%;
+  }
+}
+#headband-container #parents-message-bar .parents-bar-tooltips {
+  position: relative;
+  z-index: 500;
+}
+#headband-container #parents-message-bar .parents-bar-tooltips .parents-tooltip {
+  left: 50%;
+  margin-left: -360px;
+  padding: 30px;
+  width: 490px;
+}
+#headband-container #parents-message-bar .parents-bar-tooltips .parents-tooltip h3 {
+  font-family: Colfax-Regular, Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1em;
+  color: #00c3f7;
+  margin-right: 24px;
+}
+#headband-container #parents-message-bar .parents-bar-tooltips .parents-tooltip.for-when-we-start-adding-images-after-launch {
+  background: url('../img/content/placeholders/headband-tooltip-placeholder.png') no-repeat 30px 30px #fff;
+  padding: 30px 30px 30px 200px;
+}
+@media only screen and (max-width: 1025px) {
+  #headband-container #parents-message-bar .parents-bar-tooltips .parents-tooltip {
+    margin-left: -320px;
+    max-width: 390px;
+  }
+}
+@media only screen and (max-width: 890px) {
+  #headband-container #parents-message-bar .parents-bar-tooltips .parents-tooltip {
+    left: 20px;
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 650px) {
+  #headband-container #parents-message-bar .parents-bar-tooltips .parents-tooltip {
+    background-image: none;
+    left: 0;
+    max-width: 100%;
+    padding: 30px 0;
+    width: 100%;
+  }
+}
+#headband-container #parents-message-bar .parents-bar-tooltips .parents-tooltip .title {
+  font-family: Colfax-Bold, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin: 10px 0 8px 0;
+}
+@media only screen and (max-width: 650px) {
+  #headband-container #parents-message-bar .parents-bar-tooltips .parents-tooltip .title {
+    margin-left: 25px;
+  }
+}
+#headband-container #parents-message-bar .parents-bar-tooltips .parents-tooltip .message {
+  font-size: 16px;
+  padding-right: 20px;
+}
+@media only screen and (max-width: 650px) {
+  #headband-container #parents-message-bar .parents-bar-tooltips .parents-tooltip .message {
+    font-size: 14px;
+    margin-left: 0;
+    padding: 0 25px;
+  }
+}
+#headband-container #parents-message-bar .parents-bar-tooltips .parents-tooltip .message a.link-out-Button {
+  background: #ff8b00;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 16px;
+  line-height: 1;
+  margin: 10px 0 0 0;
+  margin-left: 0;
+  padding: 14px 0;
+  text-align: center;
+  text-transform: uppercase;
+  width: 250px;
+}
+#headband-container #parents-message-bar .parents-bar-tooltips .parents-tooltip .message a.link-out-Button:hover {
+  text-decoration: none;
+}
+@media only screen and (max-width: 650px) {
+  #headband-container #parents-message-bar .parents-bar-tooltips .parents-tooltip .message a.link-out-Button {
+    font-size: 14px;
+    width: 100%;
+  }
+}
+#headband-container #parents-message-bar .parents-bar-tooltips .parents-tooltip.series-video-info {
+  color: #999;
+  padding: 18px;
+  position: absolute;
+  width: 364px;
+}
+#headband-container #parents-message-bar .parents-bar-tooltips .parents-tooltip.series-video-info p {
+  margin: 0 0 18px;
+}
+#headband-container #parents-message-bar .parents-bar-tooltips .parents-tooltip.series-video-info .about-series em {
+  font-family: Colfax-Bold, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1em;
+  background: #000;
+  color: #fff;
+  float: left;
+  height: 25px;
+  line-height: 0.9em;
+  margin-bottom: 4px;
+  margin-right: 6px;
+  padding: 5px 6px 3px;
+  text-align: center;
+  width: 25px;
+}
+#headband-container #parents-message-bar .parents-bar-tooltips .parents-tooltip.series-video-info .about-video em, #headband-container #parents-message-bar .parents-bar-tooltips .parents-tooltip.series-video-info .age-range em, #headband-container #parents-message-bar .parents-bar-tooltips .parents-tooltip.series-video-info .edu-goals em, #headband-container #parents-message-bar .parents-bar-tooltips .parents-tooltip.series-video-info .related-links em {
+  font-family: Colfax-Bold, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1em;
+}
+#headband-container #parents-message-bar .parents-bar-tooltips .parents-tooltip.series-video-info .about-video em {
+  display: block;
+}
+#headband-container #parents-message-bar .parents-bar-tooltips .parents-tooltip.series-video-info .footer {
+  overflow: hidden;
+}
+#headband-container #parents-message-bar .parents-bar-tooltips .parents-tooltip.series-video-info .footer .related-links ul {
+  margin: 6px 0 0 4px;
+  position: relative;
+}
+#headband-container #parents-message-bar .parents-bar-tooltips .parents-tooltip.series-video-info .footer .related-links ul li {
+  display: inline-block;
+  height: 40px;
+  margin: 0 5px 5px 0;
+  vertical-align: top;
+  width: 140px;
+  zoom: 1;
+}
+#headband-container #parents-message-bar .parents-bar-tooltips .parents-tooltip.series-video-info .footer .related-links ul li a {
+  background-image: url('../img/present/related-links-banners.svg');
+  background-repeat: no-repeat;
+  display: block;
+  height: 100%;
+  overflow: hidden;
+  text-indent: -9999px;
+  width: 100%;
+}
+.no-svg #headband-container #parents-message-bar .parents-bar-tooltips .parents-tooltip.series-video-info .footer .related-links ul li a {
+  background-image: url('../img/present/related-links-banners.png');
+}
+#headband-container #parents-message-bar .parents-bar-tooltips .parents-tooltip.series-video-info .footer .related-links ul li a.pbsparents {
+  background-position: 0px 0;
+}
+#headband-container #parents-message-bar .parents-bar-tooltips .parents-tooltip.series-video-info .footer .related-links ul li a.pbsshop {
+  background-position: -600px 0;
+}
+#headband-container #parents-message-bar .parents-bar-tooltips .parents-tooltip.series-video-info .footer .related-links ul li a.pbsitunes {
+  background-position: -750px 0;
+}
+#headband-container #parents-message-bar .parents-bar-tooltips .parents-tooltip.series-video-info .footer .sponsored-by {
+  color: #ffb000;
+  float: right;
+  font-style: normal;
+  padding-right: 44px;
+  position: relative;
+  text-align: right;
+  width: 140px;
+}
+@media only screen and (max-width: 650px) {
+  #headband-container #parents-message-bar .parents-bar-tooltips .parents-tooltip.series-video-info .footer .sponsored-by {
+    margin-top: 12px;
+  }
+}
+@media only screen and (max-width: 740px) {
+  #headband-container #parents-message-bar .parents-bar-tooltips .parents-tooltip.series-video-info {
+    right: 15px;
+  }
+}
+@media only screen and (max-width: 650px) {
+  #headband-container #parents-message-bar .parents-bar-tooltips .parents-tooltip.series-video-info {
+    right: auto;
+    width: auto;
+  }
+  #headband-container #parents-message-bar .parents-bar-tooltips .parents-tooltip.series-video-info .close-tooltip-button {
+    background: #ff8b00;
+    bottom: auto;
+    display: inline;
+    font-size: 26px;
+    left: auto;
+    right: 10px;
+    top: 20px;
+    width: 32px;
+  }
+  #headband-container #parents-message-bar .parents-bar-tooltips .parents-tooltip.series-video-info .close-tooltip-button em {
+    position: absolute;
+    text-decoration: none;
+  }
+}
+#headband-container #settings-tooltip {
+  display: block !important;
+  position: absolute;
+  right: 5px;
+  top: 26px;
+  width: 500px;
+  z-index: 0;
+}
+#headband-container #settings-tooltip.show {
+  height: auto;
+  padding: 20px 12px 8px 25px;
+  top: 56px;
+}
+#headband-container #settings-tooltip h3 {
+  font-family: Colfax-Regular, Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1em;
+  color: #00c3f7;
+  margin-right: 24px;
+}
+#headband-container #settings-tooltip h3:before {
+  background-image: url('../img/present/settings-icon.svg');
+  background-position: -22px 50%;
+  background-repeat: no-repeat;
+  content: '';
+  display: block;
+  float: left;
+  height: 20px;
+  margin-right: 6px;
+  text-transform: uppercase;
+  width: 20px;
+}
+.no-svg #headband-container #settings-tooltip h3:before {
+  background-image: url('../img/present/settings-icon.png');
+}
+#headband-container #settings-tooltip .module {
+  border-bottom: solid #eee 2px;
+  padding: 16px 0 20px;
+  cursor: unset;
+  width: unset;
+  height: unset;
+  background: unset;
+  float: unset;
+}
+#headband-container #settings-tooltip .module a {
+  display: inline;
+}
+#headband-container #settings-tooltip .module:last-child {
+  border-bottom: 0;
+}
+#headband-container #settings-tooltip .module .logo {
+  float: left;
+  margin: 0 16px 8px 4px;
+  width: auto;
+}
+#headband-container #settings-tooltip .module .logo img {
+  width: 80px;
+}
+#headband-container #settings-tooltip .module .header {
+  margin: 0 0 10px;
+}
+#headband-container #settings-tooltip .module .header h4 {
+  font-family: Colfax-Bold, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1em;
+  color: inherit;
+  margin: 0;
+}
+#headband-container #settings-tooltip .module p.module-description {
+  margin: 0;
+}
+#headband-container #settings-tooltip .module p.module-description a {
+  color: inherit;
+  text-decoration: underline;
+  text-transform: inherit;
+}
+#headband-container #settings-tooltip .module .settings-panel {
+  margin-top: 16px;
+}
+#headband-container #settings-tooltip .module .settings-panel div {
+  background: #efefed;
+}
+#headband-container #settings-tooltip .module .footer {
+  background: none;
+  margin-top: 10px;
+}
+#headband-container #settings-tooltip .module .footer button {
+  background: #00c3f7;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  height: 34px;
+  margin: 0 2px;
+  padding: 0 12px;
+  text-transform: uppercase;
+}
+#headband-container #settings-tooltip .module .footer:before, #headband-container #settings-tooltip .module .footer:after {
+  background: none;
+}
+#headband-container #settings-tooltip .module.show {
+  border-bottom: 0;
+}
+#headband-container #settings-tooltip .module.show .logo, #headband-container #settings-tooltip .module.show p.module-description {
+  display: none !important;
+}
+#headband-container #settings-tooltip .module.show .footer {
+  margin-top: 20px;
+  visibility: visible;
+}
+#headband-container #settings-tooltip .module dl {
+  zoom: 1;
+  padding-left: 24px;
+}
+#headband-container #settings-tooltip .module dl:before, #headband-container #settings-tooltip .module dl:after {
+  content: '';
+  display: table;
+}
+#headband-container #settings-tooltip .module dl:after {
+  clear: both;
+}
+#headband-container #settings-tooltip .module dl dt {
+  font-family: Colfax-Bold, Arial, Helvetica, sans-serif;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  clear: left;
+  display: block;
+  float: left;
+}
+#headband-container #settings-tooltip .module dl dd {
+  clear: right;
+  display: inline-block;
+  float: left;
+  padding-left: 4px;
+  zoom: 1;
+}
+#headband-container #settings-tooltip .module.localization-module .logo {
+  display: none;
+}
+.localized #headband-container #settings-tooltip .module.localization-module .logo {
+  border: 1px solid #333;
+  display: inline;
+  height: 68px;
+  line-height: 68px;
+  text-align: center;
+  width: 68px;
+}
+.localized #headband-container #settings-tooltip .module.localization-module .logo img {
+  display: inline-block;
+  line-height: normal;
+  vertical-align: middle;
+  width: 50px;
+  zoom: 1;
+}
+.localized #headband-container #settings-tooltip .module.localization-module .logo:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  zoom: 1;
+}
+.localized #headband-container #settings-tooltip .module.localization-module p.module-description {
+  font-family: Colfax-Bold, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1em;
+  color: #000;
+  margin-top: 14px;
+}
+#headband-container .pbskids-station-picker header {
+  margin-bottom: 10px;
+  text-align: center;
+  position: relative;
+}
+#headband-container .pbskids-station-picker header h1 {
+  font-family: Colfax-Bold, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 1.4;
+}
+#headband-container .pbskids-station-picker .pbskids-station-list {
+  display: block;
+  float: none;
+  position: relative;
+}
+#headband-container .pbskids-station-picker .pbskids-station-list li {
+  background: #f4f4f4;
+  cursor: pointer;
+  display: block;
+  font-family: Colfax-Bold, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 1.4;
+  margin-bottom: 5px;
+}
+#headband-container .pbskids-station-picker .pbskids-station-list li img {
+  border: solid #fff 8px;
+  display: inline-block;
+  margin: 4px 8px 4px 4px;
+  max-height: 30px;
+  max-width: 30px;
+  vertical-align: middle;
+}
+#headband-container .pbskids-station-picker .pbskids-station-list li img:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+#headband-container .pbskids-station-picker footer {
+  font-size: 12px;
+  padding: 5px 0;
+  text-align: center;
+  color: inherit;
+  font-family: inherit;
+  display: inherit;
+}
+#headband-container .pbskids-station-picker footer a {
+  color: inherit !important;
+  cursor: pointer !important;
+  display: inline;
+  text-decoration: underline !important;
+  text-transform: none !important;
+}
+#headband-container .pbskids-station-picker form.pbskids-get-zipcode label {
+  font-family: Colfax-Bold, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 1.4;
+}
+#headband-container .pbskids-station-picker form.pbskids-get-zipcode span {
+  font-size: 14px;
+}
+#headband-container .pbskids-station-picker form.pbskids-get-zipcode input {
+  color: #757575;
+  display: inline;
+  font-size: 14px;
+  height: 2em;
+  margin: 16px 0 0 0;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #D4D4D4;
+}
+#headband-container .pbskids-station-picker form.pbskids-get-zipcode input[type='submit'] {
+  background: #00c3f7;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  height: 34px;
+  letter-spacing: 0.05em;
+  margin-left: 8px;
+  margin-top: 12px;
+  padding: 0;
+  text-transform: uppercase;
+  width: 40px;
+}
+body.has-headband {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+body.headband-lunchlab #flash_frame {
+  margin-top: 0 !important;
+  position: relative;
+}
+.headband-electriccompany #container #closeButton, .headband-electriccompany #containercontainer #closeButton {
+  margin-top: -3px;
+  /* If there is a legit reasons this z-index is so high (z-index: 9999999999997), shoot us an email and we can work something out. :) */
+  top: inherit;
+  z-index: 1000;
+}
+body.headband-betsy {
+  width: auto;
+}
+body.headband-betsy #page-wrap {
+  margin: 0 auto;
+  position: relative;
+  width: 727px;
+}
+body.headband-catinthehat {
+  margin: 0 auto !important;
+}
+body.headband-curiousgeorge #nav-container {
+  position: relative;
+  z-index: 10;
+}
+body.headband-curiousgeorge #hm-george {
+  position: relative;
+  top: -933px;
+  width: 329px;
+}
+body.headband-curiousgeorge #int {
+  position: relative;
+  z-index: 11;
+}
+body.headband-curiousgeorge #flash-game {
+  position: relative;
+  top: -17px;
+  width: 724px;
+  z-index: 11;
+}
+body.headband-curiousgeorge #ftr-games {
+  position: relative;
+  top: 0;
+}
+body.headband-curiousgeorge #flash-game #nametag {
+  margin: -4px 0 0 89px;
+  position: relative;
+  z-index: 12;
+}
+body.headband-sesame #gamecontainer {
+  top: 210px;
+}
+body.headband-sesame.headband-open #gamecontainer {
+  top: 280px;
+}
+body.headband-lions {
+  background-position: 0 41px !important;
+}
+body.headband-lions.headband-open {
+  background-position: 0 111px !important;
+}
+body.headband-electriccompany #pbsLogo {
+  float: left;
+  position: relative;
+  top: -24px;
+}
+body.headband-electriccompany #cityholder {
+  margin-top: 50px;
+}
+body.headband-electriccompany #fullWidth {
+  float: left;
+  position: relative;
+}
+body.headband-curiousgeorge #drive-in {
+  position: relative;
+}
+body.headband-curiousgeorge #car {
+  top: 520px;
+}
+body.headband-zoom div.nav {
+  margin-left: 15px;
+  position: static;
+}
+body.headband-zoom div.content {
+  position: relative;
+  top: -148px;
+}
+body.headband-zoom div.footer {
+  position: relative;
+  top: 430px;
+}
+body.headband-zoom div.homefooter {
+  position: relative;
+  top: 470px;
+}
+body.headband-stantonanthony, body.headband-jayjay {
+  background-position: 0 41px;
+}
+body.headband-stantonanthony.headband-open, body.headband-jayjay.headband-open {
+  background-position: 0 111px;
+}
+body.headband-cyberchase {
+  background: #340d39 !important;
+}
+body.headband-cyberchase #headband-page-wrap {
+  background-color: transparent;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  left: 0;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+#page-activities.headband-cyberchase #headband-page-wrap {
+  background-image: url('/cyberchase/static/images/backgrounds/activities.jpg');
+  background-position: center 80px;
+}
+body.headband-fetch #headband-container {
+  border-bottom: 4px solid #f3f2f2;
+}
+body.headband-fetch #headband-container .parents-tooltip.down {
+  -moz-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+body.headband-wildkratts #headband-container .footer {
+  border: 0;
+  color: inherit;
+  z-index: inherit;
+}
+@media only screen and (max-width: 450px) {
+  #headband-container .headband-nav .nav-item a {
+    font-size: 12px;
+  }
+}
+#bridgeOutline {
+  background: #fff;
+  display: none;
+}
+#bridge {
+  border: 10px solid #fff;
+  min-height: 200px;
+  width: 368px;
+}
+#bridge h3 {
+  color: #fff;
+  font-family: PBS_KIDS_Headline, Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  margin: 30px auto;
+  position: relative;
+  text-align: center;
+  text-rendering: geometricPrecision;
+  width: 280px;
+}
+#bridgeInner a.bridgeLink {
+  color: #516f00;
+  cursor: pointer;
+  display: block;
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 14px;
+  margin: -10px 20px 0 80px;
+  padding: 0;
+  text-align: center;
+  width: 60%;
+}
