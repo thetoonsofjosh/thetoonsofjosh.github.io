@@ -111,7 +111,7 @@ if (typeof(this.PBS.KIDS) === "undefined") {
                 { 
                     'name': 'jQuery-1.6.2-noconflict', 
                     'type': 'js', 
-                    'src': 'https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js',
+                    'src': '/ajax/libs/jquery/1.6.2/jquery.min.js',
                     'callback': function () {
                         // relinquish control of jQuery top level symbols.
                         if (this.debug) {
@@ -125,7 +125,7 @@ if (typeof(this.PBS.KIDS) === "undefined") {
                 { 
                     'name': 'jQuery-1.4.2', 
                     'type': 'js', 
-                    'src': 'https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js',
+                    'src': '/ajax/libs/jquery/1.4.2/jquery.min.js',
                     'callback': function () {
                     }
                 },
@@ -133,7 +133,7 @@ if (typeof(this.PBS.KIDS) === "undefined") {
                 { 
                     'name': 'jQuery-1.4.4', 
                     'type': 'js', 
-                    'src': 'https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js',
+                    'src': '/ajax/libs/jquery/1.4.4/jquery.min.js',
                     'callback': function () {
                     }
                 },
@@ -186,7 +186,7 @@ if (typeof(this.PBS.KIDS) === "undefined") {
             {
             'name': 'swfobject-2.2',
             'type': 'js',
-            'src': 'https://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js',
+            'src': '/ajax/libs/swfobject/2.2/swfobject.js',
             'callback': function(){
             }		
             },

@@ -3,7 +3,7 @@
 var config = [];
 
 steal('/includes/javascript/sites/v2.2/pbskids.js').
-    then('https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js').
+    then('/ajax/libs/jquery/1.4.2/jquery.min.js').
     then('/includes/javascript/jquery.cookie.js').
     then('/includes/javascript/mobile-redirection.js').
     then('/includes/footer/pk-footer.js').
