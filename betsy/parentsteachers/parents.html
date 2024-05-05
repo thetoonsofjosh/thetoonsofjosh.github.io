@@ -1,0 +1,80 @@
+<html>
+<head>
+<script type="text/javascript">
+    if (top.location != location) top.location.replace(location);
+
+    // Set document title to value stored in cookie.
+    function setTitle() {
+        var domainCookies = document.cookie.split(";");
+        var cookieIndex = 0;
+        var outterBounds = domainCookies.length;
+        var pageTitle = domainCookies[cookieIndex].split("title=")[1];
+
+        while (!pageTitle && cookieIndex < outterBounds) {
+            cookieIndex = cookieIndex + 1;
+            pageTitle = domainCookies[cookieIndex].split("title=")[1];
+        }
+
+        pageTitle = pageTitle.split("%20").join(" ");
+        pageTitle = pageTitle.split("%21").join("!");
+        pageTitle = pageTitle.split("%26").join("&");
+        pageTitle = pageTitle.split("%27").join("'");
+        pageTitle = pageTitle.split("%28").join("(");
+        pageTitle = pageTitle.split("%29").join(")");
+        pageTitle = pageTitle.split("%3A").join(":");
+        pageTitle = pageTitle.split("%3B").join(";");
+        pageTitle = pageTitle.split("%3D").join("=");
+        pageTitle = pageTitle.split("%3F").join("?");
+        pageTitle = pageTitle.split("%40").join("@");
+        pageTitle = pageTitle.split("%5C").join("\\");
+        pageTitle = pageTitle.split("%7C").join("|");
+        document.title = pageTitle;
+    }
+
+
+    function ptScripts() {
+        setTimeout("setTitle()", 200);
+    }
+</script>
+</head>
+
+<body topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0" scroll="no" onload="ptScripts()">
+    <iframe id="pt_shell" src="/pbskids2008//ptframe/pt_content_shell.html?/pbskids2008/betsy/parentsteachers/parents.html" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" scrolling="no"></iframe>
+
+    <!-- Calling auto localization code because we haven't yet. -->
+    <script type="application/javascript" src="http://www.pbs.org/cgi-registry/preferences/localize/ip2station-js.cgir?auto_local_unset"></script>
+
+
+<script type="text/javascript">
+var GA_env = { ua_list: "UA-4005067-1,UA-1996666-1,UA-3964855-1,UA-3978951-1,ET-3978951-2" };
+
+GA_env.vars = { localized: 0 };
+
+var GA_jshost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script src="../../../js/ga-4b2a4b53.js" type="text/javascript"></script>
+
+<!-- Begin comScore Tag -->
+<script>
+   document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
+</script>
+ <script>
+  COMSCORE.beacon({
+    c1:2,
+    c2:3005420,
+    c3:"",
+    c4:"www.pbs.org/parents/pbskids2008/betsy/parents.html",
+    c5:"",
+    c6:"",
+    c15:""
+  });
+</script>
+<noscript>
+  <img src="../../../b-4?c1=2&c2=3005420&c3=&c4=www.pbs.org/parents/pbskids2008/betsy/parents.html&c5=&c6=&c15=&cv=1.3&cj=1" style="display:none" width="0" height="0" alt="">
+</noscript>
+<!-- End comScore Tag -->
+
+
+</body>
+</html>
