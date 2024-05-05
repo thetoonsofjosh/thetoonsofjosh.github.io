@@ -1,0 +1,123 @@
+html {
+	margin: 0px;
+	padding: 0px;
+	background-color: #FFCC00;
+}
+body {
+	margin: 10px auto;
+	padding: 0px;
+	font: 12px Verdana, Arial, Helvetica, sans-serif;
+	width: 727px;
+}
+img {
+	border-style: none;
+}
+form {
+	margin: 0px;
+	padding: 0px;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+p {
+	margin-top: 0px;
+	margin-bottom: 10px;
+	text-align: justify;
+}
+h1 {
+	font-size: 14px;
+	font-weight: bold;
+	color: #D90090;
+	margin-top: 0px;
+	margin-bottom: 13px;
+}
+
+.logo {
+	float: left;
+	margin-bottom: 10px;
+}
+.index_pic {
+	display: block;
+	clear: both;
+	margin-bottom: 17px;
+}
+
+.menu {
+	margin: 0px 0px 10px;
+	padding: 0px;
+	height: 153px;
+}
+.menu li {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 153px;
+	list-style: none;
+}
+.menu a {
+	width: 177px;
+	display: block;
+	height: 153px;
+	margin-right: 6px;
+}
+.menu a:hover {
+	background-position: 0px 153px;
+}
+.menu .meet {
+	background-image: url(../images/meet.gif);
+}
+.menu .games {
+	background-image: url(../images/games.gif);
+	margin-right: 7px;
+}
+.menu .schedule {
+	background-image: url(../images/schedule.gif);
+}
+.menu .parents {
+	background-image: url(../images/parents.gif);
+	margin-right: 0px;
+}
+.presented {
+	width: 88px;
+	font-size: 10px;
+	color: #000000;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -5px;
+	margin-bottom: 0px;
+}
+.presented img {
+	display: block;
+	margin-top: 4px;
+}
+
+
+.produced {
+	background-image: url(../images/produced.gif);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	display: block;
+	width: 88px;
+	font-size: 10px;
+	color: #000000;
+	height: 17px;
+	padding-bottom: 45px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+.footer {
+	font-size: 11px;
+	color: #343333;
+	text-align: center;
+	padding-top: 18px;
+}
+.footer a {
+	color: #343333;
+}

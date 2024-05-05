@@ -1,0 +1,58 @@
+html {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	margin: 0px auto;
+	padding: 0px;
+	width: 850px;
+	position: relative;
+}
+img {
+	border-style: none;
+}
+a {
+}
+a:hover {
+	background-position: 0px 30px;
+}
+.print {
+	background-image: url(../images/print.gif);
+	left: 121px;
+	top: 6px;
+	position: absolute;
+	height: 30px;
+	width: 122px;
+}
+.close {
+	background-image: url(../images/close.gif);
+	left: 601px;
+	top: 6px;
+	position: absolute;
+	height: 30px;
+	width: 122px;
+}
+.back {
+	background-image: url(../images/back.gif);
+	left: 601px;
+	top: 6px;
+	position: absolute;
+	height: 30px;
+	width: 122px;
+}
+.logo_l {
+	height: 83px;
+	width: 67px;
+	position: absolute;
+	left: 272px;
+	top: 94px;
+	background-image: url(../images/spacer.gif);
+}
+.logo_r {
+	background-image: url(../images/spacer.gif);
+	height: 94px;
+	width: 183px;
+	left: 364px;
+	top: 83px;
+	position: absolute;
+}

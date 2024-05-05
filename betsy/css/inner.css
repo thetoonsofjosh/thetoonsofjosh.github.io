@@ -1,0 +1,317 @@
+.add_logo {
+	float: right;
+	margin-top: 10px;
+}
+.parents_block {
+	background-image: url(../images/parents_block.jpg);
+	height: 517px;
+	width: 727px;
+	clear: both;
+	line-height: 145%;
+	position: relative;
+	overflow: hidden;
+}
+.parents_block .content {
+	height: 300px;
+	position: absolute;
+	left: 145px;
+	top: 181px;
+	overflow: auto;
+	width: 375px;
+	scrollbar-track-color:#FFCC00;
+}
+.parents_block .content .scroll {
+	width: 355px;
+}
+.games_block {
+	background-image: url(../images/games_block.jpg);
+	clear: both;
+	height: 517px;
+	width: 727px;
+	position: relative;
+}
+.games_block .color {
+	background-image: url(../images/color.jpg);
+	height: 71px;
+	width: 276px;
+	position: absolute;
+	left: 46px;
+	top: 77px;
+	padding-top: 327px;
+	padding-left: 28px;
+}
+.games_block .color:hover {
+	background-position: 0px 398px;
+}
+.games_block .maze {
+	background-image: url(../images/maze.jpg);
+	height: 71px;
+	width: 276px;
+	position: absolute;
+	left: 376px;
+	top: 121px;
+	padding-top: 283px;
+	padding-left: 28px;
+	cursor: pointer;
+}
+.games_block .maze:hover {
+	background-position: 0px 354px;
+}
+.meet_block {
+	background-image: url(../images/meet_block.jpg);
+	height: 517px;
+	width: 727px;
+	position: relative;
+	clear: both;
+	overflow: hidden;
+	line-height: 145%;
+}
+.meet_block .content {
+	height: 300px;
+	position: absolute;
+	left: 309px;
+	top: 179px;
+	overflow: auto;
+	width: 375px;
+	scrollbar-track-color:#FFCC00;
+}
+.meet_block .content .scroll {
+	width: 355px;
+}
+.meet_block .big {
+	position: absolute;
+	left: 186px;
+	top: 249px;
+}
+.meet_block a {
+	cursor: pointer;
+	height: 139px;
+	float: left;
+}
+.meet_block .top_row {
+	position: absolute;
+	top: 6px;
+	left: 10px;
+}
+.meet_block .second_row {
+	position: absolute;
+	left: 8px;
+	top: 139px;
+}
+.meet_block .third_row {
+	position: absolute;
+	left: 8px;
+	top: 262px;
+}
+.meet_block .fourth_row {
+	position: absolute;
+	left: 8px;
+	top: 381px;
+}
+
+
+
+
+.meet_block .betsy {
+	background-image: url(../images/friends/betsy.png);
+	width: 89px;
+	_background-image: url(../images/spacer.gif);
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/friends/betsy.png');
+	height: 139px;
+}
+.meet_block .betsy_hover {
+	background-image: url(../images/friends/betsy_on.png);
+	_background-image: url(../images/spacer.gif);
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/friends/betsy_on.png');
+}
+.meet_block .billy {
+	background-image: url(../images/friends/billy.png);
+	width: 95px;
+	height: 139px;
+	_background-image: url(../images/spacer.gif);
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/friends/billy.png');
+	margin-right: -4px;
+}
+.meet_block .billy_hover {
+	background-image: url(../images/friends/billy_on.png);
+	_background-image: url(../images/spacer.gif);
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/friends/billy_on.png');
+}
+.meet_block .sarah {
+	background-image: url(../images/friends/sarah.png);
+	height: 139px;
+	width: 92px;
+	_background-image: url(../images/spacer.gif);
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/friends/sarah.png');
+	margin-left: -3px;
+}
+.meet_block .sarah_hover {
+	background-image: url(../images/friends/sarah_on.png);
+	_background-image: url(../images/spacer.gif);
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/friends/sarah_on.png');
+}
+.meet_block .scott {
+	background-image: url(../images/friends/scott.png);
+	height: 139px;
+	width: 87px;
+	_background-image: url(../images/spacer.gif);
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/friends/scott.png');
+}
+.meet_block .scott_hover {
+	background-image: url(../images/friends/scott_on.png);
+	_background-image: url(../images/spacer.gif);
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/friends/scott_on.png');
+}
+.meet_block .molly {
+	background-image: url(../images/friends/molly.png);
+	height: 139px;
+	width: 85px;
+	_background-image: url(../images/spacer.gif);
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/friends/molly.png');
+}
+.meet_block .molly_hover {
+	background-image: url(../images/friends/molly_on.png);
+	_background-image: url(../images/spacer.gif);
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/friends/molly_on.png');
+}
+.meet_block .maria {
+	background-image: url(../images/friends/maria.png);
+	height: 139px;
+	width: 86px;
+	_background-image: url(../images/spacer.gif);
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/friends/maria.png');
+}
+.meet_block .maria_hover {
+	background-image: url(../images/friends/maria_on.png);
+	_background-image: url(../images/spacer.gif);
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/friends/maria_on.png');
+}
+.meet_block .kenji {
+	background-image: url(../images/friends/kenji.png);
+	width: 89px;
+	height: 139px;
+	_background-image: url(../images/spacer.gif);
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/friends/kenji.png');
+}
+.meet_block .kenji_hover {
+	background-image: url(../images/friends/kenji_on.png);
+	_background-image: url(../images/spacer.gif);
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/friends/kenji_on.png');
+}
+.meet_block .newton {
+	background-image: url(../images/friends/newton.png);
+	height: 139px;
+	width: 83px;
+	_background-image: url(../images/spacer.gif);
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/friends/newton.png');
+}
+.meet_block .newton_hover {
+	background-image: url(../images/friends/newton_on.png);
+	_background-image: url(../images/spacer.gif);
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/friends/newton_on.png');
+}
+.meet_block .kevin {
+	background-image: url(../images/friends/kevin.png);
+	height: 123px;
+	width: 86px;
+	_background-image: url(../images/spacer.gif);
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/friends/kevin.png');
+}
+.meet_block .kevin_hover {
+	background-image: url(../images/friends/kevin_on.png);
+	_background-image: url(../images/spacer.gif);
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/friends/kevin_on.png');
+}
+.meet_block .mom {
+	background-image: url(../images/friends/mom.png);
+	height: 130px;
+	width: 91px;
+	_background-image: url(../images/spacer.gif);
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/friends/mom.png');
+}
+.meet_block .mom_hover {
+	background-image: url(../images/friends/mom_on.png);
+	_background-image: url(../images/spacer.gif);
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/friends/mom_on.png');
+}
+.meet_block .dad {
+	background-image: url(../images/friends/dad.png);
+	height: 131px;
+	width: 95px;
+	_background-image: url(../images/spacer.gif);
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/friends/dad.png');
+}
+.meet_block .dad_hover {
+	background-image: url(../images/friends/dad_on.png);
+	_background-image: url(../images/spacer.gif);
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/friends/dad_on.png');
+}
+.meet_block .oconnor {
+	background-image: url(../images/friends/oconnor.png);
+	height: 127px;
+	width: 91px;
+	_background-image: url(../images/spacer.gif);
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/friends/oconnor.png');
+}
+.meet_block .oconnor_hover {
+	background-image: url(../images/friends/oconnor_on.png);
+	_background-image: url(../images/spacer.gif);
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/friends/oconnor_on.png');
+}
+.meet_block .bob {
+	background-image: url(../images/friends/bob.png);
+	height: 127px;
+	width: 95px;
+	_background-image: url(../images/spacer.gif);
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/friends/bob.png');
+}
+.meet_block .bob_hover {
+	background-image: url(../images/friends/bob_on.png);
+	_background-image: url(../images/spacer.gif);
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/friends/bob_on.png');
+}
+.meet_block .warner {
+	background-image: url(../images/friends/warner.png);
+	height: 123px;
+	width: 92px;
+	_background-image: url(../images/spacer.gif);
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/friends/warner.png');
+}
+.meet_block .warner_hover {
+	background-image: url(../images/friends/warner_on.png);
+	_background-image: url(../images/spacer.gif);
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/friends/warner_on.png');
+}
+
+.menu {
+	height: 155px;
+	margin-top: -4px;
+}
+.menu li {
+	height: 155px;
+}
+.menu a {
+	height: 155px;
+}
+.menu a:hover {
+	background-position: 0px 155px;
+}
+.menu .meet {
+	background-image: url(../images/meet_inner.gif);
+}
+.menu .games {
+	background-image: url(../images/games_inner.gif);
+	margin-right: 7px;
+}
+.menu .schedule {
+	background-image: url(../images/schedule_inner.gif);
+}
+.menu .parents {
+	background-image: url(../images/parents_inner.gif);
+	margin-right: 0px;
+}
+.meet_block .big1 {
+	position: absolute;
+	left: 186px;
+	top: 176px;
+}
