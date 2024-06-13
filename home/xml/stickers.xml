@@ -14,6 +14,11 @@
 		<ypos>25</ypos>
 	</sticker>
 
-
+	<sticker>
+		<image>discordad.swf</image>
+		<xpos>200</xpos>
+		<ypos>72</ypos>
+	</sticker>
+	
 
 </stickers>
