@@ -1,0 +1,2051 @@
+body {
+    background: #a1af3d url(i/block-pattern.png) repeat;
+    font-size: 100%;
+    font-family: "Arial", sans-serif;
+    color: white;
+}
+
+/*
+    ###########################################################################
+    @font-face
+    ###########################################################################
+*/
+@font-face {
+font-family: "Colfax-Bold";
+src: url("ColfaxWebBold.eot"); /* IE9 Compat Modes */
+src: url("ColfaxWebBold.eot?#iefix") format('embedded-opentype'), /* IE6-IE8 */
+url(/pbs-kids-headband/css/ColfaxWebBold.woff) format('woff'); /* Modern Browsers */
+} 
+@font-face {
+font-family: 'Colfax-Bold';
+font-style: italic;
+src: url('ColfaxWebBoldItalic.eot'); /* IE9 Compat Modes */
+src: url('ColfaxWebBoldItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+url('ColfaxWebBoldItalic.woff') format('woff'); /* Modern Browsers */
+} 
+
+@font-face {
+font-family: 'Colfax-Medium';
+src: url('ColfaxWebMedium.eot'); /* IE9 Compat Modes */
+src: url('ColfaxWebMedium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+url('ColfaxWebMedium.woff') format('woff'); /* Modern Browsers */
+}
+@font-face {
+font-family: 'Colfax-Medium';
+font-style: italic;
+src: url('ColfaxWebMediumItalic.eot'); /* IE9 Compat Modes */
+src: url('ColfaxWebMediumItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+url('ColfaxWebMediumItalic.woff') format('woff'); /* Modern Browsers */
+}
+
+
+
+/*
+    ###########################################################################
+    GO! Login Bar
+    ###########################################################################
+*/
+    .go-login {
+        background: #9bcb00;
+        height: 25px;
+        overflow: hidden;
+        font-size: 0.75em;
+        color: white;
+        position: relative;
+        z-index: 6;
+    }
+            .go-login-unauthed {
+                background-color: #f98900;
+            }
+            .go-login-invitation {
+                width: 405px;
+                margin: 4px auto 0;
+                position: relative;
+            }
+                    .go-login-invitation span,
+                    .go-login-invitation a {
+                        display: block;
+                        position: absolute;
+                        text-indent: -9999px;
+                        overflow: hidden;
+                    }
+                    .go-login-invitation span {
+                        background: url(i/titles.png) no-repeat 0 -462px;
+                        top: 4px;
+                        left: 0;
+                        width: 280px;
+                        height: 10px;
+                    }
+                    .go-login-invitation a {
+                        top: 0;
+                        right: 0;
+                        background: url(i/go-login-button.png) no-repeat;
+                        width: 102px;
+                        height: 17px;
+                        outline: 0;
+                    }
+
+
+
+
+
+/*
+    ###########################################################################
+    Ephemeral layers
+    ###########################################################################
+*/
+    .ephemera-shadows {
+        background: url(i/margin-shadow.png) repeat-y top center;
+    }
+    .page-interior {
+        position: relative;
+    }
+
+
+
+
+
+
+/*
+    ###########################################################################
+    Horizontal Bands
+    ###########################################################################
+*/
+    .band {
+        position: relative;
+        z-index: 1;
+    }
+            .band .wrap {
+                position: relative;
+            }
+
+            .band-header {
+                background: url(i/band-fill-header.png) no-repeat top center;
+                z-index: 4;
+            }
+                    .band-header .wrap {
+                        height: 110px;
+                    }
+
+            .band-showdrawer {
+                background: url(i/band-fill-showdrawer.png) no-repeat bottom center;
+                /*outline: 1px solid white;*/
+                z-index: 3;
+                position: absolute;
+                top: -425px;
+                width: 100%;
+            }
+            .band-showledge {
+                background: url(i/band-fill-showledge.png) no-repeat top center;
+            }
+            .band-pagecontent {
+                background: url(i/band-fill-pagecontent.png) repeat-y top center;
+                padding: 15px 0 15px;
+            }
+            .band-concierge {
+                background: url(i/band-fill-concierge.png) repeat-y top center;
+                color: #676767;
+            }
+            .band-footer {
+                background: url(i/band-fill-footer.png) no-repeat top center;
+            }
+                    .band-footer .wrap {
+                        height: 200px; /* 235 */
+                        padding: 35px 0 0;
+                        overflow: hidden;
+                    }
+
+
+
+
+
+
+
+/*
+    ###########################################################################
+    Header
+    ###########################################################################
+*/
+    .band-header {
+    }
+            .branding-go {
+                position: absolute;
+                top: 23px;
+                left: 0;
+                width: 120px;
+                height: 108px;
+            }
+                    .branding-go img {
+                        display: block;
+                        width: 100%;
+                    }
+            
+            .branding-prek {
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+                    .branding-prek a {
+                        display: block;
+                        width: 23px;
+                        height: 23px;
+                        overflow: hidden;
+                        text-indent: -9999px;
+                        background: url(i/back-to-prek.png) no-repeat;
+                    }
+                            .branding-prek a:hover {
+                                background-position: 0 -23px;
+                            }
+/*
+.launchpad {
+	width: 530px;
+	height: 68px;
+	padding-top: 17px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+		.launchpad ul {
+		}
+				.launchpad li {
+					display: inline;
+				}
+					.launchpad .games  {
+						text-indent: -9999px;
+						display: block;
+						width: 175px;
+						height: 68px;
+						overflow: hidden;
+						background: url(i/launchpad-buttons.png) no-repeat;
+						background-position: 0 -136px;
+						float: left;
+						outline: 0;
+					}
+
+						.launchpad a {
+							display: block;
+							width: 175px;
+							height: 68px;
+							text-indent: -9999px;
+							overflow: hidden;
+							background: url(i/launchpad-buttons.png) no-repeat;
+							float: left;
+							outline: 0;
+						}
+						
+								.launchpad .games  a{
+								}
+						
+								.launchpad .videos a {
+									width: 170px;
+									margin: 0 5px;
+									background-position: -180px 0;
+								}
+								.launchpad .shows a {
+									background-position: -355px 0;
+								}                                            
+
+								.launchpad .videos a:hover          { background-position: -180px -68px;    }
+								.launchpad .shows a:hover           { background-position: -355px -68px;    }
+								
+								.launchpad-videos .videos a,
+								.launchpad-videos .videos a:hover   { background-position: -180px -136px;   }
+								.launchpad-shows .shows a,
+								.launchpad-shows .shows a:hover     { background-position: -355px -136px;   }
+*/            
+            .launchpad {
+                width: 530px;
+                height: 68px;
+                padding-top: 17px;
+                margin: 0 auto;
+                overflow: hidden;
+            }
+                    .launchpad ul {
+                    }
+                            .launchpad li {
+                                display: inline;
+                            }
+                                    .launchpad a {
+                                        display: block;
+                                        width: 175px;
+                                        height: 68px;
+                                        text-indent: -9999px;
+                                        overflow: hidden;
+                                        background: url(i/launchpad-buttons.png) no-repeat;
+                                        float: left;
+                                        outline: 0;
+                                    }
+                                            .launchpad .videos a {
+                                                width: 170px;
+                                                margin: 0 5px;
+                                                background-position: -180px 0;
+                                            }
+                                            .launchpad .shows a {
+                                                background-position: -355px 0;
+                                            }
+                                            
+
+                                            .launchpad .games a:hover           { background-position: 0 -68px;         }
+                                            .launchpad .videos a:hover          { background-position: -180px -68px;    }
+                                            .launchpad .shows a:hover           { background-position: -355px -68px;    }
+                                            
+                                            .page-all-games .launchpad .games a,
+                                            .launchpad-games .games a,
+                                            .launchpad-games .games a:hover     { background-position: 0 -136px;        }
+                                            .launchpad-videos .videos a,
+                                            .launchpad-videos .videos a:hover   { background-position: -180px -136px;   }
+                                            .launchpad-shows .shows a,
+                                            .launchpad-shows .shows a:hover     { background-position: -355px -136px;   }
+
+
+
+
+
+/*
+    ###########################################################################
+    COMPONENT: Show Drawer
+    ###########################################################################
+*/
+    .band-showdrawer {
+    }
+            .band-showdrawer .wrap {
+                padding: 41px 0; /* very very very very arbitrary */
+                height: 450px;
+                position: relative;
+            }
+
+            .drawer-retract {
+                position: absolute;
+                top: 7px;
+                right: 0;
+                display: block;
+                background: url(i/retract-drawer-button.png) no-repeat;
+                cursor: pointer;
+                width: 27px;
+                height: 28px;
+                text-indent: -9999px;
+                overflow: hidden;
+            }
+                    .drawer-retract:hover {
+                        background-position: 0 -28px;
+                    }
+                    .drawer-retract:active {
+                        top: 8px;
+                    }
+
+            .shows-menu {
+                width: 930px;
+                margin: 0 auto;
+                overflow: hidden;
+            }
+                    .shows-menu li {
+                        display: inline;
+                    }
+                            .shows-menu a {
+                                display: block;
+                                background: aqua;
+                                width: 155px;
+                                height: 105px;
+                                float: left;
+                                overflow: hidden;
+                                position: relative;
+                                background: orange url(i/show-drawer-cell.jpg) no-repeat;
+                                z-index: 1;
+                                text-decoration: none;
+                            }
+                                    .shows-menu div {
+                                        position: relative;
+                                        width: 100%;
+                                        height: 100%;
+                                        cursor: pointer;
+                                    }
+
+                                    .shows-menu .looking-for-more a mark {
+                                        display: block;
+                                        background: url(i/show-drawer-lookingformore.png) no-repeat;
+                                        width: 100%;
+                                        height: 100%;
+                                        text-indent: -9999px;
+                                        overflow: hidden;
+                                    }
+                                            .shows-menu .looking-for-more a:hover mark {
+                                                background-position: 0 -105px;
+                                            }
+
+                                    .shows-menu a img {
+                                        display: block;
+                                        position: absolute;
+                                        top: 0;
+                                        left: 34px;
+                                        width: 87px;
+                                        height: 76px;
+                                        z-index: 2;
+                                    }
+                                    .shows-menu a span {
+                                        font-weight: bold;
+                                        font-size: 12px;
+                                        display: block;
+                                        position: absolute;
+                                        overflow: hidden;
+                                        text-align: center;
+                                        color: #455a7a;
+                                        background: #97c1e6;
+                                        width: 153px;
+                                        height: 20px; /* 27 */
+                                        padding-top: 7px;
+                                        top: 77px;
+                                        left: 1;
+                                        z-index: 2;
+                                    }
+                                            .shows-menu a:hover span {
+                                                color: white;
+                                                background: #f1bc48;
+                                            }
+
+
+
+/*
+    ###########################################################################
+    COMPONENT: Show Ledge
+    ###########################################################################
+*/
+
+    .band-showledge {
+    }
+            .band-showledge .wrap {
+                width: 740px;
+                margin: 0 auto;
+                height: 65px; /* 80 */
+                padding-top: 15px;
+				padding-left: 60px;
+                overflow: hidden;
+            }
+                    .ledge-allshows {
+                        display: block;
+                        position: absolute;
+                        top: 16px;
+                        right: 0;
+                    }
+                            .ledge-allshows a {
+                                display: block;
+                                width: 140px;
+                                height: 48px;
+                                background: url(i/all-jump-buttons.png) no-repeat;
+                                background-position: 0 -144px;
+                                text-indent: -9999px;
+                                overflow: hidden;
+                                outline: 0;
+                            }
+                            .ledge-allshows a:hover {
+                                background-position: 0 -192px;
+                            }
+                            .ledge-allshows-active a,
+                            .ledge-allshows-active a:hover {
+                                background-position: 0 -240px;
+                            }
+                
+                    .handpicked-shows {
+                        width: 600px;
+                        height: 50px;
+                        overflow: hidden;
+                    }
+                            .handpicked-shows li {
+                                display: inline;
+                            }
+                                    .handpicked-shows a {
+                                        display: block;
+                                        width: 50px;
+                                        height: 50px;
+                                        float: left;
+                                        overflow: hidden;
+                                        margin-right: 10px;
+                                        position: relative;
+                                        z-index: 1;
+                                    }
+                                            .handpicked-shows img {
+                                                display: block;
+                                                overflow: hidden;
+                                                width: 100%;
+                                                height: 100%;
+                                                position: absolute;
+                                                z-index: 2;
+                                                top: 0;
+                                                left: 0;
+                                            }
+                                            .handpicked-shows span {
+                                                display: block;
+                                                position: absolute;
+                                                top: 0;
+                                                left: 0;
+                                                z-index: 3;
+                                                /*background: url(i/ledge-porthole.png) no-repeat;*/
+                                                width: 100%;
+                                                height: 100%;
+                                                text-indent: -9999px;
+                                                overflow: hidden;
+                                                cursor: pointer;
+                                            }
+
+
+
+
+
+
+
+/*
+    ###########################################################################
+    Global Component: "Shelf"
+    ###########################################################################
+*/
+
+    .shelf {
+        margin: 0 0 15px;
+    }
+
+
+
+
+
+/*
+    ###########################################################################
+    SHELF: "Splash"
+    ###########################################################################
+*/
+
+    .shelf-splash {
+    }
+            .feature-video,
+            .newest-games {
+                overflow: hidden;
+                position: relative;
+            }
+            .feature-video {
+                background: #759ad2;
+                width: 44.270833333333%; /* 425 / 960 */
+                float: left;
+                height: 314px; /* 330 */
+                padding-top: 16px;
+            }
+            .newest-games {
+                background: #f7971d;
+                width: 53.645833333333%; /* 515 / 960 */
+                height: 330px;
+                float: right;
+            }
+
+
+
+/*
+    ###########################################################################
+    COMPONENT: "Feature Video"
+    ###########################################################################
+*/
+            .feature-video .video-container {
+                width: 100%;
+                height: 239px;
+                /*overflow: hidden;*/
+                background: black;
+                position: relative;
+                z-index: 1;
+            }
+						
+						.feature-video .video-container .loading-indicator{
+							display:block;
+							position: relative;
+							top: 84px;
+							width: 50px;
+							margin:0 auto;
+						}
+						
+							.feature-video .video-container video#player{
+								display:none;
+							}
+						
+								.feature-video .video-no-flash {
+										display: block;
+										display: none; /* overridden by javascript when the time is right */
+										width: 100%;
+										height: 239px;
+										position: absolute;
+										z-index: 5;
+										background:#759AD2;
+								}
+								
+										.feature-video .video-no-flash #no-flash-message{
+											background: none repeat scroll 0 0 #55799E;
+											display: block;
+											font-size: 14px;
+											height: 220px;
+											padding: 14px 144px 0 14px;
+										}
+												
+												#no-flash-message > em {
+													display: inline-block;
+													font-style: normal;
+													font-weight: bold;
+													margin: 28px 0 0;
+													width: 225px;
+												}
+												
+												#no-flash-message > img {
+													float: right;
+													position: absolute;
+													right: 0;
+													top: -5px;
+												}
+													
+								.feature-video .video-no-flash > a {
+									display: block;
+									text-indent: -9999px;
+									overflow: hidden;
+									background: url(i/all-jump-buttons.png) no-repeat;
+									background-position: -145px -705px;
+									width: 263px;
+									height: 48px;
+									outline: 0;
+									margin: 14px auto 0;
+								}
+								
+								.feature-video .video-no-flash > a:hover {
+									background-position: -145px -753px;
+								}
+								
+								.feature-video .video-no-flash > a:active {
+									background-position: -145px -801px;
+								}
+						
+            .video-epilogue {
+                display: block;
+                display: none; /* overridden by javascript when the time is right */
+                width: 100%;
+                height: 239px;
+                position: absolute;
+                z-index: 5;
+            }
+                    .video-epilogue a {
+                        display: block;
+                        width: 100%;
+                        height: 100%;
+                        text-indent: -9999px;
+                        overflow: hidden;
+                        position: absolute;
+                        left: 0;
+                        bottom: -250px;
+                        background: #517a01;
+                        box-shadow: 0 0 12px black;
+                        
+                    }
+                            .video-epilogue img {
+                                display: block;
+                                width: 100%;
+                                height: 100%;
+                                overflow: hidden;
+                            }
+
+            .feature-video video {
+                display: block;
+                height: 100%;
+                width: 100%;
+                margin: 0 auto; /* Clips at 4:3 will center themselves (with black L and R bars). Clips at 16:9 will fill the space. */
+            }
+            .video-utilities {
+                width: 395px;
+                height: 48px;
+                position: relative;
+                margin: 12px auto 0;
+								display:none;
+            }
+                    .video-utilities a,
+                    .play-pause b,
+                    .mute-unmute b,
+										.toggle-captions b
+										{
+                        display: block;
+                        text-indent: -9999px;
+                        overflow: hidden;
+                        background: url(i/all-jump-buttons.png) no-repeat;
+                    }
+										.video-utilities a {
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        background-position: 0 -288px;
+                        width: 140px;
+                        height: 48px;
+                        outline: 0;
+                    }
+                            .video-utilities a:hover {
+                                background-position: 0 -336px;
+                            }
+                            .video-utilities a:active {
+                                background-position: 0 -384px;
+                            }
+                    
+                    .play-pause,
+                    .mute-unmute,
+										.toggle-captions
+										{
+                        display: block;
+                        position: absolute;
+                        cursor: pointer;
+                        display: none;/* The I've-failed-Flash callback will summon a function to turn these back to visible. */
+                    }
+                            .video-utilities-enabled .play-pause,
+                            .video-utilities-enabled .mute-unmute,
+														.video-utilities-enabled .toggle-captions
+														{
+                                display: block;
+                            }
+                            .play-pause {
+                                top: 0;
+                                left: 0;
+                            }
+                            .mute-unmute {
+                                top: 5px;
+                                left: 55px;
+                            }
+														.toggle-captions{
+															top: 5px;
+                              left: 105px;
+														}
+														.play-pause b {
+                                width: 50px;
+                                height: 48px;
+                            }
+                            .mute-unmute b,
+														.toggle-captions b
+														{
+                                width: 45px;
+                                height: 43px;
+                            }
+														
+                                    .play-pause b                         { background-position:    0px -432px; }
+                                    .play-pause b:hover                   { background-position:    0px -480px; }
+                                    .play-pause b:active                  { background-position:    0px -528px; }
+                                    .mute-unmute b                        { background-position:    0px -576px; }
+                                    .mute-unmute b:hover                  { background-position:    0px -619px; }
+                                    .mute-unmute b:active                 { background-position:    0px -662px; }
+																		.toggle-captions b                    { background-position: -100px -576px; }
+                                    .toggle-captions b:hover              { background-position: -100px -619px; }
+                                    .toggle-captions b:active             { background-position: -100px -662px; }
+                                    .play-pause.playing b                 { background-position:  -50px -432px; }
+                                    .play-pause.playing b:hover           { background-position:  -50px -480px; }
+                                    .play-pause.playing b:active          { background-position:  -50px -528px; }
+                                    .mute-unmute.muted b                  { background-position:  -45px -576px; }
+                                    .mute-unmute.muted b:hover            { background-position:  -45px -619px; }
+                                    .mute-unmute.muted b:active           { background-position:  -45px -662px; }
+																		.toggle-captions.captions-on b        { background-position: -145px -576px; }
+                                    .toggle-captions.captions-on b:hover  { background-position: -145px -619px; }
+                                    .toggle-captions.captions-on b:active { background-position: -145px -662px; }
+
+
+
+/*
+    ###########################################################################
+    COMPONENT: "Newest Games"
+    ###########################################################################
+*/
+
+    .newest-games {
+        position: relative;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        -o-user-select: none;
+        user-select: none;
+    }
+            .newest-games-container {
+                background: #6c6d6f;
+                position: relative;
+                width: 475px;
+                height: 264px;
+                overflow: hidden;
+                top: 20px;
+                left: 20px;
+                z-index: 1;
+            }
+                    .newest-games-list {
+                        width: 1304px;
+                        position: absolute;
+                        top: 2px;
+                        left: 0;
+                    }
+                            .newest-games-list li {
+                                display: inline;
+                            }
+                                    .newest-games-list a {
+                                        display: block;
+                                        overflow: hidden;
+                                        margin-right: 5px;
+                                        float: left;
+                                        background: white;
+                                        width: 210px;
+                                        height: 260px;
+                                        position: relative;
+                                        z-index: 1;
+                                    }
+                                            .newest-games-list li:first-child a {
+                                                margin-left: 2px;
+                                            }
+                                            .newest-games-list img {
+                                                display: block;
+                                                overflow: hidden;
+                                                position: absolute;
+                                                top: 5px;
+                                                left: 5px;
+                                                z-index: 2;
+                                            }
+                                            .newest-games-list .new-ribbon {
+                                                display: block;
+                                                position: absolute;
+                                                top: 0;
+                                                right: 0;
+                                                width: 67px;
+                                                height: 67px;
+                                                text-indent: -9999px;
+                                                overflow: hidden;
+                                                background: url(i/new-ribbon.png) no-repeat;
+                                                z-index: 4;
+                                            }
+                                            .newest-games-list .teaser {
+                                                width: 170px; /* 200 */
+                                                padding: 15px 15px 0 15px;
+                                                height: 89px; /* 104 */
+                                                font-size: 13px;
+                                                color: white;
+                                                background: url(i/game-teaser-screen.png) repeat-y;
+                                                overflow: hidden;
+                                                position: absolute;
+                                                z-index: 3;
+                                                bottom: 5px;
+                                                left: 5px;
+                                                line-height: 1.25;
+                                                display: none;
+                                                cursor: pointer;
+                                            }
+                                                    .newest-games-list a {
+                                                        text-decoration: none;
+                                                    }
+                                                    .newest-games-list .teaser mark {
+                                                        display: block;
+                                                        color: white;
+                                                        margin-bottom: 5px;
+                                                        font-size: 14px;
+                                                        font-weight: bold;
+                                                    }
+                                            
+            .newest-games-scroll {
+                overflow: hidden;
+                background: url(i/newest-games-scrollbar-track.png) no-repeat 0 12px;
+                position: absolute;
+                left: 20px;
+                top: 290px;
+                width: 475px;
+                height: 35px;
+            }
+                    .newest-games #jqxScrollThumb {
+                        background: url(i/scrollbar-thumb.png) no-repeat;
+                        cursor: pointer;
+                    }
+
+
+
+/*
+    ###########################################################################
+    Shelf: "Small Promo"
+    ###########################################################################
+*/
+	.small-promo {
+		height: 33px;
+		width: 100%;
+		overflow: hidden;
+		margin-top: -15px;
+	}
+	
+/*
+    ###########################################################################
+    Shelf: "Featured Games"
+    ###########################################################################
+*/
+    .shelf-featgames {
+        position: relative;
+        padding: 15px 20px;
+        background: #96c83b;
+        height: 420px; /* 450 */
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        -o-user-select: none;
+        user-select: none;
+    }
+            .shelf-featgames h3 {
+                width: 209px;
+                height: 25px;
+                text-indent: -9999px;
+                overflow: hidden;
+                margin-bottom: 10px;
+                background: url(i/titles.png) no-repeat;
+                background-position: 0 -313px;
+            }
+            .featured-games-framing {
+                width: 100%;
+                height: 315px;
+                background: url(i/featured-games-framing.png) no-repeat;
+                margin-bottom: 21px;
+                position: relative;
+                z-index: 1;
+            }
+                    .featured-games-repository {
+                        width: 890px;
+                        height: 285px;
+                        position: absolute;
+                        top: 20px;
+                        left: 15px;
+                        overflow: hidden;
+                    }
+                            .featured-games-panes {
+                                width: 2620px;
+                                height: 100%; /* implicitly 285 */
+                                border-left: 5px solid #6c6d6f;
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                            }
+                                    .featured-games-panes ul {
+                                        width: 856px;
+                                        float: left;
+                                    }
+                                            .featured-games-panes li {
+                                                display: inline;
+                                            }
+                                                    .featured-games-panes a {
+                                                        display: block;
+                                                        width: 200px;
+                                                        height: 80px;
+                                                        border: 5px solid white;
+                                                        overflow: hidden;
+                                                        margin: 0 4px 4px 0;
+                                                        float: left;
+                                                        background: tan;
+                                                    }
+
+
+
+            .featured-games-utilities {
+            }
+                    .featured-games-scroll {
+                        width: 79.6875%; /* 765 / 960 */
+                        float: left;
+                        background: url(i/featured-games-scrubber-track.png) no-repeat 0 13px;
+                        margin-top: 6px;
+                    }
+                            .featured-games-scroll #jqxScrollThumb {
+                                background: url(i/scrollbar-thumb.png) no-repeat;
+                                background-position: 0 -33px;
+                                cursor: pointer;
+                            }
+
+
+                    .featured-allgames {
+                        width: 140px;
+                        float: right;
+                    }
+                            .featured-allgames a {
+                                display: block;
+                                width: 100%;
+                                height: 48px;
+                                text-indent: -9999px;
+                                overflow: hidden;
+                                background: url(i/all-jump-buttons.png) no-repeat;
+                            }
+                            .featured-allgames a:hover {
+                                background-position: 0 -48px;
+                            }
+                            .featured-allgames a:active {
+                                background-position: 0 -96px;
+                            }
+
+
+
+/*
+    ###########################################################################
+    Shared Component: "Paginate"
+    ###########################################################################
+*/
+
+    .paginate {
+        display: block;
+        text-indent: -9999px;
+        overflow: hidden;
+        background: url(i/pagination-buttons.png) no-repeat;
+        cursor: pointer;
+        position: absolute;
+        z-index: 2;
+        width: 42px;
+        height: 103px;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        -o-user-select: none;
+        user-select: none;
+    }
+            .featured-games-framing .paginate-left {
+                left: 0;
+                top: 107px;
+            }
+            .featured-games-framing .paginate-right {
+                right: 0;
+                top: 107px;
+                background-position: -42px 0;
+            }
+            .newest-games-container .paginate-left {
+                top: 81px;
+                left: 0;
+            }
+            .newest-games-container .paginate-right {
+                top: 81px;
+                right: 0;
+                background-position: -42px 0;
+            }
+            
+            .featured-games-framing .paginate-left:hover,
+            .newest-games-container .paginate-left:hover {
+                background-position: 0 -103px;
+            }
+            .featured-games-framing .paginate-right:hover,
+            .newest-games-container .paginate-right:hover {
+                background-position: -42px -103px;
+            }
+
+
+
+
+
+/*
+    ###########################################################################
+    Shelf: "Promos"
+    ###########################################################################
+*/
+
+    .shelf-promos {
+    }
+            .go-promo {
+                height: 200px;
+                overflow: hidden;
+            }
+                    .go-promo img {
+                        top: 4px;
+						left: 119px;
+    					position: absolute;
+                    }
+                    .go-promo-primary {
+                        float: left;
+                        background: url(i/secret-box-promo-plate-new.png) no-repeat;
+						width: 38.4375%;  /* 369 / 960 */
+                    }
+                    .go-promo-secondary {
+                        float: right;
+                        background: url(i/cartoon-studio-background.png) no-repeat;
+						width: 59.2708333333333%;  /* 569 / 960 */
+						height: 181px;
+						position: relative;
+						top: 19px;
+                    }
+                    .go-promo a {
+                        display: block;
+                        width: 100%;
+                        height: 100%;
+                        text-indent: -9999px;
+                        overflow: hidden;
+                        position: relative;
+                    }
+					.go-promo-primary em {
+                        display: block;
+                        position: absolute;
+                        text-indent: -9999px;
+                        overflow: hidden;
+                        background: url(i/secret-box-promo-new.png) no-repeat;
+                        width: 120px;
+                        height: 84px;
+                        position: relative;
+						top: 100px;
+						left: 252px;
+                    }
+                    .go-promo-secondary em {
+                        display: block;
+                        position: absolute;
+                        text-indent: -9999px;
+                        overflow: hidden;
+                        background: url(i/cartoon-studio-button.png) no-repeat;
+                        width: 165px;
+                        height: 50px;
+                        top: 108px;
+                        left: 331px;
+                    }
+                    
+                            .go-promo-primary a               { }
+                            .go-promo-primary a:hover em      { background-position: 0 -84px; }
+                            .go-promo-primary a:active em     { background-position: 0 -168px; }
+                            .go-promo-secondary a             { }
+                            .go-promo-secondary a em          { background-position: 0 0px; }
+                            .go-promo-secondary a:hover em    { background-position: 0 -60px; }
+                            .go-promo-secondary a:active em   { background-position: 0 -114px; }
+							
+					#swap_out {
+						position:relative;
+  						width:100px;
+  						height:160px;
+					}
+					
+					#swap_out img {
+						display: none;
+					}
+					
+					#swap_out img.active {
+						display: block;
+					}
+
+
+
+
+
+/*
+    ###########################################################################
+    SHELF: "Concierge"
+    ###########################################################################
+*/
+
+    .band-concierge {
+        padding: 10px 0 30px;
+        font-size: 12px;
+    }
+            .band-concierge a {
+                color: #b85827;
+            }
+            .band-concierge .column {
+                float: left;
+                width: 22.395833333333%; /* 215 / 960 */
+                margin-right: 10px;
+            }
+                    .band-concierge .column-tv-times {
+                        width: 27.604166666667%; /* 265 / 960 */
+                        margin-left: 10px;
+                        background: white;
+                    }
+        
+        
+        .column-newest-videos h3,
+        .column-popular-games h3,
+        .column-game-topics h3 {
+            border-bottom: 1px solid #b85827;
+            margin: 9px 0 11px;
+        }
+                .column h3 span {
+                    display: block;
+                    margin-bottom: 5px;
+                    width: 100%;
+                    height: 17px;
+                    background: url(i/titles.png) no-repeat;
+                    overflow: hidden;
+                    text-indent: -9999px;
+                }
+                        .column-newest-videos h3 span           { background-position: 0 -166px; }
+                        .column-popular-games h3 span           { background-position: 0 -183px; }
+                        .column-game-topics h3 span             { background-position: 0 -200px; }
+
+
+        .band-concierge .jettison {
+            text-transform: uppercase;
+            font-weight: bold;
+            padding-top: 10px;
+        }
+                .band-concierge .jettison a {
+                    text-decoration: underline;
+                    display: inline;
+                }
+                        .band-concierge .jettison a:hover {
+                            color: #581e00;
+                        }
+
+
+        .column-newest-videos {
+        }
+                /* ------------------------------------------------------------------------ */
+                /* Applying CLEARFIX-like behavior to each .COLUMN-NEWEST-VIDEOS block link */
+                .column-newest-videos li a:after {
+                    content: "."; 
+                    display: block; 
+                    height: 0; 
+                    clear: both; 
+                    visibility: hidden;
+                }
+                .column-newest-videos li a {display: inline-block;}
+                /* Hides from IE-mac \*/
+                .column-newest-videos li a {display: block;}
+                * html .column-newest-videos li a {height: 1%;}
+                /* end hide from IE-mac */
+                /* ------------------------------------------------------------------------ */
+                
+                .column-newest-videos li a {
+                    margin-bottom: 15px;
+                    cursor: pointer;
+                }
+                        .column-newest-videos figure {
+                            float: left;
+                            width: 90px;
+                            height: 71px;
+                            background: white;
+                            overflow: hidden;
+                            position: relative;
+                            z-index: 1;
+                        }
+                                .column-newest-videos .episode figure {
+                                }
+                                .column-newest-videos .episode em {
+                                    display: block;
+                                    position: absolute;
+                                    bottom: 5px;
+                                    left: 5px;
+                                    z-index: 3;
+                                    width: 80px;
+                                    height: 22px;
+                                    background: url(i/full-episode-tag.png) no-repeat;
+                                    overflow: hidden;
+                                    text-indent: -9999px;
+                                }
+                                .column-newest-videos figure img {
+                                    display: block;
+                                    width: 100%;
+                                    position: absolute;
+                                    top: 5px;
+                                    left: 5px;
+                                    width: 80px;
+                                    height: 61px;
+                                    overflow: hidden;
+                                    z-index: 2;
+                                }
+
+                        .column-newest-videos p {
+                            float: right;
+                            width: 119px;
+                            overflow: hidden;
+                            line-height: 1.2;
+                        }
+                                .column-newest-videos p mark {
+                                    font-weight: bold;
+                                    display: block;
+                                    color: #b85827;
+                                    margin-bottom: 2px;
+                                }
+                                .column-newest-videos p span {
+                                    display: block;
+                                    color: #645a23;
+                                }
+                                .column-newest-videos a {
+                                    text-decoration: none;
+                                }
+                                .column-newest-videos a:hover p mark,
+                                .column-newest-videos a:hover p span {
+                                    color: #581e00;
+                                }
+                                        .column-newest-videos a:hover p mark {
+                                            text-decoration: underline;
+                                        }
+
+
+
+
+        .column-popular-games {
+        }
+                .column-popular-games li {
+                    margin-bottom: 10px;
+                }
+                .column-popular-games a {
+                    display: block;
+                    text-decoration: none;
+                }
+                        .column-popular-games mark {
+                            display: block;
+                            font-weight: bold;
+                            color: #b85827;
+                        }
+                        .column-popular-games span {
+                            display: block;
+                            color: #645a23;
+                            text-decoration: underline;
+                            font-size: 11px;
+                        }
+                                .column-popular-games a:hover mark,
+                                .column-popular-games a:hover span {
+                                    color: #581e00;
+                                }
+                                        .column-popular-games a:hover mark {
+                                            text-decoration: underline;
+                                        }
+        
+
+        .column-game-topics {
+        }
+                .column-game-topics ul,
+                .column-game-topics li {
+                    color: #b85827;
+                    list-style: disc outside;
+                }
+                        .column-game-topics li {
+                            font-weight: bold;
+                            margin: 0 0 6px 15px;
+                        }
+                                .column-game-topics a:hover {
+                                    color: #581e00;
+                                }
+
+        
+        .column-tv-times {
+            background: white;
+        }
+                .column-tv-times .content {
+                    width: 100%;
+                }
+                .column-tv-times .content img {
+                    display: block;
+                    overflow: hidden;
+                    width: 100%;
+                }
+
+                .column-tv-times footer {
+                    position: relative;
+                    width: 100%;
+                    height: 69px;
+                    overflow: hidden;
+                }
+                        .column-tv-times .station {
+                            display: block;
+                            overflow: hidden;
+                            position: absolute;
+                            top: 24px;
+                            left: 10px;
+                        }
+                        .column-tv-times a {
+                            display: block;
+                            width: 245px;
+                            height: 48px;
+                            position: absolute;
+                            top: 10px;
+                            left: 10px;
+                        }
+                                .column-tv-times a span {
+                                    display: block;
+                                    overflow: hidden;
+                                    text-indent: -9999px;
+                                    background: url(i/all-jump-buttons.png) no-repeat;
+                                    background-position: 0 -860px;
+                                    width: 100%;
+                                    height: 100%;
+                                }
+                                        .column-tv-times a:hover span               { background-position: 0 -908px; }
+                                        .column-tv-times a:active span              { background-position: 0 -956px; }
+                                
+                .column-tv-times-localized {
+                }
+                        .column-tv-times-localized a {
+                            width: 157px;
+                            top: 11px;
+                            left: 98px;
+                        }
+                                .column-tv-times-localized a span {
+                                    background-position: 0 -1004px;
+                                }
+                                        .column-tv-times-localized a:hover span     { background-position: 0 -1052px; }
+                                        .column-tv-times-localized a:active span    { background-position: 0 -1100px; }
+
+
+/*
+    ###########################################################################
+    GAMES PAGE - Featured Content
+    ###########################################################################
+*/
+	.band-featured-content {
+		background: url(/go/styles/i/band-fill-featured-content.png) repeat-y 50% 0%;
+		padding: 45px 0px 0px 0px;
+	}
+	.bx-wrapper {
+		height: 300px;
+	}
+		.bx-window {
+			height: 260px;
+		}
+	#slider-feature {
+		width: 647px;
+		height: 297px;
+		overflow: hidden;
+	}
+		#slider-feature img{
+			border: 5px solid #fff;
+		}
+			#slider-feature figcaption.overlay {
+				position: absolute;
+				width: 636px;
+				height: 90px;
+				top: 165px;
+				margin-left: 5px;
+				background: url(i/game-teaser-screen.png) repeat;
+			}
+			    #slider-feature .content  {
+					display: none
+				}
+					
+				div.overlay-info  {
+					font-family: Colfax-Bold, Arial, Helvetica, sans-serif;
+					font-size: 15.5px;
+					color: #f6da39;
+					float: left;
+					margin: 25px 0 0 25px;
+				}
+					div.overlay-info p{
+						color: #fff;
+						font-size: 14px;
+					}
+				div.overlay-high-score {
+					float: right;
+					margin: -12px 0 0 0;
+					background: url(i/high-score.png) no-repeat;
+					width: 255px;
+					height: 102px;
+				}
+				div.overlay-high-score p {
+					margin: 60px 0 0 94px;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 16px;
+					color: #567a9e;
+					line-height: 1em;
+				}
+	.bx-pager {
+		width:106px;
+		margin: 0 auto;
+		margin-top: 15px;
+		margin-bottom: -28px;
+	}
+	.bx-pager a:last-child {
+		margin-right: 0px;
+	}
+		.pager-link {
+			background: url(i/game-page-sprites.png) no-repeat;
+			background-position: -40px -300px;
+			width: 15px;
+			height: 14px;
+			display: inline-block;
+			text-indent: -9999px;
+			margin-right: 15px;
+		}
+			.pager-link:hover{
+				background-position: -40px -320px;
+			}
+		.pager-1 {
+			
+		}
+		.pager-2 {
+		}
+		.pager-3 {
+		}
+		.pager-4 {
+		}
+			.pager-active {
+				background-position: -40px -320px;
+			}
+	.bx-prev {
+		background: url(i/game-page-sprites.png) no-repeat;
+		background-position: 0 -531px;
+		height: 32px;
+		width: 32px;
+		display: block;
+		float: left;
+		text-indent: -9999px;
+		margin-left: 206px;
+	}
+		.bx-prev:hover {
+			background-position: 0 -568px;
+		}
+	.bx-next {
+		background: url(i/game-page-sprites.png) no-repeat;
+		background-position: 0 -457px;
+		height: 32px;
+		width: 32px;
+		display: block;
+		float: left;
+		text-indent: -9999px;
+		margin-left: 169px;
+		}
+		.bx-next:hover {
+			background-position: 0 -494px;
+		}
+	/*			
+	.XL-featured-game .slider-buttons{
+				height: 32px;
+				margin-left: 199px;
+			}
+				.slider-buttons span {
+					display: inline;
+				}
+				.slider-buttons .arrow-left {
+					background: url(i/game-page-sprites.png) no-repeat;
+					background-position: 0 -531px;
+					height: 32px;
+					width: 32px;
+					display: block;
+					float: left;
+				}
+					.slider-buttons .arrow-left:hover {
+					background-position: 0 -568px;
+					}
+				.slider-buttons .arrow-right {
+					background: url(i/game-page-sprites.png) no-repeat;
+					background-position: 0 -457px;
+					height: 32px;
+					width: 32px;
+					display: block;
+					float: left;
+				}
+				.slider-buttons .arrow-right:hover {
+					background-position: 0 -494px;
+					}
+	*/
+	.top-ten {
+		width: 385px;
+		height: 345px;
+		background:#598a35;
+		float: right;
+		margin-top: -345px;
+		margin-right: -47px;
+		background: url(/go/styles/i/topten-head.png) no-repeat;
+	}
+	.top-ten-list {
+		height: 240px;
+		width: 235px;
+		margin-left: 87px;
+		margin-top: 104px;
+	}
+		.top-ten-list .bx-window {
+			height: 240px !important; 
+		}
+		.top-ten-list .bx-prev{
+			background: url(i/game-page-sprites.png) no-repeat;
+			background-position: 0 -301px;
+			height: 34px;
+			width: 32px;
+			display: block;
+			text-indent: -9999px;
+			position: relative;
+			top: -240px;
+			right: -12px;
+		}
+			.top-ten-list .bx-prev:hover{
+				background-position:0 -340px;
+		}
+		.top-ten-list .bx-next{
+			background: url(i/game-page-sprites.png) no-repeat;
+			background-position: 0 -379px;
+			height: 34px;
+			width: 32px;
+			display: block;
+			text-indent: -9999px;
+			position: relative;
+			top: -69px;
+			right: -49px;
+		}
+			.top-ten-list .bx-next:hover{
+				background-position: 0 -418px;
+		}
+	
+			.top-ten img {
+				margin-left: -70px;
+			}
+			.top-ten ol {
+				list-style: decimal;
+				width: 200px;
+			}
+				#top-ten-slider{
+					height: 220px;
+				}
+					.first-five{
+						margin-bottom: 6px;
+					}
+					.top-ten li {
+						list-style: decimal;
+						border-bottom: 1px solid #fff;
+						margin: 0px 0 6px 29px;
+						padding: 0 0 2px 0;
+					}
+					.top-ten a {
+						color: #fff;
+						text-decoration: none;
+						font-family: 'Chrono', Arial, Helvetica, sans-serif;
+						font-size: 16px;
+						line-height: 1em;
+					}
+					.number-one {
+						text-shadow: -1px 2px #2c4711;
+					}
+
+/*
+    ###########################################################################
+    GAMES PAGE - Game Links and Sorting
+    ###########################################################################
+*/
+	.band-games-sorting {
+		background: url(/go/styles/i/band-fill-games-sorting.png) repeat-y 50% 0%;
+		padding: 23px 45px 1px 60px;
+		min-height: 768px;
+	}
+	.sorter {
+		min-height: 769px;
+		width: 262px;
+		background: #55799e;
+		float: left;
+		margin-right: 45px;
+	}
+		#tabs {
+			height: 47px;
+			width: 131px;
+		}
+			.sorter-shows-btn {
+				height: 47px;
+				width: 131px;
+				position: absolute;
+			}
+				.sorter-shows-btn a{
+					background: url(/go/styles/i/game-page-sprites.png) no-repeat;
+					text-indent: -999px;
+					display: block;
+					height: 47px;
+				}
+							.sorter-shows-btn a:hover {background-position: 0 -50px;}
+							.sorter-shows-btn a:active, 
+							.sorter-shows-btn a.active{
+								background-position: 0 -97px;
+						    }
+							
+							
+							
+			.sorter-topics-btn {
+				height: 47px;
+				width: 131px;
+				position: absolute;
+				left: 132px;
+			}
+				.sorter-topics-btn a{
+					background: url(/go/styles/i/game-page-sprites.png) no-repeat;
+					text-indent: -9999px;
+					display: block;
+					height: 47px;
+					background-position: 0 -149px;
+				}
+							.sorter-topics-btn a:hover {background-position: 0 -200px;}
+							.sorter-topics-btn a:active,
+							.sorter-topics-btn a.active{
+								background-position: -1px -249px;
+							}
+	.options {
+		border: 1px solid #598a35;
+		width: 261px;
+	}
+		.options img{
+			margin: 5px 13px -9px 15px;
+		}
+	
+		.options li {
+			width: 261px;
+			background: #fff;
+			height: 40px;
+		}
+		.options li:last-child {
+			border-bottom: none;
+		}
+			.options a {
+				display: block;
+				width: 100%;
+				height: 39px;
+				text-decoration: none;
+				color: #598a35;
+				font-family: Colfax-Bold, Arial, Helvetica, sans-serif;
+				text-transform: uppercase;
+				font-weight: bold;
+				border-bottom: 1px solid rgba(189, 208, 224, 0.496094);
+				font-size: 14px;
+			}
+				.options a:hover {
+					background: #ff9900;
+					color: #fff;
+				}
+			.options a:active,
+			.options a.active {
+				background: #ff9900;
+				color: #fff;
+				border-top: 2px solid #c47c1a;
+				border-left: 2px solid #c47c1a;
+				border-bottom: 1px solid #c47c1a;
+				height: 37px;
+				width: 259px;
+			}
+				.options a em{
+					color: #6f9dd2;
+					font-size: 14px;
+					font-family: Arial, Helvetica, sans-serif;
+					font-weight: bold;
+					font-style: normal;
+				}
+		.options.closed{
+			display:none;
+		}
+	
+
+/*
+    ###########################################################################
+    BAND: All Games
+    ###########################################################################
+*/
+    .band-pagecontent-allgames {
+        padding: 45px 0 90px;
+    }
+
+            .shelf-gamecat {
+            }
+            .shelf-topten h3,
+            .shelf-gamecat h3 {
+                width: 400px; /* arbitrary */
+                height: 22px;
+                margin-bottom: 15px;
+                background: url(i/titles.png) no-repeat;
+                background-position: -300px 0;
+                text-indent: -9999px;
+                overflow: hidden;
+            }
+
+                    .shelf-gamecat-adventure h3             { background-position: -300px -22px; }
+                    .shelf-gamecat-animals h3               { background-position: -300px -44px; }
+                    .shelf-gamecat-create h3                { background-position: -300px -66px; }
+                    .shelf-gamecat-dress-up h3              { background-position: -300px -88px; }
+                    .shelf-gamecat-machines h3              { background-position: -300px -110px; }
+                    .shelf-gamecat-matching h3              { background-position: -300px -132px; }
+                    .shelf-gamecat-math h3                  { background-position: -300px -154px; }
+                    .shelf-gamecat-music h3                 { background-position: -300px -176px; }
+                    .shelf-gamecat-mystery h3               { background-position: -300px -198px; }
+                    .shelf-gamecat-puzzles h3               { background-position: -300px -220px; }
+                    .shelf-gamecat-quiz h3                  { background-position: -300px -242px; }
+                    .shelf-gamecat-science h3               { background-position: -300px -264px; }
+                    .shelf-gamecat-sports h3                { background-position: -300px -286px; }
+                    .shelf-gamecat-words h3                 { background-position: -300px -308px; }
+					.shelf-gamecat-arthur h3             	{ background-position: -300px -330px; }
+                    .shelf-gamecat-chuck h3               	{ background-position: -300px -352px; }
+                    .shelf-gamecat-cyberchase h3            { background-position: -300px -374px; }
+                    .shelf-gamecat-designsquad h3           { background-position: -300px -396px; }
+                    .shelf-gamecat-electriccompany h3       { background-position: -300px -418px; }
+                    .shelf-gamecat-fetch h3              	{ background-position: -300px -440px; }
+                    .shelf-gamecat-greens h3                { background-position: -300px -462px; }
+                    .shelf-gamecat-itsmylife h3             { background-position: -300px -484px; }
+                    .shelf-gamecat-martha h3               	{ background-position: -300px -506px; }
+                    .shelf-gamecat-noah h3               	{ background-position: -300px -528px; }
+                    .shelf-gamecat-scigirls h3              { background-position: -300px -550px; }
+                    .shelf-gamecat-wildkratts h3            { background-position: -300px -572px; }
+                    .shelf-gamecat-webonauts h3             { background-position: -300px -594px; }
+                    .shelf-gamecat-wordgirl h3              { background-position: -300px -616px; }
+                    .shelf-gamecat-zoom h3                 	{ background-position: -300px -638px; }
+					.shelf-gamecat-all h3                 	{ background-position: -300px -662px; }
+
+
+
+            .shelf-topten {
+            }
+                    .shelf-topten ul {
+                        overflow: hidden;
+                    }
+                            .shelf-topten li {
+                                display: inline;
+                            }
+                                    .shelf-topten a {
+                                        position: relative;
+                                        display: block;
+                                        overflow: hidden;
+                                        float: left;
+                                        z-index: 1;
+                                        width: 210px;
+                                        height: 90px;
+                                        margin: 0 5px 5px 0;
+                                    }
+                                            .shelf-topten .exempt a {
+                                                margin-right: 0;
+                                            }
+                                            .shelf-topten img {
+                                                border: 5px solid white;
+                                                position: absolute;
+                                                z-index: 2;
+                                            }
+                                            .shelf-topten span {
+                                                display: block;
+                                                background: url(i/number-ribbons.png) no-repeat;
+                                                position: absolute;
+                                                top: 0;
+                                                right: 0;
+                                                text-indent: -9999px;
+                                                overflow: hidden;
+                                                width: 63px;
+                                                height: 56px;
+                                                z-index: 3;
+                                            }
+                                                    .shelf-topten .topten-1 span        { background-position: 0 0; }
+                                                    .shelf-topten .topten-2 span        { background-position: -63px 0; }
+                                                    .shelf-topten .topten-3 span        { background-position: -126px 0; }
+                                                    .shelf-topten .topten-4 span        { background-position: -189px 0; }
+                                                    .shelf-topten .topten-5 span        { background-position: 0px -56px; }
+                                                    .shelf-topten .topten-6 span        { background-position: -63px -56px; }
+                                                    .shelf-topten .topten-7 span        { background-position: -126px -56px; }
+                                                    .shelf-topten .topten-8 span        { background-position: -189px -56px; }
+                                                    .shelf-topten .topten-9 span        { background-position: 0px -112px; }
+                                                    .shelf-topten .topten-10 span       { background-position: -63px -112px; }
+
+
+            .shelf-gamecat {
+                padding: 13px 0 0 0;
+                margin-bottom: 5px;
+            }
+                    .shelf-gamecat ul {
+                        overflow: hidden;
+                    }
+                            .shelf-gamecat li {
+                                display: inline;
+                            }
+                                    .shelf-gamecat a {
+                                        display: block;
+                                        float: left;
+                                        overflow: hidden;
+                                        margin: 0 5px 5px 0;
+                                    }
+                                            .shelf-gamecat .exempt a {
+                                                margin-right: 0;
+                                            }
+                                            .shelf-gamecat img {
+                                                display: block;
+                                                overflow: hidden;
+                                                border: 5px solid white;
+                                            }
+
+
+            .shelf-topten {
+                /*background: #6d9cd1 url(i/top-ten-bottom-wedge.png) no-repeat bottom left;*/
+                padding: 13px 0px 12px;
+                margin-bottom: 39px;
+            }
+            
+            
+            .back-to-top {
+                width: 100%;
+                height: 34px;
+                position: relative;
+            }
+                    .back-to-top a {
+                        display: block;
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        background: url(i/back-to-top.png) no-repeat;
+                        width: 117px;
+                        height: 34px;
+                        text-indent: -9999px;
+                        overflow: hidden;
+                        margin: 0 0 0 0;
+                        outline: 0;
+                    }
+                            .back-to-top a:hover {
+                                background-position: 0 -34px;
+                            }
+                            .back-to-top a:active {
+                                background-position: 0 -68px;
+                            }
+
+
+
+
+/*
+    ###########################################################################
+    "Pick A Topic"
+    ###########################################################################
+*/
+    .topic-picker {
+        width: 900px;
+        height: 35px;
+        margin: 0 auto;
+        position: relative;
+        z-index: 5;
+    }
+            .topic-picker h3 {
+                position: absolute;
+                width: 89px;
+                height: 13px;
+                text-indent: -9999px;
+                overflow: hidden;
+                background: url(i/titles.png) no-repeat 0 -508px;
+                right: 187px;
+                top: 4px;
+            }
+            .topic-picker nav {
+                width: 178px;
+                color: #567a9d;
+                font-size: 12px;
+                font-weight: bold;
+                position: absolute;
+                top: 0;
+                right: 0;
+                z-index: 10;
+            }
+                    .topic-picker h4 {
+                        background: url(i/topic-picker-trigger.png) no-repeat;
+                        text-shadow: 0 1px 0 #567a9d;
+                        width: 168px; /* 178 */
+                        height: 19px; /* 23 */
+                        color: white;
+                        cursor: pointer;
+                        font-weight: bold;
+                        padding: 4px 0 0 10px;
+                    }
+                            .topic-picker h4:hover {
+                                background-position: 0 -23px;
+                                color: #567a9d;
+                                text-shadow: none;
+                            }
+                            .topic-picker .active h4,
+                            .topic-picker .active h4:hover {
+                                background-position: 0 -46px;
+                                color: white;
+                                text-shadow: 0 1px 0 #567a9d;
+                            }
+
+
+                    .topic-picker ul {
+                        background: #567a9d;
+                        width: 174px;
+                        border: 1px solid #3f5f7f;
+                        margin: -1px auto 0;
+                        padding: 6px 0;
+                        display: none;
+                    }
+                            .topic-picker li {
+                                border-bottom: 1px solid #3f5f7f;
+                                cursor: pointer;
+                                background: #c7e5fe;
+                                padding: 3px 0 2px 9px;
+                            }
+                            .topic-picker li:hover {
+                                background-color: white;
+                            }
+
+
+
+
+
+/*
+    ###########################################################################
+    Footer
+    ###########################################################################
+*/
+
+    .band-footer {
+        font-size: 12px;
+    }
+            .acknowledgements {
+                height: 120px;
+                overflow: hidden;
+                margin-bottom: 42px;
+                color: #b95927;
+            }
+                    .acknowledgement-block {
+                        background: white;
+                        float: left;
+                        width: 105px;
+                        height: 100%;
+                        margin-right: 15px;
+                        overflow: hidden;
+                        text-align: center;
+                    }
+                            .acknowledgement-block h4 {
+                                padding: 8px 0 10px;
+                            }
+                            .acknowledgement-block figure {
+                                width: 75%; /* meh...arbitrary for now */
+                                /*height: 50px;*/
+                                margin: 0 auto 10px;
+                            }
+                            .acknowledgement-block figure.funded-by {
+                                width: 55%;
+                            }
+                            .acknowledgement-block img {
+                                display: block;
+                                width: 100%;
+                            }
+                            .acknowledgement-block a {
+                                color: #b95927;
+                            }
+
+
+            .appendix {
+                color: white;
+            }
+                    .appendix .jumps {
+                        float: right;
+                        width: 66.666666666667%; /* 640 / 960 */
+                        overflow: hidden;
+                    }
+                            .appendix .jumps ul {
+                            }
+                                    .appendix .jumps li {
+                                        display: inline;
+                                    }
+                                            .appendix .jumps a {
+                                                display: block;
+                                                text-indent: -9999px;
+                                                overflow: hidden;
+                                                background: url(i/titles.png) no-repeat;
+                                                width: 85px;
+                                                height: 18px;
+                                                margin-left: 25px;
+                                                float: right;
+                                            }
+                                                    .appendix .jumps .parents a {
+                                                        margin-left: 0;
+                                                    }
+                                                    
+                                                    .appendix .jumps .parents a         { background-position: 0 0;         width: 85px; }
+                                                    .appendix .jumps .teachers a        { background-position: 0 -18px;     width: 99px; }
+                                                    .appendix .jumps .mobileapps a      { background-position: 0 -36px;     width: 128px; }
+                                                    .appendix .jumps .shop a            { background-position: 0 -54px;     width: 52px; }
+                                                    .appendix .jumps .search a          { background-position: 0 -72px;     width: 76px; }
+                                                    .appendix .jumps .help a            { background-position: 0 -90px;     width: 47px; }
+
+
+                    .appendix .legal {
+                        float: left;
+                        width: 32.291666666667%; /* 310 / 960 */
+                        padding-top: 3px;
+                    }
+                            .appendix .legal ul {
+                            }
+                                    .appendix .legal li {
+                                        display: inline;
+                                    }
+                                            .appendix .legal li:after {
+                                                content: " | ";
+                                            }
+                                            .appendix .legal li.copyright:after {
+                                                content: "";
+                                            }
+                                            .appendix .legal a {
+                                                color: white;
+                                            }
+
+
+
+
+
