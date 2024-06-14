@@ -1,29 +1,43 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="https://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
-    <script type="text/javascript"> 
-       document.getElementsByTagName('html')[0].className = 'js'; 
-    </script>
 
-<title>PBS KIDS GO!</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>PBS KIDS GO!</title>
 
-<!-- To be populated by the Admin Tool --------------------------------------->
-<meta name="description" content="Watch PBS KIDS GO! shows and play games with Arthur, WordGirl, The Electric Company and FETCH! with Ruff Ruffman.">
-<meta name="keywords" content="pbs kids go, pbskidsgo, pbs kids shows, kids tv, educational shows, pbs games">
-<!------------------------------------------------------------------------->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+    <meta name="description" content="Play games with the Wild Kratts, Word Girl, Arthur and more! Watch video clips of your favorite PBS KIDS GO! shows, create avatars and cartoons and share with your friends!" /> 
+    <meta name="keywords" content="pbs kids go, pbskidsgo, pbs kids shows, kids tv, educational shows, pbs games">
+    <meta name="author" content="PBS KIDS GO!" />
+    <meta name="og:title" content="PBS KIDS GO!" />
+    <meta name="og:type" content="non_profit" />
+    <meta name="og:url" content="/go/" />
+    <meta name="og:image" content="media/pbskids-go-opengraph.png" />
+    <meta name="og:description" content="Watch PBS KIDS GO! shows and play games with Arthur, WordGirl, The Electric Company and FETCH! with Ruff Ruffman." />
+    <meta name="og:site_name" content="PBS KIDS GO!" />
+    <meta name="og:locality" content="Arlington" />
+    <meta name="og:region" content="VA" />
+    <meta name="fb:admins" content="PBSKIDS" />
 
-<script type="text/javascript" src="/includes/flash/swfobject.js"></script>
-<link rel="stylesheet" href="/go/css/home.css" type="text/css" />
-<link rel="stylesheet" href="css/noflash.css" type="text/css" />
-<link type="text/css" media="screen" rel="stylesheet" href="/includes/auth/ajax.css" />
+    <link href="media/apple-touch-icon.png" rel="apple-touch-icon" />
+    <link href="media/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/desktop.css" />
+    <link rel="stylesheet" type="text/css" media="print" href="styles/print.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/includes/auth/ajax.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/includes/pk-sponsor/styles/pk-sponsor-styles.css" />
 
-<link href="/includes/pk-sponsor/styles/pk-sponsor-styles.css" rel="stylesheet" type="text/css" media="screen">
+    <!--[if lt IE 9]><script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!--[if lt IE 9]><link href="styles/desktop-ie-6-7-8.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+    <!--[if lt IE 8]><link href="styles/desktop-ie-6-7.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+    <!--[if lt IE 7]><link href="styles/desktop-ie-6.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
 
-<body class="pk-go-landing">
-<div id="pk-sponsor">
-</div>
+    <script type="text/javascript" src="/go/js/steal/steal.js?home.js"></script>
+
+</head>
+
+<body class="home">
 <script type="text/javascript">
 var GA_setvar;
 (function() {
@@ -51,7 +65,7 @@ var GA_setvar;
  //Determines if account is new
  var returning = getCookie('pbskids.returning');
 
-  GA_customvar = {};
+ GA_customvar = {};
 
  var ua_codes = "UA-4005067-1,UA-4005001-1,UA-3964855-1,UA-3994564-1,ET-3994564-2"; 
  var ua_codes_list = ua_codes.split(',');
@@ -79,7 +93,7 @@ var GA_setvar;
 })();
 
 </script>
-<script id="pbskids-headband-script" type="text/javascript" src="/pbs-kids-headband/js/headband.js"></script>
+<script id="pbskids-headband-script" type="text/javascript" src="/pbs-kids-headband/js/headband.js?v=47"></script>
 <script type="text/javascript">
 var GA_env = { ua_list: "UA-4005067-1,UA-4005001-1,UA-3964855-1,UA-3994564-1,ET-3994564-2" };
 
@@ -107,184 +121,537 @@ document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga
 
 
 
+<div id="pk-sponsor"></div>
+
+<div class="ephemera ephemera-shadows">
+<div class="page-interior">
 
 
+        <div class="band band-header">
+            <div class="wrap">
+                <h1 class="branding-go"><img src="media/go-logo.png" alt="PBS KIDS GO!" /></h1>
+                <h2 class="branding-prek"><a href="" title="PBS KIDS Home">Back to PBS KIDS Home</a></h2>
+                <nav class="launchpad">
+                    <ul class="c">
+                        <li class="games"><a href="games/" title="GO! Games"><span>Games</span></a></li>
+                        <li class="videos"><a href="/go/video/" title="GO! Videos"><span>Videos</span></a></li>
+                        <li class="shows"><a href="/everything.html" title="All Shows"><span>Shows</span></a></li>
+                    </ul>
+                </nav>
+            </div><!--/ .wrap -->
+        </div><!--/ .band-header -->
+
+	<div class="band band-showdrawer">
+            <div class="wrap">
+                <ul class="shows-menu c">
+                    <li><a href="/arthur/"><div><span>Arthur</span><img src="/go/media/show-thumbs/arthur.png" alt="Arthur" /></div></a></li>
+                    <li><a href="/catinthehat"><div><span>The Cat in the Hat</span><img src="/go/media/show-thumbs/the-cat-in-the-hat.png" alt="The Cat in the Hat" /></div></a></li>
+                    <li><a href="/chuck"><div><span>Chuck Vanderchuck</span><img src="/go/media/show-thumbs/chuck-vanderchuck.png" alt="Chuck Vanderchuck" /></div></a></li>
+                    <li><a href="/curiousgeorge"><div><span>Curious George</span><img src="/go/media/show-thumbs/curious-george.png" alt="Curious George" /></div></a></li>
+                    <li><a href="/cyberchase"><div><span>Cyberchase</span><img src="/go/media/show-thumbs/cyberchase.png" alt="Cyberchase" /></div></a></li>
+                    <li><a href="/designsquad/"><div><span>Design Squad</span><img src="/go/media/show-thumbs/design-squad.png" alt="Design Squad" /></div></a></li>
+                    <li><a href="/eekoworld/"><div><span>EekoWorld</span><img src="/go/media/show-thumbs/eekoworld.png" alt="EekoWorld" /></div></a></li>
+                    <li><a href="/electriccompany/"><div><span>The Electric Company</span><img src="/go/media/show-thumbs/the-electric-company.png" alt="The Electric Company" /></div></a></li>
+                    <li><a href="/fetch/"><div><span>FETCH! with Ruff Ruffman</span><img src="/go/media/show-thumbs/fetch-with-ruff-ruffman.png" alt="FETCH! with Ruff Ruffman" /></div></a></li>
+                    <li><a href="/lunchlab/"><div><span>Fizzy&#39;s Lunch Lab</span><img src="/go/media/show-thumbs/fizzys-lunch-lab.png" alt="Fizzy&#39;s Lunch Lab" /></div></a></li>
+                    <li><a href="/itsmylife/"><div><span>It&#39;s My Life</span><img src="/go/media/show-thumbs/its-my-life.png" alt="It&#39;s My Life" /></div></a></li>
+                    <li><a href="/martha/"><div><span>Martha Speaks</span><img src="/go/media/show-thumbs/martha-speaks.png" alt="Martha Speaks" /></div></a></li>
+                    <li><a href="/mayaandmiguel"><div><span>Maya &amp; Miguel</span><img src="/go/media/show-thumbs/maya-miguel.png" alt="Maya &amp; Miguel" /></div></a></li>
+                    <li><a href="/noah"><div><span>Oh Noah! </span><img src="/go/media/show-thumbs/oh-noah.png" alt="Oh Noah! " /></div></a></li>
+                    <li><a href="/scigirls/"><div><span>SciGirls</span><img src="/go/media/show-thumbs/scigirls.png" alt="SciGirls" /></div></a></li>
+                    <li><a href="/webonauts"><div><span>Webonauts</span><img src="/go/media/show-thumbs/webonauts.png" alt="Webonauts" /></div></a></li>
+                    <li><a href="/wildkratts"><div><span>Wild Kratts</span><img src="/go/media/show-thumbs/wild-kratts.png" alt="Wild Kratts" /></div></a></li>
+                    <li><a href="/wilsonandditch/"><div><span>Wilson &amp; Ditch</span><img src="/go/media/show-thumbs/wilson-ditch.png" alt="Wilson &amp; Ditch" /></div></a></li>
+                    <li><a href="/wordgirl/"><div><span>WordGirl</span><img src="/go/media/show-thumbs/wordgirl.png" alt="WordGirl" /></div></a></li>
+                    <li><a href="/zoom/"><div><span>ZOOM</span><img src="/go/media/show-thumbs/zoom.png" alt="ZOOM" /></div></a></li>
+		    <li class="looking-for-more"><a href="/everything.html" title="Everything PBS KIDS"><div><mark>Looking for more?</mark></div></a></li>
+                </ul>
+                <span class="drawer-retract">Close Shows</span>
+            </div><!--/ .wrap -->
+        </div><!--/ .band-showdrawer -->
+
+	<div class="band band-showledge">
+    <div class="wrap">
+        <ul class="handpicked-shows c">
+            <li><a href="/wildkratts" title="Wild Kratts"><span>Wild Kratts</span><img src="/go/media/handpicked-shows/wild-kratts.png" alt="Wild Kratts" /></a></li>
+            <li><a href="/electriccompany/" title="The Electric Company"><span>The Electric Company</span><img src="/go/media/handpicked-shows/the-electric-company.png" alt="The Electric Company" /></a></li>
+            <li><a href="/wordgirl/" title="WordGirl"><span>WordGirl</span><img src="/go/media/handpicked-shows/wordgirl.png" alt="WordGirl" /></a></li>
+            <li><a href="/arthur/" title="Arthur"><span>Arthur</span><img src="/go/media/handpicked-shows/arthur.png" alt="Arthur" /></a></li>
+            <li><a href="/curiousgeorge" title="Curious George"><span>Curious George</span><img src="/go/media/handpicked-shows/curious-george.png" alt="Curious George" /></a></li>
+            <li><a href="/catinthehat" title="The Cat in the Hat"><span>The Cat in the Hat</span><img src="/go/media/handpicked-shows/the-cat-in-the-hat.png" alt="The Cat in the Hat" /></a></li>
+            <li><a href="/martha/" title="Martha Speaks"><span>Martha Speaks</span><img src="/go/media/handpicked-shows/martha-speaks.png" alt="Martha Speaks" /></a></li>
+            <li><a href="/fetch/" title="FETCH! with Ruff Ruffman"><span>FETCH! with Ruff Ruffman</span><img src="/go/media/handpicked-shows/fetch-with-ruff-ruffman.png" alt="FETCH! with Ruff Ruffman" /></a></li>
+            <li><a href="/webonauts" title="Webonauts"><span>Webonauts</span><img src="/go/media/handpicked-shows/webonauts.png" alt="Webonauts" /></a></li>
+            <li><a href="/cyberchase" title="Cyberchase"><span>Cyberchase</span><img src="/go/media/handpicked-shows/cyberchase.png" alt="Cyberchase" /></a></li>
+        </ul>
+    </div><!--/ .wrap -->
+</div><!--/ .band-showledge -->
 
 
+        <div class="band band-pagecontent">
+            <div class="wrap">
+
+                <div class="shelf shelf-splash c">
+										
+                    <section id="video" class="feature-video">
+                    	<div class="video-container">                            
+                        <div class="video-epilogue">
+                        	<a href="/go/video/?campaign=go_eyecatcher"><img src="media/video-epilogue.jpg" alt="Check out more videos!" /></a>
+                        </div><!--/ .video-epilogue -->
+                        <div class="video-no-flash">
+                        	<p id="no-flash-message">
+                          	<img src="styles/i/fizzy.png"/>
+                          Watch PBS KIDS GO! shows online. PBS KIDS GO! is the best place for kids like you to watch thousands of full episodes and clips from your favorite shows.  Watch Arthur, Fizzy's Lunch Lab, and WordGirl full episodes.  Explore animal videos with Wild Kratts and learn new vocabulary with educational videos from Martha Speaks.
+                          	<em>Get the full experience &amp; play games and watch videos.</em>
+                          </p>
+                        	<a href="https://get.adobe.com/flashplayer/" title="Download Adobe Flash">Download Flash Player</a>
+                        </div><!--/ .video-no-flash -->
+                        <img src="styles/i/arrowspin.gif" alt="loading..." class="loading-indicator"/>
+             						<video id="player" 
+      
+      controls="controls" 
+      preload="none"
+      
+      poster="https://image.pbs.org/video-assets/pbs-kids/chuck-vanderchuck/57993/images/Kids-Mezzannine-4x3_630.jpg.resize.480x360.jpg" 
+      
+      data-series-title     ="Chuck Vanderchuck"
+      data-series-url       ="/chuck/"
+      data-video-flash-src  ='{"url": "https://urs.pbs.org/redirect/f9b2c4fdb85444c2bdf9cf16fcaa07f8/", "length": 51000, "bitrate": null}'
+      data-video-ios-src    ="https://urs.pbs.org/redirect/1396dc1f21e24737899030516fe2d76e/"
+></video>
+<script type='text/javascript' >
+var eye_catcher_release = {"series_nola": "CHUV", "description": "...", "videos": {"ipad": {"url": "https://urs.pbs.org/redirect/1396dc1f21e24737899030516fe2d76e/", "length": 39000, "bitrate": null}, "flash": {"mp4-400k": {"url": "https://urs.pbs.org/redirect/358fc71347c74b43bc4e4763c6c7309b/", "bitrate": 400}, "length": 39000, "mp4-1200k": {"url": "https://urs.pbs.org/redirect/673e9191c5244600bc7e513572b2859f/", "bitrate": 1200}, "mp4-800k": {"url": "https://urs.pbs.org/redirect/4e8cf8652e434345bcc1ef0da7a7481a/", "bitrate": 800}}, "iphone": {"url": "https://urs.pbs.org/redirect/c9915aaba616424eb5280ba7f25466fb/", "length": 39000, "bitrate": null}}, "title": "Chuck Vanderchuck's Blues Explosion", "series_title": "Chuck Vanderchuck", "pid": "LKnAFey1aKG1SrnKWdmbtzeawXUYC_9h", "series_url": "/chuck/", "images": {"kids-mezzannine-16x9": {"url": "https://image.pbs.org/video-assets/pbs-kids/chuck-vanderchuck/57993/images/Kids-Mezzannine-16x9_836.jpg", "width": 1920, "height": 1080}, "googlethumbnail": {"url": "https://image.pbs.org/video-assets/pbs-kids/chuck-vanderchuck/57993/images/Kids-Mezzannine-16x9_836.jpg.resize.160x120.jpg", "width": 160, "height": 120}, "ipad_kidsgo": {"url": "https://image.pbs.org/video-assets/pbs-kids/chuck-vanderchuck/57993/images/Kids-Mezzannine-16x9_836.jpg.resize.80x45.jpg", "width": 80, "height": 45}, "originalres_16x9": {"url": "https://image.pbs.org/video-assets/pbs-kids/chuck-vanderchuck/57993/images/Kids-Mezzannine-16x9_836.jpg.resize.512x288.jpg", "width": 512, "height": 288}, "thumbnailkidsgodefault": {"url": "https://image.pbs.org/video-assets/pbs-kids/chuck-vanderchuck/57993/images/Kids-Mezzannine-4x3_630.jpg.resize.69x53.jpg", "width": 69, "height": 53}, "originalres_4x3": {"url": "https://image.pbs.org/video-assets/pbs-kids/chuck-vanderchuck/57993/images/Kids-Mezzannine-4x3_630.jpg.resize.480x360.jpg", "width": 480, "height": 360}, "kids-mezzannine-4x3": {"url": "https://image.pbs.org/video-assets/pbs-kids/chuck-vanderchuck/57993/images/Kids-Mezzannine-4x3_630.jpg", "width": 1440, "height": 1080}, "littlevideothumbnail": {"url": "https://image.pbs.org/video-assets/pbs-kids/chuck-vanderchuck/57993/images/Kids-Mezzannine-16x9_836.jpg.resize.160x90.jpg", "width": 160, "height": 90}, "covestackcard_kids": {"url": "https://image.pbs.org/video-assets/pbs-kids/chuck-vanderchuck/57993/images/Kids-Mezzannine-16x9_836.jpg.resize.454x255.jpg", "width": 454, "height": 255}}, "captions": {"sami": {"url": "https://pbs.merlin.cdn.prod.s3.amazonaws.com/Video%20Asset/pbs-kids/chuck-vanderchuck/57993/captions/10692_Caption-SAMI_CHUV_Blues_CO_FINAL.sami", "language": "en"}}, "guid": "884b2612-7125-4502-86ff-b54f6af6d24a", "type": "Clip"};
+</script>
 
 
+                  		</div><!--/ .video-container -->
+		  								
+                      <aside class="video-utilities" id="video-controls">
+                        <span class="play-pause"><b>Play/Pause</b></span>
+                        <span class="mute-unmute"><b>Mute/Unmute</b></span>
+                        <span class="toggle-captions"><b>CC On/Off</b></span>
+                        <a href="/go/video/?campaign=go_eyecatcher" title="See all PBS KIDS GO! videos">All Videos</a>
+                      </aside>
+                		</section><!--/ .feature-video -->
+
+		    <section class="newest-games">
+                        <nav class="newest-games-container">
+
+                            <span class="paginate paginate-left">Scroll Left</span>
+                            <span class="paginate paginate-right">Scroll Right</span>
+                            <ul class="newest-games-list c">
+			    <li>
+                                    <a href="/martha/games/marthursticker/index.html">
+                                        <p class="teaser"><mark>Marthur Stickerbook</mark><span>What happens when Martha meets Arthur?</span></p>
+                                        <img src="/go/images/programs/xlarge-martha-scrapbook.jpg" alt="Marthur Stickerbook" />
+                                    </a>
+                            </li>
+			    <li>
+                                    <a href="/wordgirl/games/misspower/">
+                                        <p class="teaser"><mark>Face Off</mark><span>Who will win?</span></p>
+                                        <img src="/go/images/programs/xlarge-wordgirl-faceoff.jpg" alt="Face Off" />
+                                    </a>
+                            </li>
+			    <li>
+                                    <a href="/wildkratts/games/webtastic/">
+                                        <p class="teaser"><mark>Webtastic!</mark><span>Be a spider and watch out for wasps!</span></p>
+                                        <img src="/go/images/programs/xlarge-wildkratts-webtastic.png" alt="Webtastic!" />
+                                    </a>
+                            </li>
+			    <li>
+                                    <a href="/chuck/costume.html">
+                                        <p class="teaser"><mark>Costume Box</mark><span>Dress Chuck for his latest music gig!</span></p>
+                                        <img src="/go/images/programs/xlarge-chuck-costume.jpg" alt="Costume Box" />
+                                    </a>
+                            </li>
+			    <li>
+                                    <a href="/arthur/games/lungdefender/">
+                                        <p class="teaser"><mark>Buster Baxter: Lung Defender</mark><span>Help Buster catch all of the asthma triggers</span></p>
+                                        <img src="/go/images/programs/xlarge-arthur-lung.jpg" alt="Buster Baxter: Lung Defender" />
+                                    </a>
+                            </li>
+			    <li>
+                                    <a href="/lunchlab/#/games/carnival-countoff">
+                                        <p class="teaser"><mark>Freddy&#39;s Carnival Count-off</mark><span>Compete against Fast Food Freddy!</span></p>
+                                        <img src="/go/images/programs/xlarge-lunchlab-countoff.jpg" alt="Freddy&#39;s Carnival Count-off" />
+                                    </a>
+                            </li>
+                            </ul>
+                        </nav>
+                        <aside class="newest-games-scroll">
+                            <div class="newest-games-scrolltrack" id="scrolltrack-a">
+                            </div>
+                        </aside>
+                    </section><!--/ .newest-games -->
+
+<ul>
 
 
+                </div><!--/ .shelf-splash -->
 
-
-<div id="flashcontent">
-	<div id="noflash">
-    	<div id="noflashcontent">
-    		<div id="noflashpadding">
-        		<div id="noflashlogo"><img src="/go/images/noflash-logo.gif" border="0" alt="PBS KIDS GO!" /></div>
-            
-				<div id="noflashtext">
-            	<!-- To be populated by the Admin Tool --------------------------------------->
-            		On PBS KIDS GO! kids like you can watch educational shows and play the best online <a href="/go/games/">games</a> for free. Explore science with <a href="/fetch/">FETCH! with Ruff Ruffman</a>, learn new words with <a href="/wordgirl/">WordGirl</a>, and play along with <a href="/electriccompany/">The Electric Company</a>.
-            	<!------------------------------------------------------------------------->
-            	</div>
-            	<br /><br />
-        	</div>
-			
-            <div id="large">To get the full experience and play online games and videos,</div>
-            
-        	<div id="bold">
-            	<div id="linkbold">
-                	<a href="http://get.adobe.com/flashplayer/" title="Adobe Flash Player">Download the free Flash player.</a>
+				<div class="small-promo">
+                	<!--<a href="/go/studio/"><span>Cartoon Studio: Create Your Own Cartoons</span></a>-->
+                
+                
+                
                 </div>
-            </div>
-            <div class="smallright">(version 9 or higher)</div>
-			<br /><br />
-  		</div>
-  
-		<div id="noflashnav">
-			<div id="noflashpadding">
-				<div><a href="/animalia/?campaign=noflash_animalia">Animalia</a></div>
-                <div><a href="/arthur/?campaign=noflash_arthur">Arthur</a></div>
-                <div><a href="/cyberchase/?campaign=noflash_cyberchase">Cyberchase</a></div>
-                <div><a href="/designsquad/?campaign=noflash_designsquad">Design Squad</a></div>
-                <div><a href="/dragonflytv/?campaign=noflash_dragonflytv">DragonflyTV</a></div>
-                <div><a href="/electriccompany/?campaign=noflash_electriccompany">The Electric Company</a></div>
-                <div><a href="/eekoworld/?campaign=noflash_eekoworld">EekoWorld</a></div>
-                <div><a href="/fetch/?campaign=noflash_fetch">Fetch!</a></div>
-        	<div><a href="/lunchlab/?campaign=noflash_lunchlab">Fizzy's Lunch Lab!</a></div>        
-                <div><a href="/meetthegreens/?campaign=noflash_thegreens">The Greens</a></div>
-                <div><a href="/itsmylife/?campaign=noflash_itsmylife">It's My Life</a></div>
-                <div><a href="/kws/?campaign=noflash_kws">Kids World Sports</a></div>
-                <div><a href="/krattscreatures/?campaign=noflash_krattscreatures">Kratts' Creatures</a></div>
-                <div><a href="/mayaandmiguel/?campaign=noflash_mayaandmiguel">Maya &amp; Miguel</a></div>
-                <div><a href="/buster/?campaign=noflash_buster">Postcards from Buster</a></div>
-                <div><a href="/scigirls/">Sci Girls</a></div>
-                <div><a href="/wordgirl/">WordGirl</a></div>
-                <div><a href="/zoom/?campaign=noflash_zoom">ZOOM</a></div>
-                <div><a href="/go/allshows/?campaign=go_shows">More &raquo;</a></div>
-                <div><a href="/go/2.0/">Go to "GO 2.0" Website &raquo;</a></div>
-			</div>
-		</div> 
-	</div>  
-</div>
+
+		    <div class="shelf shelf-featgames">
+                    <h3>Featured Games</h3>
+                    <section class="featured-games-framing">
+
+                        <span class="paginate paginate-left">Scroll Left</span>
+                        <span class="paginate paginate-right">Scroll Right</span>
+
+                        <div class="featured-games-repository">
+                            <div class="featured-games-panes c">
+                                <ul class="c">
+                                    <li><a href="/wildkratts/games/snakegame/"><img src="/go/images/programs/medium-wildkratts-rattlesnake.jpg" alt="Slither Run" /></a></li>
+				     
+				    
+                                    <li><a href="/arthur/games/supermarket/"><img src="/go/images/programs/medium-arthur-supermarket.gif" alt="Supermarket Adventure" /></a></li>
+				     
+				    
+                                    <li><a href="/itsmylife/games/tough_crush_canyon.html"><img src="/go/images/programs/medium-itsmylife-toughcrushcanyon.gif" alt="Tough Crush Canyon" /></a></li>
+				     
+				    
+                                    <li><a href="/arthur/clubs/fashion/index.html"><img src="/go/images/programs/medium-arthur-fashion.gif" alt="Fashion Club" /></a></li>
+				     
+				    
+                                    <li><a href="/martha/games/marthursticker/index.html"><img src="/go/images/programs/medium-martha-scrapbook.jpg" alt="Marthur Stickerbook" /></a></li>
+				     
+				    
+                                    <li><a href="/designsquad/projects/"><img src="/go/images/programs/medium-designsquad-sharestickers.jpg" alt="Design Squad Share" /></a></li>
+				     
+				    
+                                    <li><a href="/lunchlab/?level=2#/games/escape-from-greasy-world"><img src="/go/images/programs/medium-lunchlab-escapeL2.jpg" alt="Freezer Burn Snack Sort" /></a></li>
+				     
+				    
+                                    <li><a href="/wildkratts/games/going-batty/"><img src="/go/images/programs/medium-wildkratts-goingBatty.jpg" alt="Go Batty!" /></a></li>
+				     
+				    
+                                    <li><a href="/electriccompany/#/games/chain"><img src="/go/images/programs/medium-electriccompany-chain.jpg" alt="Chain Game" /></a></li>
+				     
+				    
+                                    <li><a href="/electriccompany/#/games/tnes"><img src="/go/images/programs/medium-tec-tnecs.jpg" alt="Next Electric Company Star" /></a></li>
+				     
+				    
+                                    <li><a href="/cyberchase/games/hardproblems/"><img src="/go/images/programs/medium-cyberchase-pourtoscore.gif" alt="Pour to Score" /></a></li>
+				     
+				    
+                                    <li><a href="/cyberchase/games/functions/"><img src="/go/images/programs/medium-cyberchase-stopcreatures.gif" alt="Stop that Creature" /></a></li>
+				    </ul>
+				    <ul class="c"> 
+				    
+                                    <li><a href="/arthur/games/moviemaker/"><img src="/go/images/programs/medium-arthur-bustersmoviemaker.gif" alt="Movie Maker" /></a></li>
+				     
+				    
+                                    <li><a href="/lunchlab/games/food-camp"><img src="/go/images/programs/medium-lunchlab-foodCamp.jpg" alt="Corporal Cup&#39;s Food Camp" /></a></li>
+				     
+				    
+                                    <li><a href="/fetch/games/luge/index.html"><img src="/go/images/programs/medium-fetch-lugeit.jpg" alt="Move it or Luge it!" /></a></li>
+				     
+				    
+                                    <li><a href="/arthur/games/dontwakekate/index.html"><img src="/go/images/programs/medium-arthur-dontwakekate.gif" alt="Don&#39;t Wake Kate!" /></a></li>
+				     
+				    
+                                    <li><a href="/martha/games/funnyphotos/index.html"><img src="/go/images/programs/medium-martha-funnyphotos.jpg" alt="Funny Photos" /></a></li>
+				     
+				    
+                                    <li><a href="/mayaandmiguel/english/games/sketch/index.html"><img src="/go/images/programs/medium-mayaandmiguel-sketch.gif" alt="Miguel&#39;s Sketchpad" /></a></li>
+				     
+				    
+                                    <li><a href="/wordgirl/games/chucksandwich/"><img src="/go/images/programs/medium-wordgirl-chuckExtreme.jpg" alt="Chuck&#39;s Extreme Sandwich Crusher" /></a></li>
+				     
+				    
+                                    <li><a href="/itsmylife/games/middleschool_flash.html"><img src="/go/images/programs/medium-itsmylife-middleschool.gif" alt="School Daze, Crazy Maze" /></a></li>
+				     
+				    
+                                    <li><a href="/chuck/index2.html#/rock/sounds/"><img src="/go/images/programs/medium-chuck-rockWhatsoundslikewhat.jpg" alt="What Sounds Like What: Rock" /></a></li>
+				     
+				    
+                                    <li><a href="/lunchlab/#/games/tour"><img src="/go/images/programs/medium-lunchlab-kitchentour.jpg" alt="Kitchen Tour with Mixie" /></a></li>
+				     
+				    
+                                    <li><a href="/fetch/games/germinator/index.html"><img src="/go/images/programs/medium-fetch-germinator.gif" alt="Germinator" /></a></li>
+				     
+				    
+                                    <li><a href="/arthur/games/groovygarden/index.html"><img src="/go/images/programs/medium-arthur-groovyGarden.gif" alt="Groovy Garden" /></a></li>
+				     
+				    </ul>
+				    <ul class="c">
+                                    <li><a href="/lunchlab/?level=5#/games/escape-from-greasy-world"><img src="/go/images/programs/medium-lunchlab-escapeL5.jpg" alt="Crane Game" /></a></li>
+				     
+				    
+                                    <li><a href="/electriccompany/#/games/combo"><img src="/go/images/programs/medium-electriccompany-combo.jpg" alt="Combotronic" /></a></li>
+				     
+				    
+                                    <li><a href="/fetch/games/dogpound_03/index.html"><img src="/go/images/programs/medium-fetch-dogpound3.jpg" alt="Dog Pound 3" /></a></li>
+				     
+				    
+                                    <li><a href="/dragonflytv/games/flashsniffer_dogbreeding.html"><img src="/go/images/programs/medium-dragonflytv-dogbreeding.gif" alt="Dog Breeding" /></a></li>
+				     
+				    
+                                    <li><a href="/fetch/games/dogpound/index.html"><img src="/go/images/programs/medium-fetch-dogpound.jpg" alt="Dog Pound" /></a></li>
+				     
+				    
+                                    <li><a href="/cyberchase/math-games/buzz-and-delete-save-day/#PerfectamundoFlowersGame"><img src="/go/images/programs/medium-cyberchase-tallyup.jpg" alt="Tally Up" /></a></li>
+				     
+				    
+                                    <li><a href="/arthur/games/virtualgoose/index.html"><img src="/go/images/programs/medium-arthur-virtualgoose.gif" alt="Virtual Goose" /></a></li>
+				     
+				    
+                                    <li><a href="/wildkratts/games/aardvark-town/"><img src="/go/images/programs/medium-wildkratts-aardvarktown.png" alt="Aardvark Town" /></a></li>
+				     
+				    
+                                    <li><a href="/mayaandmiguel/english/games/scrapbook/index.html"><img src="/go/images/programs/medium-mayaandmiguel-scrapbook.gif" alt="Adventure Scrapbook" /></a></li>
+				     
+				    
+                                    <li><a href="/lunchlab/games/sneaky-switcheroo"><img src="/go/images/programs/medium-lunchlab-switcheroo.jpg" alt="Freddy&#39;s Sneaky Switcheroo" /></a></li>
+				     
+				    
+                                    <li><a href="/lunchlab/?level=6#/games/escape-from-greasy-world"><img src="/go/images/programs/medium-lunchlab-escapeL6.jpg" alt="Freddy&#39;s Carnival Games" /></a></li>
+				     
+				    
+                                    <li><a href="/itsmylife/games/rumorcontrol.html"><img src="/go/images/programs/medium-itsmylife-rumorctrl.gif" alt="Rumor Control" /></a></li>
+				     
+				     
+				</ul>
+                            </div>  
+                        </div>
+                    </section>
+                    <footer class="featured-games-utilities c">
+                        <div class="featured-games-scroll" id="scrolltrack-b">
+                        </div>
+                        <aside class="featured-allgames">
+                            <a  href="games/">All Games</a>
+                        </aside	>
+                    </footer>
+</div><!--/ .shelf-featgames -->
+
+		
+		
+
+                <div class="shelf shelf-promos c">
+                    <aside class="go-promo go-promo-primary">
+                        <a href="/go/secretbox/" title="Secret Box">
+                        <em>PBS KIDS GO! Secret Box</em>
+                        </a>
+                    </aside>
+                    <aside class="go-promo go-promo-secondary">
+                        <a href="/go/studio/" title="Cartoon Studio">
+                        	<em>Cartoon Studio: Create Your Own Cartoons</em>
+                        <figure id="swap_out">
+                        <img class="active" src="styles/i/cartoon-studio-redhead.png" alt="" width="76" height="160" />
+                        <img src="styles/i/cartoon-studio-arthurgirl.png" alt="" width="82" height="160" />
+                        <img src="styles/i/cartoon-studio-pinkhair.png" alt="" width="80" height="160" />
+                        <img src="styles/i/cartoon-studio-arthurboy.png" alt="" width="72" height="160" />
+                        <img src="styles/i/cartoon-studio-blackhair.png" alt="" width="89" height="160" />
+                        </figure>
+                            </a>
+                        
+                    </aside>
+                </div><!--/ .shelf-promos -->
+
+            </div><!--/ .wrap -->
+        </div><!--/ .band-pagecontent -->
+
+        <div class="band band-concierge">
+            <div class="wrap c">
+
+                <article class="column column-newest-videos">
+                    <h3><span>Newest Videos</span></h3>
+                    <ul>
+		        
+                        <li>  
+                            <a href="/go/video/?guid=21c21c3f-a5e6-4e7d-add5-c3ece4592b58">
+                                <figure><img src="https://image.pbs.org/video-assets/pbs-kids/martha-speaks/61122/images/Kids-Mezzannine-4x3_805.jpg.resize.69x53.jpg" alt="Super Duper Hot" /></figure>
+                                <p>
+                                    <mark>Martha Speaks</mark>
+                                    <span>Super Duper Hot</span>
+                                </p>
+                            </a>
+                        </li>
+		        
+                        <li>  
+                            <a href="/go/video/?guid=7041606d-b379-4a58-8108-c2f9d6be46bb">
+                                <figure><img src="https://image.pbs.org/video-assets/pbs-kids/fetch-with-ruff-ruffman/60420/images/Kids-Mezzannine-4x3_308.jpg.resize.69x53.jpg" alt="Detective&#39;s In Training" /></figure>
+                                <p>
+                                    <mark>FETCH! with Ruff Ruffman</mark>
+                                    <span>Detective&#39;s In Training</span>
+                                </p>
+                            </a>
+                        </li>
+		        
+                        <li>  
+                            <a href="/go/video/?guid=e30758ea-3576-48d5-8523-fb043e5a3b3f">
+                                <figure><img src="https://image.pbs.org/video-assets/pbs-kids/design-squad-nation/75226/images/Kids-Mezzannine-4x3_662.jpg.resize.69x53.jpg" alt="Balloon Joust" /></figure>
+                                <p>
+                                    <mark>Design Squad</mark>
+                                    <span>Balloon Joust</span>
+                                </p>
+                            </a>
+                        </li>
+		        
+                        <li>  
+                            <a href="/go/video/?guid=0add78ea-02d4-460b-9051-0ac9c75203fe">
+                                <figure><img src="https://image.pbs.org/video-assets/pbs-kids/arthur/57508/images/Kids-Mezzannine-4x3_268.jpg.resize.69x53.jpg" alt="Lakewood Derby" /></figure>
+                                <p>
+                                    <mark>Arthur</mark>
+                                    <span>Lakewood Derby</span>
+                                </p>
+                            </a>
+                        </li>
+		        
+                        <li>  
+                            <a href="/go/video/?guid=afb9747d-b6f1-41e5-a67d-4526c05d9e67">
+                                <figure><img src="https://image.pbs.org/video-assets/pbs-kids/martha-speaks/61000/images/Kids-Mezzannine-4x3_041.jpg.resize.69x53.jpg" alt="Jeffy&#39;s Innocent!" /></figure>
+                                <p>
+                                    <mark>Martha Speaks</mark>
+                                    <span>Jeffy&#39;s Innocent!</span>
+                                </p>
+                            </a>
+                        </li>
+			</ul>
+                     <footer class="jettison">
+                        <a href="/go/video/">See all videos</a>
+                    </footer>
+</article>
+			    
+
+                <article class="column column-popular-games">
+                    <h3><span>Popular Default Games</span></h3>
+                    <ul>
+                        <li>
+                            <a href="/wildkratts/games/snakegame/">
+                            <mark>Slither Run</mark>
+			    <span>Wild Kratts</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/wildkratts/games/roundup/">
+                            <mark>Creature Round-up</mark>
+			    <span>Wild Kratts</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/wildkratts/games/go-cheetah-go/">
+                            <mark>Go Cheetah Go</mark>
+			    <span>Wild Kratts</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/electriccompany/pranksterplanet/">
+                            <mark>Prankster Planet</mark>
+			    <span>The Electric Company</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/wildkratts/habitats/desert/">
+                            <mark>Sonoran Desert</mark>
+			    <span>Wild Kratts</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/electriccompany/pranksterplanet/part2/">
+                            <mark>Prankster Planet: Reverse-A-ball</mark>
+			    <span>The Electric Company</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/wildkratts/games/caracal-leap/">
+                            <mark>Caracal Leap</mark>
+			    <span>Wild Kratts</span>
+                            </a>
+                        </li>
+		    </ul>
+                    <footer class="jettison">
+		            <a href="/go/games/">See all games</a>
+                    </footer>
+</article>
+
+		
+
+                <article class="column column-game-topics">
+                    <h3><span>Game Topics</span></h3>
+                    <ul>
+                        <li><a href="games/#adventure" title="Adventure games">Adventure</a></li>
+                        <li><a href="games/#animals" title="Animal games">Animals</a></li>
+                        <li><a href="games/#create" title="Creative games">Create</a></li>
+                        <li><a href="games/#dress-up" title="Dress Up games">Dress Up</a></li>
+                        <li><a href="games/#machines" title="Machine games">Machines</a></li>
+                        <li><a href="games/#matching" title="Matching games">Matching</a></li>
+                        <li><a href="games/#math" title="Math games">Math</a></li>
+                        <li><a href="games/#music" title="Music games">Music</a></li>
+                        <li><a href="games/#mystery" title="Mystery games">Mystery</a></li>
+                        <li><a href="games/#puzzles" title="Puzzle games">Puzzles</a></li>
+                        <li><a href="games/#quiz" title="Quiz games">Quiz</a></li>
+                        <li><a href="games/#science" title="Science games">Science</a></li>
+                        <li><a href="games/#sports" title="Sports games">Sports</a></li>
+                        <li><a href="games/#words" title="Word games">Words</a></li>
+                    </ul>
+                </article>
 
 
-<script type="text/javascript">
-   var fo = new SWFObject("/go/swfs/home.swf?v=2", "flashpage", "935", "550", "8", "#8CAC26");
-	fo.addParam("wmode", "opaque");
-	fo.addParam("allowScriptAccess", "always");
-	PBS_enable_cdn(fo);
-   fo.write("flashcontent");
-</script>
-<div id="login">
-	<div id="containerlogin"><a href="/go/apps/auth/prompt/"><img src="images/home-login.gif" border="0" alt="Login now!"/></a></div>
-
-    <div id="containernav">
-    <a href="/tvschedules?campaign=button_tvtimes" class="menuimage"><img src="images/home-button-tvtimes.gif" alt="TV Times" border="0"/></a><a href="/go/allshows?campaign=button_search" class="menuimage"><img src="images/home-button-search.gif" alt="Search"  border="0"/></a><a href="/help?campaign=button_help" class="menuimage"><img src="images/home-button-help.gif" alt="Help" border="0"/></a>
-    </div>
-</div>
-
-<div id="footer">
-
-    <div id="containerstation">
-        
-    </div>
-    
-        <div id="containercpb">
-        <div id="cpbheader">Funded by:</div>
-        <img src="images/logo-cpb.gif" border="0" alt="CPB">
-    </div>
-    
-        <div id="containerdrop">
-            <div id="showlist"><form name="tochoice" method=post action="/perl/redirect">
-            <select name=selected>
-                <option value="/everything.html">Everything PBS KIDS</option>
-	<option value="/africa/">Africa for Kids</option>
-	<option value="/aaworld/">African American World for Kids</option>
-	<option value="/wayback/">American Experience: WayBack</option>	
-        <option value="/arthur/">Arthur</option>
-        <option value="/barney/">Barney</option>
-	<option value="/berenstainbears/">Berenstain Bears</option>
-        <option value="/lions/">Between the Lions</option>
-	<option value="/bigapplehistory/">Big Apple History</option>
-        <option value="/boohbah/">Boohbah</option>
-	<option value="/caillou/">Caillou</option>
-        <option value="/chuck/">Chuck Vanderchuck</option>
-	<option value="/clifford/">Clifford the Big Red Dog</option>
-	<option value="/curiousgeorge/">Curious George</option>
-	<option value="/cyberchase/">Cyberchase</option>
-	<option value="/democracy/">Democracy Project</option>
-	<option value="/designsquad/">Design Squad</option>
-	<option value="/dinosaurtrain/">Dinosaur Train</option>
-	<option value="/dontbuyit">Don&rsquo;t Buy It</option>
-	<option value="/dragonflytv/">DragonflyTV</option>
-	<option value="/eekoworld/">EekoWorld</option>
-	<option value="/electriccompany/">The Electric Company</option>        
-        <option value="/fetch/">Fetch!</option>
-        <option value="/lunchlab/">Fizzy&rsquo;s Lunch Lab</option>
-	<option value="/frannysfeet/">Franny's Feet</option>
-        <option value="/georgeshrinks/">George Shrinks</option>
-	<option value="/meetthegreens/">The Greens</option>
-	<option value="/historydetectives">History Detectives</option>
-	<option value="/bigbigworld">It&rsquo;s a Big Big World</option>
-	<option value="/itsmylife">It&rsquo;s My Life</option>
-	<option value="/jayjay/">Jay Jay The Jet Plane</option>
-	<option value="/jazz/">Jazz</option>
-	<option value="/kws">Kids World Sports</option>
-	<option value="/krattscreatures/">Kratts&rsquo; Creatures</option>
-	<option value="/lifeboat/">Lifeboat to Mars</option>
-	<option value="/lomax/">Lomax</option>
-	<option value="/noddy/">Make Way for Noddy</option>
-	<option value="/mamamirabelle/">Mama Mirabelle</option>
-	<option value="/martha/">Martha Speaks</option>
-	<option value="/mayaandmiguel/">Maya &amp; Miguel</option>
-        <option value="/noah/">Noah Comprende</option>
-        <option value="/rogers/">Mister Rogers' Neighborhood</option>
-	<option value="/stantonanthony/">Not For Ourselves Alone</option>
-	<option value="/buster/">Postcards from Buster</option>
-	<option value="/sagwa/">Sagwa The Chinese Siamese Cat</option>
-        <option value="/scigirls/">SciGirls</option>
-        <option value="/sesame/">Sesame Street</option>
-	<option value="/sid/">Sid the Science Kid</option>
-	<option value="/superwhy/">Super Why!</option>
-	<option value="/teletubbies/">Teletubbies</option>
-        <option value="/wildkratts">Wild Kratts</option>
-	<option value="/wilsonandditch">Wilson &amp; Ditch Digging America</option>
-	<option value="/wordgirl">WordGirl</option>
-	<option value="/wonders/Kids/kids.htm">Wonders of the African World</option>
-	<option value="/wordworld/">WordWorld</option>
-	<option value="/zoboo/">Zoboomafoo</option>
-        <option value="/zoom/">ZOOM</option>
-	<option value="">
-	<option value="/">PBS KIDS
-	<option value="/">PBS KIDS GO!
-
-            </select>
-            <input type="image" src="/go/images/home-button-go.gif" alt="Go" border="0"></td>
-            </form></div>
-        </div>
-</div>
-
-<div id="fineprint"><a href="http://pbs.org/parents">PARENTS</a> | <a href="http://pbs.org/teachers">TEACHERS</a> | <a href="/privacy/">Privacy Policy</a> | <a href="/privacy/termsofuse.html">Terms of Use</a> | <a href="http://pbs.org">pbs.org</a> © 1995-2011</div>
-
-<!-- PBS KIDS Auth Scripts -->
-<script type="text/javascript" src="/includes/javascript/sites/shell/go.js"></script>
+                <article class="column column-tv-times">
+                    <div class="content">
+                        <img src="media/tv-times.png" alt="See TV times" />
+                    </div>
+                    <footer>
+                        <a href="/tvschedules/"><span>Find Your Station</span></a>
+                    </footer>
+                </article>
 
 
-<!-- CAMPAIGN CODE -->
-<script type='text/javascript'>
-// Conversion Name: GO Homepage
-var ebRand = Math.random()+'';
-ebRand = ebRand * 1000000;
-//<![CDATA[ 
-document.write('<scr'+'ipt src="HTTPS://bs.serving-sys.com/BurstingPipe/ActivityServer.bs?cn=as&amp;ActivityID=103601&amp;rnd=' + ebRand + '"></scr' + 'ipt>');
-//]]>
-</script>
-<noscript>
-<img width="1" height="1" style="border:0" src="HTTPS://bs.serving-sys.com/BurstingPipe/ActivityServer.bs?cn=as&amp;ActivityID=103601&amp;ns=1"/>
-</noscript>
+
+            </div><!--/ .wrap -->
+        </div><!--/ .band-concierge -->
 
 
+        <div class="band band-footer">
+            <div class="wrap">
+                <aside class="acknowledgements c">
+                    <div class="acknowledgement-block">
+                        <h4>Funded by:</h4>
+                        <figure class="funded-by">
+                            <a href="https://cpb.org" title="Corporation for Public Broadcasting" rel="external">
+                            <img src="media/cpb-logo.png" alt="Corporation for Public Broadcasting logo" />
+                            </a>
+                        </figure>
+                    </div>
+
+                    <!-- LOCALIZATION STUFF - BEGIN -->				
+    					
+    				<!-- LOCALIZATION STUFF - END -->
+
+                </aside>
+                <footer class="appendix c">
+                    <nav class="jumps">
+                        <ul class="c">
+                            <li class="parents"><a href="https://www.pbs.org/parents/" title="PBS Parents" rel="external">Parents</a></li>
+                            <li class="teachers"><a href="https://www.pbslearningmedia.org/" title="PBS Learning Media" rel="external">Teachers</a></li>
+                            <li class="mobileapps"><a href="/mobile" title="PBS KIDS Mobile Apps">Mobile Apps</a></li>
+                            <li class="shop"><a href="https://shop.pbskids.org/" title="Shop PBS KIDS" rel="external">Shop</a></li>
+                            <li class="search"><a href="/findit/index.html" title="Search PBS KIDS">Search</a></li>
+                            <li class="help"><a href="/help/" title="Questions and answers about PBS KIDS">Help</a></li>
+                        </ul>
+                    </nav>
+                    <aside class="legal">
+                        <ul>
+                            <li><a href="/privacy/index.html" title="PBS KIDS Privacy Policy">Privacy Policy</a></li>
+                            <li><a href="/privacy/termsofuse.html" title="PBS KIDS Terms of Use">Terms of Use</a></li>
+                            <li><a href="https://pbs.org" title="PBS" rel="external">pbs.org</a></li>
+                            <li class="copyright">&copy; 1995&ndash;2012</li>
+                        </ul>
+                    </aside>
+                </footer><!--/ appendix -->
+            </div><!--/ .wrap -->
+        </div><!--/ .band-footer -->
+
+
+
+
+</div><!--/ .page-interior -->
+</div><!--/ .ephemera-shadows -->
 </body>
 </html>
