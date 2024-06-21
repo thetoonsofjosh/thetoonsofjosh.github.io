@@ -1,0 +1,81 @@
+TD {
+	FONT-SIZE: 12px; COLOR: #003300; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+TH {
+	FONT-SIZE: 12px; COLOR: #003300; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+A {
+	FONT-WEIGHT: bold; COLOR: #003300; FONT-STYLE: normal
+}
+A.small {
+	FONT-SIZE: 10px
+}
+A.white {
+	FONT-WEIGHT: normal; COLOR: #000000
+}
+A.green {
+	FONT-WEIGHT: normal
+}
+DIV {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+BLOCKQUOTE.learn {
+	MARGIN-LEFT: 25px
+}
+DIV.left {
+	FONT-SIZE: 12px; TEXT-ALIGN: left
+}
+DIV.right {
+	FONT-SIZE: 12px; TEXT-ALIGN: right
+}
+DIV.white {
+	COLOR: #000000
+}
+DIV.pink {
+	COLOR: #ff9999
+}
+DIV.learn {
+	FONT-SIZE: 12px; MARGIN-LEFT: 20px; COLOR: #000000
+}
+BLOCKQUOTE {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-ALIGN: justify
+}
+BLOCKQUOTE.left {
+	TEXT-ALIGN: left
+}
+BLOCKQUOTE.right {
+	TEXT-ALIGN: right
+}
+BLOCKQUOTE.center {
+	TEXT-ALIGN: center
+}
+BLOCKQUOTE.extranav {
+	FONT-SIZE: 10px
+}
+B {
+	FONT-WEIGHT: bold
+}
+B.white {
+	COLOR: #006699
+}
+B.heading {
+	FONT-SIZE: 16px; TEXT-ALIGN: center
+}
+B.sub {
+	FONT-SIZE: 14px
+}
+DFN {
+	MARGIN-LEFT: 20px; FONT-STYLE: italic
+}
+TT {
+	MARGIN-LEFT: 20px
+}
+BODY {
+	BACKGROUND-COLOR: yellow
+}
+BODY.white {
+	BACKGROUND-COLOR: white
+}
+IMG.interactive {
+	cursor:pointer;
+}
