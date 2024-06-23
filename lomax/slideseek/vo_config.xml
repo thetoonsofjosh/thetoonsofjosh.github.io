@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<vos path='slideseek/vo/'>
+   <vo loc='back'>Lom.002alt.mp3</vo>
+   <vo loc='play'>Lom.017.mp3</vo>
+   <vo loc='correct'>Lom.084.mp3</vo>
+   <vo loc='correct'>Lom.085.mp3</vo>
+   <vo loc='correct'>Lom.086.mp3</vo>
+   <vo loc='correct'>Lom.087.mp3</vo>
+   <vo loc='incorrect'>Lom.088.mp3</vo>
+   <vo loc='incorrect'>Lom.090.mp3</vo>
+   <vo loc='incorrect'>Lom.091.mp3</vo>
+   <vo loc='congrats'>Lom.097.mp3</vo>
+   <vo loc='instr1'>Lom.102.mp3</vo>
+   <vo loc='welcome'>Lom.103alt.mp3</vo>
+   <vo loc='instr2'>Lom.105.mp3</vo>
+   <vo loc='instr3'>Lom.106.mp3</vo>
+   <vo loc='correct'>Lom.107.mp3</vo>
+   <vo loc='incorrect'>Lom.111.mp3</vo>
+   <vo loc='instructions'>Lom.113.mp3</vo>
+</vos>
