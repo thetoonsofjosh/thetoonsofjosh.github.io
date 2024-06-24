@@ -1,0 +1,1 @@
+{"buttons_color": "#f45200", "shop_url": "http://danieltiger.shop.pbskids.org/?utm_source=brandsite&utm_medium=portalnav&utm_campaign=pbskidsnav", "go_login": true, "brand": "preschool", "destination": "", "reload": true, "parents_url": "http://www.pbs.org/parents/daniel", "shop_partner": true, "learning_goals": "", "teachers_url": "http://pbs.org/teachers/daniel"}
