@@ -3,21 +3,21 @@
 <featurebubbles>
 
 <bubble size="large">
-<name>Dinosaur Train</name>
-<image>home/images/bubbles/large/dinosaurtrain-buddy-green.jpg</image>
-<url>/dinosaurtrain/</url>
+<name>Daniel Tiger's Neighborhood</name>
+<image>home/images/bubbles/large/daniel-waving-orange.jpg</image>
+<url>/daniel/</url>
 </bubble>
 
 <bubble size="small">
-<name>Curious George</name>
-<image>home/images/bubbles/small/curiousgeorge-happy-yellow.jpg</image>
-<url>/curiousgeorge</url>
+<name>The Cat in the Hat</name>
+<image>home/images/bubbles/small/catinthehat-cat-green.jpg</image>
+<url>/catinthehat/</url>
 </bubble>
 
 <bubble size="large">
-<name>Peg + Cat</name>
-<image>home/images/bubbles/large/peg-rockOut-blue.jpg</image>
-<url>/peg</url>
+<name>Super Why</name>
+<image>superwhy-princess-pink.jpg</image>
+<url>/superwhy/</url>
 </bubble>
 
 </featurebubbles>
