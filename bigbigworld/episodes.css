@@ -1,0 +1,111 @@
+.textGreen {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #607D02;
+	text-decoration: none;
+}
+.textGreen2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #334300;
+	text-decoration: none;
+}
+a:hover.textGreen {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #607D02;
+	text-decoration: underline;
+}
+
+.background {
+	background-color: #FFA300;
+}
+
+.bg_trees {
+	background-image: url(parentsteachers/images/common/bg_trees.jpg);
+	background-repeat: repeat-x;
+	width: 100%;
+	background-position: 0 -21px;
+}
+
+.frame_top {
+	background-image: url(parentsteachers/images/common/frame_top.gif);
+	background-repeat: no-repeat;
+	width: 661px;
+	height: 27px;
+}
+
+.frame_side {
+	background-image: url(parentsteachers/images/common/frame_side.gif);
+	background-repeat: repeat-y;
+	width: 5px;
+}
+
+.frame_content {
+	background-color: #FBFDB5;
+	width: 611px;
+}
+
+.frame_bottom_left {
+	background-image: url(parentsteachers/images/common/frame_bottomleft.gif);
+	background-repeat: no-repeat;
+	width: 48px;
+	height: 51px;
+}
+
+.frame_bottom {
+	background-image: url(parentsteachers/images/common/frame_bottom.gif);
+	background-repeat: repeat-x;
+	width: 565px;
+	height: 51px;
+}
+
+.frame_bottom_right {
+	background-image: url(parentsteachers/images/common/frame_bottomright.gif);
+	background-repeat: no-repeat;
+	width: 48px;
+	height: 51px;
+}
+
+.frame_shadow_left {
+	background-image: url(parentsteachers/images/common/frame_shadow_left.gif);
+	background-repeat: repeat-y;
+	width: 20px;
+}
+
+.frame_shadow_bottom {
+	background-image: url(parentsteachers/images/common/frame_shadow_bottom.gif);
+	background-repeat: repeat-y;
+	height: 10px;
+	width: 661px;
+}
+
+.footer_link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFE037;
+	text-decoration: none;
+}
+
+a:hover.footer_link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFE037;
+	text-decoration: underline;
+}
+.textBody{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #4B4D4B;
+	text-align: justify;
+}
+.textTitle{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FF9000;
+}

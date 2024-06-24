@@ -1,0 +1,55 @@
+body {
+	background-image: url(img/background.jpg);
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+.text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFBF33;
+	text-decoration: none;
+}
+
+a:hover.text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFBF33;
+	text-decoration: underline;
+}
+
+.textwhite {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:hover.textwhite {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+.footer_link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FDD413;
+	text-decoration: none;
+}
+
+a:hover.footer_link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FDD413;
+	text-decoration: underline;
+}

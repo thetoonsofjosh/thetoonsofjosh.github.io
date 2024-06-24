@@ -1,0 +1,71 @@
+
+.textwhite {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:hover.textwhite {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+.footer_link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFE037;
+	text-decoration: none;
+}
+
+a:hover.footer_link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFE037;
+	text-decoration: underline;
+}
+
+.textCharacters{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+
+.textCharacters13{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+
+
+.textCharactersCapital{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 48px;
+	font-weight: normal;
+	color: #ECF14A;
+}
+
+
+a:hover.textwhite {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+.body_noflash {
+	background-image: url(img/background.jpg);
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}

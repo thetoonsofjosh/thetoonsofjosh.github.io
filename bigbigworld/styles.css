@@ -1,0 +1,624 @@
+.text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFBF33;
+	text-decoration: none;
+}
+
+a:hover.text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFBF33;
+	text-decoration: underline;
+}
+
+.textOrange {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFBF33;
+	text-decoration: none;
+}
+
+a:hover.textOrange {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFBF33;
+	text-decoration: underline;
+}
+
+.text2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #FFBF33;
+	text-decoration: none;
+}
+
+a:hover.text2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #FFBF33;
+	text-decoration: underline;
+}
+
+.textGreen {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #607D02;
+	text-decoration: none;
+}
+a:hover.textGreen {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #607D02;
+	text-decoration: underline;
+}
+
+.textGreen2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #334300;
+	text-decoration: none;
+}
+
+.textwhite {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:hover.textwhite {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+.tableborder {
+	border: 1px solid #FFFFFF;
+}
+
+.text_error{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: Black;
+	text-decoration: none;
+}
+
+.background {
+	background-color: #FFA300;
+}
+
+.bg_trees {
+	background-image: url(parentsteachers/images/common/bg_trees.jpg);
+	background-repeat: repeat-x;
+	width: 100%;
+	background-position: 0 -21px;
+}
+
+.frame_top {
+	background-image: url(parentsteachers/images/common/frame_top.gif);
+	background-repeat: no-repeat;
+	width: 661px;
+	height: 27px;
+}
+
+.frame_side {
+	background-image: url(parentsteachers/images/common/frame_side.gif);
+	background-repeat: repeat-y;
+	width: 5px;
+}
+
+.frame_content {
+	background-color: #FBFDB5;
+	width: 611px;
+}
+
+.frame_bottom_left {
+	background-image: url(parentsteachers/images/common/frame_bottomleft.gif);
+	background-repeat: no-repeat;
+	width: 48px;
+	height: 51px;
+}
+
+.frame_bottom {
+	background-image: url(parentsteachers/images/common/frame_bottom.gif);
+	background-repeat: repeat-x;
+	width: 565px;
+	height: 51px;
+}
+
+.frame_bottom_right {
+	background-image: url(parentsteachers/images/common/frame_bottomright.gif);
+	background-repeat: no-repeat;
+	width: 48px;
+	height: 51px;
+}
+
+.frame_shadow_left {
+	background-image: url(parentsteachers/images/common/frame_shadow_left.gif);
+	background-repeat: repeat-y;
+	width: 20px;
+}
+
+.frame_shadow_bottom {
+	background-image: url(parentsteachers/images/common/frame_shadow_bottom.gif);
+	background-repeat: repeat-y;
+	height: 10px;
+	width: 661px;
+}
+
+.footer {
+	font-family: Arial, Helvetica, sans-serif;
+	color: White;
+	font-size: 11px;
+}
+
+.footer_link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFE037;
+	text-decoration: none;
+}
+
+a:hover.footer_link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFE037;
+	text-decoration: underline;
+}
+
+.textTitle{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FF9000;
+}
+
+.textBody{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #4B4D4B;
+	text-align: justify;
+}
+
+a.textBody{
+	color: #607D02;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+}
+a.textBody:hover{
+	color: #607D02;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.textBodyGray{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#6B655E;
+}
+a.textBodyGray{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#6B655E;
+	font-weight: bold;
+	text-decoration: none;
+}
+a.textBodyGray:hover{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#6B655E;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.inputBackground{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #4B4D4B;
+	background-color: #CEE376;
+	border: 1px solid #6E850F;
+	height: auto;
+}
+
+.video_bg {
+	background-image: url(parentsteachers/images/about/bg_video.jpg);
+	background-repeat: no-repeat;
+	width: 277px;
+	height: 266px;
+}
+
+
+
+.textCharacters{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+
+.textCharacters13{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+
+
+.textCharactersCapital{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 48px;
+	font-weight: normal;
+	color: #ECF14A;
+}
+
+
+a:hover.textwhite {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+.body_noflash {
+	background-image: url(img/background.jpg);
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+.message {
+	font-family: Arial, Helvetica, sans-serif;
+	color: Black;
+	font-size: 11px;
+	text-decoration: none;
+}
+
+.message:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	color: Black;
+	font-size: 11px;
+	text-decoration: underline;
+}
+
+.pbskidsvideonav {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFBF33;
+	text-decoration: none;
+}
+
+a:hover.pbskidsvideonav {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFBF33;
+	text-decoration: underline;
+}
+
+/* Controls the white BIG buttons */
+
+
+td.pbskidsbuttonbig {
+	background-image: url(img/btn_video.jpg);
+	background-position: 1px 3px;
+	background-repeat: no-repeat;
+	width: 65px;
+	height: 38px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+
+
+td.pbskidsbuttonbig a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #465A01;
+	text-decoration: none;
+}
+
+
+
+td.pbskidsbuttonbig a:link, td.pbskidsbuttonbig a:visited, td.pbskidsbuttonbig a:active {
+
+text-decoration: none;
+
+}
+
+
+
+td.pbskidsbuttonbig a:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #465A01;
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+/* Controls the yellow BIG buttons that are used to show what version of the video has been selected and is being viewed on the page */
+
+
+
+td.pbskidsbuttonbigactive {
+	background-image: url(img/btn_video02.jpg);
+	background-position: 1px 3px;
+	background-repeat: no-repeat;
+	width: 65px;
+	height: 38px;
+	text-align: center;
+	vertical-align: middle;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #465A01;
+	text-decoration: none;
+}
+
+
+
+
+
+td.pbskidsbuttonbigactive a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #465A01;
+	text-decoration: none;
+}
+
+
+
+td.pbskidsbuttonbigactive a:link, td.pbskidsbuttonbigactive a:visited, td.pbskidsbuttonbigactive a:active {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #465A01;
+	text-decoration: none;
+}
+
+
+
+td.pbskidsbuttonbigactive a:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #465A01;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+/* Controls the white SMALL buttons */
+
+
+
+td.pbskidsbuttonsml {
+	background-image: url(img/btn_video.jpg);
+	background-position: 1px 3px;
+	background-repeat: no-repeat;
+	width: 65px;
+	height: 38px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+
+
+td.pbskidsbuttonsml a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #465A01;
+	text-decoration: none;
+}
+
+
+
+td.pbskidsbuttonsml a:link, td.pbskidsbuttonsml a:visited, td.pbskidsbuttonsml a:active   {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #465A01;
+	text-decoration: none;
+}
+
+
+
+td.pbskidsbuttonsml a:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #465A01;
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+/* Controls the yellow SMALL buttons that are used to show what version of the video has been selected and is being viewed on the page */
+
+
+
+td.pbskidsbuttonsmlactive {
+	background-image: url(img/btn_video02.jpg);
+	background-position: 1px 3px;
+	background-repeat: no-repeat;
+	width: 65px;
+	height: 38px;
+	text-align: center;
+	vertical-align: middle;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #465A01;
+	text-decoration: none;
+}
+
+
+
+td.pbskidsbuttonsmlactive a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #465A01;
+	text-decoration: underline;
+}
+
+
+
+td.pbskidsbuttonsmlactive a:link, td.pbskidsbuttonsmlactive a:visited, td.pbskidsbuttonsmlactive a:active {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #465A01;
+	text-decoration: underline;
+}
+
+
+
+td.pbskidsbuttonsmlactive a:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #465A01;
+	text-decoration: underline;
+}
+
+
+
+
+
+/* Controls the text on the Help page */
+
+
+
+td.pbskidshelptext {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color:#4B4D4B;
+
+}
+
+
+
+td.pbskidshelptext a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color:#4B4D4B;
+
+}
+
+
+
+td.pbskidshelptext a {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color:#4B4D4B;
+}
+
+
+
+td.pbskidshelptext a:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color:#4B4D4B;
+}
+
+
+
+td.pbskidshelptextsml {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color:#4B4D4B;
+}
+
+
+
+td.pbskidshelptextsml a {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color:#4B4D4B;
+
+}
+
+
+
+td.pbskidshelptextsml a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color:#4B4D4B;
+}
+
+
+
+td.pbskidshelptextsml a:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color:#4B4D4B;
+}.smallText {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #666666;
+}
+.games_content {
+	background-color: #FBFDB5;
+}
+.games_frame_left {
+	background-image: url(img/games/frame_left.gif);
+}
+.games_frame_right {
+	background-image: url(img/games/frame_right.gif);
+}
+a.textBodyNoBold {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #4B4D4B;
+	text-decoration: none;
+}
+a.textBodyNoBold:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #4B4D4B;
+	text-decoration: underline;
+}
+.yellow_content {
+
+	background-color: #FBFDB5;
+}

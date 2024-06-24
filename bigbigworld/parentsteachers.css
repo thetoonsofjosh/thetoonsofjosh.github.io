@@ -1,0 +1,51 @@
+.textGreen2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #334300;
+	text-decoration: none;
+}
+
+.background {
+	background-color: #FFA300;
+}
+
+.bg_trees {
+	background-image: url(parentsteachers/images/common/bg_trees.jpg);
+	background-repeat: repeat-x;
+	width: 100%;
+	background-position: 0 -21px;
+}
+
+.footer_link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFE037;
+	text-decoration: none;
+}
+
+a:hover.footer_link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFE037;
+	text-decoration: underline;
+}
+
+.textTitle{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FF9000;
+}
+
+.textBody{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #4B4D4B;
+	text-align: justify;
+}
+
+.yellow_content {
+	background-color: #FBFDB5;
+}
