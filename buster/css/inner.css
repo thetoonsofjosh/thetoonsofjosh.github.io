@@ -1,0 +1,525 @@
+div.main {
+background:transparent;
+}
+
+div#header {
+background-image:url(../images/home/spacer_lines.gif);
+border-bottom: 3px solid #369;
+text-align:center;
+}
+
+table#navtable td {
+vertical-align:top;
+}
+
+table#navtable img {
+vertical-align:top;
+}
+
+table#navtable img#parentsteachers {
+vertical-align:bottom;
+margin-top:12px;
+}
+
+div.top {
+font-size:0.9em;
+margin-top:12px;
+}
+
+
+div.innerline {
+border-top:2px dotted #369;
+width:450px;
+margin:10px 0 0 20px;
+padding-top:10px;
+color:#369;
+clear:all;
+}
+
+div.iconlink {
+margin:0;
+padding:0;
+}
+
+div.iconlink img {
+margin:0 auto;
+padding:0;
+display:block;
+}
+
+div.central {
+margin:0 auto;
+text-align: left;
+width:750px;
+}
+
+div.centralhead {
+margin:0 auto;
+text-align: left;
+width:780px;
+}
+
+
+br.left {
+clear:left;
+}
+
+
+h1.tab {
+margin:0;
+padding:0;
+}
+
+h2.img {
+margin:16px 0 10px 0;
+padding:0;
+}
+
+
+div.index {
+text-align:center;
+}
+
+div.index .caption {
+font-size:0.8em;
+}
+
+div.index a {
+font-size:1.3em;
+font-weight:bold;
+}
+
+/* specific */
+
+
+body.recipes {
+background-image:url(../images/patterns/recipes_pattern.gif);
+}
+
+div.recipesmain {
+background-color:#fff;
+background-image:url(../images/index/recipes_spacer.gif);
+background-repeat:repeat-y;
+width:746px;
+margin:0;
+padding:0;
+}
+
+div.recipesmain a {
+color:#F60;
+}
+
+div.recipesmain a:visited {
+color:#399;
+}
+
+div.recipesmain a:hover {
+color:#6CC;
+}
+
+div.recipes2 {
+border-left:4px solid #F60;
+/*border-right:4px solid #99B133;*/
+text-align:left;
+}
+
+div.recipesmain div.listing {
+color: #F90;
+}
+
+
+body.games {
+background-image:url(../images/patterns/green_pattern.gif);
+}
+
+div.gamesmain {
+background-color:#fff;
+background-image:url(../images/index/games_spacer.gif);
+background-repeat:repeat-y;
+width:746px;
+margin:0;
+padding:0;
+}
+
+div.gamesmain a {
+color:#F60;
+}
+
+div.gamesmain a:visited {
+color:#399;
+}
+
+div.gamesmain a:hover {
+color:#6CC;
+}
+
+
+div.games2 {
+border-left:4px solid #F60;
+/*border-right:4px solid #99B133;*/
+text-align:left;
+}
+
+body.songs {
+background-image:url(../images/patterns/stars_pattern.gif);
+}
+
+div.songsmain {
+background-color:#fff;
+background-image:url(../images/index/songs_spacer.gif);
+background-repeat:repeat-y;
+width:746px;
+margin:0;
+padding:0;
+}
+
+div.songsmain a {
+color:#C00;
+
+}
+
+div.songsmain a:visited {
+color:#600;
+}
+
+div.songsmain a:hover {
+color:#399;
+}
+
+div.songs2 {
+border-left:4px solid #C00;
+/*border-right:4px solid #99B133;*/
+text-align:left;
+}
+
+div.songsmain div.listing {
+color: #399;
+}
+
+ul.songlisting li {
+color: #F33;
+margin:0 6px 10px 12px;
+padding-left:0px;
+list-style:none;
+}
+
+ul.songlisting li a {
+/*font-size:1.2em;*/
+}
+
+img.new {
+margin-left:-52px;
+margin-right:8px;
+}
+
+div.songhilite {
+/*background-image:url(../images/index/songs/highlight_spacer.gif);*/
+padding:0;
+margin:0;
+}
+
+div.songhilite p {
+margin:0 0 0 0px;
+padding-left:22px;
+text-align:center;
+color: #F33;
+background-image:url(../images/index/songs/highlight_spacer.gif);
+}
+
+div.songhilite a {
+font-size:1.28em;
+font-weight:bold;
+}
+
+div.themesong {
+/*background-image:url(../images/index/songs/theme_spacer.gif);*/
+}
+
+div.themesong p {
+margin:0;
+padding:0 0 0 20px;
+text-align:center;
+background-image:url(../images/index/songs/theme_spacer.gif);
+color: #399;
+}
+
+div.themesong p a {
+font-size:1.3em;
+color: #F33;
+}
+
+body.videos {
+background-image:url(../images/patterns/green_pattern.gif);
+}
+
+
+/** no from you index **/
+/** background-image:url(../images/index/videos_spacer.gif); **/
+
+div.fy_index
+{
+	text-align: center;
+	font-size: 10px;
+
+	width:240px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+div.fy_index p {
+	text-align:left;
+	margin-left:20px;
+}
+
+div.videosmain div.fy_index a,
+div.videosmain div.fy_index a:visited { color: #066; }
+div.videosmain div.fy_index a:hover { color: #ff9; }
+div.videosmain div.fy_index a:active { color: #9ff; }
+
+div.videosmain {
+background-color:#fff;
+/*background-image:url(../images/index/videos_fy_spacer.gif);*/
+background-image:url(../images/index/videos_spacer.gif);
+background-repeat:repeat-y;
+width:746px;
+margin:0;
+padding:0;
+}
+
+div.videosmain a {
+color:#066;
+}
+
+div.videosmain a:visited {
+color:#6CC;
+}
+
+div.videosmain a:hover {
+color:#9C3;
+}
+
+div.videos2 {
+border-left:4px solid #399;
+/*border-right:4px solid #99B133;*/
+text-align:left;
+}
+
+
+div.videosmain div.listing {
+color: #399;
+}
+
+
+body.pfy {
+background-image:url(../images/patterns/green_pattern.gif);
+}
+
+
+body.search {
+background-image:url(../images/patterns/plaid_pattern.gif);
+}
+
+div.searchbox {
+margin:0;
+padding:0 0 0 5px;
+background-image:url(../images/index/search_spacer_grn.gif);
+}
+
+div.searchbox img {
+vertical-align:top;
+margin:0 10px 0 0;
+}
+
+div.searchbox input {
+margin:0 10px 0 0;
+}
+
+div.searchbox form {
+text-align:center;
+margin:0;
+padding:5px 0 5px 0;
+}
+
+input {
+font-family:verdana, sans-serif;
+}
+
+input.button {
+font-family: "comic sans ms", verdana, sans-serif;
+}
+
+
+div.searchbox input {
+color:#369;
+}
+
+div.searchbox input.button {
+background-color:#769A2F;
+color:#FFF;
+}
+
+
+div.searchmain {
+background-color:#fff;
+background-image:url(../images/index/search_spacer.gif);
+background-repeat:repeat-y;
+width:746px;
+margin:0;
+padding:0;
+font-size:1em;
+}
+
+
+div.searchmain a {
+color:#369;
+font-weight:normal;
+font-size:1.2em;
+}
+
+
+div.searchmain a:visited {
+color: #69C;
+}
+
+div.searchmain a:hover {
+color:#F60;
+}
+
+div.searchmain .caption a {
+color: #39F;
+font-size:1em;
+}
+
+div.search2 {
+border-left:4px solid #99B133;
+/*border-right:4px solid #99B133;*/
+text-align:left;
+}
+
+div#search {
+color:#69C;
+}
+
+div#search a {
+/*font-size:1em;*/
+}
+
+div#search h3 {
+font-size:1.3em;
+color: #69C;
+margin-bottom:0;
+}
+
+div.checkout a {
+font-size:1em;
+}
+
+div#search .top a {
+color:#F60;
+}
+
+div#search .top a:hover {
+color:#F90;
+}
+
+div#search div.req {
+font-size:.9em;
+margin-bottom:8px;
+margin-top:8px;
+}
+
+
+.parents { background: url(../images/patterns/plaid_pattern.gif); }
+
+.parentsmain {
+	background: #fff url(../images/index/parents_spacer.gif) repeat-y;
+	width: 746px;
+}
+
+.parentsmain a:link { color: #369; }
+.parentsmain a:visited { color: #9c3; }
+.parentsmain a:hover { color: #f60; }
+.parentsmain a:active { color: #066; }
+
+
+
+div.listing a {
+text-decoration:none;
+}
+
+div.listing span.link {
+text-decoration:underline;
+/*font-size:1.1em;*/
+}
+
+div.listing a:hover span {
+text-decoration:none;
+}
+
+div.listing span.link img {
+text-decoration:none;
+}
+
+div.listing div.loc {
+margin-left:80px;
+}
+
+table.index {
+margin:0 auto;
+}
+
+table.index td {
+text-align:center;
+}
+
+div.listing {
+width:230px;
+padding:0 0 10px 0;
+margin:0;
+height:80px;
+}
+
+div.listing img {
+float:left;
+margin:0 6px 28px 15px;
+padding:0;
+}
+
+div.listing img.newo {
+position: absolute;
+margin:70px 0 0 20px;
+padding:0 0 0 0;
+}
+div.listing img.newr {
+position: absolute;
+margin:73px 0 0 35px;
+padding:0 0 0 0;
+}
+
+div.listing span.link {
+display:block;
+margin:0 0 0 80px;
+padding:8px 0 0 0;
+}
+
+
+ul {
+/*border:1px solid black;*/
+}
+
+
+
+div#search td {
+padding-left:15px;
+}
+
+ul.search {
+margin:0;
+padding:0;
+}
+
+ul.search li {
+margin:0 0 5px 0;
+padding:0;
+list-style:none;
+}

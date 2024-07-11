@@ -1,0 +1,175 @@
+div.videosmain {
+	background: #fff url(../images/videos/videos_spacer.gif);
+	width: 746px;
+}
+
+div.videosmain a { color: #066; }
+div.videosmain a:visited { color: #6cc; }
+div.videosmain a:hover { color: #9c3; }
+
+.dots { margin: 40px auto 10px; }
+
+h2 {
+	font-size: 1.8em;
+	color: #6cc;
+	margin-bottom: 0;
+}
+
+#bloglink {	margin-top: 0; }
+
+#blurb {
+	font-size: 1.1em;
+	color: #693;
+}
+
+#sidebar p {
+	color: #033;
+	margin: 10px;
+}
+
+p#bttop {
+	margin: 20px 10px 0;
+	font-size: 1em;
+}
+#bttop a:link, #bttop a:visited { color: #cff; }
+#bttop a:hover { color: #fff; }
+
+#sidebar p {
+	font-size: .96em;
+	f\ont-size: 1em;
+}
+
+
+/* Postcards From You */
+
+div.pfymain {
+	background: #fff url(../images/pfy/postcards_spacer.gif);
+	width: 746px;
+}
+
+div.pfymain a { color: #066;}
+div.pfymain a:visited { color: #6cc; }
+div.pfymain a:hover { color: #9c3; }
+
+#pfycontent {
+	color: #066;
+	width: 516px;
+	float: left;
+	padding-left: 8px;
+}
+
+#pfynav {
+	width: 188px;
+	float: left;
+	padding-left: 18px;
+	padding-top: 12px;
+/*	text-align:center; */
+}
+
+#pfycontent img { display: block; margin:0;}
+
+#pfycontent h4 {
+	margin: 20px 0 2px 8px;
+	font-size: 1.1em;
+}
+
+#pfycontent p, address { margin: 0 0 12px 8px; }
+
+#pfynav ul {
+	margin: 20px 0 0;
+	padding: 0;
+}
+
+#pfynav li {
+	font-size: 1.1em;
+	font-weight: bold;
+	list-style: none;
+	margin: 6px 0 0 5px;
+}
+
+#pfynav a, #pfynav a:visited { color: #066; font-size:1em;}
+#pfynav a:hover { color: #ff9; }
+#pfynav a:active { color: #9ff; }
+
+#pfynav img {
+	border:0;
+}
+
+address {
+	font-size: 1.1em;
+	font-style: normal;
+}
+
+
+div.pfy-hilite {
+	text-align:center;
+	padding-bottom:24px;
+}
+
+div.pfy-hilite span.pfytitle {
+	font-size:16px;
+}
+
+div.pfy-hilite img {
+	display:block;
+	margin:0 auto 4px auto;
+	border:0;
+}
+
+
+div#pfy-hdr {
+/*	background-color:#330000;	*/
+	background-color:#FEFFDB;
+	border-bottom:3px solid #399;
+
+	width:493px;
+	padding-top:20px;
+}
+
+div#pfy-hdr table {
+	width:493px;
+/*	margin-bottom:4px;*/
+}
+
+div.paginate {
+	float:right;
+	color:#fff;
+	font-size:15px;
+	background-image:url("../images/pfy/tab_corner.gif");
+	background-repeat:no-repeat;
+}
+
+/* this was the javascript way
+div#pg {
+	display:none;
+}
+*/
+
+div.paginate a {
+	font-size:15px;
+}
+
+div#pg a.cur{
+	color:#fff;text-decoration:none;
+}
+
+div.paginate div {
+	width:100px;
+	height:28px;
+	text-align:right;
+	margin-left:10px;
+	background-color:#399;
+	padding-right:10px;
+}
+/* new */
+body.pfy div.index {
+	margin:0;
+	padding:0;
+	text-align:left;
+}
+
+div#pfynav.pfysideind {
+	padding-top:48px;
+	width:220px;
+	padding-left:28px;
+}

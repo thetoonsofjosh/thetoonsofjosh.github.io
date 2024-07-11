@@ -1,0 +1,16 @@
+.printonly {
+display:block;
+/*visibility:visible;*/
+}
+
+.screenonly {
+display:none;
+}
+
+.print {
+display:block;
+}
+
+div.centfoot {
+display:none;
+}

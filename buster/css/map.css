@@ -1,0 +1,10 @@
+body.map {
+min-width:430px;
+background-color:#CFF;
+color:#6CC;
+}
+
+div.map {
+margin:0;
+padding:0;
+}

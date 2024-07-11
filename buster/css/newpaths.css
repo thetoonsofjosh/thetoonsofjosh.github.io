@@ -1,0 +1,86 @@
+
+
+/* HOME PAGE */
+
+body.home {
+background-image:url(../images/home/background_pattern.gif);
+}
+
+body.blog {
+background-image:url(../images/blogs/blog_background.gif);
+}
+
+div.backline {
+background-image:url(../images/home/spacer_top.gif);
+}
+
+div#header {
+background-image:url(../images/home/spacer_lines.gif);
+}
+
+div.blogmain {
+background-image:url(../images/blogs/sidebar_spacer.gif);
+background-position:497px 0px;
+background-repeat:repeat-y;
+}
+
+div#sidebarin {
+/*background-image:url(../images/blogs/sidebar_spacer.gif);
+background-position:0px;
+background-repeat:repeat-y;
+*/
+}
+
+div.greendots {
+background-image:url(../images/blogs/dots.gif);
+}
+
+div.sidebar {
+background-image:url(../images/blogs/sidebar_spacer.gif);
+}
+div.bodypart {
+background-image:url(../images/home/spacer_lines.gif);
+/*padding-bottom:-90px;
+margin-bottom:-90px
+height:auto;*/
+}
+
+table.moveup {
+position:absolute;
+top:0px;
+left:0px;
+/*margin-bottom:-90px;*/
+/* MSIE 5.5 only should get:
+display:inline;
+*/
+display:inline;
+/* mozilla freaks on the bottom margin
+
+*/
+}
+
+table.body {
+}
+
+div.postcard {
+/*border:1px solid black;*/
+padding:10px;
+
+}
+
+div.testit {
+/*border:1px solid red;
+margin-bottom:-100px;*/
+}
+
+div.footer {
+/*border:1px solid #666;*/
+}
+
+div.homenav {
+padding-left:40px;
+}
+
+div.blog {
+background-image:url(../images/home/blog_spacer.gif);
+}

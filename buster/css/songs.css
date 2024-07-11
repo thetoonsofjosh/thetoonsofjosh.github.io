@@ -1,0 +1,41 @@
+div.songsmain {
+	background: #fff url(../images/songs/songs_spacer.gif);
+	width: 746px;
+}
+
+div.songsmain a { color: #c00; }
+div.songsmain a:visited { color: #600; }
+div.songsmain a:hover { color: #399; }
+
+.dots { margin: 40px auto 10px; }
+
+h2 {
+	font-size: 1.8em;
+	color: #f66;
+	margin-bottom: 0;
+}
+
+#bloglink {	margin-top: 0; }
+
+#sidebar p {
+	color: #fff;
+	margin: 10px;
+}
+
+p#bttop {
+	margin: 20px 10px 0;
+	font-size: 1em;
+}
+#bttop a:link, #bttop a:visited { color: #fcc; }
+#bttop a:hover { color: #fff; }
+
+#copyright {
+	margin-top: 15px;
+	font-size: 1em;
+	color: #399;
+}
+
+#sidebar p {
+	font-size: .96em;
+	f\ont-size: 1em;
+}

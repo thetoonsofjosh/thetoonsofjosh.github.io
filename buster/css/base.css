@@ -1,0 +1,218 @@
+body, p, div {
+font-family: "comic sans ms", verdana, sans-serif;
+}
+
+div {
+margin:0;
+padding:0;
+}
+
+p {
+margin:0 0 1em 0;
+}
+
+body {
+/* background-color:#FDCB54; */
+	text-align: center;
+	min-width: 740px;
+	padding:0px;
+	margin:0px;
+	font-size:76%;
+	
+/*	font-size: 100%;
+ font-size:12pt;
+font-size:80%;
+76% =~ 12px
+69% =~ 11px
+60% =~ 10px 
+*/
+}
+
+
+body>div[class] {
+font-size:100% !important;
+/* this syntax is ignored by MSIE, but is useful for compliant browsers to counteract the Mac-specific thing below*/
+}
+
+
+
+body>div.page {
+font-size:140%;
+/* this is ignored by Win IE 6 and lower, and also Mac IE below v5, but Mac IE 5 sees it, at least on OS 9.
+MacIE ignores the "important" above, which counteracts this */
+}
+
+
+ 
+p, div, table, ul, li, tr, td{
+/*font-size: .96em; */
+font-size:1em;
+}
+
+
+a:link {
+
+}
+
+a:hover {
+text-decoration:none;
+}
+
+
+
+.printonly {
+display:none;
+/*visibility:collapse;*/
+}
+
+table {
+padding:0;
+margin:0;
+}
+
+div {
+margin:0;
+padding:0;
+
+}
+
+div.index td {
+text-align:left;
+}
+
+div.page {
+text-align:center;
+}
+
+
+/*  footer   */
+
+div.fund1 {
+background-image:url(../images/nav/funders_top.gif);
+height:18px;
+width:669px;
+border:0;
+margin:0;
+padding:0;
+}
+
+div.fund2 {
+background-image:url(../images/nav/funders_bottom.gif);
+height:18px;
+width:669px;
+border:0;
+margin:0;
+padding:0;
+}
+
+div.centfund {
+width: 669px;
+margin:0 auto;
+text-align: center;
+}
+
+div.fund {
+background-color: #B0EBFC;
+background-image:url(../images/nav/funders_spacer.gif);
+text-align:center;
+color: #360;
+}
+
+
+table#fund {
+margin:0 20px 0 20px;
+}
+
+div.funder {
+text-align:left;
+font-size:0.95em;
+color: #360;
+}
+
+div.centfoot
+{
+width: 556px;
+margin:0 auto;
+text-align: center;
+margin-bottom:40px;
+}
+
+div.foot {
+background-color: #B0EBFC;
+background-image:url(../images/nav/ftr_spacer.gif);
+}
+
+div.copyright {
+font-size:0.95em;
+color: #069;
+}
+
+div.copyright a {
+color:#036;
+}
+
+
+
+div.navbar {
+padding:0 10px 0 10px;
+font-weight:bold;
+color:#036;
+}
+
+div.navbar span {
+color:#39C;
+}
+
+div.foot a {
+color:#036;
+}
+
+div.foot a:visited {
+color:#069;
+}
+
+div.foot a:hover {
+color:#39C;
+}
+
+div.foot1 {
+height:17px;
+width:556px;
+border:0;
+margin:0;
+padding:0;
+}
+
+div.foot2 {
+
+height:17px;
+width:556px;
+border:0;
+margin:0;
+padding:0;
+}
+
+
+div.gfoot1 {
+background-image:url(../images/nav/green/ftr_top.gif);
+}
+
+div.gfoot2 {
+background-image:url(../images/nav/green/ftr_btm.gif);
+}
+
+div.yfoot1 {
+background-image:url(../images/nav/yellow/ftr_top.gif);
+}
+
+div.yfoot2 {
+background-image:url(../images/nav/yellow/ftr_btm.gif);
+}
+
+div.bfoot1 {
+background-image:url(../images/nav/blue/ftr_top.gif);
+}
+
+div.bfoot2 {
+background-image:url(../images/nav/blue/ftr_btm.gif);
+}

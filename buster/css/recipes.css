@@ -1,0 +1,222 @@
+/** over ride  background**/
+div.recipesmain {
+background-image:url(../images/recipes/recipes_spacer.gif);
+}
+
+
+div.recipes2 {
+padding: 0 0px 0 17px;
+color: #066;
+}
+
+/** all headers should have no margin by default **/
+.recipes2 h2, .recipes2 h3, .recipes2 h4
+{
+margin: 0;
+}
+
+
+/** recipe title = 2em**/
+.recipes2 h2.recipetitle
+{
+font-size: 2em;
+/*width:226px;*/
+}
+
+
+/** side bar div **/
+div.recipesidebar {
+padding: 0 0 0 15px;
+margin: 0;
+font-size: .98em;
+color: #360;
+}
+
+
+/** side bar titles **/
+.recipes2 h4.recipesidetitle
+{
+color: #693;
+font-size: 1.2em;
+margin-bottom: 5px;
+}
+
+
+/** class for 15px bottom margin **/
+.recipes2 .clr15px
+{
+margin-bottom:15px;
+}
+
+/** description div  (includes rightside bar margin)**/
+div.recipedescript
+{
+margin: 0 30px 0 0;
+padding: 0;
+}
+
+/** margin for paragraph to have top margin **/
+.recipes2  .txtdescript
+{
+display: block;
+margin: 0 0 0 0;
+padding: 20px 0 0 0;
+width: 220px;
+/*border:1px solid red;*/
+}
+
+
+/** what yo do div **/
+div.recipedo
+{
+margin: 0 15px 0 15px;
+}
+
+
+/** what you need list (utensils/ingredients) **/
+ul.need
+{
+margin: 0 0 30px 15px;
+padding: 0;
+}
+
+ul.need li
+{
+margin-bottom: 3px;
+}
+
+/** what you do list **/
+ol.rdo
+{
+margin: 0;
+padding: 0 0 15px 15px;
+}
+
+ol.rdo li
+{
+margin-bottom: 10px;
+}
+
+
+/** spacing above and below dotted line **/
+.dotted
+{
+display: block;
+padding: 0;
+margin: 25px 0 15px 0;
+clear: both;
+}
+
+/** clears floated image which is out of context **/
+.brall
+{
+clear: both;
+height: 1px;
+overflow: hidden;
+}
+
+/** link for back top **/
+.smallink
+{
+font-size: .8em;
+}
+
+
+/** link specs  **/
+div.recipesmain .recipes2 a {
+color:#f60;
+}
+
+div.recipesmain .recipes2 a:link {
+color:#f60;
+}
+
+div.recipesmain .recipes2 a:visited {
+color:#399;
+}
+
+div.recipesmain .recipes2 a:hover {
+color:#6cc;
+}
+
+/** back to top has no visited link color **/
+div.recipesmain .recipes2 a.smallink:visited
+{
+color: #f60;
+}
+
+
+div.recipesmain .recipes2 .recipesidebar a {
+color:#030;
+}
+
+div.recipesmain .recipes2 .recipesidebar a:link {
+color:#030;
+}
+
+div.recipesmain .recipes2 .recipesidebar a:visited {
+color:#360;
+}
+
+div.recipesmain .recipes2 .recipesidebar a:hover {
+color:#030;
+}
+
+
+/** images for recipes **/
+.recimg
+{
+margin: 0;
+padding: 0;
+border:0;
+float: right;
+/*width:226px;*/
+}
+
+/** OLD WAY NOT USED ANYMORE **/
+.az_phoenix_rec
+{
+background      : transparent url(../images/recipes/illus/chips.gif) no-repeat right top;
+}
+
+.ny_manhattan_rec
+{
+background      : transparent url(../images/recipes/illus/challah.gif) no-repeat right top;
+}
+
+.fl_miami_rec
+{
+background      : transparent url(../images/recipes/illus/arroz.gif) no-repeat right top;
+}
+
+.sd_rapidscity_rec
+{
+background      : transparent url(../images/recipes/illus/beans.gif) no-repeat right top;
+}
+
+.tx_sanantonio_rec
+{
+background      : transparent url(../images/recipes/illus/brkfst_taco.gif) no-repeat right top;
+}
+
+.ny_brooklyn_rec
+{
+background      : transparent url(../images/recipes/illus/hummus.gif) no-repeat right top;
+}
+
+.mx_roswell_rec
+{
+background      : transparent url(../images/recipes/illus/pb_pickles.gif) no-repeat right top;
+}
+
+.il_chicago_rec
+{
+background      : transparent url(../images/recipes/illus/kulfi.gif) no-repeat right top;
+}
+
+.mx_guanajuato_rec
+{
+background      : transparent url(../images/recipes/illus/salsa.gif) no-repeat right top;
+}
+
+/** END NOT USED ANYMORE **/

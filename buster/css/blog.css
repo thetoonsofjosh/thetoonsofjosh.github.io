@@ -1,0 +1,297 @@
+body.blog {
+background-image:url(../images/blogs/blog_background.gif);
+}
+
+/*
+p, ul, div { font-size: .9em; }
+p, ul, div { f\ont-size: 1.02em; }
+*/
+
+
+div.blogmain {
+background-color:#fff;
+background-image:url(../images/blogs/sidebar_spacer.gif);
+background-position:497px 0px;
+background-repeat:repeat-y;
+width:746px;
+margin:0;
+padding:0;
+/*border-right:4px solid #99B133;*/
+}
+
+
+div.blogmain a {
+color:#F60;
+}
+
+div.blogmain a:visited {
+color:#69C;
+}
+
+div.blogmain a:hover {
+color:#F90;
+}
+
+div.blog2 {
+border-left:4px solid #99B133;
+
+text-align:left;
+}
+
+div#sidebarin h3 {
+font-size:1.3em;
+margin:0 0 6px 0;
+}
+
+div#sidebarin {
+color:#5A7B00;
+margin-left:26px;
+margin-right:16px;
+/*background-image:url(../images/blogs/sidebar_spacer.gif);*/
+
+}
+
+div.greendots {
+background-image:url(../images/blogs/dots.gif);
+background-repeat:repeat-x;
+height:5px;
+text-align:center;
+margin:10px 0 10px 0;
+}
+
+/*.sidebarin div {
+display:inline;
+clear:all;
+}
+
+.sidebarin form {
+display:inline;
+clear:all;
+}
+
+.sidebarin table {
+display:inline;
+clear:all;
+}
+*/
+form.sidebar select {
+background-color:#84B529;
+font-family: "comic sans ms",verdana, sans-serif;
+margin:0 0 6px 0;
+}
+
+form.sidebar input.button {
+font-family: "comic sans ms",verdana, sans-serif;
+background-color:#B5DB58;
+}
+
+
+div#roadside {
+/*border-left:3px solid #fff;
+border-right:3px solid #fff;
+background-color:#5D7C00;*/
+background: #5D7C00 url(../images/blogs/roadside_spacer.gif);
+color:#fff;
+width:205px;
+text-align:center;
+}
+
+div#roadside div.pollq {
+margin:0 10px 0 10px;
+font-size:1.25em;
+/*font-weight:bold;*/
+}
+
+div.blogline {
+border-top:2px dotted #369;
+width:450px;
+margin:10px 0 0 20px;
+padding-top:10px;
+color:#369;
+clear:all;
+}
+
+div.blogline img.blogicon {
+float: left;
+margin-right: 20px; 
+}
+
+label.vote {
+font-size:1.15em;
+font-weight:bold;
+}
+
+
+
+div.blogbody {
+/*width:493px;
+display:inline;*/
+text-align:left;
+color:#369;
+background-color:#fff;
+padding-left:20px;
+padding-right:15px;
+margin:0;
+}
+
+div.bloginner {
+/*display:inline;*/
+padding-left:20px;
+}
+
+div.blogtop {
+padding-left:20px;
+}
+
+div.blogbody h1 {
+margin:0px 0 0 0;
+padding:0;
+font-size:1.8em;
+line-height:1em;
+}
+
+div.blogbody h2 {
+margin:0;
+font-size:1.2em;
+font-weight:normal;
+}
+
+div.blogbody h2.b {
+font-weight:bold;
+}
+
+div.blogtext {
+margin:0 0 0 150px;
+}
+
+div.maplink {
+color:#9CB531;
+font-size:1em;
+margin:0 0 10px 0;
+}
+
+/*div.maplink a {
+color:#CEDE63;
+}
+
+div.maplink a:visited {
+color:#69C;
+}
+
+div.maplink a:hover {
+color:#5D7C00;
+}*/
+
+div.blogbody p#intro {
+
+}
+
+
+img.blogimage {
+/*border:1px solid black;*/
+float:right;
+}
+
+/* SPEAK */
+
+table.speaktable {
+	margin-top:1em;
+	width:300px;
+}
+
+table.speaktable td span {
+	margin:0 10px;
+}
+
+#aud {
+	height:16px;
+	border:none;
+}
+
+#aud2 {
+	height:0px;
+	border:none;
+}
+
+td.center {
+text-align:center;
+}
+
+/* ABOUT MY TRAVELS */
+
+img.blogimageA {
+margin-top:10px;
+float:right;
+}
+
+img.blogimageL {
+float:left;
+}
+
+
+/* VOTER  */
+
+div#backtoblog
+{
+background-color:#EBF2C3;
+color:#5A7B00;
+font-size:1.2em;
+width:493px;
+margin-bottom:6px;
+}
+
+div#backtoblog img
+{
+vertical-align:middle;
+}
+
+div#backtoblog a
+{
+color:#5A7B00;
+font-weight:bold;
+}
+
+
+td#voteq
+{
+background-color:#5D7C00;
+background-image:url(../images/blogs/spacer_grn.gif);
+color:#fff;
+}
+
+td#voteq span.voteq {
+display:block;
+margin:0 10px 0 10px;
+font-weight:bold;
+font-size:1.4em;
+}
+
+td.greenback {
+background-image:url(../images/blogs/sign_spacer.gif);
+background-position:-34px;
+}
+
+
+td.number {
+background-image:url(../images/blogs/spacer_drkgrn.gif);
+}
+
+td.numberc {
+background-color:#465D01;
+}
+
+td.lside {
+background-position:195px;
+}
+
+div.number {
+font-size:1.2em;
+}
+
+div.vanswers {
+text-align:center;
+}
+
+div.answer {
+font-size:1.6em;
+}

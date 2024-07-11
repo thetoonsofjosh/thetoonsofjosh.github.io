@@ -1,0 +1,175 @@
+.games2 .index table
+{
+text-align: center;
+}
+
+.games2 .gmindeximg
+{
+margin: 0 15px 0 15px;
+}
+
+.games2 .gmindexcnt
+{
+margin: 0 15px 0 0;
+}
+
+.games2 .lftalign
+{
+text-align: left;
+}
+
+.games2 .gmcntlink
+{
+text-align: center;
+width:150px;
+
+}
+
+
+div.gmcntlink a {
+font-size:1em;
+font-weight:normal;
+}
+
+
+.games2 .lrgfont
+{
+font-size: 1.5em;
+}
+
+
+.games2 .gmcurrent
+{
+font-weight: bold;
+font-size: 1.2em;
+}
+
+.games2 .index 
+{
+color: #369;
+}
+
+.games2 .gmprint 
+{
+color: #000;
+}
+
+.games2 .gmintcontent
+{
+margin: 0 40px 0 15px;
+text-align: center;
+}
+
+.games2 .gmhilite
+{
+color: #036;
+}
+
+.games2 .cnrtxt
+{
+text-align: center;
+}
+
+.games2 .dreamon
+{
+background      : transparent url(../images/games/dreamon/dreamon_frame.gif) no-repeat 14px top;
+width:  720px;
+height: 425px;
+}
+
+.games2 .whereisbuster
+{
+background      : transparent url(../images/games/wheresbuster/wheresbusterframe.gif) no-repeat left top;
+width:  720px;
+height: 355px;
+}
+
+.games2 .coasttocoast
+{
+background      : transparent url(../images/games/coasttocoast/coasttocoastframe.gif) no-repeat left top;
+width:  720px;
+height: 355px;
+}
+
+.games2 .gameindex
+{
+padding-left:15px;
+}
+
+.games2 div.plugin
+{
+color:#369;
+text-align:center;
+}
+
+.games2 div.plugin2
+{
+margin-right:20px;
+}
+
+.games2 div.plugin a
+{
+color:#F60;
+}
+
+.games2 div.plugin a:visited
+{
+color:#399;
+}
+
+.games2 div.plugin a:hover
+{
+color:#6CC;
+}
+
+
+.games2 .whereisbuster .flash
+{
+padding-top: 14px;
+padding-left: 7px;
+}
+
+.games2 .dreamon .flash
+{
+padding-top: 50px;
+padding-left: 31px;
+
+}
+
+.games2 .coasttocoast .flash
+{
+padding-top: 15px;
+padding-left: 4px;
+}
+
+
+.games2 .connectthestates
+{
+background      : transparent url(../images/games/connectthestates/connectthestatesframe.gif) no-repeat left top;
+width:  720px;
+/*height: 355px;*/
+}
+
+.games2 .flag
+{
+background      : transparent url(../images/games/flag/buildaflag_frame.gif) no-repeat left top;
+width:  720px;
+height: 355px;
+}
+
+.games2 .flag .flash
+{
+padding-top: 15px;
+padding-left: 4px;
+}
+
+.games2 .flashwarning {
+padding:10px 14px 10px 14px;
+text-align:center;
+}
+
+.games2 .connectthestates .flash
+{
+padding-top: 14px;
+padding-left: 8px;
+}

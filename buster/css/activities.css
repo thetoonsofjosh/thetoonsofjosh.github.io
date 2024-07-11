@@ -1,0 +1,81 @@
+#sidebar {
+	width: 226px;
+	float: right;
+	padding-right: 20px;
+	margin: 0 0 10px 10px;
+	background: url(../images/parentsteachers/activities/sidebar_middle.gif) repeat-y;
+	font-size: 88%;
+}
+
+#sidebar img { display: block; }
+
+h2 { margin: 0 0 15px; }
+h3 {
+	margin: 0 0 0 15px;
+	font-size: 150%;
+}
+h4 { font-size: 120%; }
+
+#back {
+	margin: -2px 0 10px 16px;
+	font-size: 88%;
+}
+
+ul, ol {
+	margin: 0 0 15px;
+	padding: 0;
+}
+
+li {
+	margin: 0 10px 0 36px;
+	padding: 0;
+}
+
+#sidebar li { margin: 0 10px 0 33px; }
+
+#epis li {
+	list-style: none;
+	margin: 0 10px 6px 15px;
+}
+
+#books li {
+	list-style: none;
+	margin-left: 17px;
+}
+
+#sidebar h4 { margin: 10px 5px 0 15px; }
+h4#ages { margin-top: 3px; }
+#ages span { font-weight: normal; }
+
+.index-col {
+	width: 265px;
+	float: left;
+}
+
+.index-col li {
+	list-style: none;
+	margin: 0 0 2px 16px;
+}
+
+.dots {
+	clear: left;
+	margin: 5px 18px;
+	border-top: 2px dotted #369;
+}
+
+.diag {
+	float: left;
+	padding: 5px 18px;
+}
+
+.step { margin-top: 15px; }
+
+#grid { margin-left: 18px; }
+#grid td { padding-right: 15px; }
+#grid tr.even td { padding-bottom: 25px; }
+#grid tr.odd td { font-weight: bold; }
+
+.listhead {
+	font-weight: bold;
+	margin: 15px 15px 4px 18px;
+}
