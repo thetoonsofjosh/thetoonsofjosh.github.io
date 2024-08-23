@@ -1,0 +1,126 @@
+<html>
+<head>
+<title>Clifford . Sitemap | PBS Kids</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript1.2">
+// identifies which section of site this page is in so correct bottom nav icon is hilited
+var pageSite = "sitemap";
+
+// pathway to folder where images live
+var pathMain = "shared/images/" + pageSite + "/";
+
+// arrays for sections and pages
+var arrGames = new Array("Clifford Kisses", "kisses.html", "Clifford Slide", "slide.html", "Help Clifford", "beach.html", "Cleo Shares", "sweater.html", "Find T-Bone", "tbone_clifford.html");
+var arrStories = new Array("Leaf of Absence", "leaf.html", "The Runaway Rabbit", "rabbit.html", "Tummy Trouble", "tummy.html");
+var arrFriends = new Array("Emily", "emily.html", "T-Bone", "tbone.html", "Cleo", "cleo.html", "Mac", "mac.html", "Clifford", "clifford.html", "Jetta", "jetta.html", "Charley", "charley.html");
+var arrBackstage = new Array("Meet the Stars", "stars/index.html", "See the Studio", "studio/index.html", "Meet the Cast", "cast/index.html");
+var arrBigideas = new Array("Believe in Yourself", "believe.html", "Be a Good Friend", "good_friend.html", "Help Others", "help.html", "Be Kind", "be_kind.html", "Be Responsible", "responsible.html", "Be Truthful", "truthful.html", "Work Together", "work.html", "Have Respect", "respect.html", "Play Fair", "playfair.html", "Share", "share.html");
+var arrPrintables = new Array("Clifford (coloring page)", "clifford.html", "Emily (coloring Page)", "emily.html", "T-Bone (coloring Page)", "tbone.html", "Cleo (coloring page)", "cleo.html", "Jetta (coloring page)", "jetta.html", "Charley (coloring page)", "charley.html", "Mac (coloring page)", "mac.html", "T-Bone in hat", "ttownpage.html", "Clifford and balloon", "balloonpage.html", "Charley and Sam", "charley_sam.html", "Emily's Parents", "parents.html", "Jetta and Mac", "jetta_mac.html", "Emily and Clifford in the rain", "emily_page.html", "Cleo and Clifford", "cleo_page.html", "Emily and Clifford", "heartpage.html", "Draw Clifford", "draw_clifford.html", "Sketch Pad", "sketch.html", "Do well medal", "do_well_medal.html", "Connect the Dots 1", "connect_dots1.html", "Connect the Dots 2", "connect_dots2.html", "Matching Game 1", "matching_game1.html", "Build Clifford's house", "clifford_house.html", "Build Emily's house", "emily_house.html", "Build T-Bone's house", "tbone_house.html", "Build Dog Groomer's Building", "dog_groomers.html", "Build Optician's Office", "opticians_house.html", "Build the Bakery", "bakery.html", "Number cards", "number_cards.html", "Feelings Dial", "feelings_dial.html", "Home Phone Number Card", "home_number.html", "Task list", "task_list.html", "Believe", "believe.html", "Be Kind", "be_kind.html", "Be Truthful", "be_truthful.html", "Good Friend", "good_friend.html", "Help Others", "help.html", "Play Fair", "play_fair.html", "Respect", "respect.html", "Responsible", "responsible.html", "Work Together", "work_together.html", "Share", "share.html");
+
+// creates list of pages within section
+// four arguments passed are the actual name of the section, the name of the folder the files are in, the name of the array containing the page names and urls, and the background color of this particular section
+function doMap(sectionName, sectionFolder, arrSection, color) {
+	var buf = "";
+	buf += "<table cellspacing=0 cellpadding=0 border=0 bordercolor=\"" + color + "\"  background=\"shared/images/netscape.gif\" width=175>\n";
+	buf += "<tr>\n<td bgcolor=\"" + color + "\" align=\"center\" valign=\"middle\"><a href=\"../" + sectionFolder + "/index.html\" title=\"" + sectionName +"\"><p><font color=\"#ffffff\" face=\"comic sans ms\" size=4><img src=\"shared/images/shim.gif\" width=1 height=6 border=0><br>" + sectionName + "<br><img src=\"shared/images/shim.gif\" width=1 height=6 border=0></font></p></a></td>\n</tr>\n";
+	for (i = 0; i < arrSection.length; i = i + 2) {
+		buf += "<tr>\n<td><img src=\"shared/images/shim.gif\" width=1 height=6 border=0></td>\n</tr>\n";
+		buf += "<tr>\n<td><a href=\"../" + sectionFolder + "/" + arrSection[i + 1] + "\" title=\"" + arrSection[i] +"\"><p><font color=\"" + color + "\" face=\"arial\" size=\"-1\">" + arrSection[i] + "</font></p></a></td>\n</tr>\n";
+		buf += "<tr>\n<td><img src=\"shared/images/shim.gif\" width=1 height=6 border=0></td>\n</tr>\n";
+		buf += "<tr>\n<td bgcolor=\"" + color + "\"><img src=\"shared/images/shim.gif\" width=1 height=1 border=0></td>\n</tr>\n";
+	}
+	buf += "</table>\n";
+	document.write(buf);
+}
+</script>
+<script language="JavaScript1.2" src="../shared/scripts/nav_bottom.js"></script>
+<script language="JavaScript1.2" src="../shared/scripts/header_top.js"></script>
+<style type="text/css">
+A:			{ text-decoration: none; }
+A:link		{ text-decoration: none; }
+A:visited	{ text-decoration: none; }
+A:hover		{ text-decoration: underline; }
+</style>
+</head>
+<body bgcolor="#000099" topmargin="0" leftmargin="0" marginheight="0" marginwidth="0">
+<table border=0 cellpadding=0 cellspacing=0 width=583 background="../shared/images/sitemap/tile.gif" align="center">
+<tr>
+	<!-- top nav bar -->
+    <td>
+	<script>doHeader()</script>
+	</td>
+</tr>
+<tr>
+	<td><img src="../shared/images/shim.gif" width=10 height=20 border=0></td>
+</tr>
+<tr>
+	<!-- begin content -->
+	<td align="center">
+	<table cellspacing=0 cellpadding=5 border=0 bgcolor="#ffffff" background="../shared/images/white.gif">
+	<!-- row 1 -->
+	<tr>
+		<td colspan=3 align=center valign=middle><br><a href="../index.html"><img src="../shared/images/sitemap/bullet_pbone2.gif" alt="" width="60" height="28" border="0">&nbsp;<font face="comic sans ms" color="#000099" size=5><b>Home</b></font></a><br></td>
+	</tr>
+	<!-- end row 1 -->
+	<!-- row 2 -->
+	<tr>
+		<!-- bigideas -->
+		<td valign="top">
+		<script>doMap("Big Ideas", "bigideas", arrBigideas, "#ooooff")</script>
+		</td>
+		<!-- games -->
+		<td valign="top">
+		<script>doMap("Games", "games", arrGames, "#00cc33")</script>
+		</td>
+		<!-- stories -->
+		<td valign="top">
+		<script>doMap("Stories", "stories", arrStories, "#9933cc")</script>
+		</td>
+	</tr>
+	<!-- end row 2 -->
+	<!-- row 3 -->
+	<tr>
+		<!-- printables -->
+		<td valign="top">
+		<script>doMap("Printables", "printables", arrPrintables, "#ff9900")</script>
+		</td>
+		<!-- friends -->
+		<td valign="top">
+		<script>doMap("Friends", "friends", arrFriends, "#ff0000")</script>
+		</td>
+		<!-- backstage -->
+		<td valign="top">
+		<script>doMap("Backstage", "backstage", arrBackstage, "#9933cc")</script>
+		</td>
+	</tr>
+	<!-- end row 3 -->
+	<!-- row 4 -->
+	<tr>
+		<!-- caregivers & tv schedule -->
+		<td colspan=3 align=center valign=middle><br>
+            <a href="../caregiver/index.html"><img src="../shared/images/sitemap/bullet_obone2.gif" alt="" width="60" height="28" border="0">&nbsp;<font face="comic sans ms" color="#000099" size=5><b>Caregivers</b></font></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../tv_schedule.html"><img src="../shared/images/sitemap/bullet_pbone2.gif" alt="" width="60" height="28" border="0">&nbsp;<font face="comic sans ms" color="#000099" size=5><b>TV 
+            Schedule</b></font></a><br>
+          </td>
+	</tr>
+	<!-- end row 1 -->
+	</table>
+	</td>
+	<!-- end content -->
+</tr>
+<tr>
+	<td><img src="../shared/images/shim.gif" width=10 height=20 border=0></td>
+</tr>
+<tr>
+	<!-- bottom navigation bar -->
+	<td>
+	<script>doNavBar()</script>
+	</td>
+</tr>
+<!-- begin copyright table -->
+<tr>
+	<td align=right bgcolor="#000099" background="../shared/images/netscape.gif"><br><font style="font-size:11px;color:white">
+		&#169 2002 Scholastic Entertainment Inc. <a href="../copyright/index.html"><font style="font-size:11px;text-decoration:underline;color:#FFFFFF;">Web Site copyright.</font></a></font></td>
+</tr>
+</table>
+</body>
+</html>

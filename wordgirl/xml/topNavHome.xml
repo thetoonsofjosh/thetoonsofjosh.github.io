@@ -18,8 +18,8 @@
   <simpleNavButton X="798" Y="42" buttonSwf="images/topnav/teachers.png" rollOverMP3="site_audio/top_navigation/teachers.mp3">
     <metaInfo id="teachers"/>
   </simpleNavButton>
-  <!--simpleNavButton X="50" Y="0" buttonSwf="images/topnav/PBSlogo.png" kidsButtonSwf="images/topnav/KIDSlogo.png" rollOverMP3="site_audio/top_navigation/pbskidsgo.mp3">-->
-  <simpleNavButton X="50" Y="0" buttonSwf="images/topnav/PBSlogo.png" kidsButtonSwf="images/topnav/KIDSlogo.png" rollOverMP3="site_audio/top_navigation/pbskidsgo.mp3">
+  <!--<simpleNavButton X="50" Y="0" buttonSwf="images/topnav/PBSlogo.png" kidsButtonSwf="images/topnav/KIDSlogo.png" rollOverMP3="site_audio/top_navigation/pbskidsgo.mp3">-->
+  <simpleNavButton X="50" Y="0" buttonSwf="images/topnav/PBSlogo.png" kidsButtonSwf="images/topnav/KIDSlogo.png" rollOverMP3="">
     <metaInfo id="pbskids"/>
   </simpleNavButton>
 </TopNav>

@@ -1,0 +1,293 @@
+<html><!-- #BeginTemplate "/Templates/clicktales.dwt" --> 
+<head>
+<!-- #BeginEditable "doctitle" --> 
+<title>Clifford . Clicktales | PBS Kids</title>
+<!-- #EndEditable -->
+<link REL=STYLESHEET TYPE="text/css" HREF="../../../shared/css/main.css">
+<!-- #BeginEditable "gamescript" --> 
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+
+// identifies which section of site this page is in so correct bottom nav icon is hilited
+var pageSite = "bigideas";
+
+// pathway to folder where images live
+var pathMain = "../../../shared/images/" + pageSite + "/";
+
+// pathway to folder where specific CT images live
+var pathCT = pathMain + "clicktales/help/p6/";
+
+// play sound function
+function playSound(obj) {
+    
+	if (document.images) {
+		if(obj.test()) {
+			obj.playsound();
+		}
+	}
+}
+
+// games code
+var intCorrect = 6;
+var arrImg = new Array("house1","house2","house3","house4","house5","house6");
+var arrStatus = new Array(true, true, true, true, true, true);
+
+function newImage(arg) {
+	if (document.images) {
+		rslt = new Image();
+		rslt.src = arg;
+		return rslt;
+	}
+}
+
+function changeImages() {
+	if (document.images && (preloadFlag == true)) {
+		for (var i=0; i<changeImages.arguments.length; i+=2) {
+			document[changeImages.arguments[i]].src = changeImages.arguments[i+1];
+		}
+	}
+}
+
+var preloadFlag = false;
+function preloadImages() {
+	if (document.images) {
+		rarrow_over = newImage("../../../shared/images/bigideas/clicktales/r_arrow-over.gif");
+		larrow_over = newImage("../../../shared/images/bigideas/clicktales/l_arrow-over.gif");
+		house1_over = newImage("../../../shared/images/bigideas/clicktales/help/p6/house1_over.gif");
+		house2_over = newImage("../../../shared/images/bigideas/clicktales/help/p6/house2_over.gif");
+		house3_over = newImage("../../../shared/images/bigideas/clicktales/help/p6/house3_over.gif");
+		house4_over = newImage("../../../shared/images/bigideas/clicktales/help/p6/house4_over.gif");
+		house5_over = newImage("../../../shared/images/bigideas/clicktales/help/p6/house5_over.gif");
+		house6_over = newImage("../../../shared/images/bigideas/clicktales/help/p6/house6_over.gif");
+		preloadFlag = true;
+	}
+}
+// -->
+</SCRIPT>
+<!-- #EndEditable -->
+<script language="JavaScript1.2" src="../../../shared/scripts/nav_bottom.js"></script>
+<script language="JavaScript1.2" src="../../../shared/scripts/header_top.js"></script>
+<script language="JavaScript1.2" src="../../../shared/scripts/games.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#000099" topmargin="0" leftmargin="0" marginheight="0" marginwidth="0" onload="preloadImages();">
+<center>
+
+<table border=0 background="../../../shared/images/bigideas/tile.gif" cellpadding=0 cellspacing=0 width=583>
+	<tr>
+  		<td valign=top>
+		
+			<!-- begin header table -->
+			<table border=0 cellpadding=0 cellspacing=0 width=583 background="../../../shared/images/netscape.gif">
+				<tr> 
+					<td><script>doHeader()</script></td>
+				</tr>
+			</table>
+			
+			<br>
+			
+			<!-- begin main content table -->
+			<table border=0 cellpadding=0 cellspacing=0 width=583 align=center background="../../../shared/images/netscape.gif">
+				<tr>
+					<td align=center>
+						<!-- begin clicktale viewer -->
+						<table border=0 cellpadding=0 cellspacing=0 width=576 height=325>
+							<tr>
+								<td colspan=3><img src="../../../shared/images/bigideas/clicktales/top.gif" width="576" height="23"></td>
+							</tr>
+							<tr>
+								<!-- #BeginEditable "icon" -->
+								<td><img name="icon" src="../../../shared/images/bigideas/clicktales/seek.gif" width=107 height=107 alt="Seek and Find"></td>
+								<!-- #EndEditable -->
+								<td rowspan=3> 
+                    			<!-- begin slide content -->
+                    			<!-- #BeginEditable "slide%20content" --> 
+                    <table border=0 cellpadding=0 cellspacing=0 width=414 height=232 bgcolor="#FFFFFF">
+                      <tr> 
+                        <td align=center> 
+                          <!-- begin nested main content table -->
+                          <table border=0 cellpadding=0 cellspacing=0 width=411 height=228>
+                            <tr> 
+                              <td>
+							  	<!-- begin nested games table -->
+								<table border=0 cellpadding=0 cellspacing=0 width=236 height=228>
+									<tr>
+										<td><img src="../../../shared/images/bigideas/clicktales/help/p6/one.gif"></td>
+										<td><img src="../../../shared/images/bigideas/clicktales/help/p6/two.gif"></td>
+										<td><img src="../../../shared/images/bigideas/clicktales/help/p6/three.gif"></td>
+										<td><img src="../../../shared/images/bigideas/clicktales/help/p6/four.gif"></td>
+										<td><img src="../../../shared/images/bigideas/clicktales/help/p6/five.gif"></td>
+										<td><img src="../../../shared/images/bigideas/clicktales/help/p6/six.gif"></td>
+										<td><img src="../../../shared/images/bigideas/clicktales/help/p6/seven.gif"></td>
+									</tr>
+									<tr>
+										
+                                    <td rowspan=2><a href="javascript:doCTGame(0);"> 
+                                      <img name="house1" src="../../../shared/images/bigideas/clicktales/help/p6/house1.gif" border=0 alt="Clifford pulling boat"></a></td>
+										
+                                    <td colspan=2><a href="javascript:doCTGame(1);"> 
+                                      <img name="house2" src="../../../shared/images/bigideas/clicktales/help/p6/house2.gif" border=0 alt="Clifford pulling boat"></a></td>
+										<td colspan=4><img src="../../../shared/images/bigideas/clicktales/help/p6/eight.gif"></td>
+									</tr>
+									<tr>
+										
+                                    <td colspan=3><img src="../../../shared/images/bigideas/clicktales/help/p6/nine.gif" alt="Clifford pulling boat"></td>
+										
+                                    <td colspan=2 rowspan=2><a href="javascript:doCTGame(4);"> 
+                                      <img name="house5" src="../../../shared/images/bigideas/clicktales/help/p6/house5.gif" border=0 alt="Clifford pulling boat"></a></td>
+										
+                                    <td rowspan=2><img src="../../../shared/images/bigideas/clicktales/help/p6/eleven.gif" alt="Clifford pulling boat"></td>
+									</tr>
+									<tr>
+										
+                                    <td colspan=2><a href="javascript:doCTGame(2);"> 
+                                      <img name="house3" src="../../../shared/images/bigideas/clicktales/help/p6/house3.gif" border=0 alt="Clifford pulling boat"></a></td>
+										
+                                    <td><img src="../../../shared/images/bigideas/clicktales/help/p6/ten.gif" alt="Clifford pulling boat"></td>
+										<td><a href="javascript:doCTGame(3);">
+										<img name="house4" src="../../../shared/images/bigideas/clicktales/help/p6/house4.gif" border=0></a></td>
+									</tr>
+									<tr>
+										
+                                    <td colspan=7><img src="../../../shared/images/bigideas/clicktales/help/p6/twelve.gif" alt="Clifford pulling boat"></td>
+									</tr>
+									<tr>
+										
+                                    <td colspan=3><img src="../../../shared/images/bigideas/clicktales/help/p6/thirteen.gif" alt="Clifford pulling boat"></td>
+										
+                                    <td colspan=2><a href="javascript:doCTGame(5);"> 
+                                      <img name="house6" src="../../../shared/images/bigideas/clicktales/help/p6/house6.gif" border=0 alt="Clifford pulling boat"></a></td>
+										
+                                    <td colspan=2><img src="../../../shared/images/bigideas/clicktales/help/p6/fourteen.gif" alt="Clifford pulling boat"></td>
+									</tr>
+									<tr>
+										
+                                    <td colspan=7><img src="../../../shared/images/bigideas/clicktales/help/p6/fifteen.gif" width=236 height=44 alt="Clifford pulling boat"></td>
+									</tr>
+								</table>
+							  </td>
+                              <td> 
+                                <!-- begin nested text table -->
+                                <table border=0 cellpadding=5 cellspacing=0 width=175 height=228>
+                                  <tr> 
+                                    <td><font style="font-family:verdana;font-size:10pt"> 
+                                     The fog was so thick that the ferry couldn't get to the dock! Clifford 
+									 swam into the fog to find the ferry. Soon he came back to the dock 
+									 pulling the ferry behind him!</font></td>
+                                  </tr>
+                                  <tr> 
+                                    <td valign=bottom align=right><img src="../../../shared/images/bigideas/clicktales/responsible/p6/pageno.gif"></td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                    <!-- #EndEditable --></td>
+								<td><img src="../../../shared/images/bigideas/clicktales/clicktale_right.gif"></td>
+							</tr>
+							<tr>
+								<td>
+									<!-- left arrow table -->
+									<table border=0 cellpadding=0 cellspacing=0>
+										<tr>
+											
+                        <td><img src="../../../shared/images/bigideas/clicktales/l_arrow-left.gif"></td>
+											
+                        <td><!-- #BeginEditable "left%20arrow" --><a href="five.html"
+											onmouseover="changeImages('larrow','../../../shared/images/clicktales/l_arrow-over.gif');return true;"
+											onmouseout="changeImages('larrow','../../../shared/images/clicktales/l_arrow.gif');return true;"> 
+                          <img name="larrow" src="../../../shared/images/bigideas/clicktales/l_arrow.gif" border=0 alt="previous page"></a><!-- #EndEditable --></td>
+										</tr>
+									</table>
+								</td>
+								<td>
+									<!-- right arrow table -->
+									<table border=0 cellpadding=0 cellspacing=0>
+										<tr>
+											
+                        <td><!-- #BeginEditable "right%20arrow" --><a href="javascript:goNext('seven.html')"> 
+                          <img name="rarrow" src="../../../shared/images/bigideas/clicktales/r_arrow.gif" border=0 alt="next page"></a><!-- #EndEditable --></td>
+											
+                        <td><img src="../../../shared/images/bigideas/clicktales/r_arrow-right.gif"></td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								
+                  <td><img src="../../../shared/images/bigideas/clicktales/left_side.gif"></td>
+								
+                  <td><img src="../../../shared/images/bigideas/clicktales/right_side.gif"></td>
+							</tr>
+							<tr>
+								
+                  <td colspan=3><img src="../../../shared/images/bigideas/clicktales/divider.gif"></td>
+							</tr>
+							<tr>
+								<td colspan=3>
+									<!-- begin lower text field table -->
+									<table border=0 cellpadding=0 cellspacing=0>
+										<tr>
+											
+                        <td><img src="../../../shared/images/bigideas/clicktales/text_left.gif"></td>
+											<td bgcolor="#FFFFFF">
+												<table border=0 cellpadding=0 cellspacing=0 width=384 height=27>
+													<tr>
+														
+                              <td><!-- #BeginEditable "dialog%20box" --><font style="font-weight:bold;color:#FF3333;font-family:verdana;font-size:9pt">Click 
+                                on the six lighthouses hidden in the picture.</font><!-- #EndEditable --></td>
+													</tr>
+												</table>
+											</td>
+											
+                        <td><img src="../../../shared/images/bigideas/clicktales/text_right.gif"></td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								
+                  <td colspan=3><img src="../../../shared/images/bigideas/clicktales/bottom.gif"></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+			
+			<br>
+
+			<!-- begin bottom navigation bar -->
+			<table border=0 cellpadding=0 cellspacing=0 background="../../../shared/images/friends/bottomnav.gif" width=583 height=72>
+				<tr>
+					<td><script>doNavBar()</script></td>				
+				</tr>
+			</table>
+			
+		</td>
+	</tr>
+</table>
+</center> 
+<!-- #BeginEditable "audio" -->
+
+<!-- begin copyright info table -->
+
+<center>
+<br>
+<!-- begin copyright table -->
+<table border=0 cellpadding=0 cellspacing=0 width=583>
+	<tr>
+		<td align=right><font style="font-size:11px;color:white">
+		&#169 2002 Scholastic Entertainment Inc. <a href="../../../copyright/index.html"><font style="font-size:11px;text-decoration:underline;color:#FFFFFF;">Web Site copyright.</font></a></font></td>
+	</tr>
+</table>
+</center>
+<applet code="TinyAudioPlayer.class" codebase="../../../shared/sound" name="goodjobplayer" width="1" height="1" MAYSCRIPT>
+  <param name=snd value="../../../shared/sound/bark.au">
+</applet>
+<!-- #EndEditable -->
+</body>
+<!-- #EndTemplate --></html>

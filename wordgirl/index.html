@@ -1,235 +1,27 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
 	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<xbase href="/pbskids2008/wordgirl/" />
 		<title>WordGirl | PBS Kids</title>
-		<meta name="Keywords" content="WordGirl, Captain Huggy Face, superhero, games, vocabulary, videos, tv, television, literacy, education, Butcher, Energy Monster, Ms Question, Dr. Two Brains, Chuck Sandwich Making Guy, Mr. Big, Ms Word, Granny May, Lady Redundant Woman"/>
-		<meta name="Description" content="Animated Super hero WordGirl fights crime using her superhero strength and her colossal vocabulary with her monkey sidekick, Captain Huggy Face."/>
-		
-		
-		<!-- begin include -->
-		<script type="text/javascript" src="/wordgirl/script/jquery-1.4.2.min.js"></script>
-		<script type="text/javascript" src="/wordgirl/script/swfobject.js"></script>
-		<script type="text/javascript" src="/wordgirl/script/swfaddress.js"></script>
-		<script type="text/javascript" src="/includes/javascript/textresizedetector.min.js"></script>
-		
-		<script type='text/javascript' src='/includes/javascript/homepage-size.uncompressed.js'></script>
-		
-		<script type="text/javascript">
-			var links = {
-				games:"games/",
-				homepage:"",
-				unlockable:"unlockable/",
-				buildalair:"games/buildalair/",
-				robotworkshop:"games/robotworkshop/",
-				mazemania:"games/mazemania/",
-				powerwords:"games/powerwords/",
-				freezeframe:"games/freezeframe/",
-				comicstripcapers:"games/comicstripcapers/",
-				huggydance:"games/huggydance/",
-				favoriteword:"games/favoriteword/",
-				comicbook:"games/comicbook/",
-				printables:"printables/",
-				chuckgame:"games/chucksandwich/",
-				misspower:"games/misspower/",
-				drtwobrains:"games/drtwobrains/",
-				
-				prettyprincess:"prettyprincess/",
-				prettyprincessgame:"prettyprincess/game",
-				prettyprincessvideos:"prettyprincess/videos",
-				prettyprincessprintables:"prettyprincess/printables",
-				
-				heroesvillains:"heroes-villains/",
-				adventures:"adventures/",
-				clips:"adventures/#clips",
-				butcherisms:"adventures/butcherisms/",
-				beastar:"adventures/beastar/",
-				honeybee:"adventures/honeybee/",
-				haveaword:"adventures/mihaw/",
-				scavenger:"adventures/scavenger/",
-				
-				char_birthdaygirl:"heroes-villains/birthdaygirl",
-				char_butcher:"heroes-villains/butcher",
-				char_granny:"heroes-villains/granny",
-				char_huggyface:"heroes-villains/huggyface",
-				char_lady:"heroes-villains/lady",
-				char_momdad:"heroes-villains/momdad",
-				char_mrbig:"heroes-villains/mrbig",
-				char_msquestion:"heroes-villains/msquestion",
-				char_nocan:"heroes-villains/nocan",
-				char_nrg:"heroes-villains/energymonster",
-				char_sandwich:"heroes-villains/sandwich",
-				char_scoops:"heroes-villains/scoops",
-				char_seymour:"heroes-villains/seymour",
-				char_tj:"heroes-villains/tj",
-				char_tobey:"heroes-villains/tobey",
-				char_twobrains:"heroes-villains/twobrains",
-				char_violet:"heroes-villains/violet",
-				char_whammer:"heroes-villains/whammer",
-				char_wordgirl:"heroes-villains/wordgirl",
-				char_victoria:"heroes-villains/victoriabest",
-				char_bampy:"heroes-villains/bampy",
-				char_princess:"heroes-villains/prettyprincess",
-				char_halhardbargain:"heroes-villains/halhardbargain",
-				char_sonnydays:"heroes-villains/sonnydays",
-				char_learnerer:"heroes-villains/learnerer",
-				
-				parents:"http://www.pbs.org/parents/wordgirl/parentsandteachers.html",
-				teachers:"http://www.pbs.org/teachers/wordgirl/",
-				pbskids:"/go/",
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 
-				noid:""
-				};
-			function navWithID( pageID )
-			{	
-				if (pageID == "parents"){
-					bridge(links[pageID], 'PBS Parents');
-				} else if (pageID == "teachers") {
-					bridge(links[pageID], 'PBS Teachers');
-				} else if (pageID == "pbskids") {
-					window.location = links[pageID];
-				} else {
-					window.location = "/wordgirl/" + links[pageID];		
-				}
-			}
-			function launchPrintable(targetfile, name, params) {
-				var domain = "/enablecdn/wordgirl/cdn_content/printables/" + targetfile;
-				window.open(domain, name, params); 
-			}
-			
-			// kids logo
-			var cookieString = "" + document.cookie;
-			var kidslogo = "false";
-			if ( cookieString.indexOf("pbskids.fromkids") != -1 ) 
-			{
-				//alert("from kids cookie found");
-				kidslogo = "true";
-			} else {
-				//alert("kids cookie not found: " + document.cookie);
-			}
-			
-			
-			// support legacy bookmarks
-			function checkLegacy(){
-				var pathArray = SWFAddress.getPathNames();
-				switch (pathArray[1])
-				{
-					case "game_1": //freeze frame
-					  navWithID("freezeframe");
-					  break;
-					case "game_2": //power words
-					  navWithID("powerwords");
-					  break;
-					case "game_3": //Comic Strip Capers
-					  navWithID("comicstripcapers");
-					  break;
-					case "game_4": //maze-mania
-					  navWithID("mazemania");
-					  break;
-					case "game_8": // huggy-dance
-					  navWithID("huggydance");
-					  break;
-					case "game_9": // robot-workshop
-					  navWithID("robotworkshop");
-					  break;
-					case "game_10": //build-a-lair
-					  navWithID("buildalair");
-					  break;
-					case "comicBook": //comic book
-					  navWithID("comicbook");
-					  break;
-					default:
-					  // ignore
-				}
-			}
-			
-		</script>
-		
-<!-- end include -->
-		
-		<script type="text/javascript">
-			var flashvars = {cdn_root: "/enablecdn/wordgirl/cdn_content/", site_root:"/wordgirl/", page_xml_url:"xml/homepage.xml", content_swf_url:"HomePageProxy.swf", is_homepage:"true", bg_music_url: "site_audio/homepage/theme_instro.mp3", k_logo: kidslogo};
-			var params = {};
-			params.bgcolor = "#1277C9";
-			params.wmode = "transparent";
-			params.allowscriptaccess = "always";
-			params.menu = false;
-			swfobject.embedSWF("/enablecdn/wordgirl/cdn_content/WordGirlShell.swf", "WordGirl", "1160", "800", "10.0.0", false, flashvars, params);
-		</script>
-				
-		<link rel="stylesheet" type="text/css" href="/wordgirl/css/style.css" />
-		
-		
-		
-		<script type="text/javascript" src="/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-<script type="text/javascript" src="/includes/javascript/bridge.urls.js"></script>
-<script type="text/javascript" src="/includes/javascript/bridge.js"></script>
-		
-	</head>
+		<!-- CHANGE THE KEYWORDS/DESCRIPTION TO MATCH THE PAGE -->
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    	<meta name="Keywords" content="WordGirl, Captain Huggy Face, Dr. Two Brains, Professor Two-Brains, The Butcher, Violet, Tim Botsford, Sally Botsford, TJ, Todd Scoops Ming, Announcer, Tobey, Chuck the Evil Sandwich Making Guy, Granny Mae, Vocabulary, Word Games, Episode Descriptions, fly, speed of sound, Becky Botsford, Planet Lexicon, crossword puzzle, puzzles, dictionary, heiroglyphics, monkey, super powers"/>
+		<meta name="Description" content="The WordGirl home page welcomes users to the city of Preposterocity.  A skyline fills the background and navigation buttons link to various areas of the website."/>
+
+    <script type="text/javascript" src="/pbskids2008/wordgirl/Scripts/shell.js"></script>
+
+		<script type="text/javascript" src="/pbskids2008/wordgirl/swfaddress/swfaddress.js"></script>
+    <script type="text/javascript" src="/includes/flash/swfobject.js"></script>
 	
-	<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" text-align="center" onLoad="checkLegacy();">
-		
-
-
-
-
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+<script type="text/javascript" src="/pbskids2008//includes/javascript/bridge.urls.js"></script>
+<script type="text/javascript" src="/pbskids2008//includes/javascript/bridge.js"></script>
+	</head>
+   <style type="text/css" src="/pbskids2008/wordgirl/style.css"></style>
+	<body bgcolor="#1277C9" text="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
 		<script type="text/javascript">
-var GA_setvar;
-(function() {
- var getCookie = function(c_name) {
-     if (document.cookie.length>0) {
-         c_start=document.cookie.indexOf(c_name + "=");
-         if (c_start!=-1) {
-             c_start=c_start + c_name.length+1;
-             c_end=document.cookie.indexOf(";",c_start);
-             if (c_end==-1) c_end=document.cookie.length;
-             return unescape(document.cookie.substring(c_start,c_end));
-         }
-     }
-     return "";
- };
-
- var pbskids_wested = getCookie('pbskids.wested');
-
- if(pbskids_wested){
-     GA_setvar = {pbskids_wested: pbskids_wested};
- }
-
- //Determines if user is logged in
- var pbskids_username = getCookie('pbskids.username');
- //Determines if account is new
- var returning = getCookie('pbskids.returning');
-
- GA_customvar = {};
-
- var ua_codes = "UA-4005067-1,UA-4005001-1,UA-3968372-1,UA-3999648-1,ET-3999648-2"; 
- var ua_codes_list = ua_codes.split(',');
-
- var login_info;
- //Setup log in info custom variable string
- if (pbskids_username){
-    login_info = "l=1";
-      if(returning){
-	login_info += "&r=1";
-      }	
-      else{
-        login_info += "&r=0";
-      }
- }
- else{
-    login_info = "l=0&r=0";
- } 
-
- for (i=0; i <  ua_codes_list.length; i++){
-  var cv_array = [["GO login tracking", login_info, 2]];
-  GA_customvar[ua_codes_list[i]] = cv_array;
- }
-
-})();
-
-</script>
-<script id="pbskids-headband-script" type="text/javascript" src="/pbs-kids-headband/js/headband.js"></script>
-<script type="text/javascript">
 var GA_env = { ua_list: "UA-4005067-1,UA-4005001-1,UA-3968372-1,UA-3999648-1,ET-3999648-2" };
 
 GA_env.vars = { localized: 0 };
@@ -237,172 +29,79 @@ GA_env.vars = { localized: 0 };
 var GA_jshost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
 document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
 </script>
-<script src="/js/ga-4db5d466.js" type="text/javascript"></script>
+<script src="/js/ga-4b2a4b53.js" type="text/javascript"></script>
 
 <!-- Begin comScore Tag -->
 <script>
-  var _comscore = _comscore || [];
-  _comscore.push({ c1: "2", c2: "3005420" });
-  (function() {
-    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
-    s.src = (document.location.protocol == "https:" ? "https://sb" : "https://b") + ".scorecardresearch.com/beacon.js";
-    el.parentNode.insertBefore(s, el);
-  })();
+   document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
+</script>
+ <script>
+  COMSCORE.beacon({
+    c1:2,
+    c2:3005420,
+    c3:"",
+    c4:"/pbskids2008/wordgirl/index.html",
+    c5:"",
+    c6:"",
+    c15:""
+  });
 </script>
 <noscript>
-  <img src="https://b.scorecardresearch.com/p?c1=2&c2=3005420&cv=2.0&cj=1" />
+  <img src="http://b.scorecardresearch.com/b?c1=2&c2=3005420&c3=&c4=/pbskids2008/wordgirl/index.html&c5=&c6=&c15=&cv=1.3&cj=1" style="display:none" width="0" height="0" alt="" />
 </noscript>
 <!-- End comScore Tag -->
 
 
-
-		<!-- begin include -->
-
-<!--
-THE FOLLOWING DO NOT APPEAR TO BE NEEDED. -Jer
-$DOCUMENT_URI = /\/electriccompany\//                                                                   ||
-(($DOCUMENT_URI = /\/electriccompany\//) && ($DOCUMENT_URI != /\/electriccompany\/pranksterplanet\/jertest.html/))  ||
-
-$DOCUMENT_URI = /^\/electriccompany\/index.html$/                      ||
-$DOCUMENT_URI = /^\/electriccompany\/srsindex.html$/                   ||
-$DOCUMENT_URI = /^\/electriccompany\/games\/sortitout\/$/              ||
-$DOCUMENT_URI = /^\/electriccompany\/games\/sortitout\/index.html$/    ||
-$DOCUMENT_URI = /^\/electriccompany\/games/musicman\/$/                ||
-$DOCUMENT_URI = /^\/electriccompany\/games/musicman\/index.html$/      ||
-$DOCUMENT_URI = /^\/electriccompany\/games\/escapes\/$/                ||
-$DOCUMENT_URI = /^\/electriccompany\/games\/escapes\/index.html$/      ||
-$DOCUMENT_URI = /^\/electriccompany\/games\/chaingame\/$/              ||
-$DOCUMENT_URI = /^\/electriccompany\/games\/chaingame\/index.html$/    ||
--->
-<!-- THE GREAT WORD QUEST SUPPORT FILES -->
-<!-- The content below must write even if the user is not logged in.-->
-<link rel="stylesheet" href="/wordquest/css/trackingBanner.css" type="text/css" id="trackingBannerSpecificCSS" />
-<script type="text/javascript" src="/wordquest/js/swfobject.js"></script>
-<script type="text/javascript" src="/wordquest/js/trackingBanner.js"></script>
-<script type="text/javascript" src="/wordquest/js/trackerInterface.js"></script>
-
-<link type="text/css" media="screen" rel="stylesheet" href="/includes/auth/ajax.css" />
-
-
-<script type="text/javascript" src="/wordquest/js/jquery.cookie.js"></script>
-
-<div id="GWQContainer" align="center">
-
-        <div id="flashSharedObjectProxyContainer" align="center">
-
-                <div id="flashSharedObjectProxyContent" align="center">
-                </div>
-
-                <script type="text/javascript">
-                        var params = {
-                                allowscriptaccess: "always"
-                        };
-                        var flashvars = {
-                                pbsGoKidsId: $.cookie('pbskids.userid'), 
-                                username: $.cookie('pbskids.username'), 
-                                stationLocale: $.cookie('pbskids.station')
-                        };
-                        var attributes = {id:"flashSharedObjectProxyContent", name:"flashSharedObjectProxyContent"};
-                        swfobject.embedSWF("/wordquest/media/swf/modules/sharedObjectProxy/sharedObjectProxy.swf", "flashSharedObjectProxyContent", "960", "1", "9.0.124", "/wordquest/media/media/swf/global/expressInstall/expressInstall.swf", flashvars, params, attributes);
-                </script>
-
-        </div>
-
-        <div id="trackingBannerContainer" align="center">
-
-                <div id="flashTrackingBannerContent" align="center">
-                </div>
-
-        </div>
-
+		
+		<style type="text/css">
+	.teaser { font-family: Arial, Helvetica, sans-serif, Myriad; font-size: 10px; color: #FFFFFF;	}
+	.teaser a { font-family: Arial, Helvetica, sans-serif, Myriad; font-size: 10px; color: #FFFFFF; }
+	.teaser a:hover{ color: #000000; }
+	.teaser a:hover{ color: #000000; }
+</style>
+   
+<center>
+<div id="newwrapper">	
+	<div id="content">
+   	<img src="images/noflash.jpg" width="508" height="437" border="0" alt="noflash" />
+  </div>
+	<div id="videoPlayer" style="position:relative; left:60px; top:-450px; width:640px;">
+		<iframe id="videoframe" scrolling="no" frameborder="0" src="" width="640" height="400" allowtransparency="true"></iframe>
+	</div>
+	<div id="footer" style="position:relative; top:-400px;">
+		<table align="center">
+			 <tr>
+				 <td colspan="3" class="teaser">
+					 <div align="center">	
+						 
+						Find out when WordGirl is on <a href="/tvschedules/localizer.html?dest=/pbskids2008/wordgirl/index.html&nola=WORG">in your town</a>
+						 
+          </div>
+				</td>
+      </tr>
+      <tr>
+        <td colspan="3" class="teaser" ><div align="center">TM, &reg; &amp; &copy; 
+          Scholastic Inc., 2009. All rights reserved.<br />
+          Produced by Scholastic and Soup 2 Nuts</div></td>
+      </tr>
+      <tr>
+        <td colspan="1" style="padding-bottom:10px;padding-left:20px"><div align="left"><a href="http://www.scholastic.com" title="Scholastic.com" target="_parent"><img src="/pbskids2008/wordgirl/parentsandteachers/images/scholasticlogo.gif" alt="logo3" width="87" height="9" border="0" /></a></div></td>
+        <td colspan="1" style="padding-bottom:10px;padding-left:20px"><div align="left"><a href="http://soup2nuts.tv/" title="Soup2Nuts" target="_parent"><img src="/pbskids2008/wordgirl/parentsandteachers/images/souptonutslogo.gif" alt="logo4" width="70" height="16" border="0" /></a></div></td>
+        <td colspan="1" style="padding-bottom:10px;padding-left:20px"><div align="left" id="cec_logo"><a href="http://www.chuckecheese.com/" title="Chuck E Cheese" target="_parent"><img src="/pbskids2008/wordgirl/parentsandteachers/images/chuckecheeselogo.gif" alt="logo2" width="70" height="35" border="0" /></a></div></td>
+      </tr>
+      <tr>
+        <td colspan="3" class="teaser" ><div align="center">Privacy Policy: <a href="/pbskids2008//privacy/" target="_blank">/pbskids2008//privacy/</a></div></td>
+	    </tr>
+    </table>
+  </div>
 </div>
+</center>
 
-<!-- END THE GREAT WORD QUEST SUPPORT FILES -->
+		<script type="text/javascript">
+			hideVideoPlayer();
 
-
-
-	<div id="wrapperhome">	
-
-		<div id="WordGirl" style="position:relative; top:0px;">
-			<div id="noflash_nav">
-				<table id="Table_01" width="960" height="85" border="0" cellpadding="0" cellspacing="0">
-					<tr>
-						<td width="135" height="85" rowspan="2"><a href='/'><img src="/wordgirl/cdn_content/images/topnav/KIDSlogo.png" border=0 alt="pbskids.org"></a></td>
-						<td width="145" height="85" rowspan="2"><a href='/wordgirl/'><img src="/wordgirl/cdn_content/images/topnav/WGlogo.png" border=0 alt="WordGirl Home Page"></a></td>
-						<td width="172" height="85" rowspan="2"><a href='/wordgirl/games/'><img src="/wordgirl/cdn_content/images/topnav/top_games.png" border="0" alt="Games"></a></td>
-						<td width="171" height="85" rowspan="2"><a href='/wordgirl/adventures/'><img src="/wordgirl/cdn_content/images/topnav/top_videos.png" border=0 alt="Games"></a></td>
-						<td width="175" height="85" rowspan="2"><a href='/wordgirl/heroes-villains/'><img src="/wordgirl/cdn_content/images/topnav/top_characters.png" border=0 alt="Characters"></a></td>
-						<td width="137" height="42"><a href='http://www.pbs.org/parents/wordgirl/parentsandteachers.html' title="PBS Parents"><img src="/wordgirl/cdn_content/images/topnav/parents.png" alt="Parents" border=0></a></td>
-					</tr>
-					<tr>
-						<td width="137" height="43"><a href='http://www.pbs.org/teachers/wordgirl/' title="PBS Teachers"><img src="/wordgirl/cdn_content/images/topnav/teachers.png" alt="Teachers" border=0></a></td>
-					</tr>
-				</table>
-			</div>
-			<div id="noflash">
-				<table>
-					<tr>
-						<td>
-							<div style="float:left;margin-right:50px;margin-left:25px"> 
-								<img src="/enablecdn/wordgirl/cdn_content/images/noFlash_WG.gif" alt="WordGirl" />
-							</div>
-						</td>
-						<td>
-							<div class="noFlashHeader"><b>Flash Plug-in Required for this Web site.</b></div>
-							<div class="textContainer">
-								<br />
-								<b>
-								We're glad you're here! <i>WordGirl</i> follows the superhero adventures of Becky Botsford, a.k.a. WordGirl, as she fights crime and enriches vocabulary, all in a day's work.<br /><br />
-								Download the latest version of <a href="http://get.adobe.com/flashplayer/" title="Get Flash Player">Adobe Flash Player</a> to <a href="/wordgirl/adventures/" id="adventures">watch video</a>, <a href="/wordgirl/printables/" id="printables">print activities</a>, and <a href="/wordgirl/games/" id="games">play games</a> with WordGirl and Captain Huggy Face. 
-								<br /><br />
-								This site also has many educational resources for <a href="http://www.pbs.org/parents/wordgirl/parentsandteachers.html" title="PBS Parents">Parents</a> and <a href="http://www.pbs.org/teachers/wordgirl/" title="PBS Teachers">Teachers</a>.
-								</b>
-							</div>
-						</td>
-					</tr>
-				</table>
-			</div>
-		</div>
-		
-			
-			<div id="footer" style="position:relative; top:0px;">
-						
-				<a href="/wordgirl/games/">Games</a> | 
-				<a href="/wordgirl/printables/">Printables</a> | 
-				<a href="/wordgirl/adventures/">Videos</a> | 
-				<a href="/wordgirl/heroes-villains/">Characters</a>
-				<br />
-				<a href="http://www.pbs.org/parents/wordgirl/parentsandteachers.html" title="PBS Parents">Parents</a> | 
-				<a href="http://www.pbs.org/teachers/wordgirl/" title="PBS Teachers">Teachers</a> | 
-				<a href="http://www.pbs.org/parents/wordgirl/pt_sitemap.html" title="Wordgirl Sitemap">Site Map</a> | 
-				<a href="/privacy/">PBS Kids Privacy Policy</a>
-				<br />
-				<br />
-
-				<table align="center">
-					 <tr>
-						 <td colspan="3" class="teaser">
-							 <div align="center">	
-								 Find out when WordGirl is on <a href="/tvschedules/localizer.html?dest=/wordgirl/index.html&nola=WORG">in your town</a> 
-		          			</div>
-						</td>
-		      </tr>
-		      <tr>
-		        <td colspan="3" class="teaser" ><div align="center">TM, &reg; &amp; &copy; 
-		          Scholastic Inc., 2011. All rights reserved.<br />
-		          Produced by Scholastic and Soup 2 Nuts</div></td>
-		      </tr>
-		      <tr>
-		        <td colspan="1" style="padding-bottom:10px;padding-left:20px"><div align="left"><a href="http://www.scholastic.com" title="Scholastic.com" target="_parent"><img src="/wordgirl/parentsandteachers/images/scholasticlogo.gif" alt="logo3" width="87" height="9" border="0" /></a></div></td>
-		        <td colspan="1" style="padding-bottom:10px;padding-left:20px"><div align="left"><a href="http://soup2nuts.tv/" title="Soup2Nuts" target="_parent"><img src="/wordgirl/parentsandteachers/images/souptonutslogo.gif" alt="logo4" width="70" height="16" border="0" /></a></div></td>
-		        <td colspan="1" style="padding-bottom:10px;padding-left:20px"><div align="left" id="cec_logo"><a href="http://www.chuckecheese.com/" title="Chuck E Cheese" target="_parent"><img src="/wordgirl/parentsandteachers/images/chuckecheeselogo.gif" alt="logo2" width="70" height="35" border="0" /></a></div></td>
-		      </tr>
-		    </table>
-		  </div>
-</div>	
-	
-		
-<!-- end include -->
-		
+			// change this for each deeppath
+			loadShell("");
+		</script>
 	</body>
 </html>

@@ -1,0 +1,210 @@
+
+
+BODY	{
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
+	font-family:Arial,Helvetica,Geneva,Swiss,SunSans-Regular;
+	font-size: 10pt;
+	z-index: 1;
+	}	
+
+	
+b 	{
+	font-family:Arial,Helvetica,Geneva,Swiss,SunSans-Regular;
+	font-weight: 700;
+	}
+	
+
+	
+TD	{
+	font-family:Arial,Helvetica,Geneva,Swiss,SunSans-Regular;
+	font-size: 10pt;
+	 }
+	 
+
+SMALL	{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 7pt;
+	}
+	 
+
+
+
+DIV	{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	
+	padding: 0px;
+	margin: 0px;
+}
+
+
+
+DIV.secondary	{
+	color: #336699;
+	padding-left: 25px;
+	padding-right: 10px;
+}
+
+DIV.secondary P	{
+
+}
+
+
+
+DIV.sec_head {
+	color: #666666;
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 11pt;
+
+}
+
+
+P.sec_head {
+	padding: 0px;
+	margin: 0px;
+	color: #666666;
+	font-size: 11pt;
+
+}
+
+
+
+
+H1	{
+	font-family:Arial,Helvetica,Geneva,Swiss,SunSans-Regular;
+	font-size: 16pt;
+	padding: 0px;
+	margin: 0px;	
+	
+	margin-top: 8px;
+	margin-bottom: 8px;
+
+	
+	}
+	
+H2	{
+	font-family:Arial,Helvetica,Geneva,Swiss,SunSans-Regular;
+	font-size: 12pt;
+	
+	
+	padding: 0px;
+	margin: 0px;
+	
+	margin-top: 14px;
+	margin-bottom: 6px;
+
+
+	}
+	
+h3 {
+font-family: Comic Sans MS, MS Sans Serif, MS Serif;
+font-size: 14pt;
+font-style: normal;
+font-weight: normal;
+}
+	
+	
+	
+p	{
+	font-family:Arial,Helvetica,Geneva,Swiss,SunSans-Regular;
+	font-size: 10pt;
+	
+
+
+	}	
+	
+
+
+	
+	
+ul	{
+	font-family:Arial,Helvetica,Geneva,Swiss,SunSans-Regular;
+	font-size: 10pt;
+	margin-top: 0px;
+	padding: 0px;
+	}
+
+	
+OL	{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	}
+
+	
+li	{
+	font-family:Arial,Helvetica,Geneva,Swiss,SunSans-Regular;
+	font-size: 10pt;
+	
+		margin-top: 2px;
+
+	}
+	
+
+	
+	
+SPAN	{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	}
+
+
+
+a	{
+	font-family:Arial,Helvetica,Geneva,Swiss,SunSans-Regular;
+	font-size: 10pt;
+}
+
+
+a:active {
+	}
+
+
+a.skip	{
+	color: #666666;
+	Text-Decoration : None;
+	font-weight: 700;
+}
+
+a.skip:link {
+}
+
+a.skip:active {
+	color: #FF00FF;
+}
+
+
+
+a.skip:visited {
+	color: #666666;
+}
+
+a.skip:hover {
+	color: #FF00FF;
+}
+
+a.specials:link {  
+	
+	color: #000000
+	text-decoration: none; 
+}
+
+A.specials:hover {  
+	
+	text-decoration: underline; 
+}
+
+A.specials:visited {  
+	
+	text-decoration: none; 
+}
+
+
+
+
+

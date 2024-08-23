@@ -1,0 +1,84 @@
+<HTML>
+<HEAD>
+<TITLE>globalnav</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+
+function newImage(arg) {
+	if (document.images) {
+		rslt = new Image();
+		rslt.src = arg;
+		return rslt;
+	}
+}
+
+function changeImages() {
+	if (document.images && (preloadFlag == true)) {
+		for (var i=0; i<changeImages.arguments.length; i+=2) {
+			document[changeImages.arguments[i]].src = changeImages.arguments[i+1];
+		}
+	}
+}
+
+var preloadFlag = false;
+function preloadImages() {
+	if (document.images) {
+		globalnav_01_over = newImage("../images/botnav/globalnav_01-over.gif");
+		globalnav_02_over = newImage("../images/botnav/globalnav_02-over.gif");
+		globalnav_03_over = newImage("../images/botnav/globalnav_03-over.gif");
+		globalnav_04_over = newImage("../images/botnav/globalnav_04-over.gif");
+		globalnav_05_over = newImage("../images/botnav/globalnav_05-over.gif");
+		globalnav_06_over = newImage("../images/botnav/globalnav_06-over.gif");
+		globalnav_07_over = newImage("../images/botnav/globalnav_07-over.gif");
+		preloadFlag = true;
+	}
+}
+
+// -->
+</SCRIPT>
+</HEAD>
+<BODY BGCOLOR=#FFFFFF ONLOAD="preloadImages();">
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 width="600" height="98" align="center">
+	<TR>
+		<TD>
+			<A HREF="javascript:hint();"
+			   ONMOUSEOVER="changeImages('globalnav_01', '../images/botnav/globalnav_01-over.gif'); return true;"
+			   ONMOUSEOUT="changeImages('globalnav_01', '../images/botnav/globalnav_01.gif'); return true;">
+				<IMG NAME="globalnav_01" SRC="../images/botnav/globalnav_01.gif" WIDTH=112 HEIGHT=98 BORDER=0></A></TD>
+		<TD>
+			<A HREF="../kids/pbskids2008/clifford/helpcliff_beach.html"
+			   ONMOUSEOVER="changeImages('globalnav_02', '../images/botnav/globalnav_02-over.gif'); return true;"
+			   ONMOUSEOUT="changeImages('globalnav_02', '../images/botnav/globalnav_02.gif'); return true;">
+				<IMG NAME="globalnav_02" SRC="../images/botnav/globalnav_02.gif" WIDTH=84 HEIGHT=98 BORDER=0></A></TD>
+		<TD>
+			<A HREF="../kids/emily/ee_rabbitpg1.html"
+			   ONMOUSEOVER="changeImages('globalnav_03', '../images/botnav/globalnav_03-over.gif'); return true;"
+			   ONMOUSEOUT="changeImages('globalnav_03', '../images/botnav/globalnav_03.gif'); return true;">
+				<IMG NAME="globalnav_03" SRC="../images/botnav/globalnav_03.gif" WIDTH=76 HEIGHT=98 BORDER=0></A></TD>
+		<TD>
+			<A HREF="../kids/tbone/ttown1.html"
+			   ONMOUSEOVER="changeImages('globalnav_04', '../images/botnav/globalnav_04-over.gif'); return true;"
+			   ONMOUSEOUT="changeImages('globalnav_04', '../images/botnav/globalnav_04.gif'); return true;">
+				<IMG NAME="globalnav_04" SRC="../images/botnav/globalnav_04.gif" WIDTH=74 HEIGHT=98 BORDER=0></A></TD>
+		<TD>
+			<A HREF="../kids/cleo/cleo_hat.html"
+			   ONMOUSEOVER="changeImages('globalnav_05', '../images/botnav/globalnav_05-over.gif'); return true;"
+			   ONMOUSEOUT="changeImages('globalnav_05', '../images/botnav/globalnav_05.gif'); return true;">
+				<IMG NAME="globalnav_05" SRC="../images/botnav/globalnav_05.gif" WIDTH=73 HEIGHT=98 BORDER=0></A></TD>
+		<TD>
+			<A HREF="../kids/islanders/islanders.html"
+			   ONMOUSEOVER="changeImages('globalnav_06', '../images/botnav/globalnav_06-over.gif'); return true;"
+			   ONMOUSEOUT="changeImages('globalnav_06', '../images/botnav/globalnav_06.gif'); return true;">
+				<IMG NAME="globalnav_06" SRC="../images/botnav/globalnav_06.gif" WIDTH=74 HEIGHT=98 BORDER=0></A></TD>
+		<TD>
+			<A HREF="../kids/preview/previewindex.html"
+			   ONMOUSEOVER="changeImages('globalnav_07', '../images/botnav/globalnav_07-over.gif'); return true;"
+			   ONMOUSEOUT="changeImages('globalnav_07', '../images/botnav/globalnav_07.gif'); return true;">
+				<IMG NAME="globalnav_07" SRC="../images/botnav/globalnav_07.gif" WIDTH=87 HEIGHT=98 BORDER=0></A></TD>
+		<TD>
+			<IMG SRC="../images/botnav/globalnav_08.gif" WIDTH=20 HEIGHT=98></TD>
+	</TR>
+</TABLE>
+</BODY>
+</HTML>

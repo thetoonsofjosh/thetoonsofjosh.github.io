@@ -1,0 +1,294 @@
+<html>
+<head>
+<title>Clifford . Stories | PBS Kids</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript1.2">
+// identifies which section of site this page is in so correct bottom nav icon is hilited
+var pageSite = "stories";
+
+// switches images on page
+function switchImg(imageName, imageSrc) {
+	if (document.images) {
+    	document.images[imageName].src = imageSrc;
+	}
+}
+
+// plays sound
+function playSound(obj) {
+	// alert(obj);
+	if(obj.test()) {
+		obj.playsound();
+	}
+}
+
+// counter always starts at 1
+var counter = 1;
+// total number of pages in story ***THIS CAN BE CHANGED***
+var pages = 6;
+// pathway to folder where images live
+var pathMain = "../shared/images/" + pageSite + "/";
+// pathway to story-specific images  ***THIS CAN BE CHANGED***
+var path = pathMain + "tummy/";
+
+// preloads the picture images (no need to preload text images because so small);
+var newPicArray = new Array();
+var newPicBArray = new Array();
+
+for (i = 1; i < pages + 1; i++) {
+	newPicArray[i] = new Image();
+	newPicBArray[i] = new Image();
+	newPicArray[i].src = path + "pic_" + i + ".gif";
+	newPicBArray[i].src = path + "pic_" + i + "b.gif";
+}
+
+// Change Picture Action Function (when click on red text)
+function changePic() {
+	switchImg("storypic", path + "pic_" + counter + "b.gif");
+}
+	
+// Next Page function (when click on right arrow)
+function nextPage() {
+	if (counter < pages) {
+		counter = counter + 1; // goes up one page
+		switchImg("storytextblack", path + "text_" + counter + "_black.gif");
+		switchImg("storytextred", path + "text_" + counter + "_red.gif");
+		switchImg("storypic", path + "pic_" + counter + ".gif");
+		doTitle();
+		doEnd();
+	}
+}
+
+// Previous Page function (when click on left arrow)
+function prevPage(img) {
+	if (counter > 1) {
+		counter = counter - 1; // goes back one page
+		switchImg("storytextblack", path + "text_" + counter + "_black.gif");
+		switchImg("storytextred", path + "text_" + counter + "_red.gif");
+		switchImg("storypic", path + "pic_" + counter + ".gif");
+		doTitle();
+		doEnd();
+	}
+}
+
+// Puts in title graphic on first page or else blank
+// Replaces left arrow with shim on first page
+function doTitle() {
+	if (counter == 1) {
+		switchImg("title", path + "title.gif");
+		switchImg("leftarrow", pathMain + "shim.gif");
+	} else {
+		switchImg("title", pathMain + "shim.gif");
+		switchImg("leftarrow", pathMain + "arrow_left.gif");
+	}
+}
+
+// Puts in "The End" on last page or else blank
+// Replaces right arrow with shim on last page
+function doEnd() {
+	if (counter == pages) {
+		switchImg("end", path + "the_end.gif");
+		switchImg("rightarrow", pathMain + "shim.gif");
+	} else {
+		switchImg("end", pathMain + "shim.gif");
+		switchImg("rightarrow", pathMain + "arrow_right.gif");
+	}
+}
+
+</script>
+
+
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+
+
+
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://www-tc./pbskids2008//pbskids2008/includes/javascript/bridge.urls.js"></script>
+<script type="text/javascript" src="http://www-tc./pbskids2008//pbskids2008/includes/javascript/bridge.js"></script></head>
+<body bgcolor="#000099" topmargin="0" leftmargin="0" marginheight="0" marginwidth="0">
+<script type="text/javascript">
+var GA_env = { ua_list: "UA-4005067-1,UA-4005001-1,UA-3968372-1,UA-3999587-1,ET-3999587-2" };
+
+GA_env.vars = { localized: 0 };
+
+var GA_jshost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script src="/js/ga-4b2a4b53.js" type="text/javascript"></script>
+
+<!-- Begin comScore Tag -->
+<script>
+   document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
+</script>
+ <script>
+  COMSCORE.beacon({
+    c1:2,
+    c2:3005420,
+    c3:"",
+    c4:"/pbskids2008/clifford/stories/tummy.html",
+    c5:"",
+    c6:"",
+    c15:""
+  });
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/b?c1=2&c2=3005420&c3=&c4=/pbskids2008/clifford/stories/tummy.html&c5=&c6=&c15=&cv=1.3&cj=1" style="display:none" width="0" height="0" alt="" />
+</noscript>
+<!-- End comScore Tag -->
+
+
+<table border=0 cellpadding=0 cellspacing=0 WIDTH=750 background="../shared/images/stories/tile.gif" align="center">
+<tr>
+	<!-- top nav bar -->
+    <td>
+<table width="750" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><a href="/pbskids2008/"><img src="../shared/images/pbs.gif" alt="PBS Kids" width="56" height="56" border="0"></a></td>
+    <td><img src="../shared/images/stories/title.gif" alt="Stories" width="551" height="56""></td>
+    <td><a href="../index-brd.html"><img src="../shared/images/topnav_right.gif" alt="Clifford the Big Red Dog" width="143" height="56" border="0"></a></td>
+  </tr>
+  <tr>
+    <td colspan="3"><img src="../shared/images/stories/title_bar.gif" alt="" width="750" height="11"></td>
+  </tr>
+</table>
+	</td>
+</tr>
+<tr>
+	<td><img src="../shared/images/shim.gif" width=10 height=20 border=0></td>
+</tr>
+<tr>
+	<!-- begin content -->
+	<td align="center">
+	<table cellspacing=0 cellpadding=0 border=0 bgcolor="#ffffff" background="../shared/images/white.gif">
+	<!-- Emily Header -->
+	<tr>
+		  <td colspan=7><img src="../shared/images/stories/header.gif" width=539 height=84 border=0 alt="Click the words to hear the story. The words in red make things happen!"></td>
+	</tr>
+	<!-- main book -->
+		<td><img src="../shared/images/stories/shim.gif" width=29 height=138 border=0></td>
+		<!-- left book -->
+		<td><img src="../shared/images/stories/book_left.gif" width=23 height=138 border=0></td>
+		<!-- story text in 4-row nested table -->
+		<td>
+		<table cellspacing=0 cellpadding=0 border=0>
+		<!-- title -->
+		<tr>
+			<td><script>document.write("<img src=\"" + path + "title.gif\" width=207 height=28 border=0 name=\"title\">")</script></td>
+		</tr>
+		<!-- black text -->
+		<tr>
+			<td><a href="javascript:playSound(arrBlack[counter - 1])"><script>document.write("<img src=\"" + path + "text_" + counter + "_black.gif\" width=207 height=45 border=0 name=\"storytextblack\">")</script></a></td>
+		</tr>
+		<!-- red text -->
+		<tr>
+			<td><a href="javascript:changePic(); javascript:playSound(arrRed[counter - 1])"><script>document.write("<img src=\"" + path + "text_" + counter + "_red.gif\" width=207 height=49 border=0 name=\"storytextred\">")</script></a></td>
+		</tr>
+		<!-- the end -->
+		<tr>
+			<td><img src="../shared/images/stories/shim.gif" width=207 height=16 border=0 name="end"></td>
+		</tr>
+		</table>
+		</td>
+		<!-- center book -->
+		<td><img src="../shared/images/stories/book_center.gif" width=32 height=138 border=0></td>
+		<!-- story pic -->
+		<td><script>document.write("<img src=\"" + path + "pic_" + counter + ".gif\" width=192 height=138 border=0 name=\"storypic\">")</script></td>
+		<!-- right book -->
+		<td><img src="../shared/images/stories/book_right.gif" width=27 height=138 border=0></td>
+		<td><img src="../shared/images/stories/shim.gif" width=29 height=138 border=0></td>
+	</tr>
+	<!-- arrows and bottom book -->
+	<tr>
+		<!-- left arrow -->
+		<td valign="top"><a href="javascript:prevPage()"><img src="../shared/images/stories/shim.gif" width=29 height=29 border=0 alt="Back" name="leftarrow"></a></td>
+		<!-- bottom book -->
+		<td valign="top" colspan=5><img src="../shared/images/stories/book_bottom.gif" width=481 height=46 border=0></td>
+		<!-- right arrow -->
+		<td valign="top"><a href="javascript:nextPage()"><img src="../shared/images/stories/arrow_right.gif" width=29 height=29 border=0 alt="Next" name="rightarrow"></a></td>
+	</tr>
+	</table>
+	</td>
+	<!-- end content -->
+</tr>
+<tr>
+	<td><img src="../shared/images/shim.gif" width=10 height=20 border=0></td>
+	
+	<script>
+// dynamically writes out all the applets
+for (i = 1; i < pages + 1; i++) {
+	document.write("<applet code=\"TinyAudioPlayer.class\" codebase=\"../shared/sound/\" name=\"textblack" + i + "\" width=\"1\" height=\"1\" MAYSCRIPT><param name=snd value=\"../shared/sound/tummy/eepg" + i + "-1.au\"></applet>\n");
+	document.write("<applet code=\"TinyAudioPlayer.class\" codebase=\"../shared/sound/\" name=\"textred" + i + "\" width=\"1\" height=\"1\" MAYSCRIPT><param name=snd value=\"../shared/sound/tummy/eepg" + i + "-2.au\"></applet>\n");
+}
+
+// array for black text audio objects
+var arrBlack = new Array(document.applets.textblack1, document.applets.textblack2, document.applets.textblack3, document.applets.textblack4, document.applets.textblack5, document.applets.textblack6)
+// array for red text audio objects
+var arrRed = new Array(document.applets.textred1, document.applets.textred2, document.applets.textred3, document.applets.textred4, document.applets.textred5, document.applets.textred6)
+</script>
+	
+	
+	
+	
+</tr>
+<tr>
+	<!-- bottom navigation bar -->
+	<td>
+<table width="750" border="0" cellpadding="0" cellspacing="0" background="../shared/images/stories/bottomnav.gif">
+  <tr>
+    <td><table width="750" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><img src="../shared/images/navigation/brd00-spacer-right.gif" alt="" width="166" height="72"></td>
+        <td><a href="../brd-clifford.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('brd-01','','../shared/images/navigation/brd01-clifford-h.gif',1)"><img src="../shared/images/navigation/brd01-clifford-n.gif" alt="Clifford" name="brd-01" width="73" height="72" border="0"></a></td>
+        <td><a href="../brd-tbone.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('brd-02','','../shared/images/navigation/brd02-tbone-h.gif',1)"><img src="../shared/images/navigation/brd02-tbone-n.gif" alt="T-Bone" name="brd-02" width="73" height="72" border="0"></a></td>
+        <td><a href="../brd-cleo.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('brd-03','','../shared/images/navigation/brd03-cleo-h.gif',1)"><img src="../shared/images/navigation/brd03-cleo-n.gif" alt="Cleo" name="brd-03" width="73" height="72" border="0"></a></td>
+        <td><a href="../brd-mac.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('brd-04','','../shared/images/navigation/brd04-mac-h.gif',1)"><img src="../shared/images/navigation/brd04-mac-n.gif" alt="Mac" name="brd-04" width="73" height="72" border="0"></a></td>
+        <td><a href="../index-brd.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('brd-05','','../shared/images/navigation/brd05-brdmenu-h.gif',1)"><img src="../shared/images/navigation/brd05-brdmenu-n.gif" alt="Clifford the Big Red Dog Homepage" name="brd-05" width="126" height="72" border="0"></a></td>
+        <td><img src="../shared/images/navigation/brd06-spacer-right.gif" alt="" width="166" height="72"></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+	</td>
+</tr>
+</table>
+
+<center>
+<br>
+<!-- begin copyright table -->
+<table border=0 cellpadding=0 cellspacing=0 WIDTH=750>
+	<tr>
+		<td align=right><font style="font-size:11px;color:white">
+		&#169 2006 Scholastic Entertainment Inc. <a href="../copyright/index.html"><font style="font-size:11px;text-decoration:underline;color:#FFFFFF;">Web Site copyright.</font></a></font></td>
+	</tr>
+</table>
+
+</center>
+</body>
+</html>

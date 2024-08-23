@@ -96,10 +96,9 @@ div.videocategory a:hover{
     text-align: center; */
     background-position: 50% top;
     min-width: 1160px;
-     outline:none;
 }
 
-#WordGirl { height:705px; text-align:center; margin-left:auto; margin-right:auto; min-width: 960px; outline:none;}
+#WordGirl { height:705px; text-align:center; margin-left:auto; margin-right:auto; min-width: 960px;}
 
 body{
 	background-color: #1277C9; /*ps: change this value to the same background color of your flash movie*/
@@ -152,23 +151,3 @@ div#noflash a:visited {
 div#noflash a:hover {
 	color:#9aeef4;
 }
-/*
-     FILE ARCHIVED ON 18:06:24 Aug 09, 2013 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 16:06:35 Apr 14, 2024.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  captures_list: 1.076
-  exclusion.robots: 0.129
-  exclusion.robots.policy: 0.115
-  cdx.remote: 0.122
-  esindex: 0.013
-  LoadShardBlock: 46.219 (3)
-  PetaboxLoader3.datanode: 83.62 (5)
-  load_resource: 115.091 (2)
-  PetaboxLoader3.resolve: 49.984 (2)
-*/

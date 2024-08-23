@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="iso-8859-1"?> 
+<pageResources>
+	<assetLocation><![CDATA[unlockable/assets/]]></assetLocation>
+	<backDestination>homepage</backDestination>
+	<returnSound>vo/WG_UnlockableArea_Conclusion.mp3</returnSound>
+	<resources>
+		<resource id="cloudburst" URL="WG_returnBTN.png" type="image"/>
+		<resource id="welcomeVO" URL="vo/WG_UnlockableArea_ToEnter.mp3" type="sound"/>
+		<resource id="correctSound" URL="vo/correct.mp3" type="sound"/>
+		<resource id="lockOpen" URL="vo/lockopen.mp3" type="sound"/>
+		<resource id="wrongSound" URL="vo/incorrect.mp3" type="sound"/>
+	</resources>
+	<questions>
+		<question correctAnswer="1" VO="vo/WG_UnlockableArea_Question1.mp3">
+			<questionText>What is the symbol on WordGirl's uniform?</questionText>
+			<resource id="image1" URL="thumbs/starAndShield.png" type="image"/>
+			<resource id="image2" URL="thumbs/remote.png" type="image"/>
+			<resource id="image3" URL="thumbs/huggyLightning.png" type="image"/>
+		</question>
+		<question correctAnswer="2" VO="vo/WG_UnlockableArea_Question2.mp3">
+			<questionText>What is the symbol on Captain Huggy Face's uniform?</questionText>
+			<resource id="image1" URL="thumbs/remote.png" type="image"/>
+			<resource id="image2" URL="thumbs/huggyLightning.png" type="image"/>
+			<resource id="image3" URL="thumbs/starAndShield.png" type="image"/>
+		</question>
+		<question correctAnswer="3" VO="vo/WG_UnlockableArea_Question3.mp3">
+			<questionText>Who shoots meat out of his hands?</questionText>
+			<resource id="image1" URL="thumbs/dr2Brains.png" type="image"/>
+			<resource id="image2" URL="thumbs/seymour.png" type="image"/>
+			<resource id="image3" URL="thumbs/butcher.png" type="image"/>
+		</question>
+		<question correctAnswer="1" VO="vo/WG_UnlockableArea_Question4.mp3">
+			<questionText>Who is Becky's best friend? </questionText>
+			<resource id="image1" URL="thumbs/violet.png" type="image"/>
+			<resource id="image2" URL="thumbs/birthdayGirl.png" type="image"/>
+			<resource id="image3" URL="thumbs/victoria.png" type="image"/>
+		</question>
+		<question correctAnswer="2" VO="vo/WG_UnlockableArea_Question5.mp3">
+			<questionText>Who likes to turn things into cheese?</questionText>
+			<resource id="image1" URL="thumbs/butcher.png" type="image"/>
+			<resource id="image2" URL="thumbs/dr2Brains.png" type="image"/>
+			<resource id="image3" URL="thumbs/seymour.png" type="image"/>
+		</question>
+		<question correctAnswer="3" VO="vo/WG_UnlockableArea_Question6.mp3">
+			<questionText>What does Becky collect?</questionText>
+			<resource id="image1" URL="thumbs/remote.png" type="image"/>
+			<resource id="image2" URL="thumbs/lexonite.png" type="image"/>
+			<resource id="image3" URL="thumbs/unicorn.png" type="image"/>
+		</question>
+		<question correctAnswer="1" VO="vo/WG_UnlockableArea_Question7.mp3">
+			<questionText>Who yells "mine, mine, MINE" when she doesn’t get her way?</questionText>
+			<resource id="image1" URL="thumbs/birthdayGirl.png" type="image"/>
+			<resource id="image2" URL="thumbs/victoria.png" type="image"/>
+			<resource id="image3" URL="thumbs/violet.png" type="image"/>
+		</question>
+		<question correctAnswer="2" VO="vo/WG_UnlockableArea_Question8.mp3">
+			<questionText>What does Tobey use to control his robots?</questionText>
+			<resource id="image1" URL="thumbs/lexonite.png" type="image"/>
+			<resource id="image2" URL="thumbs/remote.png" type="image"/>
+			<resource id="image3" URL="thumbs/unicorn.png" type="image"/>
+		</question>
+		<question correctAnswer="3" VO="vo/WG_UnlockableArea_Question9.mp3">
+			<questionText>Who is Becky and TJ’s grandfather?</questionText>
+			<resource id="image1" URL="thumbs/dr2Brains.png" type="image"/>
+			<resource id="image2" URL="thumbs/butcher.png" type="image"/>
+			<resource id="image3" URL="thumbs/bampy.png" type="image"/>
+		</question>
+		<question correctAnswer="1" VO="vo/WG_UnlockableArea_Question10.mp3">
+			<questionText>What does Chuck use to try to defeat WordGirl?</questionText>
+			<resource id="image1" URL="thumbs/condimentRay.png" type="image"/>
+			<resource id="image2" URL="thumbs/lexonite.png" type="image"/>
+			<resource id="image3" URL="thumbs/unicorn.png" type="image"/>
+		</question>
+		<question correctAnswer="2" VO="vo/WG_UnlockableArea_Question11.mp3">
+			<questionText>Who works for Mr. Big?</questionText>
+			<resource id="image1" URL="thumbs/dr2Brains.png" type="image"/>
+			<resource id="image2" URL="thumbs/leslie.png" type="image"/>
+			<resource id="image3" URL="thumbs/bampy.png" type="image"/>
+		</question>
+		<question correctAnswer="3" VO="vo/WG_UnlockableArea_Question12.mp3">
+			<questionText>Who is the City’s District Attorney?</questionText>
+			<resource id="image1" URL="thumbs/bampy.png" type="image"/>
+			<resource id="image2" URL="thumbs/granny.png" type="image"/>
+			<resource id="image3" URL="thumbs/sallyBotsford.png" type="image"/>
+		</question>
+		<question correctAnswer="1" VO="vo/WG_UnlockableArea_Question13.mp3">
+			<questionText>Who uses perfume and yarn to try to defeat WordGirl?</questionText>
+			<resource id="image1" URL="thumbs/granny.png" type="image"/>
+			<resource id="image2" URL="thumbs/sallyBotsford.png" type="image"/>
+			<resource id="image3" URL="thumbs/victoria.png" type="image"/>
+		</question>
+		<question correctAnswer="2" VO="vo/WG_UnlockableArea_Question14.mp3">
+			<questionText>Who thinks she’s the best at everything?</questionText>
+			<resource id="image1" URL="thumbs/sallyBotsford.png" type="image"/>
+			<resource id="image2" URL="thumbs/victoria.png" type="image"/>
+			<resource id="image3" URL="thumbs/violet.png" type="image"/>
+		</question>
+		<question correctAnswer="3" VO="vo/WG_UnlockableArea_Question15.mp3">
+			<questionText>Who is a reporter for the school newspaper?</questionText>
+			<resource id="image1" URL="thumbs/violet.png" type="image"/>
+			<resource id="image2" URL="thumbs/TJ.png" type="image"/>
+			<resource id="image3" URL="thumbs/scoops.png" type="image"/>
+		</question>
+		<question correctAnswer="1" VO="vo/WG_UnlockableArea_Question16.mp3">
+			<questionText>Who is president of the International WordGirl Fan Club?</questionText>
+			<resource id="image1" URL="thumbs/TJ.png" type="image"/>
+			<resource id="image2" URL="thumbs/seymour.png" type="image"/>
+			<resource id="image3" URL="thumbs/scoops.png" type="image"/>
+		</question>
+		<question correctAnswer="2" VO="vo/WG_UnlockableArea_Question17.mp3">
+			<questionText>Who is the evil game show host with the whitest teeth?</questionText>
+			<resource id="image1" URL="thumbs/bampy.png" type="image"/>
+			<resource id="image2" URL="thumbs/seymour.png" type="image"/>
+			<resource id="image3" URL="thumbs/butcher.png" type="image"/>
+		</question>
+		<question correctAnswer="3" VO="vo/WG_UnlockableArea_Question18.mp3">
+			<questionText>What makes WordGirl lose her super powers?</questionText>
+			<resource id="image1" URL="thumbs/remote.png" type="image"/>
+			<resource id="image2" URL="thumbs/unicorn.png" type="image"/>
+			<resource id="image3" URL="thumbs/lexonite.png" type="image"/>
+		</question>
+		<question correctAnswer="2" VO="vo/WG_UnlockableArea_Question19.mp3">
+			<questionText>Who uses mind control?</questionText>
+			<resource id="image1" URL="thumbs/seymour.png" type="image"/>
+			<resource id="image2" URL="thumbs/mrBig.png" type="image"/>
+			<resource id="image3" URL="thumbs/granny.png" type="image"/>
+		</question>
+		<question correctAnswer="3" VO="vo/WG_UnlockableArea_Question20.mp3">
+			<questionText>Who is the star of Becky’s favorite TV show?</questionText>
+			<resource id="image1" URL="thumbs/seymour.png" type="image"/>
+			<resource id="image2" URL="thumbs/scoops.png" type="image"/>
+			<resource id="image3" URL="thumbs/prettyPrincess.png" type="image"/>
+		</question>
+	</questions>
+</pageResources>

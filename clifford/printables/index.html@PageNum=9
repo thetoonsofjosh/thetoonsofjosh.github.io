@@ -1,0 +1,739 @@
+<HTML><!-- #BeginTemplate "/Templates/main.dwt" -->
+
+
+
+
+
+
+
+<HEAD>
+
+
+
+
+
+
+
+<!-- #BeginEditable "doctitle" --> 
+
+
+
+
+
+
+
+<TITLE>Clifford . Printables | PBS Kids</TITLE>
+
+
+
+
+
+
+
+<!-- #EndEditable -->
+
+
+
+<!-- #BeginEditable "javascript" --> 
+
+
+
+<LINK REL=STYLESHEET TYPE="text/css" HREF="../shared/css/main.css">
+
+
+
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript" HREF="../shared/scripts/querystring.js"></SCRIPT>
+
+
+
+<SCRIPT LANGUAGE="JavaScript">
+
+
+
+<!--
+
+
+
+
+
+
+
+// identifies which section of site this page is in so correct bottom nav icon is hilited
+
+
+
+
+
+
+
+var pageSite = "printables";
+
+
+
+
+
+
+
+
+
+// pathway to folder where images live
+
+
+
+
+
+var pathMain = "../shared/images/" + pageSite + "/";
+
+
+
+
+
+
+
+
+
+function newImage(arg) {
+
+
+
+
+
+	if (document.images) {
+
+
+
+
+
+		rslt = new Image();
+
+
+
+
+
+		rslt.src = arg;
+
+
+
+
+
+		return rslt;
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function changeImages() {
+
+
+
+
+
+
+
+	if (document.images && (preloadFlag == true)) {
+
+
+
+
+
+
+
+		for (var i=0; i<changeImages.arguments.length; i+=2) {
+
+
+
+
+
+
+
+			document[changeImages.arguments[i]].src = changeImages.arguments[i+1];
+
+
+
+
+
+
+
+		}
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+var preloadFlag = false;
+
+
+
+
+
+
+
+function preloadImages() {
+
+
+
+
+
+
+
+	if (document.images) {
+
+
+
+
+
+
+
+		home_over = newImage("../shared/images/bottomnav/home_over.gif");
+
+
+
+
+
+
+
+		big_over = newImage("../shared/images/bottomnav/big_over.gif");
+
+
+
+
+
+
+
+		games_over = newImage("../shared/images/bottomnav/games_over.gif");
+
+
+
+
+
+
+
+		stories_over = newImage("../shared/images/bottomnav/stories_over.gif");
+
+
+
+
+
+
+
+		print_over = newImage("../shared/images/bottomnav/print_over.gif");
+
+
+
+
+
+
+
+		friends_over = newImage("../shared/images/bottomnav/friends_over.gif");
+
+
+
+
+
+
+
+		backstage_over = newImage("../shared/images/bottomnav/backstage_over.gif");
+
+
+
+
+
+
+
+		caregiver_over = newImage("../shared/images/bottomnav/caregiver_over.gif");
+
+
+
+
+
+
+
+		tv_over = newImage("../shared/images/bottomnav/tv_over.gif");
+
+
+
+
+
+
+
+		preloadFlag = true;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+// -->
+
+
+
+
+
+
+
+</SCRIPT>
+
+
+
+<SCRIPT LANGUAGE="JavaScript1.2" SRC="../shared/scripts/header_top.js"></SCRIPT>
+
+
+
+
+
+
+
+<SCRIPT LANGUAGE="JavaScript1.2" SRC="../shared/scripts/nav_bottom.js"></SCRIPT>
+
+
+
+
+
+
+
+<!-- #EndEditable -->
+
+
+
+
+
+
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+
+
+
+
+
+
+
+</HEAD>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<BODY BGCOLOR="#000099" TOPMARGIN="0" LEFTMARGIN="0" MARGINHEIGHT="0" MARGINWIDTH="0" ONLOAD="preloadImages();">
+
+
+
+
+
+
+
+<!-- #BeginEditable "main%20content" --> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<CENTER>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- begin main table structure of 583 pixels by 418 pixels -->
+
+
+
+
+
+
+
+<TABLE BORDER=0 BACKGROUND="../shared/images/printables/tile.gif" CELLPADDING=0 CELLSPACING=0 WIDTH=750 HEIGHT=418>
+
+
+
+
+
+
+
+	<TR>
+
+
+
+
+
+
+
+  		<TD VALIGN=top>
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+			<!-- begin header table -->
+
+
+
+
+
+
+
+			<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH=583 BACKGROUND="../shared/images/netscape.gif">
+
+
+
+
+
+
+
+				<TR> 
+
+
+
+
+
+
+
+					<TD><SCRIPT>doHeader()</SCRIPT></TD>
+
+
+
+
+
+
+
+				</TR>
+
+
+
+
+
+
+
+			</TABLE>
+
+
+
+
+
+
+
+			<!-- begin main content table -->
+
+
+
+
+
+
+
+			<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH=650 HEIGHT=275 ALIGN=center BACKGROUND="../shared/images/netscape.gif">
+
+
+
+
+
+
+
+				<TR>
+
+
+
+
+
+
+
+					<TD colspan="5"><IMG SRC="../shared/images/spacer.gif" alt="" WIDTH=15 HEIGHT=16>					  <!-- left column -->            <!-- right column -->            </TD>
+			    </TR>
+				<TR>
+				  <TD colspan="5" ALIGN=center><IMG SRC="../shared/images/printables/color.gif" WIDTH=157 HEIGHT=26 ALT="Let's Color"></TD>
+			  </TR>
+				<TR>
+				  <TD colspan="5" ALIGN=center><IMG SRC="../shared/images/spacer.gif" alt="" WIDTH=15 HEIGHT=16> </TD>
+			  </TR>
+				<TR>
+				
+
+				
+				  <TD ALIGN=center>				
+				  <a href="index-sub01.html"
+				onmouseover="changeImages('bigidea','../shared/images/printables/print-tout-bigideas_out.gif');return true;"
+				onmouseout="changeImages('bigidea','../shared/images/printables/print-tout-bigideas.gif');return true;"> 
+				<img name="bigidea" src="../shared/images/printables/print-tout-bigideas.gif" width="130" height="200" border=0 alt="Big Ideas"></a></TD>
+				
+				  
+				  
+				  <TD ALIGN=center><a href="index-sub02.html"
+				onmouseover="changeImages('cliffcolor','../shared/images/printables/print-tout-coloring_out.gif');return true;"
+				onmouseout="changeImages('cliffcolor','../shared/images/printables/print-tout-coloring.gif');return true;"> 
+				<img name="cliffcolor" src="../shared/images/printables/print-tout-coloring.gif" width="130" height="200" border=0 alt="Clifford Coloring Pages"></a></TD>
+				  
+				  
+				  
+				
+				  <TD ALIGN=center><a href="index-sub03.html"
+				onmouseover="changeImages('cliffact','../shared/images/printables/print-tout-activity_out.gif');return true;"
+				onmouseout="changeImages('cliffact','../shared/images/printables/print-tout-activity.gif');return true;"> 
+				<img name="cliffact" src="../shared/images/printables/print-tout-activity.gif" width="130" height="200" border=0 alt="Clifford Activity Pages"></a></TD>
+				  
+				  
+				 
+				  
+				  <TD ALIGN=center> <a href="index-sub04.html"
+				onmouseover="changeImages('pupcolor','../shared/images/printables/print-tout-pupcolor_out.gif');return true;"
+				onmouseout="changeImages('pupcolor','../shared/images/printables/print-tout-pupcolor.gif');return true;"> 
+				<img name="pupcolor" src="../shared/images/printables/print-tout-pupcolor.gif" width="130" height="200" border=0 alt="Puppy Clifford Coloring Pages"></a></TD>
+				  
+			      <TD ALIGN=center><a href="index-sub05.html"
+				onmouseover="changeImages('pupact','../shared/images/printables/print-tout-05_out.gif');return true;"
+				onmouseout="changeImages('pupact','../shared/images/printables/print-tout-05.gif');return true;"><img name="pupact" src="../shared/images/printables/print-tout-05.gif" width="130" height="200" border=0 alt="Puppy Clifford Activity Pages"></a></TD>
+			  </TR>
+				<TR>
+				  <TD colspan="5" ALIGN=center><IMG SRC="../shared/images/spacer.gif" alt="" WIDTH=15 HEIGHT=17></TD>
+			  </TR>
+
+
+
+
+
+
+
+		  </TABLE>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<!-- begin bottom navigation bar -->
+
+
+
+
+
+
+
+			<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH=750 HEIGHT=72>
+
+
+
+
+
+
+
+				<TR>
+
+
+
+
+
+
+
+					<TD><SCRIPT>doNavBar()</SCRIPT></TD>				
+
+
+
+
+
+
+
+				</TR>
+
+
+
+
+
+
+
+		  </TABLE>
+
+
+
+		</TD>
+
+
+
+
+
+
+
+	</TR>
+
+
+
+
+
+
+
+</TABLE>
+
+
+
+
+
+
+
+</CENTER>
+
+
+
+
+
+
+
+<!-- #EndEditable -->
+
+
+
+
+
+
+
+<!-- #BeginEditable "extras" --> 
+
+<CENTER>
+
+<BR>
+
+<!-- begin copyright table -->
+
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH=750>
+
+	<TR>
+
+		<TD ALIGN=right><FONT STYLE="font-size:11px;color:white">
+
+		&#169 2002 Scholastic Entertainment Inc. <A HREF="../copyright/index.html"><FONT STYLE="font-size:11px;text-decoration:underline;color:#FFFFFF;">Web Site copyright.</FONT></A></FONT></TD>
+
+	</TR>
+
+</TABLE>
+
+</CENTER>
+
+
+
+<!-- #EndEditable -->
+
+
+
+
+
+
+
+</BODY>
+
+
+
+
+
+
+
+<!-- #EndTemplate --></HTML>
+
+
+
+
+
+
+

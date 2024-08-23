@@ -1,0 +1,79 @@
+
+body
+{
+	background-image: url(../images/caregivers/clifford-background.gif);
+	background-color: #D3CCF8;
+	margin-left: 0px;
+	margin-top: 0px;
+	background-repeat: repeat-y;
+	background-position: 0px 0px;
+}
+
+#navbar {
+	background-image: url(../images/caregivers/background-navbar.gif);
+	background-repeat: repeat-y; 
+	background-position: 0 0;
+	z-index: 2;
+}
+   
+.style1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+
+.activity
+{
+	font-family: Comic Sans MS, sans-serif;
+	font-size: 10pt;
+}
+
+.featact
+{
+	font-family: Comic Sans MS, sans-serif;
+	font-size: 11pt;
+	line-height: 18pt;
+}
+
+.program
+{
+	font-family: Comic Sans MS, sans-serif;
+	font-size: 10pt;
+}
+
+.activities {
+	font-family: Comic Sans MS, sans-serif;
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+.sidebar {
+	font-family: Arial, Helvetica sans-serif;
+	font-size: 8pt;
+	background-color: #EAE6FB;
+}
+
+.prognav {
+	font-family: Comic Sans MS, sans-serif;
+	font-size: 8pt;
+}
+
+ul
+{
+	padding: 0px 0px 0px 30px;
+	margin: -3px -5px 0px 0px;
+}
+
+dl
+{
+	padding: 0px 0px 0px 20px;
+	margin: 0px 0px 0px 0px;
+}
+
+dt
+{
+	padding: 0px 0px 0px 20px;
+	margin: 0px 0px 0px 0px;
+	font-family: Comic Sans MS, sans-serif;
+	font-size: 12pt;
+	/*font-weight: bold;*/
+}

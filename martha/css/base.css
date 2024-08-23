@@ -1,0 +1,121 @@
+html {
+	background-color:#9ed45c;
+}
+
+* {
+	margin:0;
+	padding:0;
+}
+
+
+body {
+	/*background-image:url('../i/marthamenu.gif');*/
+	background-repeat:no-repeat;
+	background-color:#9ed45c;
+	font-family:verdana;
+}
+
+#ptvid {
+	display:inline-block;
+	margin-bottom:30px;
+}
+
+#ptvid #ptlink {
+	/*margin-left:25px;*/
+	width:250px;
+	float:left;
+	margin:18px 65px 0 35px;
+}
+
+#ptvid #tv {
+	float:left;
+	margin-right:12px;
+}
+
+#ptvid #tvlink {
+	float:left;
+	margin-top:32px;
+}
+
+#vidlink{
+	display:inline-block;
+}
+
+#ptlink {
+	margin-left:25px;
+	width:250px;
+	display:block;
+}
+
+div#globalnav a img {
+	border-style: none;	
+}
+
+div#footernav {
+	display:block;
+	width:1000px;
+	text-align:center;
+	font-size:80%;
+	color:#CE353B;
+}
+
+div#footernav a {
+	text-decoration:none;
+}
+
+div#footernav a:link {
+	color:#CE353B;
+}
+
+div#footernav a:visited {
+	color:#12AEDE;
+}
+
+div#footernav a:hover {
+	color:#C4FA82;
+}
+
+
+div#getflash {
+	width:400px;
+	margin:30px;
+}
+
+/* funderbed */
+.funderbed {
+	}
+
+.funderbed ul {
+	width: 590px;
+	height: 220px;
+	background: red url('../i/funder-logos.gif') no-repeat;
+	margin: 0 auto;
+	}
+.funderbed li {
+	display: inline;
+	float:left;
+	height: 124px;
+	margin: 0;
+	padding: 0;
+	}
+.funderbed a, .funderbed span {
+	text-indent: -9999px;
+	float: left;
+	display: block;
+	width: 70px;
+	margin-top: 20px;
+
+/*uncomment below for testing location of funder links*/
+ /*
+	background-color: red;
+	opacity: .3;
+*/
+	}
+
+.funderbed #wgbh a{ height: 50px; margin-left: 20px;}
+.funderbed #avdf a {width: 125px; height: 84px; margin-left: 17px; margin-top: 12px;}
+.funderbed #dhx a{ width: 70px; height: 84px; margin-left: 32px; margin-top: 12px; }
+.funderbed #cpb a{ width: 67px; height: 105px; margin-left: 31px; margin-top: 14px; }
+.funderbed #doe a{ width: 60px; height: 65px; margin-left: 3px; margin-top: 23px; }
+.funderbed #ka a{ width: 95px; height: 77px; margin-left: 183px; margin-top: 0px; }
+.funderbed #cfa a{ width: 100px; height: 77px; margin-left: 33px; margin-top: 0px; }

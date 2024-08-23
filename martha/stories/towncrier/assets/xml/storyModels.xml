@@ -1,0 +1,552 @@
+<TownCrierApp>
+	<settings>
+		<environment selected="0" name="local">
+			<webRoot></webRoot>	
+			<PBSKids>https://pbskids.org/</PBSKids>
+			<marthaSpeaks>https://pbskids.org/martha/</marthaSpeaks>
+			<marthaStories>https://pbskids.org/martha/stories/</marthaStories>
+			<uploadDestination>https://www-tc.pbskids.org/upload/martha_towncrier/</uploadDestination>
+		</environment>
+		<environment selected="0" name="iaclients">
+			<webRoot>https://iaclients.wgbh.org/martha/rtl/towncrier/</webRoot>
+			<PBSKids>https://soup.pbskids.org/</PBSKids>
+			<marthaSpeaks>https://soup.pbskids.org/martha/</marthaSpeaks>
+			<marthaStories>https://soup.pbskids.org/martha/stories/</marthaStories>
+			<uploadDestination>srv_script/upload/martha_towncrier/</uploadDestination>
+		</environment>
+		<environment selected="1" name="ernie_workaround">
+			<webRoot>https://iaclients.wgbh.org/martha/rtl/towncrier/</webRoot>
+			<PBSKids>/go/</PBSKids>
+			<marthaSpeaks>/martha/</marthaSpeaks>
+			<marthaStories>/martha/stories/</marthaStories>
+			<uploadDestination>https://iaclients.wgbh.org/martha/rtl/towncrier/srv_script/upload/</uploadDestination>
+		</environment>
+		<environment selected="0" name="Staging">
+			<webRoot>https://soup-tc.pbskids.org/martha/stories/towncrier/</webRoot>
+			<PBSKids>/go/</PBSKids>
+			<marthaSpeaks>/martha/</marthaSpeaks>
+			<marthaStories>/martha/stories/</marthaStories>
+			<uploadDestination>https://soup-tc.pbskids.org/martha/stories/towncrier/srv_script/upload/</uploadDestination>
+		</environment>
+		<environment selected="0" name="Production">
+			<webRoot>https://tc.pbskids.org/martha/stories/towncrier/</webRoot>
+			<PBSKids>/go/</PBSKids>
+			<marthaSpeaks>/martha/</marthaSpeaks>
+			<marthaStories>/martha/stories/</marthaStories>
+			<uploadDestination>https://tc.pbskids.org/martha/stories/towncrier/srv_script/upload/</uploadDestination>
+		</environment>
+	</settings>
+	<stories>
+		<storyModel type="weather">
+			<form>
+				<formItem type="inputItemType">
+					<label>Your Name:</label>
+					<labelAudio sync="[0, 1, 1, 4, 5, 3, 3, 1, 0, 1, 3, 4, 2, 2, 2, 3, 4, 4, 4, 3, 3, 3, 2, 1, 1, 1, 1, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/wacky_typename_field.mp3]]> </labelAudio>
+					<fieldText></fieldText>
+					<fieldOptions></fieldOptions>
+					<fieldAudioOptions></fieldAudioOptions>
+					<textOptions></textOptions>
+				</formItem>
+				<formItem>
+					<label>Weather:</label>
+					<labelAudio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"> <![CDATA[./assets/audio/wackyStories/weather/weather_weather.mp3]]> </labelAudio>
+					<fieldText></fieldText>
+					<fieldOptions>
+						<option>Snow</option>
+						<option>Rain</option>
+						<option>Heat</option>
+					</fieldOptions>
+					<fieldAudioOptions>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/weather/weather_weather1.mp3]]></audio>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/weather/weather_weather2.mp3]]></audio>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/weather/weather_weather3.mp3]]></audio>
+					</fieldAudioOptions>
+					<textOptions>
+						<option><![CDATA[Record <font color='#000000' size='18'><b>snow</b></font> fell today in Wagstaff City. And it's July! ]]></option>
+						<option><![CDATA[Record <font color='#000000' size='18'><b>rain</b></font> fell today in Wagstaff City. Main street flooded.]]></option>
+						<option><![CDATA[Today was the <font color='#000000' size='18'><b>hottest</b></font> day we have ever had in Wagstaff City.]]></option>
+					</textOptions>
+				</formItem>
+				<formItem>
+					<label>Character:</label>
+					<labelAudio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"> <![CDATA[./assets/audio/wackyStories/weather/weather_character.mp3]]> </labelAudio>
+					<fieldText></fieldText>
+					<fieldOptions>
+						<option>Helen</option>
+						<option>TD</option>
+						<option>Truman</option>
+					</fieldOptions>
+					<fieldAudioOptions>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/weather/weather_character1.mp3]]></audio>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/weather/weather_character2.mp3]]></audio>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/weather/weather_character3.mp3]]></audio>
+					</fieldAudioOptions>
+					<textOptions>
+						<option><![CDATA[We asked local student, <font color='#000000' size='18'><b>Helen Lorraine</b></font> what she saw. She said,]]></option>
+						<option><![CDATA[We asked local student, <font color='#000000' size='18'><b>TD Kennelly</b></font> what he observed. He replied,]]></option>
+						<option><![CDATA[We asked local student, <font color='#000000' size='18'><b>Truman Oatley</b></font> what he witnessed. He reported,]]></option>
+					</textOptions>
+				</formItem>
+				<formItem>
+					<label>Exclamation:</label>
+					<labelAudio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"> <![CDATA[./assets/audio/wackyStories/weather/weather_exclamation.mp3]]> </labelAudio>
+					<fieldText></fieldText>
+					<fieldOptions>
+						<option>Awesome</option>
+						<option>Incredible</option>
+						<option>Amazing</option>
+					</fieldOptions>
+					<fieldAudioOptions>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/weather/weather_exclamation1.mp3]]></audio>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/weather/weather_exclamation2.mp3]]></audio>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/weather/weather_exclamation3.mp3]]></audio>
+					</fieldAudioOptions>
+					<textOptions>
+						<option><![CDATA[&#34;It was <font color='#000000' size='18'><b>awesome!</b></font> I've never seen weather like this!&#34;]]></option>
+						<option><![CDATA[&#34;It was <font color='#000000' size='18'><b>incredible!</b></font> I've never seen weather like this!&#34;]]></option>
+						<option><![CDATA[&#34;It was <font color='#000000' size='18'><b>amazing!</b></font> I've never seen weather like this!&#34;]]></option>
+					</textOptions>
+				</formItem>
+				<formItem>
+					<label>Noun:</label>
+					<labelAudio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"> <![CDATA[./assets/audio/wackyStories/weather/weather_noun.mp3]]> </labelAudio>
+					<fieldText></fieldText>
+					<fieldOptions>
+						<option>Slime</option>
+						<option>Cheese</option>
+						<option>Monkey</option>
+					</fieldOptions>
+					<fieldAudioOptions>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/weather/weather_noun1.mp3]]></audio>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/weather/weather_noun2.mp3]]></audio>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/weather/weather_noun3.mp3]]></audio>
+					</fieldAudioOptions>
+					<textOptions>
+						<option><![CDATA[In related news, the weather seems to have caused a large hole with <font color='#000000' size='18'><b>slime</b></font> at the bottom. Police are looking into it.]]></option>
+						<option><![CDATA[In related news, the weather has interrupted the supply of <font color='#000000' size='18'><b>cheese</b></font> to local stores. Local shoppers fought each other for the last piece of gorgonzola in town.]]></option>
+						<option><![CDATA[In related news, a <font color='#000000' size='18'><b>monkey</b></font> at the local zoo has started predicting the weather. Apparently if he flings a banana skin at you the weather will be the same tomorrow.]]></option>
+					</textOptions>
+				</formItem>
+			</form>
+			<imageList>
+				<image>assets/img/wacky-weather-1.png</image>
+				<image>assets/img/wacky-weather-2.png</image>
+				<image>assets/img/wacky-weather-3.png</image>
+			</imageList>
+			<headlineList>
+				<headline>It's Snow Joke!</headline>
+				<headline>Raining Cats and Dogs!</headline>
+				<headline>Sunshine City!</headline>
+			</headlineList>
+		</storyModel>
+
+		<storyModel type="crime">
+			<form>
+				<formItem type="inputItemType">
+					<label>Your Name:</label>
+					<labelAudio sync="[0, 1, 1, 4, 5, 3, 3, 1, 0, 1, 3, 4, 2, 2, 2, 3, 4, 4, 4, 3, 3, 3, 2, 1, 1, 1, 1, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/wacky_typename_field.mp3]]> </labelAudio>
+					<fieldText></fieldText>
+					<fieldOptions></fieldOptions>
+					<textOptions></textOptions>
+				</formItem>
+				<formItem>
+					<label>Food:</label>
+					<labelAudio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"> <![CDATA[./assets/audio/wackyStories/crime/crime_food.mp3]]> </labelAudio>
+					<fieldText></fieldText>
+					<fieldOptions>
+						<option>Steak</option>
+						<option>Yogurt</option>
+						<option>Zucchini</option>
+					</fieldOptions>
+					<fieldAudioOptions>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/crime/crime_food1.mp3]]></audio>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/crime/crime_food2.mp3]]></audio>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/crime/crime_food3.mp3]]></audio>
+					</fieldAudioOptions>
+					<textOptions>
+						<option><![CDATA[Ten pounds of <font color='#000000' size='18'><b>meat</b></font> were stolen from Karl&#39;s butcher shop. Police are investigating.]]></option>
+						<option><![CDATA[Helen&#39;s <font color='#000000' size='18'><b>yogurt</b></font> went missing from her backpack at school. Police are investigating.]]></option>
+						<option><![CDATA[A giant <font color='#000000' size='18'><b>zucchini</b></font> has disappeared from CK&#39;s farm. Police are investigating.]]></option>
+					</textOptions>
+				</formItem>
+				<formItem>
+					<label>Clue:</label>
+					<labelAudio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"> <![CDATA[./assets/audio/wackyStories/crime/crime_clue.mp3]]> </labelAudio>
+					<fieldText></fieldText>
+					<fieldOptions>
+						<option>Message</option>
+						<option>Notebook</option>
+						<option>Footprint</option>
+					</fieldOptions>
+					<fieldAudioOptions>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/crime/crime_clue1.mp3]]></audio>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/crime/crime_clue2.mp3]]></audio>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/crime/crime_clue3.mp3]]></audio>
+					</fieldAudioOptions>
+					<textOptions>
+						<option><![CDATA[&#34; We&#39;ve received a suspicious <font color='#000000' size='18'><b>message</b></font> about the theft,&#34; said Officer O&#39;Reilly.]]></option>
+						<option><![CDATA[&#34;We&#39;ve found a <font color='#000000' size='18'><b>notebook</b></font> nearby. It's filled with recipes,&#34; said Officer O&#39;Reilly.]]></option>
+						<option><![CDATA[&#34;We&#39;ve discovered <font color='#000000' size='18'><b>footprints</b></font> leading away from the area,&#34; said Officer O&#39;Reilly.]]></option>
+					</textOptions>
+				</formItem>
+				<formItem>
+					<label>Adjective:</label>
+					<labelAudio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"> <![CDATA[./assets/audio/wackyStories/crime/crime_adjective.mp3]]> </labelAudio>
+					<fieldText></fieldText>
+					<fieldOptions>
+						<option>Thoughtful</option>
+						<option>Careful</option>
+						<option>Speedy</option>
+					</fieldOptions>
+					<fieldAudioOptions>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/crime/crime_adjective1.mp3]]></audio>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/crime/crime_adjective2.mp3]]></audio>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/crime/crime_adjective3.mp3]]></audio>
+					</fieldAudioOptions>
+					<textOptions>
+						<option><![CDATA[After a <font color='#000000' size='18'><b>thoughtful</b></font> investigation, police found the culprit.]]></option>
+						<option><![CDATA[After a <font color='#000000' size='18'><b>careful</b></font> investigation, police found the culprit.]]></option>
+						<option><![CDATA[After a <font color='#000000' size='18'><b>speedy</b></font> investigation, police found the culprit.]]></option>
+					</textOptions>
+				</formItem>
+				<formItem>
+					<label>Culprit:</label>
+					<labelAudio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"> <![CDATA[./assets/audio/wackyStories/crime/crime_culprit.mp3]]> </labelAudio>
+					<fieldText></fieldText>
+					<fieldOptions>
+						<option>Canine</option>
+						<option>Pirate</option>
+						<option>Cowboy</option>
+					</fieldOptions>
+					<fieldAudioOptions>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/crime/crime_culprit1.mp3]]></audio>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/crime/crime_culprit2.mp3]]></audio>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/crime/crime_culprit3.mp3]]></audio>
+					</fieldAudioOptions>
+					<textOptions>
+						<option><![CDATA[Several <font color='#000000' size='18'><b>canines</b></font> have been charged. They have accused a group of cats, who don't care.]]></option>
+						<option><![CDATA[A band of <font color='#000000' size='18'><b>pirates</b></font> has been charged. Next week's treasure hunt has been cancelled.]]></option>
+						<option><![CDATA[A group of <font color='#000000' size='18'><b>cowboys</b></font> has been charged. They were planning to trade the stolen food for a pack of zebras.]]></option>
+					</textOptions>
+				</formItem>
+			</form>
+			<imageList>
+				<image>assets/img/wacky-crime-1.png</image>
+				<image>assets/img/wacky-crime-2.png</image>
+				<image>assets/img/wacky-crime-3.png</image>
+			</imageList>
+			<headlineList>
+				<headline>What a Missed Steak!</headline>
+				<headline>Dairy Disappearance!</headline>
+				<headline>Stolen Zucchini Squashed!</headline>
+			</headlineList>
+		</storyModel>	
+	
+		<storyModel type="sports">
+			<form>
+				<formItem type="inputItemType">
+					<label>Your Name:</label>
+					<labelAudio sync="[0, 1, 1, 4, 5, 3, 3, 1, 0, 1, 3, 4, 2, 2, 2, 3, 4, 4, 4, 3, 3, 3, 2, 1, 1, 1, 1, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/wacky_typename_field.mp3]]> </labelAudio>
+					<fieldText></fieldText>
+					<fieldOptions></fieldOptions>
+					<textOptions></textOptions>
+				</formItem>
+				<formItem>
+					<label>Sport:</label>
+					<labelAudio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"> <![CDATA[./assets/audio/wackyStories/sport/sport_sport.mp3]]> </labelAudio>
+					<fieldText></fieldText>
+					<fieldOptions>
+						<option>Softball</option>
+						<option>Hockey</option>
+						<option>Football</option>
+					</fieldOptions>
+					<fieldAudioOptions>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/sport/sport_sport1.mp3]]></audio>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/sport/sport_sport2.mp3]]></audio>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/sport/sport_sport3.mp3]]></audio>
+					</fieldAudioOptions>
+					<textOptions>
+						<option><![CDATA[Wagstaff City's <font color='#000000' size='18'><b>softball</b></font> team scored a 6-0 win in last night's game.]]></option>
+						<option><![CDATA[Last night's <font color='#000000' size='18'><b>hockey</b></font> game was a big win for Wagstaff City. The final score was 4-1.]]></option>
+						<option><![CDATA[It was another great game last night for Wagstaff City's <font color='#000000' size='18'><b>football</b></font> team. They won by 10 points!]]></option>
+					</textOptions>
+				</formItem>
+				<formItem>
+					<label>Character:</label>
+					<labelAudio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"> <![CDATA[./assets/audio/wackyStories/sport/sport_character.mp3]]> </labelAudio>
+					<fieldText></fieldText>
+					<fieldOptions>
+						<option>Truman</option>
+						<option>Alice</option>
+						<option>Helen</option>
+					</fieldOptions>
+					<fieldAudioOptions>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/sport/sport_character1.mp3]]></audio>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/sport/sport_character2.mp3]]></audio>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/sport/sport_character3.mp3]]></audio>
+					</fieldAudioOptions>
+					<textOptions>
+						<option><![CDATA[We asked star player, <font color='#000000' size='18'><b>Truman Oatley</b></font>, about the game. He said,]]></option>
+						<option><![CDATA[We asked star player, <font color='#000000' size='18'><b>Alice Boxwood</b></font>, about the game. She said,]]></option>
+						<option><![CDATA[We asked star player, <font color='#000000' size='18'><b>Helen Lorraine</b></font>, about the game. She replied,]]></option>
+					</textOptions>
+				</formItem>
+				<formItem>
+					<label>Noun:</label>
+					<labelAudio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"> <![CDATA[./assets/audio/wackyStories/sport/sport_noun.mp3]]> </labelAudio>
+					<fieldText></fieldText>
+					<fieldOptions>
+						<option>Achievement</option>
+						<option>Feat</option>
+						<option>Triumph</option>
+					</fieldOptions>
+					<fieldAudioOptions>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/sport/sport_noun1.mp3]]></audio>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/sport/sport_noun2.mp3]]></audio>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/sport/sport_noun3.mp3]]></audio>
+					</fieldAudioOptions>
+					<textOptions>
+						<option><![CDATA["What an <font color='#000000' size='18'><b>achievement</b></font>! That was the best game we've ever played."]]></option>
+						<option><![CDATA["What a <font color='#000000' size='18'><b>feat</b></font>! That was the best game we've ever played."]]></option>
+						<option><![CDATA["What a <font color='#000000' size='18'><b>triumph</b></font>! That was the best game we've ever played."]]></option>
+					</textOptions>
+				</formItem>
+				<formItem>
+					<label>Rival:</label>
+					<labelAudio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"> <![CDATA[./assets/audio/wackyStories/sport/sport_rival.mp3]]> </labelAudio>
+					<fieldText></fieldText>
+					<fieldOptions>
+						<option>Pickle</option>
+						<option>Toaster</option>
+						<option>Ghost</option>
+					</fieldOptions>
+					<fieldAudioOptions>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/sport/sport_rival1.mp3]]></audio>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/sport/sport_rival2.mp3]]></audio>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/sport/sport_rival3.mp3]]></audio>
+					</fieldAudioOptions>
+					<textOptions>
+						<option><![CDATA[Next week, the team will play their rival, the Pittsfield <font color='#000000' size='18'><b>Pickles</b></font>, for the championship. Green foam fingers have already sold out.]]></option>
+						<option><![CDATA[Next week, the team will play their rival, the Tempe <font color='#000000' size='18'><b>Toasters</b></font>, for the championship. The winner will get a lifetime supply of strawberry jam.]]></option>
+						<option><![CDATA[Next week, the team will play their rival, the Georgetown <font color='#000000' size='18'><b>Ghosts</b></font>, for the championship. Eager fans are already lining up for tickets at Spooky Center Stadium.]]></option>
+					</textOptions>
+				</formItem>
+			</form>
+			<imageList>
+				<image>assets/img/wacky-sports-1.png</image>
+				<image>assets/img/wacky-sports-2.png</image>
+				<image>assets/img/wacky-sports-3.png</image>
+			</imageList>
+			<headlineList>
+				<headline>On the Ball!</headline>
+				<headline>Ice Magic!</headline>
+				<headline>Touchdown Team!</headline>
+			</headlineList>
+		</storyModel>	
+
+		<storyModel type="food">
+			<form>
+				<formItem type="inputItemType">
+					<label>Your Name:</label>
+					<labelAudio sync="[0, 1, 1, 4, 5, 3, 3, 1, 0, 1, 3, 4, 2, 2, 2, 3, 4, 4, 4, 3, 3, 3, 2, 1, 1, 1, 1, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/wacky_typename_field.mp3]]> </labelAudio>
+					<fieldText></fieldText>
+					<fieldOptions></fieldOptions>
+					<textOptions></textOptions>
+				</formItem>
+				<formItem>
+					<label>Vegetable:</label>
+					<labelAudio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"> <![CDATA[./assets/audio/wackyStories/food/food_vegetable.mp3]]> </labelAudio>
+					<fieldText></fieldText>
+					<fieldOptions>
+						<option>Carrots</option>
+						<option>Broccoli</option>
+						<option>Eggplant</option>
+					</fieldOptions>
+					<fieldAudioOptions>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/food/food_vegetable1.mp3]]></audio>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/food/food_vegetable2.mp3]]></audio>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/food/food_vegetable3.mp3]]></audio>
+					</fieldAudioOptions>
+					<textOptions>
+						<option><![CDATA[Wagstaff City saw a truckload of <font color='#000000' size='18'><b>carrots</b></font> spilled today on Central Street.]]></option>
+						<option><![CDATA[Wagstaff City saw a truckload of <font color='#000000' size='18'><b>broccoli</b></font> spilled today on Central Street.]]></option>
+						<option><![CDATA[Wagstaff City saw a truckload of <font color='#000000' size='18'><b>eggplants</b></font> spilled today on Central Street.]]></option>
+					</textOptions>
+				</formItem>
+				<formItem>
+					<label>Character:</label>
+					<labelAudio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"> <![CDATA[./assets/audio/wackyStories/food/food_character.mp3]]> </labelAudio>
+					<fieldText></fieldText>
+					<fieldOptions>
+						<option>Truman</option>
+						<option>Mrs. Clusky</option>
+						<option>Helen</option>
+					</fieldOptions>
+					<fieldAudioOptions>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/food/food_character1.mp3]]></audio>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/food/food_character2.mp3]]></audio>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/food/food_character3.mp3]]></audio>
+					</fieldAudioOptions>
+					<textOptions>
+						<option><![CDATA[We asked local student <font color='#000000' size='18'><b>Truman Oatley</b></font> about the spill. He said,]]></option>
+						<option><![CDATA[We asked a witness, <font color='#000000' size='18'><b>Mrs. Clusky</b></font> about the spill. She said,]]></option>
+						<option><![CDATA[We asked a passerby, <font color='#000000' size='18'><b>Helen Lorraine</b></font> about the spill. She said,]]></option>
+					</textOptions>
+				</formItem>
+				<formItem>
+					<label>Description:</label>
+					<labelAudio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"> <![CDATA[./assets/audio/wackyStories/food/food_description.mp3]]> </labelAudio>
+					<fieldText></fieldText>
+					<fieldOptions>
+						<option>Sight</option>
+						<option>Catastrophe</option>
+						<option>Colorful</option>
+					</fieldOptions>
+					<fieldAudioOptions>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/food/food_description1.mp3]]></audio>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/food/food_description2.mp3]]></audio>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/food/food_description3.mp3]]></audio>
+					</fieldAudioOptions>
+					<textOptions>
+						<option><![CDATA["What a <font color='#000000' size='18'><b>sight! </b></font> That pile of veggies is incredible."]]></option>
+						<option><![CDATA["What a <font color='#000000' size='18'><b>catastrophe</b></font>. That is quite a problem for the police to clean up."]]></option>
+						<option><![CDATA["What a <font color='#000000' size='18'><b>colorful</b></font> pileup. Those veggies sure make Central Street brighter!"]]></option>
+					</textOptions>
+				</formItem>
+				<formItem>
+					<label>Alternative:</label>
+					<labelAudio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"> <![CDATA[./assets/audio/wackyStories/food/food_alternative.mp3]]> </labelAudio>
+					<fieldText></fieldText>
+					<fieldOptions>
+						<option>Potatoes</option>
+						<option>Pizza</option>
+						<option>Cheese</option>
+					</fieldOptions>
+					<fieldAudioOptions>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/food/food_alternative1.mp3]]></audio>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/food/food_alternative2.mp3]]></audio>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/food/food_alternative3.mp3]]></audio>
+					</fieldAudioOptions>
+					<textOptions>
+						<option><![CDATA[Because of the food shortage, local restaurants are having to serve <font color='#000000' size='18'><b>potatoes</b></font> instead.]]></option>
+						<option><![CDATA[Because of the food shortage, the Elementary School cafeteria is calling <font color='#000000' size='18'><b>pizza</b></font> a vegetable instead.]]></option>
+						<option><![CDATA[Because of the food shortage, the local diner is painting lumps of <font color='#000000' size='18'><b>cheese</b></font> green and saying it's a vegetable.]]></option>
+					</textOptions>
+				</formItem>
+			</form>
+			<imageList>
+				<image>assets/img/wacky-food-1.png</image>
+				<image>assets/img/wacky-food-2.png</image>
+				<image>assets/img/wacky-food-3.png</image>
+			</imageList>
+			<headlineList>
+				<headline>Bunny Paradise!</headline>
+				<headline>Green Giants!</headline>
+				<headline>Purple Rain!</headline>
+			</headlineList>
+		</storyModel>
+
+		<storyModel type="theater">
+			<form>
+				<formItem type="inputItemType">
+					<label>Your Name:</label>
+					<labelAudio sync="[0, 1, 1, 4, 5, 3, 3, 1, 0, 1, 3, 4, 2, 2, 2, 3, 4, 4, 4, 3, 3, 3, 2, 1, 1, 1, 1, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/wacky_typename_field.mp3]]> </labelAudio>
+					<fieldText></fieldText>
+					<fieldOptions></fieldOptions>
+					<textOptions></textOptions>
+				</formItem>
+				<formItem>
+					<label>Animal:</label>
+					<labelAudio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"> <![CDATA[./assets/audio/wackyStories/theater/theater_animal.mp3]]> </labelAudio>
+					<fieldText></fieldText>
+					<fieldOptions>
+						<option>Dogs</option>
+						<option>Cats</option>
+						<option>Chickens</option>
+					</fieldOptions>
+					<fieldAudioOptions>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/theater/theater_animal1.mp3]]></audio>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/theater/theater_animal2.mp3]]></audio>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/theater/theater_animal3.mp3]]></audio>
+					</fieldAudioOptions>
+					<textOptions>
+						<option><![CDATA[The school play today was canceled after <font color='#000000' size='18'><b>dogs</b></font> took over the stage!]]></option>
+						<option><![CDATA[The school play today was canceled after <font color='#000000' size='18'><b>cats</b></font> took over the stage!]]></option>
+						<option><![CDATA[The school play today was canceled after <font color='#000000' size='18'><b>chickens</b></font> took over the stage!]]></option>
+					</textOptions>
+				</formItem>
+				<formItem>
+					<label>Description:</label>
+					<labelAudio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"> <![CDATA[./assets/audio/wackyStories/theater/theater_description.mp3]]> </labelAudio>
+					<fieldText></fieldText>
+					<fieldOptions>
+						<option>Performance</option>
+						<option>Drama</option>
+						<option>Powerful</option>
+					</fieldOptions>
+					<fieldAudioOptions>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/theater/theater_description1.mp3]]></audio>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/theater/theater_description2.mp3]]></audio>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/theater/theater_description3.mp3]]></audio>
+					</fieldAudioOptions>
+					<textOptions>
+						<option><![CDATA["Best <font color='#000000' size='18'><b>performance</b></font> ever!" said T.D. Kennelly, a student at the school.]]></option>
+						<option><![CDATA["I think this is how <font color='#000000' size='18'><b>drama</b></font> was meant to be," said Ronald Boxwood, a student. "Dramatic!"]]></option>
+						<option><![CDATA["I liked the little one at the back. <font color='#000000' size='18'><b>Powerful</b></font> acting!" said student Alice Boxwood.]]></option>
+					</textOptions>
+				</formItem>
+				<formItem>
+					<label>Verb:</label>
+					<labelAudio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"> <![CDATA[./assets/audio/wackyStories/theater/theater_verb.mp3]]> </labelAudio>
+					<fieldText></fieldText>
+					<fieldOptions>
+						<option>Caring</option>
+						<option>Returning</option>
+						<option>Cleaning</option>
+					</fieldOptions>
+					<fieldAudioOptions>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/theater/theater_verb1.mp3]]></audio>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/theater/theater_verb2.mp3]]></audio>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/theater/theater_verb3.mp3]]></audio>
+					</fieldAudioOptions>
+					<textOptions>
+						<option><![CDATA["School staff are still <font color='#000000' size='18'><b>caring</b></font> for the animals.]]></option>
+						<option><![CDATA["School staff are still <font color='#000000' size='18'><b>returning</b></font> all the animals."]]></option>
+						<option><![CDATA["School staff are still <font color='#000000' size='18'><b>cleaning</b></font> up after the animals.]]></option>
+					</textOptions>
+				</formItem>
+				<formItem>
+					<label>Next Play:</label>
+					<labelAudio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"> <![CDATA[./assets/audio/wackyStories/theater/theater_next.mp3]]> </labelAudio>
+					<fieldText></fieldText>
+					<fieldOptions>
+						<option>Horses</option>
+						<option>Ducks</option>
+						<option>Pigs</option>
+					</fieldOptions>
+					<fieldAudioOptions>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/theater/theater_next1.mp3]]></audio>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/theater/theater_next2.mp3]]></audio>
+						<audio sync="[0, 0, 4, 3, 3, 4, 5, 4, 3, 1, 0, 0, 0, 0, 1, 0, 0]"><![CDATA[./assets/audio/wackyStories/theater/theater_next3.mp3]]></audio>
+					</fieldAudioOptions>
+					<textOptions>
+						<option><![CDATA[After this success, the next school play will feature <font color='#000000' size='18'><b>horses</b></font>.]]></option>
+						<option><![CDATA[After this success, the next school play will feature <font color='#000000' size='18'><b>ducks</b></font>.]]></option>
+						<option><![CDATA[After this success, the next school play will feature <font color='#000000' size='18'><b>pigs</b></font>.]]></option>
+					</textOptions>
+				</formItem>
+			</form>
+			<imageList>
+				<image>assets/img/wacky-theater-2.png</image>
+				<image>assets/img/wacky-theater-1.png</image>
+				<image>assets/img/wacky-theater-3.png</image>
+			</imageList>
+			<headlineList>
+				<headline>Much a-Dog About Nothing!</headline>
+				<headline>Two Cats or Not Two Cats!</headline>
+				<headline>Romeo and Juliet. And Chickens.</headline>
+			</headlineList>
+		</storyModel>
+
+	</stories>
+</TownCrierApp>

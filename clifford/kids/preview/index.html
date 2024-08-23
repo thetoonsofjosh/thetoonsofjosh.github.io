@@ -1,0 +1,276 @@
+<html>
+
+<head>
+
+<title>Clifford . Backstage | PBS Kids</title>
+
+<link REL=STYLESHEET TYPE="text/css" HREF="../shared/css/main.css">
+
+<script language="JavaScript1.2">
+
+// identifies which section of site this page is in so correct bottom nav icon is hilited
+
+var pageSite = "backstage";
+
+
+
+// pathway to folder where images live
+
+var pathMain = "../shared/images/" + pageSite + "/";
+
+
+
+function newImage(arg) {
+
+	if (document.images) {
+
+		rslt = new Image();
+
+		rslt.src = arg;
+
+		return rslt;
+
+	}
+
+}
+
+
+
+function changeImages() {
+
+	if (document.images && (preloadFlag == true)) {
+
+		for (var i=0; i<changeImages.arguments.length; i+=2) {
+
+			document[changeImages.arguments[i]].src = changeImages.arguments[i+1];
+
+		}
+
+	}
+
+}
+
+
+
+var preloadFlag = false;
+
+function preloadImages() {
+
+	if (document.images) {
+
+		kisses_over = newImage("../shared/images/games/clifford_kisses-over.gif");
+
+		slide_over = newImage("../shared/images/games/clifford_slide-over.gif");
+
+		help_over = newImage("../shared/images/games/help_clifford-over.gif");
+
+		share_over = newImage("../shared/images/games/cleo_share-over.gif");
+
+		tbone_over = newImage("../shared/images/games/find_tbone-over.gif");
+
+		preloadFlag = true;
+
+	}
+
+}
+
+
+
+</script>
+
+<script language="JavaScript1.2" src="../shared/scripts/nav_bottom.js"></script>
+
+<script language="JavaScript1.2" src="../shared/scripts/header_top.js"></script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+</head>
+
+
+
+<body bgcolor="#000099" topmargin="0" leftmargin="0" marginheight="0" marginwidth="0" onload="preloadImages();"> 
+
+
+
+<center>
+
+
+
+<table border=0 background="../shared/images/backstage/tile.gif" cellpadding=0 cellspacing=0 width=583>
+
+<tr>
+
+	<!-- top nav bar -->
+
+    <td>
+
+	<script>doHeader()</script>
+
+	</td>
+
+</tr>
+
+<tr>
+
+	<td>
+
+			
+
+			<!-- begin main content table -->
+
+			<table border=0 cellpadding=0 cellspacing=0 width=530 align=center background="../shared/images/netscape.gif">
+
+				<tr>
+
+					<td colspan=2>&nbsp;</td>
+
+					
+
+            <td align=center><img src="../shared/images/backstage/tour.gif" alt="Take a tour"></td>
+
+				</tr>
+
+				<tr>
+
+					<td valign=bottom><a href="tvpreview.html"><img src="../shared/images/backstage/clapboard.gif" border=0 alt="TV Previews"></a></td>
+
+					<td align=center>
+
+						<!-- left column -->
+
+						<table border=0 cellpadding=0 cellspacing=0 width=250>
+
+							<tr>
+
+								
+
+                  <td><a href="draw/index.html"><img src="../shared/images/backstage/table_top.gif" width=243 height=126 alt="Clifford drawing on desk" border="0"></a></td>
+
+							</tr>
+
+							<tr>
+
+								<td><img src="../shared/images/backstage/table_bottom.gif" alt="" width=243 height=125 border="0" usemap="#chair"></td>
+
+							</tr>
+
+						</table>
+
+					</td>
+
+					<td>
+
+						<!-- right column -->
+
+							<table border=0 cellpadding=0 cellspacing=0 width=230>
+
+								<tr>
+
+									
+
+                  <td><a href="studio/index.html"><img src="../shared/images/backstage/studio.gif" width=78 height=68 border=0 alt="See the Studio"></a></td>
+
+									<td><a href="studio/index.html"><b>See the Studio</b></a>
+
+									<br>
+
+									Visit the studio<br> (video clips).</td>
+
+								</tr>
+
+								<tr>
+
+									
+
+                  <td><a href="cast/index.html"><img src="../shared/images/backstage/meet.gif" width=78 height=68 border=0 alt="Meet the Cast"></a></td>
+
+									<td><a href="cast/index.html"><b>Meet the Cast</b></a>
+
+									<br>
+
+									Read about the actors.
+
+									</td>
+
+								</tr>
+
+								<tr>
+
+									
+
+                  <td><a href="draw/index.html"><img src="../shared/images/backstage/clifford.gif" width=78 height=68 border=0 alt="Draw Clifford"></a></td>
+
+									<td><a href="draw/index.html"><b>Draw Clifford</b></a>
+
+									<br>
+
+									Learn to draw Clifford.</td>
+
+								</tr>
+
+								<tr>
+
+									<td colspan=2 align=right><a href="../bigideas/index.html"
+
+									onmouseover="changeImages('more','../shared/images/backstage/more_over.gif');return true;"
+
+									onmouseout="changeImages('more','../shared/images/backstage/more.gif');return true;">
+
+									<img name="more" src="../shared/images/backstage/more.gif" width=80 height=66 border=0 alt="More Fun in Big Ideas"></a></td>
+
+								</tr>
+
+							</table>
+
+					</td>
+
+				</tr>
+
+			</table>
+
+	</td>
+
+	<!-- end content -->
+
+</tr>
+
+<tr>
+
+	<!-- bottom navigation bar -->
+
+	<td>
+
+	<script>doNavBar()</script>
+
+	</td>
+
+</tr>
+
+</table>
+
+<br>
+
+<!-- begin copyright table -->
+
+<table border=0 cellpadding=0 cellspacing=0 width=583>
+
+	<tr>
+
+		<td align=right><font style="font-size:11px;color:white">
+
+		&#169 2002 Scholastic Entertainment Inc. <a href="../copyright/index.html"><font style="font-size:11px;text-decoration:underline;color:#FFFFFF;">Web Site copyright.</font></a></font></td>
+
+	</tr>
+
+</table>
+
+
+
+</center>
+
+<map name="chair">
+  <area shape="rect" coords="139,1,228,117" alt="Chair">
+</map>
+</body>
+
+</html>

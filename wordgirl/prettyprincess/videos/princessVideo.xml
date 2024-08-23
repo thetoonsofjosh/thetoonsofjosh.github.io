@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="iso-8859-1"?> 
+<pageResources>
+	<assetLocation><![CDATA[prettyprincess/videos/assets/]]></assetLocation>
+	<backDestination>prettyprincess</backDestination>
+	<resources>
+		<resource id="background" URL="princessVideoBack.png" type="image"/>
+		<resource id="cloudburst" URL="backToSparkle.png" type="image"/>
+	</resources>
+</pageResources>

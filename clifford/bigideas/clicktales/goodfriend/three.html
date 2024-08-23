@@ -1,0 +1,226 @@
+<html>
+<head>
+<title>Clifford . Clicktales | PBS Kids</title>
+<link REL=STYLESHEET TYPE="text/css" HREF="../../../shared/css/main.css">
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+
+// identifies which section of site this page is in so correct bottom nav icon is hilited
+var pageSite = "bigideas";
+
+// pathway to folder where images live
+var pathMain = "../../../shared/images/" + pageSite + "/";
+
+// pathway to folder where specific CT images live
+var pathCT = pathMain + "clicktales/goodfriend/p3/";
+
+// play sound function
+function playSound(obj) {
+    
+	if (document.images) {
+		if(obj.test()) {
+			obj.playsound();
+		}
+	}
+}
+
+// games code
+var intCorrect = 1;
+var arrImg = new Array("bone","banana","leaf");
+var arrStatus = new Array(false, false, true);
+
+
+function newImage(arg) {
+	if (document.images) {
+		rslt = new Image();
+		rslt.src = arg;
+		return rslt;
+	}
+}
+
+function changeImages() {
+	if (document.images && (preloadFlag == true)) {
+		for (var i=0; i<changeImages.arguments.length; i+=2) {
+			document[changeImages.arguments[i]].src = changeImages.arguments[i+1];
+		}
+	}
+}
+
+var preloadFlag = false;
+function preloadImages() {
+	if (document.images) {
+		preloadFlag = true;
+	}
+}
+// -->
+</SCRIPT>
+<script language="JavaScript1.2" src="../../../shared/scripts/nav_bottom.js"></script>
+<script language="JavaScript1.2" src="../../../shared/scripts/header_top.js"></script>
+<script language="JavaScript1.2" src="../../../shared/scripts/games.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<body bgcolor="000099" topmargin="0" leftmargin="0" marginheight="0" marginwidth="0" onload="preloadImages();">
+<center>
+  <table border=0 background="../../../shared/images/bigideas/tile.gif" cellpadding=0 cellspacing=0 width=583>
+    <tr> 
+      <td valign=top> 
+        <!-- begin header table -->
+        <table border=0 cellpadding=0 cellspacing=0 width=583 background="../../../shared/images/netscape.gif">
+          <tr> 
+            <td> 
+              <script>doHeader()</script>
+            </td>
+          </tr>
+        </table>
+        <br>
+        <!-- begin main content table -->
+        <table border=0 cellpadding=0 cellspacing=0 width=583 align=center background="../../../shared/images/netscape.gif">
+          <tr> 
+            <td align=center> 
+              <!-- begin clicktale viewer -->
+              <table border=0 cellpadding=0 cellspacing=0 width=576 height=325>
+                <tr> 
+                  <td colspan=3><img src="../../../shared/images/bigideas/clicktales/top.gif" width="576" height="23"></td>
+                </tr>
+                <tr> 
+                  <td><img name="icon" src="../../../shared/images/bigideas/clicktales/seek.gif" alt="ClickTale"></td>
+                  <td rowspan=3> 
+                    <!-- begin slide content -->
+                    
+                    <table border=0 cellpadding=0 cellspacing=0 width=414 height=232 bgcolor="#FFFFFF">
+                      <tr> 
+                        <td align=center> 
+                          <!-- begin nested main content table -->
+                          <table border=0 cellpadding=0 cellspacing=0 width=411 height=228>
+                            <tr> 
+                              <td>
+							  	<!-- begin nested game table -->
+								<table border=0 cellpadding=0 cellspacing=0 width=195>
+									<tr>
+										<td colspan=2><img src="../../../shared/images/bigideas/clicktales/goodfriend/p3/top.gif"></td>
+									</tr>
+									<tr>
+										
+                                    <td><a href="javascript:doCTGame(1);">
+									<img name="banana" src="../../../shared/images/bigideas/clicktales/goodfriend/p3/banana.gif" alt="banana" border=0></a></td>
+										
+                                    <td><a href="javascript:doCTGame(2);">
+									<img name="leaf" src="../../../shared/images/bigideas/clicktales/goodfriend/p3/leaf.gif" alt="feather" border=0></a></td>
+									</tr>
+									<tr>
+										
+                                    <td colspan=2><a href="javascript:doCTGame(0);">
+									<img name="bone" src="../../../shared/images/bigideas/clicktales/goodfriend/p3/bone.gif" alt="bone" border=0></a></td>
+									</tr>
+									<tr>
+										<td colspan=2><img src="../../../shared/images/bigideas/clicktales/goodfriend/p3/bottom.gif"></td>
+									</tr>
+								</table>
+							  </td>
+                              <td> 
+                                <!-- begin nested text table -->
+                                <table border=0 cellpadding=5 cellspacing=0 width=216 height=228>
+                                  <tr> 
+                                    <td><font style="font-family:verdana;font-size:10pt"> 
+                                      When no one is looking, a bird flies in and steals the shiny medal. After the game, 
+									  Jetta wants to show her medal to Mac, but it's gone! She thinks Emily Elizabeth took it!
+									  "I would never take your medal!" says Emily. She offers to help Jetta look for it.</font></td>
+                                  </tr>
+                                  <tr> 
+                                    <td valign=bottom align=right><img src="../../../shared/images/bigideas/clicktales/responsible/p3/pageno.gif"></td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                    </td>
+                  <td><img src="../../../shared/images/bigideas/clicktales/clicktale_right.gif"></td>
+                </tr>
+                <tr> 
+                  <td> 
+                    <!-- left arrow table -->
+                    <table border=0 cellpadding=0 cellspacing=0>
+                      <tr> 
+                        <td><img src="../../../shared/images/bigideas/clicktales/l_arrow-left.gif"></td>
+                        <td><a href="two.html"
+											onmouseover="changeImages('larrow','../../../shared/images/clicktales/l_arrow-over.gif');return true;"
+											onmouseout="changeImages('larrow','../../../shared/images/clicktales/l_arrow.gif');return true;"> 
+                          <img name="larrow" src="../../../shared/images/bigideas/clicktales/l_arrow.gif" border=0 alt="previous page"></a></td>
+                      </tr>
+                    </table>
+                  </td>
+                  <td> 
+                    <!-- right arrow table -->
+                    <table border=0 cellpadding=0 cellspacing=0>
+                      <tr> 
+                        <td><a href="javascript:goNext('four.html')"> 
+                          <img name="rarrow" src="../../../shared/images/bigideas/clicktales/r_arrow.gif" border=0 alt="next page"></a></td>
+                        <td><img src="../../../shared/images/bigideas/clicktales/r_arrow-right.gif"></td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr> 
+                  <td><img src="../../../shared/images/bigideas/clicktales/left_side.gif"></td>
+                  <td><img src="../../../shared/images/bigideas/clicktales/right_side.gif"></td>
+                </tr>
+                <tr> 
+                  <td colspan=3><img src="../../../shared/images/bigideas/clicktales/divider.gif"></td>
+                </tr>
+                <tr> 
+                  <td colspan=3> 
+                    <!-- begin lower text field table -->
+                    <table border=0 cellpadding=0 cellspacing=0>
+                      <tr> 
+                        <td><img src="../../../shared/images/bigideas/clicktales/text_left.gif"></td>
+                        <td bgcolor="#FFFFFF"> 
+                          <table border=0 cellpadding=0 cellspacing=0 width=384 height=27>
+                            <tr> 
+                              <td><font style="font-weight:bold;color:#FF3333;font-family:verdana;font-size:10pt"> 
+                                The bird left a clue behind. Can you click on it?</font></td>
+                            </tr>
+                          </table>
+                        </td>
+                        <td><img src="../../../shared/images/bigideas/clicktales/text_right.gif"></td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr> 
+                  <td colspan=3><img src="../../../shared/images/bigideas/clicktales/bottom.gif"></td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+        <br>
+        <!-- begin bottom navigation bar -->
+        <table border=0 cellpadding=0 cellspacing=0 background="../../../shared/images/friends/bottomnav.gif" width=583 height=72>
+          <tr> 
+            <td> 
+              <script>doNavBar()</script>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</center>
+<applet code="TinyAudioPlayer.class" codebase="../../../shared/sound" name="goodjobplayer" width="1" height="1" MAYSCRIPT>
+  <param name=snd value="../../../shared/sound/bark.au">
+</applet>
+<center>
+<br>
+<!-- begin copyright table -->
+<table border=0 cellpadding=0 cellspacing=0 width=583>
+	<tr>
+		<td align=right><font style="font-size:11px;color:white">
+		&#169 2002 Scholastic Entertainment Inc. <a href="../../../copyright/index.html"><font style="font-size:11px;text-decoration:underline;color:#FFFFFF;">Web Site copyright.</font></a></font></td>
+	</tr>
+</table>
+</center>
+</body>
+</html>

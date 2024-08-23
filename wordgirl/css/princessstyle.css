@@ -1,0 +1,56 @@
+.teaser {
+	font-family: Arial, Helvetica, sans-serif, Myriad;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+.teaser a {
+	font-family: Arial, Helvetica, sans-serif, Myriad;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+
+.teaser a:hover{
+	color: #000000;
+}
+
+.teaser a:hover{
+	color: #000000;
+}
+
+div.videocategory {
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	color:#efca3f;	
+	font-weight:bold;
+	font-size: 1em;
+	width:250px; 
+	float:left; 
+	padding-top: 15px;
+	padding-bottom: 15px;
+	/*padding:0px 25px;*/
+}
+div.videocategory a:link{
+	color: #efca3f;
+}
+div.videocategory a:visited{
+	color: #935820;
+}
+
+div.videocategory a:link{
+	color: #efca3f;
+}
+div.videocategory a:hover{
+	color: #c2742a;
+}
+
+
+#wrapper {
+	
+}
+
+#WordGirl { height:705px; text-align:center; margin-left:auto; margin-right:auto; min-width: 960px; outline:none;}
+
+body{
+	background-color: #f680c9; /*ps: change this value to the same background color of your flash movie*/
+	text-align:center; 
+	margin:0;
+}

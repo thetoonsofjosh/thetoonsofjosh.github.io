@@ -1,0 +1,167 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>WordGirl | PBS KIDS GO!</title>
+
+<meta name="Keywords" content="WordGirl, Captain Huggy Face, Dr. Two Brains, Professor Two-Brains, The Butcher, Violet, Tim Botsford, Sally Botsford, TJ, Todd Scoops Ming, Announcer, Tobey, Chuck the Evil Sandwich Making Guy, Granny Mae, Vocabulary, Word Games, Episode Descriptions, fly, speed of sound, Becky Botsford, Planet Lexicon, crossword puzzle, puzzles, dictionary, heiroglyphics, monkey, super powers" /> 
+
+<meta name="Description" content="It is widely acknowledged today throughout our society that children must build a strong foundation of language and literacy skills at an early age if they are to prosper in school and beyond. Scientifically-based research has validated this general understanding and government initiatives have placed this need at the forefront of our educational mandate. " />
+
+
+<script type="text/JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<style type="text/css">
+<!--
+body,td,th {
+	font-family: Myriad Roman, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+body {
+	background-color: #1C60BB;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+a:link {
+	color: FF6600;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: FF3300;
+}
+a:hover {
+	text-decoration: underline;
+	color: FF3300;
+}
+a:active {
+	text-decoration: none;
+	color: FFCC00;
+}
+-->
+</style></head>
+
+<body onload="MM_preloadImages('images/wgnav_heroes_on.gif','images/wgnav_pt_on.gif')">
+<script type="text/javascript">
+var GA_env = "UA-4005067-1,UA-4005001-1,UA-3968372-1,UA-3999648-1,ET-3999648-2";
+
+var GA_jshost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script src="/js/ga-4889e6e1.js" type="text/javascript"></script>
+
+
+<table width="600" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#1C60BB">
+  <tr>
+    <td width="90" align="left" valign="top" background="images/wgnav_nav_bg1.gif"><table width="50" height="100" border="0" cellpadding="0" cellspacing="0" background="images/wgnav_nav_bg1.gif">
+      <tr>
+        <td height="7" align="left" valign="top"><img src="images/wgnav_spacer_01.gif" width="10" height="7" /></td>
+        <td align="left" valign="top"><img src="images/wgnav_spacer_02.gif" width="80" height="7" /></td>
+      </tr>
+      <tr>
+        <td height="50" align="left" valign="top">&nbsp;</td>
+        <td align="center" valign="middle"><a href="/pbskids2008//go/"><img src="images/wgnav_pbs_off.gif" alt="PBS KIDS GO!" name="Image3" width="80" height="50" border="0" id="Image3" /></a></td>
+      </tr>
+      <tr>
+        <td height="65" align="left" valign="top">&nbsp;</td>
+        <td align="center" valign="middle"><a href="index.html"><img src="images/wgnav_home_on.gif" alt="WordGirl Home" name="Image4" width="80" height="65" border="0" id="Image4" /></a></td>
+      </tr>
+      <tr>
+        <td height="62" align="left" valign="top">&nbsp;</td>
+        <td align="center" valign="middle"><a href="heroesandvillains.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image5','','images/wgnav_heroes_on.gif',1)"><img src="images/wgnav_heroes_off.gif" alt="Heroes, Villains &amp; Mere Mortals" name="Image5" width="80" height="62" border="0" id="Image5" /></a></td>
+      </tr>
+      <tr>
+        <td height="73" align="left" valign="top">&nbsp;</td>
+        <td align="center" valign="middle"><a href="parentsandteachers/parentsandteachers.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image6','','images/wgnav_pt_on.gif',1)"><img src="images/wgnav_pt_off.gif" alt="Parents &amp; Teachers" name="Image6" width="80" height="73" border="0" id="Image6" /></a></td>
+      </tr>
+      <tr>
+        <td align="left" valign="top">&nbsp;</td>
+        <td height="5" align="center" valign="middle">&nbsp;</td>
+      </tr>
+    </table></td>
+    <td width="510" align="left" valign="top"><img src="images/wg_home1.jpg" alt="The Amazing Colossal Adventures of WordGirl" width="653" height="500" /></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="left" valign="top"><table align="center">
+  <style type="text/css">
+.teaser {
+	font-family: Arial, Helvetica, sans-serif, Myriad;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+.teaser a {
+	font-family: Arial, Helvetica, sans-serif, Myriad;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+
+.teaser a:hover{
+color: #000000;
+}
+
+
+
+</style>
+  <tr> 
+    <td colspan="2" class="teaser" style="padding-top:20px;"><div align="center"><a href="index.html">Home</a> 
+        &nbsp;|&nbsp;<a href="heroesandvillains.html">Heroes, Villains, and Mere 
+        Mortals </a>&nbsp;|&nbsp;<a href="parentsandteachers/parentsandteachers.html">Parents 
+        &amp; Teachers</a><a href="pt_contactus.html"></a></div></td>
+  </tr>
+  <tr> 
+    <td colspan="3" class="teaser"> 
+      
+        
+        
+      </DIV></td>
+  </tr>
+  <tr> 
+    <td colspan="3" class="teaser" ><div align="center">Scholastic, Soup 2 Nuts, 
+        WordGirl and logos are trademarks of Scholastic Inc. (c) 2006 Scholastic 
+        Entertainment Inc. All rights reserved. </div></td>
+  </tr>
+  <tr> 
+    <td colspan="3" class="teaser"><div align="center">Produced By: </div></td>
+  </tr>
+  <tr> 
+    <td style="padding-bottom:20px; padding-right:20px" width=50%> <div align="right"><A href="/pbskids2008//cgi-registry/kidsbridge.cgi?context=wordgirl_scholastic"><img src="parentsandteachers/images/scholasticlogo.gif" width="87" height="9" border="0"></A></div></td>
+    <td colspan="2" style="padding-bottom:10px;padding-left:20px"> <div align="left"><A href="/pbskids2008//cgi-registry/kidsbridge.cgi?context=wordgirl_Soup2Nuts"><img src="parentsandteachers/images/souptonutslogo.gif" width="70" height="16" border="0"></A></div></td>
+  </tr>
+  <tr> 
+    <td colspan="3" class="teaser" ><div align="center">Privacy Policy: <a href="/pbskids2008//privacy/" target="_blank">/pbskids2008//privacy/</a></div></td>
+  </tr>
+</table>
+
+
+</td>
+  </tr>
+</table>
+</body>
+</html>

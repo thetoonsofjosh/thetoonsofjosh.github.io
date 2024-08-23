@@ -1,0 +1,112 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+    	<xbase href="/pbskids2008/wordgirl/" />
+		<title>WordGirl | PBS Kids</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<meta name="Keywords" content="word games, vocabulary games, monkey games, favorite words children, tv, television, amusement park, carnival, dunk huggy" /> 
+		<meta name="Description" content="Play wacky word games with WordGirl and Captain Huggy Face to build vocabulary." />
+
+		<script type="text/javascript" src="/pbskids2008/wordgirl/swfaddress/swfaddress.js"></script>
+    <script type="text/javascript" src="/includes/flash/swfobject.js"></script>
+
+	</head>
+	<body bgcolor="#1277C9" text="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+	<script type="text/javascript">
+var GA_env = "UA-4005067-1,UA-4005001-1,UA-3968372-1,UA-3999648-1,ET-3999648-2";
+
+var GA_jshost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script src="/js/ga-494126a3.js" type="text/javascript"></script>
+
+
+
+	<center>
+	<div id="content">
+    	<img src="images/noflash.jpg" width="508" height="437" border="0" alt="noflash" />
+    </div>
+    <script type="text/javascript">
+	// <![CDATA[
+		var so = new SWFObject('/pbskids2008/wordgirl/parent.swf', 'wg_parent', '775', '500', '8', '#1277C9');
+		so.addParam('allowScriptAccess','always');
+		PBS_enable_cdn(so);
+		so.addParam('wmode', 'transparent');
+		so.addParam('menu', 'false');
+		so.addVariable("sitePath", "/pbskids2008/wordgirl/");
+		so.addVariable("deepPath", "/games/");
+		so.addVariable("swfPath", "/enablecdn/content/swfs/");
+		var cookieString = "" + document.cookie;
+		if ( cookieString.indexOf("pbskids.fromkids") != -1 ) {
+			so.addVariable("logotype", "2");
+		} else {
+			so.addVariable("logotype", "1");
+		}
+		so.write('content');
+		SWFAddress.setId("wg_parent");
+	// ]]>
+    </script>
+
+	<table align="center">
+  	<style type="text/css">
+		.teaser {
+			font-family: Arial, Helvetica, sans-serif, Myriad;
+			font-size: 10px;
+			color: #FFFFFF;
+		}
+		.teaser a {
+			font-family: Arial, Helvetica, sans-serif, Myriad;
+			font-size: 10px;
+			color: #FFFFFF;
+		}
+		
+		.teaser a:hover{
+			color: #000000;
+		}
+		
+		
+		.teaser a:hover{
+			color: #000000;
+		}
+
+	</style>
+    
+<script type="text/javascript">
+function hideCECLogo() {
+	var cec = document.getElementById("cec_logo");
+	cec.style.display = "none";
+}
+
+function showCECLogo() {
+	var cec = document.getElementById("cec_logo");
+	cec.style.display = "block";
+}
+</script>
+							<tr>
+								<td colspan="3" class="teaser">
+									<div align="center">	
+
+Find out when WordGirl is on <a href="/tvschedules/localizer.html?dest=/pbskids2008/wordgirl/games/index.html&nola=WORG">in your town</a>
+ 
+                  </div>
+								</td>
+              </tr>
+              <tr>
+                <td colspan="3" class="teaser" ><div align="center">TM, &reg; &amp; &copy; 
+                  Scholastic Inc., 2009. All rights reserved.<br />
+                  Produced by Scholastic and Soup 2 Nuts</div></td>
+              </tr>
+              <tr>
+                <td colspan="1" style="padding-bottom:10px;padding-left:20px"><div align="left"><a href="/pbskids2008//cgi-registry/kidsbridge.cgi?context=wordgirl_scholastic" target="_parent"><img src="/pbskids2008/wordgirl/parentsandteachers/images/scholasticlogo.gif" alt="logo3" width="87" height="9" border="0" /></a></div></td>
+                <td colspan="1" style="padding-bottom:10px;padding-left:20px"><div align="left"><a href="/pbskids2008//cgi-registry/kidsbridge.cgi?context=wordgirl_Soup2Nuts" target="_parent"><img src="/pbskids2008/wordgirl/parentsandteachers/images/souptonutslogo.gif" alt="logo4" width="70" height="16" border="0" /></a></div></td>
+                <td colspan="1" style="padding-bottom:10px;padding-left:20px"><div align="left" id="cec_logo"><a href="/pbskids2008//cgi-registry/kidsbridge.cgi?context=wordgirl_chuckecheese" target="_parent"><img src="/pbskids2008/wordgirl/parentsandteachers/images/chuckecheeselogo.gif" alt="logo2" width="70" height="35" border="0" /></a></div></td>
+              </tr>
+              <tr>
+                <td colspan="3" class="teaser" ><div align="center">Privacy Policy: <a href="/pbskids2008//privacy/" target="_blank">/pbskids2008//privacy/</a></div></td>
+              </tr>
+            </table>
+            <p>&nbsp;                </p>
+        </div>
+    </center>
+    </body>
+</html>

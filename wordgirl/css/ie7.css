@@ -1,0 +1,25 @@
+.primary-navigation li {
+	width: 143px;
+	margin: 5px;
+	float: left;
+}
+
+.html5_content.html5_wrapper {
+	left: 0;
+	position: relative;
+	width: 100%;
+}
+
+.html5.content {
+	left: 0;
+	margin-left: 0;
+	position: relative;
+}
+
+.html5.content .swiffy.characters.module .character {
+	left: 0;
+}
+
+.html5.content .banner.module {
+	background-position: top center;
+}

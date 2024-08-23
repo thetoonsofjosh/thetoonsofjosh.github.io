@@ -1,0 +1,116 @@
+<html>
+<head>
+<title>Clifford . Backstage | PBS Kids</title>
+<link REL=STYLESHEET TYPE="text/css" HREF="../shared/css/main.css">
+<script language="JavaScript1.2">
+// identifies which section of site this page is in so correct bottom nav icon is hilited
+var pageSite = "backstage";
+
+// pathway to folder where images live
+var pathMain = "../shared/images/" + pageSite + "/";
+
+function newImage(arg) {
+	if (document.images) {
+		rslt = new Image();
+		rslt.src = arg;
+		return rslt;
+	}
+}
+
+function changeImages() {
+	if (document.images && (preloadFlag == true)) {
+		for (var i=0; i<changeImages.arguments.length; i+=2) {
+			document[changeImages.arguments[i]].src = changeImages.arguments[i+1];
+		}
+	}
+}
+
+var preloadFlag = false;
+function preloadImages() {
+	if (document.images) {
+		home_over = newImage("../shared/images/bottomnav/home_over.gif");
+		big_over = newImage("../shared/images/bottomnav/big_over.gif");
+		games_over = newImage("../shared/images/bottomnav/games_over.gif");
+		stories_over = newImage("../shared/images/bottomnav/stories_over.gif");
+		print_over = newImage("../shared/images/bottomnav/print_over.gif");
+		friends_over = newImage("../shared/images/bottomnav/friends_over.gif");
+		backstage_over = newImage("../shared/images/bottomnav/backstage_over.gif");
+		caregiver_over = newImage("../shared/images/bottomnav/caregiver_over.gif");
+		tv_over = newImage("../shared/images/bottomnav/tv_over.gif");
+		kisses_over = newImage("../shared/images/games/clifford_kisses-over.gif");
+		slide_over = newImage("../shared/images/games/clifford_slide-over.gif");
+		help_over = newImage("../shared/images/games/help_clifford-over.gif");
+		share_over = newImage("../shared/images/games/cleo_share-over.gif");
+		tbone_over = newImage("../shared/images/games/find_tbone-over.gif");
+		preloadFlag = true;
+	}
+}
+
+</script>
+<script language="JavaScript1.2" src="../shared/scripts/nav_bottom.js"></script>
+<script language="JavaScript1.2" src="../shared/scripts/header_top.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#000099" topmargin="0" leftmargin="0" marginheight="0" marginwidth="0" onload="preloadImages();"> 
+
+<center>
+
+<table border=0 background="../shared/images/backstage/tile.gif" cellpadding=0 cellspacing=0 width=583>
+<tr>
+	<!-- top nav bar -->
+    <td>
+	<script>doHeader()</script>
+	</td>
+</tr>
+<tr>
+	<td align=center>
+			<!-- begin main content table -->
+			<table border=0 cellpadding=0 cellspacing=0 width=560 bgcolor="#FFFFFF" background="../shared/images/netscape.gif">
+				<tr>
+					<td align=center>
+					<h4 align="center">Click <a href="../backstage/tvpreview.html"><font style="font-size:12pt">Back</font></a> or Previews to see more.</h4>
+				</tr>
+				<tr>
+					<td align=center>
+						<!-- begin background image table -->
+						<table border=0 cellpadding=0 cellspacing=0 background="../shared/images/preview/view_bg.gif" width=482 height=336>
+							<tr>
+								<td align=center valign=top>
+								<br><br>
+									<!-- begin quicktime movie nested table -->
+									<table border=0 cellpadding=0 cellspacing=0>
+										<tr>
+											<td><embed src="../shared/images/preview/107itchy.mov" controller="true"
+											height="208" width="256" autoplay="true" loop="false" border="0" target="myself" pluginspage="http://www.apple.com">
+            								</embed></td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+     			</tr>
+			</table>
+	</td>
+	<!-- end content -->
+</tr>
+<tr>
+	<!-- bottom navigation bar -->
+	<td>
+	<script>doNavBar()</script>
+	</td>
+</tr>
+</table>
+<br>
+<!-- begin copyright table -->
+<table border=0 cellpadding=0 cellspacing=0 width=583>
+	<tr>
+		<td align=right><font style="font-size:11px;color:white">
+		&#169 2002 Scholastic Entertainment Inc. <a href="../copyright/index.html"><font style="font-size:11px;text-decoration:underline;color:#FFFFFF;">Web Site copyright.</font></a></font></td>
+	</tr>
+</table>
+
+</center>
+</body>
+</html>

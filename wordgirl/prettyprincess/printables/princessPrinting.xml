@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-1"?> 
+<pageResources>
+	<assetLocation><![CDATA[prettyprincess/printables/assets/]]></assetLocation>
+	<backDestination>prettyprincess</backDestination>
+	<resources>
+		<resource id="background" URL="princessPrintablesBack.png" type="image"/>
+		<resource id="cloudburst" URL="backToSparkle.png" type="image"/>
+	</resources>
+	<activities>
+		<!--<activity id="printables|coloring/prettyprincess.pdf" iconURL="activity_coloring_prettyprincess.png" title="Coloring Page"/>
+		<activity id="printables|bookmarks/prettyprincess.pdf" iconURL="activity_bookmark.png" title="Bookmark"/>-->
+		<activity id="printables|coloring/prettyprincess.pdf" iconURL="activities_coloringpage_pp_large.png" title="Coloring Page"/>
+		<!--<activity id="printables|coloring/prettyprincess.pdf" iconURL="images/heroVillain/character/activity_coloring_prettyprincess.png" title="Coloring Page"/>
+		<activity id="printables|bookmarks/prettyprincess.pdf" iconURL="images/heroVillain/character/activity_bookmark.png" title="Bookmark"/>-->
+	</activities>
+</pageResources>

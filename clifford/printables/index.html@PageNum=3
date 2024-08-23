@@ -1,0 +1,780 @@
+<HTML><!-- #BeginTemplate "/Templates/main.dwt" -->
+
+
+
+<HEAD>
+
+
+
+<!-- #BeginEditable "doctitle" --> 
+
+
+
+<TITLE>Clifford . Printables | PBS Kids</TITLE>
+
+
+
+<!-- #EndEditable -->
+
+<!-- #BeginEditable "javascript" --> 
+
+<LINK REL=STYLESHEET TYPE="text/css" HREF="../shared/css/main.css">
+
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript" HREF="../shared/scripts/querystring.js"></SCRIPT>
+
+<SCRIPT LANGUAGE="JavaScript">
+
+<!--
+
+
+
+// identifies which section of site this page is in so correct bottom nav icon is hilited
+
+
+
+var pageSite = "printables";
+
+
+
+
+// pathway to folder where images live
+
+
+var pathMain = "../shared/images/" + pageSite + "/";
+
+
+
+
+function newImage(arg) {
+
+
+	if (document.images) {
+
+
+		rslt = new Image();
+
+
+		rslt.src = arg;
+
+
+		return rslt;
+
+
+	}
+
+
+
+}
+
+
+
+
+
+
+
+function changeImages() {
+
+
+
+	if (document.images && (preloadFlag == true)) {
+
+
+
+		for (var i=0; i<changeImages.arguments.length; i+=2) {
+
+
+
+			document[changeImages.arguments[i]].src = changeImages.arguments[i+1];
+
+
+
+		}
+
+
+
+	}
+
+
+
+}
+
+
+
+
+var preloadFlag = false;
+
+
+
+function preloadImages() {
+
+
+
+	if (document.images) {
+
+
+
+		home_over = newImage("../shared/images/bottomnav/home_over.gif");
+
+
+
+		big_over = newImage("../shared/images/bottomnav/big_over.gif");
+
+
+
+		games_over = newImage("../shared/images/bottomnav/games_over.gif");
+
+
+
+		stories_over = newImage("../shared/images/bottomnav/stories_over.gif");
+
+
+
+		print_over = newImage("../shared/images/bottomnav/print_over.gif");
+
+
+
+		friends_over = newImage("../shared/images/bottomnav/friends_over.gif");
+
+
+
+		backstage_over = newImage("../shared/images/bottomnav/backstage_over.gif");
+
+
+
+		caregiver_over = newImage("../shared/images/bottomnav/caregiver_over.gif");
+
+
+
+		tv_over = newImage("../shared/images/bottomnav/tv_over.gif");
+
+
+
+		preloadFlag = true;
+
+
+
+	}
+
+
+
+}
+
+
+
+// -->
+
+
+
+</SCRIPT>
+
+<SCRIPT LANGUAGE="JavaScript1.2" SRC="../shared/scripts/header_top.js"></SCRIPT>
+
+
+
+<SCRIPT LANGUAGE="JavaScript1.2" SRC="../shared/scripts/nav_bottom.js"></SCRIPT>
+
+
+
+<!-- #EndEditable -->
+
+
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+
+
+
+</HEAD>
+
+
+
+
+
+
+<BODY BGCOLOR="#000099" TOPMARGIN="0" LEFTMARGIN="0" MARGINHEIGHT="0" MARGINWIDTH="0" ONLOAD="preloadImages();">
+
+
+
+<!-- #BeginEditable "main%20content" --> 
+
+
+
+
+
+
+
+<CENTER>
+
+
+
+
+
+
+
+<!-- begin main table structure of 583 pixels by 418 pixels -->
+
+
+
+<TABLE BORDER=0 BACKGROUND="../shared/images/printables/tile.gif" CELLPADDING=0 CELLSPACING=0 WIDTH=583 HEIGHT=418>
+
+
+
+	<TR>
+
+
+
+  		<TD VALIGN=top>
+
+
+
+		
+
+
+
+			<!-- begin header table -->
+
+
+
+			<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH=583 BACKGROUND="../shared/images/netscape.gif">
+
+
+
+				<TR> 
+
+
+
+					<TD><SCRIPT>doHeader()</SCRIPT></TD>
+
+
+
+				</TR>
+
+
+
+			</TABLE>
+
+
+
+			<!-- begin main content table -->
+
+
+
+			<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH=583 HEIGHT=280 ALIGN=center BACKGROUND="../shared/images/netscape.gif">
+
+
+
+				<TR>
+
+
+
+					<TD ALIGN=center WIDTH=300>
+
+
+
+						<!-- left column -->
+
+
+
+						<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+
+
+
+							<TR>
+
+
+
+								
+                  <TD><IMG SRC="../shared/images/printables/main_top.gif" WIDTH=253 HEIGHT=141 ALT="Let's color with Emily Elizabeth"></TD>
+
+
+
+							</TR>
+
+
+
+							<TR>
+
+
+
+								<TD><IMG SRC="../shared/images/printables/main_bottom.gif" WIDTH=253 HEIGHT=142 ALT="Let's color with Emily Elizabeth"></TD>
+
+
+
+							</TR>
+
+
+
+						</TABLE>
+
+
+
+					</TD>
+
+
+
+					<TD ALIGN=center>
+					<IMG SRC="../shared/images/printables/color.gif" WIDTH=157 HEIGHT=26 ALT="Let's Color">
+
+
+              <SCRIPT>
+				var fullURL = document.location.search;
+				ArrQuery = fullURL.split('=');
+
+				//document.location.search = new Array;
+
+
+				if ((fullURL == '')) {
+
+					//(ArrQuery[1] == '1');
+
+				//	document.write ("ArrQuery[1] is equal to" ++ ArrQuery[1]");
+
+					var ArrQuery = new Array();
+
+					ArrQuery[1] = "1";
+
+
+				//	document.write ("there is no doc search");
+
+
+					//} else {
+
+					//document.write ("THere is a doc search");
+
+
+
+					}
+
+
+
+				
+
+				if (ArrQuery[1] == '1')  {
+
+
+
+				document.write ('<table border=0 cellpadding=o cellspacing=0 width=280><tr><td align=center><a href="talentaward.html"><img src="../shared/images/printables/thumbs/index/talent_award.gif" width=75 height=56 border=0 alt="Talent Award"></a></TD><td><a href="talentaward.html">Talent Award</a></TD></TR><tr><td align=center><a href="cliffordgrows.html"><img src="../shared/images/printables/thumbs/index/clifford_grows.gif" width=75 height=56 border=0 alt="Clifford Grows Up!"></a></TD><td><a href="cliffordgrows.html">Clifford Grows Up! (activity page)</a></TD>');
+
+
+
+				
+
+
+
+				document.write ('<tr><td colspan=2 align=right><a href="index.html' + '?PageNum=' + (parseInt(ArrQuery[1]) + 1) + '">' + '<img src="../shared/images/printables/more_plain.gif" width=58 height=42 border=0 alt="More"></a></TD></TR></TABLE>');
+
+
+
+							
+
+
+
+				}
+
+
+				if (ArrQuery[1] == '2')  {
+
+
+
+				document.write ('<table border=0 cellpadding=o cellspacing=0 width=280><tr><td align=center><a href="clifford.html"><img src="../shared/images/printables/thumbs/index/clifford_sleep.gif" width=75 height=56 border=0 alt="Clifford Coloring Page"></a></TD><td><a href="clifford.html">Clifford (coloring page)</a></TD></TR><tr><td align=center><a href="emily.html"><img src="../shared/images/printables/thumbs/index/emily_kick.gif" width=75 height=56 border=0 alt="Emily Elizabeth Coloring Page"></a></TD><td><a href="emily.html">Emily Elizabeth (coloring page)</a></TD></TR><tr><td align=center><a href="tbone.html"><img src="../shared/images/printables/thumbs/index/tbone_chomp.gif" width=58 height=75 border=0 alt="T-Bone coloring page"></a></TD><td><a href="tbone.html">T-Bone (coloring page)</a></TD></TR>');
+
+
+
+				
+
+
+
+				document.write ('<tr><td colspan=2 align=right><a href="index.html' + '?PageNum=' + (parseInt(ArrQuery[1]) + 1) + '">' + '<img src="../shared/images/printables/more_plain.gif" width=58 height=42 border=0 alt="More"></a></TD></TR></TABLE>');
+
+
+
+							
+
+
+
+				}
+
+
+
+				
+
+
+
+				if (ArrQuery[1] == '3')  {
+
+
+
+				document.write ('<table border=0 cellpadding=o cellspacing=0 width=280><tr><td align=center><a href="cleo.html"><img src="../shared/images/printables/thumbs/index/cleo_stretch.gif" width=75 height=56 border=0 hspace=5 alt="Cleo coloring page"></a></TD><td><a href="cleo.html">Cleo (coloring page)</a></TD></TR><tr><td align=center><a href="jetta.html"><img src="../shared/images/printables/thumbs/index/jetta.gif" width=59 height=75 border=0 hspace=5 alt="Jetta coloring page"></a></TD><td><a href="jetta.html">Jetta (coloring page)</a></TD></TR><tr><td align=center><a href="charley.html"><img src="../shared/images/printables/thumbs/index/charley.gif" width=59 height=75 border=0 hspace=5 alt="Charley coloring page"></a></TD><td><a href="charley.html">Charley (coloring page)</a></TD></TR>');
+
+
+
+				
+
+
+
+				document.write ('<tr><td colspan=2 align=right><a href="index.html' + '?PageNum=' + (parseInt(ArrQuery[1]) + 1) + '">' + '<img src="../shared/images/printables/more_plain.gif" width=58 height=42 border=0 alt="More"></a></TD></TR></TABLE>');
+
+
+
+}							
+
+
+
+
+
+
+
+				if (ArrQuery[1] == '4')  {
+
+
+
+				document.write ('<table border=0 cellpadding=0 cellspacing=0 width=280><tr><td align=center><a href="mac.html"><img src="../shared/images/printables/thumbs/index/mac.gif" width=59 height=75 border=0 hspace=5 alt="Mac coloring page"></a></TD><td><a href="mac.html">Mac (coloring page)</a></TD></TR><tr><td align=center><a href="ttownpage.html"><img src="../shared/images/printables/thumbs/index/ttownpage.gif" width=58 height=75 border=0 hspace=5 alt="T-Bone coloring page"></a></TD><td><a href="ttownpage.html">T-Bone (coloring page)</a></TD></TR><tr><td align=center><a href="balloonpage.html"><img src="../shared/images/printables/thumbs/index/clifford_baloon.gif" width=58 height=75 border=0 hspace=5 alt="Clifford coloring page"></a></TD><td><a href="balloonpage.html">Clifford (coloring page)</a></TD></TR>');
+
+
+
+				
+
+
+
+				document.write ('<tr><td colspan=2 align=right><a href="index.html' + '?PageNum=' + (parseInt(ArrQuery[1]) + 1) + '">' + '<img src="../shared/images/printables/more_plain.gif" width=58 height=42 border=0 alt="More"></a></TD></TR></TABLE>');
+
+
+
+}							
+
+
+
+
+
+
+
+				if (ArrQuery[1] == '5')  {
+
+
+
+				document.write ('<table border=0 cellpadding=0 cellspacing=0 width=280><tr><td align=center><a href="charley_sam.html"><img src="../shared/images/printables/thumbs/index/charley_samuel.gif" width=92 height=71 border=0 hspace=5 alt="Charley and Samuel coloring page"></a></TD><td><a href="charley_sam.html">Charley and Samuel (coloring page)</a></TD></TR><tr><td align=center><a href="parents.html"><img src="../shared/images/printables/thumbs/index/parents.gif" width=92 height=71 border=0 hspace=5 alt="Emily Elizabeth\'s Mom and Dad coloring page"></a></TD><td><a href="parents.html">Emily Elizabeth\'s Mom and Dad (coloring page)</a></TD></TR><tr><td align=center><a href="jetta_mac.html"><img src="../shared/images/printables/thumbs/index/jetta_mac.gif" width=96 height=75 border=0 hspace=5 alt="Jetta and Mac coloring page"></a></TD><td><a href="jetta_mac.html">Jetta and Mac (coloring page)</a></TD></TR>');
+
+
+
+				
+
+
+
+				document.write ('<tr><td colspan=2 align=right><a href="index.html' + '?PageNum=' + (parseInt(ArrQuery[1]) + 1) + '">' + '<img src="../shared/images/printables/more_plain.gif" width=58 height=42 border=0 alt="More"></a></TD></TR></TABLE>');
+
+
+
+}
+
+
+
+							
+
+
+
+				if (ArrQuery[1] == '6')  {
+
+
+
+				document.write ('<table border=0 cellpadding=0 cellspacing=0 width=280><tr><td align=center><a href="emily_page.html"><img src="../shared/images/printables/thumbs/index/emilypage.gif" width=92 height=71 border=0 hspace=5 alt="Emily Elizabeth and Clifford coloring page"></a></TD><td><a href="emily_page.html">Emily Elizabeth and Clifford (coloring page)</a></TD></TR><tr><td align=center><a href="cleo_page.html"><img src="../shared/images/printables/thumbs/index/cleo_page.gif" width=99 height=78 border=0 hspace=5 alt="Cleo and Clifford coloring page"></a></TD><td><a href="cleo_page.html">Cleo and Clifford (coloring page)</a></TD></TR><tr><td align=center><a href="heartpage.html"><img src="../shared/images/printables/thumbs/index/heartpage.gif" width=94 height=71 border=0 hspace=5 alt="Emily Elizabeth and Clifford coloring page"></a></TD><td><a href="heartpage.html">Emily Elizabeth and Clifford (coloring page)</a></TD></TR>');
+
+
+
+				
+
+
+
+				document.write ('<tr><td colspan=2 align=right><a href="index.html' + '?PageNum=' + (parseInt(ArrQuery[1]) + 1) + '">' + '<img src="../shared/images/printables/more_plain.gif" width=58 height=42 border=0 alt="More"></a></TD></TR></TABLE>');
+
+
+
+}	
+
+
+
+
+
+
+
+				if (ArrQuery[1] == '7')  {
+
+
+
+				document.write ('<table border=0 cellpadding=0 cellspacing=0 width=280><tr><td align=center><a href="draw_clifford.html"><img src="../shared/images/printables/thumbs/index/draw_clifford.gif" width=94 height=63 border=0 hspace=5 alt="Draw Clifford"></a></TD><td><a href="draw_clifford.html">Draw Clifford (how-to style sheet)</a></TD></TR><tr><td align=center><a href="sketch.html"><img src="../shared/images/printables/thumbs/index/sketch.gif" width=94 height=73 border=0 hspace=5 alt="Clifford\'s Sketch Pad"></a></TD><td><a href="sketch.html">Clifford\'s Sketch Pad (for original drawings)</a></TD></TR><tr><td align=center><a href="do_well_medal.html"><img src="../shared/images/printables/thumbs/index/clifford_medal.gif" width=59 height=75 border=0 hspace=5 alt="Do Well medal"></a></TD><td><a href="do_well_medal.html">Do Well Medal</a></TD></TR>');
+
+
+
+				
+
+
+
+				document.write ('<tr><td colspan=2 align=right><a href="index.html' + '?PageNum=' + (parseInt(ArrQuery[1]) + 1) + '">' + '<img src="../shared/images/printables/more_plain.gif" width=58 height=42 border=0 alt="More"></a></TD></TR></TABLE>');
+
+
+
+}
+
+
+
+				if (ArrQuery[1] == '8')  {
+
+
+
+				document.write ('<table border=0 cellpadding=0 cellspacing=0 width=280><tr><td align=center><a href="connect_dots1.html"><img src="../shared/images/printables/thumbs/index/connectdots1.gif" width=94 height=71 border=0 hspace=5 alt="Clifford\'s Dot-to-Dot 2"></a></TD><td><a href="connect_dots1.html">Clifford\'s Dot-to-Dot 2 (connect the dots to draw Clifford)</a></TD></TR><tr><td align=center><a href="connect_dots2.html"><img src="../shared/images/printables/thumbs/index/connectdots2.gif" width=95 height=73 border=0 hspace=5 alt="Clifford\'s Dot-to-Dot 2"></a></TD><td><a href="connect_dots2.html">Clifford\'s Dot-to-Dot 2 (connect the dots to draw Clifford)</a></TD></TR><tr><td align=center><a href="print_card_index.html"><img src="../shared/images/printables/thumbs/index/matching1.gif" width=94 height=71 border=0 hspace=5 alt="Matching Game"></a></TD><td><a href="print_card_index.html">Matching Game</a></TD></TR>');
+
+
+
+				
+
+
+
+				document.write ('<tr><td colspan=2 align=right><a href="index.html' + '?PageNum=' + (parseInt(ArrQuery[1]) + 1) + '">' + '<img src="../shared/images/printables/more_plain.gif" width=58 height=42 border=0 alt="More"></a></TD></TR></TABLE>');
+
+
+
+}
+
+
+
+				if (ArrQuery[1] == '9')  {
+
+
+
+				document.write ('<table border=0 cellpadding=0 cellspacing=0 width=280><tr><td align=center><a href="clifford_house.html"><img src="../shared/images/printables/thumbs/index/clifford_house.gif" width=91 height=69 border=0 hspace=5 alt="Clifford\'s House"></a></TD><td><a href="clifford_house.html">Clifford\'s House (to color, cut out, and assemble)</a></TD></TR><tr><td align=center><a href="emily_house.html"><img src="../shared/images/printables/thumbs/index/ee_house.gif" width=92 height=72 border=0 hspace=5 alt="Emily Elizabeth\'s House""></a></TD><td><a href="emily_house.html">Emily Elizabeth\'s House (to color, cut out, and assemble)</a></TD></TR><tr><td align=center><a href="tbone_house.html"><img src="../shared/images/printables/thumbs/index/tbone_house.gif" width=93 height=72 border=0 hspace=5 alt="T-Bone\'s House"></a></TD><td><a href="tbone_house.html">T-Bone\'s House (to color, cut out, and assemble)</a></TD></TR>');
+
+
+
+				
+
+
+
+				document.write ('<tr><td colspan=2 align=right><a href="index.html' + '?PageNum=' + (parseInt(ArrQuery[1]) + 1) + '">' + '<img src="../shared/images/printables/more_plain.gif" width=58 height=42 border=0 alt="More"></a></TD></TR></TABLE>');
+
+
+
+}
+
+
+
+				if (ArrQuery[1] == '10')  {
+
+
+
+				document.write ('<table border=0 cellpadding=0 cellspacing=0 width=280><tr><td align=center><a href="dog_groomers.html"><img src="../shared/images/printables/thumbs/index/dog_groomer.gif" width=94 height=72 border=0 hspace=5 alt="Dog Groomer\'s Building"></a></TD><td><a href="dog_groomers.html">Dog Groomer\'s Building ( to color, cut out, and assemble)</a></TD></TR><tr><td align=center><a href="opticians_house.html"><img src="../shared/images/printables/thumbs/index/opticians_house.gif" width=93 height=72 border=0 hspace=5 alt="Optician\'s Office"></a></TD><td><a href="opticians_house.html">Optician\'s Office (to color, cut out, and assemble)</a></TD></TR><tr><td align=center><a href="bakery.html"><img src="../shared/images/printables/thumbs/index/bakery.gif" width=96 height=73 border=0 hspace=5 alt="Bakery"></a></TD><td><a href="bakery.html">Bakery (to color, cut out, and assemble)</a></TD></TR>');
+
+
+
+				
+
+
+
+				document.write ('<tr><td colspan=2 align=right><a href="index.html' + '?PageNum=' + (parseInt(ArrQuery[1]) + 1) + '">' + '<img src="../shared/images/printables/more_plain.gif" width=58 height=42 border=0 alt="More"></a></TD></TR></TABLE>');
+
+
+
+}
+
+
+
+				if (ArrQuery[1] == '11')  {
+
+
+
+				document.write ('<table border=0 cellpadding=0 cellspacing=0 width=280><tr><td align=center><a href="number_cards.html"><img src="../shared/images/printables/thumbs/index/numbercards.gif" width=96 height=75 border=0 hspace=5 alt="Number Cards"></a></TD><td><a href="number_cards.html">Number Cards</a></TD></TR><tr><td align=center><a href="feelings_dial.html"><img src="../shared/images/printables/thumbs/index/wheel.gif" width=96 height=75 border=0 hspace=5 alt="Feelings Dial"></a></TD><td><a href="feelings_dial.html">Feelings Dial (to cut out and make)</a></TD></TR><tr><td align=center><a href="home_number.html"><img src="../shared/images/printables/thumbs/index/clifford_card.gif" width=96 height=75 border=0 hspace=5 alt="Home Phone Card"></a></TD><td><a href="home_number.html">Home Phone Card</a></TD></TR>');
+
+
+
+				
+
+
+
+				document.write ('<tr><td colspan=2 align=right><a href="index.html' + '?PageNum=' + (parseInt(ArrQuery[1]) + 1) + '">' + '<img src="../shared/images/printables/more_plain.gif" width=58 height=42 border=0 alt="More"></a></TD></TR></TABLE>');
+
+
+
+}
+
+
+
+				if (ArrQuery[1] == '12')  {
+
+
+
+				document.write ('<table border=0 cellpadding=0 cellspacing=0 width=280><tr><td align=center><a href="task_list.html"><img src="../shared/images/printables/thumbs/index/clock.gif" width=92 height=70 border=0 hspace=5 alt="Clifford\'s Task List"></a></TD><td><a href="task_list.html">Clifford\'s Task List</a></TD></TR><tr><td align=center><a href="believe.html"><img src="../shared/images/printables/thumbs/index/clifford_ladder.gif" width=59 height=75 border=0 hspace=5 alt="Believe in Yourself"></a></TD><td><a href="believe.html">Believe In Yourself (Big Idea Printable)</a></TD></TR><tr><td align=center><a href="be_kind.html"><img src="../shared/images/printables/thumbs/index/emily_cuddle.gif" width=59 height=75 border=0 hspace=5 alt="Be Kind"></a></TD><td><a href="be_kind.html">Be Kind (Big Idea Printable)</a></TD></TR>');
+
+
+
+				
+
+
+
+				document.write ('<tr><td colspan=2 align=right><a href="index.html' + '?PageNum=' + (parseInt(ArrQuery[1]) + 1) + '">' + '<img src="../shared/images/printables/more_plain.gif" width=58 height=42 border=0 alt="More"></a></TD></TR></TABLE>');
+
+
+
+}
+
+
+
+				if (ArrQuery[1] == '13')  {
+
+
+
+				document.write ('<table border=0 cellpadding=0 cellspacing=0 width=280><tr><td align=center><a href="be_truthful.html"><img src="../shared/images/printables/thumbs/index/clifford_lick.gif" width=92 height=70 border=0 hspace=5 alt="Be Truthful"></a></TD><td><a href="be_truthful.html">Be Truthful (Big Idea Printable)</a></TD></TR><tr><td align=center><a href="good_friend.html"><img src="../shared/images/printables/thumbs/index/clifford_adore.gif" width=92 height=70 border=0 hspace=5 alt="Be A Good Friend"></a></TD><td><a href="good_friend.html">Be A Good Friend (Big Idea Printable)</a></TD></TR><tr><td align=center><a href="help.html"><img src="../shared/images/printables/thumbs/index/clifford_lighthouse.gif" width=92 height=70 border=0 hspace=5 alt="Help Others"></a></TD><td><a href="help.html">Help Others (Big Idea Printable)</a></TD></TR>');
+
+
+
+				
+
+
+
+				document.write ('<tr><td colspan=2 align=right><a href="index.html' + '?PageNum=' + (parseInt(ArrQuery[1]) + 1) + '">' + '<img src="../shared/images/printables/more_plain.gif" width=58 height=42 border=0 alt="More"></a></TD></TR></TABLE>');
+
+
+
+}
+
+
+
+				if (ArrQuery[1] == '14')  {
+
+
+
+				document.write ('<table border=0 cellpadding=0 cellspacing=0 width=280><tr><td align=center><a href="play_fair.html"><img src="../shared/images/printables/thumbs/index/clifford_follow.gif" width=92 height=70 border=0 hspace=5 alt="Play Fair"></a></TD><td><a href="play_fair.html">Play Fair (Big Idea Printable)</a></TD></TR><tr><td align=center><a href="respect.html"><img src="../shared/images/printables/thumbs/index/cottage.gif" width=58 height=75 border=0 hspace=5 alt="Have Respect"></a></TD><td><a href="respect.html">Have Respect (Big Idea Printable)</a></TD></TR><tr><td align=center><a href="responsible.html"><img src="../shared/images/printables/thumbs/index/clifford_spill.gif" width=58 height=75 border=0 hspace=5 alt="Be Responsible"></a></TD><td><a href="responsible.html">Be Responsible (Big Idea Printable)</a></TD></TR>');
+
+
+
+				
+
+
+
+				document.write ('<tr><td colspan=2 align=right><a href="index.html' + '?PageNum=' + (parseInt(ArrQuery[1]) + 1) + '">' + '<img src="../shared/images/printables/more_plain.gif" width=58 height=42 border=0 alt="More"></a></TD></TR></TABLE>');
+
+
+
+}
+
+
+
+				if (ArrQuery[1] == '15')  {
+
+
+
+				document.write ('<table border=0 cellpadding=0 cellspacing=0 width=280><tr><td align=center><a href="work_together.html"><img src="../shared/images/printables/thumbs/index/clifford_cuddle.gif" width=75 height=100 border=0 hspace=5 alt="Work Together"></a></TD><td><a href="work_together.html">Work Together (Big Idea Printable)</a></TD></TR><tr><td align=center><a href="share.html"><img src="../shared/images/printables/thumbs/index/clifford_bounce.gif" width=100 height=75 border=0 hspace=5 alt="Share"></a></TD><td><a href="connect_dots2.html">Share (Big Idea Printable)</a></TD></TR><tr><td align=center colspan=2 height=25>&nbsp;</TD></TR>');
+
+
+
+				
+
+
+
+
+				document.write ('<tr><td colspan=2 align=right><a href="pup_index.html' + '?PageNum=' + (1) + '" onmouseover="changeImages(\'more\',\'../shared/images/printables/puppy_more.gif\');return true;"onmouseout="changeImages(\'more\',\'../shared/images/printables/puppy_more.gif\');return true;">' + '<img name="more" src="../shared/images/printables/puppy_more.gif" width=100 height=72 border=0 alt="More Puppy Fun"></a></TD></TR></TABLE>');
+
+
+
+}								
+
+
+
+			</SCRIPT>
+
+ 
+
+            </TD>
+
+
+
+					
+
+
+
+            <TD WIDTH=283> 
+
+
+
+              <!-- right column -->
+
+
+
+            </TD>
+
+
+
+				</TR>
+
+
+
+			</TABLE>
+
+
+
+
+
+
+
+			<!-- begin bottom navigation bar -->
+
+
+
+			<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH=583 HEIGHT=72>
+
+
+
+				<TR>
+
+
+
+					<TD><SCRIPT>doNavBar()</SCRIPT></TD>				
+
+
+
+				</TR>
+
+
+
+			</TABLE>
+
+		</TD>
+
+
+
+	</TR>
+
+
+
+</TABLE>
+
+
+
+</CENTER>
+
+
+
+<!-- #EndEditable -->
+
+
+
+<!-- #BeginEditable "extras" --> 
+<CENTER>
+<BR>
+<!-- begin copyright table -->
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH=583>
+	<TR>
+		<TD ALIGN=right><FONT STYLE="font-size:11px;color:white">
+		&#169 2002 Scholastic Entertainment Inc. <A HREF="../copyright/index.html"><FONT STYLE="font-size:11px;text-decoration:underline;color:#FFFFFF;">Web Site copyright.</FONT></A></FONT></TD>
+	</TR>
+</TABLE>
+</CENTER>
+
+<!-- #EndEditable -->
+
+
+
+</BODY>
+
+
+
+<!-- #EndTemplate --></HTML>
+
+
+

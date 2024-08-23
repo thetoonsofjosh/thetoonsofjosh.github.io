@@ -1,0 +1,137 @@
+<pics>
+	<set>
+		<i src="img_catch.jpg" txt="Catch" a="catch-s.mp3"/>
+		<i src="img_thoughtful.jpg" txt="Thoughtful" a="thoughtful-s.mp3"/>
+		<i src="img_queasy.jpg" txt="Queasy" f="queasy.flv" a="queasy-s.mp3"/>
+	</set>
+	<!--<set>
+		<i src="img_arguing-carolina.jpg" txt="Arguing" a="arguing-s.mp3"/>
+		<i src="img_scheming-carolina.jpg" txt="Scheming" a="scheming-s.mp3"/>
+		<i src="img_dancing-carolina.jpg" txt="Dancing" f="dancing-carolina.flv" a="dancing-s-carolina.mp3"/>
+	</set>-->
+	<set>
+		<i src="img_wet.jpg" txt="Wet" a="wet-s.mp3"/>
+		<i src="img_worried.jpg" txt="Worried" a="worried-s.mp3"/>
+		<i src="img_exhausted-carolina.jpg" txt="Exhausted" f="exhausted.flv" a="exhausted-s-carolina.mp3"/>
+	</set>
+	
+	<set>
+		<i src="img_exhausted-dogs.jpg" txt="Exhausted" a="exhausted-s.mp3"/>
+		<i src="img_anxious.jpg" txt="Anxious" a="anxious-s.mp3"/>
+		<i src="img_angry-dogs.jpg" txt="Angry" f="angry.flv" a="angry-s2.mp3"/>
+	</set>
+	
+	<set>
+		<i src="img_staying.jpg" txt="Staying" a="staying-s.mp3"/>
+		<i src="img_leaping.jpg" txt="Leaping" a="leaping-s.mp3"/>
+		<i src="img_sniffing.jpg" txt="Sniffing" f="sniffing.flv" a="sniffing-s.mp3"/>
+	</set>
+	
+	<!--<set>
+		<i src="img_cuddly-francois.jpg" txt="Cuddly" a="cuddly-s.mp3"/>
+		<i src="img_sneaky.jpg" txt="Sneaky" a="sneaky-s.mp3"/>
+		<i src="img_nauseous.jpg" txt="Nauseous" f="nauseous.flv" a="nauseous-s.mp3"/>
+	</set>-->
+	
+	<set>
+		<i src="img_hiding.jpg" txt="Hiding" a="hiding-s.mp3"/>
+		<i src="img_watching.jpg" txt="Watching" a="watching-s.mp3"/>
+		<i src="img_startled-group.jpg" txt="Startled" f="startled.flv" a="startled-s.mp3"/>
+	</set>
+	
+	<set>
+		<i src="img_tired.jpg" txt="Tired" a="tired-s.mp3"/>
+		<i src="img_angry-helen.jpg" txt="Angry" a="angry-s.mp3"/>
+		<i src="img_sad.jpg" txt="Sad" f="sad.flv" a="sad-s.mp3"/>
+	</set>
+	<set>
+		<i src="img_screaming.jpg" txt="Screaming" a="screaming-s.mp3"/>
+		<i src="img_shrugging-helen.jpg" txt="Shrugging" a="shrugging-s.mp3"/>
+		<i src="img_dancing-helen.jpg" txt="Dancing" f="dancing-helen.flv" a="dancing-s.mp3"/>
+	</set>
+	<!--<set>
+		<i src="img_happy-jake.jpg" txt="Happy" a="happy-s.mp3"/>
+		<i src="img_upset-jake.jpg" txt="Upset" a="upset-s.mp3"/>
+		<i src="img_messy.jpg" txt="Messy" f="messy.flv" a="messy-s.mp3"/>
+	</set>-->
+	<set>
+		<i src="img_pointing.jpg" txt="Pointing" a="pointing-s.mp3"/>
+		<i src="img_reaching.jpg" txt="Reaching" a="reaching-s.mp3"/>
+		<i src="img_cozy.jpg" txt="Cozy" f="cozy.flv" a="cozy-s.mp3"/>
+	</set>
+	<set>
+		<i src="img_cheerful.jpg" txt="Cheerful" a="cheerful-s.mp3"/>
+		<i src="img_annoyed.jpg" txt="Annoyed" a="annoyed-s.mp3"/>
+		<i src="img_frightened.jpg" txt="Frightened" f="frightened.flv" a="frightened-s.mp3"/>
+	</set>
+	<set>
+		<i src="img_scratching.jpg" txt="Scratching" a="scratching-s.mp3"/>
+		<i src="img_howling.jpg" txt="Howling" a="howling-s.mp3"/>
+		<i src="img_cleaning.jpg" txt="Cleaning" f="cleaning.flv" a="cleaning-s.mp3"/>
+	</set>
+	<set>
+		<i src="img_dirty.jpg" txt="Dirty" a="dirty-s.mp3"/>
+		<i src="img_playful.jpg" txt="Playful" a="playful-s.mp3"/>
+		<i src="img_injured.jpg" txt="Injured" f="injured.flv" a="injured-s.mp3"/>
+	</set>
+	<set>
+		<i src="img_soaked.jpg" txt="Soaked" a="soaked-s.mp3"/>
+		<i src="img_surprised.jpg" txt="Surprised" a="surprised-s.mp3"/>
+		<i src="img_garbage-martha.jpg" txt="Garbage" f="garbage.flv" a="garbage-s.mp3"/>
+	</set>
+	<!--<set>
+		<i src="img_happy-martha.jpg" txt="Happy" a="happy-s.mp3"/>
+		<i src="img_unhappy.jpg" txt="Unhappy" a="unhappy-s.mp3"/>
+		<i src="img_dancing-martha.jpg" txt="Dancing" f="dancing-martha.flv" a="dancing-s.mp3"/>
+	</set>-->
+	<set>
+		<i src="img_upset-martha.jpg" txt="Upset" a="upset-s.mp3"/>
+		<i src="img_squished.jpg" txt="Squished" a="squished-s.mp3"/>
+		<i src="img_cuddly-martha.jpg" txt="Cuddly" f="cuddly.flv" a="cuddly-s2.mp3"/>
+	</set>
+	<set>
+		<i src="img_grooming.jpg" txt="Grooming" a="grooming-s.mp3"/>
+		<i src="img_scheming-nelson.jpg" txt="Scheming" a="scheming-s.mp3"/>
+		<i src="img_ailing.jpg" txt="Ailing" f="ailing.flv" a="ailing-s.mp3"/>
+	</set>
+	<set>
+		<i src="img_happy-professormonkey.jpg" txt="Happy" a="happy-s.mp3"/>
+		<i src="img_startled-professormonkey.jpg" txt="Startled" a="startled-s2.mp3"/>
+		<i src="img_crabby.jpg" txt="Crabby" f="crabby.flv" a="crabby-s.mp3"/>
+	</set>
+	<set>
+		<i src="img_garbage-skits.jpg" txt="Garbage" a="garbage-s2.mp3"/>
+		<i src="img_crouching.jpg" txt="Crouching" a="crouching-s.mp3"/>
+		<i src="img_catching.jpg" txt="Catching" f="catching.flv" a="catching-s.mp3"/>
+	</set>
+	<set>
+		<i src="img_cuddly-puppyskits.jpg" txt="Cuddly" a="cuddly-s.mp3"/>
+		<i src="img_eager.jpg" txt="Eager" a="eager-s.mp3"/>
+		<i src="img_naughty.jpg" txt="Naughty" f="naughty.flv" a="naughty-s.mp3"/>
+	</set>
+	<set>
+		<i src="img_peeking.jpg" txt="Peeking" a="peeking-s.mp3"/>
+		<i src="img_growling.jpg" txt="Growling" a="growling-s.mp3"/>
+		<i src="img_licking.jpg" txt="Licking" f="licking.flv" a="licking-s.mp3"/>
+	</set>
+	<!--<set>
+		<i src="img_arguing-td.jpg" txt="Arguing" a="arguing-s.mp3"/>
+		<i src="img_shrugging-td.jpg" txt="Shrugging" a="shrugging-s.mp3"/>
+		<i src="img_entertaining.jpg" txt="Entertaining" f="entertaining.flv" a="entertaining-s.mp3"/>
+	</set>-->
+	<set>
+		<i src="img_exhausted-td.jpg" txt="Exhausted" a="exhausted-s.mp3"/>
+		<i src="img_afraid.jpg" txt="Afraid" a="afraid-s.mp3"/>
+		<i src="img_scheming-td.jpg" txt="Scheming" f="scheming.flv" a="scheming-s2.mp3"/>
+	</set>
+	<set>
+		<i src="img_angry-truman.jpg" txt="Angry" a="angry-s.mp3"/>
+		<i src="img_glum.jpg" txt="Glum" a="glum-s.mp3"/>
+		<i src="img_fleeing.jpg" txt="Fleeing" f="fleeing.flv" a="fleeing-s.mp3"/>
+	</set>
+	<!--<set>
+		<i src="img_.jpg" txt="" a="-s.mp3"/>
+		<i src="img_.jpg" txt="" a="-s.mp3"/>
+		<i src="img_.jpg" txt="" f=".flv" a="-s.mp3"/>
+	</set>-->
+</pics>

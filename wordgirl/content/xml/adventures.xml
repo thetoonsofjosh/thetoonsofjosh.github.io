@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<menu name="videoNav">
+	
+    <character name="WORDGIRL" value="wordGirl">
+
+               <item thumb="content/images/WG_videoThumb_1.jpg" video="content/video/WordGirl121.flv"/>
+               <item thumb="content/images/WG_videoThumb_3.jpg" video="content/video/WordGirl126.flv"/>
+        <item thumb="content/images/WG_videoThumb_4.jpg" video="content/video/WordGirl127.flv"/>
+        <item thumb="content/images/WG_videoThumb_5.jpg" video="content/video/WordGirl130.flv"/>
+<item thumb="content/images/WG_videoThumb_101.jpg" video="content/video/WordGirl101.flv"/>
+    </character>
+
+    <character name="THE BUTCHER" value="butcher">
+ <item thumb="content/images/butcher_videoThumb_1.jpg" video="content/video/WordGirl122.flv"/>
+ <item thumb="content/images/butcher_videoThumb_102.jpg" video="content/video/WordGirl102.flv"/>
+<item thumb="content/images/butcher_videoThumb_103.jpg" video="content/video/WordGirl103.flv"/>
+<item thumb="content/images/TB_videoThumb_104.jpg" video="content/video/WordGirl104.flv"/>
+<item thumb="content/images/butcher_videoThumb_105.jpg" video="content/video/WordGirl105.flv"/>
+<item thumb="content/images/butcher_videoThumb_106.jpg" video="content/video/WordGirl106.flv"/>
+    </character>
+    
+    <character name="DOCTOR TWO-BRAINS" value="twoBrains">
+<item thumb="content/images/TB_videoThumb_104.jpg" video="content/video/WordGirl104.flv"/>
+<item thumb="content/images/TB_videoThumb_109.jpg" video="content/video/WordGirl107.flv"/>
+<item thumb="content/images/TB_videoThumb_108.jpg" video="content/video/WordGirl108.flv"/>
+ <item thumb="content/images/TB_videoThumb_107.jpg" video="content/video/WordGirl109.flv"/>
+ <item thumb="content/images/TB_videoThumb_110.jpg" video="content/video/WordGirl110.flv"/>
+<item thumb="content/images/TB_videoThumb_111.jpg" video="content/video/WordGirl111.flv"/>
+<item thumb="content/images/TB_videoThumb_1.jpg" video="content/video/WordGirl123.flv"/>
+<item thumb="content/images/TB_videoThumb_2.jpg" video="content/video/WordGirl125.flv"/>
+    </character>
+    
+    <character name="CHUCK THE EVIL SANDWICH MAKING GUY" value="chuck">
+     <item thumb="content/images/chuck_videoThumb_118.jpg" video="content/video/WordGirl118.flv"/>
+     <item thumb="content/images/chuck_videoThumb_119.jpg" video="content/video/WordGirl119.flv"/>
+     <item thumb="content/images/chuck_videoThumb_120.jpg" video="content/video/WordGirl120.flv"/>
+     <item thumb="content/images/chuck_videoThumb_1.jpg" video="content/video/WordGirl124.flv"/>
+    </character>
+    
+    <character name="TOBEY" value="tobey">
+  <item thumb="content/images/tobey_videoThumb_115.jpg" video="content/video/WordGirl115.flv"/>
+  <item thumb="content/images/tobey_videoThumb_116.jpg" video="content/video/WordGirl116.flv"/>
+      <item thumb="content/images/tobey_videoThumb_117.jpg" video="content/video/WordGirl117.flv"/>
+        <item thumb="content/images/tobey_videoThumb_1.jpg" video="content/video/WordGirl129.flv"/>
+        <item thumb="content/images/tobey_videoThumb_2.jpg" video="content/video/WordGirl128.flv"/>
+    
+    </character>
+    
+    <character name="GRANNY MAY" value="granny">
+   <item thumb="content/images/GM_videoThumb_112.jpg" video="content/video/WordGirl112.flv"/>
+   <item thumb="content/images/GM_videoThumb_113.jpg" video="content/video/WordGirl113.flv"/>
+   <item thumb="content/images/GM_videoThumb_114.jpg" video="content/video/WordGirl114.flv"/>
+
+    </character>
+			
+</menu>

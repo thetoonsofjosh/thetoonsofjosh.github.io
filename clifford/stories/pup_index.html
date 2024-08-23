@@ -1,0 +1,96 @@
+<HTML>
+<HEAD>
+<TITLE>Clifford . Stories | PBS Kids</TITLE>
+<LINK REL=STYLESHEET TYPE="text/css" HREF="../shared/css/main.css">
+<SCRIPT LANGUAGE="JavaScript">
+// identifies which section of site this page is in so correct bottom nav icon is hilited
+var pageSite = "stories";
+
+// pathway to folder where images live
+var pathMain = "../shared/images/" + pageSite + "/";
+
+<!--
+// switches images on page
+function newImage(arg) {
+	if (document.images) {
+		rslt = new Image();
+		rslt.src = arg;
+		return rslt;
+	}
+}
+
+function changeImages() {
+	if (document.images && (preloadFlag == true)) {
+		for (var i=0; i<changeImages.arguments.length; i+=2) {
+			document[changeImages.arguments[i]].src = changeImages.arguments[i+1];
+		}
+	}
+}
+
+var preloadFlag = false;
+function preloadImages() {
+	if (document.images) {
+		preloadFlag = true;
+	}
+}
+
+// -->
+</SCRIPT>
+<SCRIPT LANGUAGE="JavaScript1.2" SRC="../shared/scripts/nav_bottom.js"></SCRIPT>
+<SCRIPT LANGUAGE="JavaScript1.2" SRC="../shared/scripts/header_top.js"></SCRIPT>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+</HEAD>
+
+<BODY BGCOLOR="#000099" TOPMARGIN="0" LEFTMARGIN="0" MARGINHEIGHT="0" MARGINWIDTH="0" ONLOAD="preloadImages();">
+<TABLE BORDER=0 BACKGROUND="../shared/images/stories/puppy_bg.gif" CELLPADDING=0 CELLSPACING=0 WIDTH=583 ALIGN="center">
+<TR>
+	<!-- begin header table -->
+  	<TD VALIGN=top><SCRIPT>doHeader()</SCRIPT></TD>
+</TR>
+<TR>
+	<TD>	
+	<!-- begin main content table -->
+	<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0  HEIGHT=250 ALIGN=center BACKGROUND="../shared/images/netscape.gif">
+	<TR>
+		  <TD><IMG SRC="../shared/images/spacer.gif" WIDTH=210 HEIGHT=1></TD>
+		  <TD ALIGN=center><IMG SRC="../shared/images/stories/read.gif" WIDTH=144 HEIGHT=26 ALT="Let's Read!"></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=2>
+		<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+		<TR>
+			    <TD ROWSPAN=2><IMG SRC="../shared/images/stories/pup_main.gif" WIDTH=325 HEIGHT=246 ALT="Puppy and friends reading"></TD>
+			    <TD ALIGN=center WIDTH=208><A HREF="storybuilder.html"><IMG SRC="../shared/images/stories/pupicon_storybuilder.gif" WIDTH=82 HEIGHT=85 BORDER=0 ALT="Story Builder"><BR>
+Story Builder</A></TD>
+		</TR>
+		<TR>
+				      <TD ALIGN=right VALIGN=bottom><A HREF="../printables/index.html"
+				ONMOUSEOVER="changeImages('more','../shared/images/stories/more_over.gif');return true;"
+				ONMOUSEOUT="changeImages('more','../shared/images/stories/more.gif');return true;"><IMG NAME="more" SRC="../shared/images/stories/more.gif" WIDTH=80 HEIGHT=66 BORDER=0 ALT="More fun in printables"></A></TD>
+			</TR>
+			</TABLE>
+		</TD>
+	</TR>
+	</TABLE>
+	</TD>
+</TR>
+<TR>
+	<!-- bottom navigation bar -->
+	<TD>
+	<SCRIPT>doNavBar()</SCRIPT>
+	</TD>
+</TR>
+</TABLE>
+<CENTER>
+<BR>
+<!-- begin copyright table -->
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH=583>
+	<TR>
+		<TD ALIGN=right><FONT STYLE="font-size:11px;color:white">
+		&#169 2002 Scholastic Entertainment Inc. <A HREF="../copyright/index.html"><FONT STYLE="font-size:11px;text-decoration:underline;color:#FFFFFF;">Web Site copyright.</FONT></A></FONT></TD>
+	</TR>
+</TABLE>
+
+</CENTER>
+</BODY>
+</HTML>

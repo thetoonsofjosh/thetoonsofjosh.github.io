@@ -1,0 +1,243 @@
+<html><!-- #BeginTemplate "/Templates/clicktales.dwt" --> 
+<head>
+<!-- #BeginEditable "doctitle" --> 
+<title>Clifford . Clicktales | PBS Kids</title>
+<!-- #EndEditable -->
+<link REL=STYLESHEET TYPE="text/css" HREF="../../../shared/css/main.css">
+<!-- #BeginEditable "gamescript" -->
+<script language="JavaScript">
+<!--
+
+// identifies which section of site this page is in so correct bottom nav icon is hilited
+var pageSite = "bigideas";
+
+// pathway to folder where images live
+var pathMain = "../../../shared/images/" + pageSite + "/";
+
+// pathway to folder where specific CT images live
+var pathCT = pathMain + "clicktales/truthful/p4/";
+
+// play sound function
+function playSound(obj) {
+    
+	if (document.images) {
+		if(obj.test()) {
+			obj.playsound();
+		}
+	}
+}
+
+// games code
+var intCorrect = 1;
+var arrImg = new Array("one","two","three");
+var arrStatus = new Array(false, false, true);
+
+//image swapping code
+function newImage(arg) {
+	if (document.images) {
+		rslt = new Image();
+		rslt.src = arg;
+		return rslt;
+	}
+}
+
+function changeImages() {
+	if (document.images && (preloadFlag == true)) {
+		for (var i=0; i<changeImages.arguments.length; i+=2) {
+			document[changeImages.arguments[i]].src = changeImages.arguments[i+1];
+		}
+	}
+}
+
+var preloadFlag = false;
+function preloadImages() {
+	if (document.images) {
+		preloadFlag = true;
+	}
+}
+
+// -->
+</script>
+
+<!-- #EndEditable -->
+<script language="JavaScript1.2" src="../../../shared/scripts/nav_bottom.js"></script>
+<script language="JavaScript1.2" src="../../../shared/scripts/header_top.js"></script>
+<script language="JavaScript1.2" src="../../../shared/scripts/games.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#000099" topmargin="0" leftmargin="0" marginheight="0" marginwidth="0" onload="preloadImages();">
+<center>
+
+<table border=0 background="../../../shared/images/bigideas/tile.gif" cellpadding=0 cellspacing=0 width=583>
+	<tr>
+  		<td valign=top>
+		
+			<!-- begin header table -->
+			<table border=0 cellpadding=0 cellspacing=0 width=583 background="../../../shared/images/netscape.gif">
+				<tr> 
+					<td><script>doHeader()</script></td>
+				</tr>
+			</table>
+			
+			<br>
+			
+			<!-- begin main content table -->
+			<table border=0 cellpadding=0 cellspacing=0 width=583 align=center background="../../../shared/images/netscape.gif">
+				<tr>
+					<td align=center>
+						<!-- begin clicktale viewer -->
+						<table border=0 cellpadding=0 cellspacing=0 width=576 height=325>
+							<tr>
+								<td colspan=3><img src="../../../shared/images/bigideas/clicktales/top.gif" width="576" height="23"></td>
+							</tr>
+							<tr>
+								<!-- #BeginEditable "icon" -->
+								<td><img name="icon" src="../../../shared/images/bigideas/clicktales/seek.gif" alt="ClickTale"></td>
+								<!-- #EndEditable -->
+								<td rowspan=3> 
+                    			<!-- begin slide content -->
+                    			<!-- #BeginEditable "slide%20content" --> 
+                    <table border=0 cellpadding=0 cellspacing=0 width=414 height=232 bgcolor="#FFFFFF">
+                      <tr> 
+                       	<!-- game table -->
+					    <td>
+							<table border=0 cellpadding=0 cellspacing=0>
+								<tr>
+									
+                              <td><a href="javascript:doCTGame(0);"> <img name="one" src="../../../shared/images/bigideas/clicktales/truthful/p4/one.gif" width=109 height=114 border=0 alt="Clifford"></a></td>
+									<td rowspan=2>
+										<!-- nested table for right-side of game table -->
+										<table border=0 cellpadding=0 cellspacing=0>
+											<tr>
+												<td><img src="../../../shared/images/bigideas/clicktales/truthful/p4/space.gif" width=88 height=58></td>
+											</tr>
+											<tr>
+												
+                                    <td><a href="javascript:doCTGame(2);"> 
+                                      <img name="three" src="../../../shared/images/bigideas/clicktales/truthful/p4/three.gif" width=88 height=96 border=0 alt="Clifford"></a></td>
+											</tr>
+											<tr>
+												<td><img src="../../../shared/images/bigideas/clicktales/truthful/p4/space2.gif" width=88 height=75></td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+								<tr>
+									
+                              <td><a href="javascript:doCTGame(1);"> <img name="two" src="../../../shared/images/bigideas/clicktales/truthful/p4/two.gif" width=109 height=115 border=0 alt="Clifford"></a></td>
+								</tr>
+							</table>
+						</td>
+						<!-- text table -->
+						<td>
+							<table border=0 cellpadding=0 cellspacing=10 bgcolor="#FFFFFF">
+								<tr>
+									<td><font style="font-family:verdana;font-size:9pt;">"What will I tell Emily Elizabeth?" asked Clifford. "That was a present for her cousin."<br><br>
+"Hide the broken ball," said Cleo. "Pretend that you took it to the post office."</font></td>
+								</tr>
+							</table>
+						</td>
+                      </tr>
+                    </table>
+                    <!-- #EndEditable --></td>
+								<td><img src="../../../shared/images/bigideas/clicktales/clicktale_right.gif"></td>
+							</tr>
+							<tr>
+								<td>
+									<!-- left arrow table -->
+									<table border=0 cellpadding=0 cellspacing=0>
+										<tr>
+											
+                        <td><img src="../../../shared/images/bigideas/clicktales/l_arrow-left.gif"></td>
+											
+                        <td><!-- #BeginEditable "left%20arrow" --><a href="three.html"
+											onmouseover="changeImages('larrow','../../../shared/images/clicktales/l_arrow-over.gif');return true;"
+											onmouseout="changeImages('larrow','../../../shared/images/clicktales/l_arrow.gif');return true;"> 
+                          <img name="larrow" src="../../../shared/images/bigideas/clicktales/l_arrow.gif" border=0 alt="previous page"></a><!-- #EndEditable --></td>
+										</tr>
+									</table>
+								</td>
+								<td>
+									<!-- right arrow table -->
+									<table border=0 cellpadding=0 cellspacing=0>
+										<tr>
+											
+                        <td><!-- #BeginEditable "right%20arrow" --><a href="javascript:goNext('five.html')"><img name="rarrow" src="../../../shared/images/bigideas/clicktales/r_arrow.gif" border=0 alt="next page"></a><!-- #EndEditable --></td>
+											
+                        <td><img src="../../../shared/images/bigideas/clicktales/r_arrow-right.gif"></td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								
+                  <td><img src="../../../shared/images/bigideas/clicktales/left_side.gif"></td>
+								
+                  <td><img src="../../../shared/images/bigideas/clicktales/right_side.gif"></td>
+							</tr>
+							<tr>
+								
+                  <td colspan=3><img src="../../../shared/images/bigideas/clicktales/divider.gif"></td>
+							</tr>
+							<tr>
+								<td colspan=3>
+									<!-- begin lower text field table -->
+									<table border=0 cellpadding=0 cellspacing=0>
+										<tr>
+											
+                        <td><img src="../../../shared/images/bigideas/clicktales/text_left.gif"></td>
+											<td bgcolor="#FFFFFF">
+												<table border=0 cellpadding=0 cellspacing=0 width=384 height=27>
+													<tr>
+														<td><!-- #BeginEditable "dialog%20box" -->
+							  <font style="font-weight:bold;color:#FF3333;font-family:verdana;font-size:10pt">Click on the picture of Clifford that looks sad.</font><!-- #EndEditable --></td>
+													</tr>
+												</table>
+											</td>
+											
+                        <td><img src="../../../shared/images/bigideas/clicktales/text_right.gif"></td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								
+                  <td colspan=3><img src="../../../shared/images/bigideas/clicktales/bottom.gif"></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+			
+			<br>
+
+			<!-- begin bottom navigation bar -->
+			<table border=0 cellpadding=0 cellspacing=0 background="../../../shared/images/friends/bottomnav.gif" width=583 height=72>
+				<tr>
+					<td><script>doNavBar()</script></td>				
+				</tr>
+			</table>
+			
+		</td>
+	</tr>
+</table>
+</center> 
+<!-- #BeginEditable "audio" -->
+<applet code="TinyAudioPlayer.class" codebase="../../../shared/sound" name="goodjobplayer" width="1" height="1" MAYSCRIPT>
+  <param name=snd value="../../../shared/sound/bark.au">
+</applet>
+
+<center>
+<br>
+<!-- begin copyright table -->
+<table border=0 cellpadding=0 cellspacing=0 width=583>
+	<tr>
+		<td align=right><font style="font-size:11px;color:white">
+		&#169 2002 Scholastic Entertainment Inc. <a href="../../../copyright/index.html"><font style="font-size:11px;text-decoration:underline;color:#FFFFFF;">Web Site copyright.</font></a></font></td>
+	</tr>
+</table>
+</center>
+<!-- #EndEditable -->
+</body>
+<!-- #EndTemplate --></html>

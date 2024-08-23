@@ -1,1 +1,0 @@
-{"buttons_color": "1b88da", "shop_url": "", "go_login": false, "brand": "go", "destination": "", "reload": true, "parents_url": "https://www.pbs.org/parents/wordgirl/parentsandteachers.html", "shop_partner": false, "learning_goals": "", "teachers_url": "https://www.pbs.org/teachers/wordgirl/"}
