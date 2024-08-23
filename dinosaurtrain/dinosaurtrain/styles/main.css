@@ -1,0 +1,152 @@
+body {
+	font-family: arial;
+	color: #646464;
+	background-color: #d97825;
+	/*background-image: url("/web/20100111184158im_/http://pbskids.org/dinosaurtrain/media/images/bkgPtn.gif");*/
+	margin: 0px;
+	padding: 0px;
+	font-size: 19pt;
+}
+.htmlPageBody {
+	font-family: arial;
+	color: #646464;
+	background-color: #d97825;
+	/*background-image: url("/web/20100111184158im_/http://pbskids.org/dinosaurtrain/media/images/bkgPtn.gif");*/
+	margin: 0px;
+	padding: 0px;
+}
+table {
+	font-family: arial;
+	text-align: left;
+}
+.main_footer {
+	font-size: 10pt;
+	margin-top: 20px;
+	text-align: center;
+}
+.main_footer a, a:active, a:link, a:visited {
+	color: white;
+	text-decoration: none;
+}
+.main_footer a:hover {
+	color: white;
+	text-decoration: underline;
+}
+.meetTheChars_box {
+	width: 100%;
+	text-align: left;
+	font-size: 11pt;
+	margin: 5px;
+}
+h1 {
+	font-size: 13pt;
+	color: #f37901;
+}
+.meetTheChars_box .left {
+	float: left;
+	padding: 25px;
+}
+.meetTheChars_box .right {
+	float: right;
+	padding: 25px;
+}
+.htmlContentTable {
+	background-color: #9f4504;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+.htmlContentWrapper {
+	background-color: white;
+	width: 620px;
+	padding: 40px;
+	padding-bottom: 0px;
+	text-align: left;
+	margin:0px;
+}
+.htmlPage_title {
+	text-align: center;
+	color: #2d6394;
+}
+.leafList {
+	list-style-image: url("/web/20100111184158im_/http://pbskids.org/dinosaurtrain/media/images/leafList.gif");
+}
+
+/* This is the main flash window */
+div#main_content {
+	background-color: #9f4504;
+	height: 440px;
+	text-align: center;
+}
+
+.tuneIn {
+	font-size: 10pt;
+	color: white;
+	text-align: center;
+}
+.tuneIn a {
+	color: #06424a;
+}
+.nonFlashBox {
+	background-image: url("/web/20100111184158im_/http://pbskids.org/dinosaurtrain/media/images/nonFlashBKG.jpg");
+	background-repeat: no-repeat;
+	width: 700px;
+	height: 289px;
+	padding: 35px;
+	font-size: 12pt;
+	text-align: center;
+}
+.nonFlashBox h2 {
+	font-size: 15pt;
+	margin: 0px;
+	margin-bottom: 10px;
+	padding: 0px;
+	text-align: center;
+}
+.nonFlashBox a {
+	color: #9F4504;
+}
+div#bottom-right {
+	background-image: url("/web/20100111184158im_/http://pbskids.org/dinosaurtrain/media/images/bottomNav_27.jpg");
+	background-repeat: no-repeat;
+	background-position: top left;
+	height: 187px;
+}
+div#bottom-left {
+	background-image: url("/web/20100111184158im_/http://pbskids.org/dinosaurtrain/media/images/bottomNav_22.jpg"); 
+	background-position: top right;
+	background-repeat: no-repeat; 
+	height: 187px;
+}
+div#top-left {
+	background-image: url("/web/20100111184158im_/http://pbskids.org/dinosaurtrain/media/images/topNav_01.jpg");
+	background-repeat: no-repeat;
+	background-position: top right;
+	height: 123px;
+}
+div#top-right {
+	background-image: url("/web/20100111184158im_/http://pbskids.org/dinosaurtrain/media/images/topNav_12.jpg");
+	background-repeat: no-repeat;
+	background-position: top left;
+	height: 123px;
+}
+
+/*
+     FILE ARCHIVED ON 18:41:58 Jan 11, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:45:56 Aug 23, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 11.374
+  exclusion.robots: 0.022
+  exclusion.robots.policy: 0.009
+  esindex: 0.013
+  cdx.remote: 35.532
+  LoadShardBlock: 101.39 (3)
+  PetaboxLoader3.datanode: 100.806 (4)
+  load_resource: 66.971
+  PetaboxLoader3.resolve: 23.149
+*/
