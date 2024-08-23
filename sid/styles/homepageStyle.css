@@ -114,58 +114,5 @@ a:focus{
         outline: none;
 }
 
-.centervideo {
-    text-align: center;
-}
-
-
-/*Footer Styles*/
-.funder, .pbskids_bridge_sponsor {
-        border: 0;
-        padding: 0 25px 0 5px;
-		float:none;
-		}
-
-.cr{
-        clear: both;
-        padding: 30px 0 0 0;
-        text-align: center;
-		width:auto;
-}
-
-.fundingDiv p {
-        margin: 5px 0 10px 0;
-        padding: 0;
-}
-
-.fundingDiv img {
-vertical-align:middle;
-}
-
-.producedByDiv {
-		margin-top:20px;
-		padding:0;
-		clear:both;
-		text-align:center;
-		float:none;
-		width:auto;
-		}
-		
-.producedByDiv p {
-        margin: 5px 0;
-        padding: 0;
-}
-.fundingTitle{
-        margin: 0;
-        padding: 7px 0 0 0;
-        text-align: left;
-		height:auto;
-}
-.producedByTitle{
-        margin: 0;
-        padding: 7px 0 0 0;
-        text-align: center;
-		height:auto;
-}
 
 
