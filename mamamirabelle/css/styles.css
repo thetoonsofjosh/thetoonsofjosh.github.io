@@ -1,0 +1,95 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image: url(../images/back_bottom.jpg);
+	background-color:#4bb2ef;
+	background-position: bottom !important;	
+	background-repeat:repeat-x;
+}
+
+td {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-decoration: none;
+	
+}
+
+.img_right  {
+	margin: 130px 0px 0px 110px;
+	padding: 0;
+}
+
+.button_play  {
+	margin: 10px 0px 0px 10px;
+	padding: 0;
+}
+
+.footer
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	color:#000000;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-decoration: none;
+}
+
+a
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color:#b14326;
+	text-decoration:none;
+}
+
+.link_caracter
+{
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+	font-style: normal ;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color:#b14326;
+	text-decoration:none;
+}
+
+th {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.body
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-decoration: none;
+	color:#38356D;
+}
+
+.copyright 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 7pt;
+	color:#ffffff;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-decoration: none;
+}
