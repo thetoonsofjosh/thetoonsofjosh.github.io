@@ -1,0 +1,11 @@
+/*
+Theme Name: RTL-MINI
+Theme URI: http://pbskids.org
+Description: The theme for PBS KIDS' Ready-To-Learn Spring 2011 mini-site.
+Version: 1.0
+Author: Jon White
+*/
+
+@import "reset.css";
+@import "fonts.css";
+@import "desktop.css";

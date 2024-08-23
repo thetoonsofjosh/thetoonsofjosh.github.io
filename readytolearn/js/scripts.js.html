@@ -1,0 +1,50 @@
+jQuery(document).ready(function($) {
+
+
+
+	// Open links in external window
+	if($('body a[rel="external"]').length != 0) {
+    	$('a[rel="external"]').click( function() {
+        	window.open( $(this).attr('href') );
+        	return false;
+    	});
+	}
+
+
+
+
+
+
+	$("nav ul li:last").addClass("last");
+
+
+
+	$("nav ul li a").click(function(){
+		$("nav ul li a").removeClass("selected");
+		$(this).addClass("selected");
+
+		var tabName = $(this).text();
+		//Event Tracking on tabs clicked
+		if( window.GA_obj && GA_obj.trackEvent )
+	            GA_obj.trackEvent('Learn More Tabs', 'click', tabName);
+
+		var placement = $(this).parent("li").index();
+		positivePixels = placement * 820;
+		destination = positivePixels - (positivePixels * 2);
+//		alert(destination);
+
+
+		$(".queue").clearQueue().animate({
+			left: destination
+		}, 750, function() {
+			// Animation complete.
+		});
+
+		return false;
+
+	});
+
+
+
+
+});

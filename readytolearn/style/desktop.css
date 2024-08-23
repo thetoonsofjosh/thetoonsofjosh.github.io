@@ -1,0 +1,388 @@
+body {
+	background: #e0dfd6 url(i/noised_beige.jpg) repeat;
+	color: #777464; /* deemed too light */
+	color: #58564d;
+	text-shadow: #fcfcfb 0 1px 0;
+	font: normal 13px/1.37 "VollkornRegular", georgia, serif;
+}
+em {
+	font-style: normal;
+	font-family: "VollkornItalic", georgia, serif;
+}
+strong {
+	font-weight: normal;
+	font-family: "VollkornBold", georgia, serif;
+}
+a {
+	text-decoration: none;
+	color: #4a8c9a;
+	outline: 0;
+	font-family: "VollkornBold", georgia, serif;
+}
+a:hover {
+	color: #00596c;
+	text-decoration: underline;
+}
+abbr {
+	border: none;
+	font-size: 11px;
+	letter-spacing: 0.7px;
+	cursor: help;
+}
+
+
+
+
+.mantle {
+	background: url(i/blocks_pattern.jpg) repeat-x;
+}
+.outercore {
+	width: 960px;
+	margin: 0px auto;
+}
+
+
+
+header {
+	width: 100%;
+	height: 295px;
+	overflow: hidden;
+	position: relative;
+}
+		header h1,
+		header h2,
+		.ribbon,
+		.lab-promotion {
+			position: absolute;
+		}
+
+		.lab-promotion {
+			display: block;
+			width: 820px;
+			height: 80px;
+			left: 0;
+			top: 132px;
+			text-indent: -9999px;
+			overflow: hidden;
+			background: url(i/lab_banner.png) no-repeat;
+		}
+
+		.ribbon {
+			top: 0;
+			right: 0;
+			width: 124px;
+			height: 173px;
+			overflow: hidden;
+			background: url(i/ribbon.png) no-repeat;
+		}
+				.ribbon a {
+					display: block;
+					position: absolute;
+					background: url(i/logo_prek.png) no-repeat;
+					width: 46px;
+					height: 45px;
+					text-indent: -9999px;
+					overflow: hidden;
+					left: 13px;
+					top: 51px;
+				}
+						.ribbon a.go {
+							background-image: url(i/logo_go.png);
+							left: 63px;
+						}
+						.ribbon a:hover {
+							background-position: 0 -53px;
+						}
+						
+
+
+		header h1 {
+			top: 29px;
+			left: 0;
+			width: 300px;
+			height: 57px;
+			background: url(i/rtl_brand_logo.png) no-repeat;
+			text-indent: -9999px;
+			overflow: hidden;
+		}
+		header h2 {
+			top: 240px;
+			left: 0;
+			font-size: 22px;
+			font-family: "VollkornItalic", georgia, serif;
+			color: #818077; /* deemed too light */
+			color: #58564d;
+			text-shadow: #ffffff 0 1px 0;
+		}
+
+
+
+.canvas {
+	width: 820px; /* 960 */
+	overflow: hidden;
+	padding-bottom: 50px;
+}
+
+
+.deck {
+	background: url(i/deck_flourish.png) no-repeat left bottom;
+	width: 100%;
+/*	height: 194px; */
+	padding-bottom: 40px;
+	margin-bottom: 11px;
+	color: #8e8b7d; /* deemed too light */
+	color: #58564d;
+}
+		.deck .primary,
+		.deck .secondary {
+			padding-top: 5px;
+		}
+		.deck .primary {
+			width: 386px;
+			float: left;
+		}
+		.deck .secondary {
+			width: 365px;
+			padding-right: 13px;
+			float: right;
+		}
+
+
+h3 {
+	text-transform: uppercase;
+	font-size: 11px;
+	letter-spacing: 1.5px;
+	margin-bottom: 15px;
+}
+
+
+
+
+nav {
+	margin-bottom: 20px;
+	height: 116px;
+	overflow: hidden;
+}
+		nav ul {	
+		}
+				nav li {
+					display: inline;
+				}
+						nav a {
+							float: left;
+							display: block;
+							width: 84px;
+							height: 116px;
+							background: url(i/nav_links.png) no-repeat;
+							text-indent: -9999px;
+							overflow: hidden;
+							margin-right: 8px;
+						}
+						nav .last a {
+							margin-right: 0;
+						}
+						
+						
+						nav .early a						{ background-position: 0 0; }
+						nav .reaching a						{ background-position: -92px 0; }
+						nav .family a						{ background-position: -184px 0; }
+						nav .innovation a					{ background-position: -276px 0; }
+						nav .reading a						{ background-position: -368px 0; }
+						nav .math a							{ background-position: -460px 0; }
+						nav .community a					{ background-position: -552px 0; }
+						nav .quality a						{ background-position: -644px 0; }
+						nav .research a						{ background-position: -736px 0; }
+
+
+						nav .early a:hover					{ background-position: 0 -116px; }
+						nav .reaching a:hover				{ background-position: -92px -116px; }
+						nav .family a:hover					{ background-position: -184px -116px; }
+						nav .innovation a:hover				{ background-position: -276px -116px; }
+						nav .reading a:hover				{ background-position: -368px -116px; }
+						nav .math a:hover					{ background-position: -460px -116px; }
+						nav .community a:hover				{ background-position: -552px -116px; }
+						nav .quality a:hover				{ background-position: -644px -116px; }
+						nav .research a:hover				{ background-position: -736px -116px; }
+
+
+						nav .early a.selected,
+						nav .early a.selected:hover			{ background-position: 0 -232px; }
+						nav .reaching a.selected,
+						nav .reaching a.selected:hover		{ background-position: -92px -232px; }
+						nav .family a.selected,
+						nav .family a.selected:hover		{ background-position: -184px -232px; }
+						nav .innovation a.selected,
+						nav .innovation a.selected:hover	{ background-position: -276px -232px; }
+						nav .reading a.selected,
+						nav .reading a.selected:hover		{ background-position: -368px -232px; }
+						nav .math a.selected,
+						nav .math a.selected:hover			{ background-position: -460px -232px; }
+						nav .community a.selected,
+						nav .community a.selected:hover		{ background-position: -552px -232px; }
+						nav .quality a.selected,
+						nav .quality a.selected:hover		{ background-position: -644px -232px; }
+						nav .research a.selected,
+						nav .research a.selected:hover		{ background-position: -736px -232px; }
+
+
+
+.panels {
+	width: 820px;
+	height: 690px;
+	overflow: hidden;
+	position: relative;
+	background: url(i/article_square.png) no-repeat;
+	margin-bottom: 30px;
+}
+.queue {
+	width: 8000px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+		.queue article {
+			width: 780px; /* 820 */
+			height: 640px; /* 680 */
+			padding: 20px;
+			overflow: hidden;
+			float: left;
+		}
+
+
+
+.essay {
+	padding: 20px 375px 10px 0;
+	line-height: 1.5;
+}
+
+.backhome {
+	margin-bottom: 40px;
+	padding: 20px 375px 50px 0;
+	line-height: 1.5;
+	border-bottom: 1px solid #d0d0be;
+}
+
+.backhome {
+}
+		.backhome a {
+			font-size: 18px;
+			font-family: "VollkornItalic", georgia, serif;
+		}
+
+
+
+article p,
+article ul,
+article dl,
+article blockquote,
+article ol,
+article table,
+footer p,
+.essay p,
+.essay ul,
+.essay dl,
+.essay blockquote,
+.essay ol,
+.essay table {
+	margin-bottom: 16px;
+}
+		article ul {
+		}
+				article ul ul {
+					padding-top: 11px;
+					padding-left: 5px;
+				}
+				article li,
+				.essay li {
+					background: url(i/bullet.png) no-repeat 3px 6px;
+					padding-left: 21px;
+					margin-bottom: 3px;
+				}
+				.essay li {
+					margin-bottom: 8px;
+					background-position: 3px 7px;
+				}
+		article blockquote {
+		}
+				article blockquote p {
+					margin-bottom: 4px;
+					font-family: "VollkornItalic", georgia, serif;
+				}
+				article blockquote cite {
+					display: block;
+					text-transform: uppercase;
+					font-size: 11px;
+					letter-spacing: 1.5px;
+				}
+						article blockquote cite em {
+							font-family: "VollkornBold", georgia, serif;
+						}
+		article img {
+			float: right;
+			padding: 2px;
+			border: 1px solid #c0bfaf;
+			margin: 0 0 15px 15px;
+		}
+
+
+		.essay h2 {
+			font-size: 16px;
+			margin-bottom: 10px;
+			font-family: "VollkornBold", georgia, serif;
+		}
+
+
+
+
+footer {
+	position: relative;
+	width: 100%;
+	border-bottom: 1px solid #d0d0be;
+	height: 150px;
+}
+		footer ul {
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+				footer li,
+				footer li a {
+					width: 88px;
+					height: 88px;
+					overflow: hidden;
+				}
+				footer li {
+					display: inline;
+				}
+						footer li a {
+							float: left;
+							margin-right: 20px;
+							text-indent: -9999px;
+							display: block;
+							background: url(i/footer_logos.png) no-repeat;
+						}
+								footer li.doe a			{ background-position: -113px 0; }
+								footer li.cpb a			{ background-position: 0 0; }
+
+
+
+		.fineprint {
+			font-size: 12px;
+			position: absolute;
+			top: 0;
+			left: 370px;
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

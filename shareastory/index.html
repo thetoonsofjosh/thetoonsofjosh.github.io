@@ -1,0 +1,84 @@
+<html>
+<head>
+<title>PBS KIDS Share a Story | PBS Kids</title>
+<link rel="stylesheet" href="sas.css" type="text/css">
+
+<script LANGUAGE="JavaScript">
+<!--
+function newImage(arg) {
+        if (document.images) {
+                rslt = new Image();
+                rslt.src = arg;
+                return rslt;
+        }
+}
+
+function swap(imgid,file) {
+        if (preloadFlag == true) {         
+               document.images[imgid].src=file;
+        }
+}
+
+var preloadFlag = false;
+function preloadImages() {
+	over_how = newImage("images/home-icon-how-on.gif");
+	over_print = newImage("images/home-icon-print-on.gif");
+	over_watch = newImage("images/home-icon-watch-on.gif");
+	over_send = newImage("images/home-icon-send-on.gif");
+	preloadFlag = true;
+}
+
+
+//-->
+</script>
+
+</head>
+<body bgcolor="#669900" background="images/background.gif" text="#336600" link="#336600" vlink="#336600" alink="#336600" marginheight="0" topmargin="0" onLoad="preloadImages()">
+<!--#include virtual="/includes/globalinc.html" -->
+<table border="0" cellpadding="0" cellspacing="0" align="center">
+<tr>
+<td><a href="http://pbskids.org"><img src="images/home-logo-pbskids.gif" width="66" height="75" alt="PBS Kids" border="0"></a><img src="images/home-top1.gif" width="146" height="75" alt=""><br><img src="images/home-logo-sas1.gif" width="212" height="164" alt="PBS KIDS Share a Story"></td>
+<td><img src="images/blank.gif" width="482" height="16" alt=""><br><img src="images/home-story-bigbird-holiday.gif " width="482" height="223" alt="Wow! Look how beautiful and happy these holiday decorations look! I love how things look outside when it's holiday-time." border="0" usemap="#navmap"><MAP NAME="navmap" ID="navmap"><AREA SHAPE=RECT COORDS="386,6,479,41" HREF="stories/archive.html"><AREA SHAPE=POLY COORDS="2,4,375,5,377,47,481,48,479,221,1,220,2,4" HREF="stories/index.html"></MAP></td>
+<td><img src="images/home-right1.gif" width="22" height="239" alt=""></td></tr></table>
+
+<table border="0" cellpadding="0" cellspacing="0" align="center">
+<tr>
+<td valign="top">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr><td colspan="2"><img src="images/home-logo-sas2.gif" width="254" height="61" alt=""><a href="#"></a></td></tr>
+<tr><td valign="top"><img src="images/home-bottom1.gif" width="51" height="45" alt=""></td><td><a href="grownups"><img src="images/home-grown1.gif" width="161" height="45" alt="Grown-Ups" border="0"></a><img src="images/home-grown3b.gif" width="42" height="45" alt="Grown-Ups" border="0"><br>
+<table border="0" width="203" bgcolor="#7CAE19" cellpadding="8" cellspacing="0"><tr><td class="greensmall" bgcolor="#7CAE19">Find local events, literacy resources and fun ways to <a href="grownups">give them words to grow by</a>.</td></tr></table>
+<a href="grownups"><img src="images/home-grown-bottom.gif" width="203" height="13" border="0"></a></td></tr></table></td>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0" >
+<tr><td valign="top"><a href="how.html" onMouseOver="swap('how','images/home-icon-how-on.gif')" onMouseOut="swap('how','images/home-icon-how-off.gif')"><img src="images/home-icon-how-off.gif" width="126" height="106" border="0" alt="How?" name="how"></a><a href="print" onMouseOver="swap('print','images/home-icon-print-on.gif')" onMouseOut="swap('print','images/home-icon-print-off.gif')"><img src="images/home-icon-print-off.gif" width="75" height="106" border="0" alt="Print" name="print" border="0"></a><a href="video" onMouseOver="swap('video','images/home-icon-watch-on.gif')" onMouseOut="swap('video','images/home-icon-watch-off.gif')"><img src="images/home-icon-watch-off.gif" width="84" height="106" border="0" alt="Watch" name="video"></a><a href="postcards/" onMouseOver="swap('send','images/home-icon-send-on.gif')" onMouseOut="swap('send','images/home-icon-send-off.gif')"><img src="images/home-icon-send-off.gif" width="94" height="106" border="0" alt="Send" name="send"></a><img src="images/home-bird.gif" width="83" height="106" alt=""></td></tr>
+<tr><td valign="top">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tr>
+	<td valign="top" align="center" class="homesmall">
+<!--#if expr="($STATION_TVDATA_NAME = /^[A-Z]{4}$/)" -->
+  Presented by:<br />
+  <a href="/cgi-registry/kidsbridge.cgi?type=station&dest=<!--#echo var="STATION_KIDS_PAGE" -->"><img src="http://www.pbs.org/images/stations/smallbw/<!--#echo var="STATION_TVDATA_NAME"-->.gif" border="0" alt="<!--#echo var="STATION_TVDATA_NAME" -->"></a>
+  <br><a href="/tvschedules/localizer.html?dest=<!--#echo var="DOCUMENT_URI" -->&station=<!--#echo var="STATION_TVDATA_NAME" -->">Find another station.</a>
+  <!--#else --> 
+  <!--#endif --></td>
+	<td width="110" valign="top" align="center" class="homesmall">&nbsp<br><br></td>
+	<td width="110" valign="top" align="center" class="homesmall">Funded in part by:<br><br><a href="http://pbskids.org/cgi-registry/kidsbridge.cgi?context=shareastory_deptofeducation"><img src="images/home-sponsor-doe.gif" width="110" height="47" border="0" alt=""></a></td>
+	</tr>
+</table>
+</td>
+</tr>
+</table></td></tr>
+<tr>
+<td colspan="2" class="homesmall" align="center">
+<br><br>
+PBS KIDS Share a Story is a national campaign that helps kids develop<br>reading and language skills funded in part by a <a href="/readytolearn/">Ready To Learn</a> cooperative<br>agreement with the <a href="http://pbskids.org/cgi-registry/kidsbridge.cgi?context=shareastory_deptofeducation">U.S. Department of Education</a>.<br>
+<br>
+&copy; � 2002 Sesame Workshop. "Sesame Street" and its logo are trademarks of Sesame Workshop. All rights reserved. <br>
+</td>
+</tr>
+</table>
+<center>
+<!--#include virtual = "bottomnav.html" -->
+</center>
+</body>
+</html>
