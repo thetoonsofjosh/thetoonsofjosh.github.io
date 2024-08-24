@@ -1,0 +1,248 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="description" content="Explore the Parents and Teachers area for Toopy and Binoo" />
+<meta name="keywords" content="Toopy, Binoo, Parents ant teachers, featured activity, welcome, parents menu" />
+<title>Toopy and Binoo . Parents and Teachers | PBS KIDS</title>
+<link href="styles.css" rel="stylesheet"  type="text/css"/>
+<script type="text/javascript" src="/includes/flash/swfobject.js"></script>
+<script src="utile/js.js" type="text/javascript"></script>
+<script language="VBScript" type="text/vbscript">
+<!-- // Visual basic helper required to detect Flash Player ActiveX control version information
+Function VBGetSwfVer(i)
+  on error resume next
+  Dim swControl, swVersion
+  swVersion = 0
+  
+  set swControl = CreateObject("ShockwaveFlash.ShockwaveFlash." + CStr(i))
+  if (IsObject(swControl)) then
+    swVersion = swControl.GetVariable("$version")
+  end if
+  VBGetSwfVer = swVersion
+End Function
+// -->
+</script>
+<!--[if lte IE 6]>
+<style type="text/css">
+img, .pngtrans { behavior:url(utile/png_fix/hm_iepngfix.htc) }
+</style>
+<![endif]-->
+</head>
+<body>
+<script type="text/javascript">
+var GA_setvar;
+(function() {
+ var getCookie = function(c_name) {
+     if (document.cookie.length>0) {
+         c_start=document.cookie.indexOf(c_name + "=");
+         if (c_start!=-1) {
+             c_start=c_start + c_name.length+1;
+             c_end=document.cookie.indexOf(";",c_start);
+             if (c_end==-1) c_end=document.cookie.length;
+             return unescape(document.cookie.substring(c_start,c_end));
+         }
+     }
+     return "";
+ };
+
+ var pbskids_wested = getCookie('pbskids.wested');
+
+ if(pbskids_wested){
+     GA_setvar = {pbskids_wested: pbskids_wested};
+ }
+
+ //Determines if user is logged in
+ var pbskids_username = getCookie('pbskids.username');
+ //Determines if account is new
+ var returning = getCookie('pbskids.returning');
+
+ GA_customvar = {};
+
+ var ua_codes = "UA-4005067-1,UA-4005001-1,UA-6043722-1,UA-6043633-1,ET-6043633-2"; 
+ var ua_codes_list = ua_codes.split(',');
+
+ var login_info;
+ //Setup log in info custom variable string
+ if (pbskids_username){
+    login_info = "l=1";
+      if(returning){
+	login_info += "&r=1";
+      }	
+      else{
+        login_info += "&r=0";
+      }
+ }
+ else{
+    login_info = "l=0&r=0";
+ } 
+
+ for (i=0; i <  ua_codes_list.length; i++){
+  var cv_array = [["GO login tracking", login_info, 2]];
+  GA_customvar[ua_codes_list[i]] = cv_array;
+ }
+
+})();
+
+</script>
+<script id="pbskids-headband-script" type="text/javascript" src="/pbs-kids-headband/js/headband.js?v=47"></script>
+<script type="text/javascript">
+var GA_env = { ua_list: "UA-4005067-1,UA-4005001-1,UA-6043722-1,UA-6043633-1,ET-6043633-2" };
+
+GA_env.vars = { localized: 0 };
+
+var GA_jshost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script src="/js/ga-4db5d466.js" type="text/javascript"></script>
+
+<!-- Begin comScore Tag -->
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "3005420" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=3005420&cv=2.0&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+
+
+
+<table align="center" border="0" cellspacing="0" cellpadding="0" width="780">
+ <tr>
+  	<td align="right"><a href="/pbskids2008//"><img src="images/navigation_bar/bottom_left.jpg" alt="PBS KIDS" name="Image45" border="0" id="Image45" /></a></td>
+<td>
+<table align="left" border="0" cellspacing="0" cellpadding="0">
+        	<tr>
+              <td width="166"><a href="/pbskids2008/toopyandbinoo/index.php?ID=home" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image40','','images/navigation_bar/toopyb_rollover.jpg',1)"><img title="Toopy and Binoo's World" alt="Toopy and Binoo's World" border="0" src="images/navigation_bar/toopyb_released.jpg" id="Image40" /></a></td>
+                <td width="114"><a href="/pbskids2008/toopyandbinoo/index.php?ID=games_content" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image41','','images/navigation_bar/games_rollover.jpg',1)"><img title="Games" alt="Games"border="0" src="images/navigation_bar/games_released.jpg" id="Image41"/></a></td>
+                <td width="115"><a href="/pbskids2008/toopyandbinoo/index.php?ID=printable_content" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image42','','images/navigation_bar/printable_rollover.jpg',1)"><img title="Printable Activities" alt="Printable Activities"border="0" src="images/navigation_bar/printable_released.jpg" id="Image42"/></a></td>
+                <td width="175"><a href="/pbskids2008/toopyandbinoo/index.php?ID=parents_content&amp;parent_content=lander" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image43','','images/navigation_bar/parent_rollover.jpg',1)"><img border="0" title="Parents and Teachers" alt="Parents and Teachers" src="images/navigation_bar/parent_released.jpg" id="Image43"/></a></td>
+ 			</tr>
+    	</table>   
+      </td>
+ </tr>
+ <tr>
+ 	
+    <td colspan="2" align="center">
+    <!-- CONTENU -->
+    <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td style=" background-image:url(images/parents_teachers_contents/barre_gauche.jpg);background-repeat:no-repeat; top:0px;vertical-align:top;">
+            <table class="table_parents" style="top:0px; text-align:center; margin-top:25px; width:135px; height:407px;" border="0" cellspacing="0" cellpadding="0" >
+                <tr>
+                    <td align="center"><a href="/pbskids2008/toopyandbinoo/index.php?ID=parents_content&parent_content=about">About the site</a></td>
+                </tr>
+                <tr>
+                    <td align="center"><img alt=""  src="images/parents_teachers_contents/star.gif" width="20" height="20" border="0" /></td>
+                </tr>
+                <tr>
+                    <td align="center"><a href="/pbskids2008/toopyandbinoo/index.php?ID=parents_content&parent_content=video">Video Clip </a></td>
+                </tr>
+                <tr>
+                    <td align="center"><img alt=""  src="images/parents_teachers_contents/star.gif" width="20" height="20" border="0" /></td>
+                </tr>
+                <tr>
+                    <td align="center"><a href="/pbskids2008/toopyandbinoo/index.php?ID=parents_content&parent_content=educ">Educational<br/>Philosophy</a></td>
+                </tr>
+                <tr>
+                    <td align="center"><img alt=""  src="images/parents_teachers_contents/star.gif" width="20" height="20" border="0" /></td>
+                </tr>
+                <tr>
+                    <td align="center"><a href="/pbskids2008/toopyandbinoo/index.php?ID=parents_content&parent_content=character">Character<br/>Description </a></td>
+                </tr>
+                <tr>
+                    <td align="center"><img alt=""  src="images/parents_teachers_contents/star.gif" width="20" height="20" border="0" /></td>
+                </tr>
+                <tr>
+                    <td align="center"><a href="/pbskids2008/toopyandbinoo/index.php?ID=parents_content&parent_content=faq">FAQ</a></td>
+                </tr>
+                <tr>
+                    <td align="center"><img alt=""  src="images/parents_teachers_contents/star.gif" width="20" height="20" border="0" /></td>
+                </tr>
+                <tr>
+                    <td align="center"><a href="/pbskids2008/toopyandbinoo/index.php?ID=parents_content&parent_content=site_map">Site Map</a></td>
+                </tr>
+                <tr>
+                    <td align="center"><img alt=""  src="images/parents_teachers_contents/star.gif" width="20" height="20" border="0" /></td>
+                </tr>
+                <tr>
+                    <td align="center"><a href="/pbskids2008/toopyandbinoo/index.php?ID=parents_content&parent_content=guide">Guide to<br/>Online Activities</a></td>
+                </tr>
+                <tr>
+                    <td align="center"><img alt=""  src="images/parents_teachers_contents/star.gif" width="20" height="20" border="0" /></td>
+                </tr>
+                <tr>
+                    <td align="center"><a href="/pbskids2008/toopyandbinoo/index.php?ID=parents_content&parent_content=activities">Printable Activities</a></td>
+                </tr>
+                <tr>
+                    <td align="center"><img alt=""  src="images/parents_teachers_contents/star.gif" width="20" height="20" border="0" /></td>
+                </tr>
+                <tr>
+                    <td align="center"><a href="/pbskids2008/toopyandbinoo/index.php?ID=parents_content&parent_content=contact">Contact Us </a></td>
+                </tr>
+            </table>    
+        </td>
+        <td>
+            <table align="center" width="708" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td width="709"><table width="708" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td width="570" height="462" valign="top" align="left">
+                                <div style="position:relative;font-family:Arial, Helvetica, sans-serif;">
+                                    <div style="position:relative; background-image:url(images/top_pages/p_t.png); height:103px; width:708px; background-repeat:no-repeat;"></div>
+                                    <div style="position:relative; width:708px; background-image:url(images/content_repeat_y.gif); background-repeat:repeat-y;">
+                                        <div id="parents" style="width:538px; margin:0 auto;">
+                                            <h3 class='featured'>Featured Activity</h3><table width='300' id='featured_activity'>
+		<tr>
+			<td rowspan='2'><a href='print/S2_en_conte8.pdf'><img border='0' alt='Featured Activity' title='Featured Activity' src='images/thumb_parents/3.gif'/></a></td>
+			<td class='lien_orange' align='center' height='20' style='padding-top:10px;'><a href='print/S2_en_conte8.pdf'>Mr. Elephant Dance!</a></td>
+		</tr>
+		<tr>
+			<td class='table_parents' align='center'>Make your own cartoon! Dance with Toopy, Binoo and Mr. Elephant!</td>
+		</tr>
+	</table>Welcome to the Parents and Teachers area! Here you can learn more about Toopy and Binoo with the <strong>provided links on the left of the screen</strong>, such as descriptions of the characters, the philosophy of Toopy and Binoo, see the various activities, and much more.                                        </div>
+                                    </div>
+                                <div style="background-image:url(images/bottom_content.png); height:90px; width:708px; background-repeat:no-repeat;"></div>
+                                </div>
+                            </td>
+                        </tr>
+                       </table>
+                    </td>
+                    
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>    <!-- FIN CONTENU --> 
+   </td>
+  </tr>
+</table>
+
+<br />
+  <div id="partofplay">Part of<br />
+    <a href="http://www.pbskidsplay.org/playnow/?CPLAYSM&btn=1" title="Part of PLAY!">
+        <img src="images/play_icon.jpg" border="0" />
+    </a>
+</div>
+<table border="0" cellpadding="0" cellspacing="10" align="center">
+    <tbody>
+      <tr>
+        <td class="style1">
+<a class="style1" href="/tvschedules/localizer.html?dest=/pbskids2008/toopyandbinoo/index.php&nola=">Find your local PBS station</a>
+</td>
+		<td><a href="/pbskids2008//privacy/" class="style1" target="_blank">PBS KIDS privacy policy </a></td>
+		<td><a href="/pbskids2008//privacy/termsofuse.html" class="style1" target="_blank">PBS KIDS terms of use</a></td>
+        <td><a href="/pbskids2008/toopyandbinoo/index.php?ID=parents_content&parent_content=site_map" class="style1">Site Map</a></td>
+	  </tr> 
+	</tbody> 
+</table>
+<center><span class="style1">&copy; 2008 Spectra Animation Inc.</span></center>
+
+</body>
+</html>

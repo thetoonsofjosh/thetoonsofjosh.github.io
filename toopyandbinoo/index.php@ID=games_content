@@ -1,0 +1,185 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="description" content="Play fun games with Toopy and Binoo, and let your child explore the wonders of his imagination" />
+<meta name="keywords" content="Toopy, Binoo, Games Content, Games list, Magic, Super, Space" />
+<title>Toopy and Binoo . Games | PBS KIDS</title>
+<link href="styles.css" rel="stylesheet"  type="text/css"/>
+<script type="text/javascript" src="/includes/flash/swfobject.js"></script>
+<script src="utile/js.js" type="text/javascript"></script>
+<script language="VBScript" type="text/vbscript">
+<!-- // Visual basic helper required to detect Flash Player ActiveX control version information
+Function VBGetSwfVer(i)
+  on error resume next
+  Dim swControl, swVersion
+  swVersion = 0
+  
+  set swControl = CreateObject("ShockwaveFlash.ShockwaveFlash." + CStr(i))
+  if (IsObject(swControl)) then
+    swVersion = swControl.GetVariable("$version")
+  end if
+  VBGetSwfVer = swVersion
+End Function
+// -->
+</script>
+<!--[if lte IE 6]>
+<style type="text/css">
+img, .pngtrans { behavior:url(utile/png_fix/hm_iepngfix.htc) }
+</style>
+<![endif]-->
+</head>
+<body>
+<script type="text/javascript">
+var GA_env = { ua_list: "UA-4005067-1,UA-4005001-1,UA-6043722-1,UA-6043633-1,ET-6043633-2" };
+
+GA_env.vars = { localized: 0 };
+
+var GA_jshost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script src="/js/ga-4b2a4b53.js" type="text/javascript"></script>
+
+<!-- Begin comScore Tag -->
+<script>
+   document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
+</script>
+ <script>
+  COMSCORE.beacon({
+    c1:2,
+    c2:3005420,
+    c3:"",
+    c4:"/pbskids2008/toopyandbinoo/index.php",
+    c5:"",
+    c6:"",
+    c15:""
+  });
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/b?c1=2&c2=3005420&c3=&c4=/pbskids2008/toopyandbinoo/index.php&c5=&c6=&c15=&cv=1.3&cj=1" style="display:none" width="0" height="0" alt="" />
+</noscript>
+<!-- End comScore Tag -->
+
+
+<table align="center" border="0" cellspacing="0" cellpadding="0" width="780">
+ <tr>
+  	<td align="right"><a href="/pbskids2008//"><img src="images/navigation_bar/bottom_left.jpg" alt="PBS KIDS" name="Image45" border="0" id="Image45" /></a></td>
+<td>
+<table align="left" border="0" cellspacing="0" cellpadding="0">
+        	<tr>
+              <td width="166"><a href="/pbskids2008/toopyandbinoo/index.php?ID=home" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image40','','images/navigation_bar/toopyb_rollover.jpg',1)"><img title="Toopy and Binoo's World" alt="Toopy and Binoo's World" border="0" src="images/navigation_bar/toopyb_released.jpg" id="Image40" /></a></td>
+                <td width="114"><a href="/pbskids2008/toopyandbinoo/index.php?ID=games_content" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image41','','images/navigation_bar/games_rollover.jpg',1)"><img title="Games" alt="Games"border="0" src="images/navigation_bar/games_released.jpg" id="Image41"/></a></td>
+                <td width="115"><a href="/pbskids2008/toopyandbinoo/index.php?ID=printable_content" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image42','','images/navigation_bar/printable_rollover.jpg',1)"><img title="Printable Activities" alt="Printable Activities"border="0" src="images/navigation_bar/printable_released.jpg" id="Image42"/></a></td>
+                <td width="175"><a href="/pbskids2008/toopyandbinoo/index.php?ID=parents_content&amp;parent_content=lander" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image43','','images/navigation_bar/parent_rollover.jpg',1)"><img border="0" title="Parents and Teachers" alt="Parents and Teachers" src="images/navigation_bar/parent_released.jpg" id="Image43"/></a></td>
+ 			</tr>
+    	</table>   
+      </td>
+ </tr>
+ <tr>
+ 	
+    <td colspan="2" align="center">
+    <!-- CONTENU -->
+    <table align="center" width="708" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="709"><table width="708" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+                
+          <td valign="top" align="left" >
+          <div style="position:relative; background-image:url(images/top_pages/games.png); height:103px; width:708px; background-repeat:no-repeat;"></div>  
+          <div style="position:relative; width:708px; background-image:url(images/content_repeat_y.gif); background-repeat:repeat-y; ">              
+             <div id="games">
+             <table border="0" align="center">
+             	<tr>
+                	<td colspan="3"><img src="images/games/magic.png" alt="Magic Games" title="Magic Games" class="_trans" /></td>
+                </tr>
+                <tr>
+                	<td width="100"><a href="index.php?ID=MAGC1JEU1" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('magic_1','','images/games/link_btn/Cat1/tb_jeusacados1_rollover.gif',1)" ><img border="0" alt="Snowmen" title="Snowmen" src="images/games/link_btn/Cat1/tb_jeusacados1.gif" width="86" height="88" id="magic_1"/></a></td>
+                    <td width="100"><a href="index.php?ID=MAGC1JEU2" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('magic_2','','images/games/link_btn/Cat1/tb_jeusacados2_rollover.gif',1)" ><img border="0" alt="Differences Between the Elephants" title="Differences Between the Elephants"src="images/games/link_btn/Cat1/tb_jeusacados2.gif" width="86" height="88" id="magic_2"/></a></td>
+                    <td width="100"><a href="index.php?ID=MAGC1JEU3"onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('magic_3','','images/games/link_btn/Cat1/tb_jeusacados3_rollover.gif',1)" ><img border="0" alt="Blue Butterflies" title="Blue Butterflies" src="images/games/link_btn/Cat1/tb_jeusacados3.gif" width="86" height="88" id="magic_3"/></a></td>
+                </tr>
+                <tr>
+                	<td width="100"><a href="index.php?ID=MAGC2JEU1"onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('magic_4','','images/games/link_btn/Cat1/tb_jeusacados4_rollover.gif',1)" ><img border="0" alt="Musical Fish" title="Musical Fish" src="images/games/link_btn/Cat1/tb_jeusacados4.gif" width="86" height="88" id="magic_4"/></a></td>
+                    <td width="100"><a href="index.php?ID=MAGC2JEU2" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('magic_5','','images/games/link_btn/Cat1/tb_jeusacados5_rollover.gif',1)" ><img border="0" alt="Animal Sound Mix-Up" title="Animal Sound Mix-Up" src="images/games/link_btn/Cat1/tb_jeusacados5.gif" width="86" height="88" id="magic_5"/></a></td>
+                    <td width="100"><a href="index.php?ID=MAGC2JEU3" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('magic_6','','images/games/link_btn/Cat1/tb_jeusacados6_rollover.gif',1)" ><img border="0" alt="Sleepy Baby Monster" title="Sleepy Baby Monster" src="images/games/link_btn/Cat1/tb_jeusacados6.gif" width="86" height="88" id="magic_6"/></a></td>
+                </tr>
+                <tr>
+                	<td width="100"><a href="index.php?ID=MAGC3JEU1" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('magic_7','','images/games/link_btn/Cat1/tb_jeusacados7_rollover.gif',1)" ><img border="0" alt="Tutti Frutti" title="Tutti Frutti" src="images/games/link_btn/Cat1/tb_jeusacados7.gif" width="86" height="88" id="magic_7"/></a></td>
+                    <td width="100"><a href="index.php?ID=MAGC3JEU2" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('magic_8','','images/games/link_btn/Cat1/tb_jeusacados8_rollover.gif',1)" ><img border="0" alt="Silly Sidewalk" title="Silly Sidewalk" src="images/games/link_btn/Cat1/tb_jeusacados8.gif" width="86" height="88" id="magic_8"/></a></td>
+                    <td width="100"><a href="index.php?ID=MAGC3JEU3" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('magic_9','','images/games/link_btn/Cat1/tb_jeusacados9_rollover.gif',1)" ><img border="0" alt="Secret Code" title="Secret Code"src="images/games/link_btn/Cat1/tb_jeusacados9.gif" width="86" height="88" id="magic_9"/></a></td>
+                </tr>
+             </table>
+             <table border="0" align="center">
+             	<tr>
+                	<td colspan="3"><img src="images/games/space.png" alt="Space Games" title="Space Games" class="_trans"/></td>
+                </tr>
+                <tr>
+                	<td width="100"><a href="index.php?ID=CAPC1JEU1" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('space_1','','images/games/link_btn/Cat2/tb_jeusacados1_rollover.gif',1)" ><img border="0" alt="The Bubble Box" title="The Bubble Box"src="images/games/link_btn/Cat2/tb_jeusacados1.gif" width="86" height="88" id="space_1"/></a></td>
+                    <td width="100"><a href="index.php?ID=CAPC1JEU2" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('space_2','','images/games/link_btn/Cat2/tb_jeusacados2_rollover.gif',1)" ><img border="0" alt="Puddles" title="Puddles" src="images/games/link_btn/Cat2/tb_jeusacados2.gif" width="86" height="88" id="space_2"/></a></td>
+                    <td width="100"><a href="index.php?ID=CAPC1JEU3"onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('space_3','','images/games/link_btn/Cat2/tb_jeusacados3_rollover.gif',1)" ><img border="0" alt="The Faucet" title="The Faucet" src="images/games/link_btn/Cat2/tb_jeusacados3.gif" width="86" height="88" id="space_3"/></a></td>
+                </tr>
+                <tr>
+                	<td width="100"><a href="index.php?ID=CAPC2JEU1"onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('space_4','','images/games/link_btn/Cat2/tb_jeusacados4_rollover.gif',1)" ><img border="0" alt="Coloramonster" title="Coloramonster" src="images/games/link_btn/Cat2/tb_jeusacados4.gif" width="86" height="88" id="space_4"/></a></td>
+                    <td width="100"><a href="index.php?ID=CAPC2JEU2" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('space_5','','images/games/link_btn/Cat2/tb_jeusacados5_rollover.gif',1)" ><img border="0" alt="Bunny Hop" title="Bunny Hop" src="images/games/link_btn/Cat2/tb_jeusacados5.gif" width="86" height="88" id="space_5"/></a></td>
+                    <td width="100"><a href="index.php?ID=CAPC2JEU3" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('space_6','','images/games/link_btn/Cat2/tb_jeusacados6_rollover.gif',1)" ><img border="0" alt="Differences Between the Fish" title="Differences Between the Fish" src="images/games/link_btn/Cat2/tb_jeusacados6.gif" width="86" height="88" id="space_6"/></a></td>
+                </tr>
+                <tr>
+                	<td width="100"><a href="index.php?ID=CAPC3JEU1" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('space_7','','images/games/link_btn/Cat2/tb_jeusacados7_rollover.gif',1)" ><img border="0" alt="A Frog Story" title="A Frog Story" src="images/games/link_btn/Cat2/tb_jeusacados7.gif" width="86" height="88" id="space_7"/></a></td>
+                    <td width="100"><a href="index.php?ID=CAPC3JEU2" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('space_8','','images/games/link_btn/Cat2/tb_jeusacados8_rollover.gif',1)" ><img border="0" alt="The 3 Squirrels" title="The 3 Squirrels" src="images/games/link_btn/Cat2/tb_jeusacados8.gif" width="86" height="88" id="space_8"/></a></td>
+                    <td width="120"><a href="index.php?ID=CAPC3JEU3" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('space_9','','images/games/link_btn/Cat2/tb_jeusacados9_rollover.gif',1)" ><img border="0" alt="Space Snake Toys" title="Space Snake Toys" src="images/games/link_btn/Cat2/tb_jeusacados9.gif" width="86" height="88" id="space_9"/></a></td>
+                </tr>
+             </table>
+             <table border="0" align="center">
+             	<tr>
+                	<td colspan="3"><img src="images/games/super.png" alt="Super Games" title="Super Games" class="_trans"/></td>
+                </tr>
+                <tr>
+                	<td width="100"><a href="index.php?ID=SUPC1JEU1" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('super_1','','images/games/link_btn/Cat3/tb_jeusacados1_rollover.gif',1)" ><img border="0" alt="Pirate Island" title="Pirate Island" src="images/games/link_btn/Cat3/tb_jeusacados1.gif" width="86" height="88" id="super_1"/></a></td>
+                    <td width="100"><a href="index.php?ID=SUPC1JEU2" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('super_2','','images/games/link_btn/Cat3/tb_jeusacados2_rollover.gif',1)" ><img border="0" alt="Pirate Island" title="Pirate Island"  src="images/games/link_btn/Cat3/tb_jeusacados2.gif" width="86" height="88" id="super_2"/></a></td>
+                    <td width="100"><a href="index.php?ID=SUPC1JEU3"onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('super_3','','images/games/link_btn/Cat3/tb_jeusacados3_rollover.gif',1)" ><img border="0" alt="The Treasure Chest" title="The Treasure Chest" src="images/games/link_btn/Cat3/tb_jeusacados3.gif" width="86" height="88" id="super_3"/></a></td>
+                </tr>
+                <tr>
+                	<td width="100"><a href="index.php?ID=SUPC2JEU1"onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('super_4','','images/games/link_btn/Cat3/tb_jeusacados4_rollover.gif',1)" ><img border="0" alt="Share the Bounty" title="Share the Bounty" src="images/games/link_btn/Cat3/tb_jeusacados4.gif" width="86" height="88" id="super_4"/></a></td>
+                    <td width="100"><a href="index.php?ID=SUPC2JEU2" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('super_5','','images/games/link_btn/Cat3/tb_jeusacados5_rollover.gif',1)" ><img border="0" alt="Flying Squirrel" title="Flying Squirrel" src="images/games/link_btn/Cat3/tb_jeusacados5.gif" width="86" height="88" id="super_5"/></a></td>
+                    <td width="100"><a href="index.php?ID=SUPC2JEU3" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('super_6','','images/games/link_btn/Cat3/tb_jeusacados6_rollover.gif',1)" ><img border="0" alt="Squirrel Dance" title="Squirrel Dance" src="images/games/link_btn/Cat3/tb_jeusacados6.gif" width="86" height="88" id="super_6"/></a></td>
+                </tr>
+                <tr>
+                	<td width="100"><a href="index.php?ID=SUPC3JEU1" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('super_7','','images/games/link_btn/Cat3/tb_jeusacados7_rollover.gif',1)" ><img border="0" alt="Fabulous Squirrel" title="Fabulous Squirrel" src="images/games/link_btn/Cat3/tb_jeusacados7.gif" width="86" height="88" id="super_7"/></a></td>
+                    <td width="100"><a href="index.php?ID=SUPC3JEU2" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('super_8','','images/games/link_btn/Cat3/tb_jeusacados8_rollover.gif',1)" ><img border="0" alt="Baloon Mountain" title="Baloon Mountain" src="images/games/link_btn/Cat3/tb_jeusacados8.gif" width="86" height="88" id="super_8"/></a></td>
+                    <td width="100"><a href="index.php?ID=SUPC3JEU3" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('super_9','','images/games/link_btn/Cat3/tb_jeusacados9_rollover.gif',1)" ><img border="0" alt="Whose Print Is It?" title="Whose Print Is It?" src="images/games/link_btn/Cat3/tb_jeusacados9.gif" width="86" height="88" id="super_9"/></a></td>
+                </tr>
+             </table>
+             </div>
+          </div>
+          </td>
+          </tr>
+      </table>
+      </td>
+  </tr>
+</table>
+<div style="background-image:url(images/bottom_content.png); height:90px; width:708px; background-repeat:no-repeat;"></div>    <!-- FIN CONTENU --> 
+   </td>
+  </tr>
+</table>
+
+<br />
+  <div id="partofplay">Part of<br />
+    <a href="http://www.pbskidsplay.org/playnow/?CPLAYSM&btn=1" title="Part of PLAY!">
+        <img src="images/play_icon.jpg" border="0" />
+    </a>
+</div>
+<table border="0" cellpadding="0" cellspacing="10" align="center">
+    <tbody>
+      <tr>
+        <td class="style1">
+<a class="style1" href="/tvschedules/localizer.html?dest=/pbskids2008/toopyandbinoo/index.php&nola=">Find your local PBS station</a>
+</td>
+		<td><a href="/pbskids2008//privacy/" class="style1" target="_blank">PBS KIDS privacy policy </a></td>
+		<td><a href="/pbskids2008//privacy/termsofuse.html" class="style1" target="_blank">PBS KIDS terms of use</a></td>
+        <td><a href="/pbskids2008/toopyandbinoo/index.php?ID=parents_content&parent_content=site_map" class="style1">Site Map</a></td>
+	  </tr> 
+	</tbody> 
+</table>
+<center><span class="style1">&copy; 2008 Spectra Animation Inc.</span></center>
+
+</body>
+</html>
